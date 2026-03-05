@@ -114,6 +114,7 @@ def _fetch_search_repos(query: str, total: int) -> List[Dict[str, str]]:
     after: Optional[str] = None
     page_size_limit = 50
     while len(all_repos) < total:
+        print(f"Fetching repositories {len(all_repos) + 1} to {min(len(all_repos) + page_size_limit, total)}...")
         remaining = total - len(all_repos)
         page_size = page_size_limit if remaining > page_size_limit else remaining
         variables = {"query": query, "first": page_size, "after": after}
@@ -136,6 +137,7 @@ def fetch_repositories(query: str, total: int) -> Dict[str, Any]:
     nodes: List[Dict[str, Any]] = []
     batch_size = 10
     for index in range(0, len(repos), batch_size):
+        print(f"Fetching details for repositories {index + 1} to {min(index + batch_size, len(repos))}...")
         batch = repos[index : index + batch_size]
         details_query = _build_repo_details_query(batch)
         response = run_query(details_query, {})
