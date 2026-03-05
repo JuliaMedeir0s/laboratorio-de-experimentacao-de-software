@@ -145,12 +145,12 @@ def fetch_repositories(query: str, total: int) -> Dict[str, Any]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Lab01S01 GraphQL data fetch")
+    parser = argparse.ArgumentParser(description="Lab01S02 GraphQL data fetch")
     parser.add_argument(
         "--first",
         type=int,
-        default=100,
-        help="Number of repositories to fetch (default: 100)",
+        default=1000,
+        help="Number of repositories to fetch (default: 1000)",
     )
     parser.add_argument(
         "--query",
@@ -161,13 +161,13 @@ def main() -> None:
     parser.add_argument(
         "--out-json",
         type=Path,
-        default=_repo_root() / "lab01" / "data" / "raw" / "top_100.json",
+        default=_repo_root() / "lab01" / "data" / "raw" / "top_1000.json",
         help="Path to write raw JSON response",
     )
     parser.add_argument(
         "--out-csv",
         type=Path,
-        default=_repo_root() / "lab01" / "data" / "raw" / "top_100.csv",
+        default=_repo_root() / "lab01" / "data" / "processed" / "top_1000.csv",
         help="Path to write CSV output",
     )
     args = parser.parse_args()
