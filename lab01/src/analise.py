@@ -2,14 +2,23 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 from datetime import datetime, timezone
-
+import argparse
 
 def repo_root() -> Path:
-    # Assume .../lab01/src/analise.py
     return Path(__file__).resolve().parents[2]
 
-
 def main():
+    parser = argparse.ArgumentParser(description="Gera tabelas e gráficos do Lab01 a partir do CSV processado")
+    parser.add_argument(
+        "--asof",
+        default=None,
+        help=(
+            "Data/hora de referência em ISO 8601 (ex: 2026-03-11T00:00:00Z). "
+            "Se omitido, usa agora (UTC)."
+        ),
+    )
+    args = parser.parse_args()
+
     root = repo_root()
 
     # Ajuste se o seu CSV estiver em outro lugar
@@ -25,7 +34,15 @@ def main():
     # Datas
     created = pd.to_datetime(df["created_at"], utc=True, errors="coerce")
     pushed = pd.to_datetime(df["pushed_at"], utc=True, errors="coerce")
-    now = datetime.now(timezone.utc)
+    if args.asof:
+        asof = args.asof.strip()
+        if asof.endswith("Z"):
+            asof = asof[:-1] + "+00:00"
+        now = datetime.fromisoformat(asof)
+        if now.tzinfo is None:
+            now = now.replace(tzinfo=timezone.utc)
+    else:
+        now = datetime.now(timezone.utc)
 
     # Métricas derivadas
     df["repo_age_days"] = (now - created).dt.days
@@ -52,12 +69,51 @@ def main():
     }])
     tabela_mediana.to_csv(out_tables / "tabela_mediana_rqs.csv", index=False)
 
+    # =========================
+    # RQ07 (bônus): por linguagem
+    # =========================
+    rq07_cols = ["prs_merged_total", "releases_total", "days_since_push"]
+    rq07_by_lang = (
+        df.groupby("primary_language")[rq07_cols]
+        .median(numeric_only=True)
+        .rename(
+            columns={
+                "prs_merged_total": "prs_merged_mediana",
+                "releases_total": "releases_mediana",
+                "days_since_push": "dias_desde_push_mediana",
+            }
+        )
+    )
+
+    rq07_by_lang["n_repos"] = df.groupby("primary_language").size()
+    rq07_by_lang = rq07_by_lang.sort_values("n_repos", ascending=False)
+    rq07_by_lang.to_csv(out_tables / "tabela_rq07_por_linguagem.csv", index=True)
+
+    popular = {"Python", "JavaScript", "TypeScript"}
+    df["linguagem_grupo"] = df["primary_language"].where(df["primary_language"].isin(popular), "Outras")
+    rq07_popular_vs_outras = (
+        df.groupby("linguagem_grupo")[rq07_cols]
+        .median(numeric_only=True)
+        .rename(
+            columns={
+                "prs_merged_total": "prs_merged_mediana",
+                "releases_total": "releases_mediana",
+                "days_since_push": "dias_desde_push_mediana",
+            }
+        )
+    )
+
+    rq07_popular_vs_outras["n_repos"] = df.groupby("linguagem_grupo").size()
+    rq07_popular_vs_outras = rq07_popular_vs_outras.reindex(["Python", "JavaScript", "TypeScript", "Outras"], fill_value=pd.NA)
+    rq07_popular_vs_outras.to_csv(out_tables / "tabela_rq07_populares_vs_outras.csv", index=True)
+
     lang_counts = df["primary_language"].value_counts()
     tabela_lang = pd.DataFrame({
         "linguagem": lang_counts.index,
         "count": lang_counts.values,
         "percentual": (lang_counts.values / len(df)) * 100,
     })
+
     tabela_lang.head(20).to_csv(out_tables / "tabela_linguagens_top20.csv", index=False)
 
     metrics_cols = ["repo_age_days", "prs_merged_total", "releases_total", "days_since_push", "issues_closed_ratio"]
@@ -79,8 +135,14 @@ def main():
     plt.close()
 
     # 2) Histograma: idade (dias)
-    plt.figure()
-    df["repo_age_days"].dropna().plot(kind="hist", bins=30)
+    plt.figure(figsize=(10, 5))
+    plt.hist(
+        df["repo_age_days"].dropna(),
+        bins=60,
+        edgecolor="black",
+        linewidth=0.5,
+    )
+
     plt.title("Distribuição da idade dos repositórios (dias)")
     plt.xlabel("Dias")
     plt.ylabel("Frequência")

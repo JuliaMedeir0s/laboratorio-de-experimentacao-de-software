@@ -1,4 +1,4 @@
-# 📝 Relatório Técnico de Laboratório
+📝 Relatório Técnico de Laboratório
 
 ## Informações do grupo
 - **🎓 Curso:** Engenharia de Software
@@ -97,19 +97,87 @@ Entre as principais dificuldades enfrentadas, destacam-se o limite prático de r
 
 ## 3 Visualização dos Resultados
 
+> Referência temporal: métricas de tempo (idade e dias desde o último push) foram calculadas com data de referência **2026-03-12 12:00 (UTC)**.
+
 ### 3.1 Visualização tabular (tabelas)
-- **Tabela A — Medianas por RQ:** (colar conteúdo de `tabela_mediana_rqs.csv`)
-- **Tabela B — Top linguagens (Top 20):** (colar conteúdo de `tabela_linguagens_top20.csv`)
-- (Opcional) **Tabela C — Estatísticas descritivas:** (p25, mediana, p75, min, max)
+
+**Tabela A — Medianas por RQ**
+
+| RQ | Métrica | Mediana |
+|---|---|---|
+| RQ01 | Idade do repositório | 3004 dias (≈ 8,22 anos) |
+| RQ02 | Total de PRs aceitas (MERGED) | 817 |
+| RQ03 | Total de releases | 50 |
+| RQ04 | Dias desde o último push | 1 dia |
+| RQ06 | Razão de issues fechadas | 0,872 (≈ 87,2%) |
+
+> Fonte: [tabela_mediana_rqs.csv](../../outputs/tabelas/tabela_mediana_rqs.csv) (gerado pelo script de análise).
+
+**Tabela B — Linguagens primárias (Top 20)**
+
+| Linguagem | Contagem | Percentual |
+|---|---:|---:|
+| Python | 219 | 21,9% |
+| TypeScript | 181 | 18,1% |
+| JavaScript | 130 | 13,0% |
+| Go | 80 | 8,0% |
+| Rust | 59 | 5,9% |
+| C++ | 54 | 5,4% |
+| Java | 52 | 5,2% |
+| C | 26 | 2,6% |
+| Jupyter Notebook | 26 | 2,6% |
+| Shell | 25 | 2,5% |
+| HTML | 19 | 1,9% |
+| C# | 12 | 1,2% |
+| Ruby | 12 | 1,2% |
+| Kotlin | 11 | 1,1% |
+| CSS | 9 | 0,9% |
+| Swift | 9 | 0,9% |
+| PHP | 8 | 0,8% |
+| Vue | 7 | 0,7% |
+| Dart | 6 | 0,6% |
+
+> Fonte: [tabela_linguagens_top20.csv](../../outputs/tabelas/tabela_linguagens_top20.csv).
+
+**Tabela C (opcional) — Estatísticas descritivas (p25, mediana, p75)**
+
+| Métrica | p25 | Mediana | p75 |
+|---|---:|---:|---:|
+| Idade (dias) | 1742 | 3004 | 4155 |
+| PRs aceitas (MERGED) | 204 | 817 | 3279 |
+| Releases (total) | 1 | 50 | 151 |
+| Dias desde último push | 0 | 1 | 28 |
+| Razão issues fechadas | 0,692 | 0,872 | 0,960 |
+
+> Fonte: [tabela_stats_descritivas.csv](../../outputs/tabelas/tabela_stats_descritivas.csv).
 
 ### 3.2 Visualização gráfica (figuras)
-Sugestão de figuras (as que vocês já têm):
-- Barras: Top 10 linguagens
-- Histograma: idade dos repositórios
-- Histograma: dias desde o último push (zoom 365)
-- Boxplot: PRs merged (sem outliers ou escala log)
-- (Opcional) Scatter log-log: stars vs PRs merged
-- (Opcional) Heatmap: correlação entre métricas
+
+As figuras abaixo foram geradas automaticamente pelo script [lab01/src/analise.py](../../src/analise.py).
+
+**Figura 1 — Top 10 linguagens (contagem)**
+
+![](../../outputs/graficos/grafico_barras_top10_linguagens.png)
+
+**Figura 2 — Histograma da idade dos repositórios (dias)**
+
+![](../../outputs/graficos/grafico_histograma_idade.png)
+
+**Figura 3 — Dias desde o último push (zoom até 365 dias)**
+
+![](../../outputs/graficos/grafico_histograma_dias_desde_push_zoom365.png)
+
+**Figura 4 — Boxplot de PRs aceitas (MERGED) sem outliers**
+
+![](../../outputs/graficos/grafico_boxplot_prs_merged_sem_outliers.png)
+
+**Figura 5 (opcional) — Stars vs PRs aceitas (log-log)**
+
+![](../../outputs/graficos/grafico_dispersaostars_prs_loglog.png)
+
+**Figura 6 (opcional) — Heatmap de correlação**
+
+![](../../outputs/graficos/grafico_heatmap_correlacao.png)
 
 ---
 
@@ -121,40 +189,78 @@ Para cada RQ, escrever 3 coisas:
 - **se confirmou a hipótese**
 
 **RQ01 — Maturidade/idade**
-- Resultado: [mediana idade]  
-- Interpretação: …  
-- Hipótese: confirmada / parcial / refutada
+- Resultado: mediana de **3004 dias** (≈ **8,22 anos**).
+- Interpretação: a amostra é composta majoritariamente por projetos “maduros”, já estabelecidos há vários anos. Isso é coerente com o efeito de “acúmulo de reputação”: projetos mais antigos tiveram mais tempo para ganhar tração e estrelas.
+- Hipótese (H01): **confirmada**.
 
 **RQ02 — PRs aceitas**
-- Resultado: [mediana PRs merged]  
-- Interpretação: …  
-- Hipótese: …
+- Resultado: mediana de **817 PRs aceitas (MERGED)**.
+- Interpretação: mesmo usando uma métrica robusta (mediana), o volume típico de contribuição aceita é alto, sugerindo comunidades ativas e ciclos contínuos de contribuição externa. A Tabela C também indica assimetria forte (p75 bem acima da mediana).
+- Hipótese (H02): **confirmada**.
 
-(... repetir até RQ06)
+**RQ03 — Releases**
+- Resultado: mediana de **50 releases**.
+- Interpretação: projetos populares tendem a manter histórico relevante de releases, o que sugere um processo formal de empacotamento/entrega. Ao mesmo tempo, o p25=1 indica que existe uma parcela significativa que quase não faz releases (por exemplo, repositórios de conteúdo/coleções).
+- Hipótese (H03): **confirmada (com variação por tipo de projeto)**.
+
+**RQ04 — Frequência de atualização**
+- Resultado: mediana de **1 dia** desde o último push.
+- Interpretação: a amostra está altamente concentrada em projetos com atividade muito recente (e p25=0), indicando manutenção contínua. Há outliers bem desatualizados, mas eles não dominam o “comportamento típico”.
+- Hipótese (H04): **confirmada**.
+
+**RQ05 — Linguagens mais populares**
+- Resultado: as linguagens mais frequentes foram **Python (21,9%)**, **TypeScript (18,1%)** e **JavaScript (13,0%)** (Tabela B).
+- Interpretação: isso sugere forte presença de ecossistemas web e tooling (TypeScript/JavaScript) e automação/IA/dados (Python) entre os repositórios mais estrelados.
+- Hipótese (H05): **confirmada**.
+
+**RQ06 — Percentual de issues fechadas**
+- Resultado: mediana da razão de issues fechadas de **0,872** (≈ **87,2%**).
+- Interpretação: em geral, projetos populares mantêm uma boa taxa de resolução/fechamento, ainda que existam casos com razão próxima de 0 (possivelmente projetos com issues desabilitadas/sem uso, ou workflows que não usam issues).
+- Hipótese (H06): **confirmada**.
 
 ### 4.2 Insights (padrões observados)
-- Distribuições assimétricas (cauda longa) em PRs, releases e stars
-- Linguagens dominantes no top 1000
-- Alta atividade recente (dias desde push concentrado em valores baixos)
-- Boa taxa de fechamento de issues (mas com variação)
+- **Cauda longa**: PRs aceitas e releases apresentam forte assimetria (diferença grande entre p75 e mediana), o que é esperado em dados de popularidade/projetos “megarepos”.
+- **Atividade recente**: a mediana de 1 dia desde o último push sugere manutenção frequente para a maioria dos projetos.
+- **Concentração por linguagem**: Python/TypeScript/JavaScript somam mais de metade da amostra (53,0%), indicando dominância desses ecossistemas no top 1000.
+- **Qualidade de manutenção (proxy)**: a razão mediana de issues fechadas (~87%) sugere boa capacidade de triagem/fechamento.
 
 ### 4.3 Comparações e estatísticas
-- Comparar “miolo” vs outliers usando boxplot sem outliers e/ou escala log
-- (Opcional) Comparar métricas por linguagem (bônus/RQ07)
+- O boxplot (Figura 4) evidencia que existe um conjunto pequeno de outliers com volume de PRs muito maior do que o típico.
+- O scatter em log-log (Figura 5) sugere uma relação positiva entre estrelas e volume de PRs aceitas, mas com grande dispersão (projetos com muitas estrelas podem ter dinâmicas diferentes).
+
+### 4.4 Bônus — RQ07 (por linguagem)
+**RQ07:** Sistemas escritos em linguagens mais populares recebem mais contribuição externa, lançam mais releases e são atualizados com mais frequência?
+
+Para comparação direta, foi feita uma divisão em quatro grupos: **Python**, **JavaScript**, **TypeScript** e **Outras** linguagens.
+
+| Grupo de linguagem | n | PRs MERGED (mediana) | Releases (mediana) | Dias desde push (mediana) |
+|---|---:|---:|---:|---:|
+| Python | 219 | 620 | 21 | 2 |
+| JavaScript | 130 | 567 | 34 | 9,5 |
+| TypeScript | 181 | 2004 | 154 | 0 |
+| Outras | 470 | 759 | 43 | 1 |
+
+**Análise (informal):**
+- Entre as linguagens populares, **TypeScript** se destaca com medianas mais altas de PRs aceitas e releases e com atividade extremamente recente (mediana 0 dias desde push).
+- **Python** apresenta boa atividade recente (2 dias), mas com medianas mais baixas de releases e PRs do que TypeScript.
+- **JavaScript** aparece, em mediana, mais “lento” em atualização (9,5 dias) e com valores menores de PRs aceitas/releases do que TypeScript.
+
+> Fonte: [tabela_rq07_populares_vs_outras.csv](../../outputs/tabelas/tabela_rq07_populares_vs_outras.csv).
 
 ---
 
 ## 5 Conclusão
 ### 5.1 Tomada de decisão (resultado conclusivo sucinto)
 Com base nos resultados:
-- Repositórios populares tendem a ser [maduros / ativos / bem mantidos] segundo as métricas analisadas.
-- Principais evidências: [cite 2–3 números das medianas e 1 gráfico]
+- Repositórios populares tendem a ser **maduros e muito ativos**, com bons sinais de manutenção.
+- Evidências principais (medianas): **8,22 anos** de idade (RQ01), **1 dia** desde o último push (RQ04), **817 PRs aceitas** (RQ02), **50 releases** (RQ03) e **87,2%** de issues fechadas (RQ06).
+- As figuras de distribuição (idade, dias desde push e boxplot de PRs) reforçam que existe **cauda longa** (poucos projetos muito grandes), mas o comportamento típico ainda indica **alta atividade**.
 
 ### 5.2 Sugestões futuras
-- Fazer a RQ07 por linguagem
+- Detalhar a RQ07 por linguagem com recortes adicionais (ex.: Top 10 linguagens, ou por “família” como sistemas vs web vs ciência de dados).
 - Incluir outras métricas (ex.: forks, contributors, tamanho/LOC) se coletarem
 - Analisar evolução temporal com séries mais detalhadas (por mês/ano)
 
 ### 5.3 Plus — relação com literatura (curto)
-- Comparar os achados com relatórios empíricos/benchmarks (ex.: produtividade, cadência de releases, manutenção).
-- Discutir se os resultados corroboram a ideia de que projetos populares têm maior maturidade e atividade.
+
+De forma geral, os resultados estão alinhados com observações comuns em estudos empíricos: popularidade tende a se associar a projetos mais antigos, com maior volume de contribuições e manutenção ativa, ainda que exista diversidade de tipos de repositório (software “produto”, bibliotecas, coleções de links, materiais educacionais etc.).
