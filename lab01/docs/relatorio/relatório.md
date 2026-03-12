@@ -97,7 +97,7 @@ Entre as principais dificuldades enfrentadas, destacam-se o limite prático de r
 
 ## 3 Visualização dos Resultados
 
-> Referência temporal: métricas de tempo (idade e dias desde o último push) foram calculadas com data de referência **2026-03-12 12:00 (UTC)**.
+> Referência temporal: métricas de tempo (idade e dias desde o último push) foram calculadas com data de referência **2026-03-11 22:00 (UTC -3:00)**.
 
 ### 3.1 Visualização tabular (tabelas)
 
@@ -257,10 +257,7 @@ Com base nos resultados:
 - As figuras de distribuição (idade, dias desde push e boxplot de PRs) reforçam que existe **cauda longa** (poucos projetos muito grandes), mas o comportamento típico ainda indica **alta atividade**.
 
 ### 5.2 Sugestões futuras
-- Detalhar a RQ07 por linguagem com recortes adicionais (ex.: Top 10 linguagens, ou por “família” como sistemas vs web vs ciência de dados).
-- Incluir outras métricas (ex.: forks, contributors, tamanho/LOC) se coletarem
-- Analisar evolução temporal com séries mais detalhadas (por mês/ano)
-
-### 5.3 Plus — relação com literatura (curto)
-
-De forma geral, os resultados estão alinhados com observações comuns em estudos empíricos: popularidade tende a se associar a projetos mais antigos, com maior volume de contribuições e manutenção ativa, ainda que exista diversidade de tipos de repositório (software “produto”, bibliotecas, coleções de links, materiais educacionais etc.).
+- Coletar mais repositórios, aumentando a base de dados para além dos 1000 mais estrelados, para verificar se os padrões observados se mantêm em amostras maiores.
+- Analisar a evolução temporal de métricas como PRs aceitas e releases, para entender se há tendências de crescimento ou saturação.
+- Investigar a relação entre métricas de processo (PRs, releases) e métricas de produto (estrelas, forks) para entender melhor os fatores que impulsionam a popularidade.
+- Realizar análise qualitativa de casos extremos (projetos com muitos PRs ou muitos releases) para identificar práticas de manutenção e governança que possam explicar esses resultados.
