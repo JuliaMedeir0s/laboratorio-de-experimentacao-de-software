@@ -82,7 +82,7 @@ As decisões operacionais mais relevantes foram as seguintes:
 
 Na etapa analítica, para as variáveis numéricas foram utilizadas mediana e estatísticas descritivas complementares, como percentis 25 e 75. Para a variável categórica de linguagem, foram calculadas contagens absolutas e percentuais. As visualizações incluíram gráficos de barras, histogramas, boxplots, dispersão em escala log-log e heatmap de correlação, com o objetivo de tornar visíveis padrões de concentração, cauda longa e possíveis associações entre métricas.
 
-Entre as principais dificuldades enfrentadas, destacam-se o limite prático de resultados da busca do GitHub, a instabilidade de queries muito grandes e a forte assimetria das distribuições observadas. Esses problemas foram tratados, respectivamente, com a divisão da coleta em faixas de estrelas, a redução do tamanho dos lotes e o uso de medidas robustas e visualizações com escala log quando apropriado.
+Entre as principais dificuldades enfrentadas, destacam-se o limite prático de resultados da busca do GitHub, a instabilidade de queries muito grandes (incluindo erro 502 Bad Gateway nas primeiras tentativas) e a forte assimetria das distribuições observadas. Esses problemas foram tratados, respectivamente, com a divisão da coleta em faixas de estrelas, a redução do tamanho dos lotes com novas tentativas de requisição e o uso de medidas robustas e visualizações com escala log quando apropriado.
 
 ### 2.5 Métricas e suas unidades
 - **RQ01:** maturidade do projeto, medida pela idade do repositório a partir de `created_at` (dias e anos).

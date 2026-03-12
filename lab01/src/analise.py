@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 from pathlib import Path
 from datetime import datetime, timezone
 import argparse
@@ -234,6 +235,22 @@ def main():
     plt.tight_layout()
     plt.savefig(out_graphs / "grafico_heatmap_correlacao.png", dpi=200)
     plt.close()
+
+    # 10) Pairplot: relações par a par entre métricas numéricas principais
+    pairplot_cols = ["repo_age_days", "prs_merged_total", "releases_total",
+                     "days_since_push", "issues_closed_ratio"]
+    rename_map = {
+        "repo_age_days": "Idade (dias)",
+        "prs_merged_total": "PRs aceitas",
+        "releases_total": "Releases",
+        "days_since_push": "Dias s/ push",
+        "issues_closed_ratio": "Issues fechadas (%)",
+    }
+    df_pair = df[pairplot_cols].rename(columns=rename_map)
+    pair_grid = sns.pairplot(df_pair, plot_kws={"alpha": 0.2, "s": 8}, diag_kind="hist")
+    pair_grid.fig.suptitle("Pairplot — relações entre métricas dos repositórios", y=1.02)
+    pair_grid.savefig(out_graphs / "grafico_pairplot_metricas.png", dpi=150)
+    plt.close("all")
 
     print("OK! Tabelas em:", out_tables)
     print("OK! Gráficos em:", out_graphs)
