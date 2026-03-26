@@ -10,7 +10,7 @@ import os
 import csv
 import argparse
 import logging
-from datetime import datetime
+from pathlib import Path
 from dotenv import load_dotenv
 from github import Github
 
@@ -20,8 +20,14 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+LAB02_ROOT = Path(__file__).resolve().parents[1]
 
-load_dotenv()
+load_dotenv(dotenv_path=LAB02_ROOT / '.env')
+
+
+def _resolve_under_lab02(path_str: str) -> Path:
+    p = Path(path_str)
+    return p if p.is_absolute() else (LAB02_ROOT / p)
 
 
 def coletar_repositorios(count: int, output_file: str) -> None:
@@ -35,8 +41,9 @@ def coletar_repositorios(count: int, output_file: str) -> None:
     token = os.getenv('GITHUB_TOKEN')
     
     if not token:
-        logger.error("GITHUB_TOKEN não encontrado em .env")
-        return
+        logger.error("GITHUB_TOKEN não encontrado em .env/.env.example")
+        logger.error("Defina GITHUB_TOKEN no arquivo lab02/.env (ou variável de ambiente) e tente novamente")
+        raise SystemExit(1)
     
     try:
         g = Github(token)
@@ -44,14 +51,16 @@ def coletar_repositorios(count: int, output_file: str) -> None:
         
         # Query para os repositórios Java mais populares
         # Ordenados por número de estrelas (descrescente)
-        query = 'language:java sort:stars-desc'
+        query = 'language:Java'
         
         logger.info(f"Coletando {count} repositórios Java...")
-        repos = g.search_repositories(query=query, per_page=100)
+        repos = g.search_repositories(query=query, sort='stars', order='desc')
         
         # Preparar dados
         data = []
-        for i, repo in enumerate(repos[:count]):
+        for i, repo in enumerate(repos):
+            if i >= count:
+                break
             if i % 10 == 0:
                 logger.info(f"Progresso: {i}/{count} repositórios coletados")
             
@@ -70,7 +79,7 @@ def coletar_repositorios(count: int, output_file: str) -> None:
                     'pushed_at': repo.pushed_at.isoformat() if repo.pushed_at else '',
                     'description': repo.description or '',
                     'language': repo.language or 'Java',
-                    'topics': ','.join(repo.get_topics()) if repo.get_topics() else '',
+                    'topics': ','.join(repo.get_topics()) or '',
                 }
                 data.append(repo_info)
             except Exception as e:
@@ -79,15 +88,20 @@ def coletar_repositorios(count: int, output_file: str) -> None:
         
         logger.info(f"Total de repositórios coletados: {len(data)}")
         
+        if not data:
+            logger.error("Nenhum repositório foi coletado; nada a salvar")
+            raise SystemExit(2)
+
         # Salvar em CSV
-        os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
+        output_path = _resolve_under_lab02(output_file)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
         
-        with open(output_file, 'w', newline='', encoding='utf-8') as f:
-            writer = csv.DictWriter(f, fieldnames=data[0].keys() if data else [])
+        with output_path.open('w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=list(data[0].keys()))
             writer.writeheader()
             writer.writerows(data)
         
-        logger.info(f"Repositórios salvos em: {output_file}")
+        logger.info(f"Repositórios salvos em: {output_path}")
         
     except Exception as e:
         logger.error(f"Erro ao coletar repositórios: {e}")

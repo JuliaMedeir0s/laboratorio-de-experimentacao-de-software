@@ -36,8 +36,12 @@ wheels/
 
 # Data
 repos/
-*.csv
-*.json
+data/raw/
+data/processed/
+!data/repos.csv
+!data/sample/
+!data/sample/**
+**/*.csv
 
 # Logs
 logs/
@@ -48,9 +52,3 @@ ck/
 
 # Results
 results/
-data/raw/*.csv
-data/processed/*.csv
-
-# arquivos grandes
-data/raw/*.csv
-data/raw/*.json

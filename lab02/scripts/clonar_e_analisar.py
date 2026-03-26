@@ -25,35 +25,92 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+LAB02_ROOT = Path(__file__).resolve().parents[1]
 
-load_dotenv()
+load_dotenv(dotenv_path=LAB02_ROOT / '.env')
+
+
+def _resolve_under_lab02(path_str: str) -> Path:
+    p = Path(path_str)
+    return p if p.is_absolute() else (LAB02_ROOT / p)
+
+
+def _find_maven_cmd() -> str | None:
+    maven_cmd = os.environ.get('MAVEN_CMD')
+    if maven_cmd:
+        p = Path(maven_cmd)
+        if p.exists():
+            return str(p)
+
+    from shutil import which
+
+    found = which('mvn')
+    if found:
+        return found
+
+    candidates: list[Path] = []
+    home = Path.home()
+    for base in (home / '.maven', home / 'apache-maven'):
+        if base.exists():
+            candidates.extend(base.glob('**/bin/mvn.cmd'))
+            candidates.extend(base.glob('**/bin/mvn'))
+
+    if not candidates:
+        return None
+
+    candidates.sort(key=lambda p: str(p))
+    return str(candidates[-1])
 
 
 def baixar_ck():
     """Baixa a ferramenta CK se não estiver presente."""
-    ck_jar = 'ck/target/ck.jar'
+    ck_target_dir = LAB02_ROOT / 'ck' / 'target'
+    ck_jar = ck_target_dir / 'ck.jar'
     
-    if os.path.exists(ck_jar):
+    if ck_jar.exists():
         logger.info("CK já está instalado")
         return True
     
     logger.info("Baixando CK...")
     
     try:
+        mvn_cmd = _find_maven_cmd()
+        if not mvn_cmd:
+            logger.error("Maven não encontrado no PATH e MAVEN_CMD não definido")
+            logger.error("Instale Maven ou defina MAVEN_CMD apontando para mvn/mvn.cmd")
+            return False
+
         # Clone do repositório CK
-        if not os.path.exists('ck'):
+        if not (LAB02_ROOT / 'ck').exists():
             subprocess.run(
                 ['git', 'clone', 'https://github.com/mauricioaniche/ck.git'],
+                cwd=str(LAB02_ROOT),
                 check=True
             )
         
         # Build com Maven
         logger.info("Compilando CK (pode levar alguns minutos)...")
-        result = subprocess.run(
-            ['mvn', 'clean', 'package', '-DskipTests'],
-            cwd='ck',
+        subprocess.run(
+            [mvn_cmd, 'clean', 'package', '-DskipTests', '-Dmaven.javadoc.skip=true'],
+            cwd=str(LAB02_ROOT / 'ck'),
             check=True
         )
+
+        if not ck_jar.exists():
+            if not ck_target_dir.exists():
+                logger.error("Diretório target do CK não encontrado após build")
+                return False
+
+            candidates = sorted(ck_target_dir.glob('*-jar-with-dependencies.jar'))
+            if not candidates:
+                candidates = sorted(ck_target_dir.glob('ck-*.jar'))
+
+            if not candidates:
+                logger.error("Nenhum JAR do CK encontrado em ck/target após build")
+                return False
+
+            shutil.copy2(str(candidates[-1]), str(ck_jar))
+            logger.info(f"JAR do CK normalizado em: {ck_jar}")
         
         logger.info("CK instalado com sucesso!")
         return True
@@ -70,19 +127,20 @@ def baixar_ck():
 def clonar_repositorio(repo_name: str, clone_dir: str) -> bool:
     """Clona um repositório Git."""
     try:
-        repo_path = os.path.join(clone_dir, repo_name.replace('/', '_'))
+        clone_path = _resolve_under_lab02(clone_dir)
+        repo_path = clone_path / repo_name.replace('/', '_')
         
-        if os.path.exists(repo_path):
+        if repo_path.exists():
             logger.info(f"Repositório já existe em {repo_path}")
             return True
         
-        os.makedirs(clone_dir, exist_ok=True)
+        clone_path.mkdir(parents=True, exist_ok=True)
         
         logger.info(f"Clonando {repo_name}...")
         subprocess.run(
             ['git', 'clone', '--depth', '1', 
              f'https://github.com/{repo_name}.git', 
-             repo_path],
+             str(repo_path)],
             check=True,
             capture_output=True,
             timeout=300
@@ -104,19 +162,31 @@ def clonar_repositorio(repo_name: str, clone_dir: str) -> bool:
 def executar_analise_ck(repo_path: str, output_dir: str) -> bool:
     """Executa a análise CK em um repositório."""
     try:
-        ck_jar = 'ck/target/ck.jar'
+        ck_jar = LAB02_ROOT / 'ck' / 'target' / 'ck.jar'
         
-        if not os.path.exists(ck_jar):
+        if not ck_jar.exists():
             logger.error(f"CK não encontrado em {ck_jar}")
             return False
         
-        logger.info(f"Executando CK em {repo_path}...")
+        repo_path_p = Path(repo_path)
+        output_dir_p = _resolve_under_lab02(output_dir)
+
+        logger.info(f"Executando CK em {repo_path_p}...")
         
-        os.makedirs(output_dir, exist_ok=True)
+        output_dir_p.mkdir(parents=True, exist_ok=True)
+
+        # CK gera arquivos com nomes fixos (class.csv, method.csv, ...).
+        # Para não sobrescrever quando processar múltiplos repositórios,
+        # rodamos em um diretório temporário por repositório e renomeamos ao copiar.
+        staging_dir = output_dir_p / f".ck_staging_{repo_path_p.name}"
+        if staging_dir.exists():
+            shutil.rmtree(staging_dir)
+        staging_dir.mkdir(parents=True, exist_ok=True)
         
         # Executar CK
         result = subprocess.run(
-            ['java', '-jar', ck_jar, repo_path, 'true', '0', 'false'],
+            ['java', '-jar', str(ck_jar), str(repo_path_p), 'true', '0', 'false'],
+            cwd=str(staging_dir),
             capture_output=True,
             text=True,
             timeout=600
@@ -127,17 +197,19 @@ def executar_analise_ck(repo_path: str, output_dir: str) -> bool:
             logger.warning(f"Saída de erro: {result.stderr}")
         
         logger.info(f"Análise CK concluída")
-        
-        # Mover arquivos CSV para output_dir
-        results_dir = os.path.join(repo_path, 'report')
-        if os.path.exists(results_dir):
-            for file in os.listdir(results_dir):
-                if file.endswith('.csv'):
-                    src = os.path.join(results_dir, file)
-                    repo_name = os.path.basename(repo_path)
-                    dst = os.path.join(output_dir, f"{repo_name}_{file}")
-                    shutil.copy2(src, dst)
-                    logger.info(f"Movido {file} para {dst}")
+
+        moved_any = False
+        for file in staging_dir.iterdir():
+            if file.is_file() and file.name.endswith('.csv'):
+                dst = output_dir_p / f"{repo_path_p.name}_{file.name}"
+                shutil.move(str(file), str(dst))
+                logger.info(f"Movido {file.name} para {dst}")
+                moved_any = True
+
+        shutil.rmtree(staging_dir, ignore_errors=True)
+
+        if not moved_any:
+            logger.warning("Nenhum CSV foi gerado pelo CK (staging vazio)")
         
         return True
         
@@ -160,7 +232,7 @@ def processar_repositorio(repo_name: str, output_dir: str) -> bool:
     if not clonar_repositorio(repo_name, clone_dir):
         return False
     
-    repo_path = os.path.join(clone_dir, repo_name.replace('/', '_'))
+    repo_path = str(_resolve_under_lab02(clone_dir) / repo_name.replace('/', '_'))
     
     if not executar_analise_ck(repo_path, output_dir):
         return False
