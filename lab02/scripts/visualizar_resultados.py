@@ -1,209 +1,135 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
-Script para gerar gráficos de visualização e análise estatística.
+Gera gráficos de correlação para as 4 questões de pesquisa e
+calcula o teste de Spearman para cada par (métrica de processo x qualidade).
 
 Uso:
-    python visualizar_resultados.py --data data/processed/ --output results/
+    python visualizar_resultados.py
 """
 
 import os
-import argparse
-import logging
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import spearmanr, pearsonr
+import matplotlib.gridspec as gridspec
+from scipy.stats import spearmanr
 
-# Configurar logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
+DATA_FILE = os.path.join(os.path.dirname(__file__), '..', 'data', 'processed', 'merged_metrics.csv')
+OUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'results')
 
-# Configurar estilo dos gráficos
-sns.set_style("whitegrid")
-plt.rcParams['figure.figsize'] = (12, 6)
+# Questões de pesquisa: (nome legível, coluna no CSV)
+QUESTOES = [
+    ('RQ01 - Popularidade (estrelas)', 'stars'),
+    ('RQ02 - Maturidade (idade em anos)', 'age_years'),
+    ('RQ03 - Atividade (releases)', 'releases_count'),
+    ('RQ04 - Tamanho (LOC)', 'loc_total'),
+]
 
-
-def carregar_dados_metricas(csv_file: str) -> pd.DataFrame:
-    """Carrega os dados de métricas processadas."""
-    try:
-        df = pd.read_csv(csv_file, index_col=0)
-        logger.info(f"Dados carregados de {csv_file}")
-        return df
-    except Exception as e:
-        logger.error(f"Erro ao carregar {csv_file}: {e}")
-        return pd.DataFrame()
+# Métricas de qualidade que vêm do CK
+QUALIDADE = [
+    ('CBO (mediana)', 'cbo_median'),
+    ('DIT (mediana)', 'dit_median'),
+    ('LCOM (mediana)', 'lcom_median'),
+]
 
 
-def achatar_colunas_multinivel(df: pd.DataFrame) -> pd.DataFrame:
-    """Achata colunas multi-nível em nomes simples."""
-    if isinstance(df.columns, pd.MultiIndex):
-        df.columns = ['_'.join(col).strip() for col in df.columns.values]
-    return df
+def gerar_scatter(ax, x, y, xlabel, ylabel, title):
+    """Plota um scatter e adiciona o resultado do Spearman no título."""
+    # remove linhas com NaN
+    validos = pd.DataFrame({'x': x, 'y': y}).dropna()
 
-
-def computar_correlacoes(metrics_file: str, repos_file: str = None) -> None:
-    """
-    Computa correlações entre métricas de processo e qualidade.
-    
-    Requer arquivo repos.csv com informações de GitHub.
-    """
-    logger.info("\n" + "="*60)
-    logger.info("Análise de Correlação")
-    logger.info("="*60)
-    
-    try:
-        metrics_df = carregar_dados_metricas(metrics_file)
-        
-        if metrics_df.empty:
-            logger.error("Dados de métricas vazios")
-            return
-        
-        metrics_df = achatar_colunas_multinivel(metrics_df)
-        
-        logger.info(f"\nColunas disponíveis:\n{metrics_df.columns.tolist()}")
-        
-        # Exemplo de análise com dados hipotéticos
-        # Em produção, você mescalaria com dados do GitHub
-        logger.info("\n✓ Correlações estatísticas podem ser computadas quando dados de GitHub estiverem disponíveis")
-        
-    except Exception as e:
-        logger.error(f"Erro ao computar correlações: {e}")
-
-
-def plotar_distribuicao_metrica(df: pd.DataFrame, metric_col: str, output_dir: str) -> None:
-    """Gera gráficos de distribuição de uma métrica."""
-    try:
-        if metric_col not in df.columns:
-            logger.warning(f"Coluna {metric_col} não encontrada")
-            return
-        
-        # Remover NaN
-        data = df[metric_col].dropna()
-        
-        fig, axes = plt.subplots(1, 2, figsize=(14, 5))
-        
-        # Histograma
-        axes[0].hist(data, bins=30, edgecolor='black', alpha=0.7)
-        axes[0].set_title(f'Distribuição de {metric_col}')
-        axes[0].set_xlabel(metric_col)
-        axes[0].set_ylabel('Frequência')
-        axes[0].grid(True, alpha=0.3)
-        
-        # Box plot
-        axes[1].boxplot(data, vert=True)
-        axes[1].set_title(f'Box Plot de {metric_col}')
-        axes[1].set_ylabel(metric_col)
-        axes[1].grid(True, alpha=0.3)
-        
-        plt.tight_layout()
-        output_file = os.path.join(output_dir, f'distribution_{metric_col}.png')
-        plt.savefig(output_file, dpi=300, bbox_inches='tight')
-        logger.info(f"Gráfico salvo em: {output_file}")
-        plt.close()
-        
-    except Exception as e:
-        logger.error(f"Erro ao plotar distribuição de {metric_col}: {e}")
-
-
-def plotar_estatisticas_resumo(summary_file: str, output_dir: str) -> None:
-    """Gera visualizações dos sumários estatísticos."""
-    try:
-        df = carregar_dados_metricas(summary_file)
-        df = achatar_colunas_multinivel(df)
-        
-        if df.empty:
-            logger.warning("Dados vazios para visualização")
-            return
-        
-        # Plotar primeiras 20 repositórios
-        plot_data = df.head(20)
-        
-        # Gráfico de barras com médias
-        fig, ax = plt.subplots(figsize=(14, 8))
-        
-        mean_cols = [col for col in df.columns if 'mean' in col]
-        if mean_cols:
-            plot_data[mean_cols].plot(kind='bar', ax=ax)
-            ax.set_title('Métricas Médias por Repositório (Top 20)')
-            ax.set_xlabel('Repositório')
-            ax.set_ylabel('Valor')
-            ax.legend(loc='upper right')
-            plt.xticks(rotation=45, ha='right')
-            plt.tight_layout()
-            
-            output_file = os.path.join(output_dir, 'metrics_by_repo.png')
-            plt.savefig(output_file, dpi=300, bbox_inches='tight')
-            logger.info(f"Gráfico salvo em: {output_file}")
-            plt.close()
-        
-    except Exception as e:
-        logger.error(f"Erro ao plotar sumários: {e}")
-
-
-def gerar_relatorio(data_dir: str, output_dir: str) -> None:
-    """Gera relatório completo de análise."""
-    os.makedirs(output_dir, exist_ok=True)
-    
-    logger.info("=" * 60)
-    logger.info("Gerando Visualizações")
-    logger.info("=" * 60)
-    
-    # Arquivos esperados
-    summary_file = os.path.join(data_dir, 'metrics_by_repository.csv')
-    overall_file = os.path.join(data_dir, 'overall_statistics.csv')
-    
-    if not os.path.exists(summary_file):
-        logger.error(f"Arquivo não encontrado: {summary_file}")
+    if len(validos) < 3:
+        ax.text(0.5, 0.5, 'Dados insuficientes', ha='center', va='center',
+                transform=ax.transAxes, fontsize=10, color='gray')
+        ax.set_title(title, fontsize=10)
+        ax.set_xlabel(xlabel, fontsize=8)
+        ax.set_ylabel(ylabel, fontsize=8)
         return
-    
-    # Plotar distribuições
-    logger.info("\nGerando gráficos de distribuição...")
-    df = carregar_dados_metricas(summary_file)
-    df = achatar_colunas_multinivel(df)
-    
-    for col in df.columns:
-        if 'mean' in col:
-            metric_name = col.replace('_mean', '')
-            plotar_distribuicao_metrica(df, col, output_dir)
-    
-    # Plotar sumários
-    logger.info("Gerando gráficos de sumários...")
-    plotar_estatisticas_resumo(summary_file, output_dir)
-    
-    # Correlações
-    logger.info("Analisando correlações...")
-    computar_correlacoes(summary_file)
-    
-    logger.info("\n" + "=" * 60)
-    logger.info("Visualizações geradas com sucesso!")
-    logger.info("=" * 60)
+
+    rho, pval = spearmanr(validos['x'], validos['y'])
+
+    ax.scatter(validos['x'], validos['y'], alpha=0.6, edgecolors='k', linewidths=0.3, s=40)
+    ax.set_xlabel(xlabel, fontsize=8)
+    ax.set_ylabel(ylabel, fontsize=8)
+
+    # exibe rho e p-value no título
+    significancia = '*' if pval < 0.05 else ''
+    ax.set_title(f"{title}\nSpearman ρ={rho:.3f}, p={pval:.3f}{significancia}", fontsize=9)
+    ax.tick_params(labelsize=7)
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description='Gera visualizações e análises dos dados'
-    )
-    parser.add_argument(
-        '--data',
-        type=str,
-        default='data/processed/',
-        help='Diretório com dados processados'
-    )
-    parser.add_argument(
-        '--output',
-        type=str,
-        default='results/',
-        help='Diretório de saída para gráficos'
-    )
-    
-    args = parser.parse_args()
-    
-    gerar_relatorio(args.data, args.output)
+    if not os.path.exists(DATA_FILE):
+        print(f"[erro] Arquivo não encontrado: {DATA_FILE}")
+        print("Execute primeiro: python analisar_dados.py")
+        return
+
+    df = pd.read_csv(DATA_FILE)
+    print(f"Dados carregados: {len(df)} repositórios")
+    print("Colunas disponíveis:", df.columns.tolist())
+
+    os.makedirs(OUT_DIR, exist_ok=True)
+
+    # uma figura por questão de pesquisa, com 3 subplots (um por métrica de qualidade)
+    for rq_label, rq_col in QUESTOES:
+        if rq_col not in df.columns:
+            print(f"[aviso] Coluna '{rq_col}' não encontrada, pulando {rq_label}")
+            continue
+
+        fig, axes = plt.subplots(1, 3, figsize=(15, 5))
+        fig.suptitle(rq_label, fontsize=13, fontweight='bold')
+
+        for ax, (q_label, q_col) in zip(axes, QUALIDADE):
+            if q_col not in df.columns:
+                ax.set_visible(False)
+                continue
+
+            gerar_scatter(
+                ax,
+                x=df[rq_col],
+                y=df[q_col],
+                xlabel=rq_label.split(' - ')[1],
+                ylabel=q_label,
+                title=q_label,
+            )
+
+        plt.tight_layout()
+        nome_arquivo = f"{rq_col}_vs_qualidade.png"
+        plt.savefig(os.path.join(OUT_DIR, nome_arquivo), dpi=150, bbox_inches='tight')
+        plt.close()
+        print(f"Gráfico salvo: {nome_arquivo}")
+
+    # tabela resumo de todas as correlações
+    print("\n--- Resumo das Correlações (Spearman) ---")
+    linhas = []
+    for rq_label, rq_col in QUESTOES:
+        if rq_col not in df.columns:
+            continue
+        for q_label, q_col in QUALIDADE:
+            if q_col not in df.columns:
+                continue
+            validos = df[[rq_col, q_col]].dropna()
+            if len(validos) >= 3:
+                rho, pval = spearmanr(validos[rq_col], validos[q_col])
+                sig = 'sim' if pval < 0.05 else 'não'
+                linhas.append({
+                    'Questão': rq_label,
+                    'Métrica de qualidade': q_label,
+                    'ρ (rho)': round(rho, 3),
+                    'p-value': round(pval, 4),
+                    'Significativo (p<0.05)': sig,
+                    'N': len(validos),
+                })
+
+    if linhas:
+        tabela = pd.DataFrame(linhas)
+        print(tabela.to_string(index=False))
+        tabela.to_csv(os.path.join(OUT_DIR, 'correlacoes_spearman.csv'), index=False)
+        print(f"\nTabela salva em: results/correlacoes_spearman.csv")
+    else:
+        print("Dados insuficientes para calcular correlações.")
+
+    print("\nPronto! Gráficos salvos em:", OUT_DIR)
 
 
 if __name__ == '__main__':
     main()
-

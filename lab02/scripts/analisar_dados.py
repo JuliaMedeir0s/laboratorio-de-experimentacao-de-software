@@ -1,175 +1,129 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
-Script para analisar e sumarizar os dados coletados pelo CK.
+Script para analisar e sumarizar os dados coletados pelo CK,
+mesclando com as métricas coletadas do GitHub.
 
 Uso:
-    python analisar_dados.py --raw data/raw/ --processed data/processed/
+    python analisar_dados.py
 """
 
 import os
-import csv
-import argparse
-import logging
+import re
 import pandas as pd
-from pathlib import Path
 
-# Configurar logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
+RAW_DIR = os.path.join(os.path.dirname(__file__), '..', 'data', 'raw')
+REPOS_CSV = os.path.join(os.path.dirname(__file__), '..', 'data', 'repos.csv')
+OUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'data', 'processed')
 
 
-def carregar_e_mesclar_dados_ck(raw_dir: str) -> pd.DataFrame:
-    """
-    Carrega todos os CSVs CK e mescla em um único dataframe.
-    
-    O CK gera vários arquivos:
-    - class.csv: Métricas por classe
-    - method.csv: Métricas por método
-    - variable.csv: Métricas por variável
-    """
-    try:
-        class_files = []
-        
-        for file in os.listdir(raw_dir):
-            if file.endswith('_class.csv'):
-                file_path = os.path.join(raw_dir, file)
-                logger.info(f"Carregando {file}...")
-                
-                try:
-                    df = pd.read_csv(file_path)
-                    
-                    # Extrair nome do repositório
-                    repo_name = file.replace('_class.csv', '').replace('_', '/')
-                    df['repository'] = repo_name
-                    
-                    class_files.append(df)
-                except Exception as e:
-                    logger.warning(f"Erro ao carregar {file}: {e}")
-                    continue
-        
-        if not class_files:
-            logger.error("Nenhum arquivo class.csv encontrado")
-            return pd.DataFrame()
-        
-        # Mesclar todos os dados
-        merged_df = pd.concat(class_files, ignore_index=True)
-        logger.info(f"Total de classes analisadas: {len(merged_df)}")
-        
-        return merged_df
-        
-    except Exception as e:
-        logger.error(f"Erro ao carregar dados CK: {e}")
+def extrair_nome_repo(filename, repos_conhecidos):
+    # remove o sufixo "_class.csv" pra ficar só com a parte do nome do repo
+    stem = re.sub(r'_class\.csv$', '', filename)
+
+    # o script de clonagem salva como "Owner_RepoName" ou "Owner--RepoName"
+    candidatos = [
+        stem.replace('--', '/'),
+        re.sub(r'_', '/', stem, count=1),
+    ]
+
+    for c in candidatos:
+        if c in repos_conhecidos:
+            return c
+
+    # fallback case-insensitive
+    stem_norm = stem.lower().replace('--', '/').replace('_', '/')
+    for nome in repos_conhecidos:
+        if nome.lower() == stem_norm:
+            return nome
+
+    return None
+
+
+def carregar_ck(repos_lookup):
+    frames = []
+
+    for arquivo in sorted(os.listdir(RAW_DIR)):
+        if not arquivo.endswith('_class.csv'):
+            continue
+
+        repo = extrair_nome_repo(arquivo, repos_lookup)
+        if repo is None:
+            print(f"[aviso] Não consegui mapear '{arquivo}' a nenhum repositório, pulando.")
+            continue
+
+        caminho = os.path.join(RAW_DIR, arquivo)
+        df = pd.read_csv(caminho)
+        df['repo_name'] = repo
+        frames.append(df)
+        print(f"  carregado: {arquivo} → {repo} ({len(df)} classes)")
+
+    if not frames:
+        print("[erro] Nenhum arquivo _class.csv encontrado.")
         return pd.DataFrame()
 
-
-def computar_resumo_metricas(df: pd.DataFrame, output_file: str) -> None:
-    """
-    Computa estatísticas descritivas das métricas por repositório.
-    
-    Calcula: média, mediana, desvio padrão, mínimo, máximo
-    """
-    if df.empty:
-        logger.error("DataFrame vazio!")
-        return
-    
-    try:
-        # Colunas de interesse do CK
-        metric_columns = ['cbo', 'dit', 'lcom']
-        
-        # Filtrar apenas colunas que existem
-        existing_metrics = [col.lower() for col in metric_columns 
-                           if col.lower() in df.columns]
-        
-        if not existing_metrics:
-            # Tentar com variações de nome
-            logger.warning("Colunas esperadas não encontradas. Colunas disponíveis:")
-            logger.warning(df.columns.tolist())
-            logger.info("Usando todas as colunas numéricas para análise")
-            existing_metrics = df.select_dtypes(include=['number']).columns.tolist()
-        
-        # Agrupar por repositório
-        summary = df.groupby('repository')[existing_metrics].agg([
-            'count', 'mean', 'median', 'std', 'min', 'max'
-        ]).round(3)
-        
-        # Salvar resultado
-        os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
-        summary.to_csv(output_file)
-        
-        logger.info(f"Resumo salvo em: {output_file}")
-        logger.info(f"\nResumo das métricas por repositório:\n{summary}")
-        
-    except Exception as e:
-        logger.error(f"Erro ao computar métricas: {e}")
+    return pd.concat(frames, ignore_index=True)
 
 
-def computar_estatisticas_gerais(df: pd.DataFrame, output_file: str) -> None:
-    """Computa estatísticas gerais de todas as classes."""
-    if df.empty:
-        logger.error("DataFrame vazio!")
-        return
-    
-    try:
-        metric_columns = df.select_dtypes(include=['number']).columns
-        
-        stats = df[metric_columns].describe().round(3)
-        stats.to_csv(output_file)
-        
-        logger.info(f"\nEstatísticas gerais salvas em: {output_file}")
-        logger.info(f"\nEstatísticas gerais:\n{stats}")
-        
-    except Exception as e:
-        logger.error(f"Erro ao computar estatísticas gerais: {e}")
+def resumo_por_repo(ck_df):
+    # métricas de qualidade que precisamos (CBO, DIT, LCOM)
+    metricas = [c for c in ['cbo', 'dit', 'lcom'] if c in ck_df.columns]
+
+    agg = {m: ['median', 'mean', 'std'] for m in metricas}
+
+    # LOC total do repositório = soma das linhas de código de todas as classes
+    if 'loc' in ck_df.columns:
+        agg['loc'] = ['sum']
+
+    resumo = ck_df.groupby('repo_name').agg(agg)
+    # achata colunas multi-nível: "cbo_median", "dit_mean", etc.
+    resumo.columns = ['_'.join(col) for col in resumo.columns]
+    resumo = resumo.rename(columns={'loc_sum': 'loc_total'})
+    resumo = resumo.reset_index().round(3)
+    return resumo
+
+
+def mesclar_com_github(resumo_ck, repos_df):
+    # pega só as colunas de processo que vamos usar nas análises
+    colunas = ['name', 'stars', 'forks', 'releases_count', 'age_years', 'rank']
+    colunas = [c for c in colunas if c in repos_df.columns]
+
+    merged = resumo_ck.merge(
+        repos_df[colunas],
+        left_on='repo_name',
+        right_on='name',
+        how='left'
+    )
+    merged = merged.drop(columns=['name'], errors='ignore')
+    return merged
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description='Analisa e sumariza dados do CK'
-    )
-    parser.add_argument(
-        '--raw',
-        type=str,
-        default='data/raw/',
-        help='Diretório com CSVs brutos do CK'
-    )
-    parser.add_argument(
-        '--processed',
-        type=str,
-        default='data/processed/',
-        help='Diretório de saída para dados processados'
-    )
-    
-    args = parser.parse_args()
-    
-    logger.info("=" * 60)
-    logger.info("Iniciando análise de dados CK")
-    logger.info("=" * 60)
-    
-    # Carregar dados
-    logger.info(f"Carregando dados de {args.raw}...")
-    df = carregar_e_mesclar_dados_ck(args.raw)
-    
-    if df.empty:
-        logger.error("Nenhum dado para processar!")
+    print("Carregando lista de repositórios...")
+    repos_df = pd.read_csv(REPOS_CSV)
+    repos_lookup = set(repos_df['name'])
+
+    print(f"Carregando dados CK de {RAW_DIR}...")
+    ck_df = carregar_ck(repos_lookup)
+    if ck_df.empty:
         return
-    
-    # Computar sumários
-    os.makedirs(args.processed, exist_ok=True)
-    
-    summary_file = os.path.join(args.processed, 'metrics_by_repository.csv')
-    computar_resumo_metricas(df, summary_file)
-    
-    overall_file = os.path.join(args.processed, 'overall_statistics.csv')
-    computar_estatisticas_gerais(df, overall_file)
-    
-    logger.info("=" * 60)
-    logger.info("Análise finalizada!")
-    logger.info("=" * 60)
+
+    print("Calculando resumo por repositório...")
+    resumo = resumo_por_repo(ck_df)
+
+    print("Mesclando com métricas do GitHub...")
+    final = mesclar_com_github(resumo, repos_df)
+
+    os.makedirs(OUT_DIR, exist_ok=True)
+
+    saida = os.path.join(OUT_DIR, 'merged_metrics.csv')
+    final.to_csv(saida, index=False)
+    print(f"\nSalvo em: {saida}")
+    print(final.to_string(index=False))
+
+    stats = final.select_dtypes(include='number').describe().round(3)
+    stats.to_csv(os.path.join(OUT_DIR, 'overall_statistics.csv'))
+    print("\nEstatísticas descritivas salvas em overall_statistics.csv")
 
 
 if __name__ == '__main__':
     main()
-
