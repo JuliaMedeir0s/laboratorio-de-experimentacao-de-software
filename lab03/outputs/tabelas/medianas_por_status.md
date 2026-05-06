@@ -1,0 +1,4 @@
+| status   |    n |   median_files_changed |   median_lines_added |   median_lines_removed |   median_analysis_time_hours |   median_body_length |   median_participants_count |   median_comments_count |   median_reviews_count |
+|:---------|-----:|-----------------------:|---------------------:|-----------------------:|-----------------------------:|---------------------:|----------------------------:|------------------------:|-----------------------:|
+| MERGED   | 5163 |                      2 |                   21 |                      5 |                      22.8439 |                854   |                           2 |                       1 |                      2 |
+| CLOSED   | 1558 |                      1 |                   16 |                      1 |                      89.3526 |                809.5 |                           2 |                       2 |                      1 |

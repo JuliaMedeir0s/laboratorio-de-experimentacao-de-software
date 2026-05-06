@@ -51,7 +51,7 @@ O dataset foi construído a partir da API GraphQL do GitHub, seguindo os critér
 - Pelo menos 1 revisão registrada (`reviews.totalCount >= 1`)
 - Tempo de análise superior a 1 hora, critério para excluir revisões automáticas por bots e ferramentas de CI/CD
 
-**Dataset resultante:** 6.686 PRs de 200 repositórios (5.118 MERGED / 1.568 CLOSED)
+**Dataset resultante:** 6.721 PRs de 200 repositórios (5.163 MERGED / 1.558 CLOSED)
 
 ### 2.2 Métricas Coletadas
 
@@ -83,10 +83,63 @@ A sumarização dos dados será feita por **medianas**, conforme recomendado pel
 
 ## 3. Resultados
 
-*(A ser preenchido na Sprint 3, após a análise e visualização dos dados.)*
+Esta seção apresenta (i) estatísticas descritivas (medianas) e (ii) correlações de Spearman (ρ) para responder às questões de pesquisa.
+
+### 3.1 Estatísticas descritivas (medianas)
+
+| status   |    n |   median_files_changed |   median_lines_added |   median_lines_removed |   median_analysis_time_hours |   median_body_length |   median_participants_count |   median_comments_count |   median_reviews_count |
+|:---------|-----:|-----------------------:|---------------------:|-----------------------:|-----------------------------:|---------------------:|----------------------------:|------------------------:|-----------------------:|
+| MERGED   | 5163 |                      2 |                   21 |                      5 |                      22.8439 |                854   |                           2 |                       1 |                      2 |
+| CLOSED   | 1558 |                      1 |                   16 |                      1 |                      89.3526 |                809.5 |                           2 |                       2 |                      1 |
+
+Em termos de medianas, PRs MERGED tendem a ter mais revisões (2 vs 1) e são fechados/mergeados mais rapidamente (≈22,84h vs ≈89,35h). PRs CLOSED apresentam mediana maior de comentários (2 vs 1).
+
+### 3.2 Correlação (Spearman) — Status do PR (RQ01–RQ04)
+
+Codificamos `MERGED = 1` e `CLOSED = 0` e calculamos a correlação de Spearman entre cada métrica e o status final.
+
+| x                   | y          |    n |   spearman_rho |   p_value |
+|:--------------------|:-----------|-----:|---------------:|----------:|
+| lines_removed       | status_bin | 6721 |       0.149342 |  0        |
+| files_changed       | status_bin | 6721 |       0.128479 |  0        |
+| lines_added         | status_bin | 6721 |       0.033272 |  0.006374 |
+| body_length         | status_bin | 6721 |       0.024304 |  0.046328 |
+| participants_count  | status_bin | 6721 |      -0.015485 |  0.204329 |
+| comments_count      | status_bin | 6721 |      -0.093134 |  0        |
+| analysis_time_hours | status_bin | 6721 |      -0.228404 |  0        |
+
+Os resultados sugerem associação negativa entre tempo de análise e status (PRs com maior tempo tendem a fechar sem merge) e associação negativa entre comentários e status. Por outro lado, métricas de tamanho (arquivos/linhas) apresentam associação positiva (ainda que fraca/moderada), indicando que PRs maiores não necessariamente são rejeitados no dataset.
+
+### 3.3 Correlação (Spearman) — Número de revisões (RQ05–RQ08)
+
+Calculamos a correlação de Spearman entre cada métrica e `reviews_count`.
+
+| x                   | y             |    n |   spearman_rho |   p_value |
+|:--------------------|:--------------|-----:|---------------:|----------:|
+| participants_count  | reviews_count | 6721 |       0.348768 |  0        |
+| lines_added         | reviews_count | 6721 |       0.296233 |  0        |
+| comments_count      | reviews_count | 6721 |       0.275981 |  0        |
+| files_changed       | reviews_count | 6721 |       0.256395 |  0        |
+| lines_removed       | reviews_count | 6721 |       0.16609  |  0        |
+| body_length         | reviews_count | 6721 |       0.1519   |  0        |
+| analysis_time_hours | reviews_count | 6721 |       0.037589 |  0.002055 |
+
+Observa-se correlação positiva mais forte entre número de participantes e número de revisões, e correlações positivas (moderadas) entre métricas de tamanho/interações e revisões.
 
 ---
 
 ## 4. Discussão
 
-*(A ser preenchido na Sprint 3, contrastando os resultados com as hipóteses apresentadas na Seção 1.)*
+Nesta seção, contrastamos os resultados com as hipóteses propostas na Seção 1.
+
+- **RQ01 (Tamanho × Status):** a hipótese previa que PRs maiores tenderiam a ser CLOSED. No entanto, as correlações entre tamanho e status foram **positivas** (arquivos e linhas adicionadas/removidas), sugerindo que, no conjunto analisado, PRs maiores estão levemente mais associados a MERGE. Uma explicação plausível é que PRs maiores podem representar mudanças relevantes (features/refactors) que recebem mais atenção e revisão até serem integradas.
+
+- **RQ02 (Tempo de análise × Status):** a hipótese é **corroborada**. A correlação entre `analysis_time_hours` e status foi negativa (ρ ≈ -0,23), e as medianas indicam que PRs CLOSED demoram bem mais para encerrar do que PRs MERGED.
+
+- **RQ03 (Descrição × Status):** a hipótese previa que descrições maiores tenderiam a MERGE. O resultado foi **muito fraco**, porém positivo (ρ ≈ 0,024), sugerindo que descrição pode ajudar, mas o efeito é pequeno no agregado.
+
+- **RQ04 (Interações × Status):** a hipótese previa que mais interações tenderiam a CLOSED. O resultado foi misto: `comments_count` correlacionou negativamente com status (consistente com a hipótese), enquanto `participants_count` não apresentou correlação estatisticamente relevante.
+
+- **RQ05–RQ08 (Métricas × Número de revisões):** os resultados indicam que **interações** (principalmente `participants_count`) e **tamanho** (`lines_added`, `files_changed`) têm associação positiva com o número de revisões, como esperado. O tempo de análise teve correlação positiva, mas muito pequena, sugerindo que o tempo total de vida do PR é influenciado por fatores além do número de revisões (ex.: disponibilidade de mantenedores, prioridades do projeto, mudanças solicitadas fora de ciclos de review).
+
+Os resultados completos (CSV/MD) e gráficos estão em `outputs/tabelas/` e `outputs/graficos/`.

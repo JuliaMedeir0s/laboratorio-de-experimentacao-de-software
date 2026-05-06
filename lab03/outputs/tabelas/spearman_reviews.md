@@ -1,0 +1,9 @@
+| x                   | y             |    n |   spearman_rho |   p_value |
+|:--------------------|:--------------|-----:|---------------:|----------:|
+| participants_count  | reviews_count | 6721 |       0.348768 |  0        |
+| lines_added         | reviews_count | 6721 |       0.296233 |  0        |
+| comments_count      | reviews_count | 6721 |       0.275981 |  0        |
+| files_changed       | reviews_count | 6721 |       0.256395 |  0        |
+| lines_removed       | reviews_count | 6721 |       0.16609  |  0        |
+| body_length         | reviews_count | 6721 |       0.1519   |  0        |
+| analysis_time_hours | reviews_count | 6721 |       0.037589 |  0.002055 |

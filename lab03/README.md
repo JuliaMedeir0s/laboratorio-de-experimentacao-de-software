@@ -123,6 +123,18 @@ python coletar_prs.py --max-prs 200
 
 O script salva um CSV por repositório em `data/raw/` ao longo da execução. Se interrompido, retoma automaticamente da onde parou ao ser executado novamente.
 
+### 4. Analisar dados (Sprint 3)
+
+Com o dataset consolidado em `data/processed/prs.csv`, gere tabelas e gráficos em `outputs/`:
+
+```bash
+python src/analisar_prs.py
+```
+
+Arquivos gerados:
+- `outputs/tabelas/` (CSV e Markdown com contagens, medianas e correlações de Spearman)
+- `outputs/graficos/` (boxplots por status e scatterplots relacionando revisões com métricas)
+
 ---
 
 ## Decisões de Implementação
@@ -130,8 +142,8 @@ O script salva um CSV por repositório em `data/raw/` ao longo da execução. Se
 **Faixas de estrelas na busca de repositórios**
 A API de busca do GitHub limita qualquer query a 1000 resultados. Para garantir os 200 repositórios mais populares sem perder resultados, a busca é dividida em faixas de estrelas (`>=100000`, `50000..99999`, etc.), cada uma com sua própria paginação.
 
-**PAGE_SIZE = 50 na coleta de PRs**
-A API GraphQL do GitHub calcula um custo por query com base na complexidade dos campos solicitados. Com campos aninhados como `participants`, `comments` e `reviews`, 50 nós por página mantém o custo dentro do limite sem comprometer a velocidade.
+**PAGE_SIZE = 10 na coleta de PRs**
+A API GraphQL do GitHub pode retornar erros (ex.: 502) em queries muito pesadas. Como coletamos campos aninhados (`participants`, `comments`, `reviews`, `body`), usamos 10 nós por página para manter a consulta estável.
 
 **Checkpoint por repositório**
 Cada repositório é salvo individualmente em `data/raw/` logo após ser coletado. Isso permite retomar a coleta sem repetir repositórios já processados, importante dado o volume de dados (até 200 repos × 100+ PRs cada).
