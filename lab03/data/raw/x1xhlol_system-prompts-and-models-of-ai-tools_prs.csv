@@ -1,0 +1,30 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+x1xhlol/system-prompts-and-models-of-ai-tools,429,feat: add Agent Architecture Audit diagnostic framework,CLOSED,2026-04-23T17:21:40Z,2026-04-24T20:59:39Z,,27.6331,1,168,0,2293,1,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,423,Create SECURITY.md for security policy,CLOSED,2026-04-08T01:36:33Z,2026-04-17T10:04:31Z,,224.4661,1,21,0,574,2,1,2
+x1xhlol/system-prompts-and-models-of-ai-tools,420,لا ادري,CLOSED,2026-04-01T17:26:37Z,2026-04-21T14:43:12Z,,477.2764,1,1,92,301,2,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,415,end of jules,CLOSED,2026-03-26T22:08:32Z,2026-04-21T14:43:34Z,,616.5839,1,3,3,666,2,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,403,Add CLAUDE.md with Antigravity Swarm project context,CLOSED,2026-03-18T00:43:19Z,2026-04-19T10:49:43Z,,778.1067,1,96,0,994,2,6,3
+x1xhlol/system-prompts-and-models-of-ai-tools,398,Wrap text for readability (#395),CLOSED,2026-03-07T19:44:58Z,2026-04-21T14:44:15Z,,1074.9881,1,13,5,280,3,1,2
+x1xhlol/system-prompts-and-models-of-ai-tools,392,Add claude sonnet 4.6 prompt,MERGED,2026-03-04T12:28:30Z,2026-03-04T15:00:10Z,2026-03-04T15:00:10Z,2.5278,1,1191,0,293,3,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,390,feat：:sparkles:Added a Chinese version of system prompt and modified …,CLOSED,2026-03-01T16:37:50Z,2026-03-04T15:00:23Z,,70.3758,31,8450,0,1941,3,2,7
+x1xhlol/system-prompts-and-models-of-ai-tools,389,feat：:sparkles:Added a Chinese version of system prompt and modified …,CLOSED,2026-03-01T16:20:54Z,2026-03-04T15:00:35Z,,70.6614,31,8493,0,683,3,1,5
+x1xhlol/system-prompts-and-models-of-ai-tools,386,fix: correct spelling errors in prompt files,CLOSED,2026-02-25T13:00:18Z,2026-02-26T15:52:51Z,,26.8758,2,2,2,751,2,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,381,Refactor links in README.md to use markdown syntax for better readabi…,CLOSED,2026-02-24T03:34:27Z,2026-03-03T00:05:47Z,,164.5222,1,5,5,395,1,4,9
+x1xhlol/system-prompts-and-models-of-ai-tools,342,tembo sponsorship,MERGED,2026-01-07T22:42:03Z,2026-01-08T06:14:23Z,2026-01-08T06:14:23Z,7.5389,4,8,4,404,2,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,338,Claude Chrome Prompt and Tools,MERGED,2025-12-29T14:24:19Z,2025-12-30T13:08:13Z,2025-12-30T13:08:13Z,22.7317,2,1152,0,673,3,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,331,Update link text in README for clarity,MERGED,2025-12-19T10:55:08Z,2025-12-19T16:02:48Z,2025-12-19T16:02:48Z,5.1278,1,1,1,424,2,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,307,Add Grok companion personas and environment/emotion managers.,CLOSED,2025-11-20T11:02:32Z,2026-01-26T04:18:30Z,,1601.2661,8,408,0,1103,2,4,3
+x1xhlol/system-prompts-and-models-of-ai-tools,305,Add planning mode system prompt,MERGED,2025-11-19T13:06:30Z,2025-11-19T21:00:18Z,2025-11-19T21:00:18Z,7.8967,1,213,0,524,2,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,300,Claude/check code 011 cv2o kff u ev zj2aiq aw vhw,CLOSED,2025-11-16T06:27:22Z,2025-11-17T20:23:28Z,,37.935,45,6203,43,868,3,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,299,Add plan-mode system prompt of Copilot,CLOSED,2025-11-16T06:07:59Z,2025-11-19T13:01:14Z,,78.8875,1,69,0,456,1,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,297,Claude/create encyclopedia guide 01 eq bc kr fp56s bzik u ms8 a6v,CLOSED,2025-11-14T03:10:12Z,2025-11-14T05:31:30Z,,2.355,8,2788,0,578,2,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,296,Claude/gpt5 prompting guide 011 cv2b s rs48 mjvw49nfhk mf,CLOSED,2025-11-11T23:42:16Z,2025-11-17T20:28:34Z,,140.7717,33,6188,0,605,3,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,284,Rename and update functions in tools.json,CLOSED,2025-10-27T02:21:04Z,2025-11-09T18:37:14Z,,328.2694,1,5,489,0,3,0,1
+x1xhlol/system-prompts-and-models-of-ai-tools,283,Rename Manus AI to Beshr Assistant Ai and update features,CLOSED,2025-10-27T02:20:55Z,2025-11-09T18:37:28Z,,328.2758,1,10,15,157,3,0,1
+x1xhlol/system-prompts-and-models-of-ai-tools,282,Revise agent description and operational rules,CLOSED,2025-10-27T02:19:54Z,2025-11-09T18:38:09Z,,328.3042,1,5,143,67,3,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,254,I,CLOSED,2025-09-29T03:50:05Z,2025-09-29T05:19:53Z,,1.4967,2,57,0,0,5,3,2
+x1xhlol/system-prompts-and-models-of-ai-tools,245,CODEX_INIT_AGENTS_23.09.25.md,CLOSED,2025-09-23T04:36:35Z,2025-09-23T06:11:05Z,,1.575,1,40,0,0,2,0,2
+x1xhlol/system-prompts-and-models-of-ai-tools,231,Add Poke system prompt,MERGED,2025-09-14T22:36:56Z,2025-09-15T13:02:49Z,2025-09-15T13:02:49Z,14.4314,8,504,0,182,5,2,3
+x1xhlol/system-prompts-and-models-of-ai-tools,187,Ggf,CLOSED,2025-08-06T05:24:57Z,2025-08-08T09:19:46Z,,51.9136,7264,716806,1648,0,3,1,1
+x1xhlol/system-prompts-and-models-of-ai-tools,167,Pending changes exported from your codespace,CLOSED,2025-07-25T23:01:48Z,2025-08-01T03:44:32Z,,148.7122,4,52,0,0,2,0,1
+x1xhlol/system-prompts-and-models-of-ai-tools,140,Add Warp.dev prompt,MERGED,2025-07-03T14:56:18Z,2025-07-04T20:57:41Z,2025-07-04T20:57:41Z,30.0231,1,163,0,0,2,0,1

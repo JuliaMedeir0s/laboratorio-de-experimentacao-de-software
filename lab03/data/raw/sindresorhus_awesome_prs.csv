@@ -1,0 +1,21 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+sindresorhus/awesome,4055,Add Wordlists,CLOSED,2026-03-30T15:21:30Z,2026-03-30T16:53:56Z,,1.5406,1,1,0,9290,3,1,1
+sindresorhus/awesome,4049,Add Hands-on Neuroscience,CLOSED,2026-03-29T15:55:24Z,2026-03-29T21:39:27Z,,5.7342,1,1,0,1616,5,1,2
+sindresorhus/awesome,4046,Add LOL / Commonly Abused,CLOSED,2026-03-26T18:47:50Z,2026-04-03T03:32:33Z,,176.7453,1,1,0,11701,5,12,1
+sindresorhus/awesome,4040,Add CrowdSec,CLOSED,2026-03-25T00:19:37Z,2026-04-01T21:04:42Z,,188.7514,1,1,0,1180,6,5,2
+sindresorhus/awesome,4017,Add UniFi,CLOSED,2026-03-19T15:34:59Z,2026-04-01T21:05:28Z,,317.5081,1,1,0,3716,6,4,3
+sindresorhus/awesome,4014,Add Generative Engine Optimization (GEO),CLOSED,2026-03-18T16:32:53Z,2026-04-02T08:04:16Z,,351.5231,1,1,0,3209,6,7,3
+sindresorhus/awesome,4012,Add Raspberry Pi,CLOSED,2026-03-18T06:48:56Z,2026-04-01T20:56:10Z,,350.1206,1,1,1,4065,5,3,2
+sindresorhus/awesome,4003,Add Microsoft Agent Framework,CLOSED,2026-03-13T21:20:17Z,2026-04-21T08:38:28Z,,923.3031,1,1,0,9005,10,11,2
+sindresorhus/awesome,4001,Add Boat Tech from resources list,CLOSED,2026-03-13T13:06:43Z,2026-03-29T14:57:52Z,,385.8525,1,1,0,9089,4,3,1
+sindresorhus/awesome,3999,Add Awesome n8n Templates to Platforms,CLOSED,2026-03-12T18:29:39Z,2026-04-01T20:53:52Z,,482.4036,1,1,0,1074,7,5,2
+sindresorhus/awesome,3998,Add Developer PKM,CLOSED,2026-03-11T21:24:40Z,2026-04-02T07:27:26Z,,514.0461,1,1,0,9396,4,5,1
+sindresorhus/awesome,3991,Add AI Agents awesome list,CLOSED,2026-03-08T13:28:03Z,2026-04-01T15:21:57Z,,577.8983,1,1,0,67,5,4,1
+sindresorhus/awesome,3964,Add new link for Humane Technology,CLOSED,2026-02-25T12:11:07Z,2026-04-01T18:11:37Z,,846.0083,1,1,1,8381,5,5,2
+sindresorhus/awesome,3961,Add RSSHub Routes,CLOSED,2026-02-24T05:37:28Z,2026-04-01T20:52:44Z,,879.2544,1,1,0,1457,4,4,3
+sindresorhus/awesome,3960,Add Webhooks,CLOSED,2026-02-23T11:03:27Z,2026-04-01T20:51:56Z,,897.8081,1,2,0,1576,8,8,1
+sindresorhus/awesome,3957,Add Raspberry Pi,CLOSED,2026-02-22T21:02:05Z,2026-03-18T06:47:54Z,,561.7636,1,1,1,1614,6,7,1
+sindresorhus/awesome,3945,Add awesome-infrastructure to Back-End Development section,CLOSED,2026-02-14T10:22:18Z,2026-04-01T09:03:31Z,,1102.6869,1,1,0,8877,4,3,1
+sindresorhus/awesome,3942,Add Code Docs to Miscellaneous,CLOSED,2026-02-12T16:15:46Z,2026-02-18T00:09:16Z,,127.8917,1,1,0,249,3,1,1
+sindresorhus/awesome,3927,Add HyperAgency agentic AI OS,CLOSED,2026-02-05T14:35:06Z,2026-04-01T09:36:16Z,,1315.0194,1,1,0,9158,5,4,3
+sindresorhus/awesome,3912,Add Julia Security,CLOSED,2026-01-31T21:37:58Z,2026-04-01T17:33:40Z,,1435.9283,1,1,0,1022,7,10,3

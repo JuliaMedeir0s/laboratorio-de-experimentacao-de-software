@@ -1,0 +1,8 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+jesseduffield/lazygit,5536,Improve performance of showDivergenceFromBaseBranch,MERGED,2026-04-23T14:44:58Z,2026-04-27T05:11:36Z,2026-04-27T05:11:36Z,86.4439,2,502,1,1641,2,3,4
+jesseduffield/lazygit,5501,Hide closed pull requests on main branches,MERGED,2026-04-11T15:06:55Z,2026-04-13T19:59:04Z,2026-04-13T19:59:04Z,52.8692,2,14,2,508,3,2,1
+jesseduffield/lazygit,5496,fix: case-insensitive owner matching in PR integration,CLOSED,2026-04-10T01:24:51Z,2026-04-10T16:48:29Z,,15.3939,2,38,2,914,3,2,1
+jesseduffield/lazygit,5404,Add a note about AI to CONTRIBUTING.md,MERGED,2026-03-22T10:30:53Z,2026-03-23T13:22:19Z,2026-03-23T13:22:19Z,26.8572,1,6,0,0,2,1,1
+jesseduffield/lazygit,5397,README.md: Update Sponsors,MERGED,2026-03-20T07:23:30Z,2026-03-31T11:57:17Z,2026-03-31T11:57:17Z,268.5631,1,1,1,108,3,1,1
+jesseduffield/lazygit,5392,Fix grammar in the contributor guide,MERGED,2026-03-19T01:43:18Z,2026-03-30T08:14:09Z,2026-03-30T08:14:09Z,270.5142,1,1,1,1128,4,0,1
+jesseduffield/lazygit,5389,feat(commit): add AI-generated commit message support.,CLOSED,2026-03-18T14:37:50Z,2026-03-24T14:28:20Z,,143.8417,10,436,0,2522,2,3,4

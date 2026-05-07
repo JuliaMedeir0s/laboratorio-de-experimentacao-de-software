@@ -1,0 +1,65 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+ant-design/ant-design,57861,refactor(type): replace assertion with type guard,MERGED,2026-05-05T13:56:36Z,2026-05-05T15:51:28Z,2026-05-05T15:51:28Z,1.9144,4,8,10,1779,3,9,4
+ant-design/ant-design,57860,type: update any type to React.ComponentType,MERGED,2026-05-05T10:41:22Z,2026-05-05T12:05:31Z,2026-05-05T12:05:31Z,1.4025,3,8,8,1845,3,10,4
+ant-design/ant-design,57859,fix(wave): ignore transparent hex colors,MERGED,2026-05-05T05:25:00Z,2026-05-05T13:35:14Z,2026-05-05T13:35:14Z,8.1706,2,94,7,1837,3,9,6
+ant-design/ant-design,57853,chore: use shared plain object checks,MERGED,2026-05-04T09:42:56Z,2026-05-04T15:13:07Z,2026-05-04T15:13:07Z,5.5031,6,29,19,1831,3,10,7
+ant-design/ant-design,57851,chore: merge master into feature,MERGED,2026-05-04T06:21:44Z,2026-05-04T07:38:28Z,2026-05-04T07:38:28Z,1.2789,5,84,80,1821,3,10,3
+ant-design/ant-design,57849,chore: bump dev-dependencies groups,MERGED,2026-05-03T21:28:43Z,2026-05-04T06:11:49Z,2026-05-04T06:11:48Z,8.7181,1,57,57,11058,1,10,2
+ant-design/ant-design,57846,chore: preserve status color fallbacks,MERGED,2026-05-03T08:17:53Z,2026-05-04T04:43:16Z,2026-05-04T04:43:16Z,20.4231,1,21,10,1785,3,11,4
+ant-design/ant-design,57845,refactor(util): use shared type guards for runtime checks,MERGED,2026-05-03T07:18:58Z,2026-05-03T09:02:32Z,2026-05-03T09:02:32Z,1.7261,8,30,32,1871,3,9,6
+ant-design/ant-design,57843,chore(deps): update dependency eslint to v10.3.0,MERGED,2026-05-03T01:29:59Z,2026-05-03T03:20:12Z,2026-05-03T03:20:12Z,1.8369,1,1,1,1996,2,11,1
+ant-design/ant-design,57842,chore(deps): update dependency @biomejs/biome to v2.4.14,MERGED,2026-05-03T01:29:53Z,2026-05-03T02:37:01Z,2026-05-03T02:37:01Z,1.1189,1,1,1,22395,1,9,1
+ant-design/ant-design,57841,chore(deps): update nearform-actions/github-action-notify-twitter digest to 6dc44ca,MERGED,2026-05-03T01:29:47Z,2026-05-03T02:38:00Z,2026-05-03T02:38:00Z,1.1369,1,1,1,1091,1,9,1
+ant-design/ant-design,57840,feat(Tag): support per-option className and style in CheckableTagGroup,MERGED,2026-05-02T05:48:32Z,2026-05-02T16:34:48Z,2026-05-02T16:34:48Z,10.7711,4,123,4,932,4,7,5
+ant-design/ant-design,57838,fix: remove unexpected 1px horizontal padding from Splitter.Panel,MERGED,2026-05-02T02:56:48Z,2026-05-02T07:47:55Z,2026-05-02T07:47:55Z,4.8519,1,0,2,864,4,7,3
+ant-design/ant-design,57836,chore: bump nearform-actions/github-action-notify-twitter from 742e1bd4aec7a89c6d2d00231b9e2c0aed97792c to 424986a017263c11f98851381727d90f44c24272,MERGED,2026-05-01T13:07:50Z,2026-05-01T15:22:19Z,2026-05-01T15:22:19Z,2.2414,1,1,1,2326,2,11,2
+ant-design/ant-design,57835,refactor(util): use shared type guards for runtime checks,MERGED,2026-05-01T03:10:46Z,2026-05-01T15:27:17Z,2026-05-01T15:27:17Z,12.2753,47,173,181,1871,3,10,5
+ant-design/ant-design,57834,chore: merge master into feature,MERGED,2026-04-30T11:14:55Z,2026-04-30T16:33:48Z,2026-04-30T16:33:48Z,5.3147,19,904,47,1821,6,11,3
+ant-design/ant-design,57828,fix: remove unexpected 1px horizontal padding from Splitter.Panel,CLOSED,2026-04-30T07:18:56Z,2026-05-02T02:52:38Z,,43.5617,1,0,2,1083,3,9,2
+ant-design/ant-design,57821,fix(Notification): reserve close spacing without title,MERGED,2026-04-30T01:32:17Z,2026-04-30T02:54:19Z,2026-04-30T02:54:19Z,1.3672,2,16,8,743,3,7,10
+ant-design/ant-design,57819,chore: sync master into feature,CLOSED,2026-04-29T13:53:06Z,2026-04-30T03:24:56Z,,13.5306,18,901,47,902,4,11,2
+ant-design/ant-design,57818,fix(Menu): correct item extra layout with icon,MERGED,2026-04-29T13:27:07Z,2026-04-30T01:56:26Z,2026-04-30T01:56:26Z,12.4886,1,11,0,768,2,6,2
+ant-design/ant-design,57814,chore: bump nearform-actions/github-action-notify-twitter from 72d51cb3b0646fc8b1425b8bcfa961b92f22bd03 to 742e1bd4aec7a89c6d2d00231b9e2c0aed97792c,MERGED,2026-04-29T11:24:01Z,2026-04-29T13:51:42Z,2026-04-29T13:51:42Z,2.4614,1,1,1,2005,1,8,1
+ant-design/ant-design,57813,fix: ensure Watermark covers Table fixed columns by default,MERGED,2026-04-29T08:54:09Z,2026-04-29T10:28:33Z,2026-04-29T10:28:33Z,1.5733,8,863,23,851,4,10,8
+ant-design/ant-design,57812,fix(spin): update deprecation warning for size prop and remove redundant check,MERGED,2026-04-29T07:17:22Z,2026-04-29T10:21:22Z,2026-04-29T10:21:22Z,3.0667,1,1,5,1847,2,10,2
+ant-design/ant-design,57811,type: improve component typings,MERGED,2026-04-29T07:03:23Z,2026-04-29T09:26:20Z,2026-04-29T09:26:20Z,2.3825,4,8,9,1803,5,12,13
+ant-design/ant-design,57807,"fix(Select): align error status colors with Input across outlined, fi…",MERGED,2026-04-28T15:26:02Z,2026-04-30T06:04:21Z,2026-04-30T06:04:21Z,38.6386,1,3,2,1968,5,9,3
+ant-design/ant-design,57803,fix(ConfigProvider): make css var prefix follow prefixCls,MERGED,2026-04-28T03:18:31Z,2026-04-28T06:10:12Z,2026-04-28T06:10:12Z,2.8614,2,17,2,756,2,7,2
+ant-design/ant-design,57800,chore(DO_NOT_CLOSE): bump @eslint-react/eslint-plugin from 3.0.0 to 4.2.3,CLOSED,2026-04-28T00:36:13Z,2026-05-03T02:41:26Z,,122.0869,1,1,1,12898,2,12,1
+ant-design/ant-design,57799,chore: upgrade deps,MERGED,2026-04-27T18:31:17Z,2026-04-28T01:03:19Z,2026-04-28T01:03:19Z,6.5339,1,1,1,248,5,3,1
+ant-design/ant-design,57798,chore(styles): reuse textEllipsis,MERGED,2026-04-27T15:41:08Z,2026-04-28T05:55:46Z,2026-04-28T05:55:46Z,14.2439,2,4,7,1823,4,10,3
+ant-design/ant-design,57795,chore: merge master into feature,MERGED,2026-04-27T10:12:47Z,2026-04-27T14:08:49Z,2026-04-27T14:08:48Z,3.9336,6,47,6,1821,4,10,3
+ant-design/ant-design,57790,feat(icons): update @ant-design/icons to 6.2.0,MERGED,2026-04-27T07:36:25Z,2026-04-27T10:11:59Z,2026-04-27T10:11:59Z,2.5928,2,2,2,1653,3,7,4
+ant-design/ant-design,57784,refactor(utils): reuse shared type guard helpers,MERGED,2026-04-26T15:17:34Z,2026-04-27T01:24:55Z,2026-04-27T01:24:55Z,10.1225,6,13,11,1853,4,14,4
+ant-design/ant-design,57782,docs: update AGENTS.md,MERGED,2026-04-26T13:51:14Z,2026-04-26T15:06:09Z,2026-04-26T15:06:09Z,1.2486,2,11,4,1801,3,9,4
+ant-design/ant-design,57780,refactor: add isPlainObject utils,MERGED,2026-04-26T10:48:52Z,2026-04-26T11:58:37Z,2026-04-26T11:58:37Z,1.1625,58,209,172,1823,3,12,9
+ant-design/ant-design,57777,refactor(utils): refactor shared type guard utilities,MERGED,2026-04-25T05:22:13Z,2026-04-25T08:10:38Z,2026-04-25T08:10:38Z,2.8069,6,18,23,1863,3,10,5
+ant-design/ant-design,57771,site: use noopener noreferrer on external links,MERGED,2026-04-24T13:29:44Z,2026-04-24T15:23:46Z,2026-04-24T15:23:46Z,1.9006,22,66,44,1851,4,10,8
+ant-design/ant-design,57770,chore: merge master into feature,MERGED,2026-04-24T11:20:38Z,2026-04-24T13:43:20Z,2026-04-24T13:43:20Z,2.3783,4,16,6,1821,4,10,6
+ant-design/ant-design,57769,fix(Select): restore showArrowPaddingInlineEnd for content gap,MERGED,2026-04-24T10:48:22Z,2026-04-28T05:52:25Z,2026-04-28T05:52:25Z,91.0675,1,6,1,512,5,9,9
+ant-design/ant-design,57763,docs(Tree): clarify switcherIcon rotation in showLine mode,MERGED,2026-04-24T05:31:34Z,2026-04-24T15:35:47Z,2026-04-24T15:35:47Z,10.0703,5,15,3,581,2,7,5
+ant-design/ant-design,57762,fix(Typography): allow copyable button click when Link is disabled,MERGED,2026-04-24T04:42:56Z,2026-04-24T15:30:02Z,2026-04-24T15:30:01Z,10.7847,1,7,0,1649,2,7,2
+ant-design/ant-design,57759,docs(Message): migrate component config docs,MERGED,2026-04-24T01:41:32Z,2026-04-24T15:35:02Z,2026-04-24T15:35:02Z,13.8917,4,44,43,435,3,7,4
+ant-design/ant-design,57750,site: adjust line height to solve jitter problems,MERGED,2026-04-23T03:23:00Z,2026-04-23T06:53:24Z,2026-04-23T06:53:24Z,3.5067,1,11,4,1674,2,9,2
+ant-design/ant-design,57749,chore: bump @eslint-react/eslint-plugin from 3.0.0 to 4.2.3 in the dev-dependencies group across 1 directory,CLOSED,2026-04-22T21:26:10Z,2026-04-26T15:09:22Z,,89.72,1,1,1,10931,2,11,2
+ant-design/ant-design,57745,chore: bump nearform-actions/github-action-notify-twitter from f9c8b6a12d9bc596663e94cf1d4ddb71d6d0c4eb to b9e6a6f4fde23d6bb4522380a50c1fc525de3de2,MERGED,2026-04-22T11:23:54Z,2026-04-22T12:49:30Z,2026-04-22T12:49:30Z,1.4267,1,1,1,2005,1,10,1
+ant-design/ant-design,57740,chore: sync master into feature,CLOSED,2026-04-22T08:03:42Z,2026-04-22T12:06:39Z,,4.0492,17,204,33,1802,4,11,2
+ant-design/ant-design,57738,site: rename sponsor UTM parameter from from to utm_source,MERGED,2026-04-22T03:44:55Z,2026-04-22T06:01:18Z,2026-04-22T06:01:18Z,2.2731,5,9,9,632,2,9,4
+ant-design/ant-design,57737,chore:  update sponsor image links in README.md,MERGED,2026-04-22T01:43:40Z,2026-04-22T03:44:36Z,2026-04-22T03:44:35Z,2.0153,4,5,5,1777,2,9,3
+ant-design/ant-design,57734,chore: merge master into feature,MERGED,2026-04-21T13:16:27Z,2026-04-21T14:56:31Z,2026-04-21T14:56:31Z,1.6678,13,410,22,1821,3,10,4
+ant-design/ant-design,57731,fix(Tooltip): exclude ConfigProvider tooltip config from Popover and Popconfirm,MERGED,2026-04-21T04:49:19Z,2026-04-22T03:21:23Z,2026-04-22T03:21:23Z,22.5344,4,84,3,2214,2,7,4
+ant-design/ant-design,57729,chore: sync master into feature,MERGED,2026-04-20T15:49:01Z,2026-04-21T04:31:43Z,2026-04-21T04:31:43Z,12.7117,3,4,3,900,3,10,3
+ant-design/ant-design,57726,site: add sponsors display to header and homepage with bilingual support,MERGED,2026-04-20T10:25:33Z,2026-04-21T05:48:25Z,2026-04-21T05:48:25Z,19.3811,12,409,29,1395,4,12,15
+ant-design/ant-design,57719,chore: upgrade deps,MERGED,2026-04-19T18:15:35Z,2026-04-20T09:14:02Z,2026-04-20T09:14:02Z,14.9742,1,1,1,249,5,3,1
+ant-design/ant-design,57717,fix(Tooltip): isolate ConfigProvider tooltip config for popover-injected instances,CLOSED,2026-04-19T10:33:25Z,2026-04-20T13:16:24Z,,26.7164,3,64,6,1212,1,7,2
+ant-design/ant-design,57714,fix(Checkbox): Removes redundant Form.Item native input size and invalid width and height overlay settings.,MERGED,2026-04-18T11:07:49Z,2026-05-04T04:56:45Z,2026-05-04T04:56:45Z,377.8156,1,0,7,1025,3,10,4
+ant-design/ant-design,57713,chore(deps): update dependency eslint to v10.2.1,MERGED,2026-04-18T09:10:33Z,2026-04-18T15:26:38Z,2026-04-18T15:26:38Z,6.2681,1,1,1,1996,1,9,1
+ant-design/ant-design,57705,fix(InputNumber): remove inner input border radius,MERGED,2026-04-17T04:20:47Z,2026-04-17T10:42:24Z,2026-04-17T10:42:24Z,6.3603,1,1,1,854,4,7,3
+ant-design/ant-design,57698,chore: merge master into feature,MERGED,2026-04-16T21:55:19Z,2026-04-17T04:54:32Z,2026-04-17T04:54:32Z,6.9869,3,6,7,1821,3,11,3
+ant-design/ant-design,57695,fix(Alert): add focus-visible outline for Alert close button,MERGED,2026-04-16T12:27:39Z,2026-04-17T11:02:21Z,2026-04-17T11:02:21Z,22.5783,1,2,2,1436,3,7,5
+ant-design/ant-design,57694,[WIP]fix(Table): adjust row expand icon margin,CLOSED,2026-04-16T07:14:47Z,2026-04-16T09:11:11Z,,1.94,1,7,3,345,2,7,7
+ant-design/ant-design,57693,docs(breadcrumb): update API config,MERGED,2026-04-16T05:56:27Z,2026-04-18T16:22:41Z,2026-04-18T16:22:41Z,58.4372,4,20,52,1779,2,7,8
+ant-design/ant-design,57689,fix(Input): keep OTP masked value hidden when selected,MERGED,2026-04-15T13:29:38Z,2026-04-22T15:10:08Z,2026-04-22T15:10:08Z,169.675,1,3,0,670,5,7,5
+ant-design/ant-design,57688,chore(deps): update dependency father to v4.6.18,MERGED,2026-04-15T11:25:40Z,2026-04-15T13:13:34Z,2026-04-15T13:13:34Z,1.7983,1,1,1,1928,1,9,1
+ant-design/ant-design,57685,chore: bump @biomejs/biome from 2.4.11 to 2.4.12,MERGED,2026-04-14T21:30:14Z,2026-04-15T01:35:57Z,2026-04-15T01:35:57Z,4.0953,1,1,1,14764,1,9,1
+ant-design/ant-design,57684,chore: bump the dev-dependencies group with 2 updates,MERGED,2026-04-14T21:27:47Z,2026-04-15T01:48:35Z,2026-04-15T01:48:35Z,4.3467,1,1,1,12889,2,9,3

@@ -1,0 +1,25 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+jlevy/the-art-of-command-line,882,Typo: fix Github to GitHub,CLOSED,2024-03-17T08:44:01Z,2024-09-01T07:20:06Z,,4030.6014,8,9,9,63,3,1,3
+jlevy/the-art-of-command-line,847,Fix typo in README-zh.md,MERGED,2023-02-15T09:00:06Z,2023-07-12T21:40:23Z,2023-07-12T21:40:23Z,3540.6714,1,1,1,0,3,1,1
+jlevy/the-art-of-command-line,824,fr: Synchronize the translation,MERGED,2022-12-30T17:41:09Z,2023-03-07T19:34:51Z,2023-03-07T19:34:51Z,1609.895,1,3,3,0,4,1,2
+jlevy/the-art-of-command-line,778,Fix README-zh.md typo,MERGED,2022-06-18T12:25:42Z,2022-07-16T01:06:16Z,2022-07-16T01:06:16Z,660.6761,1,1,1,0,4,0,3
+jlevy/the-art-of-command-line,747,test file for new branch,CLOSED,2021-10-15T19:53:19Z,2021-12-06T07:37:46Z,,1235.7408,1,1,0,0,4,1,2
+jlevy/the-art-of-command-line,745,Create README-tr.md,CLOSED,2021-09-20T14:20:01Z,2022-09-12T07:42:00Z,,8561.3664,19,642,18,0,2,0,1
+jlevy/the-art-of-command-line,718,Fix typo README-id.md,CLOSED,2020-12-16T22:26:09Z,2022-09-11T02:31:14Z,,15196.0847,1,1,1,47,2,0,1
+jlevy/the-art-of-command-line,684,Minor spelling fix in readme,CLOSED,2020-04-10T05:00:03Z,2020-08-17T00:27:52Z,,3091.4636,1,1,1,27,3,2,1
+jlevy/the-art-of-command-line,682,"complete, most up-to-date translation into Polish language",MERGED,2020-03-25T16:24:50Z,2020-09-07T19:20:30Z,2020-09-07T19:20:29Z,3986.9275,18,641,17,324,6,2,3
+jlevy/the-art-of-command-line,661,misspelled a word,CLOSED,2020-02-12T19:52:05Z,2020-08-17T00:28:13Z,,4468.6022,1,1,1,0,3,1,1
+jlevy/the-art-of-command-line,652,fix: markdown bold syntax,CLOSED,2019-11-12T14:31:31Z,2020-05-09T07:40:24Z,,4289.1481,1,4,4,67,3,1,1
+jlevy/the-art-of-command-line,650,Fixed a typo in README.md,CLOSED,2019-11-01T18:44:29Z,2020-08-17T00:28:43Z,,6941.7372,1,1,1,0,3,1,1
+jlevy/the-art-of-command-line,641,fr: Synchronize the translation,MERGED,2019-07-31T14:37:28Z,2022-12-29T22:41:26Z,2022-12-29T22:41:26Z,29936.0661,1,14,7,0,2,2,1
+jlevy/the-art-of-command-line,636,Fix typo,CLOSED,2019-07-19T02:25:52Z,2022-05-15T13:10:19Z,,24754.7408,1,1,1,39,2,0,1
+jlevy/the-art-of-command-line,604,Add Cygwin specific command tips `explorer`,CLOSED,2019-05-26T15:58:17Z,2019-09-05T04:13:33Z,,2436.2544,2,6,2,91,1,0,1
+jlevy/the-art-of-command-line,580,zh-Hant: Update iconv and uconv example,MERGED,2018-10-19T16:35:02Z,2019-03-17T03:55:48Z,2019-03-17T03:55:48Z,3563.3461,1,6,2,127,3,2,1
+jlevy/the-art-of-command-line,571,fr: Synchronize the translation,MERGED,2018-08-06T15:59:46Z,2018-08-19T00:34:22Z,2018-08-19T00:34:22Z,296.5767,1,46,30,0,2,0,1
+jlevy/the-art-of-command-line,568,update README-ja.md,MERGED,2018-07-20T23:23:07Z,2018-08-19T00:35:51Z,2018-08-19T00:35:51Z,697.2122,1,110,14,59,4,4,1
+jlevy/the-art-of-command-line,563,sl: Update Slovenian translation,MERGED,2018-06-13T10:26:18Z,2018-06-15T05:57:42Z,2018-06-15T05:57:42Z,43.5233,1,35,24,45,2,0,1
+jlevy/the-art-of-command-line,556,CS: Fix typos,CLOSED,2018-04-09T07:59:04Z,2025-08-29T19:06:22Z,,64787.1217,1,18,18,0,3,1,1
+jlevy/the-art-of-command-line,551,el: Update translation,MERGED,2018-04-03T00:44:05Z,2018-04-07T20:07:44Z,2018-04-07T20:07:44Z,115.3942,1,31,23,25,3,3,2
+jlevy/the-art-of-command-line,543,Another couple uconv examples I find useful.,MERGED,2018-02-24T00:28:22Z,2018-03-14T01:40:18Z,2018-03-14T01:40:18Z,433.1989,1,6,2,59,2,0,1
+jlevy/the-art-of-command-line,535,Fix a typo and spacing words in Korean translation,MERGED,2017-11-22T03:48:50Z,2017-12-31T06:08:05Z,2017-12-31T06:08:05Z,938.3208,1,1,1,0,3,2,1
+jlevy/the-art-of-command-line,530,zh: Update translation,MERGED,2017-10-23T05:42:12Z,2017-11-22T00:41:42Z,2017-11-22T00:41:42Z,714.9917,1,29,11,67,3,4,2

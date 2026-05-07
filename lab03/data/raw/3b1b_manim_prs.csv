@@ -1,0 +1,6 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+3b1b/manim,2432,Dedenting copied code for checkpoint_paste,MERGED,2026-02-27T13:49:27Z,2026-03-26T14:33:15Z,2026-03-26T14:33:15Z,648.73,1,4,0,120,3,1,1
+3b1b/manim,2430,docs: improve installation guide and restructure documentation config…,CLOSED,2026-02-16T17:03:51Z,2026-02-17T01:44:23Z,,8.6756,6,530,398,1100,1,0,1
+3b1b/manim,2374,Minor Fixes for Example Scenes,MERGED,2025-08-04T14:32:51Z,2026-02-10T18:50:50Z,2026-02-10T18:50:50Z,4564.2997,3,8,6,625,3,0,1
+3b1b/manim,2280,Automatically identify the class name based on the specified line number.,MERGED,2024-12-16T10:28:40Z,2024-12-28T15:18:33Z,2024-12-28T15:18:33Z,292.8314,5,28,14,784,4,4,7
+3b1b/manim,2278,Have autoreload update shell namespace with reloaded module variables,MERGED,2024-12-13T19:05:07Z,2024-12-13T21:23:50Z,2024-12-13T21:23:50Z,2.3119,2,7,4,383,2,2,1

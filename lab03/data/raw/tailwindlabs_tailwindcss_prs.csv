@@ -1,0 +1,38 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+tailwindlabs/tailwindcss,20001,docs: add tailwind note v4,CLOSED,2026-05-02T02:43:15Z,2026-05-02T08:59:18Z,,6.2675,1,3,0,18,2,1,1
+tailwindlabs/tailwindcss,19998,Update enhanced-resolve 5.20.1 → 5.21.0 (minor),MERGED,2026-04-30T17:40:36Z,2026-05-01T11:29:19Z,2026-05-01T11:29:19Z,17.8119,5,38,17,8270,1,2,1
+tailwindlabs/tailwindcss,19989,Support `--default(…)` in `--value(…)` and `--modifier(…)` to support fallback values,MERGED,2026-04-28T23:17:06Z,2026-05-04T15:03:00Z,2026-05-04T15:03:00Z,135.765,3,151,20,2722,1,2,1
+tailwindlabs/tailwindcss,19981,Add scrollbar-width and scrollbar-color utilities,MERGED,2026-04-25T20:33:29Z,2026-05-04T15:16:51Z,2026-05-04T15:16:51Z,210.7228,5,444,1,2124,4,3,5
+tailwindlabs/tailwindcss,19980,Fall back to the plugin `base` when PostCSS has no `from` option,MERGED,2026-04-25T17:49:24Z,2026-04-26T13:45:39Z,2026-04-26T13:45:39Z,19.9375,3,12,1,1647,2,1,3
+tailwindlabs/tailwindcss,19971,Update @emnapi/runtime 1.8.1 → 1.9.2 (minor),CLOSED,2026-04-24T20:00:32Z,2026-04-26T15:49:08Z,,43.81,2,19,12,10331,0,2,1
+tailwindlabs/tailwindcss,19968,Update postcss 8.5.6 → 8.5.9 (patch),CLOSED,2026-04-24T16:25:38Z,2026-04-24T19:21:15Z,,2.9269,2,54,32,7311,0,2,1
+tailwindlabs/tailwindcss,19967,🚨 [security] Update postcss 8.5.6 → 8.5.10 (patch),CLOSED,2026-04-24T16:08:25Z,2026-04-24T19:21:15Z,,3.2139,2,57,35,13322,0,2,1
+tailwindlabs/tailwindcss,19966,fix(@tailwindcss/vite): include @variant in feature detection,MERGED,2026-04-24T11:47:12Z,2026-04-24T14:11:49Z,2026-04-24T14:11:49Z,2.4103,2,6,1,742,2,1,2
+tailwindlabs/tailwindcss,19957,Bump dependencies,MERGED,2026-04-23T12:34:28Z,2026-04-24T19:21:12Z,2026-04-24T19:21:12Z,30.7789,16,718,1305,361,1,1,5
+tailwindlabs/tailwindcss,19952,🚨 [security] Update next 16.2.2 → 16.2.4 (patch),CLOSED,2026-04-22T22:55:37Z,2026-04-23T10:51:22Z,,11.9292,3,45,45,11531,0,2,1
+tailwindlabs/tailwindcss,19949,fix(vite): avoid resolving JS plugins to browser CSS entries,MERGED,2026-04-21T16:04:32Z,2026-04-22T15:25:02Z,2026-04-22T15:25:02Z,23.3417,3,253,2,2152,4,4,3
+tailwindlabs/tailwindcss,19938,docs(postcss): remove duplicated optimize example from README,MERGED,2026-04-18T07:45:43Z,2026-04-20T15:22:34Z,2026-04-20T15:22:34Z,55.6142,1,0,14,1162,2,2,1
+tailwindlabs/tailwindcss,19918,[@tailwindcss/upgrade] Don’t migrate inline style properties,MERGED,2026-04-08T00:59:02Z,2026-04-29T13:18:02Z,2026-04-29T13:18:02Z,516.3167,3,139,17,198,3,3,3
+tailwindlabs/tailwindcss,19913,docs/fix-lightning-css-typo-postcss-readme,MERGED,2026-04-07T02:53:53Z,2026-04-07T09:31:10Z,2026-04-07T09:31:10Z,6.6214,1,1,1,1108,2,2,1
+tailwindlabs/tailwindcss,19909,fix: add parameterized queries in index.ts...,CLOSED,2026-04-06T05:42:38Z,2026-04-06T09:26:53Z,,3.7375,1,1,1,791,2,1,1
+tailwindlabs/tailwindcss,19897,Update globby 15.0.0 → 16.2.0 (major),CLOSED,2026-04-03T17:44:34Z,2026-04-24T19:21:14Z,,505.6111,2,33,18,11707,1,2,1
+tailwindlabs/tailwindcss,19891,"Bump pnpm, and ensure packages are 7 days old",CLOSED,2026-04-02T13:15:27Z,2026-04-20T15:51:09Z,,434.595,12,390,275,215,2,1,3
+tailwindlabs/tailwindcss,19884,feat: allow using @variant with stacked variants,CLOSED,2026-03-31T21:33:46Z,2026-04-30T10:19:46Z,,708.7667,2,301,11,1432,3,2,2
+tailwindlabs/tailwindcss,19879,fix(oxide): simplify @source pattern handling and ensure gitignore negation,CLOSED,2026-03-30T22:13:00Z,2026-04-03T09:49:22Z,,83.6061,2,10,21,340,2,2,1
+tailwindlabs/tailwindcss,19878,docs: fix various typos in comments and documentation,MERGED,2026-03-30T20:18:41Z,2026-04-29T13:28:40Z,2026-04-29T13:28:40Z,713.1664,5,11,11,100,2,1,1
+tailwindlabs/tailwindcss,19870,docs: Add Chinese README,CLOSED,2026-03-29T12:13:53Z,2026-03-30T09:07:04Z,,20.8864,1,22,0,46,2,2,1
+tailwindlabs/tailwindcss,19867,Update eslint 9.39.2 → 10.1.0 (major),CLOSED,2026-03-27T15:41:23Z,2026-04-03T19:07:28Z,,171.4347,3,192,226,3132,0,1,1
+tailwindlabs/tailwindcss,19864,Update index.css,CLOSED,2026-03-27T02:38:21Z,2026-03-27T08:56:44Z,,6.3064,1,95,4,1077,2,1,1
+tailwindlabs/tailwindcss,19862,Use `json` preprocessor for new-line delimited JSON files,MERGED,2026-03-26T16:32:48Z,2026-03-26T22:42:03Z,2026-03-26T22:42:03Z,6.1542,2,2,1,950,2,1,2
+tailwindlabs/tailwindcss,19846,Make upgrade tooling more stable,MERGED,2026-03-24T12:05:53Z,2026-03-24T16:24:13Z,2026-03-24T16:24:13Z,4.3056,9,512,24,6715,2,2,2
+tailwindlabs/tailwindcss,19837,fix(canonicalize): collapse arbitrary values into shorthand utilities,MERGED,2026-03-22T00:35:51Z,2026-03-23T10:32:25Z,2026-03-23T10:32:25Z,33.9428,3,33,4,929,2,2,2
+tailwindlabs/tailwindcss,19829,Fix crash due to invalid characters in candidate,MERGED,2026-03-20T12:42:01Z,2026-03-20T13:51:38Z,2026-03-20T13:51:37Z,1.16,4,38,3,2197,1,1,1
+tailwindlabs/tailwindcss,19826,Update @vitejs/plugin-react 5.1.3 → 5.2.0 (minor),MERGED,2026-03-19T14:40:49Z,2026-04-03T19:28:21Z,2026-04-03T19:28:21Z,364.7922,2,26,11,2469,1,3,1
+tailwindlabs/tailwindcss,19814,Kristentr,CLOSED,2026-03-17T12:59:48Z,2026-03-17T15:51:39Z,,2.8642,1,1,0,909,2,1,1
+tailwindlabs/tailwindcss,19813,Main,CLOSED,2026-03-17T12:58:13Z,2026-03-17T15:51:23Z,,2.8861,9,325,6,909,2,1,1
+tailwindlabs/tailwindcss,19811,update,CLOSED,2026-03-17T04:26:09Z,2026-03-17T08:37:41Z,,4.1922,9,325,6,909,2,2,1
+tailwindlabs/tailwindcss,19806,Kristentr,CLOSED,2026-03-16T05:13:58Z,2026-03-16T08:36:12Z,,3.3706,1,1,0,909,2,1,1
+tailwindlabs/tailwindcss,19805,fix: improve code quality with type annotations and error handling,CLOSED,2026-03-15T21:57:46Z,2026-03-16T10:32:40Z,,12.5817,3,14,4,118,2,2,1
+tailwindlabs/tailwindcss,19803,fix(vite): resolve tsconfig paths in CSS and JS resolvers,MERGED,2026-03-15T09:29:32Z,2026-03-20T15:19:18Z,2026-03-20T15:19:18Z,125.8294,3,177,5,398,2,3,2
+tailwindlabs/tailwindcss,19797,fix: remove unused braces dependencies,MERGED,2026-03-14T07:03:33Z,2026-03-15T21:10:54Z,2026-03-15T21:10:54Z,38.1225,2,0,13,106,2,1,1
+tailwindlabs/tailwindcss,19796,Add `--stream` flag to `canonicalize` subcommand,MERGED,2026-03-14T04:48:15Z,2026-03-16T15:00:12Z,2026-03-16T15:00:12Z,58.1992,2,170,26,917,2,4,1

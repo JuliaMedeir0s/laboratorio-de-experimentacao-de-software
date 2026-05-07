@@ -1,0 +1,48 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+gin-gonic/gin,4576,refactor(test): use the built-in max/min to simplify the code,MERGED,2026-03-11T08:37:46Z,2026-03-13T14:42:00Z,2026-03-13T14:42:00Z,54.0706,1,1,4,577,2,1,1
+gin-gonic/gin,4571,test(engine): add regression tests for HandleContext with NoRoute,MERGED,2026-03-07T11:29:41Z,2026-03-16T12:50:00Z,2026-03-16T12:50:00Z,217.3386,1,72,0,912,2,1,1
+gin-gonic/gin,4557,chore(deps): bump aquasecurity/trivy-action from 0.34.1 to 0.34.2 in the actions group,MERGED,2026-03-02T23:53:22Z,2026-03-04T06:10:36Z,2026-03-04T06:10:36Z,30.2872,1,2,2,5653,1,0,1
+gin-gonic/gin,4550,ci: update Go version support to 1.25+ across CI and docs,MERGED,2026-02-28T08:21:34Z,2026-02-28T09:37:02Z,2026-02-28T09:37:02Z,1.2578,4,5,5,128,2,1,1
+gin-gonic/gin,4549,chore(binding): upgrade bson dependency to mongo-driver v2,MERGED,2026-02-26T03:40:45Z,2026-02-27T15:20:01Z,2026-02-27T15:20:01Z,35.6544,7,8,8,446,2,1,1
+gin-gonic/gin,4548,chore(deps): bump golang.org/x/net from 0.50.0 to 0.51.0,MERGED,2026-02-25T22:32:37Z,2026-02-28T08:18:13Z,2026-02-28T08:18:13Z,57.76,2,4,6,1745,1,0,1
+gin-gonic/gin,4547,logger: allow skipping query string output,MERGED,2026-02-24T05:38:50Z,2026-02-27T15:33:47Z,2026-02-27T15:33:47Z,81.9158,3,35,1,945,2,2,1
+gin-gonic/gin,4546,chore(deps): bump goreleaser/goreleaser-action from 6 to 7 in the actions group,MERGED,2026-02-23T23:34:34Z,2026-02-27T15:18:28Z,2026-02-27T15:18:28Z,87.7317,1,1,1,11609,1,0,1
+gin-gonic/gin,4544,chore(deps): bump aquasecurity/trivy-action from 0.34.0 to 0.34.1 in the actions group,MERGED,2026-02-20T22:32:35Z,2026-02-21T14:33:31Z,2026-02-21T14:33:31Z,16.0156,1,2,2,3340,1,0,1
+gin-gonic/gin,4542,test(context): use http.StatusContinue constant instead of magic number 100,MERGED,2026-02-18T17:36:39Z,2026-02-28T02:13:12Z,2026-02-28T02:13:11Z,224.6089,4,51,8,161,3,1,2
+gin-gonic/gin,4541,test(render): add comprehensive error handling tests,MERGED,2026-02-18T17:00:22Z,2026-02-28T02:11:57Z,2026-02-28T02:11:57Z,225.1931,1,126,20,1383,3,1,2
+gin-gonic/gin,4539,chore(deps): bump github.com/bytedance/sonic from 1.14.2 to 1.15.0,MERGED,2026-02-16T22:32:33Z,2026-02-17T16:39:41Z,2026-02-17T16:39:41Z,18.1189,2,6,6,4291,1,0,1
+gin-gonic/gin,4538,chore(deps): bump golang.org/x/net from 0.49.0 to 0.50.0,MERGED,2026-02-16T22:32:27Z,2026-02-17T16:40:02Z,2026-02-17T16:40:02Z,18.1264,2,12,12,3609,1,0,1
+gin-gonic/gin,4537,test(render): add comprehensive tests for MsgPack render,MERGED,2026-02-16T11:21:05Z,2026-02-17T16:38:37Z,2026-02-17T16:38:36Z,29.2919,1,46,10,503,2,1,1
+gin-gonic/gin,4535,fix(tree): panic in findCaseInsensitivePathRec with RedirectFixedPath,MERGED,2026-02-14T10:43:52Z,2026-02-28T03:15:27Z,2026-02-28T03:15:27Z,328.5264,2,159,1,1309,3,2,6
+gin-gonic/gin,4534,chore(deps): bump aquasecurity/trivy-action from 0.33.1 to 0.34.0 in the actions group,MERGED,2026-02-13T22:32:33Z,2026-02-15T02:58:17Z,2026-02-15T02:58:17Z,28.4289,1,2,2,6111,1,0,1
+gin-gonic/gin,4533,chore(deps): bump go.mongodb.org/mongo-driver from 1.17.7 to 1.17.9,MERGED,2026-02-13T22:32:25Z,2026-02-15T02:57:27Z,2026-02-15T02:57:27Z,28.4172,2,3,3,6914,1,0,1
+gin-gonic/gin,4532,chore(deps): bump github.com/quic-go/quic-go from 0.57.1 to 0.59.0,MERGED,2026-02-13T22:32:19Z,2026-02-15T02:57:06Z,2026-02-15T02:57:06Z,28.4131,2,3,5,11741,1,0,1
+gin-gonic/gin,4531,ci: update CI workflows and standardize Trivy config quotes,MERGED,2026-02-13T05:45:30Z,2026-02-21T14:32:32Z,2026-02-21T14:32:32Z,200.7839,2,16,16,199,2,0,1
+gin-gonic/gin,4529,refactor: replace magic numbers with named constants in bodyAllowedForStatus,MERGED,2026-02-08T20:38:23Z,2026-02-13T05:55:19Z,2026-02-13T05:55:23Z,105.2833,1,1,1,559,2,1,1
+gin-gonic/gin,4528,refactor(context): use http.StatusContinue constant instead of magic number 100,CLOSED,2026-02-06T12:14:32Z,2026-02-18T16:33:07Z,,292.3097,7,197,0,159,3,3,1
+gin-gonic/gin,4511,"fix: Correct typos, improve documentation clarity, and remove dead code",MERGED,2026-02-04T07:48:18Z,2026-02-13T05:54:14Z,2026-02-13T05:54:14Z,214.0989,5,19,21,1495,2,2,1
+gin-gonic/gin,4509,chore(deps): bump github.com/go-playground/validator/v10 from 10.28.0 to 10.30.1,MERGED,2026-01-26T23:41:12Z,2026-02-21T14:39:56Z,2026-02-21T14:39:56Z,614.9789,2,6,6,13339,1,0,2
+gin-gonic/gin,4508,chore(deps): bump golang.org/x/net from 0.47.0 to 0.49.0,MERGED,2026-01-26T23:41:03Z,2026-02-13T05:56:24Z,2026-02-13T05:56:24Z,414.2558,2,12,12,3995,1,0,1
+gin-gonic/gin,4507,chore(deps): bump github.com/goccy/go-yaml from 1.19.1 to 1.19.2,MERGED,2026-01-26T23:40:54Z,2026-02-13T05:56:40Z,2026-02-13T05:56:40Z,414.2628,2,3,3,3344,1,0,1
+gin-gonic/gin,4502,chore(context): add GetError and GetErrorSlice methods,MERGED,2026-01-21T03:26:50Z,2026-01-24T09:54:37Z,2026-01-24T09:54:37Z,78.4631,2,26,0,1921,2,3,1
+gin-gonic/gin,4491,render: add PDF renderer and tests,MERGED,2026-01-04T14:08:41Z,2026-02-28T13:04:54Z,2026-02-28T13:04:54Z,1318.9369,5,76,0,193,4,3,6
+gin-gonic/gin,4481,refactor(context): replace hardcoded localhost IPs with constants,MERGED,2025-12-26T14:05:45Z,2025-12-27T11:25:17Z,2025-12-27T11:25:17Z,21.3256,3,9,3,1103,3,4,1
+gin-gonic/gin,4479,chore(response): prevent Flush() panic when `http.Flusher`,MERGED,2025-12-23T01:35:10Z,2025-12-24T10:35:20Z,2025-12-24T10:35:20Z,33.0028,1,3,1,363,2,1,1
+gin-gonic/gin,4476,chore(deps): bump github.com/goccy/go-yaml from 1.19.0 to 1.19.1,MERGED,2025-12-17T22:02:11Z,2026-01-24T09:55:09Z,2026-01-24T09:55:09Z,899.8828,2,3,3,3566,1,0,1
+gin-gonic/gin,4472,fix(context): ClientIP handling for multiple X-Forwarded-For header values,MERGED,2025-12-13T11:12:31Z,2026-01-02T02:15:27Z,2026-01-02T02:15:27Z,471.0489,2,33,1,991,4,10,4
+gin-gonic/gin,4469,chore(deps): bump actions/cache from 4 to 5 in the actions group,MERGED,2025-12-11T22:02:10Z,2025-12-24T10:33:46Z,2025-12-24T10:33:46Z,300.5267,1,1,1,10794,1,0,1
+gin-gonic/gin,4466,perf(recovery): optimize line reading in stack function,MERGED,2025-12-09T14:32:24Z,2025-12-12T05:42:03Z,2025-12-12T05:42:03Z,63.1608,2,89,30,956,2,5,1
+gin-gonic/gin,4458,chore(deps): bump github.com/goccy/go-yaml from 1.18.0 to 1.19.0,MERGED,2025-12-02T02:22:01Z,2025-12-02T12:09:41Z,2025-12-02T12:09:41Z,9.7944,2,3,3,6375,1,0,1
+gin-gonic/gin,4454,test(bytesconv): add tests for empty/nil cases,MERGED,2025-11-29T06:00:02Z,2025-11-30T07:25:46Z,2025-11-30T07:25:46Z,25.4289,1,19,0,286,2,1,1
+gin-gonic/gin,4453,test(gin): resolve race conditions in integration tests,MERGED,2025-11-28T06:59:14Z,2025-11-30T07:38:08Z,2025-11-30T07:38:08Z,48.6483,3,65,10,3696,2,1,1
+gin-gonic/gin,4446,chore(deps): bump actions/checkout from 5 to 6 in the actions group,MERGED,2025-11-20T22:02:27Z,2025-11-26T15:33:08Z,2025-11-26T15:33:08Z,137.5114,4,5,5,12146,1,0,1
+gin-gonic/gin,4442,test: Add comprehensive test coverage for ginS package,MERGED,2025-11-19T09:22:23Z,2025-11-27T15:01:57Z,2025-11-27T15:01:57Z,197.6594,1,246,0,787,2,2,5
+gin-gonic/gin,4438,Fix SSE field formatting to comply with W3C specification,CLOSED,2025-11-15T15:06:35Z,2025-11-16T01:23:15Z,,10.2778,2175,1016287,3,3463,3,0,1
+gin-gonic/gin,4433,chore(deps): bump golang.org/x/net from 0.46.0 to 0.47.0,MERGED,2025-11-11T22:02:18Z,2025-11-15T04:42:25Z,2025-11-15T04:42:25Z,78.6686,2,12,12,3952,1,0,1
+gin-gonic/gin,4432,refactor(benchmark): use b.Loop() to simplify the code,MERGED,2025-11-11T07:29:05Z,2025-11-15T11:22:19Z,2025-11-15T11:22:19Z,99.8872,4,7,8,1498,2,1,1
+gin-gonic/gin,4431,chore(deps): bump golangci/golangci-lint-action from 8 to 9 in the actions group,MERGED,2025-11-10T22:03:22Z,2025-11-15T04:32:24Z,2025-11-15T04:32:24Z,102.4839,1,1,1,6493,1,0,1
+gin-gonic/gin,4430,chore(deps): bump github.com/quic-go/quic-go from 0.55.0 to 0.56.0,MERGED,2025-11-10T22:02:19Z,2025-11-15T04:32:48Z,2025-11-15T04:32:48Z,102.5081,2,15,13,15240,1,0,1
+gin-gonic/gin,4428,docs(context): add example comments for ShouldBind* methods,MERGED,2025-11-08T06:07:07Z,2025-11-15T11:46:45Z,2025-11-15T11:46:45Z,173.6606,1,30,0,381,2,1,1
+gin-gonic/gin,4425,chore(deps): bump github/codeql-action from 3 to 4 in the actions group,MERGED,2025-11-06T22:02:07Z,2025-11-07T03:57:41Z,2025-11-07T03:57:41Z,5.9261,1,1,1,13505,1,0,1
+gin-gonic/gin,4423,feat(context): add Protocol Buffers support to content negotiation,MERGED,2025-11-06T12:09:37Z,2025-11-07T03:59:58Z,2025-11-07T03:59:58Z,15.8392,2,40,8,152,2,1,1
+gin-gonic/gin,4422,fix(gin): close os.File in RunFd to prevent resource leak,MERGED,2025-11-06T11:31:58Z,2025-11-07T04:01:19Z,2025-11-07T04:01:19Z,16.4892,1,1,0,231,2,2,1

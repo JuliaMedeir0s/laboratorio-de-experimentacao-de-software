@@ -1,0 +1,30 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+astral-sh/uv,19287,Increase the timeout for crates.io publishes,MERGED,2026-05-05T14:37:58Z,2026-05-05T17:09:47Z,2026-05-05T17:09:47Z,2.5303,1,6,1,47,3,1,1
+astral-sh/uv,19253,Update Rust crate webpki to v0.103.13,MERGED,2026-05-04T01:35:46Z,2026-05-04T18:25:53Z,2026-05-04T18:25:53Z,16.8353,1,2,2,1096,1,0,1
+astral-sh/uv,19245,Move `UV_RUN_MAX_RECURSION_DEPTH` parsing to `EnvironmentOptions`,CLOSED,2026-05-03T08:14:15Z,2026-05-03T19:05:13Z,,10.8494,5,59,5,423,2,1,1
+astral-sh/uv,19229,Handle incorrect unlock error in `LockedFile::drop` on Wine,MERGED,2026-04-30T20:08:38Z,2026-04-30T23:20:55Z,2026-04-30T23:20:55Z,3.2047,1,20,7,51,3,0,1
+astral-sh/uv,19218,Refactor query parameter redaction,MERGED,2026-04-29T19:14:44Z,2026-04-30T15:38:07Z,2026-04-30T15:38:07Z,20.3897,1,74,46,187,3,3,4
+astral-sh/uv,19214,Add an integration test for Wine,MERGED,2026-04-29T18:08:07Z,2026-04-30T15:57:39Z,2026-04-30T15:57:39Z,21.8256,1,34,0,135,2,3,1
+astral-sh/uv,19213,Use symlinks instead of junctions on Wine,MERGED,2026-04-29T17:57:25Z,2026-04-30T14:02:07Z,2026-04-30T14:02:07Z,20.0783,8,169,35,255,3,1,3
+astral-sh/uv,19209,docs: Add 'Exporting lockfiles' to the Concepts->Projects index,MERGED,2026-04-29T12:31:49Z,2026-04-29T18:03:33Z,2026-04-29T18:03:33Z,5.5289,1,1,0,90,3,2,1
+astral-sh/uv,19201,Remove our dependency on nanoid,MERGED,2026-04-28T18:12:19Z,2026-04-29T15:56:44Z,2026-04-29T15:56:44Z,21.7403,8,253,20,1629,4,7,4
+astral-sh/uv,19199,"trampolines: Don't set PYTHONHOME, set __PYVENV_LAUNCHER__ only in venvs",MERGED,2026-04-27T23:05:56Z,2026-04-29T17:24:35Z,2026-04-29T17:24:35Z,42.3108,9,11,44,2339,2,1,1
+astral-sh/uv,19195,Bump astral-tokio-tar to 0.6.1,MERGED,2026-04-27T18:25:00Z,2026-04-27T19:27:44Z,2026-04-27T19:27:44Z,1.0456,2,3,3,102,2,0,1
+astral-sh/uv,19192,Bump mimalloc crate to 0.1.50 while keeping v2,MERGED,2026-04-27T16:46:45Z,2026-04-28T15:28:22Z,2026-04-28T15:28:22Z,22.6936,2,5,6,205,2,0,1
+astral-sh/uv,19183,docs: Clarify that `uv init` creates git files/folders in projects guide,MERGED,2026-04-27T10:01:32Z,2026-04-27T14:30:33Z,2026-04-27T14:30:33Z,4.4836,2,9,6,438,2,1,3
+astral-sh/uv,19173,Update zizmorcore/zizmor-action action to v0.5.3,MERGED,2026-04-27T00:47:25Z,2026-04-27T14:35:37Z,2026-04-27T14:35:37Z,13.8033,1,1,1,1646,1,0,1
+astral-sh/uv,19172,Update taiki-e/install-action action to v2.75.22,MERGED,2026-04-27T00:47:18Z,2026-05-03T11:09:47Z,2026-05-03T11:09:47Z,154.3747,4,8,8,57997,1,0,1
+astral-sh/uv,19171,Update Rust crate webpki-root-certs to v1.0.7,MERGED,2026-04-27T00:47:06Z,2026-04-27T13:35:16Z,2026-04-27T13:35:16Z,12.8028,1,2,2,1107,1,1,1
+astral-sh/uv,19157,Generalize detected FP environment handling on ARMv7,MERGED,2026-04-26T00:53:14Z,2026-04-27T15:58:11Z,2026-04-27T15:58:11Z,39.0825,3,64,9,1012,4,1,10
+astral-sh/uv,19154,Fix URL prefix matching to require path boundaries,MERGED,2026-04-25T22:04:12Z,2026-05-04T21:54:53Z,2026-05-04T21:54:52Z,215.8444,3,156,15,691,2,0,5
+astral-sh/uv,19149,Allow `apply-ci-snapshots.sh review` without ID,MERGED,2026-04-24T22:56:36Z,2026-04-29T20:02:25Z,2026-04-29T20:02:25Z,117.0969,1,14,6,234,2,1,1
+astral-sh/uv,19146,Redact pre-signed upload URLs in verbose output,MERGED,2026-04-24T17:41:48Z,2026-04-24T23:48:55Z,2026-04-24T23:48:55Z,6.1186,2,167,7,577,3,0,5
+astral-sh/uv,19141,Correct file extension from '.cer' to '.cert',CLOSED,2026-04-24T09:05:35Z,2026-04-24T15:07:04Z,,6.0247,1,1,1,440,2,1,1
+astral-sh/uv,19139,Fix duplicated `eabihf` suffix in ARMv7 platform triples,CLOSED,2026-04-24T02:59:15Z,2026-04-27T15:58:13Z,,84.9828,1,61,8,511,2,3,1
+astral-sh/uv,19134,Allow `scripts/build-trampolines.sh` to try podman when it's available,MERGED,2026-04-23T19:02:59Z,2026-04-23T21:36:46Z,2026-04-23T21:36:46Z,2.5631,2,7,3,234,2,0,6
+astral-sh/uv,19132,Drop whoami dependency,MERGED,2026-04-23T18:38:11Z,2026-04-23T20:26:40Z,2026-04-23T20:26:40Z,1.8081,4,1,44,308,3,0,2
+astral-sh/uv,19131,Add rust-toolchain.toml to uv-build sdist,MERGED,2026-04-23T18:32:15Z,2026-04-23T19:40:07Z,2026-04-23T19:40:07Z,1.1311,3,4,1,136,3,0,2
+astral-sh/uv,19130,uv-build: fixup classifiers,MERGED,2026-04-23T18:25:25Z,2026-04-23T21:18:42Z,2026-04-23T21:18:42Z,2.8881,1,1,2,124,3,4,1
+astral-sh/uv,19128,uv audit: adverse status reporting,MERGED,2026-04-23T15:58:03Z,2026-04-29T19:35:49Z,2026-04-29T19:35:49Z,147.6294,11,728,60,608,2,1,10
+astral-sh/uv,19123,fix(trampoline): don't set PYTHONHOME for venv trampolines,CLOSED,2026-04-23T07:46:34Z,2026-04-28T00:17:43Z,,112.5192,1,12,1,1773,5,7,1
+astral-sh/uv,19114,Prevent uninstalling site-packages for empty `top_level.txt` in `.egg-info`,MERGED,2026-04-22T11:28:04Z,2026-05-04T21:59:15Z,2026-05-04T21:59:15Z,298.5197,1,121,2,1101,2,2,1

@@ -1,0 +1,79 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+denoland/deno,33860,perf(libs/core): drop libuv-style partial-read break to fix node:http p99,MERGED,2026-05-05T17:36:44Z,2026-05-06T00:09:02Z,2026-05-06T00:09:02Z,6.5383,1,48,13,2498,3,1,3
+denoland/deno,33854,fix(watch): apply `--watch-exclude` filter to file change events,MERGED,2026-05-05T10:41:31Z,2026-05-05T13:23:58Z,2026-05-05T13:23:58Z,2.7075,2,99,3,900,2,0,2
+denoland/deno,33849,feat(ext/node): implement module.register() API,MERGED,2026-05-05T07:30:33Z,2026-05-05T13:59:43Z,2026-05-05T13:59:43Z,6.4861,23,464,29,1553,2,0,4
+denoland/deno,33845,perf(http): directly dispatch into js request handler,MERGED,2026-05-04T23:14:09Z,2026-05-05T07:34:53Z,2026-05-05T07:34:53Z,8.3456,4,201,132,1026,2,0,1
+denoland/deno,33844,perf(http): avoid ReadableStream when full body already buffered,MERGED,2026-05-04T21:51:09Z,2026-05-04T22:54:59Z,2026-05-04T22:54:59Z,1.0639,5,156,7,1305,2,1,1
+denoland/deno,33839,"chore: bump dprint-plugin-typescript to 0.96.0, remove deno-fmt-ignore-file",MERGED,2026-05-04T18:16:18Z,2026-05-05T05:34:32Z,2026-05-05T05:34:32Z,11.3039,81,255,266,887,2,0,1
+denoland/deno,33836,fix(ext/node): handle connectionsCheckingInterval option and send 408 for request timeout,MERGED,2026-05-04T17:32:26Z,2026-05-05T17:21:11Z,2026-05-05T17:21:11Z,23.8125,2,21,1,204,3,0,2
+denoland/deno,33831,fix(ext/node): pass URL to kOnHeadersComplete when request has no headers,MERGED,2026-05-04T13:47:04Z,2026-05-04T18:05:00Z,2026-05-04T18:05:00Z,4.2989,2,9,11,132,3,0,1
+denoland/deno,33823,feat: include node lib by default and use NodeJS.Timeout for timers,MERGED,2026-05-04T11:46:06Z,2026-05-04T15:42:57Z,2026-05-04T15:42:57Z,3.9475,14,57,23,913,2,0,2
+denoland/deno,33819,fix(ext/node): emit DEP0192 deprecation warning when _tls_common is required,MERGED,2026-05-04T10:05:35Z,2026-05-04T12:44:57Z,2026-05-04T12:44:57Z,2.6561,3,9,1,164,3,1,2
+denoland/deno,33818,perf(ext): convert ext/kv and ext/webgpu JS sources to lazy-loaded scripts,MERGED,2026-05-04T09:01:17Z,2026-05-04T10:23:49Z,2026-05-04T10:23:49Z,1.3756,8,20,14,712,2,0,1
+denoland/deno,33817,perf(ext): convert ext/process and ext/http JS sources to lazy-loaded scripts,MERGED,2026-05-04T07:21:10Z,2026-05-04T08:53:53Z,2026-05-04T08:53:53Z,1.5453,10,68,45,745,2,0,1
+denoland/deno,33816,fix(npm): resolve catalog: overrides from workspaces object form,MERGED,2026-05-04T07:11:51Z,2026-05-05T09:21:30Z,2026-05-05T09:21:30Z,26.1608,4,112,15,849,3,5,1
+denoland/deno,33813,fix(ext/node): implement AES Key Wrap and Key Wrap with Padding ciphers,MERGED,2026-05-04T01:09:46Z,2026-05-04T10:39:59Z,2026-05-04T10:39:59Z,9.5036,4,446,22,140,3,1,7
+denoland/deno,33812,fix(ext/node): enable test-crypto-keygen-async-explicit-elliptic-curve,MERGED,2026-05-04T01:09:36Z,2026-05-04T06:02:08Z,2026-05-04T06:02:08Z,4.8756,1,1,0,196,3,0,3
+denoland/deno,33811,fix(ext/node): enable test-crypto-rsa-dsa node compat test with DSA encrypted keys,MERGED,2026-05-03T23:05:16Z,2026-05-04T10:37:02Z,2026-05-04T10:37:02Z,11.5294,10,216,23,138,3,0,4
+denoland/deno,33810,fix(node/crypto): enable test-crypto-sign-verify node compat test,MERGED,2026-05-03T22:49:59Z,2026-05-04T13:21:49Z,2026-05-04T13:21:49Z,14.5306,5,353,38,2037,3,0,4
+denoland/deno,33809,fix(ext/node): support AES-128-ECB cipher for PKCS#8 private key encryption and decryption,MERGED,2026-05-03T21:57:46Z,2026-05-04T14:09:51Z,2026-05-04T14:09:51Z,16.2014,1,230,7,752,3,0,3
+denoland/deno,33808,fix(ext/node): throw correct error for encrypted PEM key in privateDecrypt,MERGED,2026-05-03T21:02:41Z,2026-05-04T00:50:54Z,2026-05-04T00:50:54Z,3.8036,2,17,3,170,3,0,1
+denoland/deno,33807,fix(ext/node): allow explicit paramEncoding for EC key generation,MERGED,2026-05-03T21:02:30Z,2026-05-04T04:19:40Z,2026-05-04T04:19:40Z,7.2861,3,18,9,226,3,0,3
+denoland/deno,33804,fix(node): allow nested package.json main to resolve within package root,CLOSED,2026-05-03T12:49:41Z,2026-05-03T18:20:59Z,,5.5217,11,128,5,1010,3,0,1
+denoland/deno,33803,fix(ext/node): support node:fs APIs on VFS files in deno compile,MERGED,2026-05-03T12:44:18Z,2026-05-05T13:23:21Z,2026-05-05T13:23:21Z,48.6508,6,134,18,1351,2,0,3
+denoland/deno,33802,fix(publish): don't panic on provenance generation in non-GitHub CI,MERGED,2026-05-03T12:35:22Z,2026-05-03T18:04:34Z,2026-05-03T18:04:34Z,5.4867,2,47,33,1178,2,0,2
+denoland/deno,33801,perf(ext): convert ext/telemetry and ext/cron JS sources to lazy-loaded scripts,MERGED,2026-05-03T11:24:03Z,2026-05-03T18:40:29Z,2026-05-03T18:40:29Z,7.2739,10,136,73,949,2,0,2
+denoland/deno,33799,fix(npm): support `catalog:` protocol in overrides,MERGED,2026-05-03T08:07:37Z,2026-05-03T09:40:59Z,2026-05-03T09:40:59Z,1.5561,6,403,81,1106,4,2,2
+denoland/deno,33795,fix(ext/node): handle HTTP/2 flow control,MERGED,2026-05-03T03:24:19Z,2026-05-03T04:56:42Z,2026-05-03T04:56:42Z,1.5397,3,124,20,170,3,0,4
+denoland/deno,33794,fix(ext/node): wire HTTP/2 PING ack callbacks and emit payload buffer,MERGED,2026-05-02T21:01:20Z,2026-05-03T03:52:24Z,2026-05-03T03:52:24Z,6.8511,3,60,10,134,3,1,2
+denoland/deno,33793,fix(node): enable test-http2-server-shutdown-redundant,MERGED,2026-05-02T20:11:55Z,2026-05-03T03:31:44Z,2026-05-03T03:31:44Z,7.3303,2,24,2,172,3,0,2
+denoland/deno,33792,fix(ext/node): unblock fs.open on FIFOs and read pipes correctly in http2 respondWithFile,MERGED,2026-05-02T20:11:45Z,2026-05-03T03:46:34Z,2026-05-03T03:46:34Z,7.5803,2,8,4,166,3,0,2
+denoland/deno,33791,fix(ext/node): wire up http2 per-session maxOutstandingPings flag,MERGED,2026-05-02T20:11:35Z,2026-05-03T08:14:34Z,2026-05-03T08:14:34Z,12.0497,5,89,16,130,3,0,2
+denoland/deno,33790,fix(ext/node): wire http2 maxSettings option to nghttp2_option_set_max_settings,MERGED,2026-05-02T20:11:24Z,2026-05-03T03:30:55Z,2026-05-03T03:30:55Z,7.3253,2,10,7,146,3,0,1
+denoland/deno,33789,test(ext/node): enable parallel/test-http2-client-unescaped-path node compat test,MERGED,2026-05-02T20:11:11Z,2026-05-03T03:56:21Z,2026-05-03T03:56:21Z,7.7528,2,57,0,164,3,1,2
+denoland/deno,33784,perf(ext): convert ext/fetch JS sources to lazy-loaded scripts,MERGED,2026-05-02T14:03:06Z,2026-05-03T08:19:12Z,2026-05-03T08:19:12Z,18.2683,21,124,150,913,2,0,1
+denoland/deno,33782,"fix(ext/node): fix TLS peer certificate multi-value fields, issuer chain, and EC curve names",MERGED,2026-05-02T13:59:03Z,2026-05-03T07:41:55Z,2026-05-03T07:41:55Z,17.7144,4,111,36,1978,2,0,1
+denoland/deno,33780,perf(ext): convert ext/ffi JS source to lazy-loaded script,MERGED,2026-05-02T13:22:35Z,2026-05-03T07:37:59Z,2026-05-03T07:37:59Z,18.2567,3,9,6,288,2,0,1
+denoland/deno,33778,"perf(ext): convert ext/cache, ext/canvas, ext/crypto JS sources to lazy-loaded scripts",MERGED,2026-05-02T12:05:00Z,2026-05-03T10:04:41Z,2026-05-03T10:04:41Z,21.9947,11,40,33,1048,2,0,3
+denoland/deno,33774,fix(ext/node): throw ERR_CRYPTO_HASH_FINALIZED on subsequent Hash.digest() calls,MERGED,2026-05-01T22:21:28Z,2026-05-02T05:42:05Z,2026-05-02T05:42:05Z,7.3436,3,24,6,132,3,0,5
+denoland/deno,33773,fix(ext/node): align scrypt behavior and performance with Node,MERGED,2026-05-01T21:18:37Z,2026-05-02T06:37:07Z,2026-05-02T06:37:07Z,9.3083,5,121,40,136,3,1,3
+denoland/deno,33772,fix(ext/node): set OSSL error codes and key-type checks in stateless diffieHellman,MERGED,2026-05-01T20:15:23Z,2026-05-02T05:42:49Z,2026-05-02T05:42:49Z,9.4572,2,44,11,148,3,0,3
+denoland/deno,33769,fix(ext/node): decrypt legacy Proc-Type/DEK-Info encrypted PEM private keys,MERGED,2026-05-01T18:09:12Z,2026-05-03T08:39:08Z,2026-05-03T08:39:08Z,38.4989,2,20,0,210,3,0,4
+denoland/deno,33767,fix(ext/node): fix module resolution for nested package.json files,MERGED,2026-05-01T14:05:14Z,2026-05-04T13:12:20Z,2026-05-04T13:12:20Z,71.1183,11,128,5,1918,4,1,4
+denoland/deno,33764,fix(ext/node): implement missing node:test APIs,MERGED,2026-05-01T12:34:54Z,2026-05-01T19:27:19Z,2026-05-01T19:27:19Z,6.8736,5,322,40,655,2,0,4
+denoland/deno,33763,feat(ext/node): ESM import() support for module.registerHooks(),MERGED,2026-05-01T11:09:00Z,2026-05-05T08:07:09Z,2026-05-05T08:07:09Z,92.9692,13,546,0,868,3,0,4
+denoland/deno,33762,fix(ext/node): import/export PKCS#8 and legacy encrypted PEM private keys,MERGED,2026-05-01T09:47:54Z,2026-05-03T03:54:19Z,2026-05-03T03:54:19Z,42.1069,3,258,4,190,4,1,5
+denoland/deno,33761,fix(ext/node): pad DH shared secret and fix prime sign byte for stateless diffieHellman,MERGED,2026-05-01T09:47:38Z,2026-05-01T14:53:07Z,2026-05-01T14:53:07Z,5.0914,3,60,11,160,3,0,2
+denoland/deno,33760,perf(ext/web): convert all ext/web JS sources to lazy-loaded scripts,MERGED,2026-05-01T09:32:19Z,2026-05-02T07:57:43Z,2026-05-02T07:57:43Z,22.4233,80,545,395,881,2,0,2
+denoland/deno,33758,fix(ext/node): support PKCS#8 encrypted private key PEM export via PBES2,MERGED,2026-05-01T08:44:09Z,2026-05-01T18:53:18Z,2026-05-01T18:53:17Z,10.1522,3,51,2,220,3,0,1
+denoland/deno,33757,"fix(ext/node): align crypto KeyObject PKCS#8 encryption, JWK input and PSS salt with Node",MERGED,2026-05-01T07:41:14Z,2026-05-04T05:38:26Z,2026-05-04T05:38:26Z,69.9533,6,260,125,1942,4,1,5
+denoland/deno,33756,fix(ext/node): support encrypted PKCS#8 DER private key export and import,MERGED,2026-05-01T07:40:58Z,2026-05-01T15:46:33Z,2026-05-01T15:46:33Z,8.0931,3,114,4,156,3,1,6
+denoland/deno,33755,"fix(ext/node): implement mock.getter, mock.setter, mockImplementation in node:test",MERGED,2026-05-01T06:26:01Z,2026-05-01T08:00:07Z,2026-05-01T08:00:07Z,1.5683,1,208,83,1035,2,0,2
+denoland/deno,33752,fix(ext/node): implement node:cluster on unix,MERGED,2026-04-30T23:33:58Z,2026-05-04T20:57:41Z,2026-05-04T20:57:41Z,93.3953,18,1561,313,66,3,0,4
+denoland/deno,33751,fix(ext/node): implement ECDH validation and DH verifyError,MERGED,2026-04-30T22:59:44Z,2026-05-03T03:43:58Z,2026-05-03T03:43:58Z,52.7372,4,329,77,142,4,1,3
+denoland/deno,33750,fix(ext/node): accept CryptoKey input in createPublicKey/createPrivat…,MERGED,2026-04-30T19:25:59Z,2026-05-04T15:35:56Z,2026-05-04T15:35:56Z,92.1658,2,111,3,3199,3,5,4
+denoland/deno,33749,fix(ext/node): handle unhandled rejections in node:test without crashing runner,MERGED,2026-04-30T19:10:16Z,2026-05-01T07:18:33Z,2026-05-01T07:18:33Z,12.1381,3,180,126,1353,2,0,2
+denoland/deno,33746,fix(update): `deno update --lockfile-only` should not update config,MERGED,2026-04-30T17:33:41Z,2026-05-04T23:01:55Z,2026-05-04T23:01:55Z,101.4706,11,205,32,12,2,0,2
+denoland/deno,33745,fix(ext/node): use proper error codes for tls.TLSSocket.setServername(),MERGED,2026-04-30T16:49:10Z,2026-05-01T10:48:19Z,2026-05-01T10:48:18Z,17.9856,2,31,2,2057,4,3,4
+denoland/deno,33744,fix(ext/node): TLSSocket.setServername throws typed errors,MERGED,2026-04-30T16:35:53Z,2026-05-03T08:12:17Z,2026-05-03T08:12:17Z,63.6067,2,22,2,838,2,0,1
+denoland/deno,33742,fix(ext/node): expose Http2Session and nghttp2ErrorString on http2 internalBinding,MERGED,2026-04-30T11:36:40Z,2026-05-01T03:34:32Z,2026-05-01T03:34:32Z,15.9644,3,5,3,136,2,1,1
+denoland/deno,33741,fix(ext/node): expose http2 test bindings and route pushStream through pushPromise,MERGED,2026-04-30T11:36:26Z,2026-05-04T10:53:34Z,2026-05-04T10:53:34Z,95.2856,4,23,4,172,4,1,3
+denoland/deno,33740,fix(ext/node): emit Protocol error when http2 client connects to non-h2 server,MERGED,2026-04-30T11:36:11Z,2026-05-03T17:21:09Z,2026-05-03T17:21:09Z,77.7494,3,112,0,160,3,2,5
+denoland/deno,33739,feat(core): add `Deno.core.loadExtScript()` for lazy-loaded scripts,MERGED,2026-04-30T11:31:19Z,2026-05-01T06:30:10Z,2026-05-01T06:30:10Z,18.9808,57,396,99,1614,2,0,2
+denoland/deno,33738,test: enable parallel/test-http2-respond-errors.js,MERGED,2026-04-30T10:33:21Z,2026-05-02T06:12:08Z,2026-05-02T06:12:08Z,43.6464,1,1,0,150,3,0,3
+denoland/deno,33737,fix(node/tls): handle detached ArrayBuffer in TLSWrap write methods,MERGED,2026-04-30T10:01:12Z,2026-05-01T06:18:15Z,2026-05-01T06:18:15Z,20.2842,4,96,9,609,3,1,2
+denoland/deno,33736,fix(ext/node): expose Http2Stream and nghttp2ErrorString via internalBinding('http2'),MERGED,2026-04-30T09:30:23Z,2026-05-01T03:36:33Z,2026-05-01T03:36:33Z,18.1028,2,5,4,162,2,1,1
+denoland/deno,33735,fix(core): drain microtasks after inspector polling to avoid 'Promise was collected',MERGED,2026-04-30T09:08:24Z,2026-04-30T20:26:49Z,2026-04-30T20:26:49Z,11.3069,2,96,1,2547,3,3,2
+denoland/deno,33734,perf(ext/web): lazy-init EventTarget listeners table,MERGED,2026-04-30T08:31:58Z,2026-04-30T14:48:43Z,2026-04-30T14:48:43Z,6.2792,1,15,6,2929,3,1,2
+denoland/deno,33733,feat(ext/node): implement module.registerHooks() API for CommonJS,MERGED,2026-04-30T07:05:42Z,2026-05-01T08:37:11Z,2026-05-01T08:37:11Z,25.5247,14,497,1,1234,3,1,3
+denoland/deno,33732,fix(ext/node): expose Http2Session and nghttp2ErrorString on http2 internalBinding,MERGED,2026-04-30T07:05:34Z,2026-05-01T06:18:24Z,2026-05-01T06:18:24Z,23.2139,3,40,8,168,2,0,1
+denoland/deno,33731,fix(ext/node): support undici dispatcher for allowHTTP1 websocket upgrades,MERGED,2026-04-30T07:05:22Z,2026-05-03T05:52:17Z,2026-05-03T05:52:17Z,70.7819,6,163,1,166,3,0,4
+denoland/deno,33730,fix(console): don't trigger proxy get trap for nodejs.util.inspect.custom,MERGED,2026-04-30T06:50:07Z,2026-05-01T15:43:21Z,2026-05-01T15:43:21Z,32.8872,2,46,11,829,2,0,2
+denoland/deno,33729,fix(ext/node): expose Http2Stream and nghttp2ErrorString on http2 internalBinding,MERGED,2026-04-30T06:02:27Z,2026-04-30T14:47:45Z,2026-04-30T14:47:45Z,8.755,5,42,6,166,3,0,2
+denoland/deno,33728,perf(ext/web): structuredClone primitive fast path,MERGED,2026-04-30T05:02:26Z,2026-04-30T11:17:36Z,2026-04-30T11:17:36Z,6.2528,1,17,0,2005,3,2,2
+denoland/deno,33725,fix(ext/node): expose TLS server name (SNI) on server-side TLSSocket via getServername op,MERGED,2026-04-30T02:53:17Z,2026-04-30T04:06:42Z,2026-04-30T04:06:42Z,1.2236,3,26,2,178,3,0,2
+denoland/deno,33721,fix(node:http2): preserve timeout inspect links on proxied session sockets,MERGED,2026-04-29T23:46:13Z,2026-04-30T03:43:44Z,2026-04-30T03:43:44Z,3.9586,4,58,3,146,3,1,3
+denoland/deno,33720,perf(core): SIMD ASCII fast path for op_decode,MERGED,2026-04-29T23:05:13Z,2026-05-05T08:52:02Z,2026-05-05T08:52:02Z,129.7803,1,24,7,2421,4,2,1
+denoland/deno,33718,chore: disable http2 info headers errors case,MERGED,2026-04-29T22:43:23Z,2026-04-30T14:14:29Z,2026-04-30T14:14:29Z,15.5183,1,4,0,160,3,1,3
+denoland/deno,33717,test(node_compat): skip test-http2-util-update-options-buffer (internal state buffers),MERGED,2026-04-29T21:40:20Z,2026-04-30T07:30:47Z,2026-04-30T07:30:46Z,9.8406,1,6,0,174,3,0,4
+denoland/deno,33716,fix(ext/node): bind setImmediate callback this to the Immediate instance,MERGED,2026-04-29T20:56:43Z,2026-04-30T06:45:47Z,2026-04-30T06:45:47Z,9.8178,2,5,1,1188,4,1,4

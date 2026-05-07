@@ -1,0 +1,4 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+vuejs/vue,13216,fixed spelling mistakes,MERGED,2024-10-10T05:25:01Z,2024-10-10T07:24:15Z,2024-10-10T07:24:15Z,1.9872,1,7,7,1275,2,0,1
+vuejs/vue,13192,chore: fix link broken,MERGED,2024-06-14T10:31:23Z,2024-06-14T12:52:12Z,2024-06-14T12:52:12Z,2.3469,1,1,1,1291,2,0,2
+vuejs/vue,13187,Update README.md (browser compatibility reference),MERGED,2024-05-20T11:29:04Z,2024-05-21T07:51:56Z,2024-05-21T07:51:56Z,20.3811,1,1,1,1451,2,0,1

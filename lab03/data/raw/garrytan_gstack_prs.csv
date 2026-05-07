@@ -1,0 +1,2 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+garrytan/gstack,1001,fix(browse): externalize @ngrok/ngrok in Windows Node server bundle,CLOSED,2026-04-14T16:45:29Z,2026-04-16T18:30:25Z,,49.7489,1,4,1,2350,3,1,1

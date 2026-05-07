@@ -1,0 +1,23 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+shadcn-ui/ui,10552,feat(registry): add @stepper registry,MERGED,2026-05-04T02:25:44Z,2026-05-04T15:04:54Z,2026-05-04T15:04:54Z,12.6528,2,14,1,807,2,3,1
+shadcn-ui/ui,10536,feat: add @evilbuttons registry with animated button components,MERGED,2026-04-29T08:37:53Z,2026-04-30T13:02:03Z,2026-04-30T13:02:03Z,28.4028,2,13,0,30,4,4,1
+shadcn-ui/ui,10528,feat(shadcn): alias placeholders in target,MERGED,2026-04-28T07:36:48Z,2026-05-05T10:55:48Z,2026-05-05T10:55:48Z,171.3167,12,662,23,53,2,4,1
+shadcn-ui/ui,10524,fix(shadcn): apply for monorepo,MERGED,2026-04-27T18:03:31Z,2026-04-28T05:52:10Z,2026-04-28T05:52:10Z,11.8108,6,392,33,0,2,1,1
+shadcn-ui/ui,10519,feat: add support for package imports,MERGED,2026-04-27T12:41:28Z,2026-05-05T08:24:22Z,2026-05-05T08:24:22Z,187.715,93,5290,180,77,2,2,1
+shadcn-ui/ui,10506,ci: check signed commits,MERGED,2026-04-27T01:25:37Z,2026-04-27T06:54:04Z,2026-04-27T06:54:04Z,5.4742,1,76,0,79,2,1,1
+shadcn-ui/ui,10498,feat(registry): Add @nordaun registry,CLOSED,2026-04-26T12:59:13Z,2026-04-29T18:08:46Z,,77.1592,2,13,0,518,7,15,1
+shadcn-ui/ui,10491,feat(registry): add @glasscn registry,MERGED,2026-04-25T14:35:43Z,2026-04-26T15:02:24Z,2026-04-26T15:02:23Z,24.4444,2,13,0,1033,2,5,1
+shadcn-ui/ui,10487,feat: add @shieldcn registry,MERGED,2026-04-25T01:30:47Z,2026-04-28T17:30:31Z,2026-04-28T17:30:31Z,87.9956,2,13,0,828,2,4,1
+shadcn-ui/ui,10474,docs(figma): replace Obra Studio entry with Pro edition,MERGED,2026-04-23T17:14:04Z,2026-04-25T07:26:32Z,2026-04-25T07:26:32Z,38.2078,1,1,1,227,2,3,1
+shadcn-ui/ui,10452,fix(v4): add missing sera styles to public schema,MERGED,2026-04-21T09:46:22Z,2026-04-22T05:50:30Z,2026-04-22T05:50:30Z,20.0689,2,37,2,149,3,2,1
+shadcn-ui/ui,10449,Add @xcn registry entry,MERGED,2026-04-20T14:50:33Z,2026-04-21T12:21:23Z,2026-04-21T12:21:23Z,21.5139,2,13,0,613,2,2,1
+shadcn-ui/ui,10445,feat: add Cursor plugin manifest,MERGED,2026-04-20T08:41:25Z,2026-04-21T12:23:46Z,2026-04-21T12:23:46Z,27.7058,1,41,0,35,2,2,1
+shadcn-ui/ui,10440,feat: add @aicanvas registry,MERGED,2026-04-19T20:12:50Z,2026-04-20T08:38:00Z,2026-04-20T08:38:00Z,12.4194,2,13,0,705,2,1,1
+shadcn-ui/ui,10436,fix: ensure git init runs for new projects only,MERGED,2026-04-19T08:55:33Z,2026-04-19T16:49:04Z,2026-04-19T16:49:04Z,7.8919,3,267,4,13,2,2,1
+shadcn-ui/ui,10399,chore(registry): add @exabase registry,MERGED,2026-04-15T03:14:08Z,2026-04-19T16:54:41Z,2026-04-19T16:54:41Z,109.6758,2,13,0,202,2,1,1
+shadcn-ui/ui,10369,fix(templates): add notFoundComponent to start root route,MERGED,2026-04-11T02:34:22Z,2026-04-22T06:56:24Z,2026-04-22T06:56:24Z,268.3672,2,12,0,1538,2,2,1
+shadcn-ui/ui,10337,docs(llms.txt): fix 404 and backfill missing routes,MERGED,2026-04-08T16:14:32Z,2026-04-09T01:13:19Z,2026-04-09T01:13:19Z,8.9797,1,17,2,1508,2,1,1
+shadcn-ui/ui,10313,feat: add apply,MERGED,2026-04-06T19:15:21Z,2026-04-07T17:47:54Z,2026-04-07T17:47:54Z,22.5425,16,1090,50,0,2,1,2
+shadcn-ui/ui,10307,feat(ui): add submit button with loading state support to button comp…,CLOSED,2026-04-06T09:36:48Z,2026-04-08T06:58:09Z,,45.3558,6,2534,3149,465,3,2,2
+shadcn-ui/ui,10303,fix: add base-ui keyword to match GitHub topic,MERGED,2026-04-05T22:30:51Z,2026-04-06T06:41:35Z,2026-04-06T06:41:35Z,8.1789,1,1,0,468,2,1,1
+shadcn-ui/ui,10263,feature: add @flightcn registry,MERGED,2026-04-02T01:15:37Z,2026-04-04T08:52:27Z,2026-04-04T08:52:27Z,55.6139,2,13,0,386,2,1,1

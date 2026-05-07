@@ -1,0 +1,36 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+openai/openai-cookbook,2653,Memory compaction,MERGED,2026-05-01T07:07:36Z,2026-05-04T23:47:02Z,2026-05-04T23:47:02Z,88.6572,5,1003,6,1855,3,1,2
+openai/openai-cookbook,2650,docs(codex): update code review cookbook,MERGED,2026-04-28T17:21:48Z,2026-04-28T20:23:40Z,2026-04-28T20:23:40Z,3.0311,2,200,7,585,3,2,1
+openai/openai-cookbook,2618,Add Computer Use via Agents SDK and Daytona example,MERGED,2026-04-19T18:29:25Z,2026-04-22T16:32:38Z,2026-04-22T16:32:38Z,70.0536,7,1202,0,1829,2,2,1
+openai/openai-cookbook,2610,chatgpt prompt guide,MERGED,2026-04-15T06:39:27Z,2026-04-28T03:34:28Z,2026-04-28T03:34:28Z,308.9169,3,568,2,1679,4,0,6
+openai/openai-cookbook,2590,Fix outdated beta.openai.com URLs in examples and articles,CLOSED,2026-04-06T08:55:47Z,2026-05-04T23:43:10Z,,686.7897,4,6,6,905,1,0,1
+openai/openai-cookbook,2563,Added Bifrost gateway in related_resources.md,CLOSED,2026-03-30T09:54:26Z,2026-05-04T13:49:49Z,,843.9231,1,1,0,1831,1,0,3
+openai/openai-cookbook,2558,[codex] Pin GitHub Actions workflow references,MERGED,2026-03-26T23:46:42Z,2026-04-08T05:13:41Z,2026-04-08T05:13:41Z,293.4497,2,3,3,388,2,0,1
+openai/openai-cookbook,2530,Add free-web-search-ultimate cookbook: real-time web search with no A…,CLOSED,2026-03-18T07:01:30Z,2026-04-07T19:36:18Z,,492.58,3,195,1,1795,1,8,5
+openai/openai-cookbook,2509,Refresh How to parse PDF docs for RAG guidance,CLOSED,2026-03-11T10:46:58Z,2026-03-11T11:50:27Z,,1.0581,1,179,170,3831,1,1,1
+openai/openai-cookbook,2503,Refresh How to handle rate limits guidance,CLOSED,2026-03-10T15:56:57Z,2026-03-11T11:50:22Z,,19.8903,1,196,150,4694,1,0,1
+openai/openai-cookbook,2496,Add 5.4 Vision Cookbook,MERGED,2026-03-06T23:12:55Z,2026-03-07T00:46:55Z,2026-03-07T00:46:55Z,1.5667,9,1004,0,0,3,0,2
+openai/openai-cookbook,2479,Move long horizon cookbook to developers blog,MERGED,2026-03-02T20:31:12Z,2026-03-04T19:53:52Z,2026-03-04T19:53:52Z,47.3778,18,0,229,1877,2,0,1
+openai/openai-cookbook,2478,Tompakeman/realtime evals/results viewer,MERGED,2026-03-02T15:55:38Z,2026-03-03T18:25:56Z,2026-03-03T18:25:56Z,26.505,23,4013,7,518,3,3,2
+openai/openai-cookbook,2471,Tompakeman/realtime evals/types tooling,MERGED,2026-02-27T12:49:44Z,2026-03-02T15:55:55Z,2026-03-02T15:55:55Z,75.1031,31,7632,322,1778,3,0,2
+openai/openai-cookbook,2466,docs: update Codex prompting guide to gpt-5.3-codex and refresh registry metadata,MERGED,2026-02-25T06:44:03Z,2026-02-25T21:04:30Z,2026-02-25T21:04:30Z,14.3408,2,3,2,597,2,0,1
+openai/openai-cookbook,2464,Fix duplicate wording in GPT-Reatime-1.5 model description,MERGED,2026-02-25T01:36:07Z,2026-02-25T06:11:41Z,2026-02-25T06:11:41Z,4.5928,1,2,0,695,2,0,1
+openai/openai-cookbook,2454,Fix Prompt Caching 201 copy edits,MERGED,2026-02-21T09:45:16Z,2026-03-03T17:10:32Z,2026-03-03T17:10:32Z,247.4211,1,192,10,1855,4,2,2
+openai/openai-cookbook,2450,Agentic governance cookbook,MERGED,2026-02-18T19:45:45Z,2026-02-21T05:39:41Z,2026-02-21T05:39:41Z,57.8989,16,5505,0,2908,2,0,3
+openai/openai-cookbook,2448,Codex/prompt caching 201,MERGED,2026-02-18T06:24:34Z,2026-02-18T16:35:19Z,2026-02-18T16:35:19Z,10.1792,6,2565,1,3668,2,0,2
+openai/openai-cookbook,2446,feat: add persistent cognitive memory cookbook with Shodh-Memory,CLOSED,2026-02-16T16:56:05Z,2026-04-28T02:21:07Z,,1689.4172,3,429,0,2224,1,2,1
+openai/openai-cookbook,2428,"Proofread, edit for clarity, and remove some things",MERGED,2026-02-10T15:28:19Z,2026-02-10T17:03:14Z,2026-02-10T17:03:14Z,1.5819,1,105,99,1939,2,0,2
+openai/openai-cookbook,2427,Add Realtime Eval Harness Code section to the guide with links to ref…,MERGED,2026-02-09T18:18:45Z,2026-02-13T15:59:18Z,2026-02-13T15:59:18Z,93.6758,1,13,0,23,2,0,1
+openai/openai-cookbook,2420,Enhance Realtime_eval_guide notebook with improved image formatting a…,MERGED,2026-02-04T05:21:22Z,2026-02-04T15:29:10Z,2026-02-04T15:29:10Z,10.13,3,176,40,2149,2,0,1
+openai/openai-cookbook,2408,Image Evals Cookbook,MERGED,2026-01-30T00:40:01Z,2026-02-03T21:00:33Z,2026-02-03T21:00:33Z,116.3422,25,4842,0,1835,3,2,4
+openai/openai-cookbook,2402,[NEW] RL notebook for 2048 + Unsloth,CLOSED,2026-01-27T12:10:08Z,2026-04-26T02:20:01Z,,2126.1647,1,6967,0,1778,2,3,2
+openai/openai-cookbook,2401,Improved image diagram,MERGED,2026-01-27T04:38:54Z,2026-01-27T15:01:52Z,2026-01-27T15:01:52Z,10.3828,2,7,5,45,3,0,2
+openai/openai-cookbook,2397,Minh/realtime eval guide,MERGED,2026-01-26T14:44:04Z,2026-01-26T17:40:14Z,2026-01-26T17:40:14Z,2.9361,49,3644,1,66,2,0,1
+openai/openai-cookbook,2379,Revert PRs #2377 and #2378,CLOSED,2026-01-14T11:24:37Z,2026-01-14T14:52:28Z,,3.4642,2,12,6,0,1,0,1
+openai/openai-cookbook,2376,Add attribution to other contributors,MERGED,2026-01-14T08:05:24Z,2026-01-14T09:20:04Z,2026-01-14T09:20:04Z,1.2444,1,19,0,1857,2,0,1
+openai/openai-cookbook,2374,codex-prompting-guide-edits,MERGED,2026-01-14T03:31:44Z,2026-01-14T05:43:05Z,2026-01-14T05:43:05Z,2.1892,3,9,197,1681,2,0,3
+openai/openai-cookbook,2371,Fix codex exec plans markdown rendering,MERGED,2026-01-13T15:31:18Z,2026-01-15T12:00:22Z,2026-01-15T12:00:22Z,44.4844,1,40,42,1031,1,2,1
+openai/openai-cookbook,2369,Add Cerebras fact checker cookbook and metadata,MERGED,2026-01-13T10:46:59Z,2026-01-13T16:29:22Z,2026-01-13T16:29:22Z,5.7064,3,1636,0,1198,1,0,1
+openai/openai-cookbook,2365,Adding slug/description fields to schema and registry,MERGED,2026-01-12T22:45:33Z,2026-01-13T00:10:28Z,2026-01-13T00:10:28Z,1.4153,2,312,1,0,2,0,2
+openai/openai-cookbook,2364,Update authors.yaml,CLOSED,2026-01-12T20:07:33Z,2026-01-13T11:04:33Z,,14.95,1,5,0,1831,2,0,1
+openai/openai-cookbook,2363,Update registry.yaml,CLOSED,2026-01-12T19:52:54Z,2026-01-13T11:04:58Z,,15.2011,1,13,0,1729,2,0,2

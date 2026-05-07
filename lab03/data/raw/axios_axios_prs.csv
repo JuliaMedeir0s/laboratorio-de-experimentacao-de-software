@@ -1,0 +1,57 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+axios/axios,10846,chore(deps-dev): bump @commitlint/cli from 20.5.0 to 20.5.2 in the development_dependencies group,MERGED,2026-05-05T10:17:20Z,2026-05-05T18:14:17Z,2026-05-05T18:14:17Z,7.9492,1,65,130,8028,1,1,2
+axios/axios,10838,chore: backport fixes from the v1x branch,MERGED,2026-05-03T12:04:43Z,2026-05-03T16:49:06Z,2026-05-03T16:49:06Z,4.7397,29,1840,266,3021,1,2,2
+axios/axios,10836,Improve GET request example clarity in documentation.,MERGED,2026-05-02T15:21:19Z,2026-05-02T16:27:31Z,2026-05-02T16:27:31Z,1.1033,1,10,2,996,2,0,4
+axios/axios,10833,fix: gadgets and smaller issues,MERGED,2026-05-01T17:21:56Z,2026-05-02T10:41:00Z,2026-05-02T10:40:59Z,17.3175,23,1495,352,3232,1,12,9
+axios/axios,10832,refactor(utils): use WeakSet for cycle detection in toJSONObject,MERGED,2026-04-30T21:29:40Z,2026-05-05T18:05:18Z,2026-05-05T18:05:18Z,116.5939,2,58,7,1937,2,1,3
+axios/axios,10829,fix: update fromDataURI regex to match RFC 2397,MERGED,2026-04-30T08:07:57Z,2026-05-05T17:23:17Z,2026-05-05T17:23:17Z,129.2556,2,93,5,1346,3,2,6
+axios/axios,10828,fix(fromDataURI): accept all RFC 2397-compliant data URIs,CLOSED,2026-04-29T19:44:01Z,2026-05-01T15:49:29Z,,44.0911,1,6,1,3264,2,1,1
+axios/axios,10825,fix(http): decode URL basic auth credentials,MERGED,2026-04-29T15:05:01Z,2026-04-30T16:49:57Z,2026-04-30T16:49:57Z,25.7489,2,56,2,1633,2,0,2
+axios/axios,10823,fix: axios uses deep merge utilities in lib/core/mer... in...,CLOSED,2026-04-29T06:01:59Z,2026-04-30T16:33:11Z,,34.52,1,3,0,2273,2,1,1
+axios/axios,10822,fix(http): preserve user-supplied Host header when forwarding through a proxy (#10805),MERGED,2026-04-29T00:03:22Z,2026-04-30T16:33:34Z,2026-04-30T16:33:34Z,40.5033,3,76,1,2817,2,1,2
+axios/axios,10821,docs: document paramsSerializer.encode for strict RFC 3986 query encoding (#10809),MERGED,2026-04-28T22:27:48Z,2026-04-30T16:19:04Z,2026-04-30T16:19:04Z,41.8544,5,95,0,1644,2,0,2
+axios/axios,10819,fix(http): honor timeout during connect without redirects,MERGED,2026-04-28T17:08:52Z,2026-04-30T16:59:05Z,2026-04-30T16:59:05Z,47.8369,2,140,18,536,2,4,3
+axios/axios,10816,fix(fromDataURI): accept all RFC 2397-compliant data URIs,CLOSED,2026-04-28T14:08:45Z,2026-04-29T19:34:22Z,,29.4269,516,64606,60978,3072,50,3,2
+axios/axios,10814,chore(deps): bump postcss from 8.5.8 to 8.5.12 in /docs,MERGED,2026-04-28T12:06:46Z,2026-04-28T16:45:51Z,2026-04-28T16:45:51Z,4.6514,1,3,3,6072,1,0,1
+axios/axios,10813,chore(deps): bump actions/setup-node from 6.3.0 to 6.4.0 in the github-actions group,MERGED,2026-04-28T10:18:51Z,2026-04-28T12:05:36Z,2026-04-28T12:05:35Z,1.7789,6,15,15,5514,1,0,2
+axios/axios,10811,feat(core): add response.duration for request timing,CLOSED,2026-04-27T15:54:18Z,2026-04-28T12:03:12Z,,20.1483,517,64365,60986,2829,47,2,4
+axios/axios,10806,fix(fetch): preserve abort reasons in fetch adapter,MERGED,2026-04-27T13:50:47Z,2026-04-27T15:42:33Z,2026-04-27T15:42:33Z,1.8628,3,131,3,3410,2,1,1
+axios/axios,10802,feat: add QUERY HTTP method support,MERGED,2026-04-24T15:14:51Z,2026-04-28T12:28:31Z,2026-04-28T12:28:31Z,93.2278,13,405,6,1640,2,1,4
+axios/axios,10800,fix: close redirect listiner chanin correctly to no longer stack,MERGED,2026-04-24T13:47:06Z,2026-04-24T17:12:52Z,2026-04-24T17:12:52Z,3.4294,2,152,2,1555,1,2,2
+axios/axios,10799,chore(docs): update sponsor block,CLOSED,2026-04-24T01:32:27Z,2026-04-24T07:23:51Z,,5.8567,1,1,1,10934,1,0,1
+axios/axios,10798,chore(docs): update sponsor block,CLOSED,2026-04-23T01:32:36Z,2026-04-23T05:28:25Z,,3.9303,1,1,1,10754,1,0,1
+axios/axios,10794,fix: clear stale header on redirect when target is no-proxy,MERGED,2026-04-22T16:20:27Z,2026-04-22T18:53:41Z,2026-04-22T18:53:41Z,2.5539,2,235,15,1420,1,8,5
+axios/axios,10793,Preserve Unicode custom request header values in AxiosHeaders sanitization,CLOSED,2026-04-22T10:55:03Z,2026-04-22T15:45:34Z,,4.8419,2,40,5,4368,2,0,1
+axios/axios,10792,chore(docs): update sponsor block,CLOSED,2026-04-22T01:32:18Z,2026-04-22T06:45:46Z,,5.2244,1,1,1,10797,1,0,1
+axios/axios,10791,test: fix Win32 platform support for pipe tests;,MERGED,2026-04-21T22:19:03Z,2026-04-22T06:50:38Z,2026-04-22T06:50:38Z,8.5264,1,5,1,0,2,0,2
+axios/axios,10787,"fix(xhr): unsubscribe cancelToken and signal on error, timeout, and abort paths",MERGED,2026-04-21T15:26:39Z,2026-04-25T15:44:00Z,2026-04-25T15:44:00Z,96.2892,2,50,0,2448,2,0,2
+axios/axios,10786,chore(deps-dev): bump the development_dependencies group across 1 directory with 5 updates,CLOSED,2026-04-21T10:15:41Z,2026-04-21T18:02:41Z,,7.7833,1,62,62,20425,1,2,1
+axios/axios,10785,chore(deps): bump the github-actions group with 3 updates,MERGED,2026-04-21T10:15:33Z,2026-04-21T18:18:38Z,2026-04-21T18:18:38Z,8.0514,5,6,6,14362,1,0,2
+axios/axios,10784,docs: fix sponsor blurb spelling in README,CLOSED,2026-04-21T02:39:38Z,2026-04-21T04:46:20Z,,2.1117,1,1,1,880,4,1,2
+axios/axios,10783,chore(docs): update sponsor block,CLOSED,2026-04-21T01:32:15Z,2026-04-21T04:45:39Z,,3.2233,1,1,1,10775,1,0,1
+axios/axios,10782,[Docs/Types] Update `parseReviver` TypeScript definitions for ES2023 and add to official configuration documentation,MERGED,2026-04-20T20:42:45Z,2026-04-29T17:33:58Z,2026-04-29T17:33:58Z,212.8536,4,67,2,4277,3,4,6
+axios/axios,10775,fix: preserve query and hash urls in combineURLs,CLOSED,2026-04-20T16:31:45Z,2026-04-21T02:47:34Z,,10.2636,2,15,1,2316,2,0,1
+axios/axios,10772,fix(fetch-adapter): set User-Agent header to match http adapter,MERGED,2026-04-20T08:23:26Z,2026-04-26T10:37:25Z,2026-04-26T10:37:25Z,146.2331,2,51,0,1971,3,0,1
+axios/axios,10768,chore(docs): update sponsor block,CLOSED,2026-04-20T01:32:25Z,2026-04-20T06:27:12Z,,4.9131,1,1,1,10730,1,0,1
+axios/axios,10759,docs(readme): add timeout guidance to first async example,MERGED,2026-04-19T13:23:02Z,2026-04-26T11:41:50Z,2026-04-26T11:41:50Z,166.3133,2,16,0,1339,2,0,2
+axios/axios,10757,"docs: fix ""dependency tree"" typo in README sponsor blurb",CLOSED,2026-04-19T02:52:59Z,2026-04-19T10:44:40Z,,7.8614,1,1,1,1332,4,1,2
+axios/axios,10756,chore(docs): update sponsor block,CLOSED,2026-04-19T01:32:28Z,2026-04-19T10:43:09Z,,9.1781,1,1,1,10828,1,0,1
+axios/axios,10749,fix: header security issues,MERGED,2026-04-18T11:56:23Z,2026-04-18T12:56:39Z,2026-04-18T12:56:39Z,1.0044,3,61,11,1322,1,2,2
+axios/axios,10748,chore(docs): update sponsor block,CLOSED,2026-04-18T01:32:08Z,2026-04-18T11:34:10Z,,10.0339,1,1,1,10709,1,0,1
+axios/axios,10747,chore: stop committing dist/ and remove bower,MERGED,2026-04-18T00:19:38Z,2026-04-18T11:55:22Z,2026-04-18T11:55:22Z,11.5956,15,5,4927,1964,2,0,2
+axios/axios,10746,chore: remove orphaned bower support,MERGED,2026-04-17T19:48:06Z,2026-04-18T11:54:07Z,2026-04-18T11:54:07Z,16.1003,4,3,66,1853,2,0,2
+axios/axios,10745,[codex] fix transformRequest input typing,MERGED,2026-04-17T19:41:31Z,2026-04-26T08:03:21Z,2026-04-26T08:03:21Z,204.3639,11,192,20,2705,3,8,3
+axios/axios,10743,docs: fix sponsor blurb typo,CLOSED,2026-04-17T02:33:16Z,2026-04-17T08:01:31Z,,5.4708,1,1,1,884,4,1,2
+axios/axios,10742,chore(docs): update sponsor block,CLOSED,2026-04-17T01:32:09Z,2026-04-17T08:01:46Z,,6.4936,1,1,1,10602,1,0,1
+axios/axios,10741,test: migrate progressEventReducer test to vitest,MERGED,2026-04-16T21:25:05Z,2026-04-17T08:39:40Z,2026-04-17T08:39:40Z,11.2431,1,9,9,896,2,0,1
+axios/axios,10740,chore: add CODEOWNERS,MERGED,2026-04-16T21:23:22Z,2026-04-17T08:14:28Z,2026-04-17T08:14:28Z,10.8517,1,1,0,696,2,0,1
+axios/axios,10739,chore: add CODEOWNERS,MERGED,2026-04-16T21:22:59Z,2026-04-17T08:21:06Z,2026-04-17T08:21:06Z,10.9686,1,1,0,1357,2,0,1
+axios/axios,10738,chore(ci): use ephemeral release branch for v1.x,MERGED,2026-04-16T21:22:45Z,2026-04-17T14:32:10Z,2026-04-17T14:32:10Z,17.1569,1,5,2,1041,2,1,1
+axios/axios,10733,feat(core): add native Retry-After header support #10732,CLOSED,2026-04-16T06:02:55Z,2026-04-28T14:53:31Z,,296.8433,5,307,11,5071,2,0,3
+axios/axios,10730,chore(docs): update sponsor block,CLOSED,2026-04-16T01:32:21Z,2026-04-16T06:26:04Z,,4.8953,1,1,1,10410,1,0,1
+axios/axios,10729,fix(parseProtocol): fix regex to require colon in protocol separator,MERGED,2026-04-15T22:08:49Z,2026-04-25T16:27:58Z,2026-04-25T16:27:58Z,234.3192,2,5,1,1217,2,0,2
+axios/axios,10725,test(AxiosError): document and test error.status behaviour,MERGED,2026-04-15T17:36:49Z,2026-04-15T18:45:58Z,2026-04-15T18:45:58Z,1.1525,1,44,0,1468,2,0,2
+axios/axios,10724,fix(dispatchRequest): attach response to AxiosError on JSON parse failure,MERGED,2026-04-15T17:36:25Z,2026-04-25T16:53:25Z,2026-04-25T16:53:25Z,239.2833,3,206,7,2593,2,0,1
+axios/axios,10720,chore(docs): update sponsor block,CLOSED,2026-04-15T01:32:02Z,2026-04-15T14:57:18Z,,13.4211,1,1,1,10595,1,0,1
+axios/axios,10717,chore(deps): bump follow-redirects from 1.15.11 to 1.16.0,MERGED,2026-04-14T16:56:17Z,2026-04-15T19:02:09Z,2026-04-15T19:02:09Z,26.0978,1,3,3,3646,2,3,1
+axios/axios,10716,chore(deps): bump follow-redirects from 1.15.11 to 1.16.0 in /docs,MERGED,2026-04-14T16:56:07Z,2026-04-15T19:07:08Z,2026-04-15T19:07:08Z,26.1836,1,3,3,3589,1,0,1

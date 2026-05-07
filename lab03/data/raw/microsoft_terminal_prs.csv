@@ -1,0 +1,81 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+microsoft/terminal,20161,Update section header for Windows Terminal installation,CLOSED,2026-04-29T11:38:31Z,2026-04-29T14:11:03Z,,2.5422,1,1,1,431,2,0,1
+microsoft/terminal,20160,Add Mica Alt support to Windows Terminal (#17650),CLOSED,2026-04-29T10:38:12Z,2026-05-01T20:20:51Z,,57.7108,6,3338,3212,626,3,11,3
+microsoft/terminal,20157,Add placeholder text to README,CLOSED,2026-04-29T09:37:46Z,2026-04-29T10:51:04Z,,1.2217,1,1,1,479,3,2,1
+microsoft/terminal,20148,Update dictionaries,MERGED,2026-04-26T02:57:29Z,2026-04-27T01:43:01Z,2026-04-27T01:43:01Z,22.7589,3,8,56,476,2,1,1
+microsoft/terminal,20143,Feature/quake state persistence,CLOSED,2026-04-24T14:55:29Z,2026-04-24T17:48:20Z,,2.8808,8,1462,1339,2463,4,5,1
+microsoft/terminal,20141,Refresh check-spelling metadata for v0.0.26,MERGED,2026-04-24T04:23:55Z,2026-04-24T22:50:43Z,2026-04-24T22:50:43Z,18.4467,118,1113,431,1244,3,0,18
+microsoft/terminal,20140,Localization Updates - main - 04/24/2026 03:05:26,MERGED,2026-04-24T03:05:26Z,2026-04-28T03:41:40Z,2026-04-28T03:41:40Z,96.6039,26,122,122,0,2,1,1
+microsoft/terminal,20127,build: Add a 1ES Pipeline Templates version of Canary,MERGED,2026-04-17T22:48:40Z,2026-04-24T20:39:28Z,2026-04-24T20:39:28Z,165.8467,11,329,2,557,4,3,5
+microsoft/terminal,20118,Normalize commandline in media resource tests,MERGED,2026-04-15T00:59:32Z,2026-04-15T19:13:42Z,2026-04-15T19:13:42Z,18.2361,1,7,3,816,2,1,3
+microsoft/terminal,20117,Add more settings model unit tests,MERGED,2026-04-15T00:24:22Z,2026-04-29T17:16:31Z,2026-04-29T17:16:31Z,352.8692,3,429,0,1533,2,0,1
+microsoft/terminal,20116,"Revert ""Implement OSC 7 for setting the CWD (#20019)""",MERGED,2026-04-14T23:15:30Z,2026-04-15T21:10:40Z,2026-04-15T21:10:40Z,21.9194,16,28,46,176,2,1,1
+microsoft/terminal,20100,OS PR 14890400: fix defects caught with strict compiler switches,MERGED,2026-04-09T18:26:28Z,2026-04-10T18:41:04Z,2026-04-10T18:41:03Z,24.2431,3,3,8,35,2,0,1
+microsoft/terminal,20099,spelling: move to v0.0.26,MERGED,2026-04-09T17:28:27Z,2026-04-23T17:37:42Z,2026-04-23T17:37:42Z,336.1542,1,4,6,0,3,2,1
+microsoft/terminal,20097,render: check the thread exit condition after every long operation,MERGED,2026-04-08T23:34:09Z,2026-04-09T21:34:10Z,2026-04-09T21:34:09Z,22.0,1,4,1,1035,3,3,1
+microsoft/terminal,20096,Localization Updates - main - 04/08/2026 22:31:44,MERGED,2026-04-08T22:31:45Z,2026-04-15T19:09:19Z,2026-04-15T19:09:19Z,164.6261,26,146,68,0,2,0,1
+microsoft/terminal,20088,Path translation setting: use 🡒 instead of ->,MERGED,2026-04-07T20:35:00Z,2026-04-07T21:38:52Z,2026-04-07T21:38:52Z,1.0644,1,4,4,41,2,0,1
+microsoft/terminal,20084,Fix rounding error for word selection,MERGED,2026-04-07T00:15:15Z,2026-04-29T22:01:44Z,2026-04-29T22:01:44Z,549.7747,1,4,2,293,3,3,2
+microsoft/terminal,20080,fix: manual memory management using malloc/free with... in EchoCon.cpp,CLOSED,2026-04-06T03:09:04Z,2026-04-06T09:36:46Z,,6.4617,1,1,0,1168,2,0,1
+microsoft/terminal,20076,Fix OpenConsole dark mode for title bar and scrollbars,CLOSED,2026-04-04T21:55:39Z,2026-04-07T14:59:07Z,,65.0578,1,88,27,190,2,1,1
+microsoft/terminal,20074,Fix PowerShell working directory with square brackets in path,CLOSED,2026-04-04T17:47:52Z,2026-04-06T18:30:11Z,,48.7053,10,2065,0,658,3,1,2
+microsoft/terminal,20065,Display a warning dialog for unsafe URLs,MERGED,2026-04-03T23:12:07Z,2026-04-07T16:23:15Z,2026-04-07T16:23:15Z,89.1856,6,70,16,1100,4,2,5
+microsoft/terminal,20064,[Unpackaged] Fix taskbar glomming due to AUMID,MERGED,2026-04-03T22:06:53Z,2026-05-01T21:56:20Z,2026-05-01T21:56:20Z,671.8242,2,130,1,1164,4,3,9
+microsoft/terminal,20063,Fix CascadiaPackage platform mapping in OpenConsole.slnx,CLOSED,2026-04-03T21:12:17Z,2026-04-21T05:04:41Z,,415.8733,1,3,1,757,3,4,3
+microsoft/terminal,20061,"Draft-TerminalReleases: add nuget package support, remove asset hashes",MERGED,2026-04-03T18:07:18Z,2026-04-06T22:34:28Z,2026-04-06T22:34:28Z,76.4528,1,21,5,0,2,0,1
+microsoft/terminal,20055,Replace `confirmCloseAllTabs` with `confirmOnClose`,MERGED,2026-04-03T00:34:15Z,2026-05-04T17:43:35Z,2026-05-04T17:43:35Z,761.1556,21,372,71,1940,4,5,5
+microsoft/terminal,20050,Fix #20049: Enable file drag & drop by fixing forbidden icon issue,CLOSED,2026-04-01T10:46:02Z,2026-04-07T15:00:42Z,,148.2444,1,4,1,1727,4,2,1
+microsoft/terminal,20046,Fix #20030: Add stdbool.h for C compatibility,CLOSED,2026-04-01T03:55:54Z,2026-04-01T10:29:18Z,,6.5567,0,0,0,308,2,2,1
+microsoft/terminal,20043,Update ORGANIZATION.md for current repository structure,CLOSED,2026-03-31T12:02:48Z,2026-04-08T02:44:18Z,,182.6917,1,2,2,1222,3,1,2
+microsoft/terminal,20042,Localization Updates - main - 03/31/2026 03:05:46,MERGED,2026-03-31T03:05:47Z,2026-04-07T14:59:51Z,2026-04-07T14:59:51Z,179.9011,13,107,3,0,2,0,1
+microsoft/terminal,20041,Fix Korean IME overlay hiding characters to the right of cursor,MERGED,2026-03-31T02:26:57Z,2026-04-17T00:12:20Z,2026-04-17T00:12:20Z,405.7564,4,111,32,915,3,2,3
+microsoft/terminal,20039,Fix Korean IME arrow key inserting character at wrong position,MERGED,2026-03-31T02:24:44Z,2026-03-31T22:37:16Z,2026-03-31T22:37:15Z,20.2086,1,10,0,2972,3,2,2
+microsoft/terminal,20037,Reinstate the (apparently) load-bearing empty bracketed paste,MERGED,2026-03-30T22:36:51Z,2026-03-31T00:00:52Z,2026-03-31T00:00:52Z,1.4003,1,5,1,438,4,2,4
+microsoft/terminal,20035,conpty: remove accidental bool; use BOOL instead,MERGED,2026-03-30T21:27:08Z,2026-03-31T16:58:11Z,2026-03-31T16:58:11Z,19.5175,2,4,4,13,3,2,5
+microsoft/terminal,20029,Fix MSB4019 error in ConPTY nupkg,MERGED,2026-03-28T11:48:07Z,2026-03-30T21:54:40Z,2026-03-30T21:54:40Z,58.1092,1,1,1,1421,3,3,1
+microsoft/terminal,20027,optimize terminal startup and enhance theming integration,CLOSED,2026-03-28T00:03:09Z,2026-03-28T01:07:55Z,,1.0794,6,571,164,1618,3,3,4
+microsoft/terminal,20022,fix: pin 4 unpinned action(s),MERGED,2026-03-26T08:16:46Z,2026-03-26T15:53:27Z,2026-03-26T15:53:27Z,7.6114,1,4,4,2666,3,5,2
+microsoft/terminal,20021,Revise installation method descriptions in README,CLOSED,2026-03-26T07:17:27Z,2026-03-26T15:16:01Z,,7.9761,1,5,3,719,3,2,1
+microsoft/terminal,20019,Implement OSC 7 for setting the CWD,MERGED,2026-03-25T20:55:58Z,2026-03-30T18:10:27Z,2026-03-30T18:10:27Z,117.2414,16,46,28,833,4,7,8
+microsoft/terminal,20018,Set AppUserModelID for unpackaged,MERGED,2026-03-25T18:31:46Z,2026-03-27T18:52:33Z,2026-03-27T18:52:33Z,48.3464,1,24,0,251,3,3,12
+microsoft/terminal,20017,"Move PointerId, focus and in-bounds handling down into Interactivity",MERGED,2026-03-25T16:54:49Z,2026-03-31T23:38:33Z,2026-03-31T23:38:33Z,150.7289,5,139,98,621,2,0,3
+microsoft/terminal,20013,Send notifications even when we're unpackaged,MERGED,2026-03-25T01:16:07Z,2026-03-25T20:27:12Z,2026-03-25T20:27:12Z,19.1847,1,22,4,438,3,1,4
+microsoft/terminal,20011,Add a setting for sending a notification on BEL,MERGED,2026-03-24T23:40:16Z,2026-05-04T17:38:17Z,2026-05-04T17:38:17Z,977.9669,12,43,8,276,2,1,4
+microsoft/terminal,20010,Add toast notification infrastructure,MERGED,2026-03-24T22:38:07Z,2026-04-30T00:24:45Z,2026-04-30T00:24:45Z,865.7772,21,418,1,1163,3,4,6
+microsoft/terminal,20009,Send a CPR request on every unknown sequence,MERGED,2026-03-24T21:28:08Z,2026-03-24T23:00:14Z,2026-03-24T23:00:14Z,1.535,17,79,2,175,2,0,4
+microsoft/terminal,20003,Terminal receives focus on drag n drop,MERGED,2026-03-23T05:20:35Z,2026-03-27T21:48:01Z,2026-03-27T21:48:01Z,112.4572,2,10,0,325,4,5,4
+microsoft/terminal,20001,fix(resizePane): Mark as handled only when resize succeeds,MERGED,2026-03-20T21:14:26Z,2026-05-05T19:42:49Z,2026-05-05T19:42:49Z,1102.4731,5,11,10,548,3,6,3
+microsoft/terminal,19999,Fix Settings tab color mismatch with Settings page background,MERGED,2026-03-20T18:50:30Z,2026-03-27T21:42:51Z,2026-03-27T21:42:51Z,170.8725,1,3,3,940,3,5,1
+microsoft/terminal,19995,Make disabling the Kitty Keyboard Protocol possible,MERGED,2026-03-19T17:02:38Z,2026-03-19T20:42:16Z,2026-03-19T20:42:16Z,3.6606,8,43,1,187,3,0,1
+microsoft/terminal,19994,Fix a deadlock during cooked reads,MERGED,2026-03-19T14:38:09Z,2026-03-19T17:31:05Z,2026-03-19T17:31:05Z,2.8822,1,9,0,137,3,1,3
+microsoft/terminal,19990,Use `vs-pwsh` icons if applicable.,MERGED,2026-03-18T11:01:25Z,2026-03-24T18:46:17Z,2026-03-24T18:46:17Z,151.7478,2,20,13,624,4,5,6
+microsoft/terminal,19987,Fix search dropdown theming,MERGED,2026-03-17T21:31:09Z,2026-03-23T18:05:04Z,2026-03-23T18:05:04Z,140.5653,1,37,4,267,3,0,9
+microsoft/terminal,19986,Only run the render thread for headed console apps,MERGED,2026-03-17T21:18:03Z,2026-03-18T22:53:06Z,2026-03-18T22:53:06Z,25.5842,1,7,6,108,3,0,4
+microsoft/terminal,19984,"avoid committing rows just to figure out rendition, blink and cursor",MERGED,2026-03-17T18:59:56Z,2026-03-18T22:53:00Z,2026-03-18T22:53:00Z,27.8844,3,52,16,710,3,3,2
+microsoft/terminal,19975,OS-15022958: conhost: onboard our RI-TPs for other internal Windows editions,MERGED,2026-03-14T00:51:36Z,2026-03-14T16:33:04Z,2026-03-14T16:33:04Z,15.6911,11,64,10,495,2,0,1
+microsoft/terminal,19974,Fix selection markers disappearing after scrolling out of view,MERGED,2026-03-13T22:43:59Z,2026-03-16T22:21:40Z,2026-03-16T22:21:40Z,71.6281,1,3,3,190,2,0,1
+microsoft/terminal,19973,Improve UX for selection during VTMM,MERGED,2026-03-13T21:56:33Z,2026-03-17T21:46:36Z,2026-03-17T21:46:36Z,95.8342,2,20,6,868,2,0,3
+microsoft/terminal,19972,"Tab menu: show ""restart"" + maintain items' enable state",MERGED,2026-03-13T02:47:24Z,2026-04-29T18:54:44Z,2026-04-29T18:54:44Z,1144.1222,4,66,61,500,3,5,5
+microsoft/terminal,19971,Update 'restart connection' action to reset internal state,MERGED,2026-03-13T01:15:09Z,2026-03-30T23:25:13Z,2026-03-30T23:25:13Z,430.1678,15,58,15,1664,3,8,2
+microsoft/terminal,19969,Suppress the invalid media error in Stable,MERGED,2026-03-12T15:21:46Z,2026-03-12T22:07:18Z,2026-03-12T22:07:18Z,6.7589,2,12,2,228,2,1,1
+microsoft/terminal,19967,conhost: Unlock the console while tearing down during coniosrv focus evt,MERGED,2026-03-12T02:13:02Z,2026-03-12T17:30:46Z,2026-03-12T17:30:46Z,15.2956,1,8,0,842,2,0,1
+microsoft/terminal,19965,Improve TSF failure handling,MERGED,2026-03-11T16:12:24Z,2026-03-11T20:31:04Z,2026-03-11T20:31:04Z,4.3111,2,13,6,169,3,0,4
+microsoft/terminal,19960,feat: add asciicast session recording and playback (#469),CLOSED,2026-03-11T03:47:49Z,2026-03-28T20:56:22Z,,425.1425,49,3615,5,4378,2,6,2
+microsoft/terminal,19958,Make TSF initialization fully fallible,MERGED,2026-03-10T14:59:27Z,2026-03-10T20:31:54Z,2026-03-10T20:31:54Z,5.5408,3,13,19,222,3,0,2
+microsoft/terminal,19957,Always use the cls shim for cmd/pwsh,MERGED,2026-03-10T14:54:14Z,2026-03-10T20:31:45Z,2026-03-10T20:31:45Z,5.6253,2,39,41,135,2,0,2
+microsoft/terminal,19950,Fix memory leaks with UIA,MERGED,2026-03-06T03:17:25Z,2026-03-11T01:08:33Z,2026-03-11T01:08:33Z,117.8522,7,26,19,718,6,7,9
+microsoft/terminal,19945,Fix GenerateSettingsIndex using element name instead of x:Name,MERGED,2026-03-05T19:36:27Z,2026-03-10T17:03:16Z,2026-03-10T17:03:16Z,117.4469,3,13,5,1783,4,6,1
+microsoft/terminal,19944,Replace `confirmCloseAllTabs` with `confirmCloseOn`,CLOSED,2026-03-05T16:17:14Z,2026-04-03T00:35:16Z,,680.3006,20,352,75,3915,5,8,2
+microsoft/terminal,19943,Fix copyOnSelect right-click overwriting clipboard with stale selection,MERGED,2026-03-05T14:28:19Z,2026-03-19T18:29:02Z,2026-03-19T18:29:02Z,340.0119,1,24,5,2165,5,5,3
+microsoft/terminal,19940,Only honor Ctrl+Z during ReadFile if the console is in PROCESSED mode,MERGED,2026-03-05T01:50:19Z,2026-03-11T16:52:34Z,2026-03-11T16:52:34Z,159.0375,3,12,1,76,4,2,6
+microsoft/terminal,19939,"vpack: actually, we have to use a 3-segment version number",MERGED,2026-03-05T01:24:03Z,2026-03-05T22:44:39Z,2026-03-05T22:44:39Z,21.3433,1,1,1,198,2,0,1
+microsoft/terminal,19938,Add support for OSC777 - send notification (redux),CLOSED,2026-03-04T23:09:37Z,2026-03-19T22:03:38Z,,358.9003,37,188,18,1351,3,3,3
+microsoft/terminal,19937,Send notifications even when we're unpackaged,CLOSED,2026-03-04T23:02:46Z,2026-03-19T22:03:26Z,,359.0111,3,33,4,163,3,3,3
+microsoft/terminal,19936,Add a setting for sending a notification on BEL,CLOSED,2026-03-04T23:00:18Z,2026-03-19T22:03:15Z,,359.0492,11,40,7,210,3,2,1
+microsoft/terminal,19935,"Add settings for ""notifying"" on ""activity""",CLOSED,2026-03-04T22:55:44Z,2026-03-19T22:02:54Z,,359.1194,50,1218,90,2508,4,5,3
+microsoft/terminal,19933,fix(input): re-resolve scancode keybindings on keyboard layout change,CLOSED,2026-03-04T18:22:43Z,2026-03-17T16:48:57Z,,310.4372,4,84,4,3280,3,4,2
+microsoft/terminal,19932,README: remove the outdated roadmap link,MERGED,2026-03-04T17:19:10Z,2026-03-10T23:24:13Z,2026-03-10T23:24:13Z,150.0842,1,0,6,75,2,0,1
+microsoft/terminal,19931,control: focus terminal on click-drag while search is open,MERGED,2026-03-03T16:31:58Z,2026-03-11T18:03:22Z,2026-03-11T18:03:22Z,193.5233,1,7,1,1666,3,2,1
+microsoft/terminal,19930,Inital translation of pdp to Serbian Cyrillic (sr-Cyrl-RS),MERGED,2026-03-03T09:19:33Z,2026-03-03T19:33:40Z,2026-03-03T19:33:40Z,10.2353,2,363,0,518,2,0,1
+microsoft/terminal,19928,Localization Updates - main - 03/03/2026 03:04:44,MERGED,2026-03-03T03:04:46Z,2026-03-03T19:31:39Z,2026-03-03T19:31:39Z,16.4481,20,76,66,0,2,0,1
+microsoft/terminal,19925,build: make sure the AnyCPU build sets BuildPlatform properly,MERGED,2026-03-02T19:17:20Z,2026-03-02T20:32:35Z,2026-03-02T20:32:35Z,1.2542,1,1,0,95,2,0,1

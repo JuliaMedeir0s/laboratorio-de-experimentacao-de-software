@@ -1,0 +1,9 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+swisskyrepo/PayloadsAllTheThings,812,New SSTI payloads for Error-Based and Boolean-Based techniques,MERGED,2026-01-03T02:21:57Z,2026-01-03T21:51:40Z,2026-01-03T21:51:40Z,19.4953,12,408,97,454,3,8,1
+swisskyrepo/PayloadsAllTheThings,809,Update README with URL parsing examples,MERGED,2025-12-19T07:41:45Z,2026-01-03T15:57:45Z,2026-01-03T15:57:45Z,368.2667,1,2,0,51,3,0,1
+swisskyrepo/PayloadsAllTheThings,794,CI: modernize and simplify MkDocs deploy workflow,CLOSED,2025-09-19T09:48:16Z,2025-10-01T17:28:05Z,,295.6636,3,28,23,382,4,1,1
+swisskyrepo/PayloadsAllTheThings,789,refinements,CLOSED,2025-08-05T05:10:26Z,2025-08-13T18:41:05Z,,205.5108,15,1210,3,885,3,0,1
+swisskyrepo/PayloadsAllTheThings,788,Fix: Enable mdx_truly_sane_lists in mkdocs.yml,CLOSED,2025-08-03T19:20:05Z,2025-08-13T18:34:24Z,,239.2386,4,1208,4,293,3,1,2
+swisskyrepo/PayloadsAllTheThings,779,Add support for `||` (concatenation) operator in PostgreSQL for time based SQL injection,MERGED,2025-05-22T09:44:52Z,2025-05-22T20:32:27Z,2025-05-22T20:32:26Z,10.7928,1,10,0,59,3,0,1
+swisskyrepo/PayloadsAllTheThings,763,Update Python deserialization documentation and add unit test,CLOSED,2025-01-20T22:42:01Z,2025-08-13T15:51:50Z,,4913.1636,2,77,1,1206,3,0,1
+swisskyrepo/PayloadsAllTheThings,740,Fixed spelling errors in README.md,CLOSED,2024-09-16T10:49:59Z,2024-09-16T12:01:35Z,,1.1933,38,1210,910,378,1,0,1

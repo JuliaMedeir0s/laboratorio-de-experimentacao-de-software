@@ -1,0 +1,2 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+macrozheng/mall,400,MR_支持微信小程序相关修改,CLOSED,2020-08-21T16:56:21Z,2024-09-20T02:14:12Z,,35769.2975,41,3339,22,124,3,0,2

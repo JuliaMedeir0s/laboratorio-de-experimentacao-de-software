@@ -1,0 +1,4 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+jwasham/coding-interview-university,2051,b,CLOSED,2025-09-27T17:51:28Z,2026-01-11T22:40:34Z,,2548.8183,1,1,0,1,2,0,1
+jwasham/coding-interview-university,1982,Added Azerbaijani language support,CLOSED,2025-02-12T18:52:22Z,2026-01-05T01:13:24Z,,7830.3506,2,2007,0,24,4,2,2
+jwasham/coding-interview-university,1543,20201217,CLOSED,2024-09-15T02:57:47Z,2024-09-15T07:08:00Z,,4.1703,1,0,3,12,2,2,2

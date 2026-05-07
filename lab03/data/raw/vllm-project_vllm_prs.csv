@@ -1,0 +1,68 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+vllm-project/vllm,41744,[Attention] Minor refactor: layer takes ownership of the MLA prefill backend,MERGED,2026-05-05T15:50:35Z,2026-05-05T23:22:42Z,2026-05-05T23:22:42Z,7.5353,7,74,150,1066,2,1,3
+vllm-project/vllm,41730,[BUGFIX] Support streamed_args_for_tool in MistralToolParser,MERGED,2026-05-05T12:51:38Z,2026-05-05T17:48:54Z,2026-05-05T17:48:54Z,4.9544,2,55,15,966,2,0,3
+vllm-project/vllm,41729,Remove unnecessary runtime asserts from linear layers,MERGED,2026-05-05T12:34:42Z,2026-05-05T14:42:57Z,2026-05-05T14:42:57Z,2.1375,1,5,9,222,2,0,3
+vllm-project/vllm,41699,[Model] Use AutoWeightsLoader for Plamo2,MERGED,2026-05-05T06:33:31Z,2026-05-05T08:56:24Z,2026-05-05T08:56:24Z,2.3814,1,83,85,4946,2,1,3
+vllm-project/vllm,41690,[Model] Use AutoWeightsLoader for CohereMoe,MERGED,2026-05-05T02:53:12Z,2026-05-05T04:44:16Z,2026-05-05T04:44:16Z,1.8511,1,63,59,3887,2,4,3
+vllm-project/vllm,41661,[Benchmark] Add --trust-remote-code flag to multi-turn benchmark,MERGED,2026-05-04T20:43:46Z,2026-05-05T08:00:38Z,2026-05-05T08:00:38Z,11.2811,1,9,1,1280,4,0,5
+vllm-project/vllm,41649,Limit gpu utils and lower max BS on test_transcription_api_correctness.py,MERGED,2026-05-04T16:17:51Z,2026-05-04T17:30:03Z,2026-05-04T17:30:03Z,1.2033,1,3,1,331,2,0,3
+vllm-project/vllm,41643,[Docs] Add non-causal support to attention backend docs,MERGED,2026-05-04T15:33:03Z,2026-05-04T20:35:15Z,2026-05-04T20:35:15Z,5.0367,2,39,29,725,3,2,4
+vllm-project/vllm,41630,[NVFP4][fix] Fix `layer.weight` -> `w13` typo in NVFP4 MOE emulation kernel preparation,MERGED,2026-05-04T12:49:56Z,2026-05-04T20:13:37Z,2026-05-04T20:13:37Z,7.3947,1,1,1,1063,3,0,6
+vllm-project/vllm,41624,Fix DeepSeek V4 reasoning before tool calls,CLOSED,2026-05-04T11:36:12Z,2026-05-05T05:20:08Z,,17.7322,4,114,3,1374,1,0,1
+vllm-project/vllm,41618,"Revert ""[Doc] Fix RTD build: pytorch.org/docs/stable/objects.inv returns 404""",MERGED,2026-05-04T10:00:29Z,2026-05-04T11:47:43Z,2026-05-04T11:47:43Z,1.7872,1,1,2,155,2,5,3
+vllm-project/vllm,41616,"Test nemotron nano-v2 and nemotron nano-v3 separately, disable super-omni redundant tests",MERGED,2026-05-04T08:35:26Z,2026-05-04T13:31:38Z,2026-05-04T13:31:38Z,4.9367,1,10,41,412,2,3,3
+vllm-project/vllm,41606,Bump the minor-update group across 1 directory with 140 updates,CLOSED,2026-05-04T05:33:52Z,2026-05-05T23:42:41Z,,42.1469,5,154,154,65536,0,4,1
+vllm-project/vllm,41605,Temporary disable persistent topk for Hopper,MERGED,2026-05-04T04:41:52Z,2026-05-04T08:56:09Z,2026-05-04T08:56:09Z,4.2381,1,6,1,754,2,1,3
+vllm-project/vllm,41574,[Model] Fix Gemma4 MoE activation mismatch,MERGED,2026-05-03T21:50:49Z,2026-05-05T04:34:11Z,2026-05-05T04:34:11Z,30.7228,6,23,1,4200,3,2,4
+vllm-project/vllm,41571,[Spec Decode] Fix max_model_len logging in speculative config for draft model,MERGED,2026-05-03T21:01:38Z,2026-05-05T21:56:07Z,2026-05-05T21:56:07Z,48.9081,2,30,1,1267,3,9,4
+vllm-project/vllm,41570,[CI] Clean up remote servers on pytest parent exit,MERGED,2026-05-03T20:57:58Z,2026-05-04T03:11:23Z,2026-05-04T03:11:23Z,6.2236,1,80,3,473,2,0,3
+vllm-project/vllm,41569,[ROCm][CI] Fix MLA prefill scale for DeepSeek GSM8K,MERGED,2026-05-03T20:48:17Z,2026-05-04T23:32:56Z,2026-05-04T23:32:56Z,26.7442,3,99,4,649,4,5,5
+vllm-project/vllm,41549,[Bugfix][KVConnector] Support DCP/PCP in OffloadingConnector,MERGED,2026-05-03T11:39:39Z,2026-05-05T11:54:29Z,2026-05-05T11:54:29Z,48.2472,1,10,2,1001,3,0,3
+vllm-project/vllm,41524,Disable flashinfer autotune temporarily due to correctness issues,MERGED,2026-05-03T00:18:39Z,2026-05-03T16:19:59Z,2026-05-03T16:19:59Z,16.0222,1,6,2,842,3,1,4
+vllm-project/vllm,41522,[DSV4] Guard megamoe flag with Pure TP,MERGED,2026-05-02T22:39:23Z,2026-05-02T23:41:40Z,2026-05-02T23:41:40Z,1.0381,1,16,10,544,2,0,2
+vllm-project/vllm,41513,[Doc] Add Qwen3-30B-A3B-Thinking-2507-FP8 to batch invariance verified models,MERGED,2026-05-02T17:38:03Z,2026-05-03T12:47:56Z,2026-05-03T12:47:56Z,19.1647,1,1,1,309,2,1,3
+vllm-project/vllm,41502,"Revert ""[vLLM IR] 2/N fused_add_rms_norm and maybe_inplace overload"" (#36823)",CLOSED,2026-05-02T12:04:53Z,2026-05-02T18:42:10Z,,6.6214,44,783,2837,532,2,3,1
+vllm-project/vllm,41492,Refactor Step3Text loading to use AutoWeightsLoader,MERGED,2026-05-02T03:53:03Z,2026-05-02T06:22:15Z,2026-05-02T06:22:15Z,2.4867,1,54,49,2974,2,2,3
+vllm-project/vllm,41484,[Spec Decode] Don't compile `update_num_computed_tokens_for_batch_change`,CLOSED,2026-05-01T21:25:02Z,2026-05-04T16:39:59Z,,67.2492,1,0,2,1755,2,3,1
+vllm-project/vllm,41478,Limit concurrency on `test_transcription_api_correctness.py`,MERGED,2026-05-01T19:33:53Z,2026-05-02T03:19:07Z,2026-05-02T03:19:07Z,7.7539,1,4,0,1546,2,0,4
+vllm-project/vllm,41476,[Build] Make bundled DeepGEMM wheel portable across Python versions,MERGED,2026-05-01T19:16:17Z,2026-05-01T21:45:04Z,2026-05-01T21:45:04Z,2.4797,1,23,4,1017,2,0,2
+vllm-project/vllm,41465,"[BugFix][MyPy]:  Module has no attribute ""sched_getaffinity"" [attr-defined]",MERGED,2026-05-01T14:17:18Z,2026-05-05T13:20:38Z,2026-05-05T13:20:38Z,95.0556,1,8,11,713,2,0,3
+vllm-project/vllm,41460,Fix DeepSeek-OCR for Transformers v4,MERGED,2026-05-01T13:43:12Z,2026-05-05T11:11:22Z,2026-05-05T11:11:22Z,93.4694,1,8,15,123,2,1,5
+vllm-project/vllm,41458,Re-enable allreduce rms fusion for DP / PP,MERGED,2026-05-01T12:42:48Z,2026-05-01T23:01:38Z,2026-05-01T23:01:38Z,10.3139,1,0,6,1874,2,3,6
+vllm-project/vllm,41455,[ROCM][RDNA3] WMMA paged prefill and split-K decode kernels for ROCM_ATTN,CLOSED,2026-05-01T10:16:49Z,2026-05-02T00:53:46Z,,14.6158,10,2515,1,9873,1,4,2
+vllm-project/vllm,41454,[Bugfix] Reject unsupported FlexAttention head sizes,CLOSED,2026-05-01T09:35:15Z,2026-05-02T07:42:50Z,,22.1264,1,4,0,3141,2,3,3
+vllm-project/vllm,41448,Refractor longcat loading to use AutoWeightsLoader,MERGED,2026-05-01T05:53:02Z,2026-05-01T09:07:24Z,2026-05-01T09:07:24Z,3.2394,1,82,73,2163,2,3,4
+vllm-project/vllm,41445,[kv_offload+HMA][13/N]: Enable HMA support,MERGED,2026-05-01T04:52:11Z,2026-05-01T11:30:03Z,2026-05-01T11:30:03Z,6.6311,6,662,251,93,3,2,3
+vllm-project/vllm,41444,[Bugfix] Fix persistent_topk inter-CTA init race on RadixRowState,MERGED,2026-05-01T04:28:33Z,2026-05-01T21:42:53Z,2026-05-01T21:42:53Z,17.2389,2,29,19,3420,4,0,4
+vllm-project/vllm,41443,[DSV4] Add knob to enable pre-attn gemm,MERGED,2026-05-01T04:20:20Z,2026-05-01T19:23:17Z,2026-05-01T19:23:17Z,15.0492,3,24,3,1334,3,1,3
+vllm-project/vllm,41442,Temporary disable persistent topk,MERGED,2026-05-01T02:29:25Z,2026-05-01T03:37:19Z,2026-05-01T03:37:19Z,1.1317,1,1,1,0,2,0,3
+vllm-project/vllm,41435,v0.20.1 Cherry pick PRs,CLOSED,2026-05-01T00:59:52Z,2026-05-01T04:39:48Z,,3.6656,34,1144,356,2768,10,2,1
+vllm-project/vllm,41433,[Perf][2/n] Eliminate GPU<->CPU syncs in pooling code,MERGED,2026-05-01T00:48:41Z,2026-05-05T02:43:25Z,2026-05-05T02:43:25Z,97.9122,3,58,27,101,3,0,4
+vllm-project/vllm,41425,[Bugfix] Fix spawn decorator never executing the test function,CLOSED,2026-04-30T23:33:26Z,2026-05-04T12:16:34Z,,84.7189,1,22,27,1055,1,1,2
+vllm-project/vllm,41424,[Bugfix] Fix FP8 Bias Loading,MERGED,2026-04-30T23:29:52Z,2026-05-03T20:30:04Z,2026-05-03T20:30:04Z,69.0033,2,29,1,2879,2,0,3
+vllm-project/vllm,41421,[Ray] Enable RayExecutorV2 by default,MERGED,2026-04-30T23:08:33Z,2026-05-05T04:27:35Z,2026-05-05T04:27:35Z,101.3172,1,1,2,958,3,2,3
+vllm-project/vllm,41416,[Build] Switch CUDA 13.0 wheel builds to PyTorch manylinux_2_28 base,MERGED,2026-04-30T21:04:33Z,2026-05-02T12:51:29Z,2026-05-02T12:51:29Z,39.7822,3,72,28,2941,3,3,4
+vllm-project/vllm,41411,[bugfix]  Fix prompt logprobs on request eviction during chunked prefill,MERGED,2026-04-30T20:39:26Z,2026-05-04T18:46:00Z,2026-05-04T18:46:00Z,94.1094,5,19,13,1438,3,6,5
+vllm-project/vllm,41407,[CI] Trigger perf-eval after nightly Docker publish,CLOSED,2026-04-30T20:30:16Z,2026-05-05T23:38:55Z,,123.1442,1,14,0,1037,2,1,3
+vllm-project/vllm,41405,[ROCm][Bugfix] Fix init-time bias dtype cast when gate.out_dtype is None,MERGED,2026-04-30T20:24:33Z,2026-05-02T04:13:16Z,2026-05-02T04:13:16Z,31.8119,1,2,1,3059,5,0,5
+vllm-project/vllm,41401,[Bugfix] Fix RoutedExpertsCapturer for Gemma 4 MoE (top_k_experts),MERGED,2026-04-30T18:31:03Z,2026-04-30T23:19:59Z,2026-04-30T23:19:59Z,4.8156,1,20,2,1301,2,1,3
+vllm-project/vllm,41389,[CI/Build] Skip Prithvi/Terratorch model-registry tests when terratorch is missing,MERGED,2026-04-30T16:34:14Z,2026-04-30T19:47:56Z,2026-04-30T19:47:55Z,3.2281,5,32,6,1586,2,1,3
+vllm-project/vllm,41386,[ROCm] ROCm7.2.2 + profiler fix + AITER 0.1.12.post2,MERGED,2026-04-30T16:00:09Z,2026-05-04T18:07:20Z,2026-05-04T18:07:20Z,98.1197,2,25,5,93,4,2,4
+vllm-project/vllm,41380,xpu docker: pin oneAPI to 2025.3 and avoid unintended 2026 upgrade,MERGED,2026-04-30T14:41:20Z,2026-04-30T16:02:23Z,2026-04-30T16:02:23Z,1.3508,1,14,5,544,3,1,6
+vllm-project/vllm,41379,[Kernel] Gemma4 MoE decode GEMV optimization — up to 46% TPOT improvement at BS=1-8,CLOSED,2026-04-30T14:41:07Z,2026-05-01T05:34:33Z,,14.8906,9,1457,0,7243,1,1,1
+vllm-project/vllm,41375,[Perf] Warmup forward_native sampler kernel,MERGED,2026-04-30T14:11:42Z,2026-05-01T14:04:12Z,2026-05-01T14:04:12Z,23.875,1,20,0,2200,2,7,3
+vllm-project/vllm,41374,[DSV4] Avoid redundant dtype conversion.,MERGED,2026-04-30T14:02:09Z,2026-04-30T16:57:27Z,2026-04-30T16:57:27Z,2.9217,1,11,6,544,2,2,5
+vllm-project/vllm,41363,(bugfix): block_size check for flex attn,MERGED,2026-04-30T10:38:44Z,2026-05-01T01:59:26Z,2026-05-01T01:59:26Z,15.345,2,6,1,994,3,8,3
+vllm-project/vllm,41362,Stop mergify labelling from skipping pre-commit,MERGED,2026-04-30T10:30:00Z,2026-04-30T12:48:39Z,2026-04-30T12:48:39Z,2.3108,1,2,11,996,2,1,2
+vllm-project/vllm,41361,[KV Offload] Use `Collection` instead of `Sequence/Iterable` for OffloadingManager key parameters,MERGED,2026-04-30T10:22:29Z,2026-05-01T02:18:39Z,2026-05-01T02:18:39Z,15.9361,3,22,18,2246,2,0,3
+vllm-project/vllm,41358,[Doc] Add Codex usage example,MERGED,2026-04-30T09:42:09Z,2026-05-02T05:27:43Z,2026-05-02T05:27:43Z,43.7594,1,88,0,603,2,1,3
+vllm-project/vllm,41353,[Doc] Fix RTD build: pytorch.org/docs/stable/objects.inv returns 404,MERGED,2026-04-30T08:50:45Z,2026-04-30T12:06:45Z,2026-04-30T12:06:45Z,3.2667,1,2,1,1602,2,3,4
+vllm-project/vllm,41341,[ROCm][CI] Add ROCm score absolute tolerance floor,MERGED,2026-04-30T06:32:43Z,2026-05-01T01:59:35Z,2026-05-01T01:59:35Z,19.4478,1,17,3,643,4,0,4
+vllm-project/vllm,41338,Feat: Support DeepseekV4-Pro on MI355 Platform ( Draft only ),CLOSED,2026-04-30T06:03:36Z,2026-05-05T14:11:02Z,,128.1239,19,2282,492,3161,1,3,1
+vllm-project/vllm,41335,[ROCm][CI] Align spec decode logprob test prefill settings,MERGED,2026-04-30T05:05:23Z,2026-05-04T04:33:29Z,2026-05-04T04:33:29Z,95.4683,1,16,19,1086,3,0,4
+vllm-project/vllm,41333,[DSv4] Enable paged indexer for prefill,CLOSED,2026-04-30T03:51:01Z,2026-04-30T09:16:54Z,,5.4314,8,1251,110,2608,1,1,1
+vllm-project/vllm,41332,[Performance][MiniMax-M2.5] Migrate gate to GateLinear bf16->fp32 gives 1.1x OTPS/gpu,CLOSED,2026-04-30T03:48:10Z,2026-05-01T18:08:28Z,,38.3383,1,5,7,10641,1,2,2
+vllm-project/vllm,41330,[ROCm][CI] Fix GPT-OSS Quark MXFP4+FP8 MoE startup,CLOSED,2026-04-30T03:33:50Z,2026-04-30T06:25:34Z,,2.8622,1,25,0,1341,2,3,2
+vllm-project/vllm,41327,[Perf] Skip token processing for prefill-only requests (max_tokens=0),CLOSED,2026-04-30T03:12:08Z,2026-04-30T04:57:29Z,,1.7558,3,52,3,5950,1,1,2
+vllm-project/vllm,41326,Faster per-token fp8 group quant packed kernel for blackwell,MERGED,2026-04-30T03:03:28Z,2026-05-01T01:09:55Z,2026-05-01T01:09:55Z,22.1075,3,366,89,2743,3,1,3
+vllm-project/vllm,41316,"Revert ""[Perf] Enable FlashInfer top-k/top-p sampler by default"" (#40376)",CLOSED,2026-04-30T02:06:07Z,2026-05-01T21:12:56Z,,43.1136,5,23,336,913,4,9,1

@@ -1,0 +1,37 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+affaan-m/everything-claude-code,1662,feat: add machine learning engineering workflow,CLOSED,2026-05-01T18:39:21Z,2026-05-02T00:31:09Z,,5.8633,27,1344,29,2571,1,6,6
+affaan-m/everything-claude-code,1658,fix(code-reviewer): suppress false-positive findings (#1486),CLOSED,2026-04-30T21:31:43Z,2026-05-01T08:55:25Z,,11.395,2,164,1,3746,1,4,4
+affaan-m/everything-claude-code,1647,feat: add loop status transcript inspector,MERGED,2026-04-30T09:28:15Z,2026-04-30T10:35:37Z,2026-04-30T10:35:37Z,1.1228,7,1074,0,2777,1,6,7
+affaan-m/everything-claude-code,1580,chore(deps): bump pnpm/action-setup from 6.0.0 to 6.0.3,CLOSED,2026-04-26T04:52:35Z,2026-05-03T04:52:41Z,,168.0017,2,2,2,4667,0,2,1
+affaan-m/everything-claude-code,1566,feat: add agent-architecture-audit skill — full-stack diagnostic for agent/LLM applications,CLOSED,2026-04-23T16:21:33Z,2026-04-24T20:52:14Z,,28.5114,1,256,0,4645,1,2,13
+affaan-m/everything-claude-code,1556,Fix/1549 docs namespace prefix,CLOSED,2026-04-23T06:12:19Z,2026-04-23T16:59:47Z,,10.7911,9,46,23,2296,1,3,3
+affaan-m/everything-claude-code,1555,docs: clarify install and uninstall paths,MERGED,2026-04-23T06:12:01Z,2026-04-29T02:10:04Z,2026-04-29T02:10:04Z,139.9675,3,157,6,1851,1,4,3
+affaan-m/everything-claude-code,1539,fix: make detect-project.sh locale-independent and handle Windows bac…,MERGED,2026-04-21T20:58:35Z,2026-04-21T22:13:53Z,2026-04-21T22:13:53Z,1.255,1,18,3,3510,2,2,3
+affaan-m/everything-claude-code,1536,fix(hooks): wrap SessionStart summary with stale-replay guard,MERGED,2026-04-21T19:15:57Z,2026-04-21T22:02:19Z,2026-04-21T22:02:19Z,2.7728,2,41,3,5157,2,2,2
+affaan-m/everything-claude-code,1535,docs: fix hero.png bottom overflow (follow-up to #1532),MERGED,2026-04-21T18:58:59Z,2026-04-21T22:37:00Z,2026-04-21T22:36:59Z,3.6333,1,0,0,1808,2,1,1
+affaan-m/everything-claude-code,1531,fix(gateguard): rewrite routineBashMsg to use fact-presentation pattern,MERGED,2026-04-21T15:13:08Z,2026-04-21T22:02:17Z,2026-04-21T22:02:17Z,6.8192,2,38,21,2920,2,2,5
+affaan-m/everything-claude-code,1524,fix(hooks): avoid Claude Code v2.1.116 argv-dup bug in settings.local.json,MERGED,2026-04-21T09:16:42Z,2026-04-21T22:35:33Z,2026-04-21T22:35:33Z,13.3142,3,313,0,2503,2,3,3
+affaan-m/everything-claude-code,1522,fix(continuous-learning-v2): accept claude-desktop as valid entrypoint,MERGED,2026-04-21T07:18:03Z,2026-04-21T22:37:24Z,2026-04-21T22:37:24Z,15.3225,1,1,1,2202,2,2,1
+affaan-m/everything-claude-code,1514,Fix/1502 documentation,CLOSED,2026-04-20T22:42:48Z,2026-04-22T14:41:01Z,,39.9703,2,1,22,2076,1,3,4
+affaan-m/everything-claude-code,1511,fix(observe): skip Windows AppInstallerPythonRedirector.exe in resolve_python_cmd,MERGED,2026-04-20T21:48:26Z,2026-04-21T22:39:06Z,2026-04-21T22:39:06Z,24.8444,1,34,2,8589,2,2,3
+affaan-m/everything-claude-code,1509,docs(ja-JP): sync README and translate v1.10.0 new skills,CLOSED,2026-04-20T16:12:21Z,2026-05-02T09:08:22Z,,280.9336,13,2508,285,3964,1,6,6
+affaan-m/everything-claude-code,1496,chore(deps): bump pnpm/action-setup from 6.0.0 to 6.0.1,CLOSED,2026-04-19T04:52:32Z,2026-04-26T04:52:39Z,,168.0019,2,2,2,2963,0,2,1
+affaan-m/everything-claude-code,1495,fix(hooks): isolate session-end.js filename using transcript_path UUID (#1494),MERGED,2026-04-19T02:38:13Z,2026-04-21T22:14:24Z,2026-04-21T22:14:23Z,67.6028,2,140,5,4599,2,5,6
+affaan-m/everything-claude-code,1492,feat(agents): add 13 Layer A agents for AI-OS autonomous dev workflow,CLOSED,2026-04-18T19:28:08Z,2026-04-18T20:56:47Z,,1.4775,13,1815,0,0,1,4,3
+affaan-m/everything-claude-code,1490,fix: remove unsupported `agents` field from plugin.json,MERGED,2026-04-18T17:55:31Z,2026-04-21T22:14:13Z,2026-04-21T22:14:13Z,76.3117,5,24,121,2787,2,2,1
+affaan-m/everything-claude-code,1475,a bridge help claude can control gemini cli,CLOSED,2026-04-16T10:36:28Z,2026-04-30T01:49:19Z,,327.2142,1,1,0,1966,3,3,4
+affaan-m/everything-claude-code,1471,fix(scripts): claw.js spawn 'claude' fails with ENOENT on Windows,MERGED,2026-04-16T06:08:30Z,2026-04-21T22:02:13Z,2026-04-21T22:02:13Z,135.8953,1,5,0,2251,3,2,4
+affaan-m/everything-claude-code,1465,Merge branch 'main' of https://github.com/affaan-m/everything-claude-code,CLOSED,2026-04-16T03:15:12Z,2026-04-30T01:47:18Z,,334.535,2,1407,0,1767,2,2,1
+affaan-m/everything-claude-code,1462,fix: restore string hook commands for Claude Code schema,MERGED,2026-04-16T00:23:42Z,2026-04-16T03:07:04Z,2026-04-16T03:07:04Z,2.7228,3,48,191,1748,1,2,2
+affaan-m/everything-claude-code,1449,fix: consolidate bash hooks without fork storms,MERGED,2026-04-15T04:24:07Z,2026-04-16T00:23:09Z,2026-04-16T00:23:09Z,19.9839,17,613,281,2173,1,4,3
+affaan-m/everything-claude-code,1447,fix: consolidate bash hooks to avoid fork storms,CLOSED,2026-04-15T03:59:58Z,2026-04-30T00:26:05Z,,356.4353,15,605,279,2660,1,9,5
+affaan-m/everything-claude-code,1444,Fix: fix(hooks): GateGuard permanently blocks all operations on Windows — fs.renameSync EEXIST not handled,CLOSED,2026-04-15T03:10:13Z,2026-04-29T23:31:53Z,,356.3611,1,5,2,1609,3,4,3
+affaan-m/everything-claude-code,1442,Fix: bug(gateguard): race condition in session state read-modify-write path,CLOSED,2026-04-15T03:05:53Z,2026-04-29T23:31:36Z,,356.4286,1,30,7,2261,3,4,2
+affaan-m/everything-claude-code,1439,fix: unblock urgent install and gateguard regressions,MERGED,2026-04-15T02:23:23Z,2026-04-15T03:36:06Z,2026-04-15T03:36:06Z,1.2119,19,540,91,3147,2,14,7
+affaan-m/everything-claude-code,1432,fix(harness-audit): detect ECC plugin under marketplaces/ subdirectory,MERGED,2026-04-14T14:37:31Z,2026-04-15T02:13:24Z,2026-04-15T02:13:24Z,11.5981,1,2,0,2788,2,3,3
+affaan-m/everything-claude-code,1420,fix(dashboard): replace 8 bare except with except Exception,CLOSED,2026-04-14T02:37:23Z,2026-04-15T05:59:32Z,,27.3692,1,9,9,2501,1,3,3
+affaan-m/everything-claude-code,1418,Convoy/implement complete email service clean r/08165352/head,CLOSED,2026-04-14T01:56:05Z,2026-04-14T08:45:27Z,,6.8228,15,3510,0,3076,1,6,6
+affaan-m/everything-claude-code,1416,Merge branch 'main' of https://github.com/affaan-m/everything-claude-code,CLOSED,2026-04-13T23:32:02Z,2026-04-30T01:49:19Z,,386.2881,1,397,0,1869,2,3,3
+affaan-m/everything-claude-code,1410,Small Fixes in Description of Skills in Dashboard,CLOSED,2026-04-13T13:31:08Z,2026-04-14T04:33:04Z,,15.0322,2,939,914,1859,1,2,8
+affaan-m/everything-claude-code,1404,build(deps-dev): bump the minor-and-patch group across 1 directory with 2 updates,CLOSED,2026-04-13T08:06:13Z,2026-04-26T04:53:45Z,,308.7922,1,622,18,3646,0,1,1
+affaan-m/everything-claude-code,1402,docs: add community skill ecosystem notes,MERGED,2026-04-13T07:45:53Z,2026-04-15T02:28:57Z,2026-04-15T02:28:57Z,42.7178,1,8,0,833,1,2,2

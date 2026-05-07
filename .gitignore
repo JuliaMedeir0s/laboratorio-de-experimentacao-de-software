@@ -32,11 +32,6 @@ env/
 # Generated data and graphs
 graphs/
 exports/
-*.png
-*.jpg
-*.jpeg
-*.csv
-*.json
 
 # IDE
 .vscode/

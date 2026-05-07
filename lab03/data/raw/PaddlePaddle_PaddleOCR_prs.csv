@@ -1,0 +1,75 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+PaddlePaddle/PaddleOCR,17976,ci: fix GPU push-event refspec and stabilize required checks,MERGED,2026-04-26T08:56:15Z,2026-04-27T09:04:47Z,2026-04-27T09:04:46Z,24.1419,2,65,5,3947,3,2,3
+PaddlePaddle/PaddleOCR,17969,fix: the android native c++ code performs memcpy ope... in native.h,MERGED,2026-04-24T17:23:38Z,2026-04-28T03:49:39Z,2026-04-28T03:49:39Z,82.4336,1,10,1,1079,3,1,1
+PaddlePaddle/PaddleOCR,17954,"ci,docs: align PaddleX install branch and document py3.8 extras boundary",MERGED,2026-04-22T08:53:07Z,2026-04-23T03:11:55Z,2026-04-23T03:11:55Z,18.3133,43,99,25,954,2,1,1
+PaddlePaddle/PaddleOCR,17944,[Docs] Update README and skill docs,MERGED,2026-04-20T10:55:24Z,2026-04-20T14:27:05Z,2026-04-20T14:27:05Z,3.5281,16,480,328,0,2,1,2
+PaddlePaddle/PaddleOCR,17936,Clarify that PaddleOCR-VL manual-install docs describe the verified Python range,MERGED,2026-04-17T15:31:39Z,2026-04-28T03:10:43Z,2026-04-28T03:10:43Z,251.6511,18,18,18,1142,5,6,2
+PaddlePaddle/PaddleOCR,17924,fix(ppstructurev3): escape html-sensitive OCR text in table markdown output,CLOSED,2026-04-15T10:40:08Z,2026-04-20T14:18:00Z,,123.6311,3,310,0,1198,5,4,1
+PaddlePaddle/PaddleOCR,17911,"Fix spelling errors: infomation -> information, positons -> positions",MERGED,2026-04-10T09:48:46Z,2026-04-14T08:39:51Z,2026-04-14T08:39:51Z,94.8514,2,4,4,5480,3,2,1
+PaddlePaddle/PaddleOCR,17884,feat: support to convert office document (docx/xlsx/pptx) to Markdown,MERGED,2026-04-01T09:51:26Z,2026-04-20T07:23:20Z,2026-04-20T07:23:20Z,453.5317,20,4707,1,2068,3,2,6
+PaddlePaddle/PaddleOCR,17883,Fix formatting,CLOSED,2026-04-01T07:12:17Z,2026-04-14T08:40:22Z,,313.4681,1,1,1,79,4,2,2
+PaddlePaddle/PaddleOCR,17877,update README,MERGED,2026-03-30T14:20:54Z,2026-03-31T08:07:50Z,2026-03-31T08:07:50Z,17.7822,9,1209,3304,0,2,1,1
+PaddlePaddle/PaddleOCR,17875,fix index.md,MERGED,2026-03-30T05:58:21Z,2026-03-30T13:19:39Z,2026-03-30T13:19:39Z,7.355,1,11,9,0,2,1,1
+PaddlePaddle/PaddleOCR,17874,add PaddleOCR OCEAN,MERGED,2026-03-30T04:12:11Z,2026-03-30T05:35:37Z,2026-03-30T05:35:37Z,1.3906,2,62,18,0,2,1,1
+PaddlePaddle/PaddleOCR,17864,"fix: pin 5 unpinned action(s),extract 1 unsafe expression(s) to env vars",MERGED,2026-03-26T22:29:22Z,2026-04-01T07:46:26Z,2026-04-01T07:46:26Z,129.2844,5,9,6,2154,7,3,2
+PaddlePaddle/PaddleOCR,17861,[Feat] PaddleOCR.js,MERGED,2026-03-26T13:39:39Z,2026-04-20T13:53:27Z,2026-04-20T13:53:27Z,600.23,110,17335,15,0,2,1,6
+PaddlePaddle/PaddleOCR,17842,Fix missing libglib2.0-0 in HPS gateway Dockerfile (#17833),MERGED,2026-03-23T03:55:55Z,2026-03-23T08:31:10Z,2026-03-23T08:31:10Z,4.5875,1,1,1,200,2,1,1
+PaddlePaddle/PaddleOCR,17832,Fix type parsing for deprecated arguments,MERGED,2026-03-18T21:03:09Z,2026-03-19T09:24:46Z,2026-03-19T09:24:46Z,12.3603,1,1,1,108,3,1,1
+PaddlePaddle/PaddleOCR,17826,Add Python 3.13 support,MERGED,2026-03-17T02:23:24Z,2026-03-25T03:04:53Z,2026-03-25T03:04:53Z,192.6914,36,1046,78,1500,2,1,5
+PaddlePaddle/PaddleOCR,17825,Bump dorny/paths-filter from 3 to 4 in the github-actions group across 1 directory,CLOSED,2026-03-16T19:23:12Z,2026-04-13T19:59:50Z,,672.6106,2,2,2,8295,3,3,1
+PaddlePaddle/PaddleOCR,17824,[Fix] Add aarch64 (ARM64) support: auto-enable ONNX Runtime to fix SIGSEGV,CLOSED,2026-03-16T14:04:27Z,2026-03-20T08:41:53Z,,90.6239,7,559,1,2869,4,7,1
+PaddlePaddle/PaddleOCR,17821,Fix typo in deployment section of mkdocs.yml,MERGED,2026-03-16T11:23:16Z,2026-03-18T03:14:46Z,2026-03-18T03:14:46Z,39.8583,1,1,1,0,3,2,1
+PaddlePaddle/PaddleOCR,17820,[Feat] Update for paddleocr 3.5,MERGED,2026-03-16T11:15:30Z,2026-04-21T08:29:32Z,2026-04-21T08:29:32Z,861.2339,92,6221,1014,0,6,2,15
+PaddlePaddle/PaddleOCR,17811,[Skills] Enhance PaddleOCR Agent Skills,MERGED,2026-03-14T06:56:39Z,2026-04-20T08:28:51Z,2026-04-20T08:28:51Z,889.5367,17,777,675,0,2,1,1
+PaddlePaddle/PaddleOCR,17809,[Fix] Remove support for .env for security reasons,MERGED,2026-03-13T16:15:07Z,2026-03-13T17:23:36Z,2026-03-13T17:23:36Z,1.1414,15,27,835,0,2,1,1
+PaddlePaddle/PaddleOCR,17808,Fix broken PyPI badge link in README,MERGED,2026-03-13T07:08:28Z,2026-03-18T03:17:19Z,2026-03-18T03:17:19Z,116.1475,2,2,2,310,3,2,1
+PaddlePaddle/PaddleOCR,17801,Enhance skills,MERGED,2026-03-12T06:24:30Z,2026-03-13T09:42:21Z,2026-03-13T09:42:21Z,27.2975,4,39,50,0,2,1,1
+PaddlePaddle/PaddleOCR,17799,[Fix] Fix incorrect env var name and update for security,MERGED,2026-03-11T14:19:01Z,2026-03-12T03:13:40Z,2026-03-12T03:13:40Z,12.9108,5,47,56,0,2,1,1
+PaddlePaddle/PaddleOCR,17792,docs(skills): prefer host-managed environment variables,MERGED,2026-03-11T02:06:09Z,2026-03-11T13:57:12Z,2026-03-11T13:57:12Z,11.8508,11,425,137,703,2,1,32
+PaddlePaddle/PaddleOCR,17788,fix typo in readme,MERGED,2026-03-10T08:41:39Z,2026-03-10T10:00:44Z,2026-03-10T10:00:44Z,1.3181,2,2,2,0,2,1,1
+PaddlePaddle/PaddleOCR,17779,update gguf url,MERGED,2026-03-06T11:54:37Z,2026-03-06T15:42:17Z,2026-03-06T15:42:17Z,3.7944,2,2,2,0,2,1,1
+PaddlePaddle/PaddleOCR,17778,docs(skills): default tmp raw-output persistence in SKILL workflows,MERGED,2026-03-06T09:46:38Z,2026-03-10T09:02:51Z,2026-03-10T09:02:51Z,95.2703,8,165,58,811,2,1,7
+PaddlePaddle/PaddleOCR,17771,docs(skills): improve npx-first README onboarding,CLOSED,2026-03-05T09:07:51Z,2026-03-11T07:02:49Z,,141.9161,4,175,42,572,2,2,17
+PaddlePaddle/PaddleOCR,17766,skills: add Client-Platform header for official skills,MERGED,2026-03-04T09:59:12Z,2026-03-05T03:30:19Z,2026-03-05T03:30:19Z,17.5186,2,2,0,560,2,1,1
+PaddlePaddle/PaddleOCR,17765,docs(hps): add Triton instance count configuration docs,MERGED,2026-03-04T09:08:20Z,2026-03-09T10:08:53Z,2026-03-09T10:08:53Z,121.0092,2,48,4,174,2,1,4
+PaddlePaddle/PaddleOCR,17749,fix(docs): correct broken anchor links across documentation,MERGED,2026-03-02T04:58:15Z,2026-03-02T08:09:00Z,2026-03-02T08:09:00Z,3.1792,57,207,207,340,2,1,1
+PaddlePaddle/PaddleOCR,17743,add amd and intel support,MERGED,2026-02-27T07:24:54Z,2026-03-31T07:56:58Z,2026-03-31T07:56:58Z,768.5344,7,972,0,0,2,1,3
+PaddlePaddle/PaddleOCR,17739,fix PaddleOCR-VL docs,MERGED,2026-02-26T07:14:53Z,2026-02-26T11:27:27Z,2026-02-26T11:27:27Z,4.2094,7,17,17,0,2,1,2
+PaddlePaddle/PaddleOCR,17731,Bump pillow from 12.1.0 to 12.1.1 in /langchain-paddleocr,CLOSED,2026-02-25T07:14:32Z,2026-04-13T23:37:29Z,,1144.3825,1,95,95,3307,3,3,1
+PaddlePaddle/PaddleOCR,17717,[Feat][MCP] Support PaddleOCR-VL-1.5,MERGED,2026-02-13T08:02:56Z,2026-02-26T07:25:37Z,2026-02-26T07:25:37Z,311.3781,5,43,27,0,2,1,1
+PaddlePaddle/PaddleOCR,17715,[Cherry-Pick] #17699 #17713 #17698 #17708,MERGED,2026-02-13T04:29:42Z,2026-02-13T07:27:06Z,2026-02-13T07:27:06Z,2.9567,24,253,233,0,2,1,1
+PaddlePaddle/PaddleOCR,17713,[Docs] Polish PaddleOCR-VL documentation,MERGED,2026-02-12T14:15:58Z,2026-02-13T04:25:18Z,2026-02-13T04:25:17Z,14.1553,20,220,204,33,2,1,1
+PaddlePaddle/PaddleOCR,17710,[Feat] Add intel and amd docker images,MERGED,2026-02-12T10:15:01Z,2026-04-02T12:06:25Z,2026-04-02T12:06:25Z,1177.8567,21,301,26,0,3,1,2
+PaddlePaddle/PaddleOCR,17708,[Docs] Support URL expiration for PaddleOCR-VL serving,MERGED,2026-02-12T08:34:34Z,2026-02-13T03:49:30Z,2026-02-13T03:49:30Z,19.2489,2,4,0,0,2,1,1
+PaddlePaddle/PaddleOCR,17707,[Feat] Add LangChain PaddleOCR integration,MERGED,2026-02-12T08:31:57Z,2026-02-25T07:13:23Z,2026-02-25T07:13:23Z,310.6906,21,3260,0,0,2,1,8
+PaddlePaddle/PaddleOCR,17702,update PaddleOCR-VL docs,MERGED,2026-02-12T06:16:11Z,2026-02-12T08:20:11Z,2026-02-12T08:20:11Z,2.0667,2,28,28,0,2,1,1
+PaddlePaddle/PaddleOCR,17700,[Docs] fix paddleOCRVL usage documentation,MERGED,2026-02-11T08:20:57Z,2026-02-12T06:29:51Z,2026-02-12T06:29:51Z,22.1483,2,7,7,201,3,3,1
+PaddlePaddle/PaddleOCR,17699,[Docs] SiliconFlow support PaddleOCR-VL-1.5,MERGED,2026-02-11T07:33:57Z,2026-02-13T04:26:49Z,2026-02-13T04:26:49Z,44.8811,2,7,11,0,2,1,1
+PaddlePaddle/PaddleOCR,17698,[Feat] Remove default page limit for PaddleOCR-VL,MERGED,2026-02-11T04:30:46Z,2026-02-13T04:23:52Z,2026-02-13T04:23:52Z,47.885,6,22,18,0,2,1,1
+PaddlePaddle/PaddleOCR,17696,[Exp] Update README.md,CLOSED,2026-02-10T13:12:44Z,2026-03-30T04:16:15Z,,1143.0586,0,0,0,0,2,1,2
+PaddlePaddle/PaddleOCR,17695,[Docs] fix typo,MERGED,2026-02-10T10:07:59Z,2026-02-12T06:31:56Z,2026-02-12T06:31:56Z,44.3992,8,8,8,14,3,2,2
+PaddlePaddle/PaddleOCR,17692,update PaddleOCR-VL docs,MERGED,2026-02-10T08:36:19Z,2026-02-12T09:36:48Z,2026-02-12T09:36:48Z,49.0081,5,133,42,108,2,1,1
+PaddlePaddle/PaddleOCR,17690,【third-party】Add Claude Code Skills for PaddleOCR Document Parsing and Text Recognition,MERGED,2026-02-10T03:14:47Z,2026-03-04T02:28:50Z,2026-03-04T02:28:50Z,527.2342,20,3079,0,1019,2,3,75
+PaddlePaddle/PaddleOCR,17688,Bump pypa/gh-action-pypi-publish from 1.9.0 to 1.13.0 in the github-actions group across 1 directory,MERGED,2026-02-09T22:08:54Z,2026-03-04T05:42:11Z,2026-03-04T05:42:11Z,535.5547,1,1,1,10225,3,4,1
+PaddlePaddle/PaddleOCR,17687,Fix empty bounding box ValueError in PPStructureV3 with doc_unwarping,MERGED,2026-02-09T18:49:52Z,2026-03-02T03:39:58Z,2026-03-02T03:39:58Z,488.835,3,272,0,1897,5,5,2
+PaddlePaddle/PaddleOCR,17686,Fix crop_margin crash with extreme aspect ratio images,MERGED,2026-02-09T18:40:57Z,2026-02-28T03:25:55Z,2026-02-28T03:25:55Z,440.7494,1,21,0,1792,5,4,1
+PaddlePaddle/PaddleOCR,17684,Use named logger instead of modifying root logger,MERGED,2026-02-09T18:35:54Z,2026-02-28T09:42:58Z,2026-02-28T09:42:58Z,447.1178,1,7,7,758,5,3,2
+PaddlePaddle/PaddleOCR,17679,fix: add langchain compatibility shim for newer versions (fixes #17674),CLOSED,2026-02-09T08:07:29Z,2026-02-12T10:22:56Z,,74.2575,2,70,0,1212,4,5,2
+PaddlePaddle/PaddleOCR,17677,fix: correct typo 'deteciton' to 'detection' in parameter documentation,MERGED,2026-02-09T07:27:52Z,2026-02-27T02:18:41Z,2026-02-27T02:18:41Z,426.8469,1,1,1,147,3,1,1
+PaddlePaddle/PaddleOCR,17676,add llama.cpp support,MERGED,2026-02-09T04:20:55Z,2026-02-10T08:03:59Z,2026-02-10T08:03:59Z,27.7178,5,105,14,0,2,1,2
+PaddlePaddle/PaddleOCR,17673,[Docs] Fix Broken Links,CLOSED,2026-02-08T10:51:18Z,2026-03-11T08:22:33Z,,741.5208,7,7,7,148,3,4,1
+PaddlePaddle/PaddleOCR,17668,[cherry-pick] fixed bug for issues 17647 (#17650),MERGED,2026-02-06T16:01:11Z,2026-02-09T07:24:50Z,2026-02-09T07:24:50Z,63.3942,1,1,1,0,3,1,1
+PaddlePaddle/PaddleOCR,17665,【cherry-pick】fix multi_languages docs,MERGED,2026-02-06T12:28:35Z,2026-02-09T07:33:42Z,2026-02-09T07:33:42Z,67.0853,2,2,2,0,2,1,1
+PaddlePaddle/PaddleOCR,17664,fix multi_languages docs,MERGED,2026-02-06T12:20:26Z,2026-02-09T07:33:15Z,2026-02-09T07:33:15Z,67.2136,2,2,2,0,2,1,1
+PaddlePaddle/PaddleOCR,17659,【third-party】Add Claude Code Skills for PP-OCRv5 and PaddleOCR-VL,CLOSED,2026-02-06T05:33:43Z,2026-02-09T14:56:37Z,,81.3817,2054,497700,0,1573,2,2,9
+PaddlePaddle/PaddleOCR,17650,fixed bug for issues 17647,MERGED,2026-02-05T16:47:05Z,2026-02-06T07:05:05Z,2026-02-06T07:05:05Z,14.3,1,1,1,28,4,3,1
+PaddlePaddle/PaddleOCR,17614,fix mkdocs,MERGED,2026-02-02T10:38:21Z,2026-02-02T12:01:37Z,2026-02-02T12:01:37Z,1.3878,1,2,2,0,2,1,1
+PaddlePaddle/PaddleOCR,17613,fix vl docs (#17612),MERGED,2026-02-02T10:00:21Z,2026-02-02T12:10:12Z,2026-02-02T12:10:12Z,2.1642,3,12,69,0,2,1,1
+PaddlePaddle/PaddleOCR,17605,update mlx-vlm version and vl docs,MERGED,2026-02-02T04:10:17Z,2026-02-02T07:23:43Z,2026-02-02T07:23:43Z,3.2239,4,26,36,0,2,1,1
+PaddlePaddle/PaddleOCR,17596,Upgrade GitHub Actions to latest versions,MERGED,2026-02-01T09:11:09Z,2026-02-04T03:36:22Z,2026-02-04T03:36:22Z,66.4203,2,2,2,1589,7,5,1
+PaddlePaddle/PaddleOCR,17595,Upgrade GitHub Actions for Node 24 compatibility,MERGED,2026-02-01T09:11:01Z,2026-02-03T13:17:49Z,2026-02-03T13:17:49Z,52.1133,8,18,18,2336,6,6,1
+PaddlePaddle/PaddleOCR,17580,update PaddleOCR-VL hardware docs,MERGED,2026-01-30T06:34:50Z,2026-01-30T09:18:31Z,2026-01-30T09:18:31Z,2.7281,19,80,48,0,2,1,1
+PaddlePaddle/PaddleOCR,17566,release pages add markdown-callouts,MERGED,2026-01-29T10:07:34Z,2026-01-29T11:18:03Z,2026-01-29T11:18:03Z,1.1747,1,1,1,0,2,1,1
+PaddlePaddle/PaddleOCR,17564,Add intro docs for PaddleOCR-VL-1.5,MERGED,2026-01-29T06:48:02Z,2026-01-29T09:05:48Z,2026-01-29T09:05:48Z,2.2961,3,250,0,0,2,1,1
+PaddlePaddle/PaddleOCR,17560,add mlx-vlm docs,MERGED,2026-01-28T15:08:40Z,2026-01-29T15:11:22Z,2026-01-29T15:11:22Z,24.045,5,269,15,0,2,1,3
+PaddlePaddle/PaddleOCR,17555,add mlx-vlm support,MERGED,2026-01-27T15:44:42Z,2026-01-28T14:36:52Z,2026-01-28T14:36:51Z,22.8692,1,7,1,0,2,1,1

@@ -1,0 +1,82 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+electron/electron,51502,chore: backport removal of private macOS APIs,MERGED,2026-05-05T15:53:35Z,2026-05-05T18:29:04Z,2026-05-05T18:29:04Z,2.5914,2,359,10,181,2,1,1
+electron/electron,51496,ci: suppress macOS 'reopen windows' prompt for Electron test bundle,MERGED,2026-05-05T09:45:42Z,2026-05-05T20:14:55Z,2026-05-05T20:14:55Z,10.4869,1,9,0,58,2,2,2
+electron/electron,51495,ci: suppress macOS 'reopen windows' prompt for Electron test bundle,MERGED,2026-05-05T09:45:39Z,2026-05-05T13:45:53Z,2026-05-05T13:45:53Z,4.0039,1,9,0,58,2,1,2
+electron/electron,51494,ci: suppress macOS 'reopen windows' prompt for Electron test bundle,MERGED,2026-05-05T09:45:33Z,2026-05-05T13:45:09Z,2026-05-05T13:45:09Z,3.9933,1,9,0,58,2,1,3
+electron/electron,51492,build: replace spec dep fork with transitive resolution,MERGED,2026-05-05T09:38:30Z,2026-05-05T12:52:13Z,2026-05-05T12:52:13Z,3.2286,3,15,14,58,1,1,1
+electron/electron,51490,build: replace spec dep fork with transitive resolution,MERGED,2026-05-05T09:38:21Z,2026-05-05T14:39:05Z,2026-05-05T14:39:05Z,5.0122,3,15,14,58,3,1,3
+electron/electron,51489,build: replace spec dep fork with transitive resolution,MERGED,2026-05-05T09:38:14Z,2026-05-05T20:56:05Z,2026-05-05T20:56:05Z,11.2975,3,15,14,58,3,2,3
+electron/electron,51488,ci: suppress macOS 'reopen windows' prompt for Electron test bundle,MERGED,2026-05-05T04:54:05Z,2026-05-05T09:45:15Z,2026-05-05T09:45:15Z,4.8528,1,9,0,3054,4,4,3
+electron/electron,51487,build(deps): bump github/codeql-action from 4.35.2 to 4.35.3,MERGED,2026-05-05T02:37:50Z,2026-05-05T20:27:16Z,2026-05-05T20:27:16Z,17.8239,1,1,1,12543,1,1,1
+electron/electron,51486,build(deps): bump slackapi/slack-github-action from 3.0.2 to 3.0.3,MERGED,2026-05-05T02:37:36Z,2026-05-05T14:39:40Z,2026-05-05T14:39:40Z,12.0344,2,2,2,5532,2,1,1
+electron/electron,51484,test: make sure there are no orphaned electron processes running,MERGED,2026-05-05T00:18:12Z,2026-05-05T12:49:41Z,2026-05-05T12:49:41Z,12.5247,1,110,0,301,2,1,3
+electron/electron,51480,fix: set XDG app ID and WM_CLASS based on normalized app name,MERGED,2026-05-04T20:12:46Z,2026-05-05T14:44:44Z,2026-05-05T14:44:44Z,18.5328,5,75,10,465,1,1,1
+electron/electron,51479,fix: set XDG app ID and WM_CLASS based on normalized app name,MERGED,2026-05-04T20:12:43Z,2026-05-05T00:57:46Z,2026-05-05T00:57:46Z,4.7508,5,75,10,465,1,1,1
+electron/electron,51476,test: make sure there are no orphaned electron processes running,MERGED,2026-05-04T19:27:02Z,2026-05-05T00:17:53Z,2026-05-05T00:17:53Z,4.8475,1,110,0,1620,3,5,1
+electron/electron,51474,fix: try clearing InspectableWebContents delegate earlier,MERGED,2026-05-04T18:39:13Z,2026-05-04T21:06:00Z,2026-05-04T21:06:00Z,2.4464,1,6,3,116,2,1,2
+electron/electron,51473,fix: try clearing InspectableWebContents delegate earlier,MERGED,2026-05-04T18:39:10Z,2026-05-05T20:43:57Z,2026-05-05T20:43:57Z,26.0797,1,6,3,116,2,2,2
+electron/electron,51470,fix: handle `createWindow()` rejection in import-meta test fixture,MERGED,2026-05-04T13:49:12Z,2026-05-05T12:58:19Z,2026-05-05T12:58:19Z,23.1519,1,5,10,60,1,1,1
+electron/electron,51469,fix: handle `createWindow()` rejection in import-meta test fixture,MERGED,2026-05-04T13:49:06Z,2026-05-04T16:03:53Z,2026-05-04T16:03:53Z,2.2464,1,5,10,60,2,1,3
+electron/electron,51468,fix: handle `createWindow()` rejection in import-meta test fixture,MERGED,2026-05-04T13:49:00Z,2026-05-04T19:28:59Z,2026-05-04T19:28:59Z,5.6664,1,5,10,60,2,1,2
+electron/electron,51467,fix: don't let tests hang for an hour,MERGED,2026-05-04T13:47:06Z,2026-05-04T15:50:40Z,2026-05-04T15:50:40Z,2.0594,2,80,21,60,1,1,1
+electron/electron,51466,fix: don't let tests hang for an hour,MERGED,2026-05-04T13:46:58Z,2026-05-04T18:10:48Z,2026-05-04T18:10:48Z,4.3972,2,80,21,60,1,1,1
+electron/electron,51447,ci: replace actions-cool/issues-helper usage,MERGED,2026-05-02T06:40:55Z,2026-05-04T18:32:24Z,2026-05-04T18:32:24Z,59.8581,3,35,36,1026,2,2,1
+electron/electron,51444,chore: bump chromium to 149.0.7820.0 (main),MERGED,2026-05-02T00:43:48Z,2026-05-04T20:38:50Z,2026-05-04T20:38:50Z,67.9172,41,150,136,268,2,2,3
+electron/electron,51443,chore: use oxfmt and oxlint in 41-x-y,MERGED,2026-05-02T00:12:44Z,2026-05-02T22:22:31Z,2026-05-02T22:22:31Z,22.1631,324,13489,11615,1101,2,2,1
+electron/electron,51441,fix: handle `createWindow()` rejection in import-meta test fixture,MERGED,2026-05-01T22:29:07Z,2026-05-04T13:48:38Z,2026-05-04T13:48:38Z,63.3253,1,5,10,4589,2,4,1
+electron/electron,51439,fix: respect iframe sandbox flags on the OpenURL navigation path,MERGED,2026-05-01T21:13:21Z,2026-05-05T20:42:28Z,2026-05-05T20:42:28Z,95.4853,2,96,0,59,3,2,3
+electron/electron,51437,fix: respect iframe sandbox flags on the OpenURL navigation path,MERGED,2026-05-01T21:13:12Z,2026-05-05T04:06:40Z,2026-05-05T04:06:40Z,78.8911,4,132,0,59,1,1,1
+electron/electron,51435,chore: use oxfmt and oxlint in 42-x-y,MERGED,2026-05-01T20:52:10Z,2026-05-02T22:23:13Z,2026-05-02T22:23:13Z,25.5175,327,13735,11836,1101,2,2,1
+electron/electron,51432,fix: don't let tests hang for an hour,MERGED,2026-05-01T16:13:04Z,2026-05-04T13:46:39Z,2026-05-04T13:46:39Z,69.5597,2,80,21,2080,2,4,1
+electron/electron,51430,fix: prevent borders and smearing in transparent frameless/client fra…,MERGED,2026-05-01T12:48:29Z,2026-05-01T17:29:23Z,2026-05-01T17:29:23Z,4.6817,2,9,6,339,2,1,1
+electron/electron,51428,fix: align process.exit() behavior in main process with Node.js,MERGED,2026-05-01T04:57:51Z,2026-05-04T13:43:02Z,2026-05-04T13:43:02Z,80.7531,2,125,9,2145,3,4,1
+electron/electron,51427,fix: ensure stable bounds on Windows when toggling setResizable for frameless windows,MERGED,2026-05-01T00:34:43Z,2026-05-01T21:06:41Z,2026-05-01T21:06:41Z,20.5328,3,19,5,218,3,4,2
+electron/electron,51424,fix: set XDG app ID and WM_CLASS based on normalized app name,MERGED,2026-04-30T23:25:11Z,2026-05-04T20:12:28Z,2026-05-04T20:12:27Z,92.7878,5,75,10,3722,3,3,1
+electron/electron,51421,build: update NMV to 148,MERGED,2026-04-30T22:19:14Z,2026-05-01T15:17:01Z,2026-05-01T15:17:00Z,16.9628,1,1,1,355,4,3,3
+electron/electron,51420,fix: try clearing InspectableWebContents delegate earlier,MERGED,2026-04-30T21:34:03Z,2026-05-04T18:38:43Z,2026-05-04T18:38:43Z,93.0778,1,6,3,2647,2,4,1
+electron/electron,51419,fix: preserve mouse hook handle when UnhookWindowsHookEx fails,MERGED,2026-04-30T19:35:08Z,2026-04-30T23:40:21Z,2026-04-30T23:40:21Z,4.0869,1,16,2,271,1,1,1
+electron/electron,51418,fix: preserve mouse hook handle when UnhookWindowsHookEx fails,MERGED,2026-04-30T19:35:05Z,2026-04-30T23:20:22Z,2026-04-30T23:20:22Z,3.7547,1,16,2,271,1,1,1
+electron/electron,51416,fix: always emit `executableWillLaunchAtLogin` from `getLoginItemSettings`,MERGED,2026-04-30T18:19:15Z,2026-05-05T20:47:01Z,2026-05-05T20:47:00Z,122.4625,3,11,4,1191,3,4,2
+electron/electron,51413,fix: use bundled devtools frontend URL for remote debugging,MERGED,2026-04-30T17:48:43Z,2026-05-01T15:19:51Z,2026-05-01T15:19:51Z,21.5189,5,141,0,305,1,1,1
+electron/electron,51412,feat: support WebAuthn Touch ID platform authenticator on macOS,MERGED,2026-04-30T16:40:46Z,2026-05-01T15:15:46Z,2026-05-01T15:15:46Z,22.5833,17,756,0,256,4,2,2
+electron/electron,51411,feat: support WebAuthn Touch ID platform authenticator on macOS,MERGED,2026-04-30T16:40:43Z,2026-05-01T15:15:14Z,2026-05-01T15:15:14Z,22.5753,17,756,0,256,4,2,2
+electron/electron,51410,build(deps): bump dorny/paths-filter from 3.0.2 to 4.0.1,MERGED,2026-04-30T16:04:14Z,2026-04-30T19:27:44Z,2026-04-30T19:27:44Z,3.3917,2,2,2,58,2,1,2
+electron/electron,51409,build(deps): bump dorny/paths-filter from 3.0.2 to 4.0.1,MERGED,2026-04-30T15:58:20Z,2026-04-30T18:01:50Z,2026-04-30T18:01:50Z,2.0583,2,2,2,58,2,1,2
+electron/electron,51408,build(deps): bump dorny/paths-filter from 3.0.2 to 4.0.1,MERGED,2026-04-30T15:58:17Z,2026-05-01T15:57:54Z,2026-05-01T15:57:53Z,23.9933,2,2,2,58,2,1,2
+electron/electron,51407,build(deps): bump dorny/paths-filter from 3.0.2 to 4.0.1,MERGED,2026-04-30T15:58:11Z,2026-04-30T19:26:43Z,2026-04-30T19:26:43Z,3.4756,2,2,2,58,2,1,2
+electron/electron,51406,docs: fix version of deprecation notice,MERGED,2026-04-30T15:24:29Z,2026-04-30T23:14:16Z,2026-04-30T23:14:16Z,7.8297,1,6,6,1221,5,3,5
+electron/electron,51405,refactor: gin_helper::Promise managed by cppgc,MERGED,2026-04-30T13:49:02Z,2026-05-01T15:40:56Z,2026-05-01T15:40:56Z,25.865,4,179,31,59,3,1,3
+electron/electron,51404,fix: constrain AllowUniversalAccessFromFileURLs to file: origins in agent cluster key assignment,MERGED,2026-04-30T13:37:24Z,2026-05-01T19:44:49Z,2026-05-01T19:44:49Z,30.1236,3,172,0,113,2,1,2
+electron/electron,51403,fix: constrain AllowUniversalAccessFromFileURLs to file: origins in agent cluster key assignment,MERGED,2026-04-30T13:37:15Z,2026-05-05T20:51:07Z,2026-05-05T20:51:07Z,127.2311,3,172,0,113,2,1,2
+electron/electron,51402,chore: bump chromium to 148.0.7778.96 (42-x-y),MERGED,2026-04-30T13:00:49Z,2026-05-04T14:07:58Z,2026-05-04T14:07:58Z,97.1192,8,18,18,275,2,1,1
+electron/electron,51401,fix: respect iframe sandbox flags on the OpenURL navigation path,MERGED,2026-04-30T08:11:04Z,2026-05-01T21:12:46Z,2026-05-01T21:12:46Z,37.0283,2,96,0,1074,3,5,2
+electron/electron,51400,ci: track object sizes along with checksums,MERGED,2026-04-30T06:58:01Z,2026-05-01T19:53:10Z,2026-05-01T19:53:10Z,36.9192,1,25,6,938,2,1,1
+electron/electron,51399,fix: do not pass a `DesktopMediaList* to DesktopCapturer::OnListReady()`,MERGED,2026-04-30T04:06:19Z,2026-05-01T16:14:49Z,2026-05-01T16:14:49Z,36.1417,2,19,10,2145,4,1,3
+electron/electron,51397,fix: dispatch toast action and reply events from WinRT activation path,MERGED,2026-04-29T22:27:23Z,2026-04-30T04:58:37Z,2026-04-30T04:58:37Z,6.5206,2,104,37,345,5,2,2
+electron/electron,51392,ci: backport secondary siso patch,MERGED,2026-04-29T19:00:45Z,2026-04-29T23:16:22Z,2026-04-29T23:16:22Z,4.2603,1,132,0,301,1,1,1
+electron/electron,51391,ci: backport secondary siso patch,MERGED,2026-04-29T19:00:42Z,2026-04-29T22:12:21Z,2026-04-29T22:12:21Z,3.1942,1,132,0,301,1,1,1
+electron/electron,51390,ci: backport secondary siso patch,MERGED,2026-04-29T19:00:32Z,2026-04-29T22:57:39Z,2026-04-29T22:57:39Z,3.9519,1,132,0,301,1,1,1
+electron/electron,51388,ci: backport secondary siso patch,MERGED,2026-04-29T17:29:50Z,2026-04-29T19:00:18Z,2026-04-29T19:00:18Z,1.5078,1,132,0,1923,2,4,1
+electron/electron,51386,refactor: gin_helper::Promise managed by cppgc,MERGED,2026-04-29T11:47:35Z,2026-04-30T13:48:40Z,2026-04-30T13:48:40Z,26.0181,4,179,31,121,3,3,5
+electron/electron,51383,chore: bump chromium to 149.0.7817.0 (main),MERGED,2026-04-29T07:47:01Z,2026-05-02T00:43:14Z,2026-05-02T00:43:14Z,64.9369,68,269,245,335,3,2,4
+electron/electron,51382,chore: bump chromium to 146.0.7680.216 (41-x-y),MERGED,2026-04-29T07:46:50Z,2026-04-30T13:37:17Z,2026-04-30T13:37:17Z,29.8408,3,10,10,282,2,1,2
+electron/electron,51379,build(deps-dev): bump @xmldom/xmldom from 0.8.12 to 0.8.13 in the npm_and_yarn group across 1 directory,MERGED,2026-04-28T20:31:47Z,2026-04-29T10:12:59Z,2026-04-29T10:12:59Z,13.6867,2,6,6,12037,2,2,1
+electron/electron,51376,refactor: use upstream's chrome.scripting impl,MERGED,2026-04-28T20:21:28Z,2026-04-29T22:15:05Z,2026-04-29T22:15:05Z,25.8936,13,41,1722,1349,4,1,3
+electron/electron,51374,fix: include permission element string resources in locale paks,MERGED,2026-04-28T18:25:49Z,2026-04-29T23:00:03Z,2026-04-29T23:00:03Z,28.5706,2,15,0,128,1,1,1
+electron/electron,51373,fix: include permission element string resources in locale paks,MERGED,2026-04-28T18:25:46Z,2026-04-29T15:57:01Z,2026-04-29T15:57:01Z,21.5208,2,15,0,128,2,1,1
+electron/electron,51372,fix: use no-op header client for Fetch-intercepted requests,MERGED,2026-04-28T18:08:10Z,2026-04-30T02:55:39Z,2026-04-30T02:55:39Z,32.7914,2,70,1,135,1,1,1
+electron/electron,51371,fix: use no-op header client for Fetch-intercepted requests,MERGED,2026-04-28T18:08:07Z,2026-04-29T16:42:46Z,2026-04-29T16:42:46Z,22.5775,2,70,1,135,2,1,1
+electron/electron,51370,fix: honor `ELECTRON_INSTALL_PLATFORM` in `getPlatformPath` (#51029),MERGED,2026-04-28T16:51:52Z,2026-05-05T20:52:36Z,2026-05-05T20:52:36Z,172.0122,1,1,1,322,5,2,3
+electron/electron,51367,build(deps): bump the npm_and_yarn group across 2 directories with 6 updates,MERGED,2026-04-28T15:18:39Z,2026-04-28T20:28:41Z,2026-04-28T20:28:41Z,5.1672,2,53,38,65553,2,2,1
+electron/electron,51366,fix: validate header name and value in webRequest.onBeforeSendHeaders,MERGED,2026-04-28T13:38:59Z,2026-04-28T15:52:41Z,2026-04-28T15:52:41Z,2.2283,2,24,1,173,1,1,1
+electron/electron,51365,fix: validate header name and value in webRequest.onBeforeSendHeaders,MERGED,2026-04-28T13:38:56Z,2026-04-28T16:07:36Z,2026-04-28T16:07:36Z,2.4778,2,24,1,173,1,1,1
+electron/electron,51364,fix: validate header name and value in webRequest.onBeforeSendHeaders,MERGED,2026-04-28T13:38:50Z,2026-04-28T17:02:13Z,2026-04-28T17:02:13Z,3.3897,2,24,1,173,1,1,1
+electron/electron,51362,chore: bump chromium to 149.0.7813.0 (main),MERGED,2026-04-28T10:24:57Z,2026-04-28T13:44:48Z,2026-04-28T13:44:48Z,3.3308,4,8,8,268,2,1,1
+electron/electron,51361,chore: bump chromium to 149.0.7812.3 (main),MERGED,2026-04-28T08:13:51Z,2026-04-28T10:24:14Z,2026-04-28T10:24:14Z,2.1731,1,1,1,268,1,1,1
+electron/electron,51360,build: replace spec dep fork with transitive resolution,MERGED,2026-04-28T02:58:11Z,2026-05-05T09:37:47Z,2026-05-05T09:37:47Z,174.66,3,15,14,84,3,6,1
+electron/electron,51359,build(deps): bump slackapi/slack-github-action from 3.0.1 to 3.0.2,MERGED,2026-04-28T02:10:28Z,2026-04-28T08:14:08Z,2026-04-28T08:14:08Z,6.0611,2,2,2,3800,3,2,1
+electron/electron,51358,build(deps): bump electron/github-app-auth-action from 2.0.0 to 2.1.0,MERGED,2026-04-28T02:10:16Z,2026-04-28T08:14:12Z,2026-04-28T08:14:12Z,6.0656,10,16,16,3916,3,2,2
+electron/electron,51357,chore: bump chromium to 149.0.7812.0 (main),MERGED,2026-04-28T00:41:58Z,2026-04-28T08:13:11Z,2026-04-28T08:13:11Z,7.5203,30,117,72,268,3,1,1
+electron/electron,51356,chore: fix linter error in `spec/fixtures/crash-cases/content-tracing-before-ready/`,MERGED,2026-04-28T00:27:49Z,2026-04-28T02:49:17Z,2026-04-28T02:49:17Z,2.3578,1,17,29,827,2,4,1
+electron/electron,51355,fix: honor webContents.print dpi horizontal/vertical options,MERGED,2026-04-27T20:47:18Z,2026-04-27T23:36:55Z,2026-04-27T23:36:55Z,2.8269,1,10,2,467,1,1,1
+electron/electron,51354,fix: honor webContents.print dpi horizontal/vertical options,MERGED,2026-04-27T20:47:12Z,2026-04-28T00:23:51Z,2026-04-28T00:23:51Z,3.6108,1,10,2,467,1,1,1

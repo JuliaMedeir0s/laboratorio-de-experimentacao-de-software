@@ -1,0 +1,78 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+apache/superset,39897,fix(OAuth2): Support OAuth2 exception with legacy endpoint,MERGED,2026-05-05T22:04:17Z,2026-05-06T00:21:49Z,2026-05-06T00:21:49Z,2.2922,6,358,3,1437,2,4,2
+apache/superset,39891,fix(mcp): warn on invalid chart preview form data key,MERGED,2026-05-05T16:24:15Z,2026-05-05T19:40:01Z,2026-05-05T19:40:01Z,3.2628,2,191,8,3165,3,2,3
+apache/superset,39871,Helm chart release for helm-publish-e763186,MERGED,2026-05-04T22:55:11Z,2026-05-05T01:38:56Z,2026-05-05T01:38:56Z,2.7292,1,31,1,52,2,5,1
+apache/superset,39870,chore: bump shillelagh to 1.4.4,MERGED,2026-05-04T22:30:16Z,2026-05-04T23:39:39Z,2026-05-04T23:39:39Z,1.1564,3,5,5,1131,2,1,2
+apache/superset,39868,"fix(markdown): Allow ""target"" attribute",MERGED,2026-05-04T20:06:48Z,2026-05-04T22:27:43Z,2026-05-04T22:27:43Z,2.3486,2,45,1,331,2,3,1
+apache/superset,39867,fix(clickhouse): prevent expensive table scan,MERGED,2026-05-04T19:29:01Z,2026-05-04T23:39:10Z,2026-05-04T23:39:10Z,4.1692,2,63,5,2270,2,3,1
+apache/superset,39862,fix(CollectionControl): assign stable ids to keyless items,MERGED,2026-05-04T16:43:21Z,2026-05-05T14:52:37Z,2026-05-05T14:52:37Z,22.1544,1,25,3,1392,3,4,4
+apache/superset,39860,fix(embedded): prevent duplicate React root on rehandshake,MERGED,2026-05-04T16:41:23Z,2026-05-05T14:52:02Z,2026-05-05T14:52:02Z,22.1775,1,18,10,1406,3,4,4
+apache/superset,39858,feat(mcp): warn when execute_sql template_params used with templating disabled,MERGED,2026-05-04T14:52:11Z,2026-05-04T16:14:45Z,2026-05-04T16:14:45Z,1.3761,3,124,1,1940,2,3,1
+apache/superset,39852,chore(deps): bump yeoman-generator from 8.1.2 to 8.2.2 in /superset-frontend,MERGED,2026-05-04T07:52:55Z,2026-05-04T22:07:42Z,2026-05-04T22:07:42Z,14.2464,2,3,3,8124,1,2,1
+apache/superset,39851,chore(deps-dev): bump webpack-sources from 3.4.0 to 3.4.1 in /superset-frontend,MERGED,2026-05-04T07:52:12Z,2026-05-04T15:25:31Z,2026-05-04T15:25:31Z,7.5553,2,6,6,3983,1,2,1
+apache/superset,39850,chore(deps): update zod requirement from ^4.4.1 to ^4.4.3 in /superset-frontend/plugins/plugin-chart-echarts,MERGED,2026-05-04T07:44:52Z,2026-05-04T22:07:56Z,2026-05-04T22:07:55Z,14.3842,1,1,1,4920,1,2,1
+apache/superset,39849,chore(deps): bump docusaurus-plugin-openapi-docs from 5.0.1 to 5.0.2 in /docs,MERGED,2026-05-04T07:44:35Z,2026-05-04T22:08:11Z,2026-05-04T22:08:11Z,14.3933,2,6,11,8736,1,2,1
+apache/superset,39848,chore(deps): bump baseline-browser-mapping from 2.10.24 to 2.10.27 in /docs,MERGED,2026-05-04T07:44:12Z,2026-05-05T02:16:34Z,2026-05-05T02:16:34Z,18.5394,2,5,5,2668,2,3,1
+apache/superset,39847,chore(deps-dev): bump globals from 17.5.0 to 17.6.0 in /docs,MERGED,2026-05-04T07:43:46Z,2026-05-04T22:08:59Z,2026-05-04T22:08:59Z,14.4203,2,5,5,2655,1,2,1
+apache/superset,39846,chore(deps): bump docusaurus-theme-openapi-docs from 5.0.1 to 5.0.2 in /docs,MERGED,2026-05-04T07:43:34Z,2026-05-05T02:16:53Z,2026-05-05T02:16:53Z,18.5553,2,5,5,7484,1,3,1
+apache/superset,39845,chore(deps): bump @swc/core from 1.15.32 to 1.15.33 in /docs,MERGED,2026-05-04T07:42:51Z,2026-05-04T22:09:22Z,2026-05-04T22:09:22Z,14.4419,2,77,77,4023,1,2,1
+apache/superset,39844,chore(deps-dev): bump globals from 17.5.0 to 17.6.0 in /superset-websocket,MERGED,2026-05-04T07:42:08Z,2026-05-04T22:09:37Z,2026-05-04T22:09:37Z,14.4581,2,8,8,2655,1,1,1
+apache/superset,39843,chore(deps-dev): bump eslint from 10.2.1 to 10.3.0 in /superset-websocket,MERGED,2026-05-04T07:42:01Z,2026-05-05T00:02:28Z,2026-05-05T00:02:28Z,16.3408,2,8,8,7937,1,1,1
+apache/superset,39839,fix(helm): allow chart to work out-of-the-box with legacy Bitnami images,MERGED,2026-05-03T08:46:48Z,2026-05-04T22:54:01Z,2026-05-04T22:54:01Z,38.1203,3,9,2,2112,4,4,1
+apache/superset,39838,fix(mcp): point get_dataset_info url to explore view instead of legacy tablemodelview edit,MERGED,2026-05-03T00:18:03Z,2026-05-04T17:39:06Z,2026-05-04T17:39:06Z,41.3508,2,23,15,1084,2,4,2
+apache/superset,39825,chore(deps): drop stale legacy-plugin-chart-map-box lockfile entry,MERGED,2026-05-01T19:33:19Z,2026-05-02T06:35:25Z,2026-05-02T06:35:25Z,11.035,1,0,19,1795,3,2,2
+apache/superset,39822,chore(deps-dev): bump @babel/preset-env from 7.29.2 to 7.29.3 in /superset-frontend,MERGED,2026-05-01T08:11:03Z,2026-05-02T05:38:55Z,2026-05-02T05:38:54Z,21.4642,3,30,109,5331,1,2,1
+apache/superset,39816,chore(deps-dev): bump yeoman-test from 11.3.1 to 11.4.2 in /superset-frontend,MERGED,2026-05-01T07:55:33Z,2026-05-02T06:46:48Z,2026-05-02T06:46:48Z,22.8542,2,2,2,9595,1,2,1
+apache/superset,39813,chore(deps): bump @docusaurus/core from 3.10.0 to 3.10.1 in /docs,CLOSED,2026-05-01T07:53:21Z,2026-05-02T06:34:13Z,,22.6811,2,214,8,4208,0,1,1
+apache/superset,39811,chore(deps-dev): bump @docusaurus/tsconfig from 3.10.0 to 3.10.1 in /docs,MERGED,2026-05-01T07:52:41Z,2026-05-01T13:31:30Z,2026-05-01T13:31:30Z,5.6469,2,5,5,3953,1,2,1
+apache/superset,39809,chore(deps): bump aws-actions/amazon-ecs-render-task-definition from 1.8.4 to 1.8.5,MERGED,2026-05-01T07:52:39Z,2026-05-01T13:31:49Z,2026-05-01T13:31:49Z,5.6528,1,1,1,6876,1,1,1
+apache/superset,39806,chore(deps): bump aws-actions/amazon-ecs-deploy-task-definition from 2.6.1 to 2.6.2,MERGED,2026-05-01T07:52:34Z,2026-05-01T13:30:50Z,2026-05-01T13:30:50Z,5.6378,1,1,1,6735,1,1,1
+apache/superset,39804,chore(deps): bump @docusaurus/faster from 3.10.0 to 3.10.1 in /docs,MERGED,2026-05-01T07:52:18Z,2026-05-02T06:32:37Z,2026-05-02T06:32:37Z,22.6719,2,269,270,3941,1,3,1
+apache/superset,39803,chore(deps): bump @docusaurus/theme-live-codeblock from 3.10.0 to 3.10.1 in /docs,CLOSED,2026-05-01T07:52:05Z,2026-05-02T06:34:02Z,,22.6992,2,260,10,2497,0,1,2
+apache/superset,39802,chore(deps): bump @docusaurus/preset-classic from 3.10.0 to 3.10.1 in /docs,CLOSED,2026-05-01T07:51:40Z,2026-05-02T06:34:09Z,,22.7081,2,394,144,2467,0,2,1
+apache/superset,39798,fix(mcp): clear stale thread-local DB session in sync tool wrapper,MERGED,2026-05-01T00:59:03Z,2026-05-01T16:24:49Z,2026-05-01T16:24:49Z,15.4294,2,46,0,1755,2,3,4
+apache/superset,39797,"fix(mcp): validate column refs in generate_explore_link, update_chart_preview, and update_chart",MERGED,2026-05-01T00:01:14Z,2026-05-05T23:12:32Z,2026-05-05T23:12:32Z,119.1883,11,1595,114,11800,3,10,10
+apache/superset,39794,chore(codeowners): notify @sfirke on translation changes,MERGED,2026-04-30T22:09:32Z,2026-05-01T03:07:30Z,2026-05-01T03:07:30Z,4.9661,1,4,0,821,4,1,1
+apache/superset,39788,fix(embedded): respect show_filters param in standalone report mode,CLOSED,2026-04-30T17:52:20Z,2026-04-30T20:42:37Z,,2.8381,4,165,6,1736,2,2,1
+apache/superset,39785,fix(GSheets OAuth2): Re-add UnauthenticatedError,MERGED,2026-04-30T17:20:23Z,2026-04-30T21:57:00Z,2026-04-30T21:57:00Z,4.6103,3,37,2,1208,2,5,3
+apache/superset,39770,chore(deps): bump zod from 4.3.6 to 4.4.1 in /superset-frontend,MERGED,2026-04-30T07:10:30Z,2026-04-30T13:58:22Z,2026-04-30T13:58:22Z,6.7978,2,11,11,6091,1,2,1
+apache/superset,39769,chore(deps): bump mapbox-gl from 3.22.0 to 3.23.0 in /superset-frontend,MERGED,2026-04-30T07:09:28Z,2026-05-01T13:30:22Z,2026-05-01T13:30:22Z,30.3483,3,8,105,5976,1,2,1
+apache/superset,39768,chore(deps-dev): bump eslint-plugin-no-only-tests from 3.3.0 to 3.4.0 in /superset-frontend,MERGED,2026-04-30T07:08:52Z,2026-04-30T13:16:28Z,2026-04-30T13:16:28Z,6.1267,2,5,5,10846,1,2,1
+apache/superset,39766,fix(drill-to-detail): drill to detail by correctly filtering by metric,MERGED,2026-04-30T01:13:58Z,2026-04-30T11:40:17Z,2026-04-30T11:40:16Z,10.4383,2,54,0,2458,2,3,1
+apache/superset,39759,chore(deps-dev): bump baseline-browser-mapping from 2.10.21 to 2.10.24 in /superset-frontend,MERGED,2026-04-29T11:47:04Z,2026-05-01T23:24:23Z,2026-05-01T23:24:23Z,59.6219,2,5,5,3014,1,2,1
+apache/superset,39757,chore(deps): bump xlsxwriter from 3.0.9 to 3.2.9,MERGED,2026-04-29T11:33:46Z,2026-04-30T13:15:13Z,2026-04-30T13:15:13Z,25.6908,1,1,1,5130,1,2,1
+apache/superset,39754,chore(deps): bump pandas from 2.1.4 to 2.3.3,MERGED,2026-04-29T11:33:09Z,2026-04-30T13:14:20Z,2026-04-30T13:14:20Z,25.6864,1,1,1,7027,1,2,1
+apache/superset,39752,chore(deps): bump msgpack from 1.0.8 to 1.1.2,MERGED,2026-04-29T11:32:46Z,2026-04-30T13:12:33Z,2026-04-30T13:12:33Z,25.6631,1,1,1,12395,1,2,1
+apache/superset,39749,chore(deps-dev): bump psycopg2-binary from 2.9.9 to 2.9.12,MERGED,2026-04-29T11:32:00Z,2026-04-30T13:11:30Z,2026-04-30T13:11:30Z,25.6583,1,1,1,5562,1,2,1
+apache/superset,39747,fix(table): preserve decimals in totals row when Time Comparison is enabled,MERGED,2026-04-29T07:47:20Z,2026-05-02T06:31:55Z,2026-05-02T06:31:55Z,70.7431,1,4,5,1831,2,8,3
+apache/superset,39745,chore(deps): bump react-map-gl from 8.1.0 to 8.1.1 in /superset-frontend,MERGED,2026-04-29T07:13:12Z,2026-04-30T14:34:22Z,2026-04-30T14:34:22Z,31.3528,2,2,2,4805,1,2,1
+apache/superset,39744,chore(deps): bump yeoman-generator from 8.1.2 to 8.2.2 in /superset-frontend,MERGED,2026-04-29T07:09:35Z,2026-04-30T13:11:11Z,2026-04-30T13:11:11Z,30.0267,2,385,411,8124,1,2,1
+apache/superset,39742,chore(deps): bump dawidd6/action-download-artifact from 20 to 21,MERGED,2026-04-29T07:05:50Z,2026-04-29T20:01:29Z,2026-04-29T20:01:29Z,12.9275,2,3,3,7027,1,1,1
+apache/superset,39741,chore(deps): bump baseline-browser-mapping from 2.10.23 to 2.10.24 in /docs,MERGED,2026-04-29T07:05:02Z,2026-04-29T20:01:44Z,2026-04-29T20:01:44Z,12.945,2,5,5,3230,1,2,1
+apache/superset,39739,fix(dashboard): select visible table columns on dashboards and fix dynamic group by,CLOSED,2026-04-29T04:23:11Z,2026-04-29T06:08:07Z,,1.7489,14,532,108,1064,1,2,2
+apache/superset,39738,fix(mcp): sanitize read path output for LLM context,MERGED,2026-04-29T00:49:53Z,2026-04-29T22:06:19Z,2026-04-29T22:06:19Z,21.2739,22,2781,321,4986,3,5,7
+apache/superset,39737,fix(dashboard): escape emoji in position_json before saving to prevent truncation,MERGED,2026-04-29T00:05:43Z,2026-04-29T13:08:50Z,2026-04-29T13:08:50Z,13.0519,2,115,0,2612,2,8,2
+apache/superset,39736,chore(backend): Bump SQLAlchemy to version 2.,CLOSED,2026-04-28T23:07:10Z,2026-04-30T14:56:48Z,,39.8272,11,162,202,1064,2,1,1
+apache/superset,39732,fix(mcp): restore typed ChartConfig in tool schemas for LLM visibility,MERGED,2026-04-28T18:29:01Z,2026-04-28T23:46:58Z,2026-04-28T23:46:58Z,5.2992,13,130,323,1497,2,4,1
+apache/superset,39731,fix(mcp): clarify chart preview URL metadata,MERGED,2026-04-28T16:34:47Z,2026-04-29T15:37:40Z,2026-04-29T15:37:40Z,23.0481,4,12,16,1407,3,4,4
+apache/superset,39730,fix(mcp): add default request parameter to list_charts and list_dashboards,MERGED,2026-04-28T15:58:09Z,2026-04-30T22:04:40Z,2026-04-30T22:04:39Z,54.1083,4,30,129,3014,3,4,10
+apache/superset,39729,fix(mysql): fallback to pymysql when MySQLdb is not installed in get_datatype(),MERGED,2026-04-28T15:54:38Z,2026-04-29T13:40:40Z,2026-04-29T13:40:40Z,21.7672,2,45,1,1571,4,7,4
+apache/superset,39728,feat(semantic layers): dashboard filters,MERGED,2026-04-28T15:32:37Z,2026-04-28T20:00:22Z,2026-04-28T20:00:22Z,4.4625,25,734,119,1456,1,4,1
+apache/superset,39727,feat(mcp): add query_dataset tool to query datasets using semantic layer,MERGED,2026-04-28T15:31:55Z,2026-04-30T22:03:41Z,2026-04-30T22:03:41Z,54.5294,6,1479,1,2598,3,6,29
+apache/superset,39726,fix(ci): switch Dependabot Python ecosystem from uv to pip,MERGED,2026-04-28T14:29:37Z,2026-04-29T11:30:38Z,2026-04-29T11:30:38Z,21.0169,1,3,5,1346,2,2,1
+apache/superset,39720,feat(i18n): updated Ukrainian translation,MERGED,2026-04-28T12:43:20Z,2026-05-01T15:12:05Z,2026-05-01T15:12:05Z,74.4792,1,5075,5390,1084,2,6,1
+apache/superset,39719,fix(mcp): default chart previews to ascii,MERGED,2026-04-28T12:15:40Z,2026-04-28T16:30:40Z,2026-04-28T16:30:40Z,4.25,5,25,10,4221,3,4,2
+apache/superset,39715,chore(deps-dev): bump @swc/plugin-emotion from 14.8.0 to 14.9.0 in /superset-frontend,MERGED,2026-04-28T07:19:42Z,2026-04-30T14:55:08Z,2026-04-30T14:55:08Z,55.5906,2,5,5,875,1,2,1
+apache/superset,39707,fix(table chart): fix rerender bug that continuously cleared search box,MERGED,2026-04-27T22:59:00Z,2026-04-28T11:40:56Z,2026-04-28T11:40:56Z,12.6989,3,248,12,182,2,4,5
+apache/superset,39704,fix(theme): set color-scheme on html to fix dark mode scrollbars,MERGED,2026-04-27T19:48:29Z,2026-04-28T12:17:11Z,2026-04-28T12:17:11Z,16.4783,1,6,0,2108,2,1,1
+apache/superset,39701,chore(deps-dev): bump oxlint from 1.61.0 to 1.62.0 in /superset-frontend,MERGED,2026-04-27T18:39:10Z,2026-04-29T04:19:49Z,2026-04-29T04:19:49Z,33.6775,2,81,81,10312,1,2,1
+apache/superset,39697,chore(deps): bump @ant-design/icons from 6.1.1 to 6.2.2 in /superset-frontend,MERGED,2026-04-27T18:26:29Z,2026-04-29T13:03:33Z,2026-04-29T13:03:32Z,42.6175,2,11,11,1779,1,2,1
+apache/superset,39696,chore(deps-dev): bump @typescript-eslint/eslint-plugin from 8.59.0 to 8.59.1 in /superset-frontend,MERGED,2026-04-27T18:25:52Z,2026-04-29T13:03:17Z,2026-04-29T13:03:17Z,42.6236,2,116,116,7354,1,2,1
+apache/superset,39695,chore(deps): bump @swc/core from 1.15.30 to 1.15.32 in /docs,MERGED,2026-04-27T18:25:11Z,2026-04-28T20:26:58Z,2026-04-28T20:26:58Z,26.0297,2,77,77,4659,1,2,1
+apache/superset,39694,chore(deps-dev): bump typescript-eslint from 8.59.0 to 8.59.1 in /docs,MERGED,2026-04-27T18:24:49Z,2026-04-30T13:08:59Z,2026-04-30T13:08:59Z,66.7361,2,72,72,3564,1,3,2
+apache/superset,39693,chore(deps): bump swagger-ui-react from 5.32.4 to 5.32.5 in /docs,MERGED,2026-04-27T18:24:32Z,2026-04-30T13:10:49Z,2026-04-30T13:10:49Z,66.7714,2,291,291,4624,1,1,2
+apache/superset,39692,chore(deps-dev): bump @swc/core from 1.15.30 to 1.15.32 in /superset-frontend,MERGED,2026-04-27T18:23:51Z,2026-04-29T13:03:55Z,2026-04-29T13:03:55Z,42.6678,2,53,53,3153,1,2,1
+apache/superset,39691,chore(deps): bump @ant-design/icons from 6.2.0 to 6.2.2 in /docs,MERGED,2026-04-27T18:23:13Z,2026-04-30T14:54:05Z,2026-04-30T14:54:04Z,68.5142,2,5,5,269,1,2,2
+apache/superset,39690,chore(deps-dev): bump @typescript-eslint/parser from 8.59.0 to 8.59.1 in /docs,CLOSED,2026-04-27T18:22:57Z,2026-04-30T13:10:39Z,,66.795,2,64,3,3571,0,3,1
+apache/superset,39687,chore(deps-dev): bump typescript-eslint from 8.59.0 to 8.59.1 in /superset-websocket,MERGED,2026-04-27T18:21:31Z,2026-04-27T23:46:11Z,2026-04-27T23:46:11Z,5.4111,2,123,123,2789,1,1,1
+apache/superset,39678,chore(deps-dev): bump jsdom from 29.0.2 to 29.1.0 in /superset-frontend,MERGED,2026-04-27T07:35:15Z,2026-04-27T08:39:47Z,2026-04-27T08:39:47Z,1.0756,2,55,43,2849,1,2,1

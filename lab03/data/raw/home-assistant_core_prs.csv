@@ -1,0 +1,79 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+home-assistant/core,169871,Improve condition test helper docstrings,MERGED,2026-05-05T20:00:53Z,2026-05-05T22:32:37Z,2026-05-05T22:32:37Z,2.5289,1,188,18,4804,3,0,4
+home-assistant/core,169856,Fix flaky test_set_scan_interval_via_platform,MERGED,2026-05-05T15:21:44Z,2026-05-05T18:49:15Z,2026-05-05T18:49:15Z,3.4586,1,7,2,3071,4,0,3
+home-assistant/core,169852,Add ruff rule to prevent __future__ annotations,MERGED,2026-05-05T14:28:37Z,2026-05-05T16:42:10Z,2026-05-05T16:42:10Z,2.2258,3,1,4,4562,7,0,7
+home-assistant/core,169849,ElkM1 integration: add number entity for elk settings,CLOSED,2026-05-05T13:50:11Z,2026-05-05T17:00:10Z,,3.1664,52,591,152,4963,11,2,10
+home-assistant/core,169848,Bump tuya-device-handlers to 0.0.19,MERGED,2026-05-05T13:46:53Z,2026-05-05T20:23:15Z,2026-05-05T20:23:15Z,6.6061,3,3,3,4924,3,1,2
+home-assistant/core,169843,Bump elkm1-lib to 2.2.15,MERGED,2026-05-05T13:20:39Z,2026-05-05T16:50:18Z,2026-05-05T16:50:18Z,3.4942,4,6,4,4753,5,3,5
+home-assistant/core,169839,Return the requested format for OpenAI TTS,MERGED,2026-05-05T12:53:21Z,2026-05-05T14:28:21Z,2026-05-05T14:28:21Z,1.5833,2,84,10,4939,3,0,4
+home-assistant/core,169838,Add Zunzunbee Zigbee brand,MERGED,2026-05-05T12:53:13Z,2026-05-05T14:17:49Z,2026-05-05T14:17:49Z,1.41,2,11,0,4858,4,0,2
+home-assistant/core,169837,Add method _should_include to EntityTriggerBase,MERGED,2026-05-05T12:52:35Z,2026-05-05T22:50:22Z,2026-05-05T22:50:22Z,9.9631,7,354,239,5589,3,3,16
+home-assistant/core,169836,Add Sensereo matter brand,MERGED,2026-05-05T12:51:07Z,2026-05-05T14:18:01Z,2026-05-05T14:18:01Z,1.4483,2,11,0,4857,4,0,2
+home-assistant/core,169831,Remove show_advanced_options in Ecovacs and always show all options,MERGED,2026-05-05T11:07:37Z,2026-05-05T13:42:08Z,2026-05-05T13:42:08Z,2.5753,2,13,64,5267,4,1,2
+home-assistant/core,169802,Add API version to Duco diagnostics for support triage,MERGED,2026-05-05T09:37:02Z,2026-05-05T13:48:43Z,2026-05-05T13:48:43Z,4.1947,4,95,4,3753,3,1,3
+home-assistant/core,169798,Validate yaml matches implementation in automation options_supported tests,MERGED,2026-05-05T07:17:28Z,2026-05-05T20:20:28Z,2026-05-05T20:20:28Z,13.05,1,43,0,5224,4,0,3
+home-assistant/core,169796,Remove deprecated reboot service for Velux gateway,MERGED,2026-05-05T06:54:17Z,2026-05-05T09:08:01Z,2026-05-05T09:08:01Z,2.2289,5,4,122,5651,3,1,4
+home-assistant/core,169793,Bump dawidd6/action-download-artifact from 20 to 21,MERGED,2026-05-05T06:16:49Z,2026-05-05T08:12:08Z,2026-05-05T08:12:08Z,1.9219,1,2,2,7027,1,0,1
+home-assistant/core,169785,Update infrared-protocols to 2.1.0,MERGED,2026-05-05T01:49:04Z,2026-05-05T08:11:52Z,2026-05-05T08:11:52Z,6.38,4,4,4,2424,1,1,1
+home-assistant/core,169783,Add data_description to airnow config flow strings,MERGED,2026-05-05T00:51:52Z,2026-05-05T05:43:19Z,2026-05-05T05:43:19Z,4.8575,1,7,1,5457,4,1,4
+home-assistant/core,169778,Add V2C LED lights,MERGED,2026-05-04T22:22:12Z,2026-05-05T20:20:00Z,2026-05-05T20:19:59Z,21.9631,8,435,2,4974,4,1,12
+home-assistant/core,169776,Bump python-duco-client to 0.4.0,MERGED,2026-05-04T22:08:46Z,2026-05-05T06:55:23Z,2026-05-05T06:55:23Z,8.7769,4,5,3,3660,4,2,3
+home-assistant/core,169775,Update xknxproject to 3.9.0,MERGED,2026-05-04T22:08:27Z,2026-05-05T08:09:25Z,2026-05-05T08:09:25Z,10.0161,3,3,3,4733,6,2,2
+home-assistant/core,169769,Remove YAML import from Duck DNS integration,MERGED,2026-05-04T21:21:57Z,2026-05-05T05:45:41Z,2026-05-05T05:45:40Z,8.3953,5,4,183,4882,3,0,2
+home-assistant/core,169759,Deprecate MQTT protocol versions 3.x and migrate to version 5,MERGED,2026-05-04T17:55:00Z,2026-05-05T11:43:19Z,2026-05-05T11:43:19Z,17.8053,11,346,28,5702,4,1,22
+home-assistant/core,169758,Bump aioautomower to 2.7.5,MERGED,2026-05-04T17:39:49Z,2026-05-04T21:27:47Z,2026-05-04T21:27:47Z,3.7994,4,11,6,2231,4,3,5
+home-assistant/core,169757,Bump Insteon-panel to 0.6.2,MERGED,2026-05-04T17:24:03Z,2026-05-04T18:55:42Z,2026-05-04T18:55:42Z,1.5275,4,6,6,5039,5,2,5
+home-assistant/core,169753,Restore OwnTracks custom device tracker attributes,MERGED,2026-05-04T16:29:46Z,2026-05-05T07:44:53Z,2026-05-05T07:44:53Z,15.2519,4,78,11,5456,3,0,3
+home-assistant/core,169751,Fix config flow validation in Nord Pool,MERGED,2026-05-04T16:18:08Z,2026-05-04T17:34:18Z,2026-05-04T17:34:18Z,1.2694,3,36,0,2390,4,0,2
+home-assistant/core,169748,Update frontend to 20260429.2,MERGED,2026-05-04T15:08:03Z,2026-05-04T16:22:52Z,2026-05-04T16:22:52Z,1.2469,4,4,4,144,4,1,2
+home-assistant/core,169743,Fix uptime template sensor,MERGED,2026-05-04T14:25:46Z,2026-05-04T17:09:47Z,2026-05-04T17:09:47Z,2.7336,2,52,124,5127,4,1,3
+home-assistant/core,169742,Bump pytrydan to 1.0.0,MERGED,2026-05-04T14:02:36Z,2026-05-04T17:39:47Z,2026-05-04T17:39:47Z,3.6197,4,4,4,4759,4,3,4
+home-assistant/core,169737,Add Orion XS and Inverter support to Victron BLE,CLOSED,2026-05-04T13:24:16Z,2026-05-05T12:14:53Z,,22.8436,212,9910,1276,1993,41,1,2
+home-assistant/core,169736,Bump victron-ble-ha-parser to 0.7.0,MERGED,2026-05-04T13:23:02Z,2026-05-05T11:57:20Z,2026-05-05T11:57:20Z,22.5717,5,17,5,2219,4,2,5
+home-assistant/core,169734,Remove legacy weather template entities,MERGED,2026-05-04T13:07:43Z,2026-05-05T20:18:46Z,2026-05-05T20:18:46Z,31.1842,4,69,1122,5105,3,1,2
+home-assistant/core,169731,Add ExtraStoredData container for mobile_app device_tracker,MERGED,2026-05-04T12:31:18Z,2026-05-04T14:36:04Z,2026-05-04T14:36:04Z,2.0794,3,271,41,4885,3,1,9
+home-assistant/core,169729,Bump bring-api to 1.1.2,MERGED,2026-05-04T12:22:21Z,2026-05-04T13:49:54Z,2026-05-04T13:49:54Z,1.4592,4,31,3,4760,5,1,3
+home-assistant/core,169727,Add missing initialization charging power status option to Volvo,MERGED,2026-05-04T11:15:02Z,2026-05-05T07:10:13Z,2026-05-05T07:10:13Z,19.9197,3,8,0,3056,4,0,3
+home-assistant/core,169724,Improve mobile_app device tracker tests,MERGED,2026-05-04T09:56:39Z,2026-05-04T11:49:34Z,2026-05-04T11:49:34Z,1.8819,1,196,1,4885,3,1,2
+home-assistant/core,169713,Ignore location FORBIDDEN response for the Volvo integration,MERGED,2026-05-04T07:42:04Z,2026-05-04T13:31:35Z,2026-05-04T13:31:35Z,5.8253,2,41,2,5128,4,0,3
+home-assistant/core,169712,Add reconfiguration flow to actron_air integration,MERGED,2026-05-04T07:41:48Z,2026-05-04T13:32:00Z,2026-05-04T13:32:00Z,5.8367,4,96,3,5927,4,1,5
+home-assistant/core,169710,Enable web search support for gpt-5-nano,MERGED,2026-05-04T07:35:06Z,2026-05-05T17:47:53Z,2026-05-05T17:47:53Z,34.2131,1,0,1,4871,3,5,3
+home-assistant/core,169708,Use SensorDeviceClass.UPTIME in WLED,MERGED,2026-05-04T02:48:13Z,2026-05-04T19:02:15Z,2026-05-04T19:02:15Z,16.2339,3,3,6,5176,4,1,2
+home-assistant/core,169699,Change uptime sensor to `SensorDeviceClass.UPTIME` in IronOS integration,MERGED,2026-05-03T18:31:43Z,2026-05-03T20:45:21Z,2026-05-03T20:45:21Z,2.2272,3,18,18,5421,3,0,2
+home-assistant/core,169698,Add system health to Portainer,MERGED,2026-05-03T17:48:30Z,2026-05-04T19:07:17Z,2026-05-04T19:07:17Z,25.3131,3,92,0,5022,3,0,3
+home-assistant/core,169694,Add device triggers to ISY994 integration,CLOSED,2026-05-03T16:07:26Z,2026-05-05T09:34:21Z,,41.4486,5,712,2,6686,4,3,7
+home-assistant/core,169692,Use uptime device_class for Uptime sensor,MERGED,2026-05-03T14:50:47Z,2026-05-03T16:58:54Z,2026-05-03T16:58:54Z,2.1353,2,3,3,4797,6,2,3
+home-assistant/core,169691,Update Nest doorbell event to use standard DoorbellEventType.RING,MERGED,2026-05-03T14:35:35Z,2026-05-04T13:34:17Z,2026-05-04T13:34:17Z,22.9783,3,16,12,5882,4,0,4
+home-assistant/core,169686,Add Celsius and Fahrenheit to Smartthings UNITS mapping,MERGED,2026-05-03T13:04:18Z,2026-05-04T19:20:05Z,2026-05-04T19:20:05Z,30.2631,1,2,0,5530,4,10,2
+home-assistant/core,169685,Add ventilation preset modes to Duco fan entity,CLOSED,2026-05-03T12:34:03Z,2026-05-04T13:54:52Z,,25.3469,4,147,25,4020,3,5,3
+home-assistant/core,169684,Add binary sensor to Nord Pool,MERGED,2026-05-03T11:46:06Z,2026-05-04T19:10:07Z,2026-05-04T19:10:06Z,31.4,9,480,103,2533,5,2,4
+home-assistant/core,169682,Improve ProxmoxVE config flow preparing bug fixing,MERGED,2026-05-03T10:20:30Z,2026-05-04T15:20:26Z,2026-05-04T15:20:26Z,28.9989,4,111,7,4826,4,2,12
+home-assistant/core,169673,Fix wrapped connection errors in Duco discovery flows,CLOSED,2026-05-03T01:01:32Z,2026-05-03T08:09:06Z,,7.1261,2,40,9,3762,3,2,2
+home-assistant/core,169671,Updated prowlpy to 1.1.5,MERGED,2026-05-03T00:09:30Z,2026-05-03T07:56:23Z,2026-05-03T07:56:23Z,7.7814,3,3,3,5057,4,1,3
+home-assistant/core,169668,Bump satel_integra to 1.3.0,MERGED,2026-05-02T19:52:12Z,2026-05-02T21:56:42Z,2026-05-02T21:56:42Z,2.075,3,3,3,5010,4,0,2
+home-assistant/core,169664,Add vehicle images for Renault integration,CLOSED,2026-05-02T19:01:47Z,2026-05-05T08:09:38Z,,61.1308,5,433,0,5072,4,7,2
+home-assistant/core,169663,Bump pyisy to 3.5.1,MERGED,2026-05-02T18:59:02Z,2026-05-03T12:20:02Z,2026-05-03T12:20:02Z,17.35,4,5,8,6221,4,2,3
+home-assistant/core,169659,Limit power status binary sensor to non-LR5 devices,MERGED,2026-05-02T17:42:27Z,2026-05-04T20:51:18Z,2026-05-04T20:51:18Z,51.1475,1,8,5,5427,4,1,2
+home-assistant/core,169652,Bump pylitterbot to 2025.4.0,MERGED,2026-05-02T15:38:18Z,2026-05-05T07:05:16Z,2026-05-05T07:05:16Z,63.4494,4,4,4,5396,4,1,3
+home-assistant/core,169651,Fix M1S-T500 update error,MERGED,2026-05-02T13:51:49Z,2026-05-03T17:00:51Z,2026-05-03T17:00:51Z,27.1506,1,2,3,5440,6,2,4
+home-assistant/core,169649,Main,CLOSED,2026-05-02T12:18:19Z,2026-05-02T16:55:44Z,,4.6236,14,1348,0,5135,2,2,8
+home-assistant/core,169644,Add opening/closing state icons to valve domain,MERGED,2026-05-02T11:27:55Z,2026-05-04T16:42:22Z,2026-05-04T16:42:22Z,53.2408,1,6,2,2067,3,2,6
+home-assistant/core,169640,Main,CLOSED,2026-05-02T09:40:50Z,2026-05-02T11:08:52Z,,1.4672,13,1364,0,5135,3,2,2
+home-assistant/core,169638,Add precipitation device class to WeatherFlow Cloud accumulation sensors,MERGED,2026-05-02T09:02:04Z,2026-05-04T20:29:14Z,2026-05-04T20:29:13Z,59.4525,2,31,20,5941,5,1,4
+home-assistant/core,169632,openevse: Add reathentication flow,MERGED,2026-05-02T02:50:45Z,2026-05-04T06:38:32Z,2026-05-04T06:38:32Z,51.7964,6,180,2,5189,3,1,2
+home-assistant/core,169624,Add PARALLEL_UPDATES to goodwe sensor platform,MERGED,2026-05-01T20:04:32Z,2026-05-01T21:57:40Z,2026-05-01T21:57:40Z,1.8856,1,3,0,2558,5,1,5
+home-assistant/core,169623,Bump indevolt-api to 1.7.1,MERGED,2026-05-01T19:50:40Z,2026-05-01T22:21:26Z,2026-05-01T22:21:26Z,2.5128,5,7,9,5395,3,0,2
+home-assistant/core,169622,Refactor exceptions to align on library,MERGED,2026-05-01T19:37:07Z,2026-05-04T06:42:29Z,2026-05-04T06:42:29Z,59.0894,2,9,12,5006,4,0,6
+home-assistant/core,169621,Pass `None` config entry to schluter coordinator,MERGED,2026-05-01T19:01:03Z,2026-05-01T22:32:31Z,2026-05-01T22:32:31Z,3.5244,1,1,0,4890,4,1,2
+home-assistant/core,169620,Fix detection of CPU temperature sensor support on olde FRITZ!Box models,MERGED,2026-05-01T18:41:08Z,2026-05-04T13:38:40Z,2026-05-04T13:38:39Z,66.9586,3,866,2,4930,5,3,2
+home-assistant/core,169612,Improve uv cache save,MERGED,2026-05-01T17:20:24Z,2026-05-01T22:31:51Z,2026-05-01T22:31:51Z,5.1908,1,3,8,5367,3,0,3
+home-assistant/core,169605,Fix mode description typo in homekit/strings.json,MERGED,2026-05-01T14:08:59Z,2026-05-03T23:29:01Z,2026-05-03T23:29:01Z,57.3339,1,1,1,4947,3,3,4
+home-assistant/core,169603,Add a number entity to set display time offset (in minutes) for Switchbot Meter CO2 devices.,MERGED,2026-05-01T13:03:13Z,2026-05-05T15:45:47Z,2026-05-05T15:45:47Z,98.7094,4,252,0,4224,4,2,10
+home-assistant/core,169599,Change vacuum template config names for clean area,MERGED,2026-05-01T11:02:21Z,2026-05-01T17:33:12Z,2026-05-01T17:33:12Z,6.5142,3,43,44,5487,4,2,8
+home-assistant/core,169587,Bump pythonkuma to 0.5.1,MERGED,2026-05-01T05:27:04Z,2026-05-01T06:31:17Z,2026-05-01T06:31:17Z,1.0703,5,136,129,4795,3,0,2
+home-assistant/core,169579,Fix Duco unknown node type not re-evaluated after becoming known,MERGED,2026-04-30T22:13:17Z,2026-05-01T09:23:50Z,2026-05-01T09:23:50Z,11.1758,2,111,3,3188,4,4,18
+home-assistant/core,169578,Bump zwave-js-server-python to 0.70.0,MERGED,2026-04-30T21:42:38Z,2026-05-01T18:26:34Z,2026-05-01T18:26:34Z,20.7322,6,28,26,4741,5,1,5
+home-assistant/core,169576,Fix possessive apostrophe errors in mqtt/strings.json,MERGED,2026-04-30T20:38:08Z,2026-04-30T22:04:03Z,2026-04-30T22:04:03Z,1.4319,1,3,3,1452,6,4,8
+home-assistant/core,169575,Surface IP-vs-serial connection failures as distinct errors in nobo_hub,MERGED,2026-04-30T20:17:50Z,2026-05-01T13:24:35Z,2026-05-01T13:24:35Z,17.1125,3,38,12,5391,3,1,3
+home-assistant/core,169574,Fix grammar and clarity in samsungtv/strings.json,MERGED,2026-04-30T20:14:01Z,2026-04-30T21:52:37Z,2026-04-30T21:52:37Z,1.6433,1,4,4,1617,5,3,5
+home-assistant/core,169572,Bump pyuptimerobot to 25.0.0,MERGED,2026-04-30T19:53:06Z,2026-05-04T15:13:55Z,2026-05-04T15:13:55Z,91.3469,11,86,48,4933,6,2,13

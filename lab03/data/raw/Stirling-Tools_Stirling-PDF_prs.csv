@@ -1,0 +1,75 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+Stirling-Tools/Stirling-PDF,6310,Fix missing desktop save indicator on files,MERGED,2026-05-05T09:24:52Z,2026-05-05T12:08:03Z,2026-05-05T12:08:03Z,2.7197,5,156,7,418,3,1,2
+Stirling-Tools/Stirling-PDF,6305,build(deps): bump the tauri group across 1 directory with 7 updates,MERGED,2026-05-02T22:23:51Z,2026-05-05T11:05:55Z,2026-05-05T11:05:55Z,60.7011,4,318,146,41569,3,2,2
+Stirling-Tools/Stirling-PDF,6301,build(deps): bump the mui group across 1 directory with 2 updates,MERGED,2026-05-01T10:43:52Z,2026-05-05T09:53:17Z,2026-05-05T09:53:17Z,95.1569,12,82,66,30417,3,3,2
+Stirling-Tools/Stirling-PDF,6299,build(deps): bump the embedpdf group across 1 directory with 23 updates,MERGED,2026-05-01T10:42:54Z,2026-05-05T11:15:02Z,2026-05-05T11:15:02Z,96.5356,2,182,181,65536,2,2,1
+Stirling-Tools/Stirling-PDF,6298,build(deps): bump actions/github-script from 7.1.0 to 9.0.0,MERGED,2026-05-01T10:40:08Z,2026-05-05T09:33:14Z,2026-05-05T09:33:14Z,94.885,10,23,23,8797,1,1,1
+Stirling-Tools/Stirling-PDF,6297,build(deps): bump actions/upload-artifact from 7.0.0 to 7.0.1,MERGED,2026-05-01T10:39:54Z,2026-05-05T09:34:45Z,2026-05-05T09:34:45Z,94.9142,14,17,17,4006,1,3,1
+Stirling-Tools/Stirling-PDF,6294,build(deps): bump gradle/actions from 5.0.1 to 6.1.0,MERGED,2026-05-01T10:39:22Z,2026-05-05T09:32:54Z,2026-05-05T09:32:54Z,94.8922,13,15,15,8781,1,1,1
+Stirling-Tools/Stirling-PDF,6293,build(deps): bump eclipse-temurin from `a051234` to `b27ca47` in /docker/embedded,MERGED,2026-05-01T10:37:58Z,2026-05-05T09:32:30Z,2026-05-05T09:32:30Z,94.9089,1,1,1,1569,1,0,1
+Stirling-Tools/Stirling-PDF,6292,build(deps): bump eclipse-temurin from `a051234` to `b27ca47` in /docker/base,MERGED,2026-05-01T10:37:53Z,2026-05-05T10:42:36Z,2026-05-05T10:42:36Z,96.0786,1,1,1,51,1,0,1
+Stirling-Tools/Stirling-PDF,6291,Fix move button on multitool,MERGED,2026-05-01T09:45:19Z,2026-05-05T21:21:55Z,2026-05-05T21:21:55Z,107.61,3,19,26,50,3,2,2
+Stirling-Tools/Stirling-PDF,6287,Add Dependabot groups for frontend npm + cargo deps,MERGED,2026-04-30T21:28:33Z,2026-05-01T10:37:08Z,2026-05-01T10:37:08Z,13.1431,1,93,0,1012,2,0,1
+Stirling-Tools/Stirling-PDF,6286,build(deps): bump org.springdoc:springdoc-openapi-starter-webmvc-ui from 3.0.2 to 3.0.3 in /app/common,MERGED,2026-04-30T21:14:35Z,2026-05-05T09:35:19Z,2026-05-05T09:35:19Z,108.3456,1,1,1,9965,1,1,1
+Stirling-Tools/Stirling-PDF,6285,build(deps): bump globals from 17.4.0 to 17.5.0 in /frontend,MERGED,2026-04-30T21:12:13Z,2026-05-05T10:40:14Z,2026-05-05T10:40:14Z,109.4669,2,5,5,2900,1,2,1
+Stirling-Tools/Stirling-PDF,6283,build(deps): bump com.google.guava:guava from 33.5.0-jre to 33.6.0-jre,MERGED,2026-04-30T21:11:54Z,2026-05-05T09:39:54Z,2026-05-05T09:39:54Z,108.4667,1,1,1,5342,1,1,1
+Stirling-Tools/Stirling-PDF,6281,decouple appimage,MERGED,2026-04-30T18:27:13Z,2026-04-30T20:36:34Z,2026-04-30T20:36:34Z,2.1558,1,26,1,1797,2,1,1
+Stirling-Tools/Stirling-PDF,6278,Switch key areas to lazily import to improve Vite chunk size,MERGED,2026-04-30T13:58:47Z,2026-05-01T15:53:49Z,2026-05-01T15:53:49Z,25.9172,11,620,189,1689,4,3,5
+Stirling-Tools/Stirling-PDF,6275,gha cleanups,MERGED,2026-04-30T10:56:39Z,2026-04-30T16:08:35Z,2026-04-30T16:08:34Z,5.1986,15,998,741,1949,4,0,7
+Stirling-Tools/Stirling-PDF,6274,fix stubs playwright,MERGED,2026-04-30T09:47:50Z,2026-04-30T11:37:15Z,2026-04-30T11:37:15Z,1.8236,3,47,5,1797,2,1,2
+Stirling-Tools/Stirling-PDF,6264,Update Backend 3rd Party Licenses,MERGED,2026-04-28T17:47:58Z,2026-04-30T09:19:09Z,2026-04-30T09:19:09Z,39.5197,1,794,10,107,1,0,1
+Stirling-Tools/Stirling-PDF,6261,build(deps): bump com.github.junrar:junrar from 7.5.8 to 7.5.10 in /app/common,MERGED,2026-04-28T16:40:34Z,2026-04-28T17:45:50Z,2026-04-28T17:45:50Z,1.0878,1,1,1,9432,1,0,1
+Stirling-Tools/Stirling-PDF,6260,build(deps): bump com.google.guava:guava from 33.5.0-jre to 33.6.0-jre in /app/common,MERGED,2026-04-28T16:40:31Z,2026-04-28T20:42:21Z,2026-04-28T20:42:21Z,4.0306,1,1,1,5342,1,0,1
+Stirling-Tools/Stirling-PDF,6258,build(deps): bump actions/setup-node from 6.3.0 to 6.4.0,MERGED,2026-04-28T16:39:45Z,2026-05-05T09:38:43Z,2026-05-05T09:38:43Z,160.9828,9,10,10,2115,1,3,1
+Stirling-Tools/Stirling-PDF,6257,build(deps): bump tauri-apps/tauri-action from 0.5.25 to 0.6.2,MERGED,2026-04-28T16:39:26Z,2026-04-30T21:36:16Z,2026-04-30T21:36:16Z,52.9472,2,3,3,5914,1,1,1
+Stirling-Tools/Stirling-PDF,6256,build(deps): bump github/codeql-action from 4.32.6 to 4.35.2,MERGED,2026-04-28T16:39:11Z,2026-04-28T17:45:39Z,2026-04-28T17:45:38Z,1.1075,1,1,1,18856,1,0,1
+Stirling-Tools/Stirling-PDF,6255,build(deps): bump springSecuritySamlVersion from 7.0.4 to 7.0.5,MERGED,2026-04-28T16:37:48Z,2026-05-05T18:01:07Z,2026-05-05T18:01:07Z,169.3886,1,1,1,14759,1,1,1
+Stirling-Tools/Stirling-PDF,6254,build(deps): bump docker/setup-buildx-action from 3.12.0 to 4.0.0,MERGED,2026-04-28T16:37:42Z,2026-04-28T17:45:25Z,2026-04-28T17:45:25Z,1.1286,7,8,8,6287,1,0,1
+Stirling-Tools/Stirling-PDF,6253,build(deps-dev): bump stylelint from 17.4.0 to 17.8.0 in /devTools,MERGED,2026-04-28T16:37:33Z,2026-04-28T17:45:10Z,2026-04-28T17:45:10Z,1.1269,2,65,68,17170,1,0,1
+Stirling-Tools/Stirling-PDF,6251,Inform AI engine which endpoints are disabled on the backend,MERGED,2026-04-28T15:49:05Z,2026-05-01T15:26:04Z,2026-05-01T15:26:04Z,71.6164,13,418,95,504,4,3,12
+Stirling-Tools/Stirling-PDF,6249,Set CI to run the same in the merge queue as it does in CI,MERGED,2026-04-28T11:16:34Z,2026-04-28T13:13:55Z,2026-04-28T13:13:55Z,1.9558,6,15,1,388,2,2,1
+Stirling-Tools/Stirling-PDF,6246,bug fixes for some desktop tools,MERGED,2026-04-28T09:10:01Z,2026-04-28T16:24:57Z,2026-04-28T16:24:57Z,7.2489,7,1,23,1957,3,0,3
+Stirling-Tools/Stirling-PDF,6243,Update Backend 3rd Party Licenses,MERGED,2026-04-27T10:37:40Z,2026-04-28T16:38:01Z,2026-04-28T16:38:01Z,30.0058,1,1,1,107,1,0,1
+Stirling-Tools/Stirling-PDF,6242,add dependabot 7 day cooldown,MERGED,2026-04-27T09:47:01Z,2026-04-28T16:36:10Z,2026-04-28T16:36:10Z,30.8192,1,12,0,1797,3,0,2
+Stirling-Tools/Stirling-PDF,6241,fix(workflow): stop leaking peer share tokens from participant session API,MERGED,2026-04-27T09:17:45Z,2026-04-28T16:36:21Z,2026-04-28T16:36:20Z,31.3097,4,194,11,5293,3,0,2
+Stirling-Tools/Stirling-PDF,6236,Lazy load open cv,MERGED,2026-04-26T21:52:18Z,2026-04-28T16:36:35Z,2026-04-28T16:36:35Z,42.7381,3,142,70,0,4,1,9
+Stirling-Tools/Stirling-PDF,6230,build(deps): bump actions/dependency-review-action from 4.8.2 to 4.9.0,MERGED,2026-04-25T22:23:10Z,2026-04-28T16:37:44Z,2026-04-28T16:37:44Z,66.2428,1,1,1,10073,1,0,1
+Stirling-Tools/Stirling-PDF,6229,build(deps): bump peter-evans/create-pull-request from 8.1.0 to 8.1.1,MERGED,2026-04-25T22:23:06Z,2026-04-28T16:35:57Z,2026-04-28T16:35:57Z,66.2142,2,3,3,7915,1,0,1
+Stirling-Tools/Stirling-PDF,6228,build(deps): bump step-security/harden-runner from 2.15.1 to 2.19.0,MERGED,2026-04-25T22:23:01Z,2026-05-05T10:40:00Z,2026-05-05T10:40:00Z,228.2831,32,47,47,6116,1,3,1
+Stirling-Tools/Stirling-PDF,6227,build(deps): bump actions/stale from 10.1.1 to 10.2.0,MERGED,2026-04-25T22:22:40Z,2026-04-28T16:35:18Z,2026-04-28T16:35:18Z,66.2106,1,1,1,4601,1,0,1
+Stirling-Tools/Stirling-PDF,6226,build(deps): bump sigstore/cosign-installer from 4.0.0 to 4.1.1,MERGED,2026-04-25T22:22:37Z,2026-04-28T16:35:05Z,2026-04-28T16:35:05Z,66.2078,2,3,3,5959,1,0,1
+Stirling-Tools/Stirling-PDF,6225,build(deps): bump org.springframework.boot from 4.0.5 to 4.0.6,MERGED,2026-04-25T22:22:35Z,2026-04-28T16:35:33Z,2026-04-28T16:35:32Z,66.2158,1,1,1,11127,1,0,1
+Stirling-Tools/Stirling-PDF,6224,Fix translation,MERGED,2026-04-25T20:02:17Z,2026-04-25T21:19:54Z,2026-04-25T21:19:53Z,1.2933,1,2,2,1797,2,1,1
+Stirling-Tools/Stirling-PDF,6220,Update: AUR PKGBUILDs desktop and server,MERGED,2026-04-25T11:19:09Z,2026-04-25T21:20:06Z,2026-04-25T21:20:06Z,10.0158,2,2,2,1703,3,0,3
+Stirling-Tools/Stirling-PDF,6219,release notes fix for engine,MERGED,2026-04-25T10:14:31Z,2026-04-25T12:09:48Z,2026-04-25T12:09:48Z,1.9214,2,21,2,1797,2,0,1
+Stirling-Tools/Stirling-PDF,6218,Fix French translations for various terms,MERGED,2026-04-25T10:11:12Z,2026-04-30T22:09:57Z,2026-04-30T22:09:57Z,131.9792,1,10,10,389,4,1,2
+Stirling-Tools/Stirling-PDF,6212,build(deps): bump the npm_and_yarn group across 2 directories with 9 updates,CLOSED,2026-04-24T18:29:10Z,2026-04-28T20:08:33Z,,97.6564,3,98,40,35054,1,8,1
+Stirling-Tools/Stirling-PDF,6207,Change frontend `.env` files to be committed and have `.env.*.local` overrides,MERGED,2026-04-24T12:29:46Z,2026-04-25T12:10:00Z,2026-04-25T12:10:00Z,23.6706,11,77,123,492,4,0,5
+Stirling-Tools/Stirling-PDF,6204,"fix AUR, publish desktop not server for now",MERGED,2026-04-23T21:08:00Z,2026-04-24T09:45:59Z,2026-04-24T09:45:59Z,12.6331,3,58,71,1797,4,0,4
+Stirling-Tools/Stirling-PDF,6197,Flesh out RAG system,MERGED,2026-04-23T16:05:44Z,2026-05-01T13:11:55Z,2026-05-01T13:11:55Z,189.1031,48,1057,524,2947,3,0,7
+Stirling-Tools/Stirling-PDF,6196,Pdf comment agent,MERGED,2026-04-23T15:44:12Z,2026-05-01T09:19:39Z,2026-05-01T09:19:39Z,185.5908,78,5091,112,2469,4,3,26
+Stirling-Tools/Stirling-PDF,6193,build(deps): bump com.drewnoakes:metadata-extractor from 2.19.0 to 2.20.0 in /app/common,MERGED,2026-04-23T12:36:15Z,2026-04-28T16:40:05Z,2026-04-28T16:40:05Z,124.0639,1,1,1,13133,1,1,1
+Stirling-Tools/Stirling-PDF,6192,build(deps): bump docker/build-push-action from 6.18.0 to 7.1.0,MERGED,2026-04-23T12:33:13Z,2026-04-24T18:25:22Z,2026-04-24T18:25:22Z,29.8692,7,11,11,9494,1,0,1
+Stirling-Tools/Stirling-PDF,6189,build(deps): bump com.bucket4j:bucket4j_jdk17-core from 8.17.0 to 8.18.0,MERGED,2026-04-23T12:32:55Z,2026-04-24T20:21:03Z,2026-04-24T20:21:02Z,31.8019,1,1,1,3681,1,0,1
+Stirling-Tools/Stirling-PDF,6188,build(deps): bump com.github.jk1.dependency-license-report from 3.1.1 to 3.1.2,MERGED,2026-04-23T12:32:50Z,2026-04-24T20:23:30Z,2026-04-24T20:23:30Z,31.8444,1,1,1,1595,1,0,1
+Stirling-Tools/Stirling-PDF,6185,build(deps): bump windows from 0.58.0 to 0.61.3 in /frontend/src-tauri,MERGED,2026-04-23T12:32:35Z,2026-05-05T10:40:47Z,2026-05-05T10:40:47Z,286.1367,2,17,81,1742,1,1,1
+Stirling-Tools/Stirling-PDF,6184,build(deps): bump com.drewnoakes:metadata-extractor from 2.19.0 to 2.20.0,MERGED,2026-04-23T12:32:11Z,2026-04-28T16:40:23Z,2026-04-28T16:40:22Z,124.1364,1,1,1,13133,1,1,1
+Stirling-Tools/Stirling-PDF,6181,build(deps): bump astral-sh/setup-uv from 4.2.0 to 8.1.0,MERGED,2026-04-23T12:31:51Z,2026-04-24T18:26:24Z,2026-04-24T18:26:24Z,29.9092,1,1,1,8118,1,0,1
+Stirling-Tools/Stirling-PDF,6180,build(deps): bump sha2 from 0.10.9 to 0.11.0 in /frontend/src-tauri,MERGED,2026-04-23T12:31:51Z,2026-05-05T10:40:58Z,2026-05-05T10:40:58Z,286.1519,2,72,8,4174,1,1,1
+Stirling-Tools/Stirling-PDF,6177,build(deps-dev): bump @stylistic/stylelint-plugin from 4.0.0 to 5.1.0 in /devTools,MERGED,2026-04-23T12:31:24Z,2026-04-28T20:42:02Z,2026-04-28T20:42:02Z,128.1772,2,27,94,5371,1,0,1
+Stirling-Tools/Stirling-PDF,6174,make clicking on comments open the comments sidebar and more,MERGED,2026-04-23T11:40:25Z,2026-04-23T16:22:48Z,2026-04-23T16:22:48Z,4.7064,6,237,49,466,3,2,3
+Stirling-Tools/Stirling-PDF,6173,build(docker): pin base container images to immutable digests,MERGED,2026-04-23T08:06:43Z,2026-04-23T12:31:21Z,2026-04-23T12:31:21Z,4.4106,4,16,14,2499,2,0,1
+Stirling-Tools/Stirling-PDF,6172,chore(ci): consolidate Dependabot directories and pin GitHub Actions in workflow automation,MERGED,2026-04-23T07:59:59Z,2026-04-23T12:30:10Z,2026-04-23T12:30:10Z,4.5031,4,33,43,3327,2,0,1
+Stirling-Tools/Stirling-PDF,6168,Version bump to 2.10.0,MERGED,2026-04-22T22:43:02Z,2026-04-23T10:54:48Z,2026-04-23T10:54:48Z,12.1961,4,4,4,1797,3,2,2
+Stirling-Tools/Stirling-PDF,6165,chore(pre-commit): bump linting and formatting tool versions and ignore Windows DLL artifact,MERGED,2026-04-22T17:36:01Z,2026-04-23T12:30:36Z,2026-04-23T12:30:36Z,18.9097,2,5,3,2146,2,1,1
+Stirling-Tools/Stirling-PDF,6161,fix file sharing bug,MERGED,2026-04-22T14:08:23Z,2026-04-23T13:52:26Z,2026-04-23T13:52:25Z,23.7339,14,522,33,4075,4,1,2
+Stirling-Tools/Stirling-PDF,6160,Migrate stream to resource for stability,MERGED,2026-04-22T14:04:06Z,2026-04-23T14:56:31Z,2026-04-23T14:56:31Z,24.8736,109,1389,854,1810,3,0,3
+Stirling-Tools/Stirling-PDF,6158,fix edge translation bug,MERGED,2026-04-22T11:42:45Z,2026-04-22T15:31:44Z,2026-04-22T15:31:44Z,3.8164,2,104,0,1797,2,1,2
+Stirling-Tools/Stirling-PDF,6157,deps(ci): enforce binary-only Python installs and refresh pinned dependency locks,MERGED,2026-04-22T11:24:00Z,2026-04-23T12:28:44Z,2026-04-23T12:28:44Z,25.0789,7,571,536,3053,3,1,1
+Stirling-Tools/Stirling-PDF,6155,chore(frontend): replace platform-specific update:minor script with cross-platform Node.js implementation,MERGED,2026-04-22T09:00:16Z,2026-04-22T10:50:01Z,2026-04-22T10:50:01Z,1.8292,2,55,1,2445,3,3,4
+Stirling-Tools/Stirling-PDF,6152,Add document context for edit agent,MERGED,2026-04-21T16:03:24Z,2026-04-23T13:19:28Z,2026-04-23T13:19:28Z,45.2678,23,462,108,1281,3,1,7
+Stirling-Tools/Stirling-PDF,6151,Move engine/AGENTS.md into root AGENTS.md because Claude doesn't bother to read it,MERGED,2026-04-21T15:12:00Z,2026-04-22T09:32:04Z,2026-04-22T09:32:04Z,18.3344,2,80,99,127,3,0,2
+Stirling-Tools/Stirling-PDF,6146,setup RAG,MERGED,2026-04-20T23:26:36Z,2026-04-21T11:42:34Z,2026-04-21T11:42:34Z,12.2661,27,2141,12,1797,2,0,9
+Stirling-Tools/Stirling-PDF,6145,Have Task choose free ports for dev servers,MERGED,2026-04-20T16:28:57Z,2026-04-28T16:26:05Z,2026-04-28T16:26:04Z,191.9519,9,216,114,744,4,1,3
+Stirling-Tools/Stirling-PDF,6144,allow deploypr:prototypes comment to spin up the prototypes build,MERGED,2026-04-20T14:21:32Z,2026-04-20T17:58:33Z,2026-04-20T17:58:33Z,3.6169,5,162,46,206,3,2,2
+Stirling-Tools/Stirling-PDF,6137,fix tests caused by streaming changes,MERGED,2026-04-18T22:37:52Z,2026-04-19T17:35:51Z,2026-04-19T17:35:51Z,18.9664,1,9,7,1630,2,0,1

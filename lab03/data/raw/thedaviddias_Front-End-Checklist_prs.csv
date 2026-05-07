@@ -1,0 +1,27 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+thedaviddias/Front-End-Checklist,525,Update README.md,MERGED,2024-04-28T16:45:16Z,2024-04-29T15:21:40Z,2024-04-29T15:21:40Z,22.6067,1,0,2,177,2,0,1
+thedaviddias/Front-End-Checklist,512,Fix Grammar and remove errors,CLOSED,2023-08-14T08:28:38Z,2023-12-09T01:48:25Z,,2801.3297,2,7,7,697,3,3,1
+thedaviddias/Front-End-Checklist,510,my-contribution into the readmefile,MERGED,2023-05-28T10:00:20Z,2023-08-16T00:10:42Z,2023-08-16T00:10:42Z,1910.1728,1,7,3,1179,2,0,1
+thedaviddias/Front-End-Checklist,505,add SVG to favicon options,MERGED,2022-12-24T02:25:54Z,2024-03-25T13:41:29Z,2024-03-25T13:41:29Z,10979.2597,1,2,0,570,3,3,2
+thedaviddias/Front-End-Checklist,493,Fixed back to top button in readme.md,CLOSED,2022-10-09T08:29:56Z,2023-04-02T05:20:41Z,,4196.8458,1,1,1,1044,2,2,1
+thedaviddias/Front-End-Checklist,484,Fix Grammar and remove errors,CLOSED,2022-06-15T08:18:48Z,2023-01-07T15:44:24Z,,4951.4267,2,7,7,852,2,2,1
+thedaviddias/Front-End-Checklist,483,Update Broken link,MERGED,2022-06-03T18:07:40Z,2022-06-03T19:58:05Z,2022-06-03T19:58:05Z,1.8403,1,1,1,732,2,0,1
+thedaviddias/Front-End-Checklist,482,UPDATE,MERGED,2022-05-20T22:44:14Z,2022-06-03T19:58:23Z,2022-06-03T19:58:23Z,333.2358,1,1,1,697,2,0,1
+thedaviddias/Front-End-Checklist,459,Noted TinyPNG isn't lossless,MERGED,2021-07-31T10:36:48Z,2022-06-03T19:59:48Z,2022-06-03T19:59:48Z,7377.3833,1,1,1,67,3,8,2
+thedaviddias/Front-End-Checklist,443,Issue #441: Fixed the broken link.,MERGED,2021-04-15T17:33:42Z,2021-05-21T03:14:36Z,2021-05-21T03:14:36Z,849.6817,1,1,1,263,7,4,3
+thedaviddias/Front-End-Checklist,435,onkar solved html markup issue,CLOSED,2020-12-26T10:34:06Z,2021-03-21T15:49:58Z,,2045.2644,1,1,1,697,2,1,1
+thedaviddias/Front-End-Checklist,430,Deleting RDFa - Linked Data in HTML,MERGED,2020-10-03T05:52:13Z,2020-11-23T03:46:18Z,2020-11-23T03:46:17Z,1221.9011,1,0,1,1150,2,0,1
+thedaviddias/Front-End-Checklist,425,Added RSS defination,CLOSED,2020-09-30T21:07:53Z,2021-01-07T00:36:55Z,,2355.4839,1,1,1,697,3,2,1
+thedaviddias/Front-End-Checklist,421,Use only star as list item symbol,MERGED,2020-09-28T21:24:40Z,2020-09-29T12:33:39Z,2020-09-29T12:33:39Z,15.1497,1,13,13,854,2,0,1
+thedaviddias/Front-End-Checklist,420,Tools for checking Responsiveness of the website.,MERGED,2020-09-27T11:03:04Z,2020-09-30T23:54:40Z,2020-09-30T23:54:40Z,84.86,1,7,0,848,2,0,1
+thedaviddias/Front-End-Checklist,419,Add links at CONTRIBUTING.md,MERGED,2020-09-16T15:27:52Z,2020-09-30T23:57:40Z,2020-09-30T23:57:40Z,344.4967,1,2,2,687,3,0,1
+thedaviddias/Front-End-Checklist,416,Decrease Google Analytics importance to Low,MERGED,2020-08-03T08:09:10Z,2020-09-30T23:56:59Z,2020-09-30T23:56:59Z,1407.7969,1,1,1,354,3,0,1
+thedaviddias/Front-End-Checklist,415,Update README.md file,CLOSED,2020-07-10T06:14:38Z,2020-12-14T13:33:50Z,,3775.32,1,435,809,911,3,2,1
+thedaviddias/Front-End-Checklist,412,Add Polish,MERGED,2020-07-02T16:41:32Z,2020-09-30T23:59:36Z,2020-09-30T23:59:36Z,2167.3011,1,1,0,793,3,3,1
+thedaviddias/Front-End-Checklist,392,[gitpod-setup] remove the build task to make the server startup fast + make the description more precise.,MERGED,2020-03-19T10:40:30Z,2020-04-17T18:40:14Z,2020-04-17T18:40:14Z,703.9956,2,8,2,186,2,0,1
+thedaviddias/Front-End-Checklist,345,Fixed broken images in README,MERGED,2020-02-14T03:34:40Z,2020-02-25T14:09:51Z,2020-02-25T14:09:51Z,274.5864,3,5,6,798,2,0,1
+thedaviddias/Front-End-Checklist,343,simplified code contributions by automating the dev setup with gitpod.,MERGED,2019-12-25T06:04:03Z,2020-01-04T23:58:07Z,2020-01-04T23:58:07Z,257.9011,2,16,0,648,2,0,1
+thedaviddias/Front-End-Checklist,334,Fix the link for Dirty Markup,MERGED,2019-09-17T15:04:13Z,2020-01-04T23:51:31Z,2020-01-04T23:51:31Z,2624.7883,1,1,1,775,2,0,1
+thedaviddias/Front-End-Checklist,328,Check for duplicate items before adding to storage,MERGED,2019-08-08T20:10:17Z,2019-08-16T15:14:22Z,2019-08-16T15:14:22Z,187.0681,1,6,0,448,2,0,1
+thedaviddias/Front-End-Checklist,325,Expand if item has videos,MERGED,2019-07-05T20:53:33Z,2019-07-28T17:54:07Z,2019-07-28T17:54:07Z,549.0094,1,1,1,769,2,0,1
+thedaviddias/Front-End-Checklist,321,Corrected Link in README,MERGED,2019-05-13T12:31:19Z,2019-05-24T11:11:16Z,2019-05-24T11:11:16Z,262.6658,1,1,1,915,2,0,1

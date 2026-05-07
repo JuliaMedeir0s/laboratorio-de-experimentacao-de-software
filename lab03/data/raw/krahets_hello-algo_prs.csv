@@ -1,0 +1,42 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+krahets/hello-algo,1883,Fix formatting of 'list' in documentation,MERGED,2026-04-08T11:46:26Z,2026-04-09T18:27:39Z,2026-04-09T18:27:39Z,30.6869,1,1,1,1221,2,0,1
+krahets/hello-algo,1881,Review the Russian version,CLOSED,2026-04-04T14:37:59Z,2026-04-14T10:15:52Z,,235.6314,0,0,0,0,2,0,16
+krahets/hello-algo,1861,fix: improve Dockerfile for international contributors,MERGED,2026-03-27T14:32:59Z,2026-03-30T06:37:30Z,2026-03-30T06:37:30Z,64.0753,1,14,1,791,2,0,1
+krahets/hello-algo,1859,fix: Rust multi-line comment format (issue #1853),MERGED,2026-03-20T12:13:49Z,2026-03-30T06:47:46Z,2026-03-30T06:47:46Z,234.5658,1,2,4,492,3,1,2
+krahets/hello-algo,1854,feat(go): add benchmark tests for bubble sort,CLOSED,2026-02-06T16:20:57Z,2026-02-18T16:33:15Z,,288.205,1,54,0,266,2,0,1
+krahets/hello-algo,1851,Fix confusion between queSize and rear pointer in ArrayQueue implemen…,MERGED,2026-01-29T04:32:32Z,2026-03-30T06:46:56Z,2026-03-30T06:46:56Z,1442.24,1,1,1,544,2,0,1
+krahets/hello-algo,1831,add epub generator,MERGED,2025-12-11T17:18:37Z,2025-12-30T00:23:31Z,2025-12-30T00:23:31Z,439.0817,18,4781,0,103,4,34,2
+krahets/hello-algo,1822,ci: run CI with Node.js v24 (LTS),MERGED,2025-10-29T08:26:50Z,2025-10-30T12:27:41Z,2025-10-30T12:27:41Z,28.0142,3,10,10,988,2,0,1
+krahets/hello-algo,1812,docs: add Japanese translate documents,MERGED,2025-09-23T06:05:20Z,2025-10-16T21:04:43Z,2025-10-16T21:04:43Z,566.9897,886,33569,0,78,3,7,2
+krahets/hello-algo,1807,fix: String.format() parameter passing error in climbing_stairs_*.java,MERGED,2025-09-13T01:12:06Z,2025-09-20T11:11:52Z,2025-09-20T11:11:52Z,177.9961,5,7,7,97,2,0,1
+krahets/hello-algo,1806,Update dp_solution_pipeline.md,MERGED,2025-09-10T08:41:01Z,2025-09-10T17:53:38Z,2025-09-10T17:53:38Z,9.2103,1,1,1,995,2,0,1
+krahets/hello-algo,1803,Update array_hash_map.py,MERGED,2025-08-31T09:26:00Z,2025-09-20T11:09:03Z,2025-09-20T11:09:03Z,481.7175,1,2,2,1063,2,0,1
+krahets/hello-algo,1802,Update hash_map.md,MERGED,2025-08-31T03:40:14Z,2025-09-20T11:26:04Z,2025-09-20T11:26:04Z,487.7639,1,1,1,43,2,0,1
+krahets/hello-algo,1800,translation: Update `chapter_data_structure/classification_of_data_structure.md`,MERGED,2025-08-26T06:41:19Z,2025-09-20T11:27:46Z,2025-09-20T11:27:46Z,604.7742,1,2,2,1232,2,0,1
+krahets/hello-algo,1796,Update summary.md,CLOSED,2025-08-13T03:41:28Z,2025-09-20T11:22:15Z,,919.6797,1,2,2,1198,2,0,1
+krahets/hello-algo,1795,Update deque.md,CLOSED,2025-08-08T02:13:00Z,2025-09-20T11:20:45Z,,1041.1292,1,2,2,1298,2,0,1
+krahets/hello-algo,1790,polish rust,MERGED,2025-07-30T09:02:49Z,2025-08-04T06:45:14Z,2025-08-04T06:45:14Z,117.7069,3,12,20,22,2,0,1
+krahets/hello-algo,1788,Update stack.md,MERGED,2025-07-28T15:03:57Z,2025-09-20T11:18:35Z,2025-09-20T11:18:35Z,1292.2439,1,1,1,1124,2,0,1
+krahets/hello-algo,1787,code: update zig 0.14.1 for the chapter of array_and_linkedlist and computational_complexity,MERGED,2025-07-19T09:44:14Z,2025-08-05T18:33:01Z,2025-08-05T18:33:01Z,416.8131,22,822,613,1616,2,0,11
+krahets/hello-algo,1784,greedy/max_capacity: fix myMax algorithm error,MERGED,2025-07-18T06:35:49Z,2025-07-21T07:12:34Z,2025-07-21T07:12:34Z,72.6125,1,1,1,988,2,2,1
+krahets/hello-algo,1783,add vivid metaphor of iteration and recursion,CLOSED,2025-07-18T03:19:43Z,2025-07-20T08:42:17Z,,53.3761,1,4,0,988,2,0,1
+krahets/hello-algo,1777,Polish rust,MERGED,2025-07-01T09:31:12Z,2025-07-09T22:33:23Z,2025-07-09T22:33:23Z,205.0364,8,41,47,0,2,0,10
+krahets/hello-algo,1775,add cangjie programming language,CLOSED,2025-06-27T15:49:38Z,2025-07-22T08:09:16Z,,592.3272,79,4588,0,988,2,1,6
+krahets/hello-algo,1772,Update time_complexity.md,MERGED,2025-06-16T16:42:36Z,2025-07-09T23:08:44Z,2025-07-09T23:08:44Z,558.4356,1,3,3,1113,2,0,1
+krahets/hello-algo,1770,Update performance_evaluation.md,MERGED,2025-06-16T16:20:25Z,2025-07-20T11:56:15Z,2025-07-20T11:56:15Z,811.5972,1,2,2,1731,2,0,1
+krahets/hello-algo,1764,en: fix picture file name,MERGED,2025-06-06T16:25:58Z,2025-06-12T12:46:32Z,2025-06-12T12:46:31Z,140.3425,1,1,1,230,2,0,1
+krahets/hello-algo,1761,update rust heap,MERGED,2025-05-27T03:15:23Z,2025-06-12T12:47:47Z,2025-06-12T12:47:47Z,393.54,1,32,24,79,2,0,1
+krahets/hello-algo,1760,Update Q&A of hash_table and time_complexity Chapter,MERGED,2025-05-24T19:39:49Z,2025-09-20T11:52:59Z,2025-09-20T11:52:59Z,2848.2194,2,10,0,557,2,0,1
+krahets/hello-algo,1758,Update max_product_cutting_problem.md,MERGED,2025-05-22T15:10:45Z,2025-06-12T13:10:15Z,2025-06-12T13:10:15Z,501.9917,1,2,2,1316,2,0,1
+krahets/hello-algo,1755,"Specify currency unit in the ""Price"" row of the storage compar…",MERGED,2025-05-20T05:22:02Z,2025-06-12T12:57:48Z,2025-06-12T12:57:47Z,559.5958,3,21,21,1003,2,0,2
+krahets/hello-algo,1751,Translation: Update intro_to_dynamic_programming.md,MERGED,2025-05-10T17:23:02Z,2025-05-17T09:14:44Z,2025-05-17T09:14:44Z,159.8617,1,12,12,988,3,1,3
+krahets/hello-algo,1750,Fix typo in Traditional Chinese translation of binary search,MERGED,2025-05-10T15:57:50Z,2025-05-17T09:14:32Z,2025-05-17T09:14:32Z,161.2783,1,1,1,42,2,0,1
+krahets/hello-algo,1748,optimized the js api use of counting_sort chapter for Math.max(),MERGED,2025-05-07T07:23:19Z,2025-05-17T09:17:22Z,2025-05-17T09:17:22Z,241.9008,4,6,28,1126,2,0,1
+krahets/hello-algo,1739,translation: Update EN translation for Introduction Chapter,MERGED,2025-04-21T10:14:16Z,2025-07-09T22:38:31Z,2025-07-09T22:38:31Z,1908.4042,3,23,10,988,3,0,4
+krahets/hello-algo,1738,translation: Update en translation for preface,MERGED,2025-04-20T12:36:13Z,2025-07-09T22:36:16Z,2025-07-09T22:36:16Z,1930.0008,1,4,4,988,3,0,3
+krahets/hello-algo,1737,Update Zig example code,MERGED,2025-04-19T11:22:48Z,2025-05-17T09:15:31Z,2025-05-17T09:15:30Z,669.8783,1,13,1,988,2,0,1
+krahets/hello-algo,1736,Update time_complexity.md,CLOSED,2025-04-16T06:45:43Z,2025-05-17T08:41:48Z,,745.9347,1,1,1,1013,1,0,2
+krahets/hello-algo,1733,translation: Update algorithms_are_everywhere.md,MERGED,2025-04-12T00:00:19Z,2025-07-09T22:54:30Z,2025-07-09T22:54:30Z,2134.9031,1,20,20,2656,3,2,20
+krahets/hello-algo,1711,fix(zh-hant translation): graph_traversal.md,MERGED,2025-03-27T07:36:38Z,2025-03-28T09:09:29Z,2025-03-28T09:09:29Z,25.5475,1,1,1,1004,2,0,1
+krahets/hello-algo,1688,Update the description of time and space complexity of fractional_knapsack problem.,MERGED,2025-03-20T05:02:46Z,2025-03-20T11:46:18Z,2025-03-20T11:46:18Z,6.7256,1,2,0,986,2,0,1
+krahets/hello-algo,1681,"tiny fix, more readable rust",MERGED,2025-03-10T09:22:53Z,2025-03-11T08:56:34Z,2025-03-11T08:56:34Z,23.5614,1,10,14,0,2,0,5

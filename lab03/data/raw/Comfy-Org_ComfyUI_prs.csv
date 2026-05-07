@@ -1,0 +1,48 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+Comfy-Org/ComfyUI,13714,Update workflow templates to v0.9.69,MERGED,2026-05-05T12:54:50Z,2026-05-05T13:57:28Z,2026-05-05T13:57:28Z,1.0439,1,1,1,440,3,2,1
+Comfy-Org/ComfyUI,13712,chore: Update display names and categories for text nodes (CORE-155),MERGED,2026-05-05T05:47:54Z,2026-05-05T14:31:25Z,2026-05-05T14:31:25Z,8.7253,2,37,35,342,3,2,4
+Comfy-Org/ComfyUI,13706,fix(spec): mark DeviceStats.index and NodeInfo.essentials_category as nullable,MERGED,2026-05-04T18:19:51Z,2026-05-05T01:28:21Z,2026-05-05T01:28:21Z,7.1417,1,18,2,2466,3,1,5
+Comfy-Org/ComfyUI,13705,ops: handle multi-compute of the same weight (CORE-153),MERGED,2026-05-04T17:03:18Z,2026-05-04T23:40:58Z,2026-05-04T23:40:58Z,6.6278,1,3,0,887,3,1,1
+Comfy-Org/ComfyUI,13703,prefetch: guard against no offload (CORE-149),MERGED,2026-05-04T15:27:14Z,2026-05-04T19:56:05Z,2026-05-04T19:56:05Z,4.4808,1,2,1,1568,3,1,1
+Comfy-Org/ComfyUI,13702,Add temporal_downscale_ratio to LatentFormat (CORE-147),MERGED,2026-05-04T15:14:29Z,2026-05-05T23:30:00Z,2026-05-05T23:30:00Z,32.2586,1,8,0,595,5,1,3
+Comfy-Org/ComfyUI,13701,make control-net load order deterministic (CORE-139),MERGED,2026-05-04T14:11:51Z,2026-05-04T19:58:07Z,2026-05-04T19:58:07Z,5.7711,2,8,5,1021,4,3,4
+Comfy-Org/ComfyUI,13698,fix: Proper memory estimation for frame interpolation (CORE-150),MERGED,2026-05-04T11:04:47Z,2026-05-04T17:20:41Z,2026-05-04T17:20:41Z,6.265,3,10,7,438,3,2,2
+Comfy-Org/ComfyUI,13691,fix: Make ColorTransfer node ref_image mandatory (CORE-140),MERGED,2026-05-04T02:44:23Z,2026-05-04T04:33:12Z,2026-05-04T04:33:11Z,1.8133,1,2,1,669,3,2,2
+Comfy-Org/ComfyUI,13690,PrimitiveInt: default control_after_generate widget to fixed (CORE-141),MERGED,2026-05-03T21:45:24Z,2026-05-03T23:21:35Z,2026-05-03T23:21:35Z,1.6031,1,1,1,554,3,1,2
+Comfy-Org/ComfyUI,13686,Batch broadcasting in JoinImageWithAlpha node (CORE-143),MERGED,2026-05-03T12:24:09Z,2026-05-03T13:30:00Z,2026-05-03T13:30:00Z,1.0975,1,4,7,104,2,1,2
+Comfy-Org/ComfyUI,13685,feat: add generic --feature-flag CLI arg and --list-feature-flags registry,MERGED,2026-05-03T11:50:34Z,2026-05-05T02:50:26Z,2026-05-05T02:50:26Z,38.9978,4,186,3,1835,3,1,6
+Comfy-Org/ComfyUI,13683,Update ComfyUI screenshot in README (CORE-144),MERGED,2026-05-03T05:36:07Z,2026-05-03T10:48:59Z,2026-05-03T10:48:59Z,5.2144,1,2,1,0,3,1,1
+Comfy-Org/ComfyUI,13679,Update README (CORE-144),MERGED,2026-05-03T01:59:39Z,2026-05-03T04:20:17Z,2026-05-03T04:20:17Z,2.3439,1,9,3,123,3,1,3
+Comfy-Org/ComfyUI,13673,[Partner Nodes] add Gpt 5.5 and 5.5-pro LLM models,MERGED,2026-05-02T13:09:18Z,2026-05-05T13:53:19Z,2026-05-05T13:53:19Z,72.7336,2,22,10,397,3,1,3
+Comfy-Org/ComfyUI,13672,[Partner Nodes] Topaz Astra 2 model,MERGED,2026-05-02T11:31:22Z,2026-05-03T02:29:01Z,2026-05-03T02:29:01Z,14.9608,2,365,5,470,3,1,1
+Comfy-Org/ComfyUI,13663,chore(api-nodes): increase default timeout for partner API node tasks,MERGED,2026-05-01T18:42:03Z,2026-05-01T19:48:41Z,2026-05-01T19:48:41Z,1.1106,9,3,21,397,2,1,1
+Comfy-Org/ComfyUI,13662,Update workflow templates to v0.9.66,MERGED,2026-05-01T17:58:54Z,2026-05-01T19:11:31Z,2026-05-01T19:11:31Z,1.2103,1,1,1,440,2,2,1
+Comfy-Org/ComfyUI,13659,chore(api-nodes): remove Moonvalley API nodes,MERGED,2026-05-01T16:01:48Z,2026-05-01T18:09:25Z,2026-05-01T18:09:25Z,2.1269,2,0,686,425,2,1,1
+Comfy-Org/ComfyUI,13656,SDPose: resize fix (CORE-146),MERGED,2026-05-01T10:24:11Z,2026-05-01T21:17:25Z,2026-05-01T21:17:25Z,10.8872,1,17,21,305,3,1,1
+Comfy-Org/ComfyUI,13638,[Partner Nodes] ByteDance: virtual portrait library for regular images,MERGED,2026-04-30T16:42:32Z,2026-04-30T18:49:09Z,2026-04-30T18:49:09Z,2.1103,2,39,4,397,2,1,3
+Comfy-Org/ComfyUI,13636,SaveImage: multithread image saving,CLOSED,2026-04-30T14:54:39Z,2026-05-01T02:58:07Z,,12.0578,1,31,21,1315,2,2,1
+Comfy-Org/ComfyUI,13623,feat: add cloud-specific fields to OSS openapi.yaml as nullable,MERGED,2026-04-29T20:38:23Z,2026-05-05T21:20:10Z,2026-05-05T21:20:10Z,144.6964,1,111,11,3092,4,1,9
+Comfy-Org/ComfyUI,13618,Implement block prefetch + Lora Async load + and adopt in LTX (Speedup!) (CORE-111),MERGED,2026-04-29T10:42:56Z,2026-05-02T23:23:25Z,2026-05-02T23:23:25Z,84.6747,8,251,57,5225,4,4,5
+Comfy-Org/ComfyUI,13617,Reduce video tiny VAE peak VRAM and decode time (CORE-127),MERGED,2026-04-29T10:13:12Z,2026-04-29T19:15:11Z,2026-04-29T19:15:11Z,9.0331,1,22,15,687,3,2,7
+Comfy-Org/ComfyUI,13615,fix: Make ImageBlend and ImageCompositeMasked nodes handle images with different channel counts (CORE-103),MERGED,2026-04-29T09:27:52Z,2026-05-03T10:17:09Z,2026-05-03T10:17:09Z,96.8214,1,2,2,875,4,1,2
+Comfy-Org/ComfyUI,13614,[Partner Nodes] add Luma UNI-1 model,MERGED,2026-04-29T09:03:36Z,2026-05-05T13:49:08Z,2026-05-05T13:49:08Z,148.7589,2,330,14,397,2,1,6
+Comfy-Org/ComfyUI,13606,Increate unit test coverage,CLOSED,2026-04-28T20:52:50Z,2026-04-28T22:31:14Z,,1.64,2,1640,0,0,1,1,1
+Comfy-Org/ComfyUI,13603,dynamicVRAM + --cache-ram 2 (CORE-117),MERGED,2026-04-28T17:24:10Z,2026-04-28T23:15:03Z,2026-04-28T23:15:03Z,5.8481,4,9,8,2261,2,1,1
+Comfy-Org/ComfyUI,13602,feat: add GetVideoLastFrame node (CORE-123),CLOSED,2026-04-28T16:15:08Z,2026-04-29T05:54:03Z,,13.6486,2,391,0,0,2,2,1
+Comfy-Org/ComfyUI,13594,Use pyav to load images instead of pillow (CORE-95),MERGED,2026-04-28T01:30:14Z,2026-04-28T22:15:06Z,2026-04-28T22:15:06Z,20.7478,1,5,1,203,2,1,3
+Comfy-Org/ComfyUI,13586,Update workflow templates to v0.9.63,MERGED,2026-04-27T14:06:11Z,2026-04-27T17:06:03Z,2026-04-27T17:06:03Z,2.9978,1,1,1,831,2,2,1
+Comfy-Org/ComfyUI,13582,[Partner Nodes] HappyHorse model,MERGED,2026-04-27T09:17:23Z,2026-04-27T16:53:09Z,2026-04-27T16:53:09Z,7.5961,2,557,2,397,2,1,1
+Comfy-Org/ComfyUI,13578,fix: Handle un-inited meta-tensors in models (fixes a CPU TE crash) (CORE-67),MERGED,2026-04-27T04:35:32Z,2026-04-28T02:22:32Z,2026-04-28T02:22:32Z,21.7833,2,19,2,4281,3,1,1
+Comfy-Org/ComfyUI,13574,Add WaveSpeed text-to-image node (Flux Dev / Schnell),CLOSED,2026-04-27T02:04:36Z,2026-05-01T12:52:07Z,,106.7919,3,551,0,1529,2,2,2
+Comfy-Org/ComfyUI,13563,feat: Context windows - add causal_window_fix to improve blending of context windows (CORE-100),MERGED,2026-04-25T22:10:34Z,2026-05-05T23:40:53Z,2026-05-05T23:40:53Z,241.5053,2,34,5,1604,3,2,3
+Comfy-Org/ComfyUI,13560,fix(extra-paths): auto-register implicit subdirs when base_path is set,CLOSED,2026-04-25T16:14:58Z,2026-04-26T09:50:18Z,,17.5889,3,79,0,523,1,1,1
+Comfy-Org/ComfyUI,13542,Properly load higher bit depth videos.,MERGED,2026-04-24T00:59:44Z,2026-04-24T20:46:11Z,2026-04-24T20:46:11Z,19.7742,1,2,2,0,2,2,1
+Comfy-Org/ComfyUI,13541,ci: dispatch tag push to Comfy Cloud,MERGED,2026-04-24T00:28:50Z,2026-04-28T02:51:34Z,2026-04-28T02:51:34Z,98.3789,1,45,0,1301,2,3,2
+Comfy-Org/ComfyUI,13533,Update workflow templates to v0.9.61,MERGED,2026-04-23T13:35:04Z,2026-04-23T14:51:21Z,2026-04-23T14:51:21Z,1.2714,1,1,1,766,2,2,1
+Comfy-Org/ComfyUI,13531,Fix LTXV Reference Audio node,MERGED,2026-04-23T12:20:31Z,2026-04-23T18:13:18Z,2026-04-23T18:13:18Z,5.8797,1,9,1,50,2,1,3
+Comfy-Org/ComfyUI,13530,Fix Content-Disposition header RFC compliance,CLOSED,2026-04-23T11:51:49Z,2026-05-05T18:01:22Z,,294.1592,1,29,4,568,3,1,2
+Comfy-Org/ComfyUI,13525,Modify SQLAlchemy version requirement,CLOSED,2026-04-22T23:13:20Z,2026-04-23T03:56:34Z,,4.7206,1,1,1,178,2,4,1
+Comfy-Org/ComfyUI,13519,"[Partner Nodes] GPTImage: fix price badges, add new resolutions",MERGED,2026-04-22T16:58:15Z,2026-04-23T05:47:33Z,2026-04-23T05:47:33Z,12.8217,1,46,13,397,2,1,4
+Comfy-Org/ComfyUI,13518,fix: use Parameter assignment for Stable_Zero123 cc_projection weights,MERGED,2026-04-22T15:45:33Z,2026-04-22T22:05:44Z,2026-04-22T22:05:44Z,6.3364,1,2,2,1451,3,1,1
+Comfy-Org/ComfyUI,13513,Reformat models variable into multiline array (CORE-59),MERGED,2026-04-22T09:57:33Z,2026-05-01T09:20:12Z,2026-05-01T09:20:12Z,215.3775,1,82,2,85,4,6,2
+Comfy-Org/ComfyUI,13509,[Partner Nodes] add SD2 real human support,MERGED,2026-04-22T07:09:30Z,2026-04-23T00:59:55Z,2026-04-23T00:59:55Z,17.8403,3,494,18,397,3,1,5

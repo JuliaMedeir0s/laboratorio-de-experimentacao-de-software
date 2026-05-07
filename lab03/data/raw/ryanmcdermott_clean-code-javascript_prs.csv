@@ -1,0 +1,12 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+ryanmcdermott/clean-code-javascript,457,Updated example in using the same vocabulary for the same type of variable,CLOSED,2024-07-29T07:24:37Z,2024-12-31T23:14:35Z,,3735.8328,1,2,0,38,2,0,1
+ryanmcdermott/clean-code-javascript,453,chore(README.md): correct title within context,CLOSED,2024-04-04T10:35:43Z,2025-07-17T14:53:33Z,,11260.2972,1,1,1,120,2,0,1
+ryanmcdermott/clean-code-javascript,347,replace avoid conditionals with a more Gaurd Cluases,CLOSED,2021-04-28T03:53:59Z,2021-05-23T18:34:36Z,,614.6769,1,20,43,155,3,1,2
+ryanmcdermott/clean-code-javascript,333,added 'Use let/const instead of var',CLOSED,2021-01-06T03:20:09Z,2021-05-23T18:04:41Z,,3302.7422,1,36,0,140,3,2,1
+ryanmcdermott/clean-code-javascript,326,Add Serbian translation.,MERGED,2020-10-10T16:08:01Z,2021-01-21T03:27:40Z,2021-01-21T03:27:40Z,2459.3275,1,1,0,0,3,1,1
+ryanmcdermott/clean-code-javascript,288,Change argument name from inner variable name,MERGED,2020-01-21T08:29:03Z,2020-07-31T03:09:46Z,2020-07-31T03:09:46Z,4602.6786,1,2,2,0,3,1,1
+ryanmcdermott/clean-code-javascript,255,Feature/add spanish translation,CLOSED,2019-01-23T18:15:30Z,2019-02-02T10:20:54Z,,232.09,1,16,15,83,3,3,4
+ryanmcdermott/clean-code-javascript,248,excess comma removed,CLOSED,2018-11-09T18:28:09Z,2019-01-24T02:55:23Z,,1808.4539,1,1,1,27,4,2,3
+ryanmcdermott/clean-code-javascript,238,"Change argument name of ""Use default arguments instead of short circu…",MERGED,2018-01-15T11:06:52Z,2018-01-20T17:19:05Z,2018-01-20T17:19:05Z,126.2036,1,1,1,75,3,1,1
+ryanmcdermott/clean-code-javascript,224,Spanish,CLOSED,2017-07-14T20:37:13Z,2020-10-07T20:18:15Z,,28343.6839,1,1,0,0,3,6,1
+ryanmcdermott/clean-code-javascript,223,Spanish,CLOSED,2017-07-13T19:18:57Z,2017-07-16T21:14:00Z,,73.9175,1,1,0,14,3,1,2

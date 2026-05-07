@@ -1,0 +1,73 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+redis/redis,15168,Redis 8.2.6,MERGED,2026-05-05T12:19:40Z,2026-05-05T13:22:53Z,2026-05-05T13:22:53Z,1.0536,26,747,25,4045,7,0,2
+redis/redis,15166,Enable LTO for RediSearch module when Redis is build with modules,MERGED,2026-05-05T10:12:53Z,2026-05-05T18:17:38Z,2026-05-05T18:17:38Z,8.0792,1,4,0,733,3,0,2
+redis/redis,15147,Fix CI Codecov v6 coverage upload configuration,MERGED,2026-04-30T06:19:14Z,2026-04-30T13:38:26Z,2026-04-30T13:38:26Z,7.32,1,11,3,2154,2,1,7
+redis/redis,15142,fix: remove unsafe exec() in redis.conf,CLOSED,2026-04-29T10:05:59Z,2026-04-29T11:28:12Z,,1.3703,0,0,0,1881,3,1,2
+redis/redis,15141,docs: suggest documentation improvements for better user experience,CLOSED,2026-04-29T04:22:21Z,2026-04-29T11:17:14Z,,6.9147,1,23,0,463,4,2,1
+redis/redis,15140,docs: suggest documentation improvements for better user experience,CLOSED,2026-04-29T04:19:09Z,2026-04-29T11:17:27Z,,6.9717,1,23,0,463,3,1,1
+redis/redis,15139,docs: suggest documentation improvements for better user experience,CLOSED,2026-04-29T04:14:31Z,2026-04-29T11:17:24Z,,7.0481,1,23,0,463,3,1,1
+redis/redis,15138,docs: suggest documentation improvements for better user experience,CLOSED,2026-04-29T04:11:03Z,2026-04-29T11:17:22Z,,7.1053,1,23,0,463,3,2,1
+redis/redis,15132,Diskless replication: Add on-demand per replica buffer for slow replicas,CLOSED,2026-04-28T16:58:44Z,2026-04-29T17:53:41Z,,24.9158,3,37,16,1758,2,5,1
+redis/redis,15129,test: stabilize HOTKEYS MULTI/EXEC test by increasing iteration count,MERGED,2026-04-28T13:14:50Z,2026-04-30T13:15:12Z,2026-04-30T13:15:12Z,48.0061,1,1,1,2380,3,1,2
+redis/redis,15128,Redis 8.8 M03,MERGED,2026-04-28T11:58:15Z,2026-04-28T13:44:48Z,2026-04-28T13:44:48Z,1.7758,43,1728,273,1766,14,1,2
+redis/redis,15118,perf+security: drop SCAN vector pre-allocation; rely on grow-by-doubling,MERGED,2026-04-27T13:51:32Z,2026-04-27T15:13:15Z,2026-04-27T15:13:15Z,1.3619,1,0,4,3425,3,2,2
+redis/redis,15114,t_string: rewrite SET GET propagation in place,MERGED,2026-04-26T13:01:23Z,2026-04-28T07:05:59Z,2026-04-28T07:05:59Z,42.0767,3,20,11,2945,3,3,6
+redis/redis,15103,Replace recursive rax tree freeing with iterative traversal,MERGED,2026-04-24T06:58:45Z,2026-04-27T05:47:44Z,2026-04-27T05:47:44Z,70.8164,1,36,36,2206,2,2,6
+redis/redis,15094,Fix sharded pubsub unsubscribe lookup using cached command slot,MERGED,2026-04-22T16:56:06Z,2026-04-29T14:04:06Z,2026-04-29T14:04:06Z,165.1333,2,31,1,3355,2,9,16
+redis/redis,15093,"gcraCommand, gcraSetValueCommand use ceil operation for division (conversion us to ms)",CLOSED,2026-04-22T15:10:43Z,2026-04-29T03:34:59Z,,156.4044,2,27,2,2182,2,3,2
+redis/redis,15089,Update SECURITY.md vulnerability reporting instructions,MERGED,2026-04-21T13:50:06Z,2026-04-27T16:03:32Z,2026-04-27T16:03:32Z,146.2239,1,14,4,844,3,2,8
+redis/redis,15088,RED-183392 post release tarball testing,CLOSED,2026-04-21T09:07:59Z,2026-04-27T07:42:16Z,,142.5714,1,309,34,1144,2,2,3
+redis/redis,15081,Reject corrupt stream RDB with shared NACK across consumers,MERGED,2026-04-20T10:33:38Z,2026-04-23T12:46:49Z,2026-04-23T12:46:49Z,74.2197,2,24,0,2349,2,1,5
+redis/redis,15075,Update RediSearch to version 99.88.96,CLOSED,2026-04-19T12:59:46Z,2026-04-19T18:09:50Z,,5.1678,1,1,1,1145,2,2,1
+redis/redis,15073,tracking: fix self-overlap returning non-zero loop index,MERGED,2026-04-19T02:23:58Z,2026-04-28T01:24:48Z,2026-04-28T01:24:48Z,215.0139,2,13,1,1690,3,3,4
+redis/redis,15072,Update RediSearch to 8.8 RC1 (v8.7.90),MERGED,2026-04-18T20:55:15Z,2026-04-19T07:49:34Z,2026-04-19T07:49:34Z,10.9053,1,1,1,733,2,1,2
+redis/redis,15067,redis-cli: free COMMAND reply on malformed legacy help entry,CLOSED,2026-04-17T15:46:43Z,2026-04-29T13:16:45Z,,285.5006,1,2,1,1833,3,4,4
+redis/redis,15065,perf: replace list with vec in scanGenericCommand key collection,MERGED,2026-04-17T09:22:30Z,2026-04-27T11:16:37Z,2026-04-27T11:16:37Z,241.9019,3,70,31,6125,4,1,29
+redis/redis,15061,perf: widen fast_float_strtod fast path to 17-19 digit mantissas,MERGED,2026-04-16T21:02:11Z,2026-04-20T12:45:50Z,2026-04-20T12:45:50Z,87.7275,2,120,12,6068,3,3,10
+redis/redis,15060,Fix CI failures in old-chain jobs caused by EOL Ubuntu/package sources,CLOSED,2026-04-16T17:31:33Z,2026-04-18T09:28:06Z,,39.9425,3,53,43,2826,2,3,6
+redis/redis,15059,Fix use-after-free in RM_RegisterClusterMessageReceiver(),MERGED,2026-04-16T16:07:23Z,2026-04-23T08:44:36Z,2026-04-23T08:44:36Z,160.6203,1,1,1,1314,3,10,5
+redis/redis,15056,Log node address when ASM starts,MERGED,2026-04-16T07:02:30Z,2026-04-16T09:13:01Z,2026-04-16T09:13:01Z,2.1753,1,17,3,912,2,1,3
+redis/redis,15055,Fix command-docs and corrupt-dump-fuzzer of OBJ_GCRA type,MERGED,2026-04-16T03:38:35Z,2026-04-17T07:30:44Z,2026-04-17T07:30:44Z,27.8692,5,23,2,3811,3,13,6
+redis/redis,15053,perf: stack-buffer stream ID formatting in reply path,CLOSED,2026-04-15T22:40:32Z,2026-04-22T14:31:15Z,,159.8453,1,28,3,2880,3,3,8
+redis/redis,15052,Update to SECURITY.md,CLOSED,2026-04-15T16:07:02Z,2026-04-20T16:49:10Z,,120.7022,0,0,0,696,2,4,2
+redis/redis,15047,Increase threshold for HPEXPIRETIME persists after RDB reload test,MERGED,2026-04-15T11:57:47Z,2026-04-17T08:36:02Z,2026-04-17T08:36:02Z,44.6375,1,1,1,3182,3,4,5
+redis/redis,15042,Pass context to RM_GetUserUsername() to support auto memory management,MERGED,2026-04-14T15:26:41Z,2026-04-28T08:45:31Z,2026-04-28T08:45:31Z,329.3139,3,5,5,2168,5,2,5
+redis/redis,15039,vector: introduce internal pointer vector DS,MERGED,2026-04-13T15:08:23Z,2026-04-14T15:45:48Z,2026-04-14T15:45:48Z,24.6236,4,268,1,1890,2,1,12
+redis/redis,15037,Fix wrong argv index in xinfoReplyWithStreamInfo for slot alloc size tracking,MERGED,2026-04-13T12:23:49Z,2026-04-14T11:26:42Z,2026-04-14T11:26:42Z,23.0481,2,4,4,1439,2,2,2
+redis/redis,15036,DataTypes update 8.8 RC1,MERGED,2026-04-13T11:46:25Z,2026-04-16T10:43:11Z,2026-04-16T10:43:11Z,70.9461,3,3,3,650,3,2,1
+redis/redis,15035,RED-183357 tarball upload automation,CLOSED,2026-04-13T06:52:35Z,2026-04-27T07:41:31Z,,336.8156,2,59,21,1017,3,2,10
+redis/redis,15034,Fix decrRefCount on NULL robj on corrupt KEY_META payload,MERGED,2026-04-13T06:35:06Z,2026-04-16T13:50:50Z,2026-04-16T13:50:50Z,79.2622,5,35,9,2260,2,3,5
+redis/redis,15021,Fix HEXPIRE numfields overflow,MERGED,2026-04-09T11:16:10Z,2026-04-13T06:46:46Z,2026-04-13T06:46:46Z,91.51,2,8,2,270,2,1,4
+redis/redis,15019,Eliminate buffer copy in zzlStrtod for sorted set score parsing,CLOSED,2026-04-08T18:36:48Z,2026-04-20T13:03:04Z,,282.4378,3,19,7,1982,2,5,2
+redis/redis,15016,Fix gen_write_load error on MOVED/ASK during atomic-slot-migration tests,MERGED,2026-04-08T15:24:52Z,2026-04-15T00:34:40Z,2026-04-15T00:34:40Z,153.1633,3,36,26,1874,3,5,16
+redis/redis,15015,Change log level for unknown extension types from LL_WARNING to LL_VERBOSE,MERGED,2026-04-08T14:04:38Z,2026-04-20T02:04:43Z,2026-04-20T02:04:42Z,276.0011,1,1,1,897,3,9,1
+redis/redis,15013,fix(tests): harden MemBlockWrite against NULL/zero-length memcpy,CLOSED,2026-04-08T10:12:08Z,2026-04-10T04:59:21Z,,42.7869,1,5,3,1785,4,2,10
+redis/redis,15011,fix trivial double-free issue in rdbLoadObject,MERGED,2026-04-07T14:07:19Z,2026-04-08T01:50:51Z,2026-04-08T01:50:51Z,11.7256,1,5,3,1178,3,3,2
+redis/redis,15004,Partial support set keymeta on ksn,MERGED,2026-04-06T08:05:01Z,2026-04-07T09:15:26Z,2026-04-07T09:15:26Z,25.1736,8,235,67,2715,7,2,14
+redis/redis,15003,Reduce overhead in command propagation,MERGED,2026-04-06T06:59:51Z,2026-04-15T14:08:36Z,2026-04-15T14:08:36Z,223.1458,2,173,131,1539,2,1,23
+redis/redis,14995,Remove unnecessary `-ERR` and `\r\n` for addReplyErrorFormat in extractLongLatOrReply(),MERGED,2026-04-05T08:26:48Z,2026-04-17T09:28:13Z,2026-04-17T09:28:13Z,289.0236,2,9,1,1224,3,2,7
+redis/redis,14988,Add batched prefetch for HGETALL on hashtable encoding,MERGED,2026-04-04T12:20:10Z,2026-04-29T08:09:52Z,2026-04-29T08:09:52Z,595.8283,1,69,0,3356,4,8,21
+redis/redis,14987,Use no_value dict type for stream_idmp_keys to explicitly mark it as a key-only set,MERGED,2026-04-04T09:31:51Z,2026-04-10T15:25:57Z,2026-04-10T15:25:56Z,149.9014,6,20,6,1403,3,9,14
+redis/redis,14982,Fix signed integer overflow in scan count parameter,MERGED,2026-04-03T11:19:35Z,2026-04-23T09:38:42Z,2026-04-23T09:38:42Z,478.3186,2,16,1,1743,2,3,6
+redis/redis,14979,Dismiss dict bucket arrays in fork child to reduce CoW,MERGED,2026-04-03T09:01:39Z,2026-04-15T12:34:37Z,2026-04-15T12:34:37Z,291.5494,6,110,22,2320,2,2,10
+redis/redis,14974,Fix memory leak in helloacl module,MERGED,2026-04-02T18:22:52Z,2026-04-03T03:09:40Z,2026-04-03T03:09:40Z,8.78,1,2,0,1707,2,1,1
+redis/redis,14970,Fix Sentinel config injection via SENTINEL SET (CVE-like),MERGED,2026-04-01T15:48:43Z,2026-05-05T08:04:28Z,2026-05-05T08:04:28Z,808.2625,2,393,27,2347,3,1,18
+redis/redis,14969,Update descriptions in gcra.json,MERGED,2026-03-31T19:06:27Z,2026-04-01T09:58:51Z,2026-04-01T09:58:51Z,14.8733,1,3,3,672,2,2,2
+redis/redis,14968,keymeta: add DEBUG flag for runtime keymeta class registration,MERGED,2026-03-31T12:45:41Z,2026-04-07T09:31:53Z,2026-04-07T09:31:53Z,164.77,6,27,9,215,2,2,7
+redis/redis,14963,Fix missing consumer propagation on empty XREADGROUP,MERGED,2026-03-31T09:55:15Z,2026-04-08T11:59:22Z,2026-04-08T11:59:22Z,194.0686,2,91,9,3295,2,2,5
+redis/redis,14962,Fix flaky cluster pubsubshard test in 26-pubsubshard,MERGED,2026-03-31T02:54:47Z,2026-03-31T22:51:00Z,2026-03-31T22:51:00Z,19.9369,1,1,0,1975,2,1,3
+redis/redis,14958,Subkey notification for hash fields,MERGED,2026-03-30T14:02:30Z,2026-04-17T05:39:05Z,2026-04-17T05:39:05Z,423.6097,15,1256,127,8391,9,25,44
+redis/redis,14956,Fix SIGABRT in HSETEX when a field appears twice in the FIELDS list,MERGED,2026-03-30T11:56:53Z,2026-04-16T10:16:53Z,2026-04-16T10:16:53Z,406.3333,2,18,4,2192,2,1,2
+redis/redis,14955,Fix IDMP tracking not cleared when resetting stream IDMP config,MERGED,2026-03-30T11:19:54Z,2026-04-03T06:17:11Z,2026-04-03T06:17:11Z,90.9547,1,2,1,1885,3,2,5
+redis/redis,14950,GCRA param renaming,MERGED,2026-03-30T08:57:39Z,2026-03-31T08:57:42Z,2026-03-31T08:57:42Z,24.0008,4,31,31,958,2,2,4
+redis/redis,14948,Fix brittle assert_match patterns for unexpected slowlog fields,MERGED,2026-03-29T15:33:40Z,2026-04-13T06:45:14Z,2026-04-13T06:45:14Z,351.1928,7,51,51,1115,3,5,3
+redis/redis,14947,Add test: reject REPLICAOF when cluster mode is enabled,CLOSED,2026-03-29T04:58:17Z,2026-03-30T05:17:04Z,,24.3131,1,19,0,1352,2,2,2
+redis/redis,14946,Test tcp deadlock fixes,MERGED,2026-03-29T03:00:31Z,2026-03-30T11:50:48Z,2026-03-30T11:50:48Z,32.8381,4,44,11,1139,2,3,14
+redis/redis,14942,Fix COMMAND GETKEYS for PFMERGE with no source keys,MERGED,2026-03-27T15:00:44Z,2026-03-30T06:07:07Z,2026-03-30T06:07:07Z,63.1064,5,37,1,1251,4,4,3
+redis/redis,14939,add tests for more events,CLOSED,2026-03-27T09:04:46Z,2026-04-13T07:40:49Z,,406.6008,1,227,0,4547,2,2,1
+redis/redis,14937,Pin third-party action to commit SHA and move secrets to step env,MERGED,2026-03-26T22:25:38Z,2026-04-09T02:17:39Z,2026-04-09T02:17:39Z,315.8669,3,10,5,3129,3,12,7
+redis/redis,14936,"fix: pin 4 unpinned action(s),extract 303 unsafe expression(s) to env vars",CLOSED,2026-03-26T19:26:16Z,2026-03-26T21:22:42Z,,1.9406,4,733,307,3314,2,2,1
+redis/redis,14935,Fix missing ksn_notify_side_effect module test in runtest-moduleapi,MERGED,2026-03-26T16:13:21Z,2026-03-27T02:33:58Z,2026-03-27T02:33:58Z,10.3436,1,1,0,1785,2,1,2
+redis/redis,14933,fix handleExpiredIdmpEntries to mark keys as modified,MERGED,2026-03-26T11:37:57Z,2026-03-26T13:39:29Z,2026-03-26T13:39:29Z,2.0256,5,41,32,1161,2,1,3
+redis/redis,14932,Fix memory leak in ZDIFF algorithm 2 on early exit,MERGED,2026-03-26T08:36:14Z,2026-03-27T14:09:58Z,2026-03-27T14:09:57Z,29.5619,2,16,1,2392,2,6,1
+redis/redis,14929,Fix heap-use-after-free in restoreCommand when module sets key metadata during notification,MERGED,2026-03-26T03:58:24Z,2026-03-26T12:52:11Z,2026-03-26T12:52:11Z,8.8964,2,10,4,1711,4,1,11

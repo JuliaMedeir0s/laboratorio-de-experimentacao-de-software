@@ -1,0 +1,44 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+syncthing/syncthing,10657,fix(gui): fallback to folder ID when label is empty in remove dialog,MERGED,2026-04-23T07:48:54Z,2026-04-23T09:02:26Z,2026-04-23T09:02:25Z,1.2253,1,1,1,737,2,1,1
+syncthing/syncthing,10655,chore(model): Improve memory usage during scan error retention,CLOSED,2026-04-23T04:07:01Z,2026-04-23T08:38:20Z,,4.5219,2,122,5,1234,4,4,1
+syncthing/syncthing,10653,chore(model): more efficient tracking of renames during scan,MERGED,2026-04-22T13:30:00Z,2026-04-23T05:20:52Z,2026-04-23T05:20:52Z,15.8478,2,97,7,93,2,0,1
+syncthing/syncthing,10652,fix: Reduce memory and unnecessary map growth during scanning,CLOSED,2026-04-22T12:46:18Z,2026-04-23T05:19:58Z,,16.5611,2,59,3,1699,3,2,2
+syncthing/syncthing,10651,fix(gui): fix tabs visually disabled but still clickable during ignore patterns setup (fixes #10634),MERGED,2026-04-22T10:28:50Z,2026-04-24T07:53:36Z,2026-04-24T07:53:36Z,45.4128,2,61,5,1067,2,0,1
+syncthing/syncthing,10637,"fix(gui): order folders alphabetically and ensure local device stays hidden (ref #10563, ref #10631)",MERGED,2026-04-09T08:50:14Z,2026-04-11T11:52:21Z,2026-04-11T11:52:21Z,51.0353,1,42,16,1641,3,5,1
+syncthing/syncthing,10636,fix(upgrade): properly close response body on non-2xx status,CLOSED,2026-04-09T06:53:14Z,2026-04-22T06:38:08Z,,311.7483,1,2,1,720,2,1,1
+syncthing/syncthing,10632,feat: make http session cookie path & duration configurable,MERGED,2026-04-08T19:53:24Z,2026-04-26T07:59:24Z,2026-04-26T07:59:24Z,420.1,5,124,17,422,3,2,5
+syncthing/syncthing,10625,build: pin 20 third-party actions to immutable commit SHAs,MERGED,2026-04-05T21:15:35Z,2026-04-07T14:55:54Z,2026-04-07T14:55:54Z,41.6719,5,21,21,2052,3,6,1
+syncthing/syncthing,10624,build: extract github.ref_name expression to env mapping,MERGED,2026-04-05T21:06:30Z,2026-04-06T15:24:12Z,2026-04-06T15:24:12Z,18.295,1,3,1,399,3,0,1
+syncthing/syncthing,10617,"fix: pin 20 actions to commit SHA, extract 1 expressions to env vars",CLOSED,2026-03-28T05:45:04Z,2026-04-05T20:45:52Z,,207.0133,5,23,21,1955,2,2,1
+syncthing/syncthing,10615,fix(stdiscosrv): close file descriptor on flush error in write,MERGED,2026-03-25T12:31:16Z,2026-03-26T00:37:36Z,2026-03-26T00:37:35Z,12.1053,1,1,1,314,2,0,1
+syncthing/syncthing,10612,fix: set mtime on temp file before rename in performFinish (fixes #10599),CLOSED,2026-03-24T05:12:57Z,2026-04-08T03:22:06Z,,358.1525,2,44,0,886,2,1,1
+syncthing/syncthing,10608,feat: make block indexing configurable,MERGED,2026-03-16T13:27:37Z,2026-04-26T09:58:10Z,2026-04-26T09:58:10Z,980.5092,19,449,36,1532,3,7,4
+syncthing/syncthing,10607,fix(pmp): return nil on all GetExternalAddress errors (fixes #10486),CLOSED,2026-03-16T04:17:38Z,2026-04-22T06:38:08Z,,890.3417,1,3,1,1134,2,0,2
+syncthing/syncthing,10605,fix(systemd): add back chown allowed syscalls,MERGED,2026-03-12T11:57:42Z,2026-03-13T11:53:36Z,2026-03-13T11:53:36Z,23.9317,1,0,7,3060,3,3,1
+syncthing/syncthing,10595,fix(protocol): verify compressed message length before decompression,MERGED,2026-03-07T13:34:30Z,2026-03-07T15:29:15Z,2026-03-07T15:29:14Z,1.9122,1,7,2,131,2,0,1
+syncthing/syncthing,10594,build(deps): temporarily switch to fork of gateway discovery library (fixes #10593),MERGED,2026-03-06T21:10:09Z,2026-03-29T20:05:07Z,2026-03-29T20:05:07Z,550.9161,2,5,2,156,2,1,2
+syncthing/syncthing,10579,chore: remove tracking inode change time,MERGED,2026-02-15T17:55:29Z,2026-03-23T03:24:04Z,2026-03-23T03:24:04Z,849.4764,15,266,414,328,2,0,1
+syncthing/syncthing,10572,feat(dialer): add HTTP/HTTPS proxy support via CONNECT,MERGED,2026-02-12T00:07:42Z,2026-04-26T09:31:41Z,2026-04-26T09:31:41Z,1761.3997,1,116,0,857,3,6,3
+syncthing/syncthing,10566,fix(gui): show restarting modal during upgrade restart (fixes #1248),MERGED,2026-02-09T00:57:56Z,2026-02-11T09:46:38Z,2026-02-11T09:46:37Z,56.8114,4,60,2,2200,2,0,3
+syncthing/syncthing,10565,"chore(db): add ability to wait for programmatically started database maintenance, query last maintenance time",MERGED,2026-02-08T09:53:21Z,2026-02-11T09:28:11Z,2026-02-11T09:28:11Z,71.5806,3,33,9,836,2,0,4
+syncthing/syncthing,10564,feat: make http session cookie path & duration configurable,CLOSED,2026-02-07T21:49:57Z,2026-04-08T19:47:08Z,,1437.9531,5,155,10,421,3,8,21
+syncthing/syncthing,10563,"feat(gui, config): support simple folder grouping (fixes #2070)",MERGED,2026-02-06T16:49:50Z,2026-04-07T15:05:42Z,2026-04-07T15:05:42Z,1438.2644,6,512,455,1141,7,20,4
+syncthing/syncthing,10558,chore(gui): add id and name to Stay logged in checkbox for password managers,MERGED,2026-02-04T22:12:59Z,2026-02-05T07:17:07Z,2026-02-05T07:17:07Z,9.0689,1,1,1,209,2,2,1
+syncthing/syncthing,10555,Indentation of Comments,CLOSED,2026-02-04T12:08:14Z,2026-02-04T14:56:58Z,,2.8122,1,8,8,248,3,2,1
+syncthing/syncthing,10541,fix(stdiscosrv): log full device ID on startup,MERGED,2026-01-24T20:07:19Z,2026-01-25T08:05:13Z,2026-01-25T08:05:13Z,11.965,1,1,1,1506,2,0,1
+syncthing/syncthing,10539,chore(gui): include license files for fork-awesome assets,MERGED,2026-01-23T17:30:07Z,2026-01-23T20:21:01Z,2026-01-23T20:21:01Z,2.8483,2,10,0,798,2,0,1
+syncthing/syncthing,10527,fix(stdiscosrv): use fmt.Println for version output (fixes #10523),MERGED,2026-01-16T05:32:04Z,2026-01-24T11:06:54Z,2026-01-24T11:06:54Z,197.5806,1,3,2,950,2,0,2
+syncthing/syncthing,10514,fix(protocol): check existing file for whether its BlockHash exists during conflict check,CLOSED,2025-12-31T00:18:04Z,2026-01-24T16:13:56Z,,591.9311,1,1,1,127,2,1,1
+syncthing/syncthing,10508,chore(api): remove charset declaration from JSON content-type (fixes #10500),MERGED,2025-12-28T10:00:52Z,2025-12-29T09:49:21Z,2025-12-29T09:49:21Z,23.8081,1,1,1,48,2,0,1
+syncthing/syncthing,10504,fix(beacon): skip point-to-point interfaces on Android,MERGED,2025-12-22T11:52:53Z,2025-12-23T18:56:20Z,2025-12-23T18:56:20Z,31.0575,2,18,2,1091,4,3,3
+syncthing/syncthing,10498,fix(beacon): don't join multicast groups on non-multicast interfaces (fixes #10497),MERGED,2025-12-18T01:17:31Z,2025-12-18T07:58:06Z,2025-12-18T07:58:06Z,6.6764,1,5,0,633,2,0,1
+syncthing/syncthing,10496,chore(beacon): more verbose debug logging,MERGED,2025-12-17T13:26:09Z,2025-12-17T15:04:48Z,2025-12-17T15:04:48Z,1.6442,1,1,2,310,3,1,1
+syncthing/syncthing,10494,fix(android): allow mobile devices to sleep between broadcasts,CLOSED,2025-12-15T21:14:18Z,2025-12-22T23:27:39Z,,170.2225,3,23,1,470,5,7,1
+syncthing/syncthing,10491,chore: tweak pull retry logic,MERGED,2025-12-13T10:04:24Z,2025-12-23T07:26:59Z,2025-12-23T07:26:59Z,237.3764,1,20,21,1266,2,2,1
+syncthing/syncthing,10478,fix(db): drop index IDs when dropping all files (fixes #10469),CLOSED,2025-11-29T23:47:38Z,2026-04-05T10:02:15Z,,3034.2436,4,34,1,162,3,6,5
+syncthing/syncthing,10472,chore(model): refactor context handling for folder type,MERGED,2025-11-25T07:34:09Z,2025-11-27T20:34:35Z,2025-11-27T20:34:35Z,61.0072,12,339,404,405,2,1,1
+syncthing/syncthing,10463,chore(cli): clean up generated usage strings for config commands (fixes #10462),MERGED,2025-11-18T12:17:13Z,2025-11-24T15:49:43Z,2025-11-24T15:49:43Z,147.5417,1,57,3,1108,2,2,1
+syncthing/syncthing,10456,"chore: update quic-go, adapt to lack of write tracking",MERGED,2025-11-12T09:18:42Z,2025-11-15T23:48:28Z,2025-11-15T23:48:28Z,86.4961,5,35,85,199,2,1,1
+syncthing/syncthing,10441,chore(sqlite): allow periodic database maintenance to be disabled,MERGED,2025-10-24T07:57:10Z,2026-01-14T21:10:54Z,2026-01-14T21:10:54Z,1981.2289,4,40,9,2651,2,7,4
+syncthing/syncthing,10440,fix(fs): only apply case option to fakefs in stress test,MERGED,2025-10-23T16:55:52Z,2025-10-23T18:12:04Z,2025-10-23T18:12:04Z,1.27,1,4,4,6606,3,0,1
+syncthing/syncthing,10430,fix(fs): store `getExpireAdd` mutex in `caseCache` (fixes #9836),MERGED,2025-10-17T04:06:29Z,2025-10-18T19:56:03Z,2025-10-18T19:56:03Z,39.8261,1,17,12,534,3,6,6

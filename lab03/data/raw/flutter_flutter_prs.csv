@@ -1,0 +1,85 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+flutter/flutter,186091,[CP-beta]AGP 9 template,CLOSED,2026-05-05T20:28:52Z,2026-05-05T21:46:21Z,,1.2914,42,1384,1371,1768,3,3,1
+flutter/flutter,186082,Roll Dart SDK from 5dbfbf6487d2 to 4db21a5827e0 (4 revisions),CLOSED,2026-05-05T19:37:27Z,2026-05-05T21:19:29Z,,1.7006,1,1,1,1044,2,3,1
+flutter/flutter,186072,Roll Fuchsia Linux SDK from bfp-YJPHG5xWSLATa... to Of8dCNsrxj-2RSrXZ...,CLOSED,2026-05-05T17:27:55Z,2026-05-05T19:52:44Z,,2.4136,1,1,1,587,2,4,1
+flutter/flutter,186071,Roll Dart SDK from 5dbfbf6487d2 to 4db21a5827e0 (4 revisions),CLOSED,2026-05-05T17:13:45Z,2026-05-05T19:35:30Z,,2.3625,1,1,1,1044,2,5,1
+flutter/flutter,186068,Roll Skia from 503b7a1d9c19 to e4012ccf0df0 (2 revisions),MERGED,2026-05-05T15:35:48Z,2026-05-05T22:03:16Z,2026-05-05T22:03:16Z,6.4578,1,1,1,962,2,1,1
+flutter/flutter,186066,Roll Dart SDK from 5dbfbf6487d2 to 688133cc2cb4 (3 revisions),CLOSED,2026-05-05T15:29:31Z,2026-05-05T17:11:29Z,,1.6994,1,1,1,947,2,4,1
+flutter/flutter,186065,Roll Packages from a2ad7e3af184 to 1ef39dcbe244 (1 revision),MERGED,2026-05-05T15:01:39Z,2026-05-05T20:38:10Z,2026-05-05T20:38:10Z,5.6086,1,1,1,784,2,1,1
+flutter/flutter,186059,Roll Skia from 503b7a1d9c19 to 37c602d46d67 (1 revision),CLOSED,2026-05-05T13:50:13Z,2026-05-05T15:33:05Z,,1.7144,1,1,1,871,2,3,1
+flutter/flutter,186057,Roll Dart SDK from 5dbfbf6487d2 to 688133cc2cb4 (3 revisions),CLOSED,2026-05-05T13:04:45Z,2026-05-05T15:27:29Z,,2.3789,1,1,1,947,2,5,1
+flutter/flutter,186053,Roll Skia from 85da0822ffec to 503b7a1d9c19 (2 revisions),MERGED,2026-05-05T11:39:10Z,2026-05-05T13:36:06Z,2026-05-05T13:36:06Z,1.9489,1,1,1,979,2,1,1
+flutter/flutter,186050,Roll Dart SDK from 5dbfbf6487d2 to 28ef48bc86d5 (1 revision),MERGED,2026-05-05T10:26:41Z,2026-05-05T20:38:10Z,2026-05-05T20:38:10Z,10.1914,2,9,10,367,3,4,3
+flutter/flutter,186049,Roll Dart SDK from 5dbfbf6487d2 to 449fa5a99e79 (2 revisions),CLOSED,2026-05-05T09:58:44Z,2026-05-05T12:23:29Z,,2.4125,1,1,1,851,2,5,1
+flutter/flutter,186048,Roll Skia from 4e820f192226 to 85da0822ffec (3 revisions),MERGED,2026-05-05T09:20:38Z,2026-05-05T11:25:59Z,2026-05-05T11:25:59Z,2.0892,1,1,1,1117,2,1,1
+flutter/flutter,186046,Roll Skia from 4e820f192226 to e2e144b4fab8 (2 revisions),CLOSED,2026-05-05T08:03:17Z,2026-05-05T09:18:05Z,,1.2467,1,1,1,1000,2,3,1
+flutter/flutter,186045,Minor changes in android embedding,CLOSED,2026-05-05T07:54:30Z,2026-05-05T09:17:21Z,,1.3808,1,3,3,2960,1,0,1
+flutter/flutter,186042,Fix Broken Flutter Docs Link,MERGED,2026-05-05T06:52:43Z,2026-05-05T23:25:02Z,2026-05-05T23:25:02Z,16.5386,1,1,1,3325,3,0,2
+flutter/flutter,186041,Roll Dart SDK from 5dbfbf6487d2 to 28ef48bc86d5 (1 revision),CLOSED,2026-05-05T06:33:44Z,2026-05-05T08:54:29Z,,2.3458,1,1,1,756,2,5,1
+flutter/flutter,186038,Roll Skia from ca0dd7da93a9 to 4e820f192226 (1 revision),MERGED,2026-05-05T05:51:38Z,2026-05-05T07:49:42Z,2026-05-05T07:49:42Z,1.9678,1,1,1,881,2,1,1
+flutter/flutter,186036,Roll Skia from 8e39cd2188a2 to ca0dd7da93a9 (3 revisions),MERGED,2026-05-05T03:31:58Z,2026-05-05T05:32:09Z,2026-05-05T05:32:09Z,2.0031,1,1,1,1067,2,1,1
+flutter/flutter,186035,Roll Dart SDK from 908050e88864 to 5dbfbf6487d2 (3 revisions),MERGED,2026-05-05T00:54:38Z,2026-05-05T03:27:20Z,2026-05-05T03:27:20Z,2.545,1,1,1,948,2,1,1
+flutter/flutter,186033,Roll Skia from 76254dcfe35d to 8e39cd2188a2 (11 revisions),MERGED,2026-05-05T00:05:43Z,2026-05-05T03:17:53Z,2026-05-05T03:17:53Z,3.2028,1,1,1,1745,2,1,1
+flutter/flutter,186025,Roll Dart SDK from 908050e88864 to 5dbfbf6487d2 (3 revisions),CLOSED,2026-05-04T22:09:13Z,2026-05-05T00:52:38Z,,2.7236,1,1,1,948,2,5,1
+flutter/flutter,186019,Restrict PlatformViewCreationRequest constructor visibility,MERGED,2026-05-04T21:28:47Z,2026-05-05T02:50:32Z,2026-05-05T02:50:32Z,5.3625,1,2,3,1564,2,1,2
+flutter/flutter,186015,Roll Skia from 76254dcfe35d to ad4ebe7da97a (10 revisions),CLOSED,2026-05-04T21:00:53Z,2026-05-05T00:03:53Z,,3.05,1,1,1,1628,2,4,1
+flutter/flutter,186007,Roll Skia from 76254dcfe35d to 61e98d58d675 (6 revisions),CLOSED,2026-05-04T19:20:26Z,2026-05-04T20:58:53Z,,1.6408,1,1,1,1264,2,3,1
+flutter/flutter,186002,Roll Packages from daf30f846815 to a2ad7e3af184 (5 revisions),MERGED,2026-05-04T17:54:50Z,2026-05-04T20:27:18Z,2026-05-04T20:27:18Z,2.5411,1,1,1,1263,2,1,1
+flutter/flutter,185996,And static library and impellerc binary to impeller_sdk,MERGED,2026-05-04T17:10:26Z,2026-05-05T02:47:42Z,2026-05-05T02:47:42Z,9.6211,1,56,2,226,3,3,3
+flutter/flutter,185986,Roll pub packages,MERGED,2026-05-04T16:05:31Z,2026-05-04T20:27:18Z,2026-05-04T20:27:18Z,4.3631,3,18,18,67,2,0,2
+flutter/flutter,185985,Roll Dart SDK from 908050e88864 to c62a28598385 (1 revision),CLOSED,2026-05-04T15:32:37Z,2026-05-04T16:46:38Z,,1.2336,1,1,1,756,2,3,1
+flutter/flutter,185983,Roll Packages from daf30f846815 to a2ad7e3af184 (5 revisions),CLOSED,2026-05-04T15:01:50Z,2026-05-04T17:53:45Z,,2.8653,1,1,1,1263,2,5,1
+flutter/flutter,185979,Roll Dart SDK from 908050e88864 to c62a28598385 (1 revision),CLOSED,2026-05-04T12:48:05Z,2026-05-04T15:30:38Z,,2.7092,1,1,1,756,2,5,1
+flutter/flutter,185977,Roll Skia from 05cb3698267d to 76254dcfe35d (5 revisions),MERGED,2026-05-04T11:33:05Z,2026-05-04T19:04:07Z,2026-05-04T19:04:07Z,7.5172,1,1,1,1350,2,1,1
+flutter/flutter,185971,Roll Fuchsia Linux SDK from WyTD9K86zyMe-FSg0... to bfp-YJPHG5xWSLATa...,MERGED,2026-05-04T09:26:17Z,2026-05-04T17:19:32Z,2026-05-04T17:19:32Z,7.8875,1,1,1,588,2,1,1
+flutter/flutter,185970,Roll Skia from 05cb3698267d to 76254dcfe35d (5 revisions),CLOSED,2026-05-04T08:44:40Z,2026-05-04T11:29:53Z,,2.7536,1,1,1,1350,2,5,1
+flutter/flutter,185962,Roll Skia from 05cb3698267d to 76254dcfe35d (5 revisions),CLOSED,2026-05-04T06:05:40Z,2026-05-04T08:42:37Z,,2.6158,1,1,1,1350,2,5,1
+flutter/flutter,185961,Roll Fuchsia Linux SDK from WyTD9K86zyMe-FSg0... to -dE0tWAEtgyA-pCBv...,CLOSED,2026-05-04T05:48:56Z,2026-05-04T08:39:31Z,,2.8431,1,1,1,588,2,5,1
+flutter/flutter,185957,Roll Fuchsia Linux SDK from WyTD9K86zyMe-FSg0... to vnSo9M6iWZ4XEFh5h...,CLOSED,2026-05-04T03:34:49Z,2026-05-04T05:44:31Z,,2.1617,1,1,1,588,2,4,1
+flutter/flutter,185956,Roll Fuchsia Linux SDK from WyTD9K86zyMe-FSg0... to ebDVem5U3XtcGF6Jg...,CLOSED,2026-05-04T01:50:52Z,2026-05-04T03:30:31Z,,1.6608,1,1,1,588,2,4,1
+flutter/flutter,185955,Roll Skia from 05cb3698267d to bf214d666a61 (3 revisions),CLOSED,2026-05-04T01:39:42Z,2026-05-04T04:18:37Z,,2.6486,1,1,1,1104,2,5,1
+flutter/flutter,185954,Roll Fuchsia Linux SDK from WyTD9K86zyMe-FSg0... to emwlrWkKg74FkD6z7...,CLOSED,2026-05-03T23:48:54Z,2026-05-04T01:46:31Z,,1.9603,1,1,1,588,2,4,1
+flutter/flutter,185953,AGP 9 template,MERGED,2026-05-03T23:28:41Z,2026-05-05T20:19:37Z,2026-05-05T20:19:37Z,44.8489,42,1384,1371,4481,4,3,4
+flutter/flutter,185952,Roll Skia from 05cb3698267d to bf214d666a61 (3 revisions),CLOSED,2026-05-03T22:55:42Z,2026-05-04T01:37:37Z,,2.6986,1,1,1,1104,2,5,1
+flutter/flutter,185951,Roll Fuchsia Linux SDK from WyTD9K86zyMe-FSg0... to a5ZuqjESM0SZ6PWk_...,CLOSED,2026-05-03T21:49:54Z,2026-05-03T23:44:31Z,,1.9103,1,1,1,588,2,4,1
+flutter/flutter,185949,Roll Skia from 05cb3698267d to bf214d666a61 (3 revisions),CLOSED,2026-05-03T20:03:42Z,2026-05-03T22:53:38Z,,2.8322,1,1,1,1104,2,5,1
+flutter/flutter,185947,Roll Fuchsia Linux SDK from WyTD9K86zyMe-FSg0... to PGKGKsRfes8mdeFkc...,CLOSED,2026-05-03T19:47:58Z,2026-05-03T21:45:31Z,,1.9592,1,1,1,588,2,4,1
+flutter/flutter,185946,Roll Skia from 05cb3698267d to a87f066e5045 (2 revisions),CLOSED,2026-05-03T18:33:39Z,2026-05-03T20:01:37Z,,1.4661,1,1,1,979,2,3,1
+flutter/flutter,185944,Roll Fuchsia Linux SDK from WyTD9K86zyMe-FSg0... to sskaB-Y6x1Ki1V2Ng...,CLOSED,2026-05-03T17:38:40Z,2026-05-03T19:43:31Z,,2.0808,1,1,1,588,2,4,1
+flutter/flutter,185942,Roll Skia from 05cb3698267d to a87f066e5045 (2 revisions),CLOSED,2026-05-03T15:45:39Z,2026-05-03T18:31:37Z,,2.7661,1,1,1,979,2,5,1
+flutter/flutter,185941,Roll Fuchsia Linux SDK from WyTD9K86zyMe-FSg0... to sskaB-Y6x1Ki1V2Ng...,CLOSED,2026-05-03T14:57:13Z,2026-05-03T17:36:31Z,,2.655,1,1,1,588,2,5,1
+flutter/flutter,185939,Roll Skia from 05cb3698267d to a87f066e5045 (2 revisions),CLOSED,2026-05-03T13:03:41Z,2026-05-03T15:43:38Z,,2.6658,1,1,1,979,2,5,1
+flutter/flutter,185937,Roll Fuchsia Linux SDK from WyTD9K86zyMe-FSg0... to -n3izeYmdJPXjFn_G...,CLOSED,2026-05-03T11:35:40Z,2026-05-03T14:17:31Z,,2.6975,1,1,1,588,2,5,1
+flutter/flutter,185934,Roll Fuchsia Linux SDK from WyTD9K86zyMe-FSg0... to -n3izeYmdJPXjFn_G...,CLOSED,2026-05-03T08:50:04Z,2026-05-03T11:33:31Z,,2.7242,1,1,1,588,2,5,1
+flutter/flutter,185933,Roll Skia from 05cb3698267d to 562cb89f9be6 (1 revision),CLOSED,2026-05-03T07:42:39Z,2026-05-03T10:20:37Z,,2.6328,1,1,1,880,2,5,1
+flutter/flutter,185932,Roll Skia from 05cb3698267d to 562cb89f9be6 (1 revision),CLOSED,2026-05-03T05:01:42Z,2026-05-03T07:40:38Z,,2.6489,1,1,1,880,2,5,1
+flutter/flutter,185930,Roll Skia from 05cb3698267d to 562cb89f9be6 (1 revision),CLOSED,2026-05-03T02:12:42Z,2026-05-03T04:59:37Z,,2.7819,1,1,1,873,2,5,1
+flutter/flutter,185925,Roll Skia from dba763e9ecab to 05cb3698267d (1 revision),MERGED,2026-05-02T12:58:03Z,2026-05-02T15:12:58Z,2026-05-02T15:12:58Z,2.2486,1,1,1,874,2,1,1
+flutter/flutter,185922,Roll Fuchsia Linux SDK from VnzuUefDQR0UhQ1L1... to WyTD9K86zyMe-FSg0...,MERGED,2026-05-02T06:53:42Z,2026-05-02T08:43:08Z,2026-05-02T08:43:08Z,1.8239,1,1,1,588,2,1,1
+flutter/flutter,185916,[iOS] Migrate to explicit VSyncClient initialisers,MERGED,2026-05-02T03:16:07Z,2026-05-05T03:39:46Z,2026-05-05T03:39:46Z,72.3942,7,30,49,3661,2,1,3
+flutter/flutter,185915,Roll Skia from 0374b13b6f3a to dba763e9ecab (1 revision),MERGED,2026-05-02T03:11:40Z,2026-05-02T05:39:21Z,2026-05-02T05:39:21Z,2.4614,1,1,1,865,2,1,1
+flutter/flutter,185914,Roll Dart SDK from 4223fc4189e0 to 908050e88864 (2 revisions),MERGED,2026-05-02T02:36:33Z,2026-05-02T04:36:19Z,2026-05-02T04:36:19Z,1.9961,1,15,15,852,2,1,1
+flutter/flutter,185913,Roll Dart SDK from 4223fc4189e0 to a2e31a6def84 (1 revision),CLOSED,2026-05-02T01:24:23Z,2026-05-02T02:34:07Z,,1.1622,1,4,4,756,2,3,1
+flutter/flutter,185912,Roll Skia from 850f615f8866 to 0374b13b6f3a (3 revisions),MERGED,2026-05-01T23:43:34Z,2026-05-02T02:58:24Z,2026-05-02T02:58:24Z,3.2472,1,1,1,1075,2,1,1
+flutter/flutter,185910,[web] Add document explaining image decoding,CLOSED,2026-05-01T22:54:02Z,2026-05-05T16:34:57Z,,89.6819,1,105,0,2926,1,0,1
+flutter/flutter,185906,Roll Dart SDK from 02bef77a30de to 4223fc4189e0 (1 revision),MERGED,2026-05-01T20:03:50Z,2026-05-01T22:19:09Z,2026-05-01T22:19:09Z,2.2553,1,1,1,756,2,1,1
+flutter/flutter,185905,Roll Skia from eb79f275731c to 850f615f8866 (2 revisions),MERGED,2026-05-01T19:41:56Z,2026-05-01T22:41:47Z,2026-05-01T22:41:47Z,2.9975,1,1,1,971,2,1,1
+flutter/flutter,185901,Roll Skia from 1d533738ea9d to eb79f275731c (2 revisions),MERGED,2026-05-01T16:57:39Z,2026-05-01T19:28:27Z,2026-05-01T19:28:26Z,2.5131,1,1,1,926,2,1,1
+flutter/flutter,185897,Roll Packages from cde5b36e7ece to daf30f846815 (9 revisions),MERGED,2026-05-01T15:01:06Z,2026-05-01T16:23:13Z,2026-05-01T16:23:13Z,1.3686,1,1,1,1794,2,1,1
+flutter/flutter,185896,Roll Dart SDK from 9aa7097f2e3e to 02bef77a30de (1 revision),MERGED,2026-05-01T14:40:05Z,2026-05-01T16:58:53Z,2026-05-01T16:58:53Z,2.3133,1,2,2,756,2,1,1
+flutter/flutter,185895,Roll Skia from 7ac6d42f2fd0 to 1d533738ea9d (1 revision),MERGED,2026-05-01T14:36:02Z,2026-05-01T16:44:35Z,2026-05-01T16:44:35Z,2.1425,1,1,1,837,2,1,1
+flutter/flutter,185893,Migrate VSyncClientTest to Swift,MERGED,2026-05-01T12:00:53Z,2026-05-02T01:03:17Z,2026-05-02T01:03:16Z,13.0397,7,190,185,3209,2,0,14
+flutter/flutter,185888,Roll Dart SDK from 6d4a319cbdac to 9aa7097f2e3e (3 revisions),MERGED,2026-05-01T09:28:56Z,2026-05-01T11:34:45Z,2026-05-01T11:34:45Z,2.0969,1,1,1,948,2,1,1
+flutter/flutter,185887,Roll Skia from fa1dcb289709 to 7ac6d42f2fd0 (1 revision),MERGED,2026-05-01T09:25:40Z,2026-05-01T11:17:46Z,2026-05-01T11:17:46Z,1.8683,1,1,1,874,2,1,1
+flutter/flutter,185880,Roll Skia from 54cc00adde38 to fa1dcb289709 (3 revisions),MERGED,2026-05-01T07:18:42Z,2026-05-01T09:12:32Z,2026-05-01T09:12:32Z,1.8972,1,1,1,1115,2,1,1
+flutter/flutter,185879,[Flutter GPU] Carry vec_size & columns in shader bundle uniform metadata,MERGED,2026-05-01T06:22:48Z,2026-05-01T22:04:16Z,2026-05-01T22:04:16Z,15.6911,12,414,283,3620,2,3,2
+flutter/flutter,185878,Fix text selection handle drag jumps,CLOSED,2026-05-01T06:04:14Z,2026-05-01T18:44:25Z,,12.6697,2,157,26,974,2,1,1
+flutter/flutter,185872,Roll Skia from 2e279266f06a to 54cc00adde38 (3 revisions),MERGED,2026-05-01T04:46:22Z,2026-05-01T07:00:44Z,2026-05-01T07:00:44Z,2.2394,1,1,1,1067,2,1,1
+flutter/flutter,185870,Roll Fuchsia Linux SDK from HN5VYzftnf_B8T-n9... to VnzuUefDQR0UhQ1L1...,MERGED,2026-05-01T02:02:00Z,2026-05-01T06:45:06Z,2026-05-01T06:45:06Z,4.7183,1,1,1,588,2,1,1
+flutter/flutter,185869,Roll Skia from 2e279266f06a to 54cc00adde38 (3 revisions),CLOSED,2026-05-01T01:28:06Z,2026-05-01T04:36:03Z,,3.1325,1,1,1,1067,2,5,1
+flutter/flutter,185868,Update iOS tools to fat binaries,MERGED,2026-05-01T01:19:06Z,2026-05-01T19:03:49Z,2026-05-01T19:03:49Z,17.7453,4,98,3,3432,2,1,5
+flutter/flutter,185867,Roll Fuchsia Linux SDK from HN5VYzftnf_B8T-n9... to ty1lBAuldrkThFHKd...,CLOSED,2026-05-01T00:51:56Z,2026-05-01T01:56:43Z,,1.0797,1,1,1,588,2,3,1
+flutter/flutter,185866,Add Linux implementation of popup windows,MERGED,2026-05-01T00:51:33Z,2026-05-05T15:25:02Z,2026-05-05T15:25:02Z,110.5581,3,232,9,0,2,1,7
+flutter/flutter,185865,Run the DisplayList Primitive Rendering benchmarks in post-submit,MERGED,2026-04-30T23:41:09Z,2026-05-05T11:36:05Z,2026-05-05T11:36:05Z,107.9156,6,25,7,2237,2,1,5
+flutter/flutter,185864,Fix SelectionArea crash after selected list content scrolls away,CLOSED,2026-04-30T23:29:11Z,2026-05-05T20:41:23Z,,117.2033,2,69,24,1199,2,1,1
+flutter/flutter,185862,Roll Dart SDK from d30df3428f2e to 6d4a319cbdac (2 revisions),MERGED,2026-04-30T23:20:46Z,2026-05-01T06:20:30Z,2026-05-01T06:20:30Z,6.9956,1,2,2,852,2,1,1

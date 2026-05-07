@@ -1,0 +1,9 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+PKUFlyingPig/cs-self-learning,843,[Update] Update Coursera ML course,MERGED,2026-02-21T06:45:10Z,2026-02-21T16:06:58Z,2026-02-21T16:06:58Z,9.3633,2,6,2,118,2,0,1
+PKUFlyingPig/cs-self-learning,728,Update Li Hongyi's machine learning to the latest version,MERGED,2025-03-31T15:32:44Z,2025-06-08T03:08:50Z,2025-06-08T03:08:50Z,1643.6017,2,10,6,91,2,1,2
+PKUFlyingPig/cs-self-learning,724,[COURSE] Add KAIST CS220,MERGED,2025-03-24T10:55:28Z,2025-03-24T13:34:31Z,2025-03-24T13:34:31Z,2.6508,3,49,0,129,2,2,1
+PKUFlyingPig/cs-self-learning,699,[COURSE] Add MIT6.100L,MERGED,2025-01-22T16:51:49Z,2025-01-24T14:43:12Z,2025-01-24T14:43:12Z,45.8564,3,50,0,51,2,1,5
+PKUFlyingPig/cs-self-learning,697,[BOOK] Update book recommendations,MERGED,2025-01-15T14:00:45Z,2025-02-21T01:30:20Z,2025-02-21T01:30:20Z,875.4931,1,2,2,263,2,1,3
+PKUFlyingPig/cs-self-learning,632,[COURSE] Add KAIST CS420: Compiler Design,MERGED,2024-07-03T22:32:11Z,2024-07-22T03:52:36Z,2024-07-22T03:52:36Z,437.3403,3,45,0,0,2,0,2
+PKUFlyingPig/cs-self-learning,627,[ENHANCE] Add resources for CS106B/X,MERGED,2024-06-15T08:44:39Z,2024-06-16T05:50:53Z,2024-06-16T05:50:52Z,21.1036,2,26,7,37,2,0,2
+PKUFlyingPig/cs-self-learning,615,[COURSE] Add Cambridge: Semantics of Programming Languages,MERGED,2024-05-20T17:40:49Z,2024-05-21T11:14:50Z,2024-05-21T11:14:50Z,17.5669,3,49,0,0,2,1,1

@@ -1,0 +1,34 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+anuraghazra/github-readme-stats,4834,translations: improve Japanese translations for clarity,CLOSED,2026-03-07T22:33:27Z,2026-04-27T12:28:23Z,,1213.9156,1,5,5,1307,3,2,1
+anuraghazra/github-readme-stats,4817,docs(readme): fix broken links,CLOSED,2026-02-24T13:35:47Z,2026-03-22T13:36:35Z,,624.0133,1,8,8,0,2,1,2
+anuraghazra/github-readme-stats,4768,github said to do it,CLOSED,2026-01-28T21:20:38Z,2026-03-08T11:33:24Z,,926.2128,1,6,24,20,2,1,1
+anuraghazra/github-readme-stats,4716,docs: add github action as recommended usage method,MERGED,2025-12-27T09:26:15Z,2026-01-18T11:50:26Z,2026-01-18T11:50:26Z,530.4031,1,65,14,145,2,3,1
+anuraghazra/github-readme-stats,4706,ci(deps): Bump peter-evans/create-pull-request from 7.0.9 to 8.0.0,MERGED,2025-12-15T18:06:18Z,2025-12-19T19:15:47Z,2025-12-19T19:15:47Z,97.1581,1,1,1,8381,1,1,1
+anuraghazra/github-readme-stats,4705,ci(deps): Bump actions/upload-artifact from 5.0.0 to 6.0.0,MERGED,2025-12-15T18:06:10Z,2025-12-19T19:14:21Z,2025-12-19T19:14:21Z,97.1364,1,1,1,6275,1,1,1
+anuraghazra/github-readme-stats,4704,build(deps-dev): Bump eslint from 9.39.1 to 9.39.2,MERGED,2025-12-15T18:01:36Z,2025-12-21T12:28:27Z,2025-12-21T12:28:27Z,138.4475,2,10,10,5248,1,1,1
+anuraghazra/github-readme-stats,4703,build(deps-dev): Bump @eslint/js from 9.39.1 to 9.39.2,MERGED,2025-12-15T18:01:25Z,2025-12-21T12:26:04Z,2025-12-21T12:26:04Z,138.4108,2,26,8,4051,1,1,1
+anuraghazra/github-readme-stats,4702,build(deps-dev): Bump @actions/core from 1.11.1 to 2.0.1,MERGED,2025-12-15T18:01:18Z,2025-12-21T12:36:28Z,2025-12-21T12:36:28Z,138.5861,2,48,26,3123,1,1,1
+anuraghazra/github-readme-stats,4690,ci(deps): Bump actions/checkout from 6.0.0 to 6.0.1,MERGED,2025-12-08T18:06:17Z,2025-12-19T19:08:54Z,2025-12-19T19:08:54Z,265.0436,11,11,11,4077,1,1,1
+anuraghazra/github-readme-stats,4689,ci(deps): Bump actions/setup-node from 6.0.0 to 6.1.0,MERGED,2025-12-08T18:05:57Z,2025-12-19T19:11:16Z,2025-12-19T19:11:16Z,265.0886,6,6,6,5255,1,1,1
+anuraghazra/github-readme-stats,4688,build(deps-dev): Bump eslint-plugin-jsdoc from 61.4.2 to 61.5.0,MERGED,2025-12-08T18:01:27Z,2025-12-21T12:29:39Z,2025-12-21T12:29:39Z,306.47,2,8,8,3177,1,1,1
+anuraghazra/github-readme-stats,4670,build(deps-dev): Bump express from 5.1.0 to 5.2.1,MERGED,2025-12-01T22:17:43Z,2025-12-06T18:39:13Z,2025-12-06T18:39:13Z,116.3583,2,8,8,14957,1,2,1
+anuraghazra/github-readme-stats,4669,build(deps-dev): Bump @eslint/eslintrc from 3.3.1 to 3.3.3,MERGED,2025-12-01T22:17:33Z,2025-12-06T18:34:09Z,2025-12-06T18:34:09Z,116.2767,2,10,11,6673,1,1,1
+anuraghazra/github-readme-stats,4668,build(deps-dev): Bump prettier from 3.6.2 to 3.7.3,MERGED,2025-12-01T22:17:26Z,2025-12-06T18:32:21Z,2025-12-06T18:32:21Z,116.2486,2,8,8,8635,1,2,1
+anuraghazra/github-readme-stats,4667,build(deps-dev): Bump express from 5.1.0 to 5.2.0,MERGED,2025-12-01T21:16:51Z,2025-12-06T18:16:22Z,2025-12-06T18:16:22Z,116.9919,2,102,98,16051,1,1,1
+anuraghazra/github-readme-stats,4656,build(deps-dev): Bump eslint-plugin-jsdoc from 61.1.12 to 61.4.1,MERGED,2025-11-24T18:50:05Z,2025-12-06T18:35:34Z,2025-12-06T18:35:34Z,287.7581,2,8,8,7265,1,2,1
+anuraghazra/github-readme-stats,4655,build(deps-dev): Bump lint-staged from 16.2.6 to 16.2.7,MERGED,2025-11-24T18:49:55Z,2025-12-06T18:26:32Z,2025-12-06T18:26:32Z,287.6103,2,16,16,5458,1,2,1
+anuraghazra/github-readme-stats,4654,ci(deps): Bump peter-evans/create-pull-request from 7.0.8 to 7.0.9,MERGED,2025-11-24T18:30:11Z,2025-12-06T18:24:42Z,2025-12-06T18:24:42Z,287.9086,1,1,1,7711,1,1,1
+anuraghazra/github-readme-stats,4653,ci(deps): Bump actions/checkout from 5.0.0 to 6.0.0,MERGED,2025-11-24T18:30:01Z,2025-12-06T18:22:05Z,2025-12-06T18:22:05Z,287.8678,11,11,11,11711,1,2,1
+anuraghazra/github-readme-stats,4652,"Fixed typo in ""fine-grained token"" warning message",MERGED,2025-11-19T21:45:20Z,2025-12-03T22:36:11Z,2025-12-03T22:36:11Z,336.8475,1,1,1,0,2,1,1
+anuraghazra/github-readme-stats,4651,build(deps): Bump glob from 10.4.5 to 10.5.0,MERGED,2025-11-19T02:33:17Z,2025-12-06T18:19:52Z,2025-12-06T18:19:52Z,423.7764,1,6,6,2660,1,2,1
+anuraghazra/github-readme-stats,4650,build(deps-dev): Bump js-yaml from 4.1.0 to 4.1.1,MERGED,2025-11-14T16:35:11Z,2025-12-06T18:18:13Z,2025-12-06T18:18:13Z,529.7172,2,8,8,3868,1,1,1
+anuraghazra/github-readme-stats,4637,ci(deps): Bump bahmutov/npm-install from 1.11.1 to 1.11.2,MERGED,2025-11-03T18:31:45Z,2025-11-07T15:56:11Z,2025-11-07T15:56:11Z,93.4072,2,2,2,3752,1,1,1
+anuraghazra/github-readme-stats,4636,build(deps-dev): Bump @eslint/js from 9.38.0 to 9.39.0,MERGED,2025-11-03T18:26:04Z,2025-11-07T15:58:29Z,2025-11-07T15:58:29Z,93.5403,2,26,8,10494,1,1,1
+anuraghazra/github-readme-stats,4635,build(deps): Bump axios from 1.13.0 to 1.13.1,MERGED,2025-11-03T18:25:58Z,2025-11-07T16:10:12Z,2025-11-07T16:10:12Z,93.7372,2,8,8,4852,1,1,1
+anuraghazra/github-readme-stats,4634,build(deps-dev): Bump globals from 16.4.0 to 16.5.0,MERGED,2025-11-03T18:25:51Z,2025-11-07T16:00:40Z,2025-11-07T16:00:40Z,93.5803,2,8,8,4193,1,1,1
+anuraghazra/github-readme-stats,4633,build(deps-dev): Bump eslint-plugin-jsdoc from 61.1.9 to 61.1.12,MERGED,2025-11-03T18:25:44Z,2025-11-07T16:07:29Z,2025-11-07T16:07:29Z,93.6958,2,16,16,5267,1,2,1
+anuraghazra/github-readme-stats,4632,build(deps-dev): Bump eslint from 9.38.0 to 9.39.0,MERGED,2025-11-03T18:25:36Z,2025-11-07T16:05:38Z,2025-11-07T16:05:38Z,93.6672,2,44,62,11959,1,2,1
+anuraghazra/github-readme-stats,4630,Update languages JSON,MERGED,2025-10-31T00:33:14Z,2025-10-31T16:41:11Z,2025-10-31T16:41:11Z,16.1325,1,7,2,265,3,2,4
+anuraghazra/github-readme-stats,4626,build(deps-dev): bump eslint-plugin-jsdoc from 61.1.5 to 61.1.9,MERGED,2025-10-27T19:01:27Z,2025-10-31T16:36:28Z,2025-10-31T16:36:28Z,93.5836,2,25,8,5593,2,1,2
+anuraghazra/github-readme-stats,4625,ci(deps): bump actions/upload-artifact from 4.6.2 to 5.0.0,MERGED,2025-10-27T18:40:15Z,2025-10-31T16:38:34Z,2025-10-31T16:38:34Z,93.9719,1,1,1,7062,2,1,2
+anuraghazra/github-readme-stats,4624,build(deps): bump axios from 1.12.2 to 1.13.0,MERGED,2025-10-27T18:24:36Z,2025-10-31T16:34:35Z,2025-10-31T16:34:35Z,94.1664,2,8,8,13212,2,1,2

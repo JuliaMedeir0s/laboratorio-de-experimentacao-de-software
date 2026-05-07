@@ -1,0 +1,14 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+TheAlgorithms/Python,14580,Added Orbital Period Algorithm in Physics,CLOSED,2026-04-25T10:49:35Z,2026-05-01T23:36:12Z,,156.7769,1,56,0,1494,3,0,2
+TheAlgorithms/Python,14550,feat(other): add grocery store cart model (v3),CLOSED,2026-04-13T09:14:01Z,2026-04-23T14:47:02Z,,245.5503,1,111,0,1485,3,0,2
+TheAlgorithms/Python,14549,feat(other): add basic BankAccount OOP class (v3),CLOSED,2026-04-13T09:13:54Z,2026-04-23T14:45:39Z,,245.5292,1,98,0,1485,3,1,2
+TheAlgorithms/Python,14548,feat(maths): add repunit theorem helpers (v3),CLOSED,2026-04-13T09:13:48Z,2026-04-23T14:46:48Z,,245.55,1,67,0,1485,2,1,1
+TheAlgorithms/Python,14537,Add space optimized 0/1 knapsack implementation (O(W) space),CLOSED,2026-04-11T14:18:20Z,2026-04-13T09:13:20Z,,42.9167,1,66,0,1692,2,3,1
+TheAlgorithms/Python,14536,Add knapsack variant to count optimal-value subsets,CLOSED,2026-04-11T14:16:23Z,2026-04-13T09:13:17Z,,42.9483,2,82,3,1735,2,3,1
+TheAlgorithms/Python,14535,Refactor memoized knapsack implementation to remove global state,CLOSED,2026-04-11T14:12:36Z,2026-04-13T09:13:15Z,,43.0108,1,60,23,1697,2,3,1
+TheAlgorithms/Python,14513,[pre-commit.ci] pre-commit autoupdate,MERGED,2026-04-06T18:23:16Z,2026-04-06T21:03:33Z,2026-04-06T21:03:33Z,2.6714,2,6,6,448,1,0,1
+TheAlgorithms/Python,14509,fix: remove dead code in hamming_code.py to resolve SIM113,MERGED,2026-04-05T23:48:21Z,2026-04-06T20:56:00Z,2026-04-06T20:56:00Z,21.1275,1,0,6,1693,2,0,1
+TheAlgorithms/Python,14501,Add collision detection algorithms,CLOSED,2026-04-04T01:05:34Z,2026-04-09T05:36:59Z,,124.5236,1,341,0,1448,2,0,2
+TheAlgorithms/Python,14489,Add type hints to unknown_sort,MERGED,2026-03-31T23:15:27Z,2026-04-10T21:07:41Z,2026-04-10T21:07:41Z,237.8706,1,1,1,1536,3,0,2
+TheAlgorithms/Python,14453,fix: pin unpinned GitHub Actions to commit SHAs,CLOSED,2026-03-26T16:12:50Z,2026-03-26T21:22:39Z,,5.1636,6,9,7,1668,2,0,1
+TheAlgorithms/Python,14444,Fix empty input edge case and correct output formatting,MERGED,2026-03-25T14:22:04Z,2026-04-10T22:07:39Z,2026-04-10T22:07:39Z,391.7597,1,5,1,483,3,0,2

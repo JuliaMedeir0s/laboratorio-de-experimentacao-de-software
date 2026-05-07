@@ -1,0 +1,6 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+nestjs/nest,16846,test(integration): wait for rabbitmq before tests,MERGED,2026-04-26T17:03:02Z,2026-04-27T09:26:18Z,2026-04-27T09:26:18Z,16.3878,10,66,14,2194,3,1,2
+nestjs/nest,16841,fix(platform-fastify): fix middleware route matching for parameterized paths,CLOSED,2026-04-24T15:18:06Z,2026-04-27T08:00:11Z,,64.7014,2,72,4,243,4,2,1
+nestjs/nest,16838,fix(deps): update dependency @nestjs/cache-manager to v3.1.2,MERGED,2026-04-23T09:34:28Z,2026-04-27T07:54:50Z,2026-04-27T07:54:50Z,94.3394,1,1,1,2463,3,1,1
+nestjs/nest,16817,chore(deps): update typescript-eslint monorepo to v8.59.1,MERGED,2026-04-21T00:57:03Z,2026-05-01T07:54:36Z,2026-05-01T07:54:36Z,246.9592,37,39,39,8305,3,1,1
+nestjs/nest,16801,chore(deps-dev): bump typescript from 5.9.3 to 6.0.3,CLOSED,2026-04-17T00:53:07Z,2026-05-01T07:34:31Z,,342.69,2,19,5,5137,2,1,1

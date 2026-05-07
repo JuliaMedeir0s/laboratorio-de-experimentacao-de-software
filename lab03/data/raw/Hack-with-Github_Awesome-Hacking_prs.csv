@@ -1,0 +1,49 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+Hack-with-Github/Awesome-Hacking,201,Add VulnHawk to the list,CLOSED,2026-04-10T02:06:55Z,2026-04-10T03:42:48Z,,1.5981,1,1,0,385,2,0,1
+Hack-with-Github/Awesome-Hacking,195,"Revert ""Add CyberChef""",CLOSED,2026-04-04T16:34:52Z,2026-04-18T10:43:34Z,,330.145,1,0,1,44,3,1,3
+Hack-with-Github/Awesome-Hacking,187,Add dna-claude-analysis to Other Useful Repositories,CLOSED,2026-03-02T15:52:46Z,2026-04-24T14:03:51Z,,1270.1847,1,1,0,797,4,1,2
+Hack-with-Github/Awesome-Hacking,186,Add CLAUDE.md with comprehensive repository guide for AI assistants,CLOSED,2026-02-26T16:52:22Z,2026-04-24T14:02:35Z,,1365.1703,1,81,0,55,5,4,5
+Hack-with-Github/Awesome-Hacking,185,Fix typo in Cellular Hacking link,MERGED,2026-02-20T13:37:16Z,2026-04-24T14:00:36Z,2026-04-24T14:00:36Z,1512.3889,1,1,1,29,2,0,1
+Hack-with-Github/Awesome-Hacking,184,MergCreatedevcontainer.json,CLOSED,2026-01-25T08:35:53Z,2026-04-24T13:58:19Z,,2141.3739,1,4,0,132,5,3,2
+Hack-with-Github/Awesome-Hacking,183,Add NullSec Tools collection,CLOSED,2026-01-25T05:15:45Z,2026-02-09T03:33:46Z,,358.3003,1,1,0,885,2,2,1
+Hack-with-Github/Awesome-Hacking,178,Add Anonymous C2 Infrastructure,CLOSED,2026-01-18T22:46:17Z,2026-01-27T15:28:01Z,,208.6956,1,1,0,281,2,0,1
+Hack-with-Github/Awesome-Hacking,176,Add pwn.guide link to README,CLOSED,2025-10-29T23:20:07Z,2026-04-24T13:50:50Z,,4238.5119,1,1,0,54,14,2,14
+Hack-with-Github/Awesome-Hacking,175,Create BYTCHIIMUHBOSS,CLOSED,2025-10-23T20:52:16Z,2026-04-24T13:48:10Z,,4384.9317,1,60,0,1535,5,3,2
+Hack-with-Github/Awesome-Hacking,174,Made Updates.,CLOSED,2025-08-09T05:48:16Z,2025-08-22T14:35:57Z,,320.7947,2,3,1,52,3,1,3
+Hack-with-Github/Awesome-Hacking,173,feat: add Awesome Node.js Security to the list,MERGED,2025-07-12T18:52:48Z,2026-04-20T14:27:49Z,2026-04-20T14:27:49Z,6763.5836,1,1,0,36,14,3,19
+Hack-with-Github/Awesome-Hacking,172,Added Awesome Drone Hacking List,MERGED,2025-06-19T19:01:32Z,2026-04-24T13:47:38Z,2026-04-24T13:47:38Z,7410.7683,1,1,0,0,11,2,13
+Hack-with-Github/Awesome-Hacking,170,Delete .github/workflows/lock-threads.yml,CLOSED,2025-03-29T21:50:30Z,2026-04-20T14:18:33Z,,9280.4675,1,0,23,0,10,3,7
+Hack-with-Github/Awesome-Hacking,169,"Revert ""Create lock threads workflow""",CLOSED,2025-03-07T16:10:23Z,2026-04-20T14:18:16Z,,9814.1314,1,0,23,44,7,4,3
+Hack-with-Github/Awesome-Hacking,168,Update lock-threads.yml,CLOSED,2025-03-07T16:08:55Z,2026-04-20T14:17:50Z,,9814.1486,1,0,23,0,4,1,2
+Hack-with-Github/Awesome-Hacking,167,Update README.md,CLOSED,2025-02-19T13:15:28Z,2026-04-20T14:16:57Z,,10201.0247,1,2,0,9,15,5,12
+Hack-with-Github/Awesome-Hacking,166,Removed unnecessary periods in table for consistency,CLOSED,2025-01-23T18:21:12Z,2026-04-20T14:13:57Z,,10843.8792,1,4,4,204,14,2,15
+Hack-with-Github/Awesome-Hacking,165,Update README.md - Adding Cybersources,MERGED,2024-12-28T13:16:34Z,2025-01-18T01:48:02Z,2025-01-18T01:48:02Z,492.5244,1,1,0,106,13,8,23
+Hack-with-Github/Awesome-Hacking,162,Add crypto_pkg,CLOSED,2024-06-10T20:22:08Z,2024-08-22T10:35:13Z,,1742.2181,1,1,0,36,13,4,19
+Hack-with-Github/Awesome-Hacking,161,Update README.md with BadUSB Scripts,CLOSED,2024-05-26T16:35:58Z,2024-08-22T10:35:48Z,,2105.9972,1,1,0,505,12,8,9
+Hack-with-Github/Awesome-Hacking,156,Added the Cyberlopaedia,CLOSED,2023-12-21T08:08:24Z,2024-08-22T10:36:18Z,,5882.465,1,1,0,0,12,3,13
+Hack-with-Github/Awesome-Hacking,154,Added CyberChef,CLOSED,2023-12-01T19:53:00Z,2024-08-22T10:49:49Z,,6350.9469,1,1,0,285,7,3,7
+Hack-with-Github/Awesome-Hacking,153,Added nand2tetris in other resources section,CLOSED,2023-10-24T15:58:00Z,2024-04-13T12:16:38Z,,4124.3106,1,1,0,124,4,2,1
+Hack-with-Github/Awesome-Hacking,152,feat: add new useful repository for pentest (Cognito Scanner),CLOSED,2023-08-08T10:17:20Z,2024-04-13T12:11:47Z,,5977.9075,1,1,0,138,9,3,10
+Hack-with-Github/Awesome-Hacking,151,Suggestion to add iSpy to `Awesome Repositories` list.,CLOSED,2023-07-31T14:23:14Z,2023-12-10T07:33:24Z,,3161.1694,1,1,0,87,4,4,1
+Hack-with-Github/Awesome-Hacking,150,Rewrite properly,CLOSED,2023-07-18T13:50:04Z,2023-12-10T07:31:15Z,,3473.6864,1,12,10,64,5,1,4
+Hack-with-Github/Awesome-Hacking,149,my new contribution,CLOSED,2023-07-05T19:18:28Z,2023-12-10T07:29:51Z,,3780.1897,1,2,0,55,9,1,8
+Hack-with-Github/Awesome-Hacking,145,Add IPRanges repo,CLOSED,2023-03-05T23:54:20Z,2023-03-30T04:23:08Z,,580.48,1,1,0,121,3,2,2
+Hack-with-Github/Awesome-Hacking,144,Various fixes and additions,CLOSED,2023-01-09T11:12:20Z,2024-08-22T10:37:33Z,,14183.4203,2,93,78,327,19,11,21
+Hack-with-Github/Awesome-Hacking,143,awsome has been changed to Awesome,CLOSED,2022-11-07T16:35:17Z,2023-12-10T07:26:49Z,,9542.8589,1,13,13,100,5,0,3
+Hack-with-Github/Awesome-Hacking,140,Add files via upload,CLOSED,2022-07-01T18:42:18Z,2022-07-03T10:53:17Z,,40.1831,1,0,0,0,5,3,4
+Hack-with-Github/Awesome-Hacking,139,Update README.md,CLOSED,2022-06-30T08:29:11Z,2022-08-27T11:28:04Z,,1394.9814,1,3,0,74,9,9,5
+Hack-with-Github/Awesome-Hacking,138,Capitalize headers to follow common styling,MERGED,2022-06-30T00:01:22Z,2023-12-10T07:26:11Z,2023-12-10T07:26:11Z,12679.4136,1,2,2,93,12,2,11
+Hack-with-Github/Awesome-Hacking,137,Add daily updated CVE PoC repository by Trickest,MERGED,2022-03-07T18:09:13Z,2023-12-10T07:24:03Z,2023-12-10T07:24:03Z,15421.2472,1,1,0,0,9,2,7
+Hack-with-Github/Awesome-Hacking,136,Create PayPal INC Support,CLOSED,2022-02-17T22:31:19Z,2022-08-27T11:23:20Z,,4572.8669,1,21,0,144,4,2,2
+Hack-with-Github/Awesome-Hacking,135,Create ayden lewis,CLOSED,2022-02-14T00:27:41Z,2022-08-27T11:22:43Z,,4666.9172,1,1,0,7,4,0,2
+Hack-with-Github/Awesome-Hacking,134,added awesome-rtc-hacking to the list,MERGED,2022-02-09T06:49:12Z,2022-08-27T11:22:09Z,2022-08-27T11:22:09Z,4780.5492,1,1,0,0,5,3,3
+Hack-with-Github/Awesome-Hacking,133,Update README.md,CLOSED,2022-02-05T12:34:18Z,2024-04-13T12:06:04Z,,19151.5294,1,2,1,53,16,6,19
+Hack-with-Github/Awesome-Hacking,132,add awesome-rl-for-cybersecurity,MERGED,2021-12-16T12:21:21Z,2022-08-27T11:18:00Z,2022-08-27T11:18:00Z,6094.9442,1,2,1,0,8,4,4
+Hack-with-Github/Awesome-Hacking,130,https://www.facebook.com/profile.php?id=100049332442397,CLOSED,2021-08-08T13:20:17Z,2021-10-18T13:42:29Z,,1704.37,1,21,0,8,4,1,1
+Hack-with-Github/Awesome-Hacking,123,Create DDOS file,CLOSED,2021-03-26T23:52:18Z,2021-07-31T15:58:11Z,,3040.0981,1,1,0,0,4,0,2
+Hack-with-Github/Awesome-Hacking,96,Smart hacking,CLOSED,2020-05-18T05:19:40Z,2020-05-29T11:42:06Z,,270.3739,1,1,0,22,5,4,2
+Hack-with-Github/Awesome-Hacking,86,awesome embedded and IoT security list,MERGED,2020-03-28T12:46:25Z,2020-04-21T13:27:30Z,2020-04-21T13:27:30Z,576.6847,1,1,0,39,4,2,2
+Hack-with-Github/Awesome-Hacking,74,Adding some useful resources and tools,CLOSED,2020-02-14T20:05:34Z,2020-03-17T19:06:46Z,,767.02,1,4,0,347,3,0,2
+Hack-with-Github/Awesome-Hacking,72,Update README.md,MERGED,2020-01-02T14:06:37Z,2020-04-21T13:29:28Z,2020-04-21T13:29:28Z,2639.3808,1,1,0,31,4,4,2
+Hack-with-Github/Awesome-Hacking,55,Remove link to Malware Scripts due to 404,MERGED,2019-10-02T10:57:24Z,2019-10-03T15:21:17Z,2019-10-03T15:21:17Z,28.3981,1,0,1,63,4,0,2
+Hack-with-Github/Awesome-Hacking,54,Added link to Awesome-Asset-Discovery,MERGED,2019-10-02T10:46:16Z,2019-10-03T15:22:23Z,2019-10-03T15:22:23Z,28.6019,1,1,0,95,2,0,1

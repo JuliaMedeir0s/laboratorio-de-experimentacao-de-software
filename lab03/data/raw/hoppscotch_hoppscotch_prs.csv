@@ -1,0 +1,85 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+hoppscotch/hoppscotch,6266,feat: improve accessibility with descriptive aria-labels and add issue templates,CLOSED,2026-05-02T22:13:39Z,2026-05-05T09:03:20Z,,58.8281,17,202,15,1677,2,1,3
+hoppscotch/hoppscotch,6254,Chore/add GitHub templates,CLOSED,2026-04-30T20:40:28Z,2026-05-05T09:03:58Z,,108.3917,12,146,15,835,2,1,4
+hoppscotch/hoppscotch,6250,fix: make \ comply with RFC 4122 v4 UUID format,CLOSED,2026-04-30T02:30:59Z,2026-04-30T08:10:20Z,,5.6558,1,8,12,1493,2,2,2
+hoppscotch/hoppscotch,6247,fix: remove unsafe exec() in pre-request.js,CLOSED,2026-04-29T09:13:05Z,2026-04-29T10:25:51Z,,1.2128,1,2,0,2075,2,1,3
+hoppscotch/hoppscotch,6244,fix(common): preserve string contract for GQL history responses,MERGED,2026-04-28T19:44:03Z,2026-04-29T11:41:34Z,2026-04-29T11:41:33Z,15.9583,5,172,8,3611,4,1,6
+hoppscotch/hoppscotch,6243,fix(common): subfolder add-new in team collections respects write access,MERGED,2026-04-28T17:07:36Z,2026-04-29T08:45:49Z,2026-04-29T08:45:49Z,15.6369,2,16,5,1476,3,1,5
+hoppscotch/hoppscotch,6241,Chore/add GitHub templates,CLOSED,2026-04-28T15:26:39Z,2026-04-28T17:38:14Z,,2.1931,11,121,14,2036,2,1,3
+hoppscotch/hoppscotch,6240,fix(backend): harden onboarding config endpoint,MERGED,2026-04-28T13:32:29Z,2026-04-28T18:40:03Z,2026-04-28T18:40:03Z,5.1261,3,180,1,2168,4,1,11
+hoppscotch/hoppscotch,6238,fix(desktop): unified store scope and migration reroute,MERGED,2026-04-28T07:59:33Z,2026-04-28T09:29:11Z,2026-04-28T09:29:11Z,1.4939,4,168,45,3378,3,1,7
+hoppscotch/hoppscotch,6191,chore: security patch for the dependency chain `v2026.4.0`,MERGED,2026-04-25T04:51:51Z,2026-04-28T12:21:43Z,2026-04-28T12:21:43Z,79.4978,15,3393,2498,2563,3,1,11
+hoppscotch/hoppscotch,6190,Docs/update screenshots,CLOSED,2026-04-24T15:12:45Z,2026-04-27T09:31:04Z,,66.3053,4,12,1,1577,2,1,3
+hoppscotch/hoppscotch,6189,Fix/settings page spacing,CLOSED,2026-04-24T15:12:07Z,2026-04-27T09:31:00Z,,66.3147,4,12,1,1611,2,1,3
+hoppscotch/hoppscotch,6188,Fix/environment tooltip typo,CLOSED,2026-04-24T15:11:25Z,2026-04-27T09:30:52Z,,66.3242,4,12,1,1620,2,1,3
+hoppscotch/hoppscotch,6187,Fix/accessibility aria labels,CLOSED,2026-04-24T15:10:50Z,2026-04-24T18:03:52Z,,2.8839,4,12,1,1777,2,1,3
+hoppscotch/hoppscotch,6185,fix(common): set domain url  as mockserver environment,MERGED,2026-04-23T07:51:37Z,2026-04-29T06:44:03Z,2026-04-29T06:44:03Z,142.8739,1,161,20,1506,4,1,7
+hoppscotch/hoppscotch,6174,fix: remediate `quinn-proto` vulnerability across native packages,MERGED,2026-04-22T11:40:35Z,2026-04-22T18:25:28Z,2026-04-22T18:25:28Z,6.7481,9,139,125,2962,3,1,4
+hoppscotch/hoppscotch,6172,feat(desktop): settings phase 0 - infra and update check,MERGED,2026-04-21T13:02:48Z,2026-04-27T19:06:07Z,2026-04-27T19:06:07Z,150.0553,20,1593,245,15273,3,3,10
+hoppscotch/hoppscotch,6166,Fix/a11y logentry,CLOSED,2026-04-20T13:37:35Z,2026-04-21T13:45:48Z,,24.1369,3,52,7,835,2,1,3
+hoppscotch/hoppscotch,6163,fix(common): preserve '=' in cURL cookie import values,CLOSED,2026-04-19T18:20:29Z,2026-04-24T13:51:32Z,,115.5175,2,34,1,1180,5,1,3
+hoppscotch/hoppscotch,6161,feat: add copy url action to history cards,CLOSED,2026-04-19T16:58:35Z,2026-04-20T11:24:29Z,,18.4317,1,19,0,1235,2,1,3
+hoppscotch/hoppscotch,6160,fix(common): add missing aria-labels to icon-only sidenav links,MERGED,2026-04-19T16:57:25Z,2026-04-20T13:00:55Z,2026-04-20T13:00:55Z,20.0583,1,1,0,1348,3,1,5
+hoppscotch/hoppscotch,6159,feat: enhance CORS error messaging in browser interceptor,CLOSED,2026-04-19T15:57:06Z,2026-04-20T11:05:48Z,,19.145,2,11,1,1341,2,1,3
+hoppscotch/hoppscotch,6158,docs: security threat model and policy update,MERGED,2026-04-19T14:45:08Z,2026-04-23T12:05:03Z,2026-04-23T12:05:03Z,93.3319,1,119,29,4808,3,2,15
+hoppscotch/hoppscotch,6155,fix(common): variable hover tooltip was not clickable (disappeared),MERGED,2026-04-18T10:41:49Z,2026-04-21T13:45:18Z,2026-04-21T13:45:18Z,75.0581,5,54,0,2268,4,2,8
+hoppscotch/hoppscotch,6152,Fix(cli): Trim and safely resolve environment variable values,CLOSED,2026-04-17T18:51:02Z,2026-04-20T11:33:51Z,,64.7136,7,260,668,1618,2,4,16
+hoppscotch/hoppscotch,6147,feat(selfhost-web): make webapp-server timeouts configurable,MERGED,2026-04-15T12:35:00Z,2026-04-27T19:15:42Z,2026-04-27T19:15:42Z,294.6783,3,48,14,967,4,5,9
+hoppscotch/hoppscotch,6145,Fix/secure onboarding mass assignment,CLOSED,2026-04-15T12:03:23Z,2026-04-21T14:59:19Z,,146.9322,4,82,64,1806,3,1,7
+hoppscotch/hoppscotch,6144,fix(common): support `id_token` in Authorization Code OAuth flow,MERGED,2026-04-15T10:57:17Z,2026-04-27T19:04:02Z,2026-04-27T19:04:02Z,296.1125,1,20,8,1161,4,2,8
+hoppscotch/hoppscotch,6142,fix(common): apply platform default proxy URL on load and reset,MERGED,2026-04-15T08:49:31Z,2026-04-23T12:55:27Z,2026-04-23T12:55:27Z,196.0989,3,109,52,3291,4,1,15
+hoppscotch/hoppscotch,6141,feat: add SMTP OAuth2 authentication support,MERGED,2026-04-15T08:10:07Z,2026-04-22T11:41:03Z,2026-04-22T11:41:03Z,171.5156,17,856,188,3429,5,1,19
+hoppscotch/hoppscotch,6137,fix(common): handle non-string values in Postman collection import,MERGED,2026-04-14T09:05:29Z,2026-04-15T14:44:43Z,2026-04-15T14:44:43Z,29.6539,2,64,4,1644,3,2,5
+hoppscotch/hoppscotch,6136,fix(auth): parse cookie values containing '=' chars using indexOf instead of split,CLOSED,2026-04-14T07:46:20Z,2026-04-16T01:15:08Z,,41.48,1,357,203,1571,3,2,3
+hoppscotch/hoppscotch,6134,fix: handle array header values in Postman import,CLOSED,2026-04-14T06:09:52Z,2026-04-15T14:46:15Z,,32.6064,1,8,1,971,2,2,2
+hoppscotch/hoppscotch,6133,fix: handle array-valued Postman headers on import,CLOSED,2026-04-13T16:13:08Z,2026-04-15T14:39:19Z,,46.4364,2,69,1,1544,4,2,2
+hoppscotch/hoppscotch,6131,chore: patch axios CVEs and bump related dependencies,MERGED,2026-04-13T08:51:37Z,2026-04-13T11:43:17Z,2026-04-13T11:43:17Z,2.8611,11,251,240,2150,1,1,8
+hoppscotch/hoppscotch,6130,chore(deps): bump the npm_and_yarn group across 1 directory with 6 updates,CLOSED,2026-04-13T08:41:26Z,2026-04-13T11:40:53Z,,2.9908,12,837,518,57638,1,2,2
+hoppscotch/hoppscotch,6125,fix(data): make `$randomUUID` predefined variable RFC 4122 compliant,MERGED,2026-04-11T20:41:27Z,2026-04-17T08:38:02Z,2026-04-17T08:38:02Z,131.9431,1,21,34,1464,3,2,3
+hoppscotch/hoppscotch,6122,refactor(cli): match test-result helper name to documented contract,MERGED,2026-04-11T15:02:24Z,2026-04-15T08:18:31Z,2026-04-15T08:18:31Z,89.2686,2,6,7,1524,2,6,3
+hoppscotch/hoppscotch,6117,fix(common): correct environment locale wording,MERGED,2026-04-10T14:30:58Z,2026-04-16T11:22:54Z,2026-04-16T11:22:54Z,140.8656,1,4,4,1483,3,3,4
+hoppscotch/hoppscotch,6116,feat(common): improve API documentation publishing UX,MERGED,2026-04-10T13:22:52Z,2026-04-22T17:35:40Z,2026-04-22T17:35:40Z,292.2133,8,307,220,2914,3,2,10
+hoppscotch/hoppscotch,6115,chore(deps): bump the npm_and_yarn group across 11 directories with 5 updates,CLOSED,2026-04-10T08:47:04Z,2026-04-10T16:59:45Z,,8.2114,11,25,25,66564,2,2,3
+hoppscotch/hoppscotch,6111,chore(deps): bump the npm_and_yarn group across 10 directories with 5 updates,CLOSED,2026-04-09T22:06:12Z,2026-04-10T16:59:44Z,,18.8922,11,20,20,62793,2,3,3
+hoppscotch/hoppscotch,6110,chore(deps): bump the npm_and_yarn group across 1 directory with 6 updates,CLOSED,2026-04-09T21:50:35Z,2026-04-10T16:59:43Z,,19.1522,11,778,475,43745,2,2,3
+hoppscotch/hoppscotch,6109,chore(common): complete missing Spanish translations,MERGED,2026-04-09T20:18:39Z,2026-04-17T14:02:03Z,2026-04-17T14:02:02Z,185.7231,1,1271,53,2930,3,3,6
+hoppscotch/hoppscotch,6098,feat(backend): use stateless OAuth2 state store,MERGED,2026-04-07T12:20:23Z,2026-04-15T13:02:43Z,2026-04-15T13:02:43Z,192.7056,7,289,60,2204,3,1,9
+hoppscotch/hoppscotch,6095,fix: upgrade quinn-proto to 0.11.14 (CVE-2026-31812),CLOSED,2026-04-07T06:21:48Z,2026-04-22T11:41:28Z,,365.3278,1,2,2,1220,3,2,3
+hoppscotch/hoppscotch,6076,feat: add new settings to disable checkForUpdates on desktop app,CLOSED,2026-04-01T21:40:41Z,2026-04-30T12:56:16Z,,687.2597,10,156,7,3526,4,4,6
+hoppscotch/hoppscotch,6071,chore(common): complete missing Turkish translations,MERGED,2026-04-01T04:43:26Z,2026-04-17T14:15:04Z,2026-04-17T14:15:04Z,393.5272,1,1278,46,1929,3,2,3
+hoppscotch/hoppscotch,6069,chore: align Tauri plugin-shell versions,MERGED,2026-03-30T09:18:49Z,2026-03-30T10:23:20Z,2026-03-30T10:23:20Z,1.0753,5,174,190,699,3,1,5
+hoppscotch/hoppscotch,6068,fix(common): resolve history schema mismatch on page reload,MERGED,2026-03-30T08:03:12Z,2026-03-30T09:57:54Z,2026-03-30T09:57:54Z,1.9117,3,36,70,3564,3,1,9
+hoppscotch/hoppscotch,6059,fix(common): newly created folder not shown in save-as dialog,MERGED,2026-03-28T04:24:05Z,2026-03-30T14:57:52Z,2026-03-30T14:57:52Z,58.5631,1,8,8,1697,4,2,3
+hoppscotch/hoppscotch,6057,fix: use team.findMany for fetching user teams,MERGED,2026-03-27T14:34:57Z,2026-03-28T02:37:10Z,2026-03-28T02:37:10Z,12.0369,5,79,66,1840,3,1,5
+hoppscotch/hoppscotch,6055,chore: patch dependency vulnerabilities and harden production image,MERGED,2026-03-27T11:25:39Z,2026-03-27T13:56:27Z,2026-03-27T13:56:27Z,2.5133,12,461,597,1568,3,1,6
+hoppscotch/hoppscotch,6050,"fix: pin 35 unpinned action(s),extract 19 unsafe expression(s) to env vars",CLOSED,2026-03-26T19:06:48Z,2026-03-26T21:22:13Z,,2.2569,4,80,52,4481,1,2,2
+hoppscotch/hoppscotch,6043,feat(desktop): cloud for orgs support - phase 3,MERGED,2026-03-26T05:07:54Z,2026-03-26T12:30:51Z,2026-03-26T12:30:51Z,7.3825,36,1158,128,8119,3,3,8
+hoppscotch/hoppscotch,6038,feat(realtime): add MCP client support,CLOSED,2026-03-24T15:30:45Z,2026-03-24T17:29:22Z,,1.9769,34,4913,3,2155,3,2,7
+hoppscotch/hoppscotch,6036,refactor(common): route mock server and published docs operations through platform backend,MERGED,2026-03-24T11:11:20Z,2026-03-25T19:11:36Z,2026-03-25T19:11:36Z,32.0044,17,221,159,6467,4,1,19
+hoppscotch/hoppscotch,6027,test: add timeout handling case to getResourceContents in CLI,CLOSED,2026-03-23T09:54:19Z,2026-04-04T11:20:34Z,,289.4375,2,20,8,1066,2,1,4
+hoppscotch/hoppscotch,6022,feat(common): add missing tooltips to icon-only buttons,CLOSED,2026-03-21T08:23:44Z,2026-04-04T10:35:36Z,,338.1978,6,20,1,1980,2,2,2
+hoppscotch/hoppscotch,6019,fix: register team collection subscriptions before loading root collections,CLOSED,2026-03-20T05:11:26Z,2026-04-13T22:46:03Z,,593.5769,1,50,33,865,3,3,5
+hoppscotch/hoppscotch,6013,chore: security patch for the dependency chain `v2026.3.0`,MERGED,2026-03-18T09:55:00Z,2026-03-24T11:04:36Z,2026-03-24T11:04:36Z,145.16,16,3625,3068,3001,3,1,22
+hoppscotch/hoppscotch,6012,fix: validate device-login redirect_uri to prevent token theft via DNS wildcard bypass,MERGED,2026-03-18T04:42:53Z,2026-03-27T09:15:47Z,2026-03-27T09:15:47Z,220.5483,4,134,5,3138,5,1,19
+hoppscotch/hoppscotch,6009,fix: keyboard shortcuts on non-English layouts,MERGED,2026-03-17T17:38:34Z,2026-03-26T13:36:00Z,2026-03-26T13:36:00Z,211.9572,2,50,27,2202,3,2,7
+hoppscotch/hoppscotch,6006,fix(backend): prevent stored XSS via mock server responses and cross-team request moves,MERGED,2026-03-17T08:49:49Z,2026-03-25T10:46:38Z,2026-03-25T10:46:38Z,193.9469,6,171,16,3495,4,1,16
+hoppscotch/hoppscotch,5996,chore(common): modify Chinese translation of words,MERGED,2026-03-16T07:37:21Z,2026-04-17T15:30:12Z,2026-04-17T15:30:12Z,775.8808,2,21,20,848,3,4,11
+hoppscotch/hoppscotch,5991,fix(rest): handle malformed JSON in shared URL parameters,CLOSED,2026-03-13T15:52:35Z,2026-03-23T14:03:33Z,,238.1828,1,14,6,1806,3,2,3
+hoppscotch/hoppscotch,5984,fix(common): prevent stored XSS in team member overflow tooltip,MERGED,2026-03-13T14:02:49Z,2026-03-14T11:56:44Z,2026-03-14T11:56:44Z,21.8986,2,12,3,1730,3,1,3
+hoppscotch/hoppscotch,5982,fix(common): prevent open redirect in enter page,MERGED,2026-03-13T10:13:36Z,2026-03-20T07:11:31Z,2026-03-20T07:11:31Z,164.9653,3,139,7,1853,3,1,27
+hoppscotch/hoppscotch,5979,chore(common): update Chinese translations,MERGED,2026-03-12T17:36:17Z,2026-03-13T18:29:14Z,2026-03-13T18:29:14Z,24.8825,1,136,63,1262,3,3,14
+hoppscotch/hoppscotch,5972,feat: add `MAILER_SMTP_IGNORE_TLS` and optional SMTP auth,MERGED,2026-03-11T08:04:49Z,2026-03-25T18:00:47Z,2026-03-25T18:00:47Z,345.9328,12,194,41,2075,4,1,16
+hoppscotch/hoppscotch,5971,feat: add option to clear local workspace data on logout,CLOSED,2026-03-10T19:08:22Z,2026-04-15T19:53:19Z,,864.7492,11,266,43,3204,2,4,1
+hoppscotch/hoppscotch,5968,feat: show user workspace memberships in admin dashboard,MERGED,2026-03-09T07:56:14Z,2026-03-25T18:58:36Z,2026-03-25T18:58:36Z,395.0394,7,203,8,2042,5,3,15
+hoppscotch/hoppscotch,5962,fix: resolve invalid environment validation when publishing docs in personal workspace,MERGED,2026-03-07T07:50:50Z,2026-04-22T15:55:11Z,2026-04-22T15:55:11Z,1112.0725,3,68,41,1785,4,2,4
+hoppscotch/hoppscotch,5959,Fix hotkeys using event.key instead of event.code for non-English keyboards,CLOSED,2026-03-07T00:17:35Z,2026-03-10T15:37:04Z,,87.3247,2,18,12,1208,4,1,2
+hoppscotch/hoppscotch,5958,fix(shortcuts): support non-English keyboard layouts by using Keyboar…,CLOSED,2026-03-06T17:53:17Z,2026-03-26T13:38:54Z,,475.7603,1,21,17,1857,5,5,3
+hoppscotch/hoppscotch,5950,fix(common): use operation title as fallback in OpenAPI import,MERGED,2026-03-05T19:41:55Z,2026-03-26T15:21:30Z,2026-03-26T15:21:30Z,499.6597,1,27,2,1816,4,6,6
+hoppscotch/hoppscotch,5935,fix: restore tooltips on icon-only buttons inside popover triggers,MERGED,2026-03-04T08:15:45Z,2026-03-18T09:41:15Z,2026-03-18T09:41:15Z,337.425,6,192,9,3482,4,1,29
+hoppscotch/hoppscotch,5932,fix(backend): bump Prisma packages to `7.4.2`,MERGED,2026-03-03T15:42:44Z,2026-03-04T06:12:59Z,2026-03-04T06:12:59Z,14.5042,2,59,59,1168,4,0,4
+hoppscotch/hoppscotch,5925,feat: improve CORS error messages with helpful workarounds,CLOSED,2026-03-02T20:01:54Z,2026-03-03T19:54:17Z,,23.8731,4,105,3,1814,1,1,1
+hoppscotch/hoppscotch,5921,fix(common): persist OAuth2 code challenge method selection,MERGED,2026-02-28T19:25:22Z,2026-03-13T17:41:13Z,2026-03-13T17:41:13Z,310.2642,1,4,1,1983,4,1,4
+hoppscotch/hoppscotch,5920,fix(desktop): add native Edit menu to enable clipboard shortcuts on Linux,MERGED,2026-02-28T18:17:20Z,2026-03-19T18:00:23Z,2026-03-19T18:00:23Z,455.7175,2,38,2,2472,4,2,11
+hoppscotch/hoppscotch,5919,Fix/icon button tooltips,CLOSED,2026-02-28T16:46:08Z,2026-03-04T07:11:37Z,,86.4247,13,296,52,2381,3,0,5
+hoppscotch/hoppscotch,5917,fix(common): handle File objects in HAR postData text resolution,MERGED,2026-02-28T11:47:53Z,2026-03-26T15:26:36Z,2026-03-26T15:26:36Z,627.6453,1,23,0,821,4,2,7
+hoppscotch/hoppscotch,5916,fix(backend): enforce user ownership when deleting PAT,MERGED,2026-02-28T11:30:26Z,2026-03-02T18:05:20Z,2026-03-02T18:05:20Z,54.5817,3,55,17,2058,4,0,9

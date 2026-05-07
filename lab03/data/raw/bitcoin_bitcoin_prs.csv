@@ -1,0 +1,46 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+bitcoin/bitcoin,35202,"ci: restore sockets in `i686, no IPC` job",MERGED,2026-05-03T14:17:03Z,2026-05-04T20:51:17Z,2026-05-04T20:51:17Z,30.5706,1,1,0,1729,7,10,2
+bitcoin/bitcoin,35175,multi_index: fix compilation failure with boost >= 1.91,MERGED,2026-04-28T18:33:08Z,2026-04-29T18:50:01Z,2026-04-29T18:50:01Z,24.2814,3,16,19,893,6,11,4
+bitcoin/bitcoin,35163,Wallet: add consistency check on wallet transactions stored on wallet database when loading the wallet.,CLOSED,2026-04-27T04:16:54Z,2026-04-28T03:07:44Z,,22.8472,2,94,5,736,5,3,1
+bitcoin/bitcoin,35153,doc: update llvm based coverage example,MERGED,2026-04-24T20:04:47Z,2026-04-27T13:31:34Z,2026-04-27T13:31:34Z,65.4464,1,2,1,600,4,1,2
+bitcoin/bitcoin,35149,doc: clarify clang-tidy in developer notes,MERGED,2026-04-24T12:02:26Z,2026-04-27T14:02:06Z,2026-04-27T14:02:06Z,73.9944,1,9,2,257,5,2,7
+bitcoin/bitcoin,35148,refactor: Remove confusing DataStream::in_avail() alias,MERGED,2026-04-24T10:53:20Z,2026-04-25T08:27:22Z,2026-04-25T08:27:22Z,21.5672,2,63,60,152,4,2,1
+bitcoin/bitcoin,35143,kernel: guard btck::Handle move-assignment against self-move,MERGED,2026-04-23T11:05:26Z,2026-04-26T21:55:20Z,2026-04-26T21:55:20Z,82.8317,2,14,2,2089,6,1,3
+bitcoin/bitcoin,35138,doc: add missed advisory to 31.0 rel notes,MERGED,2026-04-22T10:08:32Z,2026-04-22T17:17:23Z,2026-04-22T17:17:23Z,7.1475,1,10,0,214,5,3,1
+bitcoin/bitcoin,35135,test: add LineReader edge cases relevant to HTTP parsing,CLOSED,2026-04-21T21:18:16Z,2026-04-22T21:04:21Z,,23.7681,1,13,0,1063,5,4,5
+bitcoin/bitcoin,35132,doc: update release process to mention security advisories pre-announcements,MERGED,2026-04-21T15:29:58Z,2026-04-22T10:04:25Z,2026-04-22T10:04:25Z,18.5742,2,11,1,155,6,2,1
+bitcoin/bitcoin,35128,dbwrapper: avoid copying `CDBIterator` keys in `GetKey()`,MERGED,2026-04-21T10:11:11Z,2026-04-23T18:51:00Z,2026-04-23T18:51:00Z,56.6636,3,8,2,4861,7,6,4
+bitcoin/bitcoin,35124,bench: fix benchmark fixtures and setup checks,MERGED,2026-04-20T14:48:47Z,2026-04-24T02:45:12Z,2026-04-24T02:45:12Z,83.9403,9,14,15,1063,6,6,3
+bitcoin/bitcoin,35116,net: cleanup SOCKS5 auth logging,MERGED,2026-04-19T18:16:37Z,2026-04-23T11:53:11Z,2026-04-23T11:53:11Z,89.6094,1,1,1,271,6,4,4
+bitcoin/bitcoin,35099,ci: drop `-lstdc++` from msan fuzz job,MERGED,2026-04-17T12:59:46Z,2026-04-19T10:17:40Z,2026-04-19T10:17:40Z,45.2983,2,2,3,80,5,3,1
+bitcoin/bitcoin,35097,util: Return uint64_t from _MiB and _GiB operators,MERGED,2026-04-17T10:34:02Z,2026-04-24T21:53:04Z,2026-04-24T21:53:04Z,179.3172,7,59,74,1308,8,11,32
+bitcoin/bitcoin,35096,kernel: align height parameters to int32_t in btck API,MERGED,2026-04-17T08:59:12Z,2026-04-20T14:52:04Z,2026-04-20T14:52:04Z,77.8811,3,11,5,1196,7,1,4
+bitcoin/bitcoin,35095,doc: fix typos and minor formatting issues,MERGED,2026-04-17T03:18:31Z,2026-04-17T09:05:43Z,2026-04-17T09:05:43Z,5.7867,4,4,4,347,5,4,1
+bitcoin/bitcoin,35091,doc: archive release notes for v31.0,MERGED,2026-04-16T08:25:15Z,2026-04-20T13:15:55Z,2026-04-20T13:15:55Z,100.8444,1,372,0,0,3,1,1
+bitcoin/bitcoin,35089,test: Allow to set height in create_block,MERGED,2026-04-16T06:46:43Z,2026-04-19T09:26:27Z,2026-04-19T09:26:27Z,74.6622,28,89,97,356,5,2,10
+bitcoin/bitcoin,35087,tor: limit torcontrol line size that is processed to prevent OOM,MERGED,2026-04-15T22:28:04Z,2026-04-21T14:18:19Z,2026-04-21T14:18:19Z,135.8375,2,60,17,4307,9,3,15
+bitcoin/bitcoin,35086,test: interface_http follow-ups,MERGED,2026-04-15T20:05:22Z,2026-04-17T20:25:41Z,2026-04-17T20:25:41Z,48.3386,1,66,53,306,6,5,5
+bitcoin/bitcoin,35077,kernel: build: remove unused serfloat dependency,MERGED,2026-04-14T22:10:31Z,2026-04-15T08:18:08Z,2026-04-15T08:18:08Z,10.1269,1,0,1,480,6,2,2
+bitcoin/bitcoin,35075,rpc: clarify wrong-network address errors,CLOSED,2026-04-14T19:35:32Z,2026-04-15T12:44:35Z,,17.1508,6,76,4,538,3,2,1
+bitcoin/bitcoin,35073,iwyu: map std::hash to <functional>,CLOSED,2026-04-14T18:40:46Z,2026-04-17T13:50:02Z,,67.1544,1,6,0,418,6,21,9
+bitcoin/bitcoin,35065,cmake: compact generated JSON C++ headers,CLOSED,2026-04-12T15:06:54Z,2026-04-14T06:18:33Z,,39.1942,1,4,3,20098,5,9,1
+bitcoin/bitcoin,35061,Fix/spend div by zero,CLOSED,2026-04-12T04:09:35Z,2026-04-13T06:07:47Z,,25.97,3,6,2,305,4,2,1
+bitcoin/bitcoin,35042,[31.x] Finalize 31.0,MERGED,2026-04-09T18:43:19Z,2026-04-15T20:55:50Z,2026-04-15T20:55:50Z,146.2086,9,393,22,55,6,3,7
+bitcoin/bitcoin,35038,bench: add script verification benchmark for P2TR script-path spends,MERGED,2026-04-09T15:20:12Z,2026-04-19T10:01:56Z,2026-04-19T10:01:56Z,234.6956,1,39,15,914,5,7,8
+bitcoin/bitcoin,35034,[31.x] Fix guix build and rc4,MERGED,2026-04-08T19:00:39Z,2026-04-08T23:21:50Z,2026-04-08T23:21:50Z,4.3531,9,23,21,83,9,8,1
+bitcoin/bitcoin,35032,net_processing: don't modify addrman for private broadcast connections,MERGED,2026-04-08T12:57:43Z,2026-04-09T20:26:00Z,2026-04-09T20:26:00Z,31.4714,2,32,1,244,9,14,3
+bitcoin/bitcoin,35031,ci: Match `VCPKG_HOST_TRIPLET` to `VCPKG_TARGET_TRIPLET`,MERGED,2026-04-08T09:27:47Z,2026-04-09T02:21:49Z,2026-04-09T02:21:48Z,16.9003,1,5,0,503,5,5,1
+bitcoin/bitcoin,35028,[31.x] Backports + rc3,MERGED,2026-04-08T03:33:55Z,2026-04-08T12:04:13Z,2026-04-08T12:04:13Z,8.505,13,39,41,109,6,2,2
+bitcoin/bitcoin,35025,refactor: use `SpanReader` in deserialization benchmarks,MERGED,2026-04-07T19:28:44Z,2026-04-21T11:52:52Z,2026-04-21T11:52:52Z,328.4022,4,21,51,3709,4,3,12
+bitcoin/bitcoin,35024,ci: Mitigate network issues in native Windows job,MERGED,2026-04-07T15:30:37Z,2026-04-19T10:41:10Z,2026-04-19T10:41:09Z,283.1756,1,16,13,179,5,13,6
+bitcoin/bitcoin,35019,wallet: apply anti-fee-sniping locktime uniformly across all funded transaction RPCs,CLOSED,2026-04-06T22:35:50Z,2026-04-10T23:33:06Z,,96.9544,4,92,5,1771,4,3,2
+bitcoin/bitcoin,35018,"wallet, bench: Use Nanobench setup() for wallet benchmarks, and remove DuplicateMockDatabase",MERGED,2026-04-06T22:22:35Z,2026-05-02T08:33:11Z,2026-05-02T08:33:10Z,610.1764,7,122,123,660,7,7,27
+bitcoin/bitcoin,35014,test: remove macOS REDUCE_EXPORTS exception workaround,MERGED,2026-04-06T16:56:30Z,2026-04-07T22:51:07Z,2026-04-07T22:51:07Z,29.9103,1,1,9,561,7,14,2
+bitcoin/bitcoin,35010,refactor: replace memcpy with std::copy and add size asserts in IPC capnp serialization,CLOSED,2026-04-06T07:18:37Z,2026-04-07T07:46:54Z,,24.4714,1,5,2,383,5,5,1
+bitcoin/bitcoin,35006,"cli, rpc: add -rpcid option for custom request IDs",MERGED,2026-04-05T13:05:19Z,2026-04-20T12:32:51Z,2026-04-20T12:32:51Z,359.4589,3,21,4,411,5,5,7
+bitcoin/bitcoin,35001,validation: Remove stale `BlockManager` param from `ContextualCheckBlockHeader`,MERGED,2026-04-04T01:42:45Z,2026-04-07T08:50:52Z,2026-04-07T08:50:52Z,79.1353,1,3,3,222,5,2,1
+bitcoin/bitcoin,34988,rpc: fix initialization-order-fiasco by lazy-init of decodepsbt_inputs,MERGED,2026-04-01T18:19:58Z,2026-04-07T20:54:02Z,2026-04-07T20:54:02Z,146.5678,2,221,209,4553,9,15,2
+bitcoin/bitcoin,34986,docs: remove duplicate ///@} from bitcoinkernel.h,MERGED,2026-04-01T14:56:12Z,2026-04-01T17:34:32Z,2026-04-01T17:34:32Z,2.6389,1,0,2,134,6,3,1
+bitcoin/bitcoin,34985,fuzz: remove GetDescriptorChecksum from string harness,MERGED,2026-04-01T13:44:26Z,2026-04-07T17:55:49Z,2026-04-07T17:55:49Z,148.1897,1,0,1,235,6,2,2
+bitcoin/bitcoin,34982,kernel: Remove NONNULL annotation from destroy method,MERGED,2026-04-01T11:36:29Z,2026-04-01T18:34:31Z,2026-04-01T18:34:31Z,6.9672,1,1,1,690,10,5,4
+bitcoin/bitcoin,34980,Require captcha for all pull request submissions to prevent LLM abuse,CLOSED,2026-04-01T09:29:38Z,2026-04-01T19:50:27Z,,10.3469,1,6,0,177,18,17,8

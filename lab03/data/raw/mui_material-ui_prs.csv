@@ -1,0 +1,81 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+mui/material-ui,48474,[Typography] Add `applyRobotoLetterSpacing` option to fix letter spacing with CSS variable fontFamily,CLOSED,2026-05-04T17:45:25Z,2026-05-05T10:12:09Z,,16.4456,3,13,3,1497,4,2,1
+mui/material-ui,48469,[switch] Fix incorrect `role` with `slotProps.input`,MERGED,2026-05-04T10:34:23Z,2026-05-04T16:25:53Z,2026-05-04T16:25:53Z,5.8583,2,22,7,287,3,9,3
+mui/material-ui,48413,Bump stylelint to 17.9.1,MERGED,2026-05-03T01:28:35Z,2026-05-04T11:06:17Z,2026-05-04T11:06:17Z,33.6283,2,22,22,5886,1,1,1
+mui/material-ui,48412,Bump react-router to v7.14.2,MERGED,2026-05-03T01:27:31Z,2026-05-04T07:17:45Z,2026-05-04T07:17:45Z,29.8372,4,12,12,7250,1,1,1
+mui/material-ui,48410,Bump @tanstack/react-query to ^5.100.6,MERGED,2026-05-03T01:25:16Z,2026-05-04T07:21:19Z,2026-05-04T07:21:19Z,29.9342,2,10,10,5748,1,1,1
+mui/material-ui,48409,Bump @slack/bolt to ^4.7.2,MERGED,2026-05-03T01:24:15Z,2026-05-04T10:34:21Z,2026-05-04T10:34:21Z,33.1683,2,53,52,33685,1,1,1
+mui/material-ui,48408,Bump @netlify/functions to ^5.2.0,MERGED,2026-05-03T01:23:12Z,2026-05-04T08:36:15Z,2026-05-04T08:36:15Z,31.2175,2,6,6,2149,1,1,1
+mui/material-ui,48407,Bump Tailwind CSS to ^4.2.4,MERGED,2026-05-03T01:22:09Z,2026-05-04T08:26:43Z,2026-05-04T08:26:43Z,31.0761,2,71,71,6638,1,1,1
+mui/material-ui,48405,Bump nextjs monorepo to 15.5.15,MERGED,2026-05-03T01:20:13Z,2026-05-04T13:22:20Z,2026-05-04T13:22:20Z,36.0353,3,11,11,2347,1,1,1
+mui/material-ui,48404,Bump GitHub Actions,MERGED,2026-05-03T01:19:10Z,2026-05-04T08:22:34Z,2026-05-04T08:22:34Z,31.0567,8,12,12,5444,1,1,1
+mui/material-ui,48403,Bump eslint,MERGED,2026-05-03T01:19:00Z,2026-05-04T08:17:33Z,2026-05-04T08:17:33Z,30.9758,2,114,105,10020,1,1,1
+mui/material-ui,48402,Bump code-infra:patchUpdates,MERGED,2026-05-03T01:17:58Z,2026-05-04T07:31:43Z,2026-05-04T07:31:43Z,30.2292,10,123,145,23302,1,1,1
+mui/material-ui,48400,[autocomplete] Fix iOS group scrollbar overflow,MERGED,2026-05-02T17:26:29Z,2026-05-04T10:52:49Z,2026-05-04T10:52:49Z,41.4389,2,2,3,88,2,2,1
+mui/material-ui,48399,[docs] Remove outdated references of .ttf and .woff,MERGED,2026-05-01T20:41:59Z,2026-05-04T08:28:17Z,2026-05-04T08:28:17Z,59.7717,1,2,3,540,3,3,4
+mui/material-ui,48398,[internal] Remove outdated .woff files,MERGED,2026-05-01T16:10:03Z,2026-05-01T19:55:03Z,2026-05-01T19:55:03Z,3.75,8,0,0,280,2,2,1
+mui/material-ui,48395,[test] Fix autocomplete test description,MERGED,2026-05-01T10:41:39Z,2026-05-01T20:08:40Z,2026-05-01T20:08:39Z,9.45,1,1,1,210,2,1,1
+mui/material-ui,48392,[docs] Update AGENTS.md testing section,MERGED,2026-04-30T13:58:01Z,2026-05-04T08:43:31Z,2026-05-04T08:43:30Z,90.7581,1,13,5,316,2,1,1
+mui/material-ui,48390,[code-infra] bundle size check internal core docs,MERGED,2026-04-30T12:25:36Z,2026-04-30T13:28:16Z,2026-04-30T13:28:15Z,1.0442,3,7,1,240,2,1,1
+mui/material-ui,48389,[code-infra] Fix type shadowing,MERGED,2026-04-30T09:05:08Z,2026-04-30T10:43:56Z,2026-04-30T10:43:56Z,1.6467,3,8,6,799,2,1,1
+mui/material-ui,48387,[docs] Link to agent skills in relevant docs,MERGED,2026-04-29T14:58:06Z,2026-05-04T22:43:00Z,2026-05-04T22:43:00Z,127.7483,14,48,12,155,2,1,1
+mui/material-ui,48386,[core-docs] Use type-only imports for type-only references,MERGED,2026-04-29T13:12:15Z,2026-04-30T11:12:04Z,2026-04-30T11:12:04Z,21.9969,57,96,80,1025,2,4,1
+mui/material-ui,48385,[code-infra] Deduplicate vale script,MERGED,2026-04-29T12:08:55Z,2026-04-29T15:03:46Z,2026-04-29T15:03:46Z,2.9142,2,1,7,281,2,1,1
+mui/material-ui,48383,[docs] Remove generated CSS utility component doc,MERGED,2026-04-28T20:01:59Z,2026-04-29T14:33:35Z,2026-04-29T14:33:35Z,18.5267,160,155,353,337,2,2,2
+mui/material-ui,48381,[icons] Revert to using wildcard export paths,MERGED,2026-04-28T13:29:32Z,2026-04-29T10:43:57Z,2026-04-29T10:43:57Z,21.2403,1,28,8,814,3,3,2
+mui/material-ui,48380,[docs] Fix create-playground script,MERGED,2026-04-28T05:40:53Z,2026-04-28T09:38:05Z,2026-04-28T09:38:05Z,3.9533,1,1,1,256,3,1,1
+mui/material-ui,48379,[docs] Update WCAG links and version from 2.1 to 2.2,MERGED,2026-04-27T21:24:31Z,2026-04-30T13:10:18Z,2026-04-30T13:10:18Z,63.7631,8,12,12,197,3,3,1
+mui/material-ui,48378,Bump MUI X to 9.0.4,MERGED,2026-04-27T18:01:40Z,2026-04-28T15:54:37Z,2026-04-28T15:54:36Z,21.8822,2,114,93,20228,2,2,1
+mui/material-ui,48376,[ButtonBase] Fix text shifting on first hover by pinning font smoothing,CLOSED,2026-04-27T17:00:52Z,2026-04-28T16:04:34Z,,23.0617,1,3,0,1064,4,3,2
+mui/material-ui,48375,[list] Fix List sticky subheader overlapping iOS scrollbar,MERGED,2026-04-27T16:55:06Z,2026-04-30T18:13:02Z,2026-04-30T18:13:02Z,73.2989,1,3,0,1642,4,2,4
+mui/material-ui,48373,[autocomplete] Fix `renderValue` component not opening popup,CLOSED,2026-04-27T13:38:28Z,2026-04-28T11:01:40Z,,21.3867,4,69,0,406,2,2,1
+mui/material-ui,48368,[focus trap] Remove IE 11-specific focus safety check from FocusTrap cleanup,MERGED,2026-04-26T05:37:31Z,2026-04-27T08:44:48Z,2026-04-27T08:44:48Z,27.1214,1,3,10,31,3,1,4
+mui/material-ui,48367,Bump code-infra:devDependencies,MERGED,2026-04-26T01:59:33Z,2026-04-26T10:51:16Z,2026-04-26T10:51:16Z,8.8619,14,143,163,20849,1,1,1
+mui/material-ui,48366,Bump @types/node to 20.19.39,MERGED,2026-04-26T01:58:14Z,2026-04-26T06:00:01Z,2026-04-26T06:00:01Z,4.0297,9,194,194,1552,1,1,1
+mui/material-ui,48365,Bump MUI infra packages,MERGED,2026-04-26T01:55:18Z,2026-05-04T16:28:24Z,2026-05-04T16:28:24Z,206.5517,11,82,88,4232,3,4,4
+mui/material-ui,48362,Bump postcss to ^8.5.8 [SECURITY],MERGED,2026-04-25T02:06:58Z,2026-04-25T07:52:37Z,2026-04-25T07:52:37Z,5.7608,1,29,29,4378,1,1,1
+mui/material-ui,48360,[docs-infra] Remove infra around the i18n setup,MERGED,2026-04-24T11:10:15Z,2026-04-27T09:01:06Z,2026-04-27T09:01:06Z,69.8475,9,25,131,365,2,3,2
+mui/material-ui,48359,[input] Fix layout shift with display: flex (@oliviertassinari),MERGED,2026-04-23T19:16:55Z,2026-04-23T21:18:52Z,2026-04-23T21:18:52Z,2.0325,4,84,8,21,3,1,1
+mui/material-ui,48358,[code-infra] Remove references to @mui/base and @mui/joy,MERGED,2026-04-23T05:27:07Z,2026-04-23T16:46:00Z,2026-04-23T16:46:00Z,11.3147,4,148,142,368,2,1,1
+mui/material-ui,48356,[docs][autocomplete] Add demo with Tanstack Query `useInfiniteQuery`,MERGED,2026-04-22T18:29:45Z,2026-04-27T10:33:10Z,2026-04-27T10:33:10Z,112.0569,16,31566,42,781,2,1,3
+mui/material-ui,48353,[icon button] Remove unused color palette mapping in styles,MERGED,2026-04-22T12:30:19Z,2026-04-22T15:01:03Z,2026-04-22T15:01:03Z,2.5122,1,0,7,156,3,1,2
+mui/material-ui,48351,[tooltip] Simplify RTL styles using CSS logical properties,MERGED,2026-04-22T11:13:37Z,2026-04-24T01:06:57Z,2026-04-24T01:06:57Z,37.8889,2,135,93,2524,3,3,3
+mui/material-ui,48349,[docs-infra] Fix import of cjs react-simple-code-editor in esm,MERGED,2026-04-22T09:08:28Z,2026-04-22T11:13:21Z,2026-04-22T11:13:21Z,2.0814,3,11,3,180,3,8,1
+mui/material-ui,48346,[select] Fix persisting focus after becoming disabled,CLOSED,2026-04-21T15:13:50Z,2026-05-04T08:37:33Z,,305.3953,3,185,16,381,2,5,8
+mui/material-ui,48345,[docs-infra] Fix tab index on base ui tab,MERGED,2026-04-21T13:49:18Z,2026-04-27T07:02:14Z,2026-04-27T07:02:14Z,137.2156,3,10,4,334,4,1,12
+mui/material-ui,48344,[form controls] Add internal `useFormControlState` hook,MERGED,2026-04-21T11:47:54Z,2026-05-05T12:00:10Z,2026-05-05T12:00:10Z,336.2044,12,143,72,221,3,1,5
+mui/material-ui,48340,[drawer] Fix transition jump (@mj12albert),MERGED,2026-04-20T14:07:38Z,2026-04-20T20:01:09Z,2026-04-20T20:01:09Z,5.8919,2,112,4,21,2,1,1
+mui/material-ui,48332,[button] Fix `startIcon` alignment,MERGED,2026-04-19T18:46:22Z,2026-04-20T13:47:36Z,2026-04-20T13:47:36Z,19.0206,3,150,0,375,3,2,2
+mui/material-ui,48330,[docs] Remove esm.sh references and endorsement (#44649),MERGED,2026-04-19T12:29:07Z,2026-05-04T13:59:42Z,2026-05-04T13:59:42Z,361.5097,1,1,2,655,4,3,2
+mui/material-ui,48328,[select] Support single-pointer-cycle selection and pointer cancellation,MERGED,2026-04-19T11:20:58Z,2026-04-27T09:01:41Z,2026-04-27T09:01:41Z,189.6786,4,579,1,616,2,1,9
+mui/material-ui,48327,[autocomplete] Fix popper rendering issues,MERGED,2026-04-19T10:07:10Z,2026-04-21T10:51:07Z,2026-04-21T10:51:07Z,48.7325,5,295,6,1504,2,3,1
+mui/material-ui,48324,[dialog][drawer][focus trap] Fix initial focus target (@mj12albert),MERGED,2026-04-18T15:36:29Z,2026-04-18T17:37:16Z,2026-04-18T17:37:16Z,2.0131,7,177,13,21,2,1,1
+mui/material-ui,48322,[autocomplete] Fix highlight sync and scroll preservation,MERGED,2026-04-18T08:15:15Z,2026-04-22T11:01:53Z,2026-04-22T11:01:53Z,98.7772,2,353,121,1539,2,2,8
+mui/material-ui,48321,"[MUI] [Button,List,ToggleButton] Integrate useRovingTabIndex for  Button, ButtonGroup, List, ListItemButton, ToggleButton, and ToggleButtonGroup",CLOSED,2026-04-17T18:46:33Z,2026-05-02T06:59:08Z,,348.2097,2,80,15,240,3,2,6
+mui/material-ui,48320,[accessibility] Make Slider and some docs examples visible in HighContrast Mode,MERGED,2026-04-17T13:51:49Z,2026-04-21T12:38:17Z,2026-04-21T12:38:17Z,94.7744,10,60,8,3767,4,3,5
+mui/material-ui,48318,[autocomplete] Improve highlight tracking and selection state (@mj12albert),MERGED,2026-04-17T12:40:11Z,2026-04-17T14:13:31Z,2026-04-17T14:13:31Z,1.5556,5,456,22,21,2,1,1
+mui/material-ui,48316,[docs] Update MUI X roadmap section,MERGED,2026-04-17T07:26:42Z,2026-04-23T10:11:02Z,2026-04-23T10:11:02Z,146.7389,1,8,67,591,3,2,2
+mui/material-ui,48315,[codemod] Add --jsx option to `v9.0.0/system-props` codemod,MERGED,2026-04-17T07:05:38Z,2026-04-21T09:01:22Z,2026-04-21T09:01:22Z,97.9289,8,114,0,1691,2,2,2
+mui/material-ui,48314,[typography] Fix `h4` variant when using `responsiveFontSizes()`,MERGED,2026-04-16T23:43:24Z,2026-04-20T13:32:40Z,2026-04-20T13:32:40Z,85.8211,2,47,8,2164,3,1,2
+mui/material-ui,48308,[drawer] Fix transition jump,MERGED,2026-04-16T18:24:14Z,2026-04-20T14:06:38Z,2026-04-20T14:06:38Z,91.7067,2,112,4,633,3,3,1
+mui/material-ui,48304,[docs-infra] Fix duplicate JSDoc in proptypes generation,MERGED,2026-04-16T12:10:24Z,2026-04-20T12:55:06Z,2026-04-20T12:55:06Z,96.745,19,534,30,804,3,2,8
+mui/material-ui,48302,[popper] Persist positioning styles when popperOptions changes reference (@mj12albert),MERGED,2026-04-16T11:24:33Z,2026-04-16T18:13:54Z,2026-04-16T18:13:54Z,6.8225,2,76,1,21,2,1,1
+mui/material-ui,48300,[docs] Use `React.useId()` for demo IDs,MERGED,2026-04-16T10:10:21Z,2026-04-19T10:10:21Z,2026-04-19T10:10:21Z,72.0,55,427,268,1445,4,6,1
+mui/material-ui,48299,[docs] Update banner to announce v9,MERGED,2026-04-16T08:41:15Z,2026-04-16T10:09:04Z,2026-04-16T10:09:04Z,1.4636,1,2,2,240,5,1,2
+mui/material-ui,48298,[internal] Move changelog and update security page for post v9 release,MERGED,2026-04-16T07:53:20Z,2026-04-20T02:24:13Z,2026-04-20T02:24:13Z,90.5147,3,1250,1246,378,2,1,1
+mui/material-ui,48296,[docs-infra] Fix duplicate JSDoc in proptypes generation for merged declarations,MERGED,2026-04-16T05:51:47Z,2026-04-16T10:16:09Z,2026-04-16T10:16:08Z,4.4058,10,243,27,1981,3,1,6
+mui/material-ui,48295,[website] Fix outdated MUI logos,MERGED,2026-04-15T23:47:25Z,2026-04-21T12:09:33Z,2026-04-21T12:09:33Z,132.3689,24,67,63,657,2,1,1
+mui/material-ui,48294,Bump MUI X to 9.0.2,MERGED,2026-04-15T20:04:05Z,2026-04-16T06:01:22Z,2026-04-16T06:01:22Z,9.9547,2,75,75,13672,1,1,1
+mui/material-ui,48290,[inputs] Fix autofocus in SSR environment,MERGED,2026-04-15T09:50:10Z,2026-04-16T17:23:17Z,2026-04-16T17:23:17Z,31.5519,3,190,1,397,2,2,5
+mui/material-ui,48289,[utils] Fix `resolveProps` receiving empty string className,MERGED,2026-04-15T04:33:55Z,2026-04-15T09:31:47Z,2026-04-15T09:31:47Z,4.9644,2,17,1,149,3,3,1
+mui/material-ui,48286,[checkbox] Set `aria-checked=mixed` when indeterminate (@mj12albert),MERGED,2026-04-14T15:29:19Z,2026-04-16T07:05:31Z,2026-04-16T07:05:31Z,39.6033,2,16,0,21,3,1,1
+mui/material-ui,48284,[button] Remove duplicated className entries (@silviuaavram),MERGED,2026-04-14T10:56:49Z,2026-04-14T13:02:54Z,2026-04-14T13:02:54Z,2.1014,8,49,4,21,2,1,1
+mui/material-ui,48283,[input base] Place aria-label on the input element,MERGED,2026-04-14T08:35:34Z,2026-04-14T12:18:33Z,2026-04-14T12:18:33Z,3.7164,3,22,0,459,4,3,3
+mui/material-ui,48281,[input] Prevent `notched` prop leaking into DOM,MERGED,2026-04-14T08:17:42Z,2026-04-15T14:16:38Z,2026-04-15T14:16:38Z,29.9822,6,30,2,220,3,2,1
+mui/material-ui,48280,[dialog][drawer][focus trap] Fix initial focus target,MERGED,2026-04-13T23:48:44Z,2026-04-18T15:35:35Z,2026-04-18T15:35:35Z,111.7808,7,176,12,935,3,6,3
+mui/material-ui,48278,[docs] Cleanup `@mui/base`,MERGED,2026-04-13T19:21:00Z,2026-04-14T18:11:13Z,2026-04-14T18:11:13Z,22.8369,25,166,215,221,4,2,2
+mui/material-ui,48276,Bump MUI X to 9.0.1,MERGED,2026-04-13T19:01:43Z,2026-04-14T06:18:04Z,2026-04-14T06:18:04Z,11.2725,2,42,42,8868,1,0,1
+mui/material-ui,48274,Bump next to v15.5.15 [SECURITY],MERGED,2026-04-13T18:59:11Z,2026-04-14T06:22:13Z,2026-04-14T06:22:12Z,11.3836,3,105,105,2576,1,0,1
+mui/material-ui,48273,[internal] Sync team members from frontend-public endpoint,MERGED,2026-04-13T18:23:16Z,2026-04-15T12:18:43Z,2026-04-15T12:18:43Z,41.9242,2,131,115,264,4,2,1
+mui/material-ui,48271,[accessibility] Improve High Contrast Mode styles for some components,CLOSED,2026-04-13T18:12:25Z,2026-04-17T13:59:44Z,,91.7886,20,207,12,8118,6,5,5
+mui/material-ui,48270,[docs] Fix typos,MERGED,2026-04-13T11:42:32Z,2026-04-13T14:18:40Z,2026-04-13T14:18:40Z,2.6022,1,2,2,572,4,1,1

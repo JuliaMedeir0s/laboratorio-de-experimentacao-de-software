@@ -1,0 +1,32 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+yt-dlp/yt-dlp,16602,[ie/soundcloud] Improve error handling,MERGED,2026-04-30T15:11:16Z,2026-04-30T22:23:21Z,2026-04-30T22:23:21Z,7.2014,1,10,3,1596,2,0,1
+yt-dlp/yt-dlp,16583,Handle abrupt TLS connection close as EOF for live streams (FLV downloads),CLOSED,2026-04-26T22:16:56Z,2026-04-27T17:32:38Z,,19.2617,1,13,0,3358,3,0,2
+yt-dlp/yt-dlp,16470,[ci] Bump pytest to 9.x,MERGED,2026-04-11T05:08:40Z,2026-05-03T20:13:58Z,2026-05-03T20:13:58Z,543.0883,3,19,15,2275,2,0,1
+yt-dlp/yt-dlp,16466,[ie/twitch:clips] Fix extractor,MERGED,2026-04-10T22:06:01Z,2026-04-10T23:20:48Z,2026-04-10T23:20:48Z,1.2464,1,3,3,3410,3,1,2
+yt-dlp/yt-dlp,16454,[devscripts] `update_requirements`: Add reporting functionality,MERGED,2026-04-09T06:53:30Z,2026-04-10T23:48:52Z,2026-04-10T23:48:52Z,40.9228,3,404,47,4256,2,1,4
+yt-dlp/yt-dlp,16453,[ie/youtube] Fix PO token sanitization for Python>=3.14.4,MERGED,2026-04-09T01:31:32Z,2026-04-10T23:31:55Z,2026-04-10T23:31:55Z,46.0064,1,6,1,12036,3,1,4
+yt-dlp/yt-dlp,16447,[ie] `_resolve_nuxt_array`: Handle Pinia `skipHydrate`,MERGED,2026-04-07T05:31:15Z,2026-04-07T15:34:47Z,2026-04-07T15:34:46Z,10.0586,1,1,0,2329,2,0,1
+yt-dlp/yt-dlp,16446,[ci] Update wiki via this repository,MERGED,2026-04-07T01:37:46Z,2026-04-07T10:12:18Z,2026-04-07T10:12:17Z,8.5753,1,32,0,1261,2,0,1
+yt-dlp/yt-dlp,16444,[build] Harden release workflow,MERGED,2026-04-07T00:58:19Z,2026-04-07T23:32:29Z,2026-04-07T23:32:29Z,22.5694,4,28,25,2347,2,0,1
+yt-dlp/yt-dlp,16440,[rh:curl_cffi] Fix supported impersonate targets,MERGED,2026-04-05T21:22:43Z,2026-04-05T23:31:01Z,2026-04-05T23:31:01Z,2.1383,1,13,13,1311,2,0,1
+yt-dlp/yt-dlp,16437,[ie/youtube] Fix outdated quickjs-ng warning,MERGED,2026-04-04T22:43:31Z,2026-04-05T17:03:48Z,2026-04-05T17:03:48Z,18.3381,1,12,4,1413,2,0,2
+yt-dlp/yt-dlp,16436,[ie/soop] Adapt extractors to new domain,MERGED,2026-04-04T17:50:58Z,2026-04-19T21:27:29Z,2026-04-19T21:27:29Z,363.6086,1,78,74,2662,4,6,8
+yt-dlp/yt-dlp,16435,[update] Bump GitHub REST API version to `2026-03-10`,MERGED,2026-04-04T17:25:58Z,2026-04-04T21:34:57Z,2026-04-04T21:34:57Z,4.1497,1,1,1,2092,2,0,1
+yt-dlp/yt-dlp,16429,[rh:curl_cffi] Support `curl_cffi` 0.15.x,MERGED,2026-04-03T23:21:22Z,2026-04-04T02:29:28Z,2026-04-04T02:29:28Z,3.135,15,398,140,1555,2,0,1
+yt-dlp/yt-dlp,16421,Add lockfile and pinned extras,MERGED,2026-04-02T22:41:45Z,2026-04-06T22:58:27Z,2026-04-06T22:58:27Z,96.2783,24,2429,1576,1808,2,0,1
+yt-dlp/yt-dlp,16397,Added 'default' features to hatch-test,MERGED,2026-03-31T10:54:58Z,2026-04-04T21:44:27Z,2026-04-04T21:44:27Z,106.8247,1,4,0,3001,2,0,4
+yt-dlp/yt-dlp,16381,[ie/ard] Support new `ardsounds` domain,MERGED,2026-03-29T14:25:15Z,2026-04-19T21:37:26Z,2026-04-19T21:37:26Z,511.2031,1,5,5,2220,7,5,3
+yt-dlp/yt-dlp,16376,Fix `default` extra for `ios` platforms,MERGED,2026-03-29T01:33:36Z,2026-03-29T16:41:34Z,2026-03-29T16:41:34Z,15.1328,1,2,2,1632,2,0,1
+yt-dlp/yt-dlp,16375,[build] Fix PyPI publishing,MERGED,2026-03-29T01:08:36Z,2026-03-29T16:33:26Z,2026-03-29T16:33:26Z,15.4139,2,4,4,1776,2,0,1
+yt-dlp/yt-dlp,16374,[devscripts] Handle `ejs` updates for requirements files,MERGED,2026-03-29T00:19:30Z,2026-03-29T16:37:15Z,2026-03-29T16:37:15Z,16.2958,2,87,8,1248,2,0,2
+yt-dlp/yt-dlp,16358,[build] Harden build/release workflows,MERGED,2026-03-27T10:28:40Z,2026-03-28T00:10:59Z,2026-03-28T00:10:59Z,13.7053,29,5132,100,1362,2,3,5
+yt-dlp/yt-dlp,16254,[ie/youtube] Fix `--live-from-start` support,MERGED,2026-03-16T23:24:54Z,2026-03-17T22:44:30Z,2026-03-17T22:44:30Z,23.3267,1,14,10,1287,2,0,2
+yt-dlp/yt-dlp,16231,[ie/youtube] Update ejs to 0.7.0,MERGED,2026-03-13T05:24:33Z,2026-03-13T08:29:40Z,2026-03-13T08:29:40Z,3.0853,7,167,720,1302,5,5,3
+yt-dlp/yt-dlp,16198,[ie/youtube] Request `web_safari` & `web_creator` client configs,MERGED,2026-03-11T00:36:23Z,2026-03-11T05:32:30Z,2026-03-11T05:32:30Z,4.9353,3,22,6,1287,2,0,2
+yt-dlp/yt-dlp,16189,[ie/yandexmusic] Force HTTPS for API-provided URLs,CLOSED,2026-03-10T14:17:09Z,2026-03-10T17:45:53Z,,3.4789,1,7,6,716,3,1,1
+yt-dlp/yt-dlp,16177,[ie/youtube] Fix `web_embedded` player client,MERGED,2026-03-09T18:40:24Z,2026-03-10T23:25:14Z,2026-03-10T23:25:14Z,28.7472,2,18,3,3375,3,4,1
+yt-dlp/yt-dlp,16168,[ie/youtube] Fix `android_vr` player client,MERGED,2026-03-08T16:49:38Z,2026-03-10T22:08:13Z,2026-03-10T22:08:13Z,53.3097,1,4,3,2894,3,0,1
+yt-dlp/yt-dlp,16108,[iwara] Update API domain and X-Version hash key after site migration,CLOSED,2026-03-02T16:49:33Z,2026-03-02T23:21:39Z,,6.535,1,8,8,1076,3,1,1
+yt-dlp/yt-dlp,16078,[ie/tldv] Add extractor,CLOSED,2026-02-27T13:36:11Z,2026-02-27T15:17:27Z,,1.6878,2,143,0,2482,4,2,1
+yt-dlp/yt-dlp,16057,[ie/youtube:tab] Improve description extraction,MERGED,2026-02-24T15:23:50Z,2026-03-11T06:19:50Z,2026-03-11T06:19:50Z,350.9333,1,1,1,9209,3,4,2
+yt-dlp/yt-dlp,16041,[ie/youtube:tab] Fix album extraction,MERGED,2026-02-22T22:07:59Z,2026-03-11T05:48:20Z,2026-03-11T05:48:20Z,391.6725,1,1,1,2606,4,1,2

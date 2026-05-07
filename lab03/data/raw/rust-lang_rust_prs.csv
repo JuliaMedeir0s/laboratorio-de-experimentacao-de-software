@@ -1,0 +1,42 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+rust-lang/rust,156197,Replace eager `for_each_relevant_impls` with lazy `relevant_impls_for_ty`,CLOSED,2026-05-05T16:01:17Z,2026-05-05T22:07:02Z,,6.0958,16,205,237,153,4,19,2
+rust-lang/rust,156183,Remove duplicate debug assert,MERGED,2026-05-05T09:41:25Z,2026-05-05T22:56:10Z,2026-05-05T22:56:10Z,13.2458,1,0,1,13,3,2,1
+rust-lang/rust,156172,Implement a new flag `-Zdisable-fast-paths` in trait solving,MERGED,2026-05-05T04:33:36Z,2026-05-05T22:56:11Z,2026-05-05T22:56:10Z,18.3761,11,42,8,202,3,3,2
+rust-lang/rust,156132,More lifting tweaks,MERGED,2026-05-04T05:52:24Z,2026-05-04T12:41:22Z,2026-05-04T12:41:22Z,6.8161,8,32,32,45,3,1,1
+rust-lang/rust,156128,.mailmap: prefer matching just based on commit emails,MERGED,2026-05-04T03:32:39Z,2026-05-05T10:46:37Z,2026-05-05T10:46:37Z,31.2328,1,3,5,545,3,3,1
+rust-lang/rust,156127,Update `askama` version to `0.16.0`,MERGED,2026-05-04T01:47:08Z,2026-05-05T22:56:10Z,2026-05-05T22:56:10Z,45.1506,6,19,14,124,4,7,3
+rust-lang/rust,156125,refactor using ExprParenthesesNeeded where possible,MERGED,2026-05-03T23:38:40Z,2026-05-04T12:41:22Z,2026-05-04T12:41:22Z,13.045,2,4,24,628,3,3,1
+rust-lang/rust,156122,Add a `doc_cfg` regression test to ensure foreign types impls are working as expected,MERGED,2026-05-03T22:07:01Z,2026-05-05T10:46:38Z,2026-05-05T10:46:38Z,36.6603,1,15,0,172,4,4,1
+rust-lang/rust,156120,Regression test for trait-system-refactor#7,MERGED,2026-05-03T21:11:40Z,2026-05-04T12:41:22Z,2026-05-04T12:41:21Z,15.4947,1,42,0,713,3,7,1
+rust-lang/rust,156104,Relax `T: Sized` bound on `try_as_dyn` / `try_as_dyn_mut`,MERGED,2026-05-03T11:42:13Z,2026-05-05T10:46:38Z,2026-05-05T10:46:38Z,47.0736,2,48,4,1336,5,4,1
+rust-lang/rust,156103,Fix E0040 suggestion for explicit `Drop::drop` UFCS calls,MERGED,2026-05-03T09:24:49Z,2026-05-05T10:46:38Z,2026-05-05T10:46:37Z,49.3633,7,73,7,595,4,5,6
+rust-lang/rust,156098,Hand-implement `impl Debug for NumBuffer` to avoid constraining `T` or printing MaybeUninit,MERGED,2026-05-03T05:48:14Z,2026-05-03T17:53:41Z,2026-05-03T17:53:41Z,12.0908,1,7,1,69,4,3,1
+rust-lang/rust,156091,change field `tools` on `AttributeParser` to hold `&'tcx RegisteredTools`,MERGED,2026-05-02T14:51:31Z,2026-05-03T09:52:27Z,2026-05-03T09:52:27Z,19.0156,7,29,11,191,5,2,5
+rust-lang/rust,156087,Improve `&pin` reference-pattern suggestions,MERGED,2026-05-02T12:46:20Z,2026-05-05T10:46:37Z,2026-05-05T10:46:37Z,70.0047,4,73,2,648,7,15,5
+rust-lang/rust,156083,Move tests attributes,MERGED,2026-05-02T11:04:57Z,2026-05-02T17:42:06Z,2026-05-02T17:42:06Z,6.6192,7,20,10,107,5,3,1
+rust-lang/rust,156079,Move and rename the `clone-never.rs` test,MERGED,2026-05-02T08:42:25Z,2026-05-03T09:52:26Z,2026-05-03T09:52:26Z,25.1669,2,1,1,0,5,4,4
+rust-lang/rust,156074,Add extra symbol check for `.to_owned()`,MERGED,2026-05-02T03:37:17Z,2026-05-02T17:42:06Z,2026-05-02T17:42:06Z,14.0803,3,13,12,401,6,4,4
+rust-lang/rust,156073,[rustdoc] Fix `doc_cfg` feature on reexports,MERGED,2026-05-02T02:22:39Z,2026-05-03T17:53:41Z,2026-05-03T17:53:41Z,39.5172,3,55,13,265,4,6,3
+rust-lang/rust,156065,Remove unused spans from AttributeKind,MERGED,2026-05-01T21:10:35Z,2026-05-03T09:52:27Z,2026-05-03T09:52:27Z,36.6978,49,191,248,122,5,13,1
+rust-lang/rust,156063,Map `WSAESHUTDOWN` to `io::ErrorKind::BrokenPipe`,MERGED,2026-05-01T20:34:16Z,2026-05-02T07:58:29Z,2026-05-02T07:58:29Z,11.4036,1,4,0,744,5,9,2
+rust-lang/rust,156059,compiler: Print valid `-Zmir-enable-passes` names if invalid name is used,MERGED,2026-05-01T18:36:06Z,2026-05-02T14:30:26Z,2026-05-02T14:30:26Z,19.9056,6,35,1,2429,3,3,6
+rust-lang/rust,156058,Print HRTB binders before fn qualifiers,MERGED,2026-05-01T18:13:50Z,2026-05-05T22:56:10Z,2026-05-05T22:56:10Z,100.7056,3,90,28,331,3,3,1
+rust-lang/rust,156053,Reuse CTFE MIR for constructors.,MERGED,2026-05-01T15:43:12Z,2026-05-02T14:30:26Z,2026-05-02T14:30:26Z,22.7872,1,6,6,611,5,9,1
+rust-lang/rust,156048,Make `diverging_type_vars` a vec of `TyVid`,MERGED,2026-05-01T14:39:39Z,2026-05-02T14:30:27Z,2026-05-02T14:30:26Z,23.8464,3,6,7,340,5,8,1
+rust-lang/rust,156045,Move tests associated consts,MERGED,2026-05-01T13:34:35Z,2026-05-02T17:42:06Z,2026-05-02T17:42:06Z,28.1253,8,14,4,46,3,2,1
+rust-lang/rust,156044,Move tests array slice vec,MERGED,2026-05-01T12:54:45Z,2026-05-04T06:15:37Z,2026-05-04T06:15:37Z,65.3478,3,6,0,71,6,6,1
+rust-lang/rust,156037,Add AcceptContext::expect_no_args,MERGED,2026-05-01T08:11:41Z,2026-05-02T14:30:27Z,2026-05-02T14:30:26Z,30.3125,13,36,56,1649,3,4,1
+rust-lang/rust,156030,Make stable hashing names consistent (part 1),MERGED,2026-05-01T04:36:00Z,2026-05-02T14:30:26Z,2026-05-02T14:30:26Z,33.9072,161,1402,1415,533,4,9,1
+rust-lang/rust,156028,Add a `Local::arg(i)` helper constructor,MERGED,2026-05-01T03:54:29Z,2026-05-02T14:30:27Z,2026-05-02T14:30:26Z,34.5992,10,31,21,244,4,3,1
+rust-lang/rust,156020,Improve source code for `librustdoc/visit_ast.rs`,MERGED,2026-04-30T23:25:07Z,2026-05-02T14:30:27Z,2026-05-02T14:30:26Z,39.0886,2,73,54,158,3,4,1
+rust-lang/rust,156019,Feed cleanups,MERGED,2026-04-30T22:46:43Z,2026-05-01T17:14:16Z,2026-05-01T17:14:16Z,18.4592,2,8,47,73,3,1,1
+rust-lang/rust,156014,"resolve: Catch ""cannot reexport"" errors from macros 2.0 better",MERGED,2026-04-30T19:46:13Z,2026-05-05T22:56:10Z,2026-05-05T22:56:10Z,123.1658,7,155,70,499,4,12,5
+rust-lang/rust,156003,Pass Session to optimize_and_codegen_fat_lto,MERGED,2026-04-30T14:18:53Z,2026-05-01T07:42:24Z,2026-05-01T07:42:24Z,17.3919,4,11,11,179,4,4,1
+rust-lang/rust,156002,Allow to use `Diagnostic` directly in `SharedContext::emit_lint`,MERGED,2026-04-30T14:13:56Z,2026-05-01T07:42:24Z,2026-05-01T07:42:24Z,17.4744,16,95,191,80,4,9,3
+rust-lang/rust,156001,ssa-range-prop: fix ICE when encountering self-domiating bb,MERGED,2026-04-30T13:51:39Z,2026-05-01T17:14:16Z,2026-05-01T17:14:16Z,27.3769,4,46,2,116,4,6,4
+rust-lang/rust,156000,Fix ICE when using -Zinstrument-mcount and -Clinker-flavor=lld,MERGED,2026-04-30T13:30:37Z,2026-05-01T07:42:24Z,2026-05-01T07:42:24Z,18.1964,1,9,7,171,5,3,2
+rust-lang/rust,155995,-Zembed-source: also embed external source,MERGED,2026-04-30T10:39:29Z,2026-05-01T17:14:16Z,2026-05-01T17:14:16Z,30.5797,2,21,8,1881,3,3,1
+rust-lang/rust,155991,Catch unwinds from the global ctxt callback to complete queries profiling data in more cases,MERGED,2026-04-30T08:24:54Z,2026-05-01T07:42:24Z,2026-05-01T07:42:24Z,23.2917,1,18,3,3233,3,2,6
+rust-lang/rust,155987,Make lifting infallible,MERGED,2026-04-30T05:23:23Z,2026-05-01T07:42:24Z,2026-05-01T07:42:24Z,26.3169,25,97,121,45,4,4,1
+rust-lang/rust,155980,Move `feature*` methods from `parse` mod to `errors` mod.,MERGED,2026-04-30T02:13:09Z,2026-05-01T07:42:24Z,2026-05-01T07:42:24Z,29.4875,43,216,220,162,3,4,1
+rust-lang/rust,155978,GCC backend subtree sync,MERGED,2026-04-29T21:26:38Z,2026-04-30T07:29:50Z,2026-04-30T07:29:50Z,10.0533,35,727,207,8,25,10,1

@@ -1,0 +1,21 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+florinpop17/app-ideas,1115,Add Tier-2 Post Feed App idea,CLOSED,2026-04-10T14:32:00Z,2026-04-14T07:33:24Z,,89.0233,2,44,0,1806,2,1,8
+florinpop17/app-ideas,1087,Add Movie Card component design specification,CLOSED,2025-11-24T18:06:31Z,2026-03-05T09:21:58Z,,2415.2575,1,220,0,1714,1,1,1
+florinpop17/app-ideas,1054,mental health journal and AI chatbot,CLOSED,2025-10-25T07:29:25Z,2025-11-20T18:02:13Z,,634.5467,1,82,0,719,1,1,1
+florinpop17/app-ideas,1042,added currency convertor(#984),CLOSED,2025-10-22T19:58:23Z,2025-11-14T10:03:33Z,,542.0861,7,368,0,250,1,1,1
+florinpop17/app-ideas,1032,feat: Add 'Markdown Blog Generator' project idea,CLOSED,2025-10-21T07:39:57Z,2025-12-18T18:43:24Z,,1403.0575,1,34,0,1172,1,1,1
+florinpop17/app-ideas,1018,my idea is added,CLOSED,2025-10-18T18:09:46Z,2025-10-19T03:57:18Z,,9.7922,1,30,0,601,1,1,1
+florinpop17/app-ideas,1017,Added Password Checker idea (PasCheck) under Tier 2,CLOSED,2025-10-18T17:31:40Z,2025-12-08T13:08:26Z,,1219.6128,2,38,0,949,1,1,3
+florinpop17/app-ideas,1001,Add Scientific Calculator project idea,CLOSED,2025-10-15T02:23:56Z,2025-10-19T04:37:38Z,,98.2283,2,65,0,1042,1,2,1
+florinpop17/app-ideas,995,Added detailed contribution steps to CONTRIBUTING.md,CLOSED,2025-10-13T13:33:11Z,2025-11-01T12:05:12Z,,454.5336,1,32,0,1000,1,2,1
+florinpop17/app-ideas,989,Added Enhanced Password Generator example project,MERGED,2025-10-11T13:35:54Z,2025-10-11T14:50:21Z,2025-10-11T14:50:21Z,1.2408,1,1,0,878,2,1,1
+florinpop17/app-ideas,983,add Rhythm Machine project documentation,CLOSED,2025-10-10T12:20:59Z,2026-02-04T12:48:47Z,,2808.4633,1,47,0,1287,1,1,2
+florinpop17/app-ideas,982,Add detailed documentation for Portfolio App project,CLOSED,2025-10-10T11:23:43Z,2025-10-10T13:47:46Z,,2.4008,2,58,0,934,1,1,1
+florinpop17/app-ideas,978,Mcp server application idea,CLOSED,2025-10-09T19:19:21Z,2025-11-06T17:25:10Z,,670.0969,1,63,0,859,1,1,1
+florinpop17/app-ideas,971,added typing-speed-test-app in beginner projects,MERGED,2025-10-08T02:28:35Z,2025-10-09T08:02:14Z,2025-10-09T08:02:14Z,29.5608,1,76,0,767,2,1,1
+florinpop17/app-ideas,969,fix: #961 update the readme.md file,CLOSED,2025-10-06T18:50:05Z,2025-10-07T18:06:56Z,,23.2808,1,30,0,765,1,1,1
+florinpop17/app-ideas,947,Add AI-Powered Code Review Bot (Tier 3 — Advanced),CLOSED,2025-10-03T12:56:22Z,2025-10-07T16:27:03Z,,99.5114,1,54,0,962,1,1,1
+florinpop17/app-ideas,943,"🚀 Fix spelling errors, tier inconsistencies, and standardize markdown formatting",CLOSED,2025-10-03T02:23:12Z,2025-10-18T09:09:00Z,,366.7633,11,266,89,2918,1,1,1
+florinpop17/app-ideas,942,"🚀 Fix spelling errors, tier inconsistencies, and standardize markdown formatting",CLOSED,2025-10-03T02:21:16Z,2025-10-18T09:08:59Z,,366.7953,11,266,89,4374,1,1,1
+florinpop17/app-ideas,933,Add Calculator idea (Intermediate) #931,CLOSED,2025-10-01T04:40:24Z,2025-10-10T13:03:35Z,,224.3864,1,19,20,787,1,1,1
+florinpop17/app-ideas,921,To-Do-List: Added suggestions for local storage and examples/useful c…,CLOSED,2025-05-27T02:23:52Z,2025-09-07T23:34:53Z,,2493.1836,1,27,0,495,1,1,1

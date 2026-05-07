@@ -1,0 +1,69 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+oven-sh/bun,30224,restructure src/ into subject-area directories,MERGED,2026-05-04T03:54:33Z,2026-05-04T10:20:17Z,2026-05-04T10:20:17Z,6.4289,2367,14305,13135,2582,2,2,13
+oven-sh/bun,30223,Fix use-after-free resolving external URL specifiers with non-ASCII characters,MERGED,2026-05-04T03:54:28Z,2026-05-04T05:57:09Z,2026-05-04T05:57:08Z,2.0444,5,52,6,1718,2,3,6
+oven-sh/bun,30219,Shrink Windows binary: lazy-heap threadlocal PathBuffers + /OPT:SAFEICF,MERGED,2026-05-04T02:43:31Z,2026-05-04T05:45:25Z,2026-05-04T05:45:25Z,3.0317,21,481,121,4368,2,3,19
+oven-sh/bun,30217,test: fix test-http-should-emit-close-when-connection-is-aborted timeout on Windows,CLOSED,2026-05-04T02:26:13Z,2026-05-04T07:02:37Z,,4.6067,1,14,6,2105,1,5,2
+oven-sh/bun,30216,"test --isolate: retarget NapiEnv at new global; --parallel: abort on worker panic, never retry",MERGED,2026-05-04T01:19:10Z,2026-05-04T08:02:53Z,2026-05-04T08:02:53Z,6.7286,11,428,52,4493,2,2,19
+oven-sh/bun,30214,fix(test --isolate): repoint NapiEnv at new global during swap,CLOSED,2026-05-04T01:00:53Z,2026-05-04T08:03:46Z,,7.0481,4,148,0,3070,2,3,10
+oven-sh/bun,30211,image: preserve ICC profile through WebP decode/encode,MERGED,2026-05-04T00:50:13Z,2026-05-04T05:58:12Z,2026-05-04T05:58:11Z,5.1328,6,256,24,2584,2,3,4
+oven-sh/bun,30208,"bun -p: return module completion value, not first yielded await",MERGED,2026-05-03T23:29:30Z,2026-05-04T01:36:12Z,2026-05-04T01:36:12Z,2.1117,2,40,1,1676,2,4,4
+oven-sh/bun,30201,Preserve ICC colour profile through Bun.Image JPEG/PNG encode,MERGED,2026-05-03T21:34:30Z,2026-05-03T23:40:02Z,2026-05-03T23:40:02Z,2.0922,6,411,36,2759,2,2,19
+oven-sh/bun,30196,Fix HTMLRewriter use-after-free when handler rejects during end(),MERGED,2026-05-03T19:22:57Z,2026-05-03T23:41:35Z,2026-05-03T23:41:35Z,4.3106,2,39,3,2112,2,5,4
+oven-sh/bun,30188,resolver: allow `@`-prefixed subpaths under wildcard `exports`,MERGED,2026-05-03T13:18:41Z,2026-05-04T08:17:01Z,2026-05-04T08:17:01Z,18.9722,2,121,11,2711,2,3,5
+oven-sh/bun,30185,worker: fix cross-thread HandleSet race in getHeapSnapshot,MERGED,2026-05-03T12:13:50Z,2026-05-03T23:43:08Z,2026-05-03T23:43:08Z,11.4883,6,150,15,4101,2,3,15
+oven-sh/bun,30181,bake: fix entry_points UAF + inotify merged names; deflake test harness,MERGED,2026-05-03T07:08:42Z,2026-05-03T23:26:42Z,2026-05-03T23:26:42Z,16.3,5,322,128,3987,2,6,17
+oven-sh/bun,30179,Fix crash in process.setgroups/hrtime with accessor-indexed arrays,MERGED,2026-05-03T04:06:08Z,2026-05-04T08:18:05Z,2026-05-04T08:18:05Z,28.1992,2,60,3,1437,2,3,6
+oven-sh/bun,30177,fix(ipc): run SendQueue.deinit() from IPCInstance.deinit on getIPCInstance failure,MERGED,2026-05-03T01:11:44Z,2026-05-03T23:47:03Z,2026-05-03T23:47:03Z,22.5886,2,43,1,1368,2,4,2
+oven-sh/bun,30176,socket: null `handlers` pointer after client-mode Handlers are freed,MERGED,2026-05-03T01:10:45Z,2026-05-04T01:15:27Z,2026-05-04T01:15:27Z,24.0783,3,185,23,2364,2,5,4
+oven-sh/bun,30175,crypto: release callback Strong and ctx on CryptoJob.init failure,MERGED,2026-05-03T01:02:02Z,2026-05-03T04:39:36Z,2026-05-03T04:39:36Z,3.6261,2,85,1,2244,2,2,4
+oven-sh/bun,30174,server: hold Response via WeakPtr instead of a raw pointer,MERGED,2026-05-03T00:59:00Z,2026-05-03T23:46:36Z,2026-05-03T23:46:36Z,22.7933,6,274,14,2602,2,6,16
+oven-sh/bun,30171,Fix uninitialized loader/define slots when JSPropertyIterator skips empty keys,MERGED,2026-05-03T00:48:27Z,2026-05-03T04:40:08Z,2026-05-03T04:40:08Z,3.8614,4,90,18,1940,3,2,10
+oven-sh/bun,30170,resolver: check union tag before reading cached .entries in dirInfoCachedMaybeLog,MERGED,2026-05-03T00:44:59Z,2026-05-03T04:40:47Z,2026-05-03T04:40:47Z,3.93,2,104,7,2106,2,4,6
+oven-sh/bun,30169,fs: free PathLike on error in Symlink/Link/Rename.fromJS,MERGED,2026-05-03T00:44:34Z,2026-05-03T02:49:42Z,2026-05-03T02:49:42Z,2.0856,1,6,0,2216,2,2,3
+oven-sh/bun,30168,socket: balance ref on synchronous doConnect failure for reused sockets,MERGED,2026-05-03T00:43:00Z,2026-05-04T01:17:33Z,2026-05-04T01:17:33Z,24.5758,2,78,1,1773,2,3,3
+oven-sh/bun,30167,fs: deref Dirent.path in readdirSync recursive error cleanup,MERGED,2026-05-03T00:42:42Z,2026-05-03T23:51:15Z,2026-05-03T23:51:15Z,23.1425,3,104,1,1358,2,2,1
+oven-sh/bun,30166,MarkedArrayBuffer.destroy: don't free the struct itself,MERGED,2026-05-03T00:42:14Z,2026-05-03T03:15:41Z,2026-05-03T03:15:41Z,2.5575,3,56,9,2762,2,3,8
+oven-sh/bun,30164,sql(postgres): validate server-provided len in binary int4[]/float4[] parsing,MERGED,2026-05-03T00:31:46Z,2026-05-03T04:43:00Z,2026-05-03T04:43:00Z,4.1872,3,210,1,1673,2,2,3
+oven-sh/bun,30162,fs.promises.cp: defer AsyncCpTask destruction until all subtasks finish,MERGED,2026-05-03T00:25:00Z,2026-05-03T03:02:34Z,2026-05-03T03:02:34Z,2.6261,2,105,21,2475,2,3,2
+oven-sh/bun,30160,sys: bound readlink/readlinkat NUL write to buffer length,MERGED,2026-05-03T00:24:23Z,2026-05-03T04:41:30Z,2026-05-03T04:41:30Z,4.2853,3,62,6,1568,3,2,9
+oven-sh/bun,30159,sql(mysql): pin ArrayBuffer backing store while binding BLOB parameters,MERGED,2026-05-03T00:24:11Z,2026-05-03T23:48:40Z,2026-05-03T23:48:40Z,23.4081,4,308,9,3788,2,8,9
+oven-sh/bun,30157,ipc(advanced): avoid u32 overflow in header_length + message_len bounds check,MERGED,2026-05-03T00:20:56Z,2026-05-03T01:54:32Z,2026-05-03T01:54:32Z,1.56,2,48,2,1696,2,3,4
+oven-sh/bun,30156,Buffer.from(hex/base64): free staging allocation when decoded length is 0,MERGED,2026-05-03T00:20:51Z,2026-05-03T01:55:42Z,2026-05-03T01:55:41Z,1.5806,4,72,3,2530,2,3,3
+oven-sh/bun,30155,fix(Bun.serve): HEAD response Transfer-Encoding/Content-Length freed before write,MERGED,2026-05-03T00:18:59Z,2026-05-03T23:49:53Z,2026-05-03T23:49:53Z,23.515,2,99,5,2729,2,3,1
+oven-sh/bun,30153,Fix type confusion in JSBundlerPlugin sync-exception fallback,MERGED,2026-05-03T00:16:35Z,2026-05-03T04:45:35Z,2026-05-03T04:45:35Z,4.4833,2,99,4,2680,2,4,12
+oven-sh/bun,30152,webcore/Blob: free allocations on truncated structured-clone deserialize,MERGED,2026-05-03T00:15:08Z,2026-05-03T23:50:48Z,2026-05-03T23:50:48Z,23.5944,2,132,6,2861,2,2,5
+oven-sh/bun,30151,Fix use-after-free in module resolve query string with non-ASCII specifiers,MERGED,2026-05-03T00:12:27Z,2026-05-03T02:16:52Z,2026-05-03T02:16:52Z,2.0736,6,85,13,1883,2,2,3
+oven-sh/bun,30150,socket: set Handlers.mode=.client for Windows named-pipe Bun.connect,MERGED,2026-05-03T00:12:16Z,2026-05-04T01:38:27Z,2026-05-04T01:38:27Z,25.4364,2,129,3,2363,2,4,4
+oven-sh/bun,30149,sql(mysql): reject short auth nonce instead of OOB-reading it,MERGED,2026-05-03T00:11:47Z,2026-05-03T01:58:24Z,2026-05-03T01:58:24Z,1.7769,2,142,0,2291,2,2,4
+oven-sh/bun,30148,socket: null handlers after client markInactive frees them,MERGED,2026-05-03T00:10:04Z,2026-05-03T01:57:23Z,2026-05-03T01:57:23Z,1.7886,2,63,1,2302,2,4,1
+oven-sh/bun,30145,Fix null SSL* dereference in TLSSocket.getServername after close,MERGED,2026-05-03T00:01:04Z,2026-05-03T08:04:31Z,2026-05-03T08:04:31Z,8.0575,2,42,1,1066,2,3,7
+oven-sh/bun,30144,dns: reject oversized hostnames before copying to stack buffer,MERGED,2026-05-03T00:00:57Z,2026-05-03T03:37:47Z,2026-05-03T03:37:47Z,3.6139,2,92,10,3347,2,3,3
+oven-sh/bun,30137,sql(mysql): don't double-ref query string in MySQLQuery.init,MERGED,2026-05-02T23:37:10Z,2026-05-04T08:41:55Z,2026-05-04T08:41:54Z,33.0789,2,127,1,1512,2,3,6
+oven-sh/bun,30135,Fix heap overflows in normalizePathWindows,MERGED,2026-05-02T23:12:05Z,2026-05-04T08:45:23Z,2026-05-04T08:45:23Z,33.555,2,96,11,2545,2,4,17
+oven-sh/bun,30134,crypto: fix f32 precision loss and unit mismatch in randomFill bounds checks,MERGED,2026-05-02T22:57:26Z,2026-05-03T23:52:11Z,2026-05-03T23:52:11Z,24.9125,2,141,7,2402,2,2,13
+oven-sh/bun,30132,Fix Buffer.copyBytesFrom double-applying byteOffset on TypedArray views,MERGED,2026-05-02T22:39:14Z,2026-05-03T00:08:10Z,2026-05-03T00:08:10Z,1.4822,2,39,3,1590,2,2,1
+oven-sh/bun,30123,FileSink: release keep-alive ref when a pending write errors or closes,MERGED,2026-05-02T17:28:28Z,2026-05-03T00:19:25Z,2026-05-03T00:19:25Z,6.8492,5,127,21,3393,2,4,9
+oven-sh/bun,30119,Fix WebSocket client leak on wss:// through HTTP proxy,MERGED,2026-05-02T16:04:13Z,2026-05-03T00:22:15Z,2026-05-03T00:22:14Z,8.3003,3,286,0,1887,2,4,9
+oven-sh/bun,30114,Archive.files(): free collected entries when readData fails mid-stream,MERGED,2026-05-02T15:50:40Z,2026-05-03T00:28:50Z,2026-05-03T00:28:50Z,8.6361,2,84,16,1929,2,2,6
+oven-sh/bun,30110,HTMLRewriter: detach attribute iterators when element handler returns,MERGED,2026-05-02T15:41:12Z,2026-05-03T02:00:14Z,2026-05-03T02:00:14Z,10.3172,2,118,2,1828,2,3,2
+oven-sh/bun,30104,net(BlockList): fix UAF/SIGFPE when structured-clone is deserialized more than once,MERGED,2026-05-02T12:54:51Z,2026-05-03T00:23:15Z,2026-05-03T00:23:15Z,11.4733,2,76,1,1830,2,4,11
+oven-sh/bun,30101,"Bump WebKit (ICU data filter −7.46 MB, CRASH_WITH_INFO strings −550 KB)",CLOSED,2026-05-02T08:14:30Z,2026-05-02T20:14:42Z,,12.0033,1,1,1,805,2,2,2
+oven-sh/bun,30100,no-orphans(macOS): replace ENOTSUP'd NOTE_TRACK with NOTE_FORK + p_puniqueid scan,MERGED,2026-05-02T08:08:29Z,2026-05-02T11:37:13Z,2026-05-02T11:37:13Z,3.4789,2,212,216,1943,2,2,6
+oven-sh/bun,30098,"Shrink binary by ~2 MB (output.zig, logger.zig, lshpack, lsquic, lol-html, zstd)",MERGED,2026-05-02T06:49:52Z,2026-05-02T08:40:59Z,2026-05-02T08:40:59Z,1.8519,10,536,155,2147,2,2,17
+oven-sh/bun,30096,Upgrade WebKit to 39862040be27,MERGED,2026-05-02T05:38:27Z,2026-05-02T11:32:33Z,2026-05-02T11:32:32Z,5.9014,1,1,1,1110,2,6,3
+oven-sh/bun,30094,fix: formatting in transpiler documentation,MERGED,2026-05-02T04:49:25Z,2026-05-02T06:41:38Z,2026-05-02T06:41:38Z,1.8703,1,1,1,162,2,2,1
+oven-sh/bun,30089,shell(cd): handle remaining errno cases in handleChangeCwdErr instead of hanging,MERGED,2026-05-01T23:15:15Z,2026-05-02T04:01:32Z,2026-05-02T04:01:32Z,4.7714,2,29,1,603,3,3,1
+oven-sh/bun,30088,run: keep pre*/post* completions when no sibling script exists,MERGED,2026-05-01T22:57:28Z,2026-05-02T08:19:09Z,2026-05-02T08:19:09Z,9.3614,2,66,3,2017,2,2,15
+oven-sh/bun,30087,shell(braces): fix expansion count for sibling nested braces,MERGED,2026-05-01T22:49:14Z,2026-05-02T04:01:12Z,2026-05-02T04:01:12Z,5.1994,2,31,15,1309,2,2,1
+oven-sh/bun,30082,s3(list): size encode buffer to input*3 instead of panicking on overflow,MERGED,2026-05-01T20:25:22Z,2026-05-03T02:04:13Z,2026-05-03T02:04:13Z,29.6475,2,26,12,971,2,2,1
+oven-sh/bun,30078,server.upgrade: clone Sec-WebSocket-* from request.headers before option getters,MERGED,2026-05-01T19:29:31Z,2026-05-02T04:02:43Z,2026-05-02T04:02:43Z,8.5533,2,127,13,2554,2,3,9
+oven-sh/bun,30077,server: route streaming 413 through endWithoutBody so ctx.resp detaches,MERGED,2026-05-01T19:28:58Z,2026-05-02T04:10:34Z,2026-05-02T04:10:34Z,8.6933,3,184,8,2748,2,4,2
+oven-sh/bun,30074,dns(macOS): re-register libinfo poll on new mach port in ADDRCONFIG retry,MERGED,2026-05-01T19:17:50Z,2026-05-02T07:54:07Z,2026-05-02T07:54:07Z,12.6047,1,30,7,1774,3,5,6
+oven-sh/bun,30073,fs.cp: preserve symlink target instead of linking back to source path,MERGED,2026-05-01T19:15:29Z,2026-05-03T00:24:15Z,2026-05-03T00:24:15Z,29.1461,3,199,4,2451,2,2,20
+oven-sh/bun,30072,webcore/Blob: clamp untrusted offset in structured-clone deserialize,MERGED,2026-05-01T19:08:57Z,2026-05-02T08:21:12Z,2026-05-02T08:21:12Z,13.2042,2,134,2,2244,2,2,7
+oven-sh/bun,30071,fs: close Windows handle in cp reparse-point branch,MERGED,2026-05-01T19:05:29Z,2026-05-02T04:50:20Z,2026-05-02T04:50:20Z,9.7475,2,43,1,1761,2,3,5
+oven-sh/bun,30069,timers: don't keep event loop alive when .ref() is called on a fired timer,MERGED,2026-05-01T19:01:39Z,2026-05-01T20:25:53Z,2026-05-01T20:25:53Z,1.4039,2,53,1,1673,2,2,2
+oven-sh/bun,30068,Worker: honor array-form transfer list in self.postMessage,MERGED,2026-05-01T19:01:29Z,2026-05-03T00:27:48Z,2026-05-03T00:27:48Z,29.4386,2,117,12,2134,2,3,9
+oven-sh/bun,30066,"shell: `[[ -f path ]]` now checks S.ISREG, not just stat() success",MERGED,2026-05-01T18:54:24Z,2026-05-01T20:33:03Z,2026-05-01T20:33:03Z,1.6442,2,14,1,1221,2,2,1
+oven-sh/bun,30064,install(UpdateRequest): heap-allocate spec normalizer temp buffer,MERGED,2026-05-01T18:53:26Z,2026-05-02T04:03:37Z,2026-05-02T04:03:37Z,9.1697,2,41,3,1994,2,3,2
+oven-sh/bun,30063,shell: reject oversized cd/.cwd() paths with ENAMETOOLONG,MERGED,2026-05-01T18:51:35Z,2026-05-01T20:54:29Z,2026-05-01T20:54:29Z,2.0483,3,93,1,1987,2,4,3

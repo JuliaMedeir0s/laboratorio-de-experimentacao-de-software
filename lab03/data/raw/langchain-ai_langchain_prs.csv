@@ -1,0 +1,18 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+langchain-ai/langchain,37201,"fix(core, langchain): harden `load()` against untrusted manifests",MERGED,2026-05-05T19:02:58Z,2026-05-05T20:12:04Z,2026-05-05T20:12:04Z,1.1517,8,458,39,0,2,1,2
+langchain-ai/langchain,37182,chore(model-profiles): refresh model profile data,MERGED,2026-05-05T08:45:49Z,2026-05-05T14:32:52Z,2026-05-05T14:32:52Z,5.7842,1,21,0,169,1,0,1
+langchain-ai/langchain,37181,docs(core): update retired claude-2 model in `RunnableWithMessageHistory`,CLOSED,2026-05-05T03:52:33Z,2026-05-05T20:29:30Z,,16.6158,1,2,2,403,3,3,1
+langchain-ai/langchain,37162,chore(model-profiles): refresh model profile data,MERGED,2026-05-03T08:35:26Z,2026-05-03T12:07:38Z,2026-05-03T12:07:37Z,3.5364,1,40,0,169,1,0,1
+langchain-ai/langchain,37131,chore: bump types-pytz from 2026.1.1.20260304 to 2026.1.1.20260408 in /libs/langchain,MERGED,2026-05-01T09:28:32Z,2026-05-01T14:12:08Z,2026-05-01T14:12:08Z,4.7267,1,3,3,1779,1,0,1
+langchain-ai/langchain,37130,chore: bump types-pyyaml from 6.0.12.20250915 to 6.0.12.20260408 in /libs/langchain,MERGED,2026-05-01T09:28:17Z,2026-05-01T14:12:20Z,2026-05-01T14:12:20Z,4.7342,1,3,3,2052,1,0,1
+langchain-ai/langchain,37129,chore: bump types-pyyaml from 6.0.12.20250915 to 6.0.12.20260408 in /libs/core,MERGED,2026-05-01T09:28:00Z,2026-05-01T14:12:28Z,2026-05-01T14:12:28Z,4.7411,1,3,3,2052,1,1,1
+langchain-ai/langchain,37126,"chore: update lxml requirement from <7.0,>=4.9.3 to >=6.1.0,<7.0 in /libs/text-splitters",MERGED,2026-05-01T08:50:24Z,2026-05-01T14:12:49Z,2026-05-01T14:12:49Z,5.3736,1,1,1,5044,1,0,1
+langchain-ai/langchain,37125,chore: bump types-pyyaml from 6.0.12.20250915 to 6.0.12.20260408 in /libs/standard-tests,MERGED,2026-05-01T08:50:10Z,2026-05-01T14:18:25Z,2026-05-01T14:18:25Z,5.4708,1,4,4,1775,1,0,1
+langchain-ai/langchain,37124,chore: bump types-toml from 0.10.8.20240310 to 0.10.8.20260408 in /libs/model-profiles,MERGED,2026-05-01T08:50:03Z,2026-05-01T14:13:03Z,2026-05-01T14:13:03Z,5.3833,1,3,3,1771,1,0,1
+langchain-ai/langchain,37122,chore(model-profiles): refresh model profile data,MERGED,2026-05-01T08:40:47Z,2026-05-01T14:08:18Z,2026-05-01T14:08:18Z,5.4586,3,49,7,169,1,0,1
+langchain-ai/langchain,37121,chore: bump actions/github-script from 8.0.0 to 9.0.0,MERGED,2026-05-01T08:35:48Z,2026-05-01T14:11:35Z,2026-05-01T14:11:35Z,5.5964,7,16,16,7423,1,0,1
+langchain-ai/langchain,37120,chore: bump mikefarah/yq from 17f66dc6c6a177fafd8b71a6abea6d6340aa1e16 to cb9793555487aafb501e1a9d85c28b812aeadfab,MERGED,2026-05-01T08:35:40Z,2026-05-01T14:09:01Z,2026-05-01T14:09:01Z,5.5558,1,1,1,9208,1,0,1
+langchain-ai/langchain,37119,chore: bump the minor-and-patch group with 5 updates,MERGED,2026-05-01T08:35:26Z,2026-05-01T14:09:35Z,2026-05-01T14:09:35Z,5.5692,7,11,11,29875,1,0,1
+langchain-ai/langchain,37109,chore: bump notebook from 7.5.0 to 7.5.6 in /libs/core,MERGED,2026-04-30T18:54:40Z,2026-05-01T14:13:26Z,2026-05-01T14:13:26Z,19.3128,1,6,6,11757,1,1,1
+langchain-ai/langchain,37103,feat(core): introduce `ToolSchema` as root schema cache; replace TypedDict conversion with `TypeAdapter`,MERGED,2026-04-30T15:39:26Z,2026-05-01T13:25:22Z,2026-05-01T13:25:22Z,21.7656,6,308,363,2960,2,1,3
+langchain-ai/langchain,37095,feat(langchain): add `respond` decision to HITL middleware,MERGED,2026-04-30T01:47:09Z,2026-04-30T18:55:04Z,2026-04-30T18:55:04Z,17.1319,2,159,4,1689,3,1,2

@@ -1,0 +1,7 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+anomalyco/opencode,25797,Fix workspace warp SDK null id,CLOSED,2026-05-05T01:52:44Z,2026-05-05T03:07:45Z,,1.2503,3,6,2,315,2,0,1
+anomalyco/opencode,25773,fix(desktop): preserve shell PATH for sidecar,CLOSED,2026-05-04T22:53:14Z,2026-05-05T00:35:51Z,,1.7103,1,10,7,257,2,0,1
+anomalyco/opencode,25698,fix(opencode): strip transfer-encoding in UI proxy and allow public manifest assets,MERGED,2026-05-04T10:23:11Z,2026-05-04T13:43:04Z,2026-05-04T13:43:04Z,3.3314,5,18,1,1354,2,2,1
+anomalyco/opencode,25634,Improve v2 session message rendering,MERGED,2026-05-03T20:12:04Z,2026-05-05T02:35:21Z,2026-05-05T02:35:21Z,30.3881,17,677,275,346,1,0,1
+anomalyco/opencode,25615,feat: add /btw side question command,CLOSED,2026-05-03T15:44:27Z,2026-05-03T17:46:19Z,,2.0311,8,233,0,1276,2,2,1
+anomalyco/opencode,25573,fix(cf-ai-gateway): route provider options through openaiCompatible key (#24432),MERGED,2026-05-03T09:03:21Z,2026-05-05T21:55:08Z,2026-05-05T21:55:08Z,60.8631,3,301,20,2103,3,7,4

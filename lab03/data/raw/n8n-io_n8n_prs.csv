@@ -1,0 +1,74 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+n8n-io/n8n,29798,ci: Fix flaky error assertion in tests,MERGED,2026-05-05T14:15:47Z,2026-05-05T15:47:27Z,2026-05-05T15:47:27Z,1.5278,1,5,6,955,3,1,3
+n8n-io/n8n,29786,ci: Validate required pr quality checks with ci-filter,MERGED,2026-05-05T12:29:04Z,2026-05-05T15:04:30Z,2026-05-05T15:04:30Z,2.5906,1,19,0,1077,2,0,5
+n8n-io/n8n,29782,fix: Restore broken stdlib calls in Python Code node (backport to release-candidate/2.19.x),MERGED,2026-05-05T12:10:48Z,2026-05-05T13:28:08Z,2026-05-05T13:28:07Z,1.2886,3,201,5,1658,1,1,2
+n8n-io/n8n,29772,fix: Fix security issue in vm2 via minor version upgrade from 3.10.5 to 3.11.2,CLOSED,2026-05-05T10:57:05Z,2026-05-05T23:16:23Z,,12.3217,2,12,10,7449,0,2,1
+n8n-io/n8n,29770,feat(core): Add flag to import workflow cli to activate workflow on import,MERGED,2026-05-05T10:34:59Z,2026-05-05T16:45:26Z,2026-05-05T16:45:26Z,6.1742,7,414,9,1152,2,1,4
+n8n-io/n8n,29767,fix(core): Log errors from fire-and-forget test webhook deactivation (no-changelog),MERGED,2026-05-05T10:11:47Z,2026-05-05T12:41:19Z,2026-05-05T12:41:19Z,2.4922,2,36,1,1494,2,1,2
+n8n-io/n8n,29751,fix(core): Fix user access control logic and update tests for global (backport to release-candidate/2.18.x),MERGED,2026-05-05T07:48:59Z,2026-05-05T08:51:11Z,2026-05-05T08:51:11Z,1.0367,2,0,86,1431,2,2,2
+n8n-io/n8n,29747,feat(core): Dynamic 'one year' preset based on date range of data,CLOSED,2026-05-05T06:25:14Z,2026-05-05T11:44:38Z,,5.3233,7,170,8,1766,2,3,3
+n8n-io/n8n,29744,ci: Ignore .md & .mdx files on check-pr-size,MERGED,2026-05-05T04:24:52Z,2026-05-05T07:34:39Z,2026-05-05T07:34:39Z,3.1631,2,11,0,1026,2,1,2
+n8n-io/n8n,29734,fix(core): Clarify 0-based indexing in workflow SDK prompts and JSDoc,MERGED,2026-05-04T20:27:31Z,2026-05-05T13:55:27Z,2026-05-05T13:55:27Z,17.4656,7,57,30,1647,2,1,2
+n8n-io/n8n,29725,fix(agents): Postgres migrations,MERGED,2026-05-04T17:26:00Z,2026-05-05T08:11:52Z,2026-05-05T08:11:52Z,14.7644,3,8,8,2124,2,1,2
+n8n-io/n8n,29715,feat(core): Centralise user listing permissions for internal and publ… (backport to release-candidate/2.18.x),CLOSED,2026-05-04T15:45:47Z,2026-05-05T07:05:05Z,,15.3217,5,75,118,1514,1,2,1
+n8n-io/n8n,29713,fix(core): Isolate expressions on chat resumption and test webhook deactivation (backport to release-candidate/2.18.x),MERGED,2026-05-04T15:42:57Z,2026-05-05T09:51:17Z,2026-05-05T09:51:17Z,18.1389,4,180,3,1659,1,2,2
+n8n-io/n8n,29704,refactor(editor): Add `motion.scss` utilities to standardise animations and transitions,MERGED,2026-05-04T14:57:52Z,2026-05-05T07:48:29Z,2026-05-05T07:48:29Z,16.8436,29,1119,352,1221,2,4,3
+n8n-io/n8n,29703,fix(core): Isolate expressions on chat resumption and test webhook deactivation,MERGED,2026-05-04T14:31:05Z,2026-05-04T15:40:59Z,2026-05-04T15:40:59Z,1.165,4,180,3,1327,2,3,2
+n8n-io/n8n,29702,fix(agents): Resolve explicit agent LLM requests without picker,MERGED,2026-05-04T14:28:47Z,2026-05-05T09:25:13Z,2026-05-05T09:25:13Z,18.9406,9,325,99,1739,2,1,2
+n8n-io/n8n,29700,fix(core): Defer Instance AI temporary workflow cleanup (no-changelog),MERGED,2026-05-04T14:04:27Z,2026-05-04T18:45:00Z,2026-05-04T18:45:00Z,4.6758,2,124,0,1205,2,3,3
+n8n-io/n8n,29696,refactor(core): Extract leader election client and improve robustness (no-changelog),MERGED,2026-05-04T13:18:44Z,2026-05-05T15:02:33Z,2026-05-05T15:02:33Z,25.7303,12,868,176,1356,2,4,11
+n8n-io/n8n,29695,fix(core): Wrap web-search snippets in untrusted data boundaries (no-changelog),MERGED,2026-05-04T13:18:22Z,2026-05-04T14:33:12Z,2026-05-04T14:33:12Z,1.2472,3,115,25,1503,2,3,2
+n8n-io/n8n,29694,feat(core): Use McpManagerClient and enforce whether MCP server connections are allowed,MERGED,2026-05-04T12:59:35Z,2026-05-05T18:13:10Z,2026-05-05T18:13:09Z,29.2261,12,549,108,1791,2,2,6
+n8n-io/n8n,29692,feat(core): Ensure agent feature works on multi-main and queue modes,MERGED,2026-05-04T12:42:43Z,2026-05-05T10:04:48Z,2026-05-05T10:04:48Z,21.3681,4,139,14,2191,2,1,2
+n8n-io/n8n,29691,fix(core): Accept placeholder() inside node credentials slot,MERGED,2026-05-04T12:36:26Z,2026-05-04T14:15:21Z,2026-05-04T14:15:21Z,1.6486,6,140,5,2916,2,2,2
+n8n-io/n8n,29688,fix(Notion Node): Serialize staticData as ISO string in NotionTrigger,MERGED,2026-05-04T12:24:29Z,2026-05-05T12:58:25Z,2026-05-05T12:58:25Z,24.5656,2,141,1,1479,2,3,6
+n8n-io/n8n,29687,refactor(editor): Add executionData store for per-execution state (no-changelog),MERGED,2026-05-04T12:11:56Z,2026-05-04T17:39:45Z,2026-05-04T17:39:45Z,5.4636,7,2074,1,2634,2,3,3
+n8n-io/n8n,29686,fix(agents): Guard agent builder config writes against stale state,MERGED,2026-05-04T12:03:57Z,2026-05-05T09:41:02Z,2026-05-05T09:41:02Z,21.6181,17,953,195,2269,2,1,2
+n8n-io/n8n,29682,fix(core): Add timeout to external secrets provider update to prevent startup hang,MERGED,2026-05-04T11:12:15Z,2026-05-04T13:10:34Z,2026-05-04T13:10:34Z,1.9719,4,117,7,1508,2,1,2
+n8n-io/n8n,29680,feat(ai): Add workflow-level LangSmith tracing override,CLOSED,2026-05-04T10:56:16Z,2026-05-05T12:07:59Z,,25.1953,9,452,3,2185,1,2,2
+n8n-io/n8n,29679,fix(core): Add timeout to external secrets provider refresh,MERGED,2026-05-04T10:38:09Z,2026-05-04T13:24:30Z,2026-05-04T13:24:30Z,2.7725,3,42,2,1596,3,2,5
+n8n-io/n8n,29677,feat(agents): Tidy up trigger UI,MERGED,2026-05-04T10:28:55Z,2026-05-05T09:33:05Z,2026-05-05T09:33:05Z,23.0694,16,540,213,1618,3,2,6
+n8n-io/n8n,29676,fix(editor): Make textarea resize handle accessible in NDV,MERGED,2026-05-04T10:25:58Z,2026-05-04T11:56:03Z,2026-05-04T11:56:02Z,1.5011,1,20,0,1603,2,3,2
+n8n-io/n8n,29675,refactor(editor): Introduce setter facades for workflow execution state (no-changelog),MERGED,2026-05-04T10:09:20Z,2026-05-04T12:00:28Z,2026-05-04T12:00:28Z,1.8522,22,173,112,1620,2,3,2
+n8n-io/n8n,29674,refactor(core): Use the common SSRF service on instance AI and harden web fetch,MERGED,2026-05-04T10:03:42Z,2026-05-04T13:55:42Z,2026-05-04T13:55:42Z,3.8667,9,236,359,1859,2,3,2
+n8n-io/n8n,29673,fix(editor): Ignore paste events on read-only canvas,MERGED,2026-05-04T09:37:56Z,2026-05-05T08:05:55Z,2026-05-05T08:05:54Z,22.4661,2,43,0,1541,2,3,2
+n8n-io/n8n,29671,fix(core): Acquire expression isolate for dynamic node parameter requests,MERGED,2026-05-04T09:13:23Z,2026-05-04T10:34:45Z,2026-05-04T10:34:45Z,1.3561,2,160,17,1368,2,3,2
+n8n-io/n8n,29670,fix(core): Show AI Builder draft workflows in workflow list,MERGED,2026-05-04T08:58:33Z,2026-05-04T10:28:46Z,2026-05-04T10:28:45Z,1.5033,2,1,39,2142,2,3,2
+n8n-io/n8n,29669,:rocket: Release 2.18.7,MERGED,2026-05-04T08:52:59Z,2026-05-04T10:11:32Z,2026-05-04T10:11:31Z,1.3089,3,10,2,324,1,1,2
+n8n-io/n8n,29668,feat(agents): Add working memory support for agents,MERGED,2026-05-04T08:43:35Z,2026-05-05T11:34:57Z,2026-05-05T11:34:57Z,26.8561,22,598,197,2554,2,2,10
+n8n-io/n8n,29667,fix(core): Check npm provenance in community package scanner,MERGED,2026-05-04T08:31:27Z,2026-05-05T10:36:23Z,2026-05-05T10:36:23Z,26.0822,5,147,0,1912,2,1,2
+n8n-io/n8n,29666,fix(Compare Datasets Node): Preserve falsy values in mix mode except fields,MERGED,2026-05-04T07:32:18Z,2026-05-04T11:56:52Z,2026-05-04T11:56:52Z,4.4094,2,262,2,2274,2,2,2
+n8n-io/n8n,29663,fix(Microsoft Outlook Trigger Node): Use per-folder endpoints for folder-scoped message polling,MERGED,2026-05-04T06:17:41Z,2026-05-05T07:21:23Z,2026-05-05T07:21:23Z,25.0617,2,234,23,2282,2,2,3
+n8n-io/n8n,29662,chore: Refactor and add tests for bump-versions.mjs,MERGED,2026-05-04T06:16:19Z,2026-05-05T11:43:47Z,2026-05-05T11:43:47Z,29.4578,2,600,139,1057,2,0,2
+n8n-io/n8n,29650,feat(editor): Add transition on Sidebar collapsed,MERGED,2026-05-02T20:44:01Z,2026-05-04T07:58:03Z,2026-05-04T07:58:03Z,35.2339,1,16,2,959,2,3,2
+n8n-io/n8n,29649,fix(agents): Improve agent tool setup and node reference handling,MERGED,2026-05-02T19:42:09Z,2026-05-04T08:01:48Z,2026-05-04T08:01:48Z,36.3275,30,529,310,2095,2,2,3
+n8n-io/n8n,29648,fix(ai-builder): Stop builder from adding auth to inbound trigger nodes by default,MERGED,2026-05-02T18:02:01Z,2026-05-04T10:39:42Z,2026-05-04T10:39:42Z,40.6281,14,194,1,1030,3,4,2
+n8n-io/n8n,29645,refactor(agents): Refactor styles on Executions Timeline,MERGED,2026-05-02T13:47:15Z,2026-05-03T08:58:20Z,2026-05-03T08:58:20Z,19.1847,28,1681,955,1962,2,2,5
+n8n-io/n8n,29644,chore: Fix skills so they work with non-Claude harnesses,MERGED,2026-05-02T12:11:49Z,2026-05-04T07:58:38Z,2026-05-04T07:58:38Z,43.7803,19,145,64,1402,2,2,5
+n8n-io/n8n,29636,feat(ai-builder): Guarantee user-visible output on terminal states,MERGED,2026-05-01T20:01:00Z,2026-05-05T16:50:57Z,2026-05-05T16:50:57Z,92.8325,23,2388,48,2951,2,4,3
+n8n-io/n8n,29629,chore(agents): Whitelist AI provider nodes that are not usable as tools,MERGED,2026-05-01T16:11:20Z,2026-05-04T10:52:57Z,2026-05-04T10:52:57Z,66.6936,8,129,15,1273,2,2,2
+n8n-io/n8n,29628,chore(agents): Tidy up un-necessary migrations,MERGED,2026-05-01T15:56:34Z,2026-05-04T11:12:25Z,2026-05-04T11:12:25Z,67.2642,11,225,223,1291,3,3,1
+n8n-io/n8n,29626,chore: Add community PR review skill (no-changelog),MERGED,2026-05-01T15:15:49Z,2026-05-05T16:00:12Z,2026-05-05T16:00:12Z,96.7397,1,150,0,1594,3,1,8
+n8n-io/n8n,29624,refactor(agents): Move to single-page layout,MERGED,2026-05-01T13:48:44Z,2026-05-03T08:43:16Z,2026-05-03T08:43:16Z,42.9089,29,2092,1316,1139,2,3,5
+n8n-io/n8n,29617,"fix(editor): Fix OAuth2 credential showing ""Needs first setup"" after connecting",MERGED,2026-05-01T11:23:32Z,2026-05-01T12:38:14Z,2026-05-01T12:38:13Z,1.2447,3,12,0,2125,2,3,2
+n8n-io/n8n,29614,fix(Schedule Node): Cap day-of-month jitter at 28,MERGED,2026-05-01T09:05:25Z,2026-05-01T10:47:29Z,2026-05-01T10:47:29Z,1.7011,2,6,4,1397,4,2,4
+n8n-io/n8n,29611,:rocket: Release 2.18.6,MERGED,2026-05-01T08:42:35Z,2026-05-04T04:29:22Z,2026-05-04T04:29:22Z,67.7797,6,13,5,312,1,1,2
+n8n-io/n8n,29605,feat(agents): Polish UI for P0 (no-changelog),MERGED,2026-04-30T19:33:19Z,2026-05-01T09:55:03Z,2026-05-01T09:55:03Z,14.3622,31,1062,902,956,2,2,3
+n8n-io/n8n,29598,feat(instance-ai): Reuse workflow builder sandboxes (no-changelog),MERGED,2026-04-30T15:26:11Z,2026-05-04T15:11:26Z,2026-05-04T15:11:26Z,95.7542,19,2154,461,4534,2,6,8
+n8n-io/n8n,29597,fix(editor): Improve sidebar new resource menu UX,MERGED,2026-04-30T15:22:07Z,2026-05-05T12:01:34Z,2026-05-05T12:01:34Z,116.6575,5,105,12,1070,2,2,2
+n8n-io/n8n,29595,chore: Upgrade nock to 14.0.13 to fix Node.js 24+ compatibility,MERGED,2026-04-30T15:11:34Z,2026-04-30T16:50:24Z,2026-04-30T16:50:24Z,1.6472,2,10,10,1080,3,3,3
+n8n-io/n8n,29593,"fix(editor): Resolve ""Workflow not found"" error on evaluations tab (no-changelog)",MERGED,2026-04-30T14:34:41Z,2026-05-04T10:15:10Z,2026-05-04T10:15:09Z,91.6744,4,24,24,1196,2,3,2
+n8n-io/n8n,29591,fix(core): Guard leader-stepdown emission on vacant leadership check,CLOSED,2026-04-30T14:03:04Z,2026-05-04T13:28:13Z,,95.4192,2,19,4,1474,2,2,3
+n8n-io/n8n,29590,fix(editor): Add proper bg color for hover state with color-mix(),MERGED,2026-04-30T13:56:25Z,2026-04-30T16:23:08Z,2026-04-30T16:23:07Z,2.445,1,10,0,1553,2,4,2
+n8n-io/n8n,29589,fix(core): Prevent overlapping checkLeader calls in multi-main setup,CLOSED,2026-04-30T13:54:49Z,2026-05-04T13:28:19Z,,95.5583,2,35,0,1291,2,3,2
+n8n-io/n8n,29588,feat(editor): Hide model selector for unsupported AI Gateway actions,MERGED,2026-04-30T13:49:59Z,2026-05-05T08:34:34Z,2026-05-05T08:34:34Z,114.7431,8,433,0,2349,2,3,4
+n8n-io/n8n,29585,ci: Scope RELEASE env to editor-ui turbo task (no-changelog),MERGED,2026-04-30T13:16:05Z,2026-05-05T13:04:48Z,2026-05-05T13:04:48Z,119.8119,1,6,1,947,2,3,2
+n8n-io/n8n,29584,fix(editor): Don't paint main sidebar on top of instance AI workflow artifact NDVs (no-changelog),MERGED,2026-04-30T13:11:55Z,2026-05-04T08:46:12Z,2026-05-04T08:46:12Z,91.5714,3,13,0,1805,2,6,2
+n8n-io/n8n,29583,feat(editor): Surface cluster information in debug data (no-changelog),MERGED,2026-04-30T12:52:00Z,2026-05-04T16:46:22Z,2026-05-04T16:46:22Z,99.9061,15,283,135,6054,2,3,11
+n8n-io/n8n,29582,refactor(core): Remove global builder node guides,MERGED,2026-04-30T12:51:59Z,2026-05-05T10:48:30Z,2026-05-05T10:48:30Z,117.9419,8,166,54,2353,2,3,7
+n8n-io/n8n,29581,fix(core): Wire EncryptionKeyProxy provider on bootstrap,MERGED,2026-04-30T12:50:39Z,2026-05-01T08:51:40Z,2026-05-01T08:51:40Z,20.0169,3,28,2,1449,2,2,3
+n8n-io/n8n,29580,Add EnigmAgent — Community Nodes,CLOSED,2026-04-30T12:42:58Z,2026-04-30T16:26:44Z,,3.7294,1,2,0,210,2,3,1
+n8n-io/n8n,29579,feat(agents): UI improvements,MERGED,2026-04-30T12:34:12Z,2026-04-30T15:34:07Z,2026-04-30T15:34:07Z,2.9986,58,1266,830,4783,2,1,2
+n8n-io/n8n,29577,fix(editor): Make instance ai resource link chips open resources,MERGED,2026-04-30T12:32:22Z,2026-04-30T16:01:07Z,2026-04-30T16:01:07Z,3.4792,3,66,33,3740,2,3,2
+n8n-io/n8n,29576,feature(editor): Parameters support for instance-ai workflow setup,MERGED,2026-04-30T12:22:37Z,2026-05-05T09:08:20Z,2026-05-05T09:08:20Z,116.7619,39,1662,1443,992,2,3,2
+n8n-io/n8n,29574,"fix: Telegram thread handling, memory scopes",MERGED,2026-04-30T12:02:57Z,2026-05-05T09:47:28Z,2026-05-05T09:47:28Z,117.7419,17,665,503,1648,2,1,1

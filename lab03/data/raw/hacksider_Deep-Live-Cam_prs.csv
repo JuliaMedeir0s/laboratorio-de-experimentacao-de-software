@@ -1,0 +1,74 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+hacksider/Deep-Live-Cam,1786,Pr/894,CLOSED,2026-04-26T02:47:50Z,2026-04-29T16:31:02Z,,85.72,3,44,4,560,3,1,1
+hacksider/Deep-Live-Cam,1782,fix: black border around face after paste-back optimization,MERGED,2026-04-23T17:44:24Z,2026-04-29T14:31:09Z,2026-04-29T14:31:09Z,140.7792,1,1,1,941,5,5,1
+hacksider/Deep-Live-Cam,1777,Keep GFPGAN on ANE: widen scalar Gather indices for CoreML EP,MERGED,2026-04-22T12:02:51Z,2026-04-22T14:17:34Z,2026-04-22T14:17:34Z,2.2453,4,232,133,3218,2,1,1
+hacksider/Deep-Live-Cam,1776,Paste-back: O(crop_area) compositing + uint8 cv2 SIMD blend,MERGED,2026-04-22T11:35:54Z,2026-04-22T14:14:45Z,2026-04-22T14:14:45Z,2.6475,3,100,123,3035,2,3,1
+hacksider/Deep-Live-Cam,1775,"Apple Silicon + Windows CUDA perf: 4-5x FPS, wider capture, platform routing",MERGED,2026-04-22T09:09:09Z,2026-04-22T10:38:33Z,2026-04-22T10:38:32Z,1.4897,15,1779,277,6013,3,2,1
+hacksider/Deep-Live-Cam,1760,Fix formatting of virtual environment reinstallation note,CLOSED,2026-04-14T12:23:17Z,2026-04-14T14:15:41Z,,1.8733,1,1,1,151,2,1,1
+hacksider/Deep-Live-Cam,1751,fix(face-mask): guard create_face_mask against None frame,MERGED,2026-04-12T05:20:06Z,2026-04-15T06:13:18Z,2026-04-15T06:13:18Z,72.8867,2,125,1,605,2,2,1
+hacksider/Deep-Live-Cam,1746,Apple Silicon performance: 1.5 → 10+ FPS (zero quality loss),MERGED,2026-04-09T12:28:40Z,2026-04-14T17:25:51Z,2026-04-14T17:25:51Z,124.9531,4,139,74,4236,2,4,1
+hacksider/Deep-Live-Cam,1744,Add MPS (Metal) GPU acceleration for Apple Silicon,CLOSED,2026-04-07T12:12:17Z,2026-04-29T16:28:51Z,,532.2761,4,174,50,3061,2,2,1
+hacksider/Deep-Live-Cam,1741,Fix crash when image paths contain non-ASCII characters,CLOSED,2026-04-06T13:14:06Z,2026-04-23T15:01:47Z,,409.7947,7,37,20,1165,1,1,1
+hacksider/Deep-Live-Cam,1738,fix: recover from CUDA BFCArena OOM instead of failing every frame,CLOSED,2026-04-05T19:49:56Z,2026-04-19T02:06:06Z,,318.2694,4,116,71,2207,4,6,3
+hacksider/Deep-Live-Cam,1737,fix: unify face swapper model path selection,CLOSED,2026-04-05T18:33:45Z,2026-04-15T06:09:29Z,,227.5956,3,71,3,1317,3,5,2
+hacksider/Deep-Live-Cam,1733,added function to preload runtime DLLs needed by CUDA/TensorRT-enable…,CLOSED,2026-04-03T10:19:36Z,2026-04-03T20:24:33Z,,10.0825,2,19,0,483,1,1,1
+hacksider/Deep-Live-Cam,1732,Fix CUDA VRAM exhaustion during video processing,MERGED,2026-04-03T02:59:58Z,2026-04-05T15:15:39Z,2026-04-05T15:15:39Z,60.2614,2,9,2,942,2,1,1
+hacksider/Deep-Live-Cam,1731,docs: fix inconsistent Python version references in macOS/Linux setup (fixes #1632),MERGED,2026-04-03T02:34:09Z,2026-04-05T15:16:20Z,2026-04-05T15:16:20Z,60.7031,1,11,11,1973,2,1,1
+hacksider/Deep-Live-Cam,1725,Fix missing video output reporting and encoding flow,MERGED,2026-04-01T07:23:05Z,2026-04-01T15:14:22Z,2026-04-01T15:14:22Z,7.8547,2,19,10,1197,3,1,1
+hacksider/Deep-Live-Cam,1722,fix(face-enhancer): add missing process_frame_v2 method,MERGED,2026-03-31T06:50:05Z,2026-04-05T15:16:52Z,2026-04-05T15:16:52Z,128.4464,1,5,0,1145,2,4,1
+hacksider/Deep-Live-Cam,1720,Fix macOS SIGSEGV crash in live webcam mode (tkinter thread-safety),CLOSED,2026-03-30T13:39:18Z,2026-04-19T12:04:43Z,,478.4236,1,27,6,1998,2,1,1
+hacksider/Deep-Live-Cam,1718,docs: fix setup instructions and required models,CLOSED,2026-03-30T10:10:25Z,2026-04-01T15:12:55Z,,53.0417,1,91,186,2901,2,2,1
+hacksider/Deep-Live-Cam,1710,AMD GPU (DirectML) Optimization for Live Mode,MERGED,2026-03-28T10:19:35Z,2026-04-01T14:29:43Z,2026-04-01T14:29:43Z,100.1689,6,133,78,2153,2,5,1
+hacksider/Deep-Live-Cam,1709,Clarify README description about face swap,CLOSED,2026-03-28T07:53:10Z,2026-04-19T12:08:12Z,,532.2506,1,1,1,187,4,2,2
+hacksider/Deep-Live-Cam,1707,"Switch to FP32 model by default, add run script",MERGED,2026-03-27T12:03:35Z,2026-04-05T15:19:17Z,2026-04-05T15:19:17Z,219.2617,2,19,4,644,2,1,1
+hacksider/Deep-Live-Cam,1689,feat(ui): add hover tooltips to all controls,MERGED,2026-02-24T19:43:55Z,2026-02-27T18:41:07Z,2026-02-27T18:41:07Z,70.9533,2,98,0,2990,3,2,1
+hacksider/Deep-Live-Cam,1685,"refactor(face-swapper): extract pair-building helpers, reduce nesting",CLOSED,2026-02-23T12:40:22Z,2026-04-19T15:08:14Z,,1322.4644,2,97,93,1062,2,1,1
+hacksider/Deep-Live-Cam,1684,refactor: extract process_frames_io helper for frame read/write loop,CLOSED,2026-02-23T12:39:52Z,2026-04-19T15:07:42Z,,1322.4639,3,29,3,899,2,1,1
+hacksider/Deep-Live-Cam,1683,refactor(globals): add named constants for magic numbers,CLOSED,2026-02-23T12:39:42Z,2026-04-19T15:07:42Z,,1322.4667,1,7,0,952,2,1,1
+hacksider/Deep-Live-Cam,1682,"fix(security): remove SSL bypass, log silent errors, add checksum validation",CLOSED,2026-02-23T12:39:32Z,2026-04-19T15:07:41Z,,1322.4692,2,36,11,1576,2,1,1
+hacksider/Deep-Live-Cam,1681,perf: use cached face detection in map-faces live mode,CLOSED,2026-02-22T19:29:51Z,2026-04-19T15:07:41Z,,1339.6306,1,1,1,1244,2,1,1
+hacksider/Deep-Live-Cam,1680,perf(processing): optimize post-processing with float32 and buffer reuse,MERGED,2026-02-22T19:27:50Z,2026-02-23T07:13:04Z,2026-02-23T07:13:03Z,11.7536,2,48,41,2194,2,1,1
+hacksider/Deep-Live-Cam,1679,perf(video): use JPEG intermediate frames and ProcessPoolExecutor,CLOSED,2026-02-22T19:26:25Z,2026-02-23T07:05:09Z,,11.6456,4,54,30,2481,2,2,1
+hacksider/Deep-Live-Cam,1678,perf(face-swapper): optimize opacity handling and frame copies,MERGED,2026-02-22T19:13:06Z,2026-02-24T06:28:17Z,2026-02-24T06:28:17Z,35.2531,1,9,15,1132,2,2,1
+hacksider/Deep-Live-Cam,1677,perf(face-swapper): add warmup inference call after CoreML model load,CLOSED,2026-02-22T19:08:15Z,2026-04-19T15:07:40Z,,1339.9903,1,22,0,1075,2,1,1
+hacksider/Deep-Live-Cam,1676,perf(face-enhancer): increase semaphore count and skip redundant face detection,CLOSED,2026-02-22T19:07:36Z,2026-04-19T15:07:40Z,,1340.0011,1,21,2,917,2,1,1
+hacksider/Deep-Live-Cam,1675,perf: add NumPy Apple Accelerate BLAS detection on startup,CLOSED,2026-02-22T19:07:29Z,2026-04-19T15:07:39Z,,1340.0028,2,88,0,1278,2,1,1
+hacksider/Deep-Live-Cam,1674,feat(face-analyser): add runtime det_size switching for Apple Silicon,CLOSED,2026-02-22T19:06:56Z,2026-04-19T15:07:39Z,,1340.0119,1,41,2,1131,2,1,1
+hacksider/Deep-Live-Cam,1673,perf(processors): remove unnecessary frame copy in post-processing,CLOSED,2026-02-22T19:06:14Z,2026-04-19T15:07:39Z,,1340.0236,1,1,1,555,2,1,1
+hacksider/Deep-Live-Cam,1672,perf(face-swapper): use double-check locking to reduce lock contention,CLOSED,2026-02-22T19:04:36Z,2026-04-19T15:07:38Z,,1340.0506,1,56,35,969,2,1,1
+hacksider/Deep-Live-Cam,1671,fix(macos): replace cv2_enumerate_cameras with safe bounded loop,MERGED,2026-02-22T19:04:30Z,2026-02-24T06:29:00Z,2026-02-24T06:29:00Z,35.4083,1,7,16,803,2,1,1
+hacksider/Deep-Live-Cam,1669,feat: add GPEN-BFR 256 and 512 ONNX face enhancers,MERGED,2026-02-22T17:39:28Z,2026-02-23T07:05:45Z,2026-02-23T07:05:45Z,13.4381,7,444,9,2526,2,2,1
+hacksider/Deep-Live-Cam,1668,fix(face-swapper): use thread-local storage for frame interpolation state,CLOSED,2026-02-22T17:35:37Z,2026-04-19T15:07:38Z,,1341.5336,1,22,18,1847,2,1,1
+hacksider/Deep-Live-Cam,1667,fix(core): correct macOS memory limit from exabytes to gigabytes,CLOSED,2026-02-22T17:34:49Z,2026-04-19T15:07:37Z,,1341.5467,1,1,1,873,2,1,1
+hacksider/Deep-Live-Cam,1666,feat: add built-in virtual camera output for live webcam preview,CLOSED,2026-02-22T17:33:36Z,2026-04-19T15:07:37Z,,1341.5669,5,136,0,1539,2,1,1
+hacksider/Deep-Live-Cam,1661,fix(utilities): require dot prefix in has_image_extension checks,CLOSED,2026-02-22T15:07:46Z,2026-04-19T15:07:36Z,,1343.9972,1,1,1,810,2,1,1
+hacksider/Deep-Live-Cam,1659,fix(ui): patch CTkOptionMenu for Tk 9.0 compatibility,MERGED,2026-02-22T10:00:01Z,2026-02-22T16:13:47Z,2026-02-22T16:13:47Z,6.2294,1,23,0,1144,2,1,1
+hacksider/Deep-Live-Cam,1658,fix(security): replace global SSL bypass with scoped context,CLOSED,2026-02-22T09:43:14Z,2026-02-23T07:32:10Z,,21.8156,2,28,19,1655,1,3,1
+hacksider/Deep-Live-Cam,1657,fix(core): restrict setrlimit to Linux only,CLOSED,2026-02-22T09:41:16Z,2026-04-19T15:07:36Z,,1349.4389,1,1,1,934,2,1,1
+hacksider/Deep-Live-Cam,1656,perf(face-swapper): optimize CoreML session configuration,CLOSED,2026-02-22T09:40:36Z,2026-04-19T15:07:35Z,,1349.4497,1,7,2,1736,2,1,1
+hacksider/Deep-Live-Cam,1655,fix(threading): protect source_target_map with lock,CLOSED,2026-02-22T09:40:13Z,2026-04-19T15:07:35Z,,1349.4561,2,28,19,1342,2,1,1
+hacksider/Deep-Live-Cam,1617,Optimize macos frame rate 14631050807658318954,CLOSED,2026-01-05T01:57:35Z,2026-04-19T12:09:05Z,,2506.1917,5,106,18,1067,3,2,1
+hacksider/Deep-Live-Cam,1598,Create Henry live cam,CLOSED,2025-12-03T10:39:02Z,2025-12-14T20:56:31Z,,274.2914,1,1,0,211,2,1,1
+hacksider/Deep-Live-Cam,1588,"feat: Overhaul UI with Theme Toggle, Tooltips, and Layout Adjustments",CLOSED,2025-11-21T21:21:31Z,2026-04-19T12:08:52Z,,3566.7892,1,318,13,1694,2,1,1
+hacksider/Deep-Live-Cam,1583,Thêm hướng dẫn triển khai Deep-Live-Cam trên MacBook (Tiếng Việt),CLOSED,2025-11-14T14:54:16Z,2026-03-10T21:33:53Z,,2790.6603,2,751,0,1084,3,1,1
+hacksider/Deep-Live-Cam,1582,Claude/incomplete description 011 c uz9e nk kr qu8 h zaqe bn ro,CLOSED,2025-11-14T14:38:46Z,2026-03-10T21:33:52Z,,2790.9183,8,1494,0,822,3,1,1
+hacksider/Deep-Live-Cam,1579,Fix nopgadget's NewSwap PR,CLOSED,2025-11-12T17:51:53Z,2026-03-10T21:33:52Z,,2835.6997,25,1090,1105,1276,4,1,3
+hacksider/Deep-Live-Cam,1573,"fix: fix typos which caused ""No faces found in target"" issue",MERGED,2025-11-09T08:54:35Z,2025-11-09T11:18:00Z,2025-11-09T11:18:00Z,2.3903,3,10,10,350,2,1,1
+hacksider/Deep-Live-Cam,1565,Fix typo in source_target_map variable name,MERGED,2025-11-04T20:16:50Z,2025-11-05T16:08:42Z,2025-11-05T16:08:42Z,19.8644,1,2,2,151,2,1,1
+hacksider/Deep-Live-Cam,1562,AI-generated code changes,CLOSED,2025-11-03T23:02:55Z,2025-11-04T03:53:34Z,,4.8442,5,148,1603,1138,2,1,1
+hacksider/Deep-Live-Cam,1559,Update README with Windows dependencies,CLOSED,2025-11-01T20:38:38Z,2026-03-10T21:33:51Z,,3096.9203,1,5,1,505,2,1,1
+hacksider/Deep-Live-Cam,1529,Add Indonesian localization file,MERGED,2025-10-11T16:29:55Z,2025-11-04T09:46:28Z,2025-11-04T09:46:28Z,569.2758,1,45,0,113,3,1,1
+hacksider/Deep-Live-Cam,1523,Testing,CLOSED,2025-10-05T04:41:23Z,2026-03-10T21:33:51Z,,3760.8744,1,84,34,600,3,1,1
+hacksider/Deep-Live-Cam,1510,Add Arabic locale (ar.json),CLOSED,2025-09-25T22:08:02Z,2026-03-10T21:33:50Z,,3983.43,1,45,0,492,2,1,1
+hacksider/Deep-Live-Cam,1507,Update README.md,CLOSED,2025-09-22T15:11:54Z,2026-03-10T21:33:50Z,,4062.3656,1,1,1,171,2,1,1
+hacksider/Deep-Live-Cam,1506,Fix formatting in README for virtual environment section,CLOSED,2025-09-21T15:11:13Z,2026-03-10T21:33:49Z,,4086.3767,1,1,1,127,2,1,1
+hacksider/Deep-Live-Cam,1494,Update metadata.py,CLOSED,2025-09-09T22:08:51Z,2025-09-10T02:37:12Z,,4.4725,1,1,1,128,2,4,1
+hacksider/Deep-Live-Cam,1490,deep,CLOSED,2025-09-08T07:54:01Z,2026-02-22T10:02:56Z,,4010.1486,1,4,0,104,2,1,1
+hacksider/Deep-Live-Cam,1458,Fixed CUDA-bound error where GPU-enabled run would result in incorrect model loading,CLOSED,2025-08-14T00:37:56Z,2026-03-10T21:33:49Z,,5012.9314,1,1,1,1134,4,6,2
+hacksider/Deep-Live-Cam,1441,Use timestamp in default filename to avoid overwriting,CLOSED,2025-08-09T20:05:57Z,2026-03-10T21:33:49Z,,5113.4644,1,4,2,236,2,1,1
+hacksider/Deep-Live-Cam,1435,Add Golem.de (German IT news magazine) article,MERGED,2025-08-06T13:43:58Z,2025-08-07T18:26:51Z,2025-08-07T18:26:51Z,28.7147,1,1,0,143,2,5,1
+hacksider/Deep-Live-Cam,1387,Update README.md,CLOSED,2025-06-27T17:09:09Z,2025-09-13T20:50:51Z,,1875.695,1,1,1,138,1,1,1
+hacksider/Deep-Live-Cam,1376,Jules was unable to complete the task in time. Please review the work…,CLOSED,2025-06-20T18:52:08Z,2025-08-04T14:50:59Z,,1075.9808,3,88,23,783,2,1,1
+hacksider/Deep-Live-Cam,1340,New feature: Stream video frames to avoid disk I/O,CLOSED,2025-06-08T21:51:22Z,2025-06-10T17:57:42Z,,44.1056,5,147,413,831,1,2,1
+hacksider/Deep-Live-Cam,1335,Create Travis Craig,CLOSED,2025-06-07T09:33:42Z,2025-06-07T11:44:02Z,,2.1722,1,1,0,102,2,1,1
+hacksider/Deep-Live-Cam,1332,merge,CLOSED,2025-06-04T05:40:24Z,2025-06-04T07:11:45Z,,1.5225,6,132,14,767,1,1,1

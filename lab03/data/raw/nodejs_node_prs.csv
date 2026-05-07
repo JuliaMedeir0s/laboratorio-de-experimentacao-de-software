@@ -1,0 +1,76 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+nodejs/node,63133,doc: fix changelog for chromium numbering,MERGED,2026-05-05T18:27:43Z,2026-05-05T21:05:27Z,2026-05-05T21:05:27Z,2.6289,1,1,1,9,6,3,3
+nodejs/node,63129,[v26.x backport] test: accept OpenSSL 4 generic internal error for DH key-type mismatches,MERGED,2026-05-05T15:40:21Z,2026-05-05T21:32:45Z,2026-05-05T21:32:45Z,5.8733,2,45,7,116,3,5,1
+nodejs/node,63128,src: bump NODE_MAJOR_VERSION to 27,MERGED,2026-05-05T14:58:23Z,2026-05-05T18:17:44Z,2026-05-05T18:17:44Z,3.3225,1,1,1,109,5,4,3
+nodejs/node,63127,doc: fix lint-md,MERGED,2026-05-05T14:55:13Z,2026-05-05T16:14:47Z,2026-05-05T16:14:46Z,1.3258,11,53,307,42,7,4,8
+nodejs/node,63108,doc: remove Node.js 20 link from BUILDING,CLOSED,2026-05-04T06:47:50Z,2026-05-04T13:42:22Z,,6.9089,1,0,1,371,4,3,1
+nodejs/node,63099,stream: remove redundant method check from iter.pipeToSync,MERGED,2026-05-03T12:34:27Z,2026-05-05T12:46:55Z,2026-05-05T12:46:55Z,48.2078,1,1,6,116,6,5,4
+nodejs/node,63098,tools: use `npm ci` in Undici update script,MERGED,2026-05-03T09:58:15Z,2026-05-05T10:09:44Z,2026-05-05T10:09:44Z,48.1914,1,1,1,1809,7,2,5
+nodejs/node,63097,test_runner: fix failing suite hooks when marked with `todo`,MERGED,2026-05-03T09:01:30Z,2026-05-05T09:22:15Z,2026-05-05T09:22:15Z,48.3458,3,35,1,0,7,5,5
+nodejs/node,63093,doc: fix the TypeScript Execute (tsx) project link,MERGED,2026-05-03T06:46:22Z,2026-05-05T12:16:05Z,2026-05-05T12:16:05Z,53.4953,1,1,1,156,6,3,4
+nodejs/node,63092,deps: update undici to 8.2.0,MERGED,2026-05-03T01:09:53Z,2026-05-05T01:47:51Z,2026-05-05T01:47:51Z,48.6328,58,2036,989,47,4,4,3
+nodejs/node,63091,tools: update nixpkgs-unstable to c6d65881c5624c9cae5ea6cedef24699b0c,MERGED,2026-05-03T01:09:24Z,2026-05-05T01:47:40Z,2026-05-05T01:47:40Z,48.6378,1,2,2,859,4,1,3
+nodejs/node,63090,deps: update amaro to 1.1.9,MERGED,2026-05-03T01:08:49Z,2026-05-05T01:47:25Z,2026-05-05T01:47:25Z,48.6433,5,8,12,46,3,5,2
+nodejs/node,63089,doc: minor structural stream/iter edits,MERGED,2026-05-03T01:02:42Z,2026-05-05T01:47:13Z,2026-05-05T01:47:13Z,48.7419,4,265,268,381,4,1,2
+nodejs/node,63087,test: update WPT for url to 258f285de0,MERGED,2026-05-03T00:41:32Z,2026-05-05T01:04:59Z,2026-05-05T01:04:59Z,48.3908,3,12,2,140,6,5,4
+nodejs/node,63084,tools: use lts node in notify-on-push workflow,MERGED,2026-05-02T19:19:21Z,2026-05-04T19:45:45Z,2026-05-04T19:45:45Z,48.44,1,7,0,288,5,3,9
+nodejs/node,63082,http: harden ClientRequest options merge,MERGED,2026-05-02T12:53:06Z,2026-05-04T15:22:32Z,2026-05-04T15:22:32Z,50.4906,2,63,1,1757,5,6,3
+nodejs/node,63080,doc: remove typo comma from man page,MERGED,2026-05-02T07:58:01Z,2026-05-04T14:33:57Z,2026-05-04T14:33:57Z,54.5989,1,1,1,722,6,1,3
+nodejs/node,63074,meta: bump github/codeql-action from 4.35.1 to 4.35.3,MERGED,2026-05-01T22:02:05Z,2026-05-03T22:08:52Z,2026-05-03T22:08:52Z,48.1131,2,4,4,13961,4,2,3
+nodejs/node,63073,meta: bump Mozilla-Actions/sccache-action from 0.0.9 to 0.0.10,MERGED,2026-05-01T22:01:45Z,2026-05-03T22:08:42Z,2026-05-03T22:08:42Z,48.1158,6,6,6,11900,3,3,2
+nodejs/node,63072,meta: bump actions/upload-artifact from 7.0.0 to 7.0.1,MERGED,2026-05-01T22:01:40Z,2026-05-03T22:08:33Z,2026-05-03T22:08:32Z,48.1144,1,1,1,2979,3,2,2
+nodejs/node,63071,src: improve memory management in ffi source,CLOSED,2026-05-01T21:50:53Z,2026-05-03T22:08:25Z,,48.2922,2,89,50,310,5,5,3
+nodejs/node,63066,src: remove license headers for new node_profiling files,MERGED,2026-05-01T15:17:48Z,2026-05-04T15:22:01Z,2026-05-04T15:22:01Z,72.0703,2,0,42,191,4,3,2
+nodejs/node,63065,tools: update gr2m/create-or-update-pull-request-action to v1.10.1,MERGED,2026-05-01T14:51:33Z,2026-05-04T14:33:45Z,2026-05-04T14:33:44Z,71.7031,6,8,7,1194,5,3,2
+nodejs/node,63063,build: remove armv6 from experimental platforms,MERGED,2026-05-01T14:01:25Z,2026-05-04T10:22:58Z,2026-05-04T10:22:58Z,68.3592,2,1,8,217,9,6,6
+nodejs/node,63053,build: add temporary workaround for Rust on macOS,CLOSED,2026-04-30T16:02:25Z,2026-05-01T17:05:16Z,,25.0475,1,2,0,2195,7,5,5
+nodejs/node,63048,tools: implements a few nits on `build-aarch64-linux-v8`,MERGED,2026-04-30T13:51:01Z,2026-05-04T16:31:20Z,2026-05-04T16:31:20Z,98.6719,1,16,23,2248,4,2,2
+nodejs/node,63046,lib: reject SharedArrayBuffer in Blob constructor per spec,MERGED,2026-04-30T10:54:58Z,2026-05-04T09:30:43Z,2026-05-04T09:30:43Z,94.5958,2,32,2,2106,6,6,4
+nodejs/node,63045,deps: update llhttp to 9.4.1,MERGED,2026-04-30T10:39:15Z,2026-05-02T10:57:20Z,2026-05-02T10:57:20Z,48.3014,7,413,173,47,8,7,6
+nodejs/node,63044,tools: simplify `update-undici.sh`,MERGED,2026-04-30T09:25:10Z,2026-05-02T09:49:01Z,2026-05-02T09:49:01Z,48.3975,1,10,15,1919,4,2,2
+nodejs/node,63038,doc: add AI guidance for security report triage,CLOSED,2026-04-29T17:54:32Z,2026-05-04T13:48:29Z,,115.8992,5,87,0,277,5,11,2
+nodejs/node,63037,tools: do not run `test-linux` on unrelated tools changes,MERGED,2026-04-29T16:15:04Z,2026-05-01T16:18:52Z,2026-05-01T16:18:52Z,48.0633,3,9,3,1759,4,2,2
+nodejs/node,63036,tools: migrate from `openssl-matrix.json` to `openssl-matrix.nix`,MERGED,2026-04-29T15:07:46Z,2026-05-01T15:33:37Z,2026-05-01T15:33:37Z,48.4308,6,62,119,2568,4,3,3
+nodejs/node,63035,src: swap dotenv and config file parsing order,MERGED,2026-04-29T11:00:20Z,2026-05-04T06:39:19Z,2026-05-04T06:39:18Z,115.6494,4,14,11,76,4,4,2
+nodejs/node,63034,stream: copyedit `webstreams/adapter.js`,MERGED,2026-04-29T10:19:08Z,2026-05-04T16:31:07Z,2026-05-04T16:31:07Z,126.1997,1,22,27,1975,4,3,3
+nodejs/node,63032,stream: simplify `setPromiseHandled` utility,MERGED,2026-04-29T09:57:13Z,2026-05-01T22:08:26Z,2026-05-01T22:08:26Z,60.1869,1,1,1,1949,4,6,2
+nodejs/node,63031,stream: remove duplicated utility,MERGED,2026-04-29T09:52:23Z,2026-05-04T16:07:28Z,2026-05-04T16:07:27Z,126.2511,5,33,51,1856,5,4,2
+nodejs/node,63029,lib: add Temporal to frozen intrinsics,MERGED,2026-04-29T08:42:29Z,2026-05-01T09:10:41Z,2026-05-01T09:10:41Z,48.47,1,15,0,0,6,8,8
+nodejs/node,63028,test: run Temporal presence checks without runtime flag,MERGED,2026-04-29T08:29:50Z,2026-05-01T09:10:28Z,2026-05-01T09:10:28Z,48.6772,4,6,6,70,6,4,4
+nodejs/node,63026,deps: update llhttp to 9.4.0,CLOSED,2026-04-29T07:40:47Z,2026-04-30T09:24:26Z,,25.7275,6,395,174,47,8,4,5
+nodejs/node,63024,ffi: prevent premature GC of DynamicLibrary,MERGED,2026-04-29T05:51:17Z,2026-05-01T09:52:11Z,2026-05-01T09:52:11Z,52.015,3,27,1,2459,6,8,4
+nodejs/node,63016,doc: reserve NMV 148 for Electron 43,MERGED,2026-04-28T21:34:51Z,2026-04-30T21:42:16Z,2026-04-30T21:42:16Z,48.1236,1,1,0,118,8,1,5
+nodejs/node,63015,build: add rust target for macOS cross compiles,MERGED,2026-04-28T18:04:46Z,2026-04-30T15:23:41Z,2026-04-30T15:23:41Z,45.3153,2,13,4,2460,5,12,4
+nodejs/node,63013,debugger: move ProbeInspectorSession and helpers to separate files,MERGED,2026-04-28T16:21:55Z,2026-05-01T13:44:02Z,2026-05-01T13:44:02Z,69.3686,3,925,857,2070,6,4,4
+nodejs/node,63012,[v22.x] deps: use npm undici@six tag in `update-undici.sh`,MERGED,2026-04-28T15:28:22Z,2026-05-04T07:42:34Z,2026-05-04T07:42:34Z,136.2367,1,4,8,1821,6,7,4
+nodejs/node,63008,src: split profiling helpers from util,MERGED,2026-04-28T09:55:55Z,2026-05-01T14:14:25Z,2026-05-01T14:14:25Z,76.3083,8,194,116,176,5,7,6
+nodejs/node,63006,deps: fix libffi macos build,MERGED,2026-04-28T08:36:03Z,2026-04-28T18:48:28Z,2026-04-28T18:48:28Z,10.2069,1,4,0,13,7,20,4
+nodejs/node,63003,http2: expose writable stream state on compat response,MERGED,2026-04-28T05:24:01Z,2026-04-30T11:16:07Z,2026-04-30T11:16:07Z,53.8683,2,11,0,1006,4,7,3
+nodejs/node,63001,src: add missing <cstdlib> for abort() declaration,MERGED,2026-04-28T03:28:49Z,2026-04-30T04:28:42Z,2026-04-30T04:28:42Z,48.9981,1,2,1,395,8,5,8
+nodejs/node,62995,doc: correct diagnostics_channel built-in channel names,MERGED,2026-04-27T17:30:28Z,2026-04-29T17:55:58Z,2026-04-29T17:55:57Z,48.4247,1,7,7,1961,4,1,2
+nodejs/node,62994,tools: update labels for nixpkgs pin bumps,MERGED,2026-04-27T17:05:05Z,2026-04-29T17:22:09Z,2026-04-29T17:22:09Z,48.2844,1,1,1,1873,4,2,2
+nodejs/node,62993,tools: fix commit linter for semver-major release proposals,MERGED,2026-04-27T16:55:44Z,2026-04-27T19:11:11Z,2026-04-27T19:11:11Z,2.2575,1,2,1,1906,5,3,3
+nodejs/node,62992,src: make node.config.json throw at unknown fields,MERGED,2026-04-27T16:01:04Z,2026-04-29T16:09:20Z,2026-04-29T16:09:20Z,48.1378,3,27,4,59,5,11,2
+nodejs/node,62989,tools: do not include docs in slim tarball,MERGED,2026-04-27T14:01:00Z,2026-04-29T14:05:32Z,2026-04-29T14:05:32Z,48.0756,1,8,2,1919,4,4,2
+nodejs/node,62980,tools: reuse V8 builds even without Cachix on test-shared,MERGED,2026-04-26T22:49:25Z,2026-04-29T15:06:06Z,2026-04-29T15:06:06Z,64.2781,2,55,31,2060,4,2,2
+nodejs/node,62979,lib: refactor internal webidl converters,MERGED,2026-04-26T21:01:09Z,2026-05-04T15:21:46Z,2026-05-04T15:21:46Z,186.3436,18,2813,1063,1952,7,15,21
+nodejs/node,62974,crypto: reject unintended raw key format string input,MERGED,2026-04-26T14:48:56Z,2026-04-28T15:15:23Z,2026-04-28T15:15:23Z,48.4408,2,45,1,48,5,5,5
+nodejs/node,62973,"doc: fix ""cancelation"" in fs, globals, and stream",CLOSED,2026-04-26T14:32:12Z,2026-04-27T20:09:11Z,,29.6164,3,4,4,1757,3,1,1
+nodejs/node,62966,tools: bump postcss from 8.5.8 to 8.5.10 in /tools/doc,MERGED,2026-04-26T02:56:18Z,2026-05-04T22:11:40Z,2026-05-04T22:11:40Z,211.2561,1,3,3,4762,2,2,1
+nodejs/node,62964,deps: patch V8 to 14.6.202.34,MERGED,2026-04-26T01:16:00Z,2026-04-28T01:49:52Z,2026-04-28T01:49:52Z,48.5644,4,68,4,55,4,6,3
+nodejs/node,62963,tools: update nixpkgs-unstable to 01fbdeef22b76df85ea168fbfe1bfd9e636,MERGED,2026-04-26T01:04:21Z,2026-04-28T01:49:42Z,2026-04-28T01:49:42Z,48.7558,1,2,2,87,4,1,3
+nodejs/node,62962,deps: update timezone to 2026b,MERGED,2026-04-26T01:04:17Z,2026-04-28T01:49:31Z,2026-04-28T01:49:31Z,48.7539,2,1,1,369,4,5,2
+nodejs/node,62961,tools: update gyp-next to 0.22.1,MERGED,2026-04-26T01:03:54Z,2026-04-28T01:07:16Z,2026-04-28T01:07:16Z,48.0561,7,21,41,50,5,5,3
+nodejs/node,62960,doc: fix typo in test.md,MERGED,2026-04-25T22:58:53Z,2026-04-27T23:14:32Z,2026-04-27T23:14:32Z,48.2608,1,1,1,1757,10,2,8
+nodejs/node,62958,lib: narrow ReadableStreamBYOBRequest.view return type to Uint8Array,CLOSED,2026-04-25T18:39:36Z,2026-04-28T21:41:04Z,,75.0244,1,1,1,480,5,8,1
+nodejs/node,62955,inspector: fix absolute URLs in network http,MERGED,2026-04-25T13:14:12Z,2026-05-03T03:04:40Z,2026-05-03T03:04:40Z,181.8411,2,175,31,1741,4,18,11
+nodejs/node,62940,lib: fix modulo sign in webidl convertToInt,CLOSED,2026-04-24T23:12:02Z,2026-04-26T22:12:01Z,,46.9997,2,38,16,809,4,4,3
+nodejs/node,62936,http: emit 'drain' on OutgoingMessage only after buffers drain,MERGED,2026-04-24T18:34:25Z,2026-05-04T16:30:53Z,2026-05-04T16:30:53Z,237.9411,3,67,3,2617,6,6,3
+nodejs/node,62932,src: remove outdated comments in contextify,MERGED,2026-04-24T16:27:24Z,2026-04-27T04:07:24Z,2026-04-27T04:07:24Z,59.6667,1,0,30,221,6,4,3
+nodejs/node,62929,src: simplify `TCPWrap::Connect` signature,MERGED,2026-04-24T14:54:47Z,2026-04-26T15:14:51Z,2026-04-26T15:14:51Z,48.3344,2,23,27,1921,5,5,3
+nodejs/node,62926,lib: add NODE_PROXY_TUNNEL env var to disable CONNECT tunneling,CLOSED,2026-04-24T14:25:44Z,2026-04-25T15:57:36Z,,25.5311,5,117,2,2231,3,3,2
+nodejs/node,62925,ffi: support Symbol.dispose on DynamicLibrary,MERGED,2026-04-24T14:14:07Z,2026-04-29T11:13:48Z,2026-04-29T11:13:48Z,116.9947,3,110,1,194,5,11,7
+nodejs/node,62924,src: decouple KeyObject and CryptoKey and move CryptoKey to src,CLOSED,2026-04-24T12:56:19Z,2026-05-03T22:09:23Z,,225.2178,40,2150,758,2636,5,12,6
+nodejs/node,62919,process: handle rejections only when needed,MERGED,2026-04-23T21:17:23Z,2026-04-26T08:39:11Z,2026-04-26T08:39:11Z,59.3633,1,2,1,1530,6,5,4
+nodejs/node,62918,ffi: add shared-buffer fast path for numeric and pointer signatures,MERGED,2026-04-23T21:00:35Z,2026-04-28T09:10:40Z,2026-04-28T09:10:40Z,108.1681,17,2060,29,3871,5,9,6
+nodejs/node,62917,"doc: fix duplicate words in module, util, and worker_threads docs",CLOSED,2026-04-23T18:14:53Z,2026-04-26T13:47:16Z,,67.5397,3,3,3,1757,8,6,6

@@ -1,0 +1,16 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+excalidraw/excalidraw,11264,chore: Remove startBoundElement from state,MERGED,2026-04-30T10:51:27Z,2026-05-02T14:36:42Z,2026-05-02T14:36:42Z,51.7542,9,56,142,88,2,2,1
+excalidraw/excalidraw,11258,fix: Fractional index validation,MERGED,2026-04-29T12:36:29Z,2026-05-04T09:37:18Z,2026-05-04T09:37:18Z,117.0136,18,508,17,187,2,3,1
+excalidraw/excalidraw,11257,fix(editor): fix target element index when creating/adding elements to frames,MERGED,2026-04-29T10:14:12Z,2026-05-05T19:35:32Z,2026-05-05T19:35:32Z,153.3556,21,1407,264,813,2,2,7
+excalidraw/excalidraw,11235,fix(editor): remove extremely large arrows on restore,MERGED,2026-04-24T14:57:09Z,2026-04-25T10:03:51Z,2026-04-25T10:03:51Z,19.1117,4,49,14,125,2,2,1
+excalidraw/excalidraw,11158,docs: change twitter label by X,MERGED,2026-04-12T12:19:33Z,2026-04-13T08:30:59Z,2026-04-13T08:30:59Z,20.1906,1,2,2,111,2,2,2
+excalidraw/excalidraw,11075,fix: pin 9 actions to commit SHA,MERGED,2026-03-28T05:49:37Z,2026-03-30T14:49:27Z,2026-03-30T14:49:27Z,56.9972,6,9,9,1760,2,2,1
+excalidraw/excalidraw,11007,fix(math): correctly validate second point in isLineSegment,MERGED,2026-03-21T20:46:01Z,2026-03-24T18:01:08Z,2026-03-24T18:01:08Z,69.2519,2,26,2,418,3,4,1
+excalidraw/excalidraw,10981,fix: display error feedback for invalid hex color codes,CLOSED,2026-03-19T11:03:23Z,2026-03-19T16:59:50Z,,5.9408,3,94,60,1473,2,2,1
+excalidraw/excalidraw,10963,docs: add webmcp-bridge to integrations,CLOSED,2026-03-16T09:17:20Z,2026-03-16T12:09:08Z,,2.8633,1,1,1,300,2,2,1
+excalidraw/excalidraw,10962,fix: Rotated rounded arrow center point,MERGED,2026-03-16T07:48:50Z,2026-03-23T14:54:59Z,2026-03-23T14:54:59Z,175.1025,7,41,26,121,3,2,2
+excalidraw/excalidraw,10933,fix: Other endpoint is not immediately updated on midpoint snap,MERGED,2026-03-10T12:43:29Z,2026-03-23T14:54:44Z,2026-03-23T14:54:44Z,314.1875,3,43,41,99,2,2,1
+excalidraw/excalidraw,10922,fix: Arrow point index Out-of-Bounds,MERGED,2026-03-09T13:14:22Z,2026-03-21T18:26:48Z,2026-03-21T18:26:48Z,293.2072,3,30,26,664,2,2,1
+excalidraw/excalidraw,10897,feat(editor): mermaid code editor & improve parsing,MERGED,2026-03-05T16:35:01Z,2026-03-05T17:52:42Z,2026-03-05T17:52:41Z,1.2944,19,1490,45,358,2,2,1
+excalidraw/excalidraw,10895,fix: dropdownMenu item badge position,MERGED,2026-03-05T10:45:24Z,2026-03-06T08:41:50Z,2026-03-06T08:41:50Z,21.9406,1,1,1,80,2,1,1
+excalidraw/excalidraw,10880,fix(editor): spacing in the left menu,MERGED,2026-03-03T14:51:40Z,2026-03-03T22:11:31Z,2026-03-03T22:11:31Z,7.3308,1,1,1,844,2,4,1

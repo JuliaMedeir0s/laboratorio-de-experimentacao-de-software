@@ -1,0 +1,58 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+immich-app/immich,28238,chore(deps): update grafana/grafana docker tag to v12.4.3,MERGED,2026-05-05T02:55:37Z,2026-05-05T10:51:18Z,2026-05-05T10:51:18Z,7.9281,1,1,1,2082,1,0,1
+immich-app/immich,28236,chore(deps): update dependency terragrunt to v1.0.3,MERGED,2026-05-05T01:52:01Z,2026-05-05T10:52:15Z,2026-05-05T10:52:15Z,9.0039,2,2,2,19566,1,0,1
+immich-app/immich,28234,fix(mobile): show lens info without lens name,MERGED,2026-05-04T23:40:20Z,2026-05-05T03:46:09Z,2026-05-05T03:46:09Z,4.0969,1,10,1,1289,2,0,1
+immich-app/immich,28231,chore: pump version,MERGED,2026-05-04T17:34:23Z,2026-05-05T21:27:04Z,2026-05-05T21:27:04Z,27.8781,7,8,8,0,2,0,1
+immich-app/immich,28222,fix: stale person name after merge,MERGED,2026-05-04T10:45:58Z,2026-05-05T13:34:49Z,2026-05-05T13:34:49Z,26.8142,1,3,6,17,2,1,1
+immich-app/immich,28217,chore: better contrast for highlighted button on control bar,MERGED,2026-05-04T00:41:37Z,2026-05-04T14:39:38Z,2026-05-04T14:39:37Z,13.9667,1,4,4,299,2,0,1
+immich-app/immich,28204,refactor(server)!: structured validation error responses,MERGED,2026-05-03T11:27:24Z,2026-05-04T04:00:03Z,2026-05-04T04:00:03Z,16.5442,33,456,185,1048,2,5,4
+immich-app/immich,28194,fix: update person name after merging faces,CLOSED,2026-05-02T09:34:09Z,2026-05-04T10:46:17Z,,49.2022,1,1,0,2036,4,5,1
+immich-app/immich,28188,chore: pump dcm to 1.37.0,MERGED,2026-05-01T18:19:40Z,2026-05-01T20:39:30Z,2026-05-01T20:39:30Z,2.3306,2,2,2,0,2,0,1
+immich-app/immich,28187,chore: pump flutter to 3.41.9,MERGED,2026-05-01T18:17:10Z,2026-05-01T20:39:19Z,2026-05-01T20:39:19Z,2.3692,4,4,4,0,3,0,2
+immich-app/immich,28183,fix(web): correct timeline yesterday label across month boundaries,MERGED,2026-05-01T15:03:47Z,2026-05-04T11:46:11Z,2026-05-04T11:46:11Z,68.7067,2,11,1,27,3,1,1
+immich-app/immich,28174,chore: svelte enable svelte_referenced_locally,CLOSED,2026-04-30T20:32:30Z,2026-05-04T12:51:32Z,,88.3172,34,73,43,0,2,0,4
+immich-app/immich,28165,chore: tailwind linting,MERGED,2026-04-30T10:56:34Z,2026-05-01T04:18:03Z,2026-05-01T04:18:03Z,17.3581,248,963,880,207,3,0,4
+immich-app/immich,28163,fix(web): timeline scroll when pressing back from stacked asset,MERGED,2026-04-30T02:11:33Z,2026-04-30T09:39:34Z,2026-04-30T09:39:34Z,7.4669,2,7,7,1650,2,0,1
+immich-app/immich,28162,fix(server): selectively apply metadata bitstream filter for video thumbnails,MERGED,2026-04-29T21:55:23Z,2026-05-01T03:05:09Z,2026-05-01T03:05:09Z,29.1628,2,2,2,1925,2,2,1
+immich-app/immich,28159,chore(server)!: drop pgvecto.rs support,MERGED,2026-04-29T17:27:28Z,2026-04-30T13:40:39Z,2026-04-30T13:40:39Z,20.2197,14,34,174,645,4,3,2
+immich-app/immich,28155,fix(ml): respect time zone for logs in cuda container,MERGED,2026-04-29T13:31:24Z,2026-05-03T04:19:56Z,2026-05-03T04:19:56Z,86.8089,1,1,1,11569,3,5,6
+immich-app/immich,28154,refactor(server)!: sanitize error messages to avoid leaking resource details,MERGED,2026-04-29T12:49:16Z,2026-05-01T14:00:18Z,2026-05-01T14:00:18Z,49.1839,11,32,25,136,3,0,4
+immich-app/immich,28151,fix(docs): Update Tailscale free tier user and device limits,MERGED,2026-04-29T08:09:39Z,2026-04-30T10:19:50Z,2026-04-30T10:19:50Z,26.1697,1,1,1,1742,3,1,1
+immich-app/immich,28147,feat(server): video streaming table definitions,MERGED,2026-04-29T00:08:37Z,2026-04-29T15:48:16Z,2026-04-29T15:48:15Z,15.6606,10,251,1,665,2,0,1
+immich-app/immich,28146,feat: update iOS CI/CD with FUTO build credential,MERGED,2026-04-28T21:26:09Z,2026-04-29T14:06:36Z,2026-04-29T14:06:36Z,16.6742,2,42,42,41,2,0,3
+immich-app/immich,28140,refactor(server)!: remove redundant error and statusCode fields from error responses,MERGED,2026-04-28T15:53:30Z,2026-04-28T21:54:54Z,2026-04-28T21:54:54Z,6.0233,7,18,79,486,3,3,5
+immich-app/immich,28139,refactor(server)!: move correlationId to X-Correlation-ID response header,MERGED,2026-04-28T15:31:45Z,2026-04-28T17:07:39Z,2026-04-28T17:07:39Z,1.5983,5,6,29,907,2,0,1
+immich-app/immich,28135,fix(web): convert shared link expiry to UTC before serialising,MERGED,2026-04-28T14:02:49Z,2026-04-28T16:10:09Z,2026-04-28T16:10:08Z,2.1219,1,3,3,627,2,0,1
+immich-app/immich,28125,chore(deps): update dependency terragrunt to v1.0.2,MERGED,2026-04-28T02:55:24Z,2026-04-28T10:00:45Z,2026-04-28T10:00:45Z,7.0892,2,2,2,16530,1,0,1
+immich-app/immich,28124,chore(deps): update dependency flutter to v3.41.7,MERGED,2026-04-28T02:55:17Z,2026-04-29T15:15:40Z,2026-04-29T15:15:40Z,36.3397,1,1,1,1804,1,0,1
+immich-app/immich,28121,chore(deps): update dependency @immich/ui to v0.76.2,MERGED,2026-04-28T01:02:19Z,2026-04-28T02:54:13Z,2026-04-28T02:54:13Z,1.865,1,39,39,2238,1,0,1
+immich-app/immich,28120,chore(deps): update prom/prometheus docker digest to e425440,MERGED,2026-04-28T00:59:51Z,2026-04-28T10:00:12Z,2026-04-28T10:00:12Z,9.0058,1,1,1,978,2,0,1
+immich-app/immich,28117,fix(web): large files: better handling of asset deletions,MERGED,2026-04-27T16:36:59Z,2026-04-28T16:18:40Z,2026-04-28T16:18:40Z,23.6947,3,19,11,834,2,0,1
+immich-app/immich,28114,fix(web): refresh memories hourly,MERGED,2026-04-27T13:10:58Z,2026-04-28T15:18:52Z,2026-04-28T15:18:52Z,26.1317,1,25,0,1340,2,0,1
+immich-app/immich,28113,refactor: app metadata,MERGED,2026-04-27T13:04:36Z,2026-05-05T03:45:52Z,2026-05-05T03:45:52Z,182.6878,29,14334,117,144,3,0,14
+immich-app/immich,28110,fix: do not emit AlbumInvite event for owner,MERGED,2026-04-27T10:16:17Z,2026-04-27T17:59:47Z,2026-04-27T17:59:47Z,7.725,2,2,2,0,2,0,1
+immich-app/immich,28090,fix(web): double video playback on map timeline,MERGED,2026-04-26T12:14:49Z,2026-04-29T10:11:34Z,2026-04-29T10:11:34Z,69.9458,1,1,1,334,2,0,1
+immich-app/immich,28076,feat(ml): update Intel graphics compiler and compute runtime,MERGED,2026-04-25T11:33:26Z,2026-04-25T12:49:58Z,2026-04-25T12:49:57Z,1.2753,1,4,4,1764,2,0,1
+immich-app/immich,28046,fix(deps): update dependency uuid to v14 [security],MERGED,2026-04-23T04:45:43Z,2026-04-23T09:24:34Z,2026-04-23T09:24:34Z,4.6475,2,9,3,7678,1,0,1
+immich-app/immich,28025,fix(deps): update typescript-projects,MERGED,2026-04-22T10:46:27Z,2026-04-22T14:49:28Z,2026-04-22T14:49:28Z,4.0503,4,2614,2903,57997,1,1,1
+immich-app/immich,28023,feat(server): track video metadata,MERGED,2026-04-22T06:53:29Z,2026-05-01T17:03:49Z,2026-05-01T17:03:49Z,226.1722,31,1693,385,1308,3,2,7
+immich-app/immich,28022,fix: jump to timeline on new auto_router update,MERGED,2026-04-22T03:16:21Z,2026-04-22T15:21:48Z,2026-04-22T15:21:48Z,12.0908,2,2,4,0,2,0,1
+immich-app/immich,28021,fix: oauth prompt,MERGED,2026-04-22T01:23:35Z,2026-04-22T13:19:29Z,2026-04-22T13:19:29Z,11.9317,1,1,1,0,2,0,2
+immich-app/immich,28020,chore: migrate to FUTO Apple's account,MERGED,2026-04-21T21:23:24Z,2026-04-22T16:53:21Z,2026-04-22T16:53:21Z,19.4992,4,55,55,90,2,0,1
+immich-app/immich,28013,chore(web): rename components to PascalCase,MERGED,2026-04-21T14:58:27Z,2026-04-21T16:29:43Z,2026-04-21T16:29:43Z,1.5211,299,448,448,1137,3,5,1
+immich-app/immich,28012,chore: un-skip tests,MERGED,2026-04-21T14:52:08Z,2026-04-21T16:08:24Z,2026-04-21T16:08:23Z,1.2708,1,7,7,0,2,0,1
+immich-app/immich,28008,fix(deps): update typescript-projects,MERGED,2026-04-21T09:41:39Z,2026-04-21T13:29:35Z,2026-04-21T13:29:35Z,3.7989,12,3184,2680,57997,1,2,2
+immich-app/immich,28007,fix(deps): update dependency @mapbox/mapbox-gl-rtl-text to v0.4.0,MERGED,2026-04-21T09:38:11Z,2026-04-21T11:25:31Z,2026-04-21T11:25:31Z,1.7889,2,26,6,2413,1,1,1
+immich-app/immich,28005,chore(deps): update github-actions,MERGED,2026-04-21T09:34:14Z,2026-04-21T11:35:56Z,2026-04-21T11:35:56Z,2.0283,6,10,10,6578,2,0,2
+immich-app/immich,28004,chore(deps): update dependency exiftool-vendored to v35.17.0,MERGED,2026-04-21T09:34:01Z,2026-04-21T11:08:13Z,2026-04-21T11:08:13Z,1.57,1,33,13,2236,1,0,1
+immich-app/immich,28003,chore!: duration in milliseconds,MERGED,2026-04-21T04:45:00Z,2026-04-30T13:44:27Z,2026-04-30T13:44:27Z,224.9908,44,1092,335,778,2,0,9
+immich-app/immich,28002,chore(deps): update dependency terragrunt to v1.0.1,MERGED,2026-04-21T02:03:00Z,2026-04-21T09:23:08Z,2026-04-21T09:23:07Z,7.3353,2,2,2,17338,1,0,1
+immich-app/immich,27999,chore(deps): update dependency opentofu to v1.11.6,MERGED,2026-04-21T00:14:06Z,2026-04-21T11:31:17Z,2026-04-21T11:31:17Z,11.2864,2,2,2,2698,1,0,1
+immich-app/immich,27998,chore(deps): update prom/prometheus docker digest to 5550dc6,MERGED,2026-04-21T00:13:59Z,2026-04-21T09:23:25Z,2026-04-21T09:23:25Z,9.1572,1,1,1,978,1,0,1
+immich-app/immich,27994,fix: show neon light,MERGED,2026-04-20T20:34:34Z,2026-04-21T00:12:55Z,2026-04-21T00:12:55Z,3.6392,1,2,2,0,2,0,1
+immich-app/immich,27991,refactor: test organisation and service test,MERGED,2026-04-20T18:29:02Z,2026-04-20T21:45:20Z,2026-04-20T21:45:20Z,3.2717,15,309,219,0,3,0,5
+immich-app/immich,27984,chore: tags styling,MERGED,2026-04-20T09:47:45Z,2026-04-21T03:06:43Z,2026-04-21T03:06:43Z,17.3161,1,8,15,0,2,1,1
+immich-app/immich,27963,feat(server): add MPO file type support,MERGED,2026-04-19T16:12:02Z,2026-04-20T21:45:54Z,2026-04-20T21:45:54Z,29.5644,6,6,0,1936,4,1,2
+immich-app/immich,27961,fix(mobile): enable autoplay for motion photos in video viewer,MERGED,2026-04-19T15:28:59Z,2026-04-21T20:53:22Z,2026-04-21T20:53:22Z,53.4064,1,1,1,1450,2,0,1
+immich-app/immich,27957,fix(mobile): clear local data on forced logout,MERGED,2026-04-19T12:33:35Z,2026-04-21T20:52:01Z,2026-04-21T20:52:01Z,56.3072,2,9,4,1641,2,0,2
+immich-app/immich,27949,chore(mobile): minor dependency updates,MERGED,2026-04-19T05:10:29Z,2026-04-19T16:56:40Z,2026-04-19T16:56:40Z,11.7697,8,220,336,0,2,0,1

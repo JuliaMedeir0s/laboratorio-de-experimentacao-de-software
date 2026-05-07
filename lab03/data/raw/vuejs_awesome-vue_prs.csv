@@ -1,0 +1,2 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+vuejs/awesome-vue,4339,Add MYDY Dashboard - self-hosted productivity and finance dashboard,MERGED,2026-02-28T19:01:19Z,2026-03-06T15:27:46Z,2026-03-06T15:27:45Z,140.4406,1,1,0,545,3,0,1

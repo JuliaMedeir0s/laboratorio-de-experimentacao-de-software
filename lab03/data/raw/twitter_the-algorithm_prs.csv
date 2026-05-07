@@ -1,0 +1,31 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+twitter/the-algorithm,5821,Create ayy lmao,CLOSED,2024-08-26T20:23:41Z,2024-09-04T05:38:58Z,,201.2547,1,25,0,0,4,10,1
+twitter/the-algorithm,2053,Make the world better,CLOSED,2024-05-20T20:36:52Z,2025-10-04T13:30:28Z,,12040.8933,6906,1,630434,33,7,6,2
+twitter/the-algorithm,2036,remove pronouns,CLOSED,2024-04-16T02:43:07Z,2024-07-12T04:45:33Z,,2090.0406,6886,422157,422157,18,5,3,1
+twitter/the-algorithm,2005,rename with X,CLOSED,2024-02-29T14:52:26Z,2024-11-20T15:12:07Z,,6360.3281,1,8,8,0,3,1,1
+twitter/the-algorithm,1941,fix https://github.com/twitter/the-algorithm/issues/871,CLOSED,2023-12-18T01:20:29Z,2024-03-20T17:41:17Z,,2248.3467,1511,3,194245,1,2,2,1
+twitter/the-algorithm,1920,Fix filename typo,CLOSED,2023-11-07T18:35:44Z,2026-02-20T15:50:29Z,,20061.2458,1,0,0,439,3,1,1
+twitter/the-algorithm,1897,?????????????????,CLOSED,2023-08-28T08:27:34Z,2024-07-07T04:22:37Z,,7531.9175,1,4,55,1,10,9,1
+twitter/the-algorithm,1884,Xification the algorithm code,CLOSED,2023-07-30T20:24:41Z,2023-09-23T07:38:21Z,,1307.2278,9624,171884,171884,181,7,4,5
+twitter/the-algorithm,1838,Removed all unused imports,CLOSED,2023-05-23T04:29:40Z,2024-06-07T08:59:24Z,,9148.4956,5,0,32,27,3,1,1
+twitter/the-algorithm,1837,Update faiss_index_bq_dataset.py,CLOSED,2023-05-23T03:52:49Z,2025-06-16T13:05:47Z,,18129.2161,1,12,8,951,3,1,1
+twitter/the-algorithm,1833,typo fix,CLOSED,2023-05-21T06:55:09Z,2023-05-24T04:10:17Z,,69.2522,1,1,1,0,4,3,1
+twitter/the-algorithm,1820,Add more social crimes,CLOSED,2023-05-08T16:45:10Z,2023-05-17T02:27:29Z,,201.7053,1,69,0,113,6,3,2
+twitter/the-algorithm,1816,NSFW filter adjustment,CLOSED,2023-05-04T16:55:25Z,2023-05-17T02:28:19Z,,297.5483,1,1,1,48,4,1,1
+twitter/the-algorithm,1805,fixed a small typo error,CLOSED,2023-04-23T19:02:36Z,2023-06-04T17:52:07Z,,1006.8253,1,1,1,26,4,3,1
+twitter/the-algorithm,1789,Fixed Python Code,CLOSED,2023-04-17T04:29:43Z,2024-01-19T06:03:43Z,,6649.5667,139,22737,19067,690,7,9,1
+twitter/the-algorithm,1777,[docs] Add CTF Night flag,CLOSED,2023-04-13T14:37:29Z,2023-07-27T04:00:37Z,,2509.3856,1,1,1,51,4,2,1
+twitter/the-algorithm,1740,Deleted All bad practiced code,CLOSED,2023-04-08T13:58:20Z,2023-04-12T12:04:36Z,,94.1044,5364,0,460068,64,8,6,3
+twitter/the-algorithm,1736,Fix 400+ typos,CLOSED,2023-04-08T02:21:06Z,2023-07-31T19:40:35Z,,2753.3247,241,439,439,63,20,12,13
+twitter/the-algorithm,1730,Improved docs for Visiblity lib,CLOSED,2023-04-07T09:01:29Z,2024-12-30T07:57:25Z,,15190.9322,2,22,7,160,3,1,1
+twitter/the-algorithm,1719,Update murmur_hash3.cpp,CLOSED,2023-04-06T19:24:24Z,2024-12-30T07:57:25Z,,15204.5503,2,22,7,23,4,2,1
+twitter/the-algorithm,1712,"Algorithm takes anger management course, replaces source code with angry birds",CLOSED,2023-04-06T15:40:52Z,2023-04-07T09:44:53Z,,18.0669,5616,22416,459366,185,4,2,2
+twitter/the-algorithm,1708,.gitignore,CLOSED,2023-04-06T12:44:01Z,2024-02-11T01:27:15Z,,7452.7206,1,307,0,0,4,1,3
+twitter/the-algorithm,1705,Removing commented-out elements,CLOSED,2023-04-06T11:41:43Z,2024-04-06T05:52:30Z,,8778.1797,1,66,73,92,4,3,1
+twitter/the-algorithm,1674,Replaced the source code with Doom 1993,CLOSED,2023-04-05T10:44:19Z,2023-04-05T19:07:41Z,,8.3894,5362,0,459366,22,131,131,19
+twitter/the-algorithm,1651,Fix unknown typos,CLOSED,2023-04-04T19:54:25Z,2023-04-23T20:05:19Z,,456.1817,2,2,2,18,5,3,1
+twitter/the-algorithm,1649,Create doge.html.json.java.js.lua.rblx.css.cs.py,CLOSED,2023-04-04T19:11:28Z,2023-04-05T01:59:46Z,,6.805,1,13,0,51,7,2,5
+twitter/the-algorithm,1622,Minor fixes,CLOSED,2023-04-04T05:09:20Z,2024-06-08T03:54:08Z,,10342.7467,5364,1,460068,17,12,12,1
+twitter/the-algorithm,1611,Fixed mispositioned comment,CLOSED,2023-04-04T00:36:41Z,2023-04-04T21:24:32Z,,20.7975,1,9,9,60,5,3,1
+twitter/the-algorithm,1600,Variable name typo Corrections,CLOSED,2023-04-03T23:12:39Z,2023-05-14T04:32:53Z,,965.3372,5,9,20,157,3,1,1
+twitter/the-algorithm,1587,navi project dependencies updates and minor refactoring,CLOSED,2023-04-03T19:24:24Z,2023-04-14T22:59:47Z,,267.5897,38,5292,567,305,5,3,1

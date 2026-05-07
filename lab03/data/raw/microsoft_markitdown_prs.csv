@@ -1,0 +1,16 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+microsoft/markitdown,1789,fix: redetect plain-text charset after ASCII-only sniff,CLOSED,2026-04-17T01:51:47Z,2026-04-24T13:53:54Z,,180.0353,2,24,2,1285,3,0,2
+microsoft/markitdown,1736,Add .doc file format support,CLOSED,2026-04-13T12:03:09Z,2026-05-02T11:55:20Z,,455.8697,6,352,25,624,2,0,1
+microsoft/markitdown,1644,fix: handle deeply nested HTML that triggers RecursionError,MERGED,2026-03-28T05:57:00Z,2026-04-15T22:26:44Z,2026-04-15T22:26:44Z,448.4956,2,74,4,1555,3,4,2
+microsoft/markitdown,1612,Fix O(n) memory growth in PDF conversion by calling page.close() afte…,MERGED,2026-03-12T19:10:28Z,2026-03-16T17:35:25Z,2026-03-16T17:35:24Z,94.4156,3,385,19,779,4,2,2
+microsoft/markitdown,1552,[MS] Extend table support for wide tables,MERGED,2026-02-10T11:23:24Z,2026-02-13T18:45:39Z,2026-02-13T18:45:39Z,79.3708,11,710,5,392,3,1,3
+microsoft/markitdown,1551,Remove onnxruntime<=1.20.1 Windows pin,MERGED,2026-02-06T03:15:27Z,2026-02-16T23:05:38Z,2026-02-16T23:05:38Z,259.8364,1,1,1,853,4,6,2
+microsoft/markitdown,1541,[MS] Add OCR layer service for embedded images and PDF scans,MERGED,2026-01-26T18:45:18Z,2026-03-10T16:17:18Z,2026-03-10T16:17:18Z,1029.5333,45,2464,2,10403,4,1,2
+microsoft/markitdown,1527,bump version to 0.1.5,CLOSED,2026-01-08T18:55:52Z,2026-01-09T08:20:01Z,,13.4025,1,1,1,0,2,0,1
+microsoft/markitdown,1525,Fix: PDF parsing doesn't support partially numbered lists,MERGED,2026-01-08T18:37:10Z,2026-01-08T23:15:22Z,2026-01-08T23:15:22Z,4.6367,4,240,1,724,3,0,1
+microsoft/markitdown,1519,fix(pdf): handle partially numbered lists in PDF conversion (#68),CLOSED,2025-12-30T15:32:05Z,2026-01-12T02:29:16Z,,298.9531,1,10,1,602,4,2,2
+microsoft/markitdown,1499,[MS] Update PDF table extraction to support aligned Markdown,MERGED,2025-12-10T13:26:23Z,2026-01-08T00:38:45Z,2026-01-08T00:38:45Z,683.2061,8,1289,21,11462,4,4,6
+microsoft/markitdown,1498,Add AI Badgr as a cheaper OpenAI-compatible backend,CLOSED,2025-12-09T11:33:48Z,2025-12-14T21:01:26Z,,129.4606,1,35,0,1397,2,0,1
+microsoft/markitdown,1421,Added PDF table extraction feature with aligned Markdown,CLOSED,2025-09-17T20:24:07Z,2026-01-23T18:24:06Z,,3069.9997,0,0,0,443,3,4,1
+microsoft/markitdown,1399,Ensure safe ExifTool usage: require >= 12.24,MERGED,2025-08-16T07:47:46Z,2025-08-26T21:25:14Z,2025-08-26T21:25:13Z,253.6242,1,24,2,454,3,0,1
+microsoft/markitdown,1350,Update README.md,MERGED,2025-07-17T09:13:29Z,2025-08-26T22:02:56Z,2025-08-26T22:02:56Z,972.8242,1,1,1,12,3,1,1

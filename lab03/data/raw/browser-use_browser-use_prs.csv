@@ -1,0 +1,57 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+browser-use/browser-use,4770,fix: preserve partial action results when mid-batch action fails,MERGED,2026-04-30T01:04:08Z,2026-05-03T02:02:20Z,2026-05-03T02:02:20Z,72.97,1,9,1,2296,4,5,2
+browser-use/browser-use,4762,fix: the browser automation agent feeds web page dom... in service.py,CLOSED,2026-04-29T07:06:24Z,2026-05-01T22:51:43Z,,63.7553,484,73409,19937,2420,17,2,1
+browser-use/browser-use,4745,docs: document context controls for long-running agents,CLOSED,2026-04-26T13:55:26Z,2026-05-01T18:17:17Z,,124.3642,1,34,0,1798,3,2,1
+browser-use/browser-use,4736,fix(element): redact sensitive values in fill() debug logging,MERGED,2026-04-23T15:19:56Z,2026-04-25T01:08:00Z,2026-04-25T01:08:00Z,33.8011,2,1,2,1541,3,2,1
+browser-use/browser-use,4734,fix(schema): remove unreachable 'type' key from validation fields list,MERGED,2026-04-23T14:00:25Z,2026-04-25T01:08:02Z,2026-04-25T01:08:02Z,35.1269,1,0,1,965,3,1,1
+browser-use/browser-use,4731,fix: remove dead code in optimize_schema(),CLOSED,2026-04-23T05:23:25Z,2026-04-25T01:13:03Z,,43.8272,1,0,4,667,3,3,1
+browser-use/browser-use,4724,fix: implement retry logic for captureScreenshot to avoid timeouts (#…,CLOSED,2026-04-21T18:40:53Z,2026-05-04T16:59:10Z,,310.3047,1,22,7,681,2,0,1
+browser-use/browser-use,4718,fix: robust Docker detection using multi-signal heuristics (#4149),CLOSED,2026-04-21T14:40:53Z,2026-05-04T16:59:09Z,,314.3044,1,26,5,1666,2,1,1
+browser-use/browser-use,4717,fix: video recording speed by implementing frame duplication (#4696),CLOSED,2026-04-21T14:17:26Z,2026-05-04T16:59:09Z,,314.6953,2,28,8,1790,3,1,3
+browser-use/browser-use,4712,docs: fix malformed HTML attributes in README picture/img tags,MERGED,2026-04-21T00:57:59Z,2026-04-21T02:08:44Z,2026-04-21T02:08:44Z,1.1792,1,3,3,1873,3,1,2
+browser-use/browser-use,4711,fix(tools): enforce per-action timeout to prevent hung event handlers,MERGED,2026-04-20T22:23:01Z,2026-04-21T00:59:15Z,2026-04-21T00:59:15Z,2.6039,7,544,20,4410,1,1,8
+browser-use/browser-use,4704,fix: remove dead code `'type'` from second elif branch in optimize_schema(),MERGED,2026-04-19T01:39:54Z,2026-05-01T22:49:24Z,2026-05-01T22:49:24Z,309.1583,0,0,0,1241,3,4,1
+browser-use/browser-use,4690,fix: add utf-8 encoding to Local State file read in list_chrome_profiles,MERGED,2026-04-15T17:08:04Z,2026-04-15T20:09:37Z,2026-04-15T20:09:37Z,3.0258,1,1,1,1311,2,0,1
+browser-use/browser-use,4686,Add explicit clear_input action,CLOSED,2026-04-15T11:04:22Z,2026-04-15T21:37:08Z,,10.5461,6,112,9,485,2,1,1
+browser-use/browser-use,4685,test: regression tests for browser path discovery priority (#4684),CLOSED,2026-04-15T10:20:25Z,2026-04-15T18:14:51Z,,7.9072,1,148,0,1729,2,0,1
+browser-use/browser-use,4680,Find more recent versions of Playwright-installed Chromium for Mac/ARM users,MERGED,2026-04-14T20:12:41Z,2026-05-01T22:45:57Z,2026-05-01T22:45:57Z,410.5544,1,1,1,978,3,3,2
+browser-use/browser-use,4678,improve connect failure UX: fix chrome://inspect link and add fallbac…,MERGED,2026-04-14T18:24:27Z,2026-04-14T22:01:38Z,2026-04-14T22:01:38Z,3.6197,2,15,1,829,2,2,1
+browser-use/browser-use,4675,fix: add 10s timeout wrapper for CDP Runtime.evaluate,CLOSED,2026-04-14T10:05:26Z,2026-05-05T10:55:45Z,,504.8386,1,11,3,1383,3,4,4
+browser-use/browser-use,4667,fix: validate file type against input accept attribute before upload,CLOSED,2026-04-13T02:41:28Z,2026-04-15T21:10:59Z,,66.4919,3,157,10,1719,3,1,1
+browser-use/browser-use,4656,ci: pin stale workflow action,MERGED,2026-04-11T07:14:10Z,2026-04-14T00:34:47Z,2026-04-14T00:34:47Z,65.3436,1,1,1,1580,3,2,1
+browser-use/browser-use,4645,fix #4539: close --all leaves daemon and temp-profile Chrome processes running,CLOSED,2026-04-09T04:26:05Z,2026-05-05T10:55:44Z,,630.4942,3,1816,1725,2039,3,5,3
+browser-use/browser-use,4640,fix(scroll): invalidate enhanced_dom_tree cache after scroll action,CLOSED,2026-04-08T12:09:50Z,2026-04-11T22:05:06Z,,81.9211,1,4,0,1555,2,2,1
+browser-use/browser-use,4637,fix(agent): sort sensitive values by length to prevent partial redaction,CLOSED,2026-04-08T00:53:39Z,2026-04-11T22:19:32Z,,93.4314,1,2,1,1256,2,2,1
+browser-use/browser-use,4632,fix: clear DOM cache after scroll to prevent stale data in extract,CLOSED,2026-04-07T13:21:41Z,2026-04-11T22:06:50Z,,104.7525,1,4,0,2646,3,2,1
+browser-use/browser-use,4630,fix: Python 3.14 compatibility for asyncio in CLI entry points,CLOSED,2026-04-07T09:54:53Z,2026-04-11T22:12:07Z,,108.2872,2,210,42,2126,3,0,3
+browser-use/browser-use,4629,fix: Python 3.14 compatibility for asyncio in CLI entry points,CLOSED,2026-04-07T09:46:49Z,2026-04-11T22:12:09Z,,108.4222,2,174,7,2018,3,0,2
+browser-use/browser-use,4628,fix: prevent partial secret leak in sensitive_data redaction when secrets share substrings (#4609),CLOSED,2026-04-07T09:19:28Z,2026-04-11T22:19:23Z,,108.9986,1,2,1,1131,4,2,2
+browser-use/browser-use,4627,fix(dom): pagination classifier mislabels first/last with shared glyphs (#4620),CLOSED,2026-04-07T07:21:49Z,2026-04-11T22:38:37Z,,111.28,2,184,10,4063,2,1,1
+browser-use/browser-use,4624,fix: redact longer overlapping secrets first,CLOSED,2026-04-06T21:28:15Z,2026-04-11T22:20:47Z,,120.8756,3,26,6,1102,3,2,1
+browser-use/browser-use,4618,fix: sort sensitive values by length desc to prevent substring redaction leaks,CLOSED,2026-04-06T03:30:32Z,2026-04-11T22:18:08Z,,138.7933,1,3,1,1926,3,3,1
+browser-use/browser-use,4617,fix: prefer Playwright's bundled Chromium over system Chrome by default,CLOSED,2026-04-06T03:26:53Z,2026-04-12T15:48:02Z,,156.3525,1,13,9,2583,4,2,1
+browser-use/browser-use,4614,ci: add HOL skill-publish validate workflow,CLOSED,2026-04-05T19:51:31Z,2026-04-08T17:36:44Z,,69.7536,1,35,0,650,1,2,2
+browser-use/browser-use,4600,"Your 89,400 lines in 26 verified instructions (Tardygrada)",CLOSED,2026-04-03T14:16:22Z,2026-04-26T00:52:27Z,,538.6014,2,47,0,974,2,1,1
+browser-use/browser-use,4598,fix: add per-session auth token to daemon socket,MERGED,2026-04-03T00:41:47Z,2026-04-03T17:54:19Z,2026-04-03T17:54:19Z,17.2089,3,62,6,2256,1,1,1
+browser-use/browser-use,4595,perf(dom): single-pass sibling index for xpath,CLOSED,2026-04-02T20:59:00Z,2026-04-05T21:33:57Z,,72.5825,2,80,14,930,3,1,1
+browser-use/browser-use,4594,fix: handle non-200 and malformed responses from CDP /json/version endpoint,CLOSED,2026-04-02T20:58:17Z,2026-04-24T13:56:12Z,,520.9653,3,133,2,3139,3,2,2
+browser-use/browser-use,4593,"fix(llm): guard against empty choices in Groq, DeepSeek, and Cerebras providers",CLOSED,2026-04-02T20:54:58Z,2026-04-24T13:56:20Z,,521.0228,4,103,8,2793,3,2,2
+browser-use/browser-use,4592,fix: add error handling for CDP /json/version endpoint in connect(),CLOSED,2026-04-02T20:54:00Z,2026-04-24T13:56:24Z,,521.04,2,159,1,2848,3,2,2
+browser-use/browser-use,4591,perf(dom): hoist previous backend_node_id set in DOM serializer,CLOSED,2026-04-02T20:42:18Z,2026-04-05T21:33:10Z,,72.8478,2,158,4,1097,3,2,1
+browser-use/browser-use,4590,fix: security and correctness issues found in #4514 review,MERGED,2026-04-02T20:08:12Z,2026-04-02T23:27:37Z,2026-04-02T23:27:37Z,3.3236,3,67,17,1781,1,1,1
+browser-use/browser-use,4589,fix #4579: CDP connection instability causing indefinite hangs with remote browsers,CLOSED,2026-04-02T03:41:27Z,2026-05-05T10:55:44Z,,799.2381,2,26,6,1556,3,3,2
+browser-use/browser-use,4587,perf: fix O(n²) bottlenecks in DOM capture for heavy pages,MERGED,2026-04-01T18:25:29Z,2026-04-02T07:47:08Z,2026-04-02T07:47:08Z,13.3608,4,43,8,3530,1,0,11
+browser-use/browser-use,4576,fix: improve Windows file lock error message in --profile copy (WinError 32/5),CLOSED,2026-03-31T08:15:19Z,2026-04-15T23:46:25Z,,375.5183,2,1253,1222,2099,4,1,2
+browser-use/browser-use,4568,perf(agent): hybrid selector_map matching for history rerun,CLOSED,2026-03-30T06:18:02Z,2026-04-01T14:30:46Z,,56.2122,1,98,43,1477,3,2,1
+browser-use/browser-use,4565,feat(mcp): make MCP server AI-agnostic with direct browser control primitives,CLOSED,2026-03-30T03:54:08Z,2026-03-31T02:20:21Z,,22.4369,3,500,303,3792,3,2,1
+browser-use/browser-use,4562,feat(mcp): make MCP server AI-agnostic with cookie persistence,CLOSED,2026-03-30T02:10:51Z,2026-03-30T03:16:07Z,,1.0878,3,473,297,1980,2,1,2
+browser-use/browser-use,4561,"feat(examples): Inkbox integration — secure identity, vault, and TOTP for browser agents",CLOSED,2026-03-29T19:03:21Z,2026-04-01T14:14:26Z,,67.1847,3,576,0,1471,3,2,8
+browser-use/browser-use,4549,fix(cli): show helpful error on Windows when Chrome profile is locked,CLOSED,2026-03-28T11:32:44Z,2026-04-15T23:46:16Z,,444.2256,1,21,2,1099,3,2,2
+browser-use/browser-use,4547,feat: add AgentSIM phone verification integration,CLOSED,2026-03-28T10:34:58Z,2026-03-29T16:46:34Z,,30.1933,2,161,0,1964,3,1,1
+browser-use/browser-use,4535,"fix: pin 19 unpinned action(s),extract 4 unsafe expression(s) to env vars",CLOSED,2026-03-26T17:08:58Z,2026-03-26T21:21:50Z,,4.2144,7,30,24,5412,2,2,1
+browser-use/browser-use,4532,Feat/dom timing measure env,CLOSED,2026-03-26T03:36:52Z,2026-03-26T20:31:31Z,,16.9108,3,104,86,610,2,3,1
+browser-use/browser-use,4522,Fix JSONDecodeError when done-text contains literal newlines (#4510),CLOSED,2026-03-25T18:21:25Z,2026-03-25T23:15:37Z,,4.9033,1,64,0,1285,3,2,1
+browser-use/browser-use,4521,fix: parse action field when Anthropic returns it as JSON-encoded string with literal newlines,CLOSED,2026-03-25T17:04:23Z,2026-03-25T23:15:08Z,,6.1792,2,148,2,2314,3,2,1
+browser-use/browser-use,4515,Remove litellm from dependencies (supply chain attack),MERGED,2026-03-25T01:22:50Z,2026-03-25T03:36:51Z,2026-03-25T03:36:51Z,2.2336,2,14,6,2198,1,1,4
+browser-use/browser-use,4514,another big cli update,MERGED,2026-03-24T23:39:41Z,2026-04-02T20:06:16Z,2026-04-02T20:06:16Z,212.4431,31,2525,793,4283,1,0,28
+browser-use/browser-use,4508,feat: add disabled flag to SignalHandler for server embedding opt-out,CLOSED,2026-03-24T18:37:47Z,2026-03-25T20:21:12Z,,25.7236,2,68,0,1956,3,1,1

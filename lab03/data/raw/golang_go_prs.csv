@@ -1,0 +1,3 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+golang/go,78761,reflect: use MapMaxElemBytes instead of MapMaxKeyBytes,CLOSED,2026-04-15T13:32:18Z,2026-04-20T23:03:00Z,,129.5117,1,1,1,0,3,15,1
+golang/go,78190,doc: fix typo,CLOSED,2026-03-17T10:29:33Z,2026-03-27T09:41:51Z,,239.205,1,2,2,1298,2,1,1

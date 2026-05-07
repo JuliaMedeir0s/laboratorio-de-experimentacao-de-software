@@ -1,0 +1,65 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+sveltejs/svelte,18178,fix: wrap `Promise.all` in `save` during SSR,MERGED,2026-05-05T17:10:40Z,2026-05-05T18:48:50Z,2026-05-05T18:48:50Z,1.6361,6,32,2,709,2,3,1
+sveltejs/svelte,18154,docs: document $state.snapshot toJSON behavior,MERGED,2026-04-29T08:23:56Z,2026-04-29T16:34:10Z,2026-04-29T16:34:10Z,8.1706,3,6,0,999,2,2,1
+sveltejs/svelte,18153,fix: skip block comments in read_value to prevent apostrophe parsing error,MERGED,2026-04-29T06:12:42Z,2026-04-29T17:47:12Z,2026-04-29T17:47:12Z,11.575,4,31,0,825,2,2,1
+sveltejs/svelte,18147,fix: account for proxified instance when updating `bind:this`,MERGED,2026-04-27T11:15:13Z,2026-04-29T17:45:55Z,2026-04-29T17:45:55Z,54.5117,5,49,1,866,2,3,1
+sveltejs/svelte,18146,fix: lazy props reactivity,MERGED,2026-04-27T01:00:31Z,2026-04-29T19:10:19Z,2026-04-29T19:10:19Z,66.1633,8,61,3,6823,2,2,2
+sveltejs/svelte,18138,fix: allow `@debug` tags to reference awaited variables,MERGED,2026-04-24T09:51:47Z,2026-04-29T18:50:12Z,2026-04-29T18:50:12Z,128.9736,5,58,14,13,2,3,1
+sveltejs/svelte,18131,fix: ensure scheduled batch is flushed if not obsolete,MERGED,2026-04-21T12:45:53Z,2026-04-29T18:57:11Z,2026-04-29T18:57:11Z,198.1883,4,39,1,376,2,3,1
+sveltejs/svelte,18125,Version Packages,MERGED,2026-04-20T12:19:40Z,2026-04-23T23:44:55Z,2026-04-23T23:44:55Z,83.4208,5,10,12,634,1,3,1
+sveltejs/svelte,18124,fix: don't mark deriveds while an effect is updating,MERGED,2026-04-20T12:16:01Z,2026-04-20T14:35:10Z,2026-04-20T14:35:10Z,2.3192,7,77,4,442,2,4,1
+sveltejs/svelte,18122,fix: do not dispatch transition event with animation,MERGED,2026-04-17T20:48:57Z,2026-04-20T12:18:57Z,2026-04-20T12:18:57Z,63.5,4,102,21,388,2,1,1
+sveltejs/svelte,18117,fix: don't rebase just-created batches,MERGED,2026-04-15T10:37:06Z,2026-04-29T20:47:11Z,2026-04-29T20:47:11Z,346.1681,11,313,18,1357,2,3,4
+sveltejs/svelte,18115,chore: fix constructor typo in attributes comment,MERGED,2026-04-15T02:43:48Z,2026-04-29T20:43:37Z,2026-04-29T20:43:37Z,353.9969,1,1,1,327,4,1,2
+sveltejs/svelte,18114,docs: fix spacing around option tag in bind docs,MERGED,2026-04-15T02:40:12Z,2026-04-20T12:12:58Z,2026-04-20T12:12:58Z,129.5461,1,1,1,342,4,2,2
+sveltejs/svelte,18107,fix: flush eager effects in production,MERGED,2026-04-13T21:04:24Z,2026-04-29T22:18:10Z,2026-04-29T22:18:10Z,385.2294,4,57,14,305,3,6,1
+sveltejs/svelte,18106,fix: ignore false-positive errors of `$inspect` dependencies,MERGED,2026-04-13T10:30:11Z,2026-04-29T23:20:43Z,2026-04-29T23:20:43Z,396.8422,7,73,2,421,3,6,3
+sveltejs/svelte,18102,fix: keep flushing new eager effects,MERGED,2026-04-12T20:31:39Z,2026-04-13T09:33:02Z,2026-04-13T09:33:02Z,13.0231,4,73,8,680,2,3,3
+sveltejs/svelte,18100,fix: reset context after waiting on blockers of `@const` expressions,MERGED,2026-04-11T19:31:31Z,2026-04-13T18:09:27Z,2026-04-13T18:09:27Z,46.6322,10,71,23,258,2,3,1
+sveltejs/svelte,18091,"gather dependencies synchronously, and non-transitively",MERGED,2026-04-09T20:34:00Z,2026-04-09T21:38:40Z,2026-04-09T21:38:40Z,1.0778,2,29,47,69,2,3,4
+sveltejs/svelte,18090,capture reads in get,CLOSED,2026-04-09T19:39:49Z,2026-04-09T20:47:13Z,,1.1233,2,28,54,30,2,7,2
+sveltejs/svelte,18089,fix: avoid false positives for reactivity loss warning,CLOSED,2026-04-09T16:50:05Z,2026-04-09T19:42:38Z,,2.8758,10,95,19,1093,2,4,5
+sveltejs/svelte,18088,fix: avoid false positives for reactivity loss warning,MERGED,2026-04-09T13:53:42Z,2026-04-10T01:05:26Z,2026-04-10T01:05:26Z,11.1956,14,213,15,754,2,3,17
+sveltejs/svelte,18085,Version Packages,MERGED,2026-04-08T16:58:56Z,2026-04-10T13:22:43Z,2026-04-10T13:22:43Z,44.3964,8,16,27,958,1,3,1
+sveltejs/svelte,18081,chore(deps): bump vite from 5.4.20 to 7.3.2,MERGED,2026-04-08T08:03:19Z,2026-04-08T15:52:02Z,2026-04-08T15:52:02Z,7.8119,1,8,8,12356,1,3,1
+sveltejs/svelte,18079,fix: ensure proper HMR updates for dynamic components,MERGED,2026-04-07T20:37:19Z,2026-04-08T20:49:04Z,2026-04-08T20:49:04Z,24.1958,7,61,3,686,3,3,2
+sveltejs/svelte,18077,chore: simplify parser,MERGED,2026-04-07T13:59:43Z,2026-04-07T19:06:21Z,2026-04-07T19:06:21Z,5.1106,5,69,72,914,2,3,6
+sveltejs/svelte,18076,fix: defer error boundary rendering in forks,MERGED,2026-04-06T20:00:06Z,2026-04-08T16:57:59Z,2026-04-08T16:57:59Z,44.9647,6,100,6,595,2,3,1
+sveltejs/svelte,18075,fix: handle parens in template expressions more robustly,MERGED,2026-04-06T19:32:52Z,2026-04-06T21:42:32Z,2026-04-06T21:42:32Z,2.1611,7,100,65,1038,2,3,1
+sveltejs/svelte,18074,chore(deps-dev): bump vite from 7.1.11 to 7.3.2,MERGED,2026-04-06T19:27:59Z,2026-04-07T21:38:28Z,2026-04-07T21:38:28Z,26.1747,2,584,54,12307,1,3,1
+sveltejs/svelte,18066,docs: add Svelte Inspector documentation,CLOSED,2026-04-04T11:54:24Z,2026-04-06T14:23:45Z,,50.4892,1,130,0,43,4,4,1
+sveltejs/svelte,18065,docs: add CSS custom properties section to style directive,MERGED,2026-04-04T10:40:48Z,2026-04-06T14:24:56Z,2026-04-06T14:24:56Z,51.7356,1,6,0,326,2,2,1
+sveltejs/svelte,18063,fix: correct types for `ontoggle` on <details> elements,MERGED,2026-04-04T02:05:05Z,2026-04-06T14:34:33Z,2026-04-06T14:34:33Z,60.4911,2,8,3,899,3,4,1
+sveltejs/svelte,18058,fix: use push_renderer_if_inactive in compiled components,CLOSED,2026-04-03T18:26:25Z,2026-04-08T23:40:32Z,,125.2353,3,25,3,1892,3,10,1
+sveltejs/svelte,18054,fix: don't reset status of uninitialized deriveds,MERGED,2026-04-02T13:33:55Z,2026-04-06T14:52:29Z,2026-04-06T14:52:29Z,97.3094,4,46,1,963,2,3,1
+sveltejs/svelte,18048,fix: unskip branches of earlier batches after commit,MERGED,2026-04-01T23:28:27Z,2026-04-06T16:11:08Z,2026-04-06T16:11:08Z,112.7114,4,100,3,854,2,3,2
+sveltejs/svelte,18047,chore: agent hints for perf investigations,MERGED,2026-04-01T21:42:07Z,2026-04-02T17:49:23Z,2026-04-02T17:49:23Z,20.1211,3,162,0,521,2,3,4
+sveltejs/svelte,18046,chore: squelch hydration warnings in tests,MERGED,2026-04-01T20:00:20Z,2026-04-03T22:38:09Z,2026-04-03T22:38:09Z,50.6303,2,6,2,311,2,3,1
+sveltejs/svelte,18041,fix: invalidate `@const` tags based on visible references in legacy mode,MERGED,2026-03-31T22:26:38Z,2026-04-01T08:36:26Z,2026-04-01T08:36:26Z,10.1633,4,55,1,731,2,3,1
+sveltejs/svelte,18040,fix: skip rebase logic in non-async mode,MERGED,2026-03-31T21:25:17Z,2026-04-06T14:59:37Z,2026-04-06T14:59:37Z,137.5722,5,49,1,697,2,3,2
+sveltejs/svelte,18039,fix: correctly calculate `@const` blockers,MERGED,2026-03-31T21:06:12Z,2026-04-09T18:21:47Z,2026-04-09T18:21:47Z,213.2597,11,107,75,484,2,3,1
+sveltejs/svelte,18038,fix: disallow `--` in `idPrefix`,MERGED,2026-03-31T20:43:32Z,2026-04-01T08:34:58Z,2026-04-01T08:34:58Z,11.8572,5,31,0,734,2,4,2
+sveltejs/svelte,18037,fix: never set derived.v inside fork,MERGED,2026-03-31T20:29:06Z,2026-04-02T12:42:41Z,2026-04-02T12:42:41Z,40.2264,6,65,24,932,2,3,4
+sveltejs/svelte,18036,Version Packages,MERGED,2026-03-31T16:51:31Z,2026-04-07T19:52:40Z,2026-04-07T19:52:40Z,171.0192,12,24,47,1417,1,9,2
+sveltejs/svelte,18034,fix: don't override `$destroy/set/on` instance methods in dev mode,MERGED,2026-03-31T11:56:58Z,2026-03-31T16:47:54Z,2026-03-31T16:47:54Z,4.8489,2,6,1,50,2,2,1
+sveltejs/svelte,18032,fix: correctly calculate `@const` blockers,CLOSED,2026-03-30T20:31:10Z,2026-03-31T20:23:17Z,,23.8686,23,500,349,214,1,4,1
+sveltejs/svelte,18027,docs: update references to `vite-plugin-svelte`,MERGED,2026-03-29T15:44:46Z,2026-03-31T17:05:53Z,2026-03-31T17:05:53Z,49.3519,1,7,23,702,3,2,7
+sveltejs/svelte,18025,fix: pin 9 actions to commit SHA,MERGED,2026-03-28T13:30:32Z,2026-03-31T17:04:10Z,2026-03-31T17:04:10Z,75.5606,4,9,9,1411,2,1,1
+sveltejs/svelte,18016,fix: improve duplicate module import error message,MERGED,2026-03-26T11:11:50Z,2026-03-29T20:04:19Z,2026-03-29T20:04:19Z,80.8747,6,10,6,2770,2,2,1
+sveltejs/svelte,18015,fix: cleanup `superTypeParameters` in `ClassDeclarations`/`ClassExpression`,MERGED,2026-03-26T10:49:15Z,2026-03-28T16:30:49Z,2026-03-28T16:30:49Z,53.6928,5,19,6,1055,2,5,1
+sveltejs/svelte,18009,fix: correctly handle bindings on the server,MERGED,2026-03-25T23:52:03Z,2026-03-29T19:56:27Z,2026-03-29T19:56:27Z,92.0733,7,43,3,98,2,2,1
+sveltejs/svelte,18006,Version Packages,MERGED,2026-03-25T08:28:36Z,2026-03-29T20:57:21Z,2026-03-29T20:57:21Z,108.4792,8,16,27,965,1,3,1
+sveltejs/svelte,17999,fix: prevent hydration error on async `{@html ...}`,MERGED,2026-03-24T15:48:28Z,2026-03-25T08:27:47Z,2026-03-25T08:27:47Z,16.6553,4,30,3,13,2,3,1
+sveltejs/svelte,17998,fix: never write to ´v´ property in forks,CLOSED,2026-03-24T15:05:22Z,2026-04-02T12:43:03Z,,213.6281,8,81,28,505,2,4,6
+sveltejs/svelte,17985,fix: ensure HMR wrapper forwards correct start/end nodes to active effect,MERGED,2026-03-22T21:22:59Z,2026-03-23T00:46:36Z,2026-03-23T00:46:36Z,3.3936,2,11,23,451,2,3,1
+sveltejs/svelte,17984,Version Packages,MERGED,2026-03-22T17:30:40Z,2026-03-23T14:08:50Z,2026-03-23T14:08:50Z,20.6361,5,12,12,693,1,3,1
+sveltejs/svelte,17983,docs: 'open in playground' links,MERGED,2026-03-21T22:39:14Z,2026-03-24T15:31:17Z,2026-03-24T15:31:17Z,64.8675,8,235,25,462,2,3,1
+sveltejs/svelte,17980,fix: null out effect.b in destroy_effect to prevent memory leak,MERGED,2026-03-21T00:07:30Z,2026-03-21T12:33:45Z,2026-03-21T12:33:45Z,12.4375,2,6,0,1525,3,3,1
+sveltejs/svelte,17977,fix: group sync statements,MERGED,2026-03-20T17:18:18Z,2026-03-21T12:29:39Z,2026-03-21T12:29:39Z,19.1892,10,184,74,204,2,2,4
+sveltejs/svelte,17975,fix: hydration comments during hmr,MERGED,2026-03-20T11:50:00Z,2026-03-20T21:23:57Z,2026-03-20T21:23:57Z,9.5658,5,41,8,687,2,2,1
+sveltejs/svelte,17974,fix: svelte:element hydration in raw text elements,CLOSED,2026-03-20T10:54:31Z,2026-03-31T18:06:21Z,,271.1972,5,45,4,658,3,8,2
+sveltejs/svelte,17967,"fix: export TweenOptions, SpringOptions, SpringUpdateOptions and Updater from svelte/motion",MERGED,2026-03-18T23:12:12Z,2026-03-22T17:29:53Z,2026-03-22T17:29:53Z,90.2947,7,128,102,1232,2,2,5
+sveltejs/svelte,17966,fix: properly invoke `iterator.return()` during reactivity loss check,MERGED,2026-03-18T20:12:25Z,2026-03-20T07:37:21Z,2026-03-20T07:37:21Z,35.4156,4,69,2,164,3,2,2
+sveltejs/svelte,17965,Version Packages,MERGED,2026-03-18T16:44:10Z,2026-03-21T13:29:57Z,2026-03-21T13:29:57Z,68.7631,9,18,32,1071,1,2,1
+sveltejs/svelte,17962,fix: remove trailing semicolon from {@const} tag printer,MERGED,2026-03-18T08:24:24Z,2026-03-21T12:34:31Z,2026-03-21T12:34:31Z,76.1686,3,13,3,942,2,1,1
+sveltejs/svelte,17959,docs: recommend createContext as the primary method for context,MERGED,2026-03-18T06:08:11Z,2026-03-22T17:09:14Z,2026-03-22T17:09:14Z,107.0175,1,96,28,713,2,2,3

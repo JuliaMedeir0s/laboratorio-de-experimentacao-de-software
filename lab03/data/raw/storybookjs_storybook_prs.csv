@@ -1,0 +1,68 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+storybookjs/storybook,34707,Maintenance: Enhance ghost stories internal tests,MERGED,2026-05-04T18:29:16Z,2026-05-05T09:58:14Z,2026-05-05T09:58:14Z,15.4828,8,61,60,5065,2,2,3
+storybookjs/storybook,34706,UI: Fix showing and hiding copy prompt in the correct scenarios,MERGED,2026-05-04T17:20:03Z,2026-05-05T06:14:17Z,2026-05-05T06:14:17Z,12.9039,7,410,198,5492,2,1,5
+storybookjs/storybook,34705,Agentic Setup: Show Discord and human docs only to humans,MERGED,2026-05-04T14:49:10Z,2026-05-04T16:30:07Z,2026-05-04T16:30:07Z,1.6825,2,16,2,571,3,1,3
+storybookjs/storybook,34704,Agentic Setup: Keep sample content if users want onboarding,MERGED,2026-05-04T14:48:46Z,2026-05-05T03:20:36Z,2026-05-05T03:20:36Z,12.5306,6,21,5,528,4,1,14
+storybookjs/storybook,34699,CLI: Improve self-healing scoring observability,MERGED,2026-05-04T10:46:22Z,2026-05-04T13:49:16Z,2026-05-04T13:49:16Z,3.0483,11,359,113,4924,2,1,5
+storybookjs/storybook,34698,Agentic Setup: Remove redundant ai-setup-evidence event,MERGED,2026-05-04T09:54:19Z,2026-05-04T14:54:38Z,2026-05-04T14:54:38Z,5.0053,10,7,688,1235,3,1,5
+storybookjs/storybook,34697,Test: Improve stack trace when failing on console.warn/error,MERGED,2026-05-04T09:00:01Z,2026-05-04T10:31:19Z,2026-05-04T10:31:19Z,1.5217,7,272,287,4045,2,1,3
+storybookjs/storybook,34696,Agentic Setup: Fix onboarding copy prompt CTA appearing without hover,MERGED,2026-05-04T08:08:10Z,2026-05-04T11:33:02Z,2026-05-04T11:33:02Z,3.4144,1,6,1,547,3,1,2
+storybookjs/storybook,34683,"Core: Add ""Clear filters"" button and improve filter tooltips",MERGED,2026-05-01T15:10:04Z,2026-05-05T14:53:29Z,2026-05-05T14:53:29Z,95.7236,12,194,93,3892,2,2,5
+storybookjs/storybook,34678,CLI: Fix agentic check,MERGED,2026-04-30T18:29:53Z,2026-05-01T09:01:38Z,2026-05-01T09:01:38Z,14.5292,2,22,2,4762,3,2,3
+storybookjs/storybook,34675,Core: Barrel-aware named import resolution for change detection,MERGED,2026-04-30T13:25:12Z,2026-05-05T19:22:59Z,2026-05-05T19:22:59Z,125.9631,23,1336,142,2481,3,6,5
+storybookjs/storybook,34670,Telemetry: Fix delayed init events,MERGED,2026-04-30T11:49:07Z,2026-05-01T07:27:21Z,2026-05-01T07:27:21Z,19.6372,7,101,67,4965,4,1,8
+storybookjs/storybook,34667,Chore: Move eslint-plugin lib formatting to oxfmt,MERGED,2026-04-30T10:16:03Z,2026-05-04T13:48:39Z,2026-05-04T13:48:39Z,99.5433,19,96,73,4186,3,1,4
+storybookjs/storybook,34666,Chore: Ignore eslint-plugin.mdx for oxfmt,CLOSED,2026-04-30T10:00:30Z,2026-05-04T13:58:07Z,,99.9603,2,18,18,4058,3,2,3
+storybookjs/storybook,34665,ReactNative: New init setup,MERGED,2026-04-30T08:53:06Z,2026-05-05T08:49:27Z,2026-05-05T08:49:27Z,119.9392,6,450,21,5159,4,2,14
+storybookjs/storybook,34663,ReactNative: Add true entrypoint generation,MERGED,2026-04-30T08:27:36Z,2026-05-04T14:47:57Z,2026-05-04T14:47:57Z,102.3392,6,412,0,3756,4,1,8
+storybookjs/storybook,34662,"Prompt: Run vitest less times, improve play functions",CLOSED,2026-04-30T08:21:30Z,2026-04-30T12:30:46Z,,4.1544,9,349,34,4036,1,3,1
+storybookjs/storybook,34660,ReactNative: Add Metro config AST codemod for init,MERGED,2026-04-30T07:44:37Z,2026-05-05T07:35:24Z,2026-05-05T07:35:24Z,119.8464,2,1076,0,3690,4,2,13
+storybookjs/storybook,34659,Automigration: Move RN on-device addons to `deviceAddons`,MERGED,2026-04-30T07:32:57Z,2026-05-04T07:29:22Z,2026-05-04T07:29:22Z,95.9403,4,553,0,7057,4,1,12
+storybookjs/storybook,34654,Docs: Improve `fn` details for Actions,MERGED,2026-04-29T17:44:59Z,2026-04-29T23:28:26Z,2026-04-29T23:28:26Z,5.7242,1,11,5,2028,3,1,4
+storybookjs/storybook,34653,Maintenance: Share constant for `.rnstorybook`,MERGED,2026-04-29T15:17:47Z,2026-04-30T07:16:51Z,2026-04-30T07:16:51Z,15.9844,4,10,7,3426,3,1,3
+storybookjs/storybook,34652,"Core: Update change detection terminology from ""affected"" to ""related""",MERGED,2026-04-29T12:10:39Z,2026-04-30T22:49:59Z,2026-04-30T22:49:59Z,34.6556,12,63,50,3859,2,2,2
+storybookjs/storybook,34651,"Prompt: Run vitest fewer times, improve play functions",MERGED,2026-04-29T07:58:41Z,2026-05-04T14:32:18Z,2026-05-04T14:32:18Z,126.5603,46,1453,157,4387,3,2,18
+storybookjs/storybook,34650,CLI: Do not show onboarding when AI is selected,MERGED,2026-04-29T06:23:18Z,2026-04-29T14:48:57Z,2026-04-29T14:48:57Z,8.4275,3,52,2,5117,2,2,9
+storybookjs/storybook,34646,Docs: Fix Fully custom args example for Web components with CSF Next,MERGED,2026-04-28T07:40:15Z,2026-04-28T23:09:55Z,2026-04-28T23:09:55Z,15.4944,1,1,1,3051,2,1,1
+storybookjs/storybook,34642,Build: Stop writing version JSON-files when publishing,MERGED,2026-04-27T11:41:13Z,2026-04-27T14:57:36Z,2026-04-27T14:57:36Z,3.2731,8,4,81,4153,2,2,2
+storybookjs/storybook,34641,React: Add optional React type peers to packages that publish React-based declarations,MERGED,2026-04-27T09:42:22Z,2026-04-28T14:42:08Z,2026-04-28T14:42:07Z,28.9958,8,83,0,5425,3,3,2
+storybookjs/storybook,34639,Docs: Add tanstack documentation,MERGED,2026-04-27T08:04:59Z,2026-05-05T18:51:44Z,2026-05-05T18:51:44Z,202.7792,19,1020,2,3736,3,1,16
+storybookjs/storybook,34638,fix: the github api client in scripts/utils/githubcl... in...,CLOSED,2026-04-27T03:39:15Z,2026-04-27T08:46:43Z,,5.1244,1,1,1,1306,3,2,2
+storybookjs/storybook,34637,fix: the github api client at scripts/utils/githubcl... in...,CLOSED,2026-04-27T03:37:53Z,2026-04-27T08:46:43Z,,5.1472,1,5,1,1440,2,2,1
+storybookjs/storybook,34635,fix: the http endpoint /manifests/:name in manifests.ts,CLOSED,2026-04-27T01:53:01Z,2026-04-27T08:46:42Z,,6.8947,1,8,2,1601,2,2,1
+storybookjs/storybook,34634,fix: Storybook + Next + Netlify,CLOSED,2026-04-26T18:08:33Z,2026-04-27T07:22:56Z,,13.2397,1,10,0,1267,2,1,1
+storybookjs/storybook,34633,"fix: upgrade form-data to 2.5.4, 3.0.4, 4.0.4 (CVE-2025-7783)",CLOSED,2026-04-26T09:59:22Z,2026-04-27T08:46:43Z,,22.7892,2,27,2,816,2,2,1
+storybookjs/storybook,34632,docs: prefer userEvent in unit test examples,MERGED,2026-04-26T01:21:52Z,2026-05-01T17:31:51Z,2026-05-01T17:31:51Z,136.1664,4,89,34,1527,3,3,1
+storybookjs/storybook,34625,Change Detection: Build module graph with oxc tooling,MERGED,2026-04-24T13:12:47Z,2026-05-05T14:14:53Z,2026-05-05T14:14:53Z,265.035,68,6178,1410,7238,4,6,16
+storybookjs/storybook,34622,fix: upgrade happy-dom to 20.0.0 (CVE-2025-61927),CLOSED,2026-04-24T09:39:48Z,2026-04-27T08:46:42Z,,71.115,2,16,1,848,2,2,1
+storybookjs/storybook,34618,Ci: Allow branch selection for sandbox generation,MERGED,2026-04-23T19:38:48Z,2026-04-27T11:15:26Z,2026-04-27T11:15:25Z,87.6103,1,32,78,4084,2,2,2
+storybookjs/storybook,34612,Eval: Add sync-storybook-version harness + --skip-automigrations upgrade flag,MERGED,2026-04-22T11:59:54Z,2026-04-28T07:56:11Z,2026-04-28T07:56:11Z,139.9381,7,762,5,5669,2,3,2
+storybookjs/storybook,34611,MDX: Replace `@storybook/docs-mdx` with inline implementation,MERGED,2026-04-22T09:13:31Z,2026-05-05T09:28:21Z,2026-05-05T09:28:21Z,312.2472,7,700,16,5336,3,7,8
+storybookjs/storybook,34606,Show currently visible count in TagsFilterPanel,CLOSED,2026-04-21T17:18:48Z,2026-04-21T18:34:09Z,,1.2558,4,135,6,3785,1,1,1
+storybookjs/storybook,34602,CLI: Source eval prompts from ai setup via EVAL_SETUP_PROMPT,MERGED,2026-04-20T14:49:43Z,2026-04-30T05:16:10Z,2026-04-30T05:16:10Z,230.4408,23,1588,1520,5736,4,4,26
+storybookjs/storybook,34600,Telemetry: Report CssCheck result in ai-setup-final-scoring,MERGED,2026-04-20T14:23:30Z,2026-04-28T07:55:57Z,2026-04-28T07:55:57Z,185.5408,5,133,0,5453,4,4,3
+storybookjs/storybook,34599,Build: Disable NX workflow,MERGED,2026-04-20T14:18:59Z,2026-04-21T07:41:19Z,2026-04-21T07:41:19Z,17.3722,1,4,8,3834,1,1,1
+storybookjs/storybook,34596,CLI: Sync storybook setup prompt with eval pattern-copy-play improvements,CLOSED,2026-04-19T17:39:34Z,2026-04-20T15:04:12Z,,21.4106,1,169,2,4961,2,3,3
+storybookjs/storybook,34595,Eval: Record hasCssCheckStory when the diff adds CssCheck,MERGED,2026-04-19T17:06:25Z,2026-04-29T10:51:09Z,2026-04-29T10:51:08Z,233.7453,5,18,0,5564,3,3,6
+storybookjs/storybook,34589,Add missing vite peer dependency in vite-based frameworks,MERGED,2026-04-17T15:18:37Z,2026-04-27T11:32:25Z,2026-04-27T11:32:25Z,236.23,4,9,3,3971,3,2,1
+storybookjs/storybook,34586,CLI: Change mock event detection,MERGED,2026-04-17T11:12:09Z,2026-04-17T15:15:53Z,2026-04-17T15:15:53Z,4.0622,2,26,9,3848,2,3,2
+storybookjs/storybook,34585,Core: Ensure process termination on SIGINT when telemetry is disabled,MERGED,2026-04-17T09:52:53Z,2026-04-17T11:15:02Z,2026-04-17T11:15:02Z,1.3692,1,20,16,2952,3,2,3
+storybookjs/storybook,34577,CLI: Skip AI prompts in React Native during init,MERGED,2026-04-17T07:38:18Z,2026-04-17T15:14:51Z,2026-04-17T15:14:51Z,7.6092,4,33,10,3939,2,4,2
+storybookjs/storybook,34563,Build: NX evaluation — ci:merged,CLOSED,2026-04-16T10:18:11Z,2026-04-17T07:20:26Z,,21.0375,1,1,1,1648,1,3,1
+storybookjs/storybook,34561,CLI: Skip AI recommendation for empty projects initialization,MERGED,2026-04-16T10:16:57Z,2026-04-17T15:15:04Z,2026-04-17T15:15:04Z,28.9686,2,5,2,4911,2,2,2
+storybookjs/storybook,34560,Documentation: Add agentic flow and storybook ai command docs,MERGED,2026-04-16T10:15:59Z,2026-04-17T16:32:32Z,2026-04-17T16:32:32Z,30.2758,9,143,0,4007,2,1,4
+storybookjs/storybook,34555,UI: Conditionally display AI copy prompt,MERGED,2026-04-15T16:01:03Z,2026-04-18T06:48:28Z,2026-04-18T06:48:28Z,62.7903,19,604,274,4974,2,2,6
+storybookjs/storybook,34552,CLI: Review onboarding trigger logic on first dev run,MERGED,2026-04-15T14:25:34Z,2026-04-16T10:33:40Z,2026-04-16T10:33:40Z,20.135,3,112,15,2647,2,4,4
+storybookjs/storybook,34547,Build: Add FIX_ON_COMMIT env var to force autofix in pre-commit hook,MERGED,2026-04-15T10:31:45Z,2026-04-15T12:30:16Z,2026-04-15T12:30:16Z,1.9753,2,6,3,3625,2,3,1
+storybookjs/storybook,34546,"Eval: CLI help, vitest:storybook grading, prompt improvements",MERGED,2026-04-15T10:10:27Z,2026-04-17T10:48:29Z,2026-04-17T10:48:29Z,48.6339,29,700,678,3491,2,3,8
+storybookjs/storybook,34543,Agentic Setup: Rename 'ai prepare' to 'ai setup' across the codebase,MERGED,2026-04-15T07:59:26Z,2026-04-15T09:08:24Z,2026-04-15T09:08:24Z,1.1494,40,216,218,515,2,2,3
+storybookjs/storybook,34541,Docs: Updated wording for European Accessbility Act,MERGED,2026-04-14T17:34:32Z,2026-04-27T07:20:44Z,2026-04-27T07:20:44Z,301.77,1,1,1,2538,2,1,2
+storybookjs/storybook,34540,fix(manager-api): add generic type parameter to useArgs hook,CLOSED,2026-04-14T14:33:25Z,2026-04-15T11:18:43Z,,20.755,2,92,4,3436,2,2,1
+storybookjs/storybook,34537,Core: Agentic observability for vitest and ghost stories,MERGED,2026-04-14T12:22:02Z,2026-04-15T13:52:17Z,2026-04-15T13:52:17Z,25.5042,29,1035,211,5281,2,4,11
+storybookjs/storybook,34533,Telemetry: Add sidebar filter telemetry for change detection,MERGED,2026-04-13T13:25:34Z,2026-04-29T11:24:25Z,2026-04-29T11:24:25Z,381.9808,11,205,55,6072,3,4,8
+storybookjs/storybook,34532,CLI: Improve ai prepare prompt,MERGED,2026-04-13T13:16:30Z,2026-04-13T14:17:03Z,2026-04-13T14:17:03Z,1.0092,1,553,123,3916,2,2,2
+storybookjs/storybook,34530,Docs: Add change detection documentation,MERGED,2026-04-13T11:34:38Z,2026-04-17T14:27:37Z,2026-04-17T14:27:37Z,98.8831,10,141,12,5250,2,1,6
+storybookjs/storybook,34528,fix(vue3): update reactive globals before calling storyFn,CLOSED,2026-04-12T04:03:46Z,2026-04-24T05:26:10Z,,289.3733,1,10,1,817,3,2,1
+storybookjs/storybook,34527,UI: Add `ai prepare` copy prompt CTAs to onboarding checklist,MERGED,2026-04-11T22:19:59Z,2026-04-14T14:59:49Z,2026-04-14T14:59:49Z,64.6639,23,777,121,3434,3,3,20
+storybookjs/storybook,34526,CLI: Stop running dev automatically on init,MERGED,2026-04-11T19:24:03Z,2026-04-13T18:40:09Z,2026-04-13T18:40:09Z,47.2683,12,512,237,4234,3,4,14
+storybookjs/storybook,34520,CLI: Add storybook skills file and commands to install them,CLOSED,2026-04-10T13:01:51Z,2026-04-14T09:42:16Z,,92.6736,8,114,14,5059,2,5,4

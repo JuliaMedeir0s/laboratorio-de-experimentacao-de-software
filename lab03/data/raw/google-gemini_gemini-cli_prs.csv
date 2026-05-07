@@ -1,0 +1,63 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+google-gemini/gemini-cli,26534,fix(core): Fix chat corruption bug in context manager.,MERGED,2026-05-05T19:51:28Z,2026-05-05T23:07:18Z,2026-05-05T23:07:17Z,3.2636,8,428,63,12,2,2,3
+google-gemini/gemini-cli,26527,docs: clarify Auto Memory proposes memory updates and skills,MERGED,2026-05-05T18:18:04Z,2026-05-05T19:56:01Z,2026-05-05T19:56:01Z,1.6325,2,61,39,2187,3,2,3
+google-gemini/gemini-cli,26519,fix(core): retry on ERR_STREAM_PREMATURE_CLOSE errors,MERGED,2026-05-05T17:51:42Z,2026-05-05T19:34:47Z,2026-05-05T19:34:47Z,1.7181,2,63,0,1273,2,2,2
+google-gemini/gemini-cli,26513,Triage Workflow Fixes,CLOSED,2026-05-05T16:36:56Z,2026-05-05T21:27:28Z,,4.8422,2,44,66,1603,3,8,1
+google-gemini/gemini-cli,26508,fix(patch): cherry-pick 1d72a12 to release/v0.41.0-preview.1-pr-26479 to patch version v0.41.0-preview.1 and create version 0.41.0-preview.2,MERGED,2026-05-05T15:53:41Z,2026-05-05T17:59:00Z,2026-05-05T17:59:00Z,2.0886,4,359,54,176,3,2,2
+google-gemini/gemini-cli,26506,feat: allow queuing messages during compression (#24071),MERGED,2026-05-05T15:47:09Z,2026-05-05T18:48:41Z,2026-05-05T18:48:41Z,3.0256,6,179,38,2856,2,5,4
+google-gemini/gemini-cli,26480,"feat(core): steer model to use edit tool for surgical edits, fix a typo",MERGED,2026-05-05T02:35:00Z,2026-05-05T19:51:57Z,2026-05-05T19:51:57Z,17.2825,4,24,24,1679,3,3,6
+google-gemini/gemini-cli,26479,fix(a2a-server): resolve tool approval race condition and improve status reporting,MERGED,2026-05-05T01:44:10Z,2026-05-05T02:59:48Z,2026-05-05T02:59:47Z,1.2603,4,359,54,2026,2,8,2
+google-gemini/gemini-cli,26476,fix(ci): require nudge label before closing old PRs,CLOSED,2026-05-04T23:12:58Z,2026-05-05T00:58:43Z,,1.7625,1,2,6,1607,1,2,1
+google-gemini/gemini-cli,26469,Fixing race condition in task updates,CLOSED,2026-05-04T21:26:38Z,2026-05-05T01:33:32Z,,4.115,4,181,16,622,1,2,1
+google-gemini/gemini-cli,26467,feat: allow queuing messages during compression (#24071),CLOSED,2026-05-04T20:47:18Z,2026-05-05T15:35:44Z,,18.8072,0,0,0,2856,1,2,1
+google-gemini/gemini-cli,26463,feat(bot): add actions spend metric script,MERGED,2026-05-04T20:02:05Z,2026-05-04T21:16:31Z,2026-05-04T21:16:31Z,1.2406,2,129,0,1077,2,2,2
+google-gemini/gemini-cli,26462,ci(release): build and attach unsigned macOS binaries to releases,MERGED,2026-05-04T19:30:25Z,2026-05-05T22:18:45Z,2026-05-05T22:18:45Z,26.8056,6,89,5,1516,4,3,4
+google-gemini/gemini-cli,26460,feat(core): allow reusing existing worktrees with --worktree flag,CLOSED,2026-05-04T19:29:15Z,2026-05-04T20:41:02Z,,1.1964,3,54,3,1215,1,2,1
+google-gemini/gemini-cli,26455,fix(cli): make SkillInboxDialog fit and scroll in alternate buffer,MERGED,2026-05-04T18:01:08Z,2026-05-04T22:08:04Z,2026-05-04T22:08:04Z,4.1156,2,1028,381,3075,2,3,2
+google-gemini/gemini-cli,26454,feat(voice): add privacy and compliance UX warning for Gemini Live backend,MERGED,2026-05-04T17:11:07Z,2026-05-04T18:44:53Z,2026-05-04T18:44:53Z,1.5628,6,126,12,1597,2,2,3
+google-gemini/gemini-cli,26446,refactor(UI): created constants file for ThemeDialog,MERGED,2026-05-04T15:52:36Z,2026-05-04T17:42:25Z,2026-05-04T17:42:25Z,1.8303,2,48,16,1309,2,3,1
+google-gemini/gemini-cli,26445,feat: add ignoreLocalEnv setting and --ignore-env flag (#2493),MERGED,2026-05-04T15:39:14Z,2026-05-04T19:27:10Z,2026-05-04T19:27:10Z,3.7989,6,276,3,1495,3,3,2
+google-gemini/gemini-cli,26443,perf: skip redundant GEMINI.md loading in partialConfig,MERGED,2026-05-04T15:21:13Z,2026-05-04T16:21:31Z,2026-05-04T16:21:30Z,1.0047,3,23,2,1252,2,2,2
+google-gemini/gemini-cli,26442,feat(cli): improve /agents refresh logging,MERGED,2026-05-04T15:15:54Z,2026-05-04T19:54:22Z,2026-05-04T19:54:22Z,4.6411,5,190,69,2772,2,9,3
+google-gemini/gemini-cli,26441,docs(sdk): add JSDoc to exported interfaces in packages/sdk/src/types.ts,MERGED,2026-05-04T14:57:49Z,2026-05-04T16:18:31Z,2026-05-04T16:18:31Z,1.345,1,73,0,1087,2,2,2
+google-gemini/gemini-cli,26440,feat: add minimal V8 heap snapshot utility for memory diagnostics,MERGED,2026-05-04T14:52:40Z,2026-05-04T17:55:28Z,2026-05-04T17:55:28Z,3.0467,4,97,0,1448,2,3,3
+google-gemini/gemini-cli,26435,feat(devtools)#25439: add console log filtering,CLOSED,2026-05-04T13:20:18Z,2026-05-04T18:31:22Z,,5.1844,5,601,23,1102,2,2,1
+google-gemini/gemini-cli,26431,fix(cli)#21297: clear skills consent dialog before reload,MERGED,2026-05-04T11:47:35Z,2026-05-04T18:05:51Z,2026-05-04T18:05:51Z,6.3044,5,67,2,1750,2,1,2
+google-gemini/gemini-cli,26379,docs: fix GitHub capitalization in releases guide,MERGED,2026-05-02T16:01:13Z,2026-05-04T17:44:07Z,2026-05-04T17:44:06Z,49.7147,1,2,2,116,2,1,2
+google-gemini/gemini-cli,26374,perf: optimize performance and memory for large chat sessions,CLOSED,2026-05-02T11:12:24Z,2026-05-02T18:07:25Z,,6.9169,21,957,233,3381,1,2,1
+google-gemini/gemini-cli,26367,fix(cli): print --version on real stdout before patchStdio,CLOSED,2026-05-02T08:18:02Z,2026-05-04T16:55:13Z,,56.6197,1,12,0,314,2,3,2
+google-gemini/gemini-cli,26357,fix(core): Minor fixes for generalist profile.,MERGED,2026-05-02T01:32:29Z,2026-05-05T19:46:48Z,2026-05-05T19:46:48Z,90.2386,7,37,14,265,2,2,2
+google-gemini/gemini-cli,26355,Robust Scale-Safe Lifecycle Consolidation,MERGED,2026-05-01T23:29:32Z,2026-05-04T22:20:40Z,2026-05-04T22:20:40Z,70.8522,8,292,626,2041,3,5,3
+google-gemini/gemini-cli,26352,fix(core): filter unsupported multimodal types from tool responses,MERGED,2026-05-01T20:25:59Z,2026-05-04T20:45:34Z,2026-05-04T20:45:34Z,72.3264,4,307,8,2586,2,2,3
+google-gemini/gemini-cli,26349,fix(core): properly format markdown in AskUser tool by unescaping newlines,MERGED,2026-05-01T18:36:59Z,2026-05-04T21:16:31Z,2026-05-04T21:16:31Z,74.6589,2,112,2,1046,3,3,3
+google-gemini/gemini-cli,26348,Metrics updates,MERGED,2026-05-01T18:30:39Z,2026-05-01T19:36:15Z,2026-05-01T19:36:15Z,1.0933,2,63,4,1158,3,6,2
+google-gemini/gemini-cli,26342,fix(core): reset session-scoped state on resumption,MERGED,2026-05-01T17:13:47Z,2026-05-01T21:34:38Z,2026-05-01T21:34:38Z,4.3475,4,104,1,2881,2,5,3
+google-gemini/gemini-cli,26340,"fix(core): remove ""System: Please continue."" injection on InvalidStream events",MERGED,2026-05-01T17:09:54Z,2026-05-01T19:58:47Z,2026-05-01T19:58:47Z,2.8147,14,53,298,4458,2,4,2
+google-gemini/gemini-cli,26339,fix(cli): prevent Escape from clearing input buffer (#17083),MERGED,2026-05-01T17:03:13Z,2026-05-01T19:13:38Z,2026-05-01T19:13:38Z,2.1736,5,169,112,1876,2,3,3
+google-gemini/gemini-cli,26338,feat(memory): add Auto Memory inbox flow with canonical-patch contract,MERGED,2026-05-01T16:54:02Z,2026-05-04T19:20:15Z,2026-05-04T19:20:15Z,74.4369,26,4280,116,6052,2,4,9
+google-gemini/gemini-cli,26333,fix(cli): enable daemon relaunch in binary and bundle keytar,MERGED,2026-05-01T16:03:50Z,2026-05-01T18:06:20Z,2026-05-01T18:06:20Z,2.0417,3,16,10,1537,2,3,2
+google-gemini/gemini-cli,26332,fix(acp): resolve agent mode disconnect and improve mode awareness,MERGED,2026-05-01T15:55:58Z,2026-05-01T23:12:55Z,2026-05-01T23:12:55Z,7.2825,12,187,41,1601,5,4,9
+google-gemini/gemini-cli,26330,fix(cli): ensure branch indicator updates in sub-directories and worktrees,MERGED,2026-05-01T15:01:22Z,2026-05-04T17:48:07Z,2026-05-04T17:48:07Z,74.7792,3,169,74,1342,2,3,4
+google-gemini/gemini-cli,26329,fix(cli): undeprecate --prompt and correct positional query docs,MERGED,2026-05-01T14:41:27Z,2026-05-01T19:31:48Z,2026-05-01T19:31:48Z,4.8392,2,1,2,1546,2,2,2
+google-gemini/gemini-cli,26325,Fix defense techniques 25099,CLOSED,2026-05-01T12:27:19Z,2026-05-01T17:34:19Z,,5.1167,291,19230,4206,1096,34,2,1
+google-gemini/gemini-cli,26321,fix: sanitize keychain native errors and fix test execution,CLOSED,2026-05-01T09:28:23Z,2026-05-01T10:57:07Z,,1.4789,6,186,60,833,2,1,1
+google-gemini/gemini-cli,26310,feat(core): reinforce Inquiry constraints to prevent unauthorized changes,MERGED,2026-05-01T04:07:32Z,2026-05-04T17:21:10Z,2026-05-04T17:21:09Z,85.2269,2,20,20,120,2,3,4
+google-gemini/gemini-cli,26307,feat(config): enable Gemma 4 models by default via Gemini API,MERGED,2026-05-01T01:52:44Z,2026-05-01T04:28:17Z,2026-05-01T04:28:17Z,2.5925,9,15,16,1491,2,3,2
+google-gemini/gemini-cli,26292,test(evals): add behavioral eval for file creation and write_file tool selection,MERGED,2026-04-30T21:07:40Z,2026-05-01T03:58:42Z,2026-05-01T03:58:42Z,6.8506,5,171,3,12,2,4,4
+google-gemini/gemini-cli,26290,Add Star History section to README,MERGED,2026-04-30T21:05:14Z,2026-05-01T01:44:44Z,2026-05-01T01:44:44Z,4.6583,1,10,0,1168,2,2,2
+google-gemini/gemini-cli,26289,fix(ci): checkout PR branch instead of main in bot workflow,MERGED,2026-04-30T20:45:51Z,2026-04-30T22:14:09Z,2026-04-30T22:14:09Z,1.4717,1,33,2,1044,3,2,2
+google-gemini/gemini-cli,26288,fix(cli): respect .env override for GOOGLE_CLOUD_PROJECT,MERGED,2026-04-30T20:41:39Z,2026-05-01T17:05:14Z,2026-05-01T17:05:14Z,20.3931,2,37,11,1751,2,3,2
+google-gemini/gemini-cli,26287,fix(cli): insert voice transcription at cursor position instead of ap…,MERGED,2026-04-30T20:41:14Z,2026-05-01T16:54:37Z,2026-05-01T16:54:37Z,20.2231,2,62,31,1015,3,1,2
+google-gemini/gemini-cli,26285,fix(cli): use resolved sandbox state for auto-update check,MERGED,2026-04-30T20:22:46Z,2026-04-30T22:19:23Z,2026-04-30T22:19:23Z,1.9436,3,31,16,1388,2,2,1
+google-gemini/gemini-cli,26284,feat(ui): added wave animation for voice mode,MERGED,2026-04-30T20:19:26Z,2026-05-01T18:08:54Z,2026-05-01T18:08:54Z,21.8244,3,63,49,1577,2,2,6
+google-gemini/gemini-cli,26277,docs(sdk): add JSDoc to all exported interfaces and types,MERGED,2026-04-30T18:55:19Z,2026-05-04T19:45:54Z,2026-05-04T19:45:53Z,96.8428,7,324,34,1949,2,3,2
+google-gemini/gemini-cli,26275,fix(hooks): preserve non-text parts in fromHookLLMRequest,MERGED,2026-04-30T17:55:46Z,2026-05-04T17:59:07Z,2026-05-04T17:59:07Z,96.0558,2,329,17,4084,2,2,2
+google-gemini/gemini-cli,26270,feat(ui): added microphone and updated placeholder for voice mode,MERGED,2026-04-30T17:18:29Z,2026-04-30T19:44:08Z,2026-04-30T19:44:08Z,2.4275,2,44,38,1545,2,2,4
+google-gemini/gemini-cli,26266,Fix posting invalid response to a comment,MERGED,2026-04-30T16:35:31Z,2026-04-30T18:36:48Z,2026-04-30T18:36:47Z,2.0211,3,33,15,180,3,4,3
+google-gemini/gemini-cli,26264,fix(cli): prevent informational logs from polluting json output,MERGED,2026-04-30T15:42:25Z,2026-04-30T18:47:31Z,2026-04-30T18:47:31Z,3.085,4,217,22,1593,2,5,5
+google-gemini/gemini-cli,26263,fix(core): ensure tool output cleanup on session deletion for legacy files,MERGED,2026-04-30T15:02:49Z,2026-04-30T20:27:31Z,2026-04-30T20:27:31Z,5.4117,4,244,34,1743,2,3,3
+google-gemini/gemini-cli,26262,fix: report AgentExecutionBlocked in non-interactive programmatic modes,MERGED,2026-04-30T15:00:36Z,2026-04-30T20:55:02Z,2026-04-30T20:55:02Z,5.9072,11,488,24,993,2,5,5
+google-gemini/gemini-cli,26261,Skip binary CLI relaunch,MERGED,2026-04-30T14:48:13Z,2026-04-30T18:01:54Z,2026-04-30T18:01:54Z,3.2281,4,71,2,1894,3,4,3
+google-gemini/gemini-cli,26245,Changelog for v0.40.0,MERGED,2026-04-30T01:43:20Z,2026-04-30T20:53:56Z,2026-04-30T20:53:56Z,19.1767,2,185,242,115,4,2,4
+google-gemini/gemini-cli,26244,Changelog for v0.41.0-preview.0,MERGED,2026-04-30T01:34:12Z,2026-04-30T17:44:26Z,2026-04-30T17:44:26Z,16.1706,1,99,385,125,2,2,2
+google-gemini/gemini-cli,26240,# Metrics Integrity & Standardized Reporting (BT-01),MERGED,2026-04-30T00:04:47Z,2026-04-30T23:25:30Z,2026-04-30T23:25:30Z,23.3453,8,134,200,1440,1,9,2

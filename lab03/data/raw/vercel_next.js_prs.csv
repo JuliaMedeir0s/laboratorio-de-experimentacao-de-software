@@ -1,0 +1,62 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+vercel/next.js,93512,[ci] Remove unused `setup-nextjs-build.yml` workflow,MERGED,2026-05-05T21:14:37Z,2026-05-05T22:35:41Z,2026-05-05T22:35:41Z,1.3511,1,0,121,413,2,2,1
+vercel/next.js,93507,[backport] fix accidental test duplication,MERGED,2026-05-05T18:52:06Z,2026-05-05T21:54:21Z,2026-05-05T21:54:21Z,3.0375,3,0,250,22,3,1,1
+vercel/next.js,93504,Turbopack: fix import_usage for functions behind member expressions,MERGED,2026-05-05T16:58:31Z,2026-05-05T18:18:47Z,2026-05-05T18:18:47Z,1.3378,5,35,17,141,2,2,5
+vercel/next.js,93502,"Revert ""Upgrade to swc 65 (#93325)""",CLOSED,2026-05-05T16:15:19Z,2026-05-05T18:18:45Z,,2.0572,2,84,84,41,2,1,1
+vercel/next.js,93491,Fix double-encoding of URL pathname parts in client param parsing,MERGED,2026-05-05T12:23:45Z,2026-05-05T15:06:20Z,2026-05-05T15:06:20Z,2.7097,7,193,6,1746,2,1,1
+vercel/next.js,93490,[ci] Create unique preview build versions for canary previews,MERGED,2026-05-05T11:33:37Z,2026-05-05T13:39:46Z,2026-05-05T13:39:46Z,2.1025,2,4,1,105,2,2,1
+vercel/next.js,93486,Fix dev mode reload and error on back navigation between Next.js pages,MERGED,2026-05-05T10:30:01Z,2026-05-05T12:24:06Z,2026-05-05T12:24:06Z,1.9014,4,52,34,2681,2,1,1
+vercel/next.js,93471,[backport] Include deployment id in `cacheHandlers` keys,MERGED,2026-05-04T16:50:00Z,2026-05-05T21:54:04Z,2026-05-05T21:54:04Z,29.0678,22,214,3,142,4,2,2
+vercel/next.js,93467,docs: clarify proxy runtime history,MERGED,2026-05-04T15:58:02Z,2026-05-05T14:47:04Z,2026-05-05T14:47:04Z,22.8172,1,2,2,665,2,3,3
+vercel/next.js,93464,[ci] Allow configuring the base URL for preview builds,MERGED,2026-05-04T15:21:17Z,2026-05-04T17:47:08Z,2026-05-04T17:47:08Z,2.4308,7,22,9,229,2,1,1
+vercel/next.js,93459,Bump `@vercel/ncc`,MERGED,2026-05-04T12:18:45Z,2026-05-04T14:03:01Z,2026-05-04T14:03:01Z,1.7378,148,20873,77903,441,2,2,1
+vercel/next.js,93457,Upgrade React from `da9325b5-20260417` to `f4e0d4ed-20260429`,MERGED,2026-05-04T10:49:21Z,2026-05-04T11:58:07Z,2026-05-04T11:58:07Z,1.1461,62,838,806,768,2,2,1
+vercel/next.js,93456,[ci] Migrate React sync off of `RELEASE_BOT_GITHUB_TOKEN`,MERGED,2026-05-04T08:37:12Z,2026-05-05T08:50:56Z,2026-05-05T08:50:56Z,24.2289,4,182,19,385,2,2,3
+vercel/next.js,93455,"[ci] Move Turbopack, Rspack and font data workflows off of `RELEASE_BOT_GITHUB_TOKEN`",MERGED,2026-05-04T08:37:10Z,2026-05-05T08:23:02Z,2026-05-05T08:23:02Z,23.7644,6,490,236,380,2,3,6
+vercel/next.js,93453,Include deployment id in `cacheHandlers` keys,MERGED,2026-05-04T07:59:58Z,2026-05-04T16:26:08Z,2026-05-04T16:26:08Z,8.4361,22,214,3,115,2,3,10
+vercel/next.js,93417,Fix streaming in draft mode for cache components,MERGED,2026-05-01T20:04:06Z,2026-05-01T22:56:30Z,2026-05-01T22:56:29Z,2.8731,5,42,0,335,2,2,1
+vercel/next.js,93416,turbo-tasks-backend: fix snapshot coordination races + extract SnapshotCoordinator,MERGED,2026-05-01T18:54:06Z,2026-05-04T22:23:33Z,2026-05-04T22:23:33Z,75.4908,4,768,240,830,3,3,7
+vercel/next.js,93410,docs: add Thinking in Next.js guide,CLOSED,2026-05-01T11:48:33Z,2026-05-03T11:44:10Z,,47.9269,1,832,0,1090,1,2,4
+vercel/next.js,93394,Fix deploy tests crashing under AI coding assistants,MERGED,2026-04-30T18:49:07Z,2026-04-30T20:04:30Z,2026-04-30T20:04:30Z,1.2564,1,10,0,1490,2,2,1
+vercel/next.js,93381,docs: clarify rendering flow in Server/Client interleaving example,MERGED,2026-04-30T10:51:00Z,2026-04-30T12:03:28Z,2026-04-30T12:03:28Z,1.2078,1,1,1,58,2,1,2
+vercel/next.js,93380,[test] Stop building fresh packages for every test,MERGED,2026-04-30T10:44:51Z,2026-04-30T12:39:18Z,2026-04-30T12:39:18Z,1.9075,1,1,1,264,3,2,3
+vercel/next.js,93378,Only log partytown setup error once,MERGED,2026-04-30T09:36:43Z,2026-04-30T12:23:08Z,2026-04-30T12:23:08Z,2.7736,6,24,41,195,2,2,2
+vercel/next.js,93377,Don't suppress usage of deprecated TypeScript `compilerOptions`,MERGED,2026-04-30T09:11:26Z,2026-05-05T15:23:34Z,2026-05-05T15:23:34Z,126.2022,9,96,132,561,3,2,2
+vercel/next.js,93376,"Revert ""Revert ""Node.js streams: Add forkpoint for prerenderToStream""""",MERGED,2026-04-30T08:23:41Z,2026-05-01T10:11:36Z,2026-05-01T10:11:36Z,25.7986,3,42,19,28,2,2,2
+vercel/next.js,93375,[ci] Add support for private preview builds,MERGED,2026-04-30T08:21:53Z,2026-04-30T16:36:26Z,2026-04-30T16:36:26Z,8.2425,2,8,1,63,2,2,3
+vercel/next.js,93374,Update 05-server-and-client-components.mdx,MERGED,2026-04-30T08:01:37Z,2026-04-30T11:41:34Z,2026-04-30T11:41:34Z,3.6658,1,5,1,2299,3,1,2
+vercel/next.js,93369,Deprecate edge runtime,MERGED,2026-04-29T19:42:50Z,2026-04-30T08:01:06Z,2026-04-30T08:01:06Z,12.3044,27,226,33,1986,2,1,1
+vercel/next.js,93367,enable validateRSCRequestHeaders by default,MERGED,2026-04-29T18:25:31Z,2026-04-29T19:44:32Z,2026-04-29T19:44:32Z,1.3169,2,2,5,192,2,1,1
+vercel/next.js,93366,[test] Preserve Playwright traces on every failure,MERGED,2026-04-29T16:11:31Z,2026-04-30T15:15:50Z,2026-04-30T15:15:50Z,23.0719,1,2,3,400,2,2,1
+vercel/next.js,93365,[test] Ensure target page is compiled before navigation in instant-navs-devtools,MERGED,2026-04-29T15:32:29Z,2026-05-04T14:55:02Z,2026-05-04T14:55:02Z,119.3758,1,14,10,171,2,2,1
+vercel/next.js,93361,trace-server: shrink_to_fit LazySortedVec after sorting,MERGED,2026-04-29T12:41:11Z,2026-05-01T05:00:02Z,2026-05-01T05:00:02Z,40.3142,1,3,1,2389,3,3,2
+vercel/next.js,93356,fix(typescript): set pathsBasePath after deleting baseUrl for TS6 compat,CLOSED,2026-04-29T10:35:39Z,2026-05-05T15:23:37Z,,148.7994,3,213,0,1290,2,5,1
+vercel/next.js,93355,[test] Suppress build when preparing next for cache hits,MERGED,2026-04-29T10:34:51Z,2026-04-29T12:09:12Z,2026-04-29T12:09:12Z,1.5725,1,14,4,2135,2,2,1
+vercel/next.js,93350,Update upload trace url,MERGED,2026-04-29T09:13:33Z,2026-04-29T17:55:30Z,2026-04-29T17:55:30Z,8.6992,1,1,1,169,2,1,1
+vercel/next.js,93349,Turbopack: remove ModuleResolveResultItem::OutputAsset,MERGED,2026-04-29T08:32:59Z,2026-04-29T11:47:25Z,2026-04-29T11:47:25Z,3.2406,5,9,81,189,2,3,1
+vercel/next.js,93335,Turbopack: remove unused module references,MERGED,2026-04-28T21:48:45Z,2026-04-29T10:43:08Z,2026-04-29T10:43:08Z,12.9064,3,4,96,172,2,4,1
+vercel/next.js,93333,Report OS memory pressure in TurboMalloc and trace samples,MERGED,2026-04-28T21:28:24Z,2026-04-29T09:39:24Z,2026-04-29T09:39:23Z,12.1831,9,317,16,3948,2,2,1
+vercel/next.js,93332,[turbo-trace-server] optimize loading even more,MERGED,2026-04-28T19:45:07Z,2026-05-01T22:53:26Z,2026-05-01T22:53:26Z,75.1386,5,310,167,1874,2,4,3
+vercel/next.js,93327,ci: Fix caching of test-cargo-unit,MERGED,2026-04-28T17:28:55Z,2026-04-28T20:49:41Z,2026-04-28T20:49:41Z,3.3461,3,8,2,138,2,3,1
+vercel/next.js,93325,Upgrade to swc 65,MERGED,2026-04-28T17:26:16Z,2026-05-04T08:02:51Z,2026-05-04T08:02:51Z,134.6097,2,84,84,183,2,2,1
+vercel/next.js,93324,Turbopack: delete unused turbo-static crate,MERGED,2026-04-28T17:05:48Z,2026-04-29T14:18:51Z,2026-04-29T14:18:50Z,21.2172,9,0,1126,141,2,2,1
+vercel/next.js,93323,Turbopack: add failing test for cross-module side-effect inference,MERGED,2026-04-28T16:37:04Z,2026-04-28T21:05:40Z,2026-04-28T21:05:40Z,4.4767,4,53,0,50,2,3,1
+vercel/next.js,93321,Turbopack: pull in updated vercel/nft tests,MERGED,2026-04-28T15:54:32Z,2026-04-28T21:22:47Z,2026-04-28T21:22:47Z,5.4708,24,78,1,150,2,3,1
+vercel/next.js,93315,Turbopack: iter_reachable_modules,MERGED,2026-04-28T12:11:22Z,2026-04-28T21:03:11Z,2026-04-28T21:03:11Z,8.8636,7,296,19,96,2,4,3
+vercel/next.js,93314,Turbopack: also add edge count to trace,MERGED,2026-04-28T10:24:46Z,2026-04-28T21:17:07Z,2026-04-28T21:17:07Z,10.8725,2,20,6,2105,2,3,1
+vercel/next.js,93312,Speed up native postinstall script,MERGED,2026-04-28T09:20:07Z,2026-04-29T10:26:27Z,2026-04-29T10:26:27Z,25.1056,1,13,7,653,2,2,3
+vercel/next.js,93303,[ci]: fix lint issues,CLOSED,2026-04-27T22:33:03Z,2026-04-28T18:17:42Z,,19.7442,22,22,21,227,2,1,1
+vercel/next.js,93302,[ci]: fix release script to not strip newlines,MERGED,2026-04-27T22:32:56Z,2026-04-28T18:42:19Z,2026-04-28T18:42:19Z,20.1564,22,22,21,380,2,1,1
+vercel/next.js,93288,chore: bump postcss to 8.5.10,MERGED,2026-04-27T15:37:58Z,2026-04-29T13:16:46Z,2026-04-29T13:16:46Z,45.6467,15,332,406,440,2,2,1
+vercel/next.js,93285,[ci]: trigger signed release commit via API,MERGED,2026-04-27T14:00:59Z,2026-04-27T16:31:05Z,2026-04-27T16:31:05Z,2.5017,2,380,14,686,2,2,7
+vercel/next.js,93283,Turbopack: cheaper check in map_next_dynamic,MERGED,2026-04-27T13:03:10Z,2026-04-28T11:00:05Z,2026-04-28T11:00:05Z,21.9486,1,30,32,158,2,4,1
+vercel/next.js,93280,Apply sourcemaps by default during prerender in `next build`,MERGED,2026-04-27T12:02:50Z,2026-04-28T09:00:14Z,2026-04-28T09:00:14Z,20.9567,6,3,16,354,2,3,2
+vercel/next.js,93276,Turbopack: only compute module ids for included modules,MERGED,2026-04-27T09:55:15Z,2026-04-28T20:21:37Z,2026-04-28T20:21:37Z,34.4394,8,77,20,1533,2,4,1
+vercel/next.js,93271,Turbopack: add `experimental.turbopackWorkerAssetPrefix` to keep Workers same-origin when `assetPrefix` is a CDN,MERGED,2026-04-27T05:58:53Z,2026-04-29T09:05:12Z,2026-04-29T09:05:12Z,51.1053,30,481,93,4024,2,1,6
+vercel/next.js,93265,[turbopack-trace-server] shrink_to_fit Span vecs after initial read,CLOSED,2026-04-26T18:20:24Z,2026-05-02T00:16:14Z,,125.9306,15,552,258,2105,1,3,3
+vercel/next.js,93264,[turbopack-trace-server] optimize loading,MERGED,2026-04-26T18:20:21Z,2026-04-28T22:46:47Z,2026-04-28T22:46:47Z,52.4406,8,467,211,1152,2,4,2
+vercel/next.js,93245,[ci]: app-based release workflow,MERGED,2026-04-25T16:03:54Z,2026-04-27T14:55:44Z,2026-04-27T14:55:44Z,46.8639,9,215,55,869,2,2,1
+vercel/next.js,93236,[ci] Create test summary comment if job immediately passes,MERGED,2026-04-25T10:32:38Z,2026-04-25T14:27:12Z,2026-04-25T14:27:12Z,3.9094,1,5,25,623,2,3,1
+vercel/next.js,93235,[ci] Automatically start React sync when new `react@experimental` is available,MERGED,2026-04-25T09:41:45Z,2026-04-27T06:16:23Z,2026-04-27T06:16:23Z,44.5772,1,69,0,284,2,1,3
+vercel/next.js,93229,HMR: debounce status indicator transitions to prevent flicker during bursts of changes,MERGED,2026-04-24T23:58:38Z,2026-04-28T20:40:40Z,2026-04-28T20:40:40Z,92.7006,3,236,10,1494,2,2,1
+vercel/next.js,93222,Reduce allocations in the next_debug_instant_stack transform,MERGED,2026-04-24T21:48:39Z,2026-04-27T20:01:53Z,2026-04-27T20:01:53Z,70.2206,7,64,56,212,3,4,4

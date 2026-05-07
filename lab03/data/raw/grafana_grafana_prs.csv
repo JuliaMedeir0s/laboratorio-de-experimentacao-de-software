@@ -1,0 +1,58 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+grafana/grafana,124168,Dashboard Import: Set default permissions when importing v2 dashboards,MERGED,2026-05-05T18:42:30Z,2026-05-05T20:33:04Z,2026-05-05T20:33:04Z,1.8428,2,22,4,358,2,1,1
+grafana/grafana,124151,Alerting: add RBAC authorization for alertmanager import API,MERGED,2026-05-05T15:58:51Z,2026-05-05T22:01:52Z,2026-05-05T22:01:52Z,6.0503,17,551,43,1504,2,2,3
+grafana/grafana,124140,[release-13.0.2] Provisioning: Bump nanogit to v0.17.0 to fix pushes with repositories using git modules,MERGED,2026-05-05T14:40:10Z,2026-05-05T15:48:38Z,2026-05-05T15:48:38Z,1.1411,4,6,6,1353,2,1,1
+grafana/grafana,124139,[release-13.0.2] Provisioning: Don't mark folders pending due to _folder.json metadata,MERGED,2026-05-05T14:39:16Z,2026-05-05T15:40:06Z,2026-05-05T15:40:06Z,1.0139,4,343,7,5261,1,1,1
+grafana/grafana,124130,[release-13.0.2] Provisioning: Negotiate receive-pack capabilities for git pushes,MERGED,2026-05-05T13:56:52Z,2026-05-05T16:33:35Z,2026-05-05T16:33:35Z,2.6119,1,1,1,2403,2,1,2
+grafana/grafana,124129,[release-13.0.2] Unified Storage: Warn when folders/dashboards migration is skipped,MERGED,2026-05-05T13:56:37Z,2026-05-05T18:20:54Z,2026-05-05T18:20:54Z,4.4047,1,8,1,1595,1,1,1
+grafana/grafana,124128,[release-13.0.2] Provisioning: Honor ruleset bypass for write workflow validation,MERGED,2026-05-05T13:46:58Z,2026-05-05T15:52:41Z,2026-05-05T15:52:41Z,2.0953,2,470,7,2848,1,1,1
+grafana/grafana,124121,"[release-13.0.2] Provisioning: Scope repository uniqueness by (URL, branch, path)",MERGED,2026-05-05T13:14:43Z,2026-05-05T15:27:46Z,2026-05-05T15:27:45Z,2.2172,3,527,45,2612,3,1,1
+grafana/grafana,124118,Provisioning: Don't mark folders pending due to _folder.json metadata,MERGED,2026-05-05T13:00:54Z,2026-05-05T14:34:49Z,2026-05-05T14:34:49Z,1.5653,4,343,7,5192,3,4,4
+grafana/grafana,124117,Chore: Update to latest version of scenes,MERGED,2026-05-05T12:58:49Z,2026-05-05T14:11:00Z,2026-05-05T14:11:00Z,1.2031,3,15,15,2201,2,1,1
+grafana/grafana,124110,search: download fresh same-version snapshot instead of rebuilding,MERGED,2026-05-05T11:21:37Z,2026-05-05T15:16:18Z,2026-05-05T15:16:18Z,3.9114,10,496,96,1851,2,3,3
+grafana/grafana,124109,Chore: add tempo externalization warning,MERGED,2026-05-05T11:02:03Z,2026-05-05T12:07:07Z,2026-05-05T12:07:07Z,1.0844,1,2,0,448,3,1,2
+grafana/grafana,124107,Chore: Bump plugin-e2e,MERGED,2026-05-05T10:23:31Z,2026-05-05T12:48:41Z,2026-05-05T12:48:41Z,2.4194,3,8,8,948,2,1,3
+grafana/grafana,124105,InlineSecureValues: Improve error reporting,MERGED,2026-05-05T10:02:51Z,2026-05-05T18:17:06Z,2026-05-05T18:17:06Z,8.2375,2,83,10,342,3,2,3
+grafana/grafana,124103,Chore: Remove React 19 deps and dedupe yarn lock,MERGED,2026-05-05T09:41:59Z,2026-05-05T14:05:50Z,2026-05-05T14:05:50Z,4.3975,2,63,1009,2403,2,2,1
+grafana/grafana,124099,DataSources: Send generateName with requests from the UI,MERGED,2026-05-05T09:20:14Z,2026-05-05T11:36:18Z,2026-05-05T11:36:18Z,2.2678,3,16,48,293,3,1,3
+grafana/grafana,124095,deps(go): bump the grafana-app-sdk group across 17 directories with 1 update,CLOSED,2026-05-05T08:53:54Z,2026-05-05T13:49:50Z,,4.9322,46,69,69,65535,2,1,1
+grafana/grafana,124090,BrowseDashboards: Fix cleared sort reset when switching to folder view,MERGED,2026-05-05T05:30:13Z,2026-05-05T09:46:22Z,2026-05-05T09:46:22Z,4.2692,2,58,2,1267,2,2,1
+grafana/grafana,124089,chore: add overload to replaceCachedPromise,MERGED,2026-05-05T04:47:13Z,2026-05-05T06:54:39Z,2026-05-05T06:54:39Z,2.1239,2,25,19,1217,2,2,1
+grafana/grafana,124079,chore(deps): update grafana-app-sdk to v0.54.1,MERGED,2026-05-04T22:14:26Z,2026-05-05T08:47:03Z,2026-05-05T08:47:03Z,10.5436,61,121,103,1351,3,1,2
+grafana/grafana,124075,AppPlugins: Refactor plugin proxy for easier reuse in apiserver,MERGED,2026-05-04T19:39:55Z,2026-05-05T14:11:48Z,2026-05-05T14:11:48Z,18.5314,4,184,190,590,2,6,6
+grafana/grafana,124074,IAM: Reject permission changes for external team members,MERGED,2026-05-04T19:09:19Z,2026-05-05T14:14:33Z,2026-05-05T14:14:33Z,19.0872,4,14,3,1901,2,1,1
+grafana/grafana,124073,[release-12.4.4] Alerting: Fix AlertManagerPicker visibility to check Alertmanager datasources,MERGED,2026-05-04T18:47:39Z,2026-05-05T07:11:07Z,2026-05-05T07:11:07Z,12.3911,2,55,102,62,2,1,1
+grafana/grafana,124070,feat(featuremgmt): make dashboardSectionVariables GA and default-on,MERGED,2026-05-04T18:10:26Z,2026-05-05T13:37:25Z,2026-05-05T13:37:25Z,19.4497,6,14,10,104,2,2,3
+grafana/grafana,124065,Share Panel: Fix button UI margin,MERGED,2026-05-04T16:07:10Z,2026-05-04T17:17:17Z,2026-05-04T17:17:17Z,1.1686,1,6,17,2544,2,1,1
+grafana/grafana,124064,Unified Storage: Tenant watcher use client side filtering,MERGED,2026-05-04T15:52:33Z,2026-05-04T17:11:28Z,2026-05-04T17:11:28Z,1.3153,1,13,5,100,2,2,4
+grafana/grafana,124061,storage/unified/search: add findFreshSnapshotByBuildStart probe and align IndexMeta field names,MERGED,2026-05-04T15:48:09Z,2026-05-05T11:15:59Z,2026-05-05T11:15:59Z,19.4639,9,302,165,1964,2,1,2
+grafana/grafana,124056,Alerting: Skip TestIntegrationSetProvenance_DeadlockScenarios on SQLite,MERGED,2026-05-04T14:55:42Z,2026-05-05T14:22:19Z,2026-05-05T14:22:19Z,23.4436,1,10,0,1277,2,1,1
+grafana/grafana,124052,[release-12.2.9] fix: module is now fully tidy,MERGED,2026-05-04T13:48:02Z,2026-05-05T14:45:15Z,2026-05-05T14:45:15Z,24.9536,9,892,60,57,2,1,2
+grafana/grafana,124051,search: skip periodic snapshot upload when same-version remote is fresh,MERGED,2026-05-04T13:46:47Z,2026-05-04T14:53:49Z,2026-05-04T14:53:49Z,1.1172,5,365,13,1424,2,1,1
+grafana/grafana,124048,Provisioning: fix SyncAndWait race causing folder metadata test flake,MERGED,2026-05-04T13:23:56Z,2026-05-05T08:37:09Z,2026-05-05T08:37:09Z,19.2203,2,23,6,2349,2,1,1
+grafana/grafana,124047,[release-13.0.2] fix: don't include imports in binary,MERGED,2026-05-04T13:23:18Z,2026-05-04T14:24:12Z,2026-05-04T14:24:12Z,1.015,5,498,27,122,3,1,3
+grafana/grafana,124041,[release-12.4.4] fix: module is now fully tidy,MERGED,2026-05-04T12:02:51Z,2026-05-05T14:45:24Z,2026-05-05T14:45:24Z,26.7092,28,1131,150,18,2,2,2
+grafana/grafana,124040,fix: include recipe in makefile,MERGED,2026-05-04T11:54:02Z,2026-05-04T13:31:31Z,2026-05-04T13:31:31Z,1.6247,1,10,1,67,2,1,1
+grafana/grafana,124039,search: add ListIndexKeys and GetIndexMeta to RemoteIndexStore,MERGED,2026-05-04T11:34:04Z,2026-05-04T13:24:04Z,2026-05-04T13:24:04Z,1.8333,5,140,56,2322,3,3,4
+grafana/grafana,124036,Chore: upgrade to Storybook 10,MERGED,2026-05-04T11:21:53Z,2026-05-05T08:25:35Z,2026-05-05T08:25:35Z,21.0617,256,1790,1369,872,3,3,2
+grafana/grafana,124035,search: add BuildStartTimestamp to IndexMeta,MERGED,2026-05-04T11:13:48Z,2026-05-04T12:51:54Z,2026-05-04T12:51:53Z,1.6347,4,103,2,781,2,1,1
+grafana/grafana,124033,fix: star migration count validation,MERGED,2026-05-04T10:56:33Z,2026-05-04T15:29:41Z,2026-05-04T15:29:41Z,4.5522,2,21,2,390,2,1,1
+grafana/grafana,124029,Secrets: Preserve owner reference in updates for non-access policies,MERGED,2026-05-04T09:54:36Z,2026-05-04T16:12:37Z,2026-05-04T16:12:37Z,6.3003,2,217,0,227,2,3,1
+grafana/grafana,124024,fix: module is now fully tidy,MERGED,2026-05-04T09:01:13Z,2026-05-04T10:14:25Z,2026-05-04T10:14:25Z,1.22,22,772,113,346,3,2,6
+grafana/grafana,124021,[release-12.4.4] Dependencies: Remove indirect dependency on docker/docker,MERGED,2026-05-04T08:18:22Z,2026-05-04T09:39:10Z,2026-05-04T09:39:10Z,1.3467,56,359,334,113,3,1,2
+grafana/grafana,124017,[release-13.0.2] Dependencies: Remove indirect dependency on docker/docker,MERGED,2026-05-04T08:09:14Z,2026-05-04T09:39:03Z,2026-05-04T09:39:03Z,1.4969,56,286,286,113,2,1,1
+grafana/grafana,124013,ci: use github-hosted-ubuntu-x64-small for codeowners validator,MERGED,2026-05-04T06:48:55Z,2026-05-04T08:38:08Z,2026-05-04T08:38:08Z,1.8203,1,2,2,88,2,1,1
+grafana/grafana,124011,deps(go): bump connectrpc.com/connect from 1.19.1 to 1.19.2,MERGED,2026-05-04T02:39:13Z,2026-05-04T08:37:51Z,2026-05-04T08:37:51Z,5.9772,2,3,3,6553,1,1,1
+grafana/grafana,124010,deps(go): bump github.com/influxdata/influxdb-client-go/v2 from 2.13.0 to 2.14.0,MERGED,2026-05-04T02:38:11Z,2026-05-04T08:44:31Z,2026-05-04T08:44:31Z,6.1056,2,3,3,5595,1,1,1
+grafana/grafana,123997,Restore dashboards: Remove restoreDashboards feature toggle,MERGED,2026-05-02T07:24:28Z,2026-05-05T06:26:56Z,2026-05-05T06:26:56Z,71.0411,23,64,195,778,2,12,4
+grafana/grafana,123986,Table: Fix width bi-directional updates for nested tables,MERGED,2026-05-01T22:35:09Z,2026-05-05T13:01:11Z,2026-05-05T13:01:11Z,86.4339,8,298,15,1128,2,3,2
+grafana/grafana,123982,Correlations: Allow datasource target to be nullable for removal - FE,CLOSED,2026-05-01T21:32:28Z,2026-05-05T18:12:49Z,,92.6725,5,25,4,692,2,1,1
+grafana/grafana,123981,Correlations: Allow datasource target to be nullable for removal - BE,CLOSED,2026-05-01T21:30:28Z,2026-05-05T18:13:09Z,,92.7114,4,11,8,699,2,1,1
+grafana/grafana,123979,Provisioning: Skip move if the path is the same,MERGED,2026-05-01T20:29:58Z,2026-05-04T07:21:09Z,2026-05-04T07:21:08Z,58.8528,2,47,0,591,2,1,1
+grafana/grafana,123978,Provisioning: Prevent bulk move to same folder,MERGED,2026-05-01T20:27:15Z,2026-05-04T07:20:22Z,2026-05-04T07:20:22Z,58.8853,6,97,4,290,3,2,1
+grafana/grafana,123973,unified-storage: log case mismatches when reading resources,MERGED,2026-05-01T18:37:08Z,2026-05-01T19:40:59Z,2026-05-01T19:40:59Z,1.0642,3,143,19,171,2,2,3
+grafana/grafana,123966,Datasources: Remove duplicate type from header subtitle,MERGED,2026-05-01T16:00:14Z,2026-05-04T13:22:05Z,2026-05-04T13:22:05Z,69.3642,12,12,14,869,4,1,2
+grafana/grafana,123958,Search: rename remote index snapshot manifest to grafana-index-snapshot.json,MERGED,2026-05-01T14:15:27Z,2026-05-04T09:13:54Z,2026-05-04T09:13:54Z,66.9742,4,78,70,1126,3,1,2
+grafana/grafana,123956,AuthN: migrate auth token and session code to ConfigProvider,MERGED,2026-05-01T13:28:07Z,2026-05-05T13:42:01Z,2026-05-05T13:42:01Z,96.2317,9,118,45,2377,2,1,1
+grafana/grafana,123955,Chore: Update feature-toggles.md,MERGED,2026-05-01T13:26:00Z,2026-05-04T15:27:07Z,2026-05-04T15:27:06Z,74.0183,1,1,1,612,2,1,1
+grafana/grafana,123954,"Search: split build vs cleanup lock options, make timeouts configurable",MERGED,2026-05-01T13:06:00Z,2026-05-01T14:09:32Z,2026-05-01T14:09:32Z,1.0589,7,226,47,471,2,1,1

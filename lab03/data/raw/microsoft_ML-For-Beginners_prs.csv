@@ -1,0 +1,11 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+microsoft/ML-For-Beginners,967,fix: corrected MSE to RMSE and fixed a variable name,MERGED,2026-04-21T05:27:19Z,2026-04-24T11:00:56Z,2026-04-24T11:00:56Z,77.5603,1,8,8,283,3,0,1
+microsoft/ML-For-Beginners,965,fix: grammatical errors in introduction section,CLOSED,2026-04-18T05:35:26Z,2026-04-24T11:30:37Z,,149.9197,3,13,13,75,3,3,1
+microsoft/ML-For-Beginners,964,Added comments to improve code readability,CLOSED,2026-04-16T09:15:49Z,2026-04-24T11:59:14Z,,194.7236,1,360,16,154,3,3,1
+microsoft/ML-For-Beginners,951,fix: correct accuracy row alignment in classification report table,MERGED,2026-03-30T18:38:32Z,2026-04-11T21:41:05Z,2026-04-11T21:41:04Z,291.0422,2,4,4,336,3,1,1
+microsoft/ML-For-Beginners,950,fix: harden GitHub Actions workflows,CLOSED,2026-03-30T04:42:48Z,2026-04-20T15:34:55Z,,514.8686,2,2,2,1040,3,0,1
+microsoft/ML-For-Beginners,948,Improved wording in introduction sectionImprove introduction wording for clarity,MERGED,2026-03-27T10:53:20Z,2026-04-11T21:38:44Z,2026-04-11T21:38:44Z,370.7567,1,2,2,122,3,0,1
+microsoft/ML-For-Beginners,942,"Improve ""Getting Help"" section in README",CLOSED,2026-03-18T07:15:12Z,2026-04-11T21:57:05Z,,590.6981,1,12,3,173,3,1,1
+microsoft/ML-For-Beginners,928,docs: fix broken link to RAI Toolbox notebook in fairness assignment,MERGED,2026-02-18T11:00:37Z,2026-02-27T08:12:43Z,2026-02-27T08:12:43Z,213.2017,1,1,1,149,3,0,3
+microsoft/ML-For-Beginners,924,docs: add beginner note explaining linear regression,MERGED,2026-02-08T06:55:20Z,2026-02-27T07:55:30Z,2026-02-27T07:55:30Z,457.0028,1,6,0,0,3,0,1
+microsoft/ML-For-Beginners,923,Improve documentation with learning tips,MERGED,2026-02-06T16:55:01Z,2026-02-27T07:56:23Z,2026-02-27T07:56:23Z,495.0228,1,5,0,108,3,0,1

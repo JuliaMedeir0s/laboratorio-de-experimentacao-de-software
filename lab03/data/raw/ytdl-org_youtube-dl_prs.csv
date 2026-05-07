@@ -1,0 +1,24 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+ytdl-org/youtube-dl,33116,my first PR,CLOSED,2025-04-22T15:10:47Z,2025-04-23T14:26:09Z,,23.2561,1,2,1,1813,2,0,1
+ytdl-org/youtube-dl,32987,[YouTube] Fix nsig challenge for player `3bb1f723`,MERGED,2024-12-07T10:37:05Z,2024-12-16T12:38:51Z,2024-12-16T12:38:51Z,218.0294,5,636,202,2118,4,8,3
+ytdl-org/youtube-dl,32928,Fix: fix installation command for MacOS,CLOSED,2024-09-10T15:39:15Z,2025-07-06T16:57:52Z,,7177.3103,1,1,1,2668,4,2,1
+ytdl-org/youtube-dl,32891,applied @dirkf's patches for nsig extraction on youtube,MERGED,2024-08-01T15:58:29Z,2024-08-01T18:18:34Z,2024-08-01T18:18:34Z,2.3347,2,30,6,1614,2,2,2
+ytdl-org/youtube-dl,32876,[ci] Implement release workflow,CLOSED,2024-07-23T20:15:18Z,2026-01-12T16:34:23Z,,12908.3181,9,476,745,2427,5,15,9
+ytdl-org/youtube-dl,32845,"[JSInterp, YouTube] Support YT player `b22ef6e7` etc",MERGED,2024-07-10T17:53:59Z,2024-07-10T23:50:46Z,2024-07-10T23:50:46Z,5.9464,5,375,488,2150,5,1,5
+ytdl-org/youtube-dl,32812,[extractor/safari] Partially Fix Extractor⁠,CLOSED,2024-06-12T09:24:51Z,2024-06-13T20:31:36Z,,35.1125,1,50,55,0,2,5,1
+ytdl-org/youtube-dl,32762,[extractor/common] Fix crash in _report_ignoring_subs,MERGED,2024-04-03T08:34:57Z,2024-04-05T14:25:29Z,2024-04-05T14:25:29Z,53.8422,1,15,6,2045,2,4,6
+ytdl-org/youtube-dl,32752,[Youtube] Fix AttributeError no attribute '_YoutubeIE__ie_msg' if unable to decode n-parameter,MERGED,2024-03-23T13:59:52Z,2024-03-23T15:30:13Z,2024-03-23T15:30:13Z,1.5058,1,3,3,1199,2,1,1
+ytdl-org/youtube-dl,32747,Add support for shows.acast.com,CLOSED,2024-03-17T06:58:56Z,2025-07-30T19:11:18Z,,12012.2061,1,18,4,2063,2,2,2
+ytdl-org/youtube-dl,32742,[Vimeo]  fix config parser regex,MERGED,2024-03-11T14:19:31Z,2024-03-12T11:44:14Z,2024-03-12T11:44:14Z,21.4119,1,2,2,2003,2,2,1
+ytdl-org/youtube-dl,32740,[YouPorn] Fix and improve extraction; add playlist extraction,MERGED,2024-03-10T13:45:24Z,2024-04-22T00:34:27Z,2024-04-22T00:34:27Z,1018.8175,3,576,48,2733,2,2,5
+ytdl-org/youtube-dl,32739,Security problems and maintenance,CLOSED,2024-03-08T10:08:22Z,2025-12-23T19:21:22Z,,15729.2167,3,9,9,1813,2,1,1
+ytdl-org/youtube-dl,32725,[XFileShare] Update for 2024 with new InfoExtractor features,MERGED,2024-02-21T12:27:15Z,2024-03-08T13:03:43Z,2024-03-08T13:03:43Z,384.6078,6,276,182,2541,1,0,5
+ytdl-org/youtube-dl,32672,👷 use latest major version for actions/checkout,CLOSED,2023-12-22T13:35:57Z,2025-07-08T16:46:56Z,,13539.1831,1,8,2,1375,2,5,3
+ytdl-org/youtube-dl,32634,[telewebion] fix extraction,MERGED,2023-11-11T15:33:29Z,2023-12-02T15:25:09Z,2023-12-02T15:25:09Z,503.8611,1,23,24,1597,2,2,5
+ytdl-org/youtube-dl,32628,[Epidemic Sound] Add new extractor,MERGED,2023-11-06T11:05:16Z,2023-12-06T01:17:57Z,2023-12-06T01:17:57Z,710.2114,2,102,0,1577,2,6,6
+ytdl-org/youtube-dl,32559,"Fix format string injection when using option --write-info-json for video with percent sign in title. (Caused TypeError ""not enough arguments for format string"")",MERGED,2023-09-13T19:10:33Z,2023-12-06T02:45:41Z,2023-12-06T02:45:41Z,1999.5856,1,2,2,1672,2,1,1
+ytdl-org/youtube-dl,32557,[mixcloud] updated mixcloud API server address,MERGED,2023-09-13T18:24:23Z,2024-06-11T11:38:24Z,2024-06-11T11:38:24Z,6521.2336,1,24,6,1711,2,3,1
+ytdl-org/youtube-dl,32514,[caffeine.tv] Add new extractor,MERGED,2023-08-17T04:07:34Z,2024-02-22T12:54:08Z,2024-02-22T12:54:08Z,4544.7761,2,80,0,1659,2,0,4
+ytdl-org/youtube-dl,32481,"[Misc] Under-the-hood fixes, improvements and tests (pt 2)",MERGED,2023-07-28T11:35:29Z,2023-07-29T13:27:26Z,2023-07-29T13:27:26Z,25.8658,6,203,85,3020,2,0,3
+ytdl-org/youtube-dl,32213,[Nhk] Fix: NhkVod(|Program) Extractor  / [Piksel] Feat: Add variable host support,CLOSED,2023-05-19T19:08:10Z,2024-05-26T07:01:10Z,,8939.8833,2,90,67,1853,1,3,4
+ytdl-org/youtube-dl,32138,"[GlobalPlayer,Whyp,DLF, Clipchamp] Add new extractors back-ported from yt-dlp",MERGED,2023-05-03T14:11:49Z,2023-07-19T21:14:50Z,2023-07-19T21:14:50Z,1855.0503,10,1097,95,3454,2,1,10

@@ -1,0 +1,39 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+DopplerHQ/awesome-interview-questions,315,Added C++ Cheat Sheet for Interview,CLOSED,2024-05-13T05:05:09Z,2025-01-05T13:52:32Z,,5696.7897,1,1,0,383,3,3,1
+DopplerHQ/awesome-interview-questions,252,Added `Design patterns` link,CLOSED,2021-11-21T04:12:31Z,2023-05-05T14:14:09Z,,12730.0272,2,3,1,66,3,4,1
+DopplerHQ/awesome-interview-questions,250,Added `reactJS` interview question,MERGED,2021-11-11T20:55:28Z,2021-11-16T18:04:51Z,2021-11-16T18:04:50Z,117.1561,1,1,0,0,2,0,2
+DopplerHQ/awesome-interview-questions,249,Added  `nodejs`  Interview Questions link,MERGED,2021-11-06T15:01:25Z,2021-11-16T18:05:32Z,2021-11-16T18:05:32Z,243.0686,1,1,0,200,2,0,1
+DopplerHQ/awesome-interview-questions,248,Update README.md,MERGED,2021-10-26T14:13:03Z,2021-11-16T18:05:38Z,2021-11-16T18:05:38Z,507.8764,1,5,8,58,2,0,1
+DopplerHQ/awesome-interview-questions,247,Top Questions and Answer of Angular in 2021,MERGED,2021-10-23T11:34:28Z,2021-11-16T18:05:56Z,2021-11-16T18:05:56Z,582.5244,1,1,0,0,2,0,1
+DopplerHQ/awesome-interview-questions,245,Added docker interview questions resource page,MERGED,2021-10-09T13:56:32Z,2021-11-16T18:45:23Z,2021-11-16T18:45:23Z,916.8142,1,1,0,99,2,0,1
+DopplerHQ/awesome-interview-questions,244,Added resource page,MERGED,2021-10-08T12:59:35Z,2021-11-16T18:45:13Z,2021-11-16T18:45:13Z,941.7606,1,1,0,77,2,0,1
+DopplerHQ/awesome-interview-questions,243,Update interview handbook websites,MERGED,2021-09-19T11:01:27Z,2021-11-16T18:12:12Z,2021-11-16T18:12:12Z,1399.1792,1,5,5,110,2,0,1
+DopplerHQ/awesome-interview-questions,241,Useful Link,MERGED,2021-08-14T17:40:24Z,2021-11-16T18:05:15Z,2021-11-16T18:05:15Z,2256.4142,1,1,0,0,2,0,1
+DopplerHQ/awesome-interview-questions,240,Update List of Java programs for interview,MERGED,2021-07-15T05:24:07Z,2021-08-04T03:23:10Z,2021-08-04T03:23:10Z,477.9842,1,1,0,115,2,0,1
+DopplerHQ/awesome-interview-questions,237,Adding Spark Resource,MERGED,2021-07-02T13:40:03Z,2021-08-04T03:25:23Z,2021-08-04T03:25:23Z,781.7556,1,5,0,209,2,0,1
+DopplerHQ/awesome-interview-questions,236,add: Docker interview questions and answers link,MERGED,2021-06-21T08:51:56Z,2021-08-04T03:28:22Z,2021-08-04T03:28:22Z,1050.6072,1,1,0,58,2,0,1
+DopplerHQ/awesome-interview-questions,235,Adds VueJs section,MERGED,2021-06-08T16:28:34Z,2021-08-04T03:32:32Z,2021-08-04T03:32:32Z,1355.0661,1,4,0,119,2,0,3
+DopplerHQ/awesome-interview-questions,234,"Added New Resource for Android, Networking, etc",MERGED,2021-05-31T09:22:46Z,2021-08-04T03:34:09Z,2021-08-04T03:34:09Z,1554.1897,1,3,0,68,2,0,1
+DopplerHQ/awesome-interview-questions,233,Added New Resource To Android,MERGED,2021-05-18T11:25:21Z,2021-08-04T03:27:37Z,2021-08-04T03:27:37Z,1864.0378,1,1,0,97,2,0,1
+DopplerHQ/awesome-interview-questions,232,docs: update years in titles of Python and Data Science,MERGED,2021-04-28T08:52:07Z,2021-08-04T03:26:09Z,2021-08-04T03:26:09Z,2346.5672,1,2,2,190,2,0,1
+DopplerHQ/awesome-interview-questions,230,Added android interview questions,MERGED,2021-04-13T19:33:00Z,2021-04-19T02:19:17Z,2021-04-19T02:19:16Z,126.7711,1,3,0,33,2,0,1
+DopplerHQ/awesome-interview-questions,228,Added github repo link for JavaScript,MERGED,2021-03-13T12:44:51Z,2021-03-22T07:05:47Z,2021-03-22T07:05:47Z,210.3489,1,1,0,70,2,0,1
+DopplerHQ/awesome-interview-questions,227,"New resources for HTML, C, C#, Nodejs, & Docker",MERGED,2021-03-11T13:40:42Z,2021-03-29T12:03:31Z,2021-03-29T12:03:31Z,430.3803,1,5,0,93,2,0,1
+DopplerHQ/awesome-interview-questions,226,Correction of python  interview questions count in README.md,MERGED,2021-02-11T05:45:21Z,2021-03-22T07:09:38Z,2021-03-22T07:09:38Z,937.4047,1,1,1,40,2,0,2
+DopplerHQ/awesome-interview-questions,224,added one more resource in data structures section,MERGED,2021-02-03T07:52:57Z,2021-03-02T03:04:37Z,2021-03-02T03:04:37Z,643.1944,1,2,0,0,2,1,1
+DopplerHQ/awesome-interview-questions,217,Fixed broken link for Pangara's WP questions,MERGED,2020-10-03T14:48:37Z,2021-03-02T03:05:11Z,2021-03-02T03:05:11Z,3588.2761,1,1,1,77,4,1,3
+DopplerHQ/awesome-interview-questions,216,Adding important Ionic Questions.,MERGED,2020-10-02T05:22:12Z,2021-03-02T03:05:40Z,2021-03-02T03:05:39Z,3621.7242,1,3,0,35,3,2,2
+DopplerHQ/awesome-interview-questions,215,"Removing dead link ""iOS/ObjC Interview Questions""",MERGED,2020-10-01T17:54:32Z,2021-03-22T07:11:42Z,2021-03-22T07:11:42Z,4117.2861,1,0,1,67,3,1,2
+DopplerHQ/awesome-interview-questions,214,"Adds ""70 JavaScript Interview Questions""",CLOSED,2020-10-01T17:39:08Z,2021-04-13T07:15:03Z,,4645.5986,1,1,0,40,4,2,4
+DopplerHQ/awesome-interview-questions,213,Update README.md,MERGED,2020-10-01T01:20:02Z,2021-04-13T07:16:01Z,2021-04-13T07:16:01Z,4661.9331,1,1,0,31,3,0,2
+DopplerHQ/awesome-interview-questions,212,Update README.md,MERGED,2020-09-30T20:57:51Z,2021-04-19T02:30:01Z,2021-04-19T02:30:01Z,4805.5361,1,7,7,0,3,0,3
+DopplerHQ/awesome-interview-questions,205,Added Java Interview Q&A resource,MERGED,2020-09-03T10:28:25Z,2021-04-19T02:24:06Z,2021-04-19T02:24:06Z,5463.9281,1,2,1,372,3,0,2
+DopplerHQ/awesome-interview-questions,203,Update README.md: Java Spring,MERGED,2020-08-14T04:24:06Z,2021-04-19T02:33:04Z,2021-04-19T02:33:04Z,5950.1494,1,2,0,77,3,0,3
+DopplerHQ/awesome-interview-questions,202,Add android interview questions,CLOSED,2020-08-12T05:46:49Z,2021-04-19T02:52:01Z,,5997.0867,1,4,0,40,3,1,5
+DopplerHQ/awesome-interview-questions,201,- Added dispatch types in iOS related interview questions,MERGED,2020-07-25T17:21:53Z,2021-04-13T07:27:50Z,2021-04-13T07:27:50Z,6278.0992,1,2,0,0,5,1,3
+DopplerHQ/awesome-interview-questions,199,added latest node.js interview questions,MERGED,2020-07-24T08:28:05Z,2021-04-19T02:42:42Z,2021-04-19T02:42:42Z,6450.2436,1,1,0,0,4,2,2
+DopplerHQ/awesome-interview-questions,198,Update README.md,MERGED,2020-07-15T15:38:09Z,2021-03-02T03:26:22Z,2021-03-02T03:26:22Z,5507.8036,1,1,0,53,3,1,2
+DopplerHQ/awesome-interview-questions,197,Adding Software Engineering Quiz,CLOSED,2020-07-07T12:34:20Z,2021-04-19T02:46:40Z,,6854.2056,1,1,0,83,3,1,1
+DopplerHQ/awesome-interview-questions,196,Removing dead links,MERGED,2020-05-19T19:12:23Z,2021-03-02T03:20:22Z,2021-03-02T03:20:22Z,6872.1331,1,0,4,505,4,3,2
+DopplerHQ/awesome-interview-questions,191,added a link to Data Science section,MERGED,2020-03-02T18:51:07Z,2021-03-02T03:22:49Z,2021-03-02T03:22:49Z,8744.5283,1,1,0,76,3,1,1
+DopplerHQ/awesome-interview-questions,168,Add android interview,MERGED,2019-10-04T13:51:38Z,2019-10-15T12:58:02Z,2019-10-15T12:58:02Z,263.1067,1,2,0,0,3,1,1

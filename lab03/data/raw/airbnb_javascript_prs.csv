@@ -1,0 +1,26 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+airbnb/javascript,3236,docs: fix grammar in 'References' section,CLOSED,2026-03-04T11:24:14Z,2026-04-16T05:37:33Z,,1026.2219,1,1,1,101,4,1,1
+airbnb/javascript,3232,Fix link to Code of Conduct,MERGED,2026-02-24T03:03:28Z,2026-02-24T14:05:16Z,2026-02-24T14:05:16Z,11.03,1,1,1,76,2,0,1
+airbnb/javascript,3229,fix: use single quotes in nested ternary bad example (section 15.6),MERGED,2026-02-21T22:49:25Z,2026-04-16T19:24:11Z,2026-04-16T19:24:11Z,1292.5794,1,2,2,1157,3,0,1
+airbnb/javascript,3228,[spam],CLOSED,2026-02-19T13:28:21Z,2026-02-19T18:07:35Z,,4.6539,1,2,4096,0,3,0,1
+airbnb/javascript,3219,docs: Update outdated GitHub Actions versions,MERGED,2026-01-15T18:12:21Z,2026-04-16T05:31:09Z,2026-04-16T05:31:09Z,2171.3133,3,8,8,382,4,0,3
+airbnb/javascript,3217,[spam],CLOSED,2026-01-14T08:57:15Z,2026-01-16T05:26:12Z,,44.4825,11,120,0,89,2,0,1
+airbnb/javascript,3201,[spam],CLOSED,2025-11-24T14:23:42Z,2025-11-24T16:48:45Z,,2.4175,1,1,0,56,2,0,1
+airbnb/javascript,3200,Updated style.js for rephrasing message for #2428,MERGED,2025-11-21T09:04:47Z,2026-04-16T05:08:29Z,2026-04-16T05:08:29Z,3500.0617,2,5,1,197,4,0,1
+airbnb/javascript,3185,README.md,CLOSED,2025-10-07T17:43:41Z,2026-04-16T04:44:27Z,,4571.0128,1,16,0,53,3,1,1
+airbnb/javascript,3176,Add code of conduct,MERGED,2025-09-17T16:55:19Z,2025-09-17T18:12:44Z,2025-09-17T18:12:44Z,1.2903,1,3,0,332,4,2,1
+airbnb/javascript,3174,docs: add Comments section to CSS-in-JavaScript Style Guide,CLOSED,2025-09-15T14:11:51Z,2026-04-24T16:11:12Z,,5305.9892,1,42,0,555,3,2,1
+airbnb/javascript,3172,[spam],CLOSED,2025-09-02T11:01:06Z,2025-09-02T16:00:41Z,,4.9931,1,1,1,21,3,0,1
+airbnb/javascript,3155,Switched markdownlint config to stable MD rule IDs,CLOSED,2025-08-25T20:13:50Z,2025-08-26T18:29:52Z,,22.2672,2,43,155,372,2,2,1
+airbnb/javascript,3153,docs: add note about ESLint --ext for .jsx files (see eslint/eslint#1402),MERGED,2025-08-22T10:08:25Z,2026-04-16T06:06:27Z,2026-04-16T06:06:27Z,5683.9672,2,19,0,323,2,1,3
+airbnb/javascript,3140,feat: add ESLint config for markdown linting with eslint-plugin-markdown,CLOSED,2025-07-24T15:53:55Z,2026-04-16T05:36:39Z,,6373.7122,3,47,0,373,2,0,1
+airbnb/javascript,3114,Added cross platform compatibility,MERGED,2025-04-03T05:46:58Z,2026-04-16T05:14:41Z,2026-04-16T05:14:41Z,9071.4619,1,3,2,272,3,1,3
+airbnb/javascript,3102,Update base.js,CLOSED,2025-03-05T16:04:00Z,2025-03-05T18:14:53Z,,2.1814,1,5,2,69,2,0,1
+airbnb/javascript,3101,Create no-console-in-prod.js,CLOSED,2025-03-05T15:59:26Z,2025-03-05T18:13:57Z,,2.2419,1,32,0,1652,2,0,6
+airbnb/javascript,3081,Support flat config,CLOSED,2025-01-25T16:17:56Z,2025-11-17T00:08:32Z,,7087.8433,24,412,8,358,2,2,2
+airbnb/javascript,3068,[eslint config] [deps] update `eslint-plugin-react-hooks`,MERGED,2024-12-07T04:06:58Z,2024-12-09T06:56:20Z,2024-12-09T06:56:20Z,50.8228,1,2,2,289,4,7,3
+airbnb/javascript,3060,Bug Fix: Use HTML character entities to display JSX code,CLOSED,2024-11-09T20:45:34Z,2025-01-01T09:09:11Z,,1260.3936,1,4,4,457,2,0,1
+airbnb/javascript,3052,"Added Specificity,responsiveness and common pitfalls section to ReadMe",CLOSED,2024-10-12T09:04:23Z,2024-10-13T14:45:15Z,,29.6811,1,576,393,45,2,0,3
+airbnb/javascript,3047,Fix crash in ESLint invocation with TIMING env set,MERGED,2024-10-01T21:14:53Z,2024-10-03T06:46:25Z,2024-10-03T06:46:25Z,33.5256,2,14,2,609,2,0,1
+airbnb/javascript,3038,Add Zit Software to `In the Wild`,MERGED,2024-09-24T07:43:32Z,2024-09-24T16:36:23Z,2024-09-24T16:36:23Z,8.8808,1,1,0,0,2,0,1
+airbnb/javascript,3036,[readme] Remove dead URL,MERGED,2024-09-21T22:03:49Z,2024-09-25T17:23:00Z,2024-09-25T17:23:00Z,91.3197,1,0,4,410,2,3,1

@@ -1,0 +1,47 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+kubernetes/kubernetes,138786,Update golang.org/x/* dependencies,MERGED,2026-05-05T11:56:01Z,2026-05-05T21:20:30Z,2026-05-05T21:20:30Z,9.4081,66,389,1361,3519,5,5,1
+kubernetes/kubernetes,138777,Replace deprecated wait.PollImmediate in test_server.go,MERGED,2026-05-05T02:24:24Z,2026-05-05T21:20:22Z,2026-05-05T21:20:22Z,18.9328,1,1,1,593,3,4,1
+kubernetes/kubernetes,138754,Handle opportunistic batching correctly during PodGroup scheduling cycle,MERGED,2026-05-04T13:13:21Z,2026-05-04T16:22:22Z,2026-05-04T16:22:22Z,3.1503,3,46,6,3671,4,6,2
+kubernetes/kubernetes,138751,test/e2e_dra improvements,MERGED,2026-05-04T10:56:57Z,2026-05-04T13:00:29Z,2026-05-04T13:00:29Z,2.0589,1,3,6,553,3,7,1
+kubernetes/kubernetes,138748,fix a bug with e2e image test pipeline,MERGED,2026-05-03T18:51:58Z,2026-05-03T21:07:37Z,2026-05-03T21:07:37Z,2.2608,2,4,4,3407,3,4,2
+kubernetes/kubernetes,138741,bump k8s.io/kube-openapi to v0.0.0-20260502001324-b7f5293f4787,MERGED,2026-05-02T00:53:10Z,2026-05-04T17:20:52Z,2026-05-04T17:20:52Z,64.4617,70,310,155,4468,6,6,2
+kubernetes/kubernetes,138727,Fix nil pointer dereference in Windows memory eviction threshold notifier,MERGED,2026-05-01T04:35:51Z,2026-05-04T17:20:44Z,2026-05-04T17:20:44Z,84.7481,1,4,3,1051,5,6,2
+kubernetes/kubernetes,138725,DRA: overhaul declarative-validation test coverage,MERGED,2026-04-30T23:13:15Z,2026-05-01T23:51:23Z,2026-05-01T23:51:23Z,24.6356,14,761,25,4657,6,7,5
+kubernetes/kubernetes,138720,[WIP] Demo broken DV for aliases,CLOSED,2026-04-30T20:51:30Z,2026-05-05T16:47:44Z,,115.9372,3,297,0,32,2,5,4
+kubernetes/kubernetes,138717,DRA upgrade/downgrade: control etcd lifecycle directly,MERGED,2026-04-30T18:58:38Z,2026-05-04T11:49:40Z,2026-05-04T11:49:40Z,88.8506,4,84,70,1403,3,13,1
+kubernetes/kubernetes,138715,apiserver/cacher: pre-size result slice in btreeStore.ListPrefix,CLOSED,2026-04-30T15:32:06Z,2026-05-04T14:03:58Z,,94.5311,2,57,1,3587,4,11,5
+kubernetes/kubernetes,138711,Drop LogarithmicScaleDown after the feature GA-ed in 1.31,MERGED,2026-04-30T11:57:49Z,2026-05-05T18:04:29Z,2026-05-05T18:04:29Z,126.1111,7,19,63,470,5,7,3
+kubernetes/kubernetes,138705,e2e_dra: reliability fixes,MERGED,2026-04-30T07:55:03Z,2026-05-04T09:35:39Z,2026-05-04T09:35:39Z,97.6767,2,14,3,947,3,7,3
+kubernetes/kubernetes,138701,apiserver: add feature gate to skip consistent list storage fallback,MERGED,2026-04-30T03:51:06Z,2026-05-04T13:58:23Z,2026-05-04T13:58:23Z,106.1214,6,56,3,1031,8,17,10
+kubernetes/kubernetes,138698,Ensure leases are not stale in node controller before marking unhealthy,MERGED,2026-04-30T01:33:06Z,2026-05-05T18:04:22Z,2026-05-05T18:04:22Z,136.5211,7,293,2,3740,5,11,21
+kubernetes/kubernetes,138695,Fix gaps in API definition tests,MERGED,2026-04-29T21:40:03Z,2026-05-04T21:48:22Z,2026-05-04T21:48:22Z,120.1386,6,172,124,881,5,6,6
+kubernetes/kubernetes,138694,kubectl: set KUBECTL_PATH environment variable during plugin execution,MERGED,2026-04-29T21:39:11Z,2026-05-05T07:32:23Z,2026-05-05T07:32:22Z,129.8864,4,84,2,962,4,8,3
+kubernetes/kubernetes,138693,Fixing prune-junit-xml directory walking so labels get applied for Windows too,MERGED,2026-04-29T19:41:18Z,2026-04-30T19:25:33Z,2026-04-30T19:25:32Z,23.7372,2,51,4,3561,5,11,3
+kubernetes/kubernetes,138692,kubeadm: skip LocalAPIEndpoint defaulting on worker join,MERGED,2026-04-29T19:24:15Z,2026-05-05T14:24:23Z,2026-05-05T14:24:23Z,139.0022,3,66,9,975,4,10,4
+kubernetes/kubernetes,138685,Automated cherry pick of #138449: kubeadm: use the localAPIEndpoint for all API calls in 'init',MERGED,2026-04-29T15:44:03Z,2026-05-05T15:52:24Z,2026-05-05T15:52:24Z,144.1392,8,84,57,735,4,8,2
+kubernetes/kubernetes,138683,Automated cherry pick of #138449: kubeadm: use the localAPIEndpoint for all API calls in 'init',MERGED,2026-04-29T15:40:09Z,2026-05-05T15:00:26Z,2026-05-05T15:00:26Z,143.3381,8,83,56,735,4,4,2
+kubernetes/kubernetes,138682,Automated cherry pick of #138449: kubeadm: use the localAPIEndpoint for all API calls in 'init',MERGED,2026-04-29T15:35:39Z,2026-05-05T15:04:23Z,2026-05-05T15:04:23Z,143.4789,7,83,56,735,5,4,2
+kubernetes/kubernetes,138680,Cleanup statefulset helpers and tests,MERGED,2026-04-29T14:43:30Z,2026-04-30T10:05:24Z,2026-04-30T10:05:24Z,19.365,4,121,157,809,4,5,4
+kubernetes/kubernetes,138659,test: fill remaining gaps in declarative validation equivalence test,MERGED,2026-04-29T00:12:37Z,2026-04-29T23:35:23Z,2026-04-29T23:35:23Z,23.3794,6,455,5,4269,6,9,2
+kubernetes/kubernetes,138656,Fix metrics regex in TestConstrainedImpersonation,MERGED,2026-04-28T18:56:57Z,2026-04-28T23:13:29Z,2026-04-28T23:13:29Z,4.2756,1,2,2,73,5,5,1
+kubernetes/kubernetes,138655,Fix excessive events generated for image volumes,MERGED,2026-04-28T18:32:43Z,2026-05-05T17:06:30Z,2026-05-05T17:06:30Z,166.5631,3,172,25,3048,7,13,12
+kubernetes/kubernetes,138649,bump cos-gpu-installer to v2.5.8 for COS M125,MERGED,2026-04-28T17:31:27Z,2026-04-28T23:13:22Z,2026-04-28T23:13:22Z,5.6986,1,2,2,1599,6,6,1
+kubernetes/kubernetes,138647,Drop `AuthorizeNodeWithSelectors` and `AuthorizeWithSelectors` feature gates,MERGED,2026-04-28T17:17:57Z,2026-04-30T18:27:34Z,2026-04-30T18:27:34Z,49.1603,28,190,765,2508,3,5,1
+kubernetes/kubernetes,138646,Make generated DV code more readable,MERGED,2026-04-28T17:01:44Z,2026-04-28T20:37:23Z,2026-04-28T20:37:23Z,3.5942,173,30629,13117,275,7,6,5
+kubernetes/kubernetes,138642,e2e node conformance: fix the EnsureCredentialPulledImages test flakes,MERGED,2026-04-28T13:12:50Z,2026-04-30T21:33:33Z,2026-04-30T21:33:33Z,56.3453,2,31,3,1131,6,13,2
+kubernetes/kubernetes,138639,E2E framework: avoid duplicate FeatureGate tags,MERGED,2026-04-28T09:20:59Z,2026-04-28T16:38:02Z,2026-04-28T16:38:02Z,7.2842,1,13,2,24579,3,4,1
+kubernetes/kubernetes,138638,Group storage watch tests,MERGED,2026-04-28T08:51:36Z,2026-04-28T12:24:04Z,2026-04-28T12:24:04Z,3.5411,2,178,216,378,3,10,2
+kubernetes/kubernetes,138632,kubectl: improve apply -f flag usage description,MERGED,2026-04-28T04:42:45Z,2026-04-28T19:05:24Z,2026-04-28T19:05:24Z,14.3775,2,2,2,1253,4,12,2
+kubernetes/kubernetes,138629,feat(validation-gen): add eachVal + maxBytes validation for resource string values,MERGED,2026-04-27T22:09:39Z,2026-04-30T23:33:30Z,2026-04-30T23:33:30Z,73.3975,12,63,2,1865,6,8,2
+kubernetes/kubernetes,138627,Remove unused Close methods of mockRuntimeService in kubelet tests,MERGED,2026-04-27T21:59:01Z,2026-04-30T19:25:25Z,2026-04-30T19:25:24Z,69.4397,2,0,8,740,3,11,1
+kubernetes/kubernetes,138621,dependencies: update github.com/moby/term v0.5.2,MERGED,2026-04-27T15:08:20Z,2026-04-27T20:30:48Z,2026-04-27T20:30:48Z,5.3744,28,70,78,416,6,6,1
+kubernetes/kubernetes,138613,Update cri-tools to v1.36.0,MERGED,2026-04-27T09:45:03Z,2026-04-29T17:23:23Z,2026-04-29T17:23:23Z,55.6389,3,6,6,443,8,6,2
+kubernetes/kubernetes,138611,Refactor allocation manager to remove unused SetContainerRuntime() method,MERGED,2026-04-27T08:40:20Z,2026-05-02T15:29:23Z,2026-05-02T15:29:23Z,126.8175,4,3,17,3505,5,16,1
+kubernetes/kubernetes,138603,Automated cherry pick of #138000: Delete remote endpoint if it has same ip as local endpoint in the system.,MERGED,2026-04-26T09:55:28Z,2026-05-05T02:32:22Z,2026-05-05T02:32:22Z,208.615,5,743,33,526,5,8,1
+kubernetes/kubernetes,138602,Automated cherry pick of #138000: Delete remote endpoint if it has same ip as local endpoint in the system.,MERGED,2026-04-26T09:54:55Z,2026-05-05T02:34:22Z,2026-05-05T02:34:21Z,208.6572,5,743,33,526,4,8,1
+kubernetes/kubernetes,138601,Automated cherry pick of #138000: Delete remote endpoint if it has same ip as local endpoint in the system.,MERGED,2026-04-26T09:52:24Z,2026-05-05T02:34:22Z,2026-05-05T02:34:22Z,208.6994,5,743,33,526,4,9,1
+kubernetes/kubernetes,138600,kubelet: stop shutdown watcher on context cancellation,MERGED,2026-04-26T09:37:56Z,2026-05-04T17:20:36Z,2026-05-04T17:20:36Z,199.7111,2,81,3,913,5,11,5
+kubernetes/kubernetes,138589,kubelet: thread context through node shutdown paths,MERGED,2026-04-25T03:26:00Z,2026-05-04T18:14:32Z,2026-05-04T18:14:31Z,230.8086,5,57,18,814,7,12,11
+kubernetes/kubernetes,138585,`AGE` column added to kubectl get crds -o wide table output,CLOSED,2026-04-24T20:08:45Z,2026-04-28T11:11:39Z,,87.0483,2,14,0,3712,3,5,1
+kubernetes/kubernetes,138581,fix: the kubelet stats handler processes requests fo... in handler.go,CLOSED,2026-04-24T17:12:21Z,2026-04-25T00:46:00Z,,7.5608,1,2,3,1130,3,4,2
+kubernetes/kubernetes,138576,"client-go/reflector: Add object count to reflector ""Objects listed"" trace step",MERGED,2026-04-24T15:11:59Z,2026-04-28T09:24:49Z,2026-04-28T09:24:49Z,90.2139,2,47,1,4565,4,8,2

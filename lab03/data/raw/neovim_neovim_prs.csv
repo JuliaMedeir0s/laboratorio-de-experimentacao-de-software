@@ -1,0 +1,32 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+neovim/neovim,39594,fix(vim.net): fix integration tests,MERGED,2026-05-04T19:57:01Z,2026-05-05T20:26:59Z,2026-05-05T20:26:59Z,24.4994,2,173,150,189,3,2,9
+neovim/neovim,39577,fix(ci): generate more data to stress output throttling test,MERGED,2026-05-03T20:34:57Z,2026-05-04T16:10:45Z,2026-05-04T16:10:45Z,19.5967,1,13,10,851,3,3,4
+neovim/neovim,39574,fix(lsp): support nested workspace registrations,MERGED,2026-05-03T16:18:55Z,2026-05-05T20:36:02Z,2026-05-05T20:36:02Z,52.2853,4,348,50,462,2,2,1
+neovim/neovim,39568,perf(lua): memoize `key_fn` results,MERGED,2026-05-03T07:28:10Z,2026-05-05T21:04:12Z,2026-05-05T21:04:12Z,61.6006,4,82,30,384,4,2,2
+neovim/neovim,39557,ci(external): no need for neovim-ppa/stable,MERGED,2026-05-02T10:06:48Z,2026-05-02T14:19:55Z,2026-05-02T14:19:55Z,4.2186,1,0,1,207,4,5,2
+neovim/neovim,39541,fix(path): make exepath respect shellslash,MERGED,2026-05-01T12:28:18Z,2026-05-04T16:18:14Z,2026-05-04T16:18:14Z,75.8322,4,15,3,435,2,1,3
+neovim/neovim,39528,refactor(excmd): pass fargs to Lua for builtin cmds,MERGED,2026-04-30T19:26:13Z,2026-05-02T14:46:24Z,2026-05-02T14:46:24Z,43.3364,8,33,39,565,1,0,1
+neovim/neovim,39527,docs: Update instructions for debugging LSP,MERGED,2026-04-30T18:57:13Z,2026-04-30T21:28:22Z,2026-04-30T21:28:22Z,2.5192,2,0,2,693,3,1,1
+neovim/neovim,39525,fix(diagnostic): status() respects config.signs,MERGED,2026-04-30T18:10:34Z,2026-05-05T12:35:36Z,2026-05-05T12:35:36Z,114.4172,2,16,10,580,6,7,2
+neovim/neovim,39523,fix(env): force uppercase environ() keys on Windows,MERGED,2026-04-30T13:47:45Z,2026-04-30T15:43:04Z,2026-04-30T15:43:04Z,1.9219,4,55,8,51,1,0,1
+neovim/neovim,39520,vim-patch:9.2.0416: Unix: filename completion splits at space for single-file Ex commands,MERGED,2026-04-30T11:38:45Z,2026-04-30T13:11:50Z,2026-04-30T13:11:50Z,1.5514,2,19,1,552,2,0,1
+neovim/neovim,39517,vim-patch:9.2.0418: wildcards in expanded env vars reinterpreted by glob,MERGED,2026-04-30T04:21:26Z,2026-05-02T02:51:45Z,2026-05-02T02:51:45Z,46.5053,10,62,26,576,2,1,5
+neovim/neovim,39516,"vim-patch:9.2.0417: completion: no support for ""noinsert"" with 'wildmode'",MERGED,2026-04-30T04:02:51Z,2026-04-30T11:13:48Z,2026-04-30T11:13:48Z,7.1825,8,139,23,356,2,0,1
+neovim/neovim,39515,"build(lint): allow ""bufnr"" as positional param",MERGED,2026-04-30T00:07:16Z,2026-04-30T11:12:35Z,2026-04-30T11:12:35Z,11.0886,17,213,322,149,1,0,1
+neovim/neovim,39514,fix(style): drop clang-format,MERGED,2026-04-29T23:24:56Z,2026-05-01T14:01:41Z,2026-05-01T14:01:41Z,38.6125,3,1,76,223,3,6,2
+neovim/neovim,39499,fix(lsp): send didClose and didOpen when languageId changes,MERGED,2026-04-29T08:20:00Z,2026-04-30T09:56:16Z,2026-04-30T09:56:16Z,25.6044,5,79,12,731,3,4,6
+neovim/neovim,39490,build(vim-patch): AGENTS.md is N/A,MERGED,2026-04-29T02:00:58Z,2026-04-29T11:07:30Z,2026-04-29T11:07:30Z,9.1089,1,1,0,353,3,0,1
+neovim/neovim,39488,"feat(ui): use vim.ui.select for :oldfiles, :recover",MERGED,2026-04-28T23:22:40Z,2026-04-30T17:42:53Z,2026-04-30T17:42:53Z,42.3369,20,497,284,609,1,1,3
+neovim/neovim,39484,feat(img): vim.ui.img.del() clears all images,MERGED,2026-04-28T21:54:27Z,2026-04-29T14:38:21Z,2026-04-29T14:38:21Z,16.7317,5,70,18,353,3,2,8
+neovim/neovim,39478,"feat(ui): use vim.ui.select for :tselect, z=",MERGED,2026-04-28T15:57:49Z,2026-04-28T22:29:17Z,2026-04-28T22:29:17Z,6.5244,14,425,333,775,2,0,2
+neovim/neovim,39469,"fix(vim.system): use REAL PIPES for vim.system, similar to jobs",MERGED,2026-04-28T10:01:17Z,2026-04-30T11:31:46Z,2026-04-30T11:31:46Z,49.5081,2,34,6,404,2,0,3
+neovim/neovim,39455,fix(treesitter): get_node_text returns trailing newline for buffer source,CLOSED,2026-04-27T20:10:11Z,2026-04-30T08:17:57Z,,60.1294,2,37,1,1105,2,1,1
+neovim/neovim,39452,vim-patch:9.2.0400: sandbox callbacks selected through 'complete',MERGED,2026-04-27T17:50:51Z,2026-04-27T23:09:33Z,2026-04-27T23:09:33Z,5.3117,2,69,1,450,3,3,1
+neovim/neovim,39449,feat(health): add vim.ui.img healthcheck for detecting graphics support,MERGED,2026-04-27T17:04:22Z,2026-04-28T14:12:14Z,2026-04-28T14:12:14Z,21.1311,5,117,39,1032,3,4,6
+neovim/neovim,39448,perf(treesitter): reuse edited tree ranges for callbacks,MERGED,2026-04-27T16:35:04Z,2026-04-28T16:38:10Z,2026-04-28T16:38:10Z,24.0517,3,59,6,3093,3,2,2
+neovim/neovim,39447,"refactor(pos,range): use numeric index internally",MERGED,2026-04-27T12:55:20Z,2026-04-27T17:43:47Z,2026-04-27T17:43:46Z,4.8072,2,37,51,119,3,5,3
+neovim/neovim,39445,fix(lsp): show meaningful error on invalid completion response,MERGED,2026-04-27T10:52:43Z,2026-04-28T14:18:37Z,2026-04-28T14:18:37Z,27.4317,2,25,1,354,2,1,8
+neovim/neovim,39444,fix(messages): message kind for :recover and swapfile attention,MERGED,2026-04-27T10:12:35Z,2026-04-28T14:05:07Z,2026-04-28T14:05:07Z,27.8756,3,118,37,185,2,2,1
+neovim/neovim,39441,fix(marks): don't use spell decorations from other lines,MERGED,2026-04-27T07:08:39Z,2026-04-27T23:00:23Z,2026-04-27T23:00:23Z,15.8622,2,123,7,197,2,1,1
+neovim/neovim,39427,build(docs): sort/lint class fields and keysets,MERGED,2026-04-26T15:17:10Z,2026-04-26T18:39:29Z,2026-04-26T18:39:29Z,3.3719,24,995,934,431,2,1,2
+neovim/neovim,39426,refactor(path): more slash normalization,MERGED,2026-04-26T15:11:00Z,2026-04-29T20:33:22Z,2026-04-29T20:33:22Z,77.3728,4,41,11,443,2,3,13

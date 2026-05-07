@@ -1,0 +1,8 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+tonsky/FiraCode,1675,Fix automated release process: Updates GHA types and build dependencies,MERGED,2026-01-19T01:10:57Z,2026-01-19T02:26:05Z,2026-01-19T02:26:04Z,1.2519,2,50,13,0,2,1,3
+tonsky/FiraCode,1438,Move Godot to supported,MERGED,2022-07-11T15:03:18Z,2022-07-13T18:52:38Z,2022-07-13T18:52:38Z,51.8222,1,7,6,156,3,1,2
+tonsky/FiraCode,1387,feat: allow hardcoding of features via arguments to build script,CLOSED,2022-03-11T21:01:32Z,2022-03-15T15:00:36Z,,89.9844,30,401,69,4048,2,1,2
+tonsky/FiraCode,1366,Spelling,MERGED,2022-02-07T00:33:16Z,2022-02-07T18:33:55Z,2022-02-07T18:33:55Z,18.0108,14,56,56,737,2,1,1
+tonsky/FiraCode,1133,Update README.md,CLOSED,2020-10-06T15:23:12Z,2021-06-12T03:51:49Z,,5964.4769,1,5,5,33,4,3,3
+tonsky/FiraCode,878,Update README.txt,CLOSED,2019-10-29T16:09:50Z,2019-12-05T12:08:09Z,,883.9719,1,2,2,42,5,3,1
+tonsky/FiraCode,742,Improve build script & fonts in distr,MERGED,2019-04-05T21:40:13Z,2019-04-06T15:04:06Z,2019-04-06T15:04:06Z,17.3981,32,110,406,287,4,2,1

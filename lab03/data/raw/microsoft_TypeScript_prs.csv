@@ -1,0 +1,32 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+microsoft/TypeScript,63453,fix: detected calls to child_process from a function... in...,CLOSED,2026-04-30T09:14:41Z,2026-05-04T15:58:29Z,,102.73,1,2,2,951,6,6,1
+microsoft/TypeScript,63446,Redirect Claude Code to read AGENTS.md,MERGED,2026-04-27T16:43:07Z,2026-04-27T19:32:50Z,2026-04-27T19:32:50Z,2.8286,1,1,0,130,4,0,2
+microsoft/TypeScript,63433,docs: improve Math.sign JSDoc grammar and clarity,MERGED,2026-04-25T06:31:59Z,2026-04-27T17:35:28Z,2026-04-27T17:35:28Z,59.0581,1,1,1,325,4,1,1
+microsoft/TypeScript,63407,🤖 Pick PR #63401 (Also check package name validity in...) into release-6.0,MERGED,2026-04-15T19:26:48Z,2026-04-15T20:44:45Z,2026-04-15T20:44:45Z,1.2992,3,474,0,118,3,1,1
+microsoft/TypeScript,63401,Also check package name validity in InstallPackageRequest,MERGED,2026-04-14T21:17:51Z,2026-04-15T18:45:56Z,2026-04-15T18:45:56Z,21.4681,3,474,0,146,5,3,3
+microsoft/TypeScript,63368,Harden ATA package name filtering,MERGED,2026-04-06T22:57:39Z,2026-04-07T17:01:31Z,2026-04-07T17:01:31Z,18.0644,5,21,19,476,5,3,2
+microsoft/TypeScript,63362,fix(checker): allow unknown[] as valid mixin constructor rest param type,CLOSED,2026-04-06T11:27:17Z,2026-04-06T15:36:21Z,,4.1511,6,178,1,1677,3,2,1
+microsoft/TypeScript,63344,Document charCodeAt edge case behavior in first line,MERGED,2026-04-02T20:22:49Z,2026-04-06T16:56:29Z,2026-04-06T16:56:29Z,92.5611,2,4,4,1175,3,7,2
+microsoft/TypeScript,63341,Fix redundant leading apostrophe in TS1344 diagnostic message,MERGED,2026-04-02T16:01:46Z,2026-04-02T17:34:17Z,2026-04-02T17:34:17Z,1.5419,29,153,153,969,4,1,4
+microsoft/TypeScript,63327,🤖 Pick PR #63310 (Mark class property initializers as...) into release-6.0,MERGED,2026-03-31T16:23:21Z,2026-04-06T17:44:55Z,2026-04-06T17:44:55Z,145.3594,5,264,0,118,4,0,2
+microsoft/TypeScript,63319,Bump the github-actions group with 2 updates,MERGED,2026-03-30T00:54:49Z,2026-03-30T12:28:20Z,2026-03-30T12:28:20Z,11.5586,3,5,5,21441,1,0,1
+microsoft/TypeScript,63310,Mark class property initializers as outside of CFA containers,MERGED,2026-03-27T23:30:27Z,2026-03-31T15:54:45Z,2026-03-31T15:54:45Z,88.405,5,264,0,911,7,9,5
+microsoft/TypeScript,63296,Update deps,MERGED,2026-03-24T23:17:21Z,2026-03-25T16:23:24Z,2026-03-25T16:23:24Z,17.1008,2,650,644,77,3,0,3
+microsoft/TypeScript,63290,fix: handle inspector session leak on Profiler.enable/start failure,CLOSED,2026-03-24T09:46:40Z,2026-03-24T21:23:58Z,,11.6217,1,1991,1981,1099,3,1,1
+microsoft/TypeScript,63285,Bump the github-actions group with 3 updates,MERGED,2026-03-23T00:54:45Z,2026-03-24T21:50:20Z,2026-03-24T21:50:20Z,44.9264,3,6,6,32873,1,0,1
+microsoft/TypeScript,63272,Bump fast-xml-parser from 5.4.1 to 5.5.7,CLOSED,2026-03-20T01:24:10Z,2026-03-24T22:56:52Z,,117.545,1,48,19,7411,1,1,1
+microsoft/TypeScript,63255,fix(compiler): small improvement to error message handling,CLOSED,2026-03-16T10:33:35Z,2026-03-23T15:47:55Z,,173.2389,1,2,2,709,5,2,1
+microsoft/TypeScript,63254,fix(compiler): small improvement to error message handling,CLOSED,2026-03-16T09:26:35Z,2026-03-24T21:23:53Z,,203.955,5,12,12,281,4,2,1
+microsoft/TypeScript,63246,🤖 Pick PR #63239 (Fix missing lib files in reused pro...) into release-6.0,MERGED,2026-03-12T16:25:31Z,2026-03-13T21:48:14Z,2026-03-13T21:48:14Z,29.3786,32,40,49,118,4,0,1
+microsoft/TypeScript,63239,Fix missing lib files in reused programs,MERGED,2026-03-11T18:14:24Z,2026-03-12T15:55:42Z,2026-03-12T15:55:42Z,21.6883,30,34,49,139,4,8,2
+microsoft/TypeScript,63226,Use optional chaining for getMemoryUsage in GcTimer,CLOSED,2026-03-09T20:06:17Z,2026-03-10T18:16:51Z,,22.1761,2,4,4,1105,5,2,1
+microsoft/TypeScript,63224,Bump the github-actions group with 2 updates,MERGED,2026-03-09T00:55:13Z,2026-03-16T19:03:26Z,2026-03-16T19:03:26Z,186.1369,14,29,29,20392,1,0,1
+microsoft/TypeScript,63222,fix: suppress TS4055/TS4073 for protected methods using typeof parameter,CLOSED,2026-03-08T12:15:41Z,2026-03-24T21:23:48Z,,393.1353,8,393,0,1421,4,1,3
+microsoft/TypeScript,63221,fix: suppress TS4055/TS4073 for protected methods using typeof parameter,CLOSED,2026-03-08T10:22:41Z,2026-03-08T12:13:03Z,,1.8394,9,277,1,646,3,1,1
+microsoft/TypeScript,63215,Fix stack overflow in error generation for recursive mapped types,CLOSED,2026-03-07T00:25:41Z,2026-03-24T21:23:48Z,,428.9686,6,54,0,2393,2,2,1
+microsoft/TypeScript,63205,Bump the github-actions group across 1 directory with 2 updates,MERGED,2026-03-02T00:55:05Z,2026-03-02T17:35:35Z,2026-03-02T17:35:35Z,16.675,4,8,8,16518,3,0,1
+microsoft/TypeScript,63201,"Revert ""discrete pluralizer for lib.esnext.temporal unit unions""",CLOSED,2026-02-28T00:54:34Z,2026-03-03T00:06:40Z,,71.2017,2,145,159,34,5,4,1
+microsoft/TypeScript,63200,Adds the symbol name to the error message for TS2742,MERGED,2026-02-27T15:19:58Z,2026-02-27T19:06:19Z,2026-02-27T19:06:19Z,3.7725,24,152,39,1675,7,3,6
+microsoft/TypeScript,63190,discrete pluralizer for lib.esnext.temporal unit unions,MERGED,2026-02-24T14:24:13Z,2026-02-25T22:20:51Z,2026-02-25T22:20:51Z,31.9439,2,159,145,199,6,9,2
+microsoft/TypeScript,63188,Eliminate interpolation from workflows,MERGED,2026-02-23T18:26:38Z,2026-02-23T20:36:09Z,2026-02-23T20:36:09Z,2.1586,6,44,27,202,5,0,2
+microsoft/TypeScript,63183,DOM update,MERGED,2026-02-23T00:39:07Z,2026-02-28T01:05:49Z,2026-02-28T01:05:49Z,120.445,2,8,7,0,5,5,2

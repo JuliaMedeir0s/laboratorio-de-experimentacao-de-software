@@ -1,0 +1,8 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+laravel/laravel,6795,Origin,CLOSED,2026-04-17T15:37:12Z,2026-04-18T13:24:56Z,,21.7956,138,25057,38,0,4,0,2
+laravel/laravel,6778,Remove axios and enable ignore-scripts,MERGED,2026-03-31T14:11:42Z,2026-04-01T15:29:00Z,2026-04-01T15:29:00Z,25.2883,4,2,6,178,8,8,3
+laravel/laravel,6771,Feat: Add APP_TIMEZONE configuration,CLOSED,2026-03-25T15:15:53Z,2026-03-26T14:32:01Z,,23.2689,2,2,1,227,3,0,1
+laravel/laravel,6770,Feat: add LOG_CHANNEL=null to phpunit.xml,CLOSED,2026-03-25T15:13:18Z,2026-03-26T14:32:13Z,,23.3153,1,1,0,277,3,0,1
+laravel/laravel,6746,Update phpunit version to ^11.5.50 to address CVE,MERGED,2026-01-28T09:03:22Z,2026-01-29T03:32:16Z,2026-01-29T03:32:16Z,18.4817,1,1,1,84,3,0,1
+laravel/laravel,6731,make application timezone configurable via APP_TIMEZONE,CLOSED,2025-12-26T03:08:31Z,2025-12-26T16:35:13Z,,13.445,2,4,3,380,3,0,1
+laravel/laravel,6714,Ignore Laravel compiled views for Vite,MERGED,2025-11-25T01:35:56Z,2025-11-25T22:16:01Z,2025-11-25T22:16:01Z,20.6681,1,5,0,781,4,10,1

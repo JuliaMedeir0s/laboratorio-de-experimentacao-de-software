@@ -1,0 +1,53 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+nomic-ai/gpt4all,3607,Create desca,CLOSED,2025-08-07T06:16:00Z,2025-10-16T01:10:58Z,,1674.9161,1,1,0,712,2,0,1
+nomic-ai/gpt4all,3511,chat: cut v3.10.0 release,MERGED,2025-02-24T19:35:10Z,2025-02-24T22:15:34Z,2025-02-24T22:15:34Z,2.6733,2,5,5,50,2,0,1
+nomic-ai/gpt4all,3506,Add new remote model provider view.,MERGED,2025-02-19T19:01:30Z,2025-02-24T19:59:53Z,2025-02-24T19:59:53Z,120.9731,12,474,126,0,2,2,5
+nomic-ai/gpt4all,3500,ci: use LLVM Clang 19 on macOS and Ubuntu,MERGED,2025-02-14T22:35:54Z,2025-02-18T17:02:14Z,2025-02-18T17:02:14Z,90.4389,2,124,158,1081,2,1,1
+nomic-ai/gpt4all,3499,backend: build with CUDA compute 5.0 support by default,MERGED,2025-02-14T20:11:33Z,2025-02-19T16:27:06Z,2025-02-19T16:27:06Z,116.2592,3,5,4,372,2,2,1
+nomic-ai/gpt4all,3498,chat: require Qt 6.8 and fix #includes,MERGED,2025-02-14T18:58:29Z,2025-02-18T18:59:51Z,2025-02-18T18:59:51Z,96.0228,52,261,148,861,2,1,1
+nomic-ai/gpt4all,3496,Italian localization update,MERGED,2025-02-14T09:17:44Z,2025-02-18T16:47:39Z,2025-02-18T16:47:39Z,103.4986,2,4,3,750,2,1,1
+nomic-ai/gpt4all,3471,Add replacement jinjas for OLMoE and granite-3.1,MERGED,2025-02-06T22:23:55Z,2025-02-12T19:23:46Z,2025-02-12T19:23:46Z,140.9975,2,88,1,1132,2,3,2
+nomic-ai/gpt4all,3467,Translations: Improve Chinese translation,MERGED,2025-02-06T07:41:00Z,2025-02-21T01:44:28Z,2025-02-21T01:44:28Z,354.0578,2,175,174,758,4,8,1
+nomic-ai/gpt4all,3465,"Misc fixes for undefined behavior, crashes, and build failure",MERGED,2025-02-05T16:44:48Z,2025-02-06T16:22:53Z,2025-02-06T16:22:53Z,23.6347,10,80,40,952,2,0,1
+nomic-ai/gpt4all,3460,Fix PDFium abuse that leads to a crash on Windows ARM,MERGED,2025-02-04T20:06:48Z,2025-02-04T22:29:02Z,2025-02-04T22:29:01Z,2.3703,4,11,7,435,2,0,1
+nomic-ai/gpt4all,3458,"Ignore DeepSeek-R1 ""think"" content in name/follow-up responses",MERGED,2025-02-04T01:33:55Z,2025-02-04T17:08:17Z,2025-02-04T17:08:17Z,15.5728,7,294,136,534,2,0,1
+nomic-ai/gpt4all,3457,minja: update submodule to fix {# hang (redo),MERGED,2025-02-03T20:25:29Z,2025-02-04T22:30:04Z,2025-02-04T22:30:04Z,26.0764,2,2,1,146,2,1,1
+nomic-ai/gpt4all,3451,Fix index used by LocalDocs when tool calling/thinking is active,MERGED,2025-02-01T00:09:10Z,2025-02-03T16:22:46Z,2025-02-03T16:22:46Z,64.2267,3,46,18,836,3,0,2
+nomic-ai/gpt4all,3450,chat: work around Direct3D 11 rendering artifacts on win11 arm,MERGED,2025-01-31T22:55:02Z,2025-02-03T16:47:40Z,2025-02-03T16:47:40Z,65.8772,5,36,12,639,2,0,1
+nomic-ai/gpt4all,3449,Add olmoe and granitemoe architecture to whitelist,MERGED,2025-01-31T22:26:08Z,2025-02-04T23:00:07Z,2025-02-04T23:00:07Z,96.5664,3,6,1,1277,2,1,1
+nomic-ai/gpt4all,3446,minja: update submodule to fix `{#` hang,MERGED,2025-01-31T17:46:05Z,2025-02-03T16:25:21Z,2025-02-03T16:25:21Z,70.6544,2,2,1,178,2,0,1
+nomic-ai/gpt4all,3442,ci: update to Qt 6.8.2,MERGED,2025-01-30T22:11:34Z,2025-01-31T16:20:50Z,2025-01-31T16:20:50Z,18.1544,2,43,43,96,2,0,1
+nomic-ai/gpt4all,3437,models: add DeepSeek-R1 distillations to official models list,MERGED,2025-01-30T16:55:14Z,2025-01-30T21:23:41Z,2025-01-30T21:23:41Z,4.4742,3,73,3,82,2,0,1
+nomic-ai/gpt4all,3436,ci: build offline installers when pipeline is scheduled,MERGED,2025-01-29T18:13:02Z,2025-01-30T18:07:47Z,2025-01-30T18:07:47Z,23.9125,1,77,42,410,2,0,1
+nomic-ai/gpt4all,3435,Don't block the gui thread for tool calls,MERGED,2025-01-29T15:36:08Z,2025-01-29T23:33:08Z,2025-01-29T23:33:08Z,7.95,7,148,86,515,2,0,2
+nomic-ai/gpt4all,3433,chat: replace Jinja2Cpp with minja,MERGED,2025-01-29T01:28:02Z,2025-01-30T21:01:50Z,2025-01-30T21:01:50Z,43.5633,15,145,303,407,2,0,1
+nomic-ai/gpt4all,3432,ci: verify that installers we build function and are signed,MERGED,2025-01-28T22:42:41Z,2025-01-29T16:29:20Z,2025-01-29T16:29:20Z,17.7775,1,72,0,189,2,1,1
+nomic-ai/gpt4all,3431,Support DeepSeek-R1 Qwen,MERGED,2025-01-28T21:35:44Z,2025-01-29T14:51:50Z,2025-01-29T14:51:50Z,17.2683,4,51,9,1160,3,2,1
+nomic-ai/gpt4all,3430,ci: selective signing and automatic release builds,MERGED,2025-01-28T17:17:22Z,2025-01-28T22:41:02Z,2025-01-28T22:41:02Z,5.3944,1,153,50,822,2,0,3
+nomic-ai/gpt4all,3413,cmake: do not modify gpt4all.app after signing it,MERGED,2025-01-23T23:29:19Z,2025-01-24T17:57:55Z,2025-01-24T17:57:55Z,18.4767,4,29,28,1353,2,0,1
+nomic-ai/gpt4all,3412,[Jinja] Fix typo in Phi-3.1-mini-128k-instruct replacement template,MERGED,2025-01-23T21:24:18Z,2025-01-28T21:54:15Z,2025-01-28T21:54:15Z,120.4992,2,2,1,475,2,0,1
+nomic-ai/gpt4all,3411,Server view fix,MERGED,2025-01-23T15:51:50Z,2025-01-24T15:29:28Z,2025-01-24T15:29:28Z,23.6272,2,2,1,77,2,0,1
+nomic-ai/gpt4all,3410,Fix regression while using localdocs with server API.,MERGED,2025-01-23T15:03:25Z,2025-01-24T15:26:24Z,2025-01-24T15:26:24Z,24.3831,2,6,1,244,2,0,1
+nomic-ai/gpt4all,3408,ci: fix macOS codesigning,MERGED,2025-01-22T23:53:35Z,2025-01-23T16:41:35Z,2025-01-23T16:41:35Z,16.8,2,16,4,1544,2,0,1
+nomic-ai/gpt4all,3403,jinja2cpp: update submodule to fix unused var,MERGED,2025-01-21T22:59:58Z,2025-01-22T00:22:07Z,2025-01-22T00:22:07Z,1.3692,1,1,1,643,2,0,1
+nomic-ai/gpt4all,3394,jinja2cpp: update submodule for partial subscript crash fix,MERGED,2025-01-17T22:30:23Z,2025-01-21T14:26:27Z,2025-01-21T14:26:27Z,87.9344,2,2,1,465,2,0,1
+nomic-ai/gpt4all,3393,Add more chat template substitutions,MERGED,2025-01-17T19:31:09Z,2025-01-21T14:25:40Z,2025-01-21T14:25:40Z,90.9086,3,235,19,185,2,0,1
+nomic-ai/gpt4all,3391,Sign maintenancetool.app on macOS,MERGED,2025-01-16T21:56:22Z,2025-01-21T14:27:20Z,2025-01-21T14:27:20Z,112.5161,8,116,53,1318,2,0,1
+nomic-ai/gpt4all,3389,Italian localization update,MERGED,2025-01-16T16:06:56Z,2025-01-21T21:44:18Z,2025-01-21T21:44:18Z,125.6228,1,86,86,777,2,0,1
+nomic-ai/gpt4all,3387,"Save chats on quit, even if window isn't closed first",MERGED,2025-01-15T22:12:54Z,2025-01-16T16:59:32Z,2025-01-16T16:59:32Z,18.7772,4,57,15,355,2,0,1
+nomic-ai/gpt4all,3386,Update to Qt 6.8.1,MERGED,2025-01-15T21:07:31Z,2025-01-24T15:30:00Z,2025-01-24T15:29:59Z,210.3744,2,98,56,308,2,3,1
+nomic-ai/gpt4all,3385,add Windows ARM build,MERGED,2025-01-14T23:35:00Z,2025-01-21T16:36:27Z,2025-01-21T16:36:27Z,161.0242,7,474,15,747,2,1,3
+nomic-ai/gpt4all,3372,chat templates: work around Jinja2Cpp issue with 'not X is defined',MERGED,2025-01-07T21:20:54Z,2025-01-07T23:00:10Z,2025-01-07T23:00:10Z,1.6544,3,8,22,868,2,0,1
+nomic-ai/gpt4all,3371,code interpreter: support variadic console.log,MERGED,2025-01-07T19:03:11Z,2025-01-07T22:58:04Z,2025-01-07T22:58:04Z,3.9147,2,25,1,53,2,0,1
+nomic-ai/gpt4all,3369,Properly report that the computation was timedout to the model,MERGED,2025-01-07T15:21:49Z,2025-01-07T19:02:18Z,2025-01-07T19:02:18Z,3.6747,3,19,10,30,2,0,2
+nomic-ai/gpt4all,3368,updated settings page,MERGED,2025-01-06T22:44:56Z,2025-01-07T15:23:07Z,2025-01-07T15:23:07Z,16.6364,1,8,3,714,2,0,1
+nomic-ai/gpt4all,3336,"ChatView: make ""stop"" and ""copy conversation"" work again",MERGED,2024-12-20T11:55:36Z,2024-12-20T17:26:03Z,2024-12-20T17:26:03Z,5.5075,4,70,48,384,2,3,1
+nomic-ai/gpt4all,3327,modellist: automatically replace known chat templates with our versions,MERGED,2024-12-19T19:26:06Z,2024-12-19T21:35:38Z,2024-12-19T21:35:38Z,2.1589,6,509,5,1175,2,0,1
+nomic-ai/gpt4all,3325,Fix Jinja2Cpp bug that broke system msg detection in templates,MERGED,2024-12-19T17:02:03Z,2024-12-19T20:39:34Z,2024-12-19T20:39:34Z,3.6253,2,2,1,2074,2,0,1
+nomic-ai/gpt4all,3318,Fix for remote model templates when messages contain xml.,MERGED,2024-12-18T15:33:35Z,2024-12-18T18:39:51Z,2024-12-18T18:39:51Z,3.1044,2,10,5,0,2,0,3
+nomic-ai/gpt4all,3302,chat: fix localdocs breakage in v3.5.2,MERGED,2024-12-15T22:25:13Z,2024-12-16T16:25:19Z,2024-12-16T16:25:19Z,18.0017,6,37,23,810,2,0,1
+nomic-ai/gpt4all,3292,chat: cut v3.5.2 release,MERGED,2024-12-13T19:46:33Z,2024-12-13T22:50:57Z,2024-12-13T22:50:57Z,3.0733,2,3,3,0,2,0,1
+nomic-ai/gpt4all,3269,Break the explore models view into two.,MERGED,2024-12-12T13:49:29Z,2024-12-13T22:33:05Z,2024-12-13T22:33:05Z,32.7267,18,4883,1686,0,3,0,1
+nomic-ai/gpt4all,3262,modellist: fix cloning of chat template and system message,MERGED,2024-12-11T20:39:28Z,2024-12-13T17:22:32Z,2024-12-13T17:22:32Z,44.7178,2,18,5,1165,2,0,1
+nomic-ai/gpt4all,3256,Fix local server regressions caused by Jinja PR,MERGED,2024-12-11T00:02:59Z,2024-12-13T17:19:47Z,2024-12-13T17:19:47Z,65.28,6,88,66,1326,2,0,1
+nomic-ai/gpt4all,3254,Bump the version to 3.5.2-dev0.,MERGED,2024-12-10T20:47:43Z,2024-12-10T22:39:54Z,2024-12-10T22:39:54Z,1.8697,1,2,2,0,2,0,1

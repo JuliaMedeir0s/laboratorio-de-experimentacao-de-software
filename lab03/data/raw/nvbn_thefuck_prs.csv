@@ -1,0 +1,47 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+nvbn/thefuck,1432,Fix typos in README.md,MERGED,2024-01-25T08:37:08Z,2024-01-25T19:52:35Z,2024-01-25T19:52:35Z,11.2575,1,13,13,0,2,1,1
+nvbn/thefuck,1415,Fix the fuck for Python 3.12,CLOSED,2023-11-13T08:47:32Z,2024-05-04T09:23:34Z,,4152.6006,2,28,0,198,14,19,1
+nvbn/thefuck,1397,Fixed a large amount of code indentation,CLOSED,2023-08-21T03:32:03Z,2024-07-18T02:11:33Z,,7966.6583,115,1123,619,64,1,0,1
+nvbn/thefuck,1390,chore: fix typo in test_omnienv_no_such_command.py,CLOSED,2023-07-11T16:30:29Z,2023-07-12T09:13:49Z,,16.7222,1,2,2,17,2,1,1
+nvbn/thefuck,1371,Added basic support for Atuin,CLOSED,2023-04-05T23:48:57Z,2023-04-08T18:18:31Z,,66.4928,2,61,14,671,2,2,1
+nvbn/thefuck,1335,Added Commit message rule,CLOSED,2022-09-30T12:07:23Z,2024-10-14T09:30:00Z,,17877.3769,1,12,0,11,2,1,1
+nvbn/thefuck,1329,feat: Add support for Windows `CMD` and easier setup for Powershell,MERGED,2022-09-07T19:26:09Z,2023-07-10T13:09:27Z,2023-07-10T13:09:27Z,7337.7217,3,37,3,373,3,4,6
+nvbn/thefuck,1319,Add arch installation,MERGED,2022-07-12T19:28:17Z,2022-08-31T18:42:41Z,2022-08-31T18:42:41Z,1199.24,1,5,0,0,2,0,1
+nvbn/thefuck,1317,Add terraform 'no command' rule,MERGED,2022-07-01T08:27:51Z,2022-09-25T19:37:48Z,2022-09-25T19:37:48Z,2075.1658,3,44,0,139,2,4,5
+nvbn/thefuck,1316,fix: Update output for brew_install and cleanup feat: multi suggestions for formulas,MERGED,2022-06-29T12:18:56Z,2022-07-02T13:06:00Z,2022-07-02T13:06:00Z,72.7844,2,51,50,1246,2,1,3
+nvbn/thefuck,1314,Closing bug in brew update formula rule (changed error message),MERGED,2022-06-23T15:14:02Z,2022-06-28T16:28:38Z,2022-06-28T16:28:38Z,121.2433,2,2,2,535,2,1,1
+nvbn/thefuck,1308,Added updatedb (mlocate) to sudo rules,MERGED,2022-05-29T14:47:54Z,2022-06-05T20:58:32Z,2022-06-05T20:58:32Z,174.1772,2,3,1,119,2,0,1
+nvbn/thefuck,1307,MacOS shutdown sudo support added,MERGED,2022-05-26T14:24:32Z,2022-05-29T19:40:31Z,2022-05-29T19:40:31Z,77.2664,2,4,0,421,2,0,3
+nvbn/thefuck,1302,New rule: fix missing `git clone` when given a URL,MERGED,2022-05-24T05:47:14Z,2022-07-03T11:22:37Z,2022-07-03T11:22:36Z,965.5894,3,93,0,797,3,9,20
+nvbn/thefuck,1301,Exclude unwanted directories from flake8 and imrpove gitignore,CLOSED,2022-05-24T05:21:21Z,2022-12-05T08:28:31Z,,4683.1194,2,7,0,512,2,0,2
+nvbn/thefuck,1298,Prioritise main/master mix ups,CLOSED,2022-05-16T21:32:45Z,2022-06-05T19:49:06Z,,478.2725,1,1,1,381,3,1,1
+nvbn/thefuck,1292,#1282 git misspelled,MERGED,2022-05-03T19:31:37Z,2022-06-13T21:29:15Z,2022-06-13T21:29:15Z,985.9606,2,5,4,461,4,15,4
+nvbn/thefuck,1287,ls -r to ls -R,CLOSED,2022-04-11T23:31:19Z,2022-05-05T01:41:47Z,,554.1744,3,30,0,257,2,1,1
+nvbn/thefuck,1279,Add pikaur AUR manager to Arch Linux's commands,MERGED,2022-03-26T11:27:11Z,2022-03-27T20:06:40Z,2022-03-27T20:06:40Z,32.6581,4,9,3,118,2,0,2
+nvbn/thefuck,1272,added the Code of Conduct,CLOSED,2022-02-21T13:06:02Z,2023-01-20T05:20:48Z,,7984.2461,1,133,0,14,2,0,3
+nvbn/thefuck,1270,fix: Add missing comma,MERGED,2022-01-29T00:36:42Z,2022-01-30T21:34:39Z,2022-01-30T21:34:39Z,44.9658,1,1,1,29,2,0,1
+nvbn/thefuck,1267,Updated license date to 2022,MERGED,2022-01-18T06:44:39Z,2022-01-20T21:01:22Z,2022-01-20T21:01:22Z,62.2786,1,1,1,0,2,0,1
+nvbn/thefuck,1251,Add rule git_checkout_master,CLOSED,2021-12-03T15:22:28Z,2022-05-16T21:36:20Z,,3942.2311,3,89,0,131,3,3,3
+nvbn/thefuck,1249,Drop support for EOL Python 3.5,CLOSED,2021-11-23T14:28:02Z,2022-11-23T21:57:44Z,,8767.495,8,16,15,1101,4,8,1
+nvbn/thefuck,1248,Add support for Python 3.10 and 3.11,MERGED,2021-11-23T14:12:06Z,2023-07-10T13:00:18Z,2023-07-10T13:00:18Z,14254.8033,18,95,78,436,10,7,1
+nvbn/thefuck,1241,Encapsulate force_command in _get_raw_command,MERGED,2021-10-21T22:21:46Z,2021-12-19T23:05:48Z,2021-12-19T23:05:48Z,1416.7339,2,3,3,565,2,1,2
+nvbn/thefuck,1236,Change readme installation to have WSL section,CLOSED,2021-09-16T15:01:06Z,2022-05-21T11:45:52Z,,5924.7461,1,8,0,147,2,3,1
+nvbn/thefuck,1235,Change readme more examples to have own section,CLOSED,2021-09-16T14:36:37Z,2022-05-21T11:45:52Z,,5925.1542,1,86,85,178,1,0,1
+nvbn/thefuck,1233,"README: Use `--user` with pip, not `sudo pip`",MERGED,2021-09-05T13:41:04Z,2021-09-05T14:58:35Z,2021-09-05T14:58:35Z,1.2919,1,1,1,177,2,0,1
+nvbn/thefuck,1226,Fix outdated link to homebrew for Linux,MERGED,2021-08-05T12:13:39Z,2021-08-07T11:12:12Z,2021-08-07T11:12:12Z,46.9758,1,1,2,127,2,0,3
+nvbn/thefuck,1212,#942: Improve git_branch_0flag rule - with a new name,MERGED,2021-07-01T21:09:37Z,2021-07-13T13:36:12Z,2021-07-13T13:36:12Z,280.4431,5,95,59,10,2,0,1
+nvbn/thefuck,1211,Fix yield_fixture deprecation,MERGED,2021-06-28T00:37:56Z,2021-06-29T19:26:13Z,2021-06-29T19:26:13Z,42.8047,1,1,1,361,2,0,1
+nvbn/thefuck,1210,Add rule 'rails_migrations_pending',MERGED,2021-06-28T00:21:57Z,2021-07-06T10:52:55Z,2021-07-06T10:52:54Z,202.5158,3,61,0,749,2,0,5
+nvbn/thefuck,1208,Fix git_hook_bypass priority (#1207),MERGED,2021-06-15T05:26:04Z,2021-06-21T14:32:35Z,2021-06-21T14:32:35Z,153.1086,1,1,1,121,3,2,1
+nvbn/thefuck,1196,Avoid using pkg_resources,MERGED,2021-05-05T22:45:24Z,2021-06-21T15:06:02Z,2021-06-21T15:06:02Z,1120.3439,2,10,5,344,2,0,1
+nvbn/thefuck,1193,Fix grammar and spelling errors,MERGED,2021-05-02T21:10:42Z,2021-06-29T19:25:02Z,2021-06-29T19:25:02Z,1390.2389,1,13,13,0,3,2,5
+nvbn/thefuck,1184,Adding devcontainer for easy Python development,MERGED,2021-04-06T13:54:14Z,2021-07-19T20:47:20Z,2021-07-19T20:47:19Z,2502.8847,3,75,0,440,2,8,9
+nvbn/thefuck,1174,Updated readme,MERGED,2021-03-11T17:05:44Z,2021-03-12T23:58:11Z,2021-03-12T23:58:11Z,30.8742,1,31,0,761,2,6,4
+nvbn/thefuck,1171,~[Doc] Add Uninstall instructions,MERGED,2021-03-03T18:04:16Z,2021-06-30T12:20:48Z,2021-06-30T12:20:48Z,2850.2756,1,6,0,199,2,1,2
+nvbn/thefuck,1170,#1117: Mock Popen in go_unknown_command test,MERGED,2021-02-22T22:00:17Z,2021-03-08T17:56:30Z,2021-03-08T17:56:30Z,331.9369,1,61,2,51,2,0,1
+nvbn/thefuck,1167,Introducing the cd-cs feature,MERGED,2021-02-14T01:17:05Z,2021-03-22T19:55:45Z,2021-03-22T19:55:45Z,882.6444,3,33,0,177,2,6,3
+nvbn/thefuck,1165,Add excluded_search_path_prefixes setting - improves perf in WSL,MERGED,2021-02-04T21:17:32Z,2021-04-21T17:43:21Z,2021-04-21T17:43:21Z,1820.4303,6,29,4,464,3,9,3
+nvbn/thefuck,1164,Optimised Images,MERGED,2021-01-29T21:00:23Z,2021-06-23T10:19:47Z,2021-06-23T10:19:47Z,3469.3233,2,0,0,0,3,0,1
+nvbn/thefuck,1152,Fix docker_login rule,MERGED,2020-12-27T22:37:35Z,2021-07-29T11:59:28Z,2021-07-29T11:59:28Z,5125.3647,1,2,1,165,2,1,2
+nvbn/thefuck,1151,#1149: Giving a fuck about ModuleNotFoundError,MERGED,2020-12-27T22:30:20Z,2021-01-19T21:37:06Z,2021-01-19T21:37:05Z,551.1125,3,77,0,15,2,1,11
+nvbn/thefuck,1150,Update README.md,MERGED,2020-12-23T22:52:48Z,2021-07-01T09:47:13Z,2021-07-01T09:47:13Z,4546.9069,1,1,1,54,2,0,2

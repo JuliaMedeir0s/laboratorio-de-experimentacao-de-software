@@ -1,0 +1,6 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+avelino/awesome-go,6245,Add Immortal to DevOps Tools,CLOSED,2026-04-14T18:47:50Z,2026-04-21T08:04:50Z,,157.2833,1,1,0,377,1,2,1
+avelino/awesome-go,6177,Add Wisp trading framework to README,MERGED,2026-04-01T08:51:32Z,2026-04-03T08:37:31Z,2026-04-03T08:37:30Z,47.7661,1,1,0,1734,2,1,2
+avelino/awesome-go,6157,fix: pin 5 unpinned action(s),MERGED,2026-03-26T06:15:53Z,2026-03-26T08:57:11Z,2026-03-26T08:57:11Z,2.6883,3,5,5,2698,3,1,2
+avelino/awesome-go,6132,fix: test failing in main due to unordered repos,MERGED,2026-03-20T21:54:03Z,2026-03-21T04:10:55Z,2026-03-21T04:10:55Z,6.2811,1,4,4,781,3,2,1
+avelino/awesome-go,6119,Add ReleaseRun Go Module Health checker to Package Management,CLOSED,2026-03-16T04:12:10Z,2026-03-16T11:21:29Z,,7.1553,1,1,0,983,1,2,1

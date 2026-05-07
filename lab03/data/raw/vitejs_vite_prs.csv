@@ -1,0 +1,65 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+vitejs/vite,22348,docs: mention native config loader in CLI options,MERGED,2026-04-28T10:37:29Z,2026-04-29T03:33:38Z,2026-04-29T03:33:38Z,16.9358,1,52,52,534,2,0,1
+vitejs/vite,22347,docs(create-vite): list react-compiler templates in README,MERGED,2026-04-28T10:37:14Z,2026-04-29T03:36:22Z,2026-04-29T03:36:22Z,16.9856,1,2,0,515,2,0,1
+vitejs/vite,22343,fix: normalize t query decorations in removeTimestampQuery (fix #22239),CLOSED,2026-04-28T01:18:06Z,2026-04-28T02:42:17Z,,1.4031,2,22,1,1371,3,2,1
+vitejs/vite,22339,refactor: show direct path type in bad character warning,MERGED,2026-04-27T15:40:43Z,2026-04-28T02:25:20Z,2026-04-28T02:25:20Z,10.7436,2,10,4,41,2,3,2
+vitejs/vite,22334,fix(deps): update all non-major dependencies,MERGED,2026-04-27T01:04:44Z,2026-04-27T07:13:52Z,2026-04-27T07:13:52Z,6.1522,24,597,597,45883,1,0,1
+vitejs/vite,22333,chore(deps): update dependency tsdown to ^0.21.10,MERGED,2026-04-27T01:03:31Z,2026-04-27T05:24:24Z,2026-04-27T05:24:23Z,4.3478,3,19,19,1949,1,0,1
+vitejs/vite,22327,perf(vite): narrow test for changed files in esbuild plugin,CLOSED,2026-04-25T10:48:22Z,2026-04-27T12:20:12Z,,49.5306,1,21,23,595,2,1,2
+vitejs/vite,22325,docs: explain mergeConfig skips null/undefined,MERGED,2026-04-25T10:30:30Z,2026-04-28T02:26:39Z,2026-04-28T02:26:39Z,63.9358,1,2,0,990,2,0,3
+vitejs/vite,22306,fix(glob): align hmr matcher options with glob enumeration,MERGED,2026-04-23T07:35:09Z,2026-04-23T12:34:14Z,2026-04-23T12:34:14Z,4.9847,1,12,5,1491,2,0,1
+vitejs/vite,22299,feat: update rolldown to 1.0.0-rc.17,MERGED,2026-04-22T11:40:45Z,2026-04-23T05:05:23Z,2026-04-23T05:05:23Z,17.4106,5,209,180,66,2,0,1
+vitejs/vite,22297,fix: remove format sniffing module resolution from JS resolver,MERGED,2026-04-22T02:45:02Z,2026-04-22T08:24:01Z,2026-04-22T08:24:01Z,5.6497,1,7,54,178,2,1,1
+vitejs/vite,22292,fix(css): show filename in CSS minification warnings for `.css?inline`,MERGED,2026-04-21T21:18:32Z,2026-04-23T03:58:24Z,2026-04-23T03:58:24Z,30.6644,1,4,4,1068,3,1,2
+vitejs/vite,22284,refactor: typecheck client directory,MERGED,2026-04-21T09:06:52Z,2026-04-22T02:48:31Z,2026-04-22T02:48:31Z,17.6942,2,5,1,53,2,0,5
+vitejs/vite,22283,test(glob-import): add backslash-escaped glob pattern test,MERGED,2026-04-21T07:46:50Z,2026-04-23T04:00:32Z,2026-04-23T04:00:32Z,44.2283,2,23,0,1077,3,0,1
+vitejs/vite,22281,test(glob-import): cover array patterns with sibling dirs sharing a prefix,MERGED,2026-04-21T07:02:38Z,2026-04-23T04:01:21Z,2026-04-23T04:01:21Z,44.9786,4,32,0,1524,3,0,1
+vitejs/vite,22279,docs: update stat numbers,MERGED,2026-04-21T03:40:44Z,2026-04-21T07:28:10Z,2026-04-21T07:28:10Z,3.7906,1,2,2,236,2,0,1
+vitejs/vite,22278,refactor: enable some typecheck rules,MERGED,2026-04-21T02:43:20Z,2026-04-22T01:40:00Z,2026-04-22T01:40:00Z,22.9444,18,56,55,856,2,0,1
+vitejs/vite,22273,fix(optimizer): allow user transform.target to override default in optimizeDeps,MERGED,2026-04-20T07:07:47Z,2026-04-22T02:39:45Z,2026-04-22T02:39:45Z,43.5328,1,1,1,1500,2,0,1
+vitejs/vite,22268,fix(deps): update all non-major dependencies,MERGED,2026-04-20T02:10:39Z,2026-04-20T04:03:06Z,2026-04-20T04:03:06Z,1.8742,17,638,394,57994,1,0,1
+vitejs/vite,22267,chore(deps): update dependency tsdown to ^0.21.9,MERGED,2026-04-20T02:09:59Z,2026-04-20T03:32:10Z,2026-04-20T03:32:10Z,1.3697,3,38,38,5801,1,0,1
+vitejs/vite,22266,feat(create-vite): use ESLint v10,MERGED,2026-04-19T13:17:44Z,2026-04-20T05:08:17Z,2026-04-20T05:08:17Z,15.8425,4,5,14,312,3,0,1
+vitejs/vite,22262,docs(create-vite): list overwrite flag in help,MERGED,2026-04-18T05:35:19Z,2026-04-20T04:04:25Z,2026-04-20T04:04:25Z,46.485,2,2,0,950,3,0,1
+vitejs/vite,22261,docs: update build CLI defaults,MERGED,2026-04-18T05:25:47Z,2026-04-20T04:04:49Z,2026-04-20T04:04:49Z,46.6506,2,26,26,1075,3,0,1
+vitejs/vite,22255,docs: mention minor comment differences in migration guide,MERGED,2026-04-17T09:35:40Z,2026-04-20T02:49:34Z,2026-04-20T02:49:34Z,65.2317,1,2,0,49,2,0,1
+vitejs/vite,22246,docs: update patak links,MERGED,2026-04-16T02:59:53Z,2026-04-16T13:43:49Z,2026-04-16T13:43:49Z,10.7322,2,7,10,0,2,0,8
+vitejs/vite,22238,fix: detect Deno workspace root (fix #22237),MERGED,2026-04-15T01:18:09Z,2026-04-17T06:27:13Z,2026-04-17T06:27:13Z,53.1511,5,39,0,1802,3,0,2
+vitejs/vite,22232,docs: add ambiguous default import from CJS section in troubleshooting,MERGED,2026-04-14T08:49:29Z,2026-04-15T02:14:35Z,2026-04-15T02:14:35Z,17.4183,1,12,0,250,2,0,1
+vitejs/vite,22231,docs: align the descriptions in READMEs,MERGED,2026-04-14T07:39:53Z,2026-04-15T02:14:43Z,2026-04-15T02:14:43Z,18.5806,3,9,9,68,2,0,4
+vitejs/vite,22230,build: improve typecheck and linting,MERGED,2026-04-14T03:20:04Z,2026-04-20T05:35:38Z,2026-04-20T05:35:38Z,146.2594,5,40,18,365,3,0,8
+vitejs/vite,22224,docs: update sponsors source,MERGED,2026-04-13T08:23:32Z,2026-04-14T02:18:56Z,2026-04-14T02:18:56Z,17.9233,10,55,155,369,2,0,3
+vitejs/vite,22222,chore(deps): update pnpm/action-setup action to v6,MERGED,2026-04-13T02:46:08Z,2026-04-23T04:26:17Z,2026-04-23T04:26:17Z,241.6692,4,5,5,2754,1,0,1
+vitejs/vite,22220,chore(deps): update actions/github-script action to v9,MERGED,2026-04-13T01:39:21Z,2026-04-13T04:25:22Z,2026-04-13T04:25:22Z,2.7669,3,9,9,1318,1,0,1
+vitejs/vite,22219,fix(deps): update all non-major dependencies,MERGED,2026-04-13T01:39:15Z,2026-04-13T04:52:57Z,2026-04-13T04:52:57Z,3.2283,26,404,423,57991,1,0,1
+vitejs/vite,22216,fix(create-vite): add missing quotes around viteLogo src attribute,MERGED,2026-04-12T14:26:40Z,2026-04-14T10:06:59Z,2026-04-14T10:06:59Z,43.6719,2,4,4,398,2,0,5
+vitejs/vite,22214,docs: fix wording in sass error comment,MERGED,2026-04-12T03:06:11Z,2026-04-13T09:30:28Z,2026-04-13T09:30:28Z,30.4047,1,1,1,896,4,0,2
+vitejs/vite,22208,fix(optimizer): handle more chars that will be sanitized,MERGED,2026-04-10T04:48:16Z,2026-04-20T02:49:11Z,2026-04-20T02:49:11Z,238.0153,2,41,10,396,3,1,5
+vitejs/vite,22207,fix(build): emptyOutDir should happen for watch rebuilds,MERGED,2026-04-10T03:50:58Z,2026-04-14T06:39:35Z,2026-04-14T06:39:35Z,98.8103,7,30,3,150,3,5,1
+vitejs/vite,22206,docs: fix Vite 5 migration blog links,MERGED,2026-04-10T02:12:43Z,2026-04-14T00:12:54Z,2026-04-14T00:12:54Z,94.0031,2,3,3,1180,2,0,2
+vitejs/vite,22203,refactor(create-vite): optimize hero.png,MERGED,2026-04-09T05:25:24Z,2026-04-09T11:39:24Z,2026-04-09T11:39:24Z,6.2333,16,0,0,149,3,0,2
+vitejs/vite,22199,fix(ssr): class property keys hoisting matching imports,MERGED,2026-04-08T18:02:06Z,2026-04-09T03:41:02Z,2026-04-09T03:41:02Z,9.6489,2,23,8,3552,2,1,1
+vitejs/vite,22197,test(glob-import): add glob exclusion with alias,MERGED,2026-04-08T12:38:21Z,2026-04-09T03:41:55Z,2026-04-09T03:41:55Z,15.0594,3,22,0,155,2,0,1
+vitejs/vite,22196,test(glob-import): add follow symlinks test,MERGED,2026-04-08T12:20:40Z,2026-04-17T06:40:13Z,2026-04-17T06:40:13Z,210.3258,6,79,0,199,2,0,14
+vitejs/vite,22191,test: replace lodash dependencies with local test packages,MERGED,2026-04-08T05:55:19Z,2026-04-13T04:12:01Z,2026-04-13T04:12:01Z,118.2783,16,158,36,1407,3,1,1
+vitejs/vite,22188,fix(dev): handle errors in `watchChange` hook,MERGED,2026-04-07T16:59:28Z,2026-04-17T05:37:39Z,2026-04-17T05:37:39Z,228.6364,2,109,5,2070,3,2,4
+vitejs/vite,22185,fix: use sync dns.getDefaultResultOrder instead of dns.promises,MERGED,2026-04-07T13:40:41Z,2026-04-07T15:45:43Z,2026-04-07T15:45:43Z,2.0839,1,2,2,1048,4,2,1
+vitejs/vite,22179,chore: replace remaining prettier script,MERGED,2026-04-07T09:49:57Z,2026-04-07T11:14:03Z,2026-04-07T11:14:03Z,1.4017,1,1,1,846,2,0,1
+vitejs/vite,22178,chore: enable `dedupePeers` configuration,MERGED,2026-04-07T09:40:24Z,2026-04-07T15:54:44Z,2026-04-07T15:54:44Z,6.2389,2,255,252,793,2,1,2
+vitejs/vite,22175,fix: add parameterized queries in main.ts...,CLOSED,2026-04-07T05:51:05Z,2026-04-07T07:30:26Z,,1.6558,1,53,51,806,2,0,1
+vitejs/vite,22174,refactor(create-vite): use styleText,MERGED,2026-04-07T02:43:04Z,2026-04-09T03:58:31Z,2026-04-09T03:58:31Z,49.2575,4,14,30,412,3,0,3
+vitejs/vite,22173,docs: fix reuses wording in dev environment comment,MERGED,2026-04-07T02:02:01Z,2026-04-13T02:44:24Z,2026-04-13T02:44:24Z,144.7064,1,1,1,331,4,0,2
+vitejs/vite,22168,chore(create-vite): remove unnecessary DOM.Iterable,MERGED,2026-04-06T19:59:41Z,2026-04-07T01:26:17Z,2026-04-07T01:26:17Z,5.4433,8,8,8,182,2,0,1
+vitejs/vite,22157,chore: use allowBuilds,MERGED,2026-04-06T08:17:00Z,2026-04-07T08:21:02Z,2026-04-07T08:21:02Z,24.0672,1,11,12,854,2,0,1
+vitejs/vite,22156,fix(optimize-deps): hoist CJS interop assignment,MERGED,2026-04-06T05:51:14Z,2026-04-07T11:05:28Z,2026-04-07T11:05:28Z,29.2372,6,75,57,12,2,0,1
+vitejs/vite,22151,perf: early return in `getLocalhostAddressIfDiffersFromDNS` when DNS order is `verbatim`,MERGED,2026-04-06T04:00:56Z,2026-04-07T05:02:17Z,2026-04-07T05:02:17Z,25.0225,1,13,9,1235,3,0,2
+vitejs/vite,22150,fix: allow binding when strictPort is set but wildcard port is in use,MERGED,2026-04-06T03:58:23Z,2026-04-13T03:13:16Z,2026-04-13T03:13:16Z,167.2481,2,60,4,1193,3,0,6
+vitejs/vite,22149,docs: simplify `server.host` DNS resolution difference tip,MERGED,2026-04-06T03:54:13Z,2026-04-07T05:03:35Z,2026-04-07T05:03:35Z,25.1561,1,1,14,75,3,0,2
+vitejs/vite,22148,fix: skip fallback sourcemap generation for `?raw` imports,MERGED,2026-04-06T03:37:36Z,2026-04-20T02:50:29Z,2026-04-20T02:50:29Z,335.2147,1,1,0,2095,3,3,3
+vitejs/vite,22147,fix: `hmrClient.logger.debug` and `hmrClient.logger.error` looked different from other HMR logs,MERGED,2026-04-06T03:22:26Z,2026-04-23T04:29:24Z,2026-04-23T04:29:24Z,409.1161,1,14,1,12,4,4,4
+vitejs/vite,22143,fix(deps): update all non-major dependencies,MERGED,2026-04-06T00:16:32Z,2026-04-06T05:32:47Z,2026-04-06T05:32:47Z,5.2708,32,818,469,41189,1,0,1
+vitejs/vite,22142,"fix(create-vite): use `type=""button""` to counter button in templates consistently",MERGED,2026-04-05T22:58:55Z,2026-04-23T05:00:34Z,2026-04-23T05:00:34Z,414.0275,14,44,12,732,3,0,5
+vitejs/vite,22130,docs: use local search,MERGED,2026-04-04T14:31:18Z,2026-04-09T03:58:44Z,2026-04-09T03:58:44Z,109.4572,2,10,8,569,2,0,2
+vitejs/vite,22129,docs: remove reference to react swc templates,MERGED,2026-04-04T13:47:33Z,2026-04-08T04:35:45Z,2026-04-08T04:35:45Z,86.8033,2,1,3,87,2,0,1
+vitejs/vite,22126,fix: add types for `vite/modulepreload-polyfill`,MERGED,2026-04-04T02:36:56Z,2026-04-06T01:31:55Z,2026-04-06T01:31:55Z,46.9164,2,3,1,219,2,0,2
+vitejs/vite,22117,docs: clarify ambiguous example in the threat model,MERGED,2026-04-03T05:49:39Z,2026-04-04T13:46:46Z,2026-04-04T13:46:46Z,31.9519,1,1,1,222,3,0,2

@@ -1,0 +1,8 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+clash-verge-rev/clash-verge-rev,6750,feat: add regex proxy filtering to proxy groups,CLOSED,2026-04-07T16:52:48Z,2026-04-08T13:39:24Z,,20.7767,12,231,25,0,2,1,1
+clash-verge-rev/clash-verge-rev,6643,feat(installer): add Russian language to Windows installer,MERGED,2026-03-26T22:07:01Z,2026-03-27T06:12:14Z,2026-03-27T06:12:14Z,8.0869,4,4,4,411,3,3,1
+clash-verge-rev/clash-verge-rev,6639,feat: show detailed results in hotkey notifications,MERGED,2026-03-26T16:19:49Z,2026-03-30T17:17:34Z,2026-03-30T17:17:34Z,96.9625,17,93,44,34,2,9,1
+clash-verge-rev/clash-verge-rev,6633,为项目添加 github 的 Provenance 机制,MERGED,2026-03-26T13:16:48Z,2026-04-12T10:01:38Z,2026-04-12T10:01:38Z,404.7472,1,32,0,621,3,18,5
+clash-verge-rev/clash-verge-rev,6593,fix(workflow): disable min-integrity guard blocking PR reads in AI slop review,CLOSED,2026-03-22T16:54:23Z,2026-03-23T14:34:47Z,,21.6733,1,1,2,2755,2,0,1
+clash-verge-rev/clash-verge-rev,6591,fix(sysproxy): fully clear PAC when disabling system proxy,MERGED,2026-03-22T16:33:28Z,2026-03-23T08:14:10Z,2026-03-23T08:14:10Z,15.6783,2,5,2,195,2,3,1
+clash-verge-rev/clash-verge-rev,6531,chore(ci): adds aw for AI slop detection in PRs,MERGED,2026-03-16T12:23:49Z,2026-03-17T18:07:27Z,2026-03-17T18:07:27Z,29.7272,4,1231,0,532,3,1,1

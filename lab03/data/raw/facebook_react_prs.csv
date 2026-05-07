@@ -1,0 +1,29 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+facebook/react,36357,[enableInfiniteRenderLoopDetection] Add a flag to force throwing,MERGED,2026-04-27T16:08:51Z,2026-04-29T20:12:57Z,2026-04-29T20:12:57Z,52.0683,11,203,8,241,3,1,2
+facebook/react,36347,[DevTools] Preserve -Infinity in inspected values,MERGED,2026-04-26T22:08:48Z,2026-05-02T08:50:41Z,2026-05-02T08:50:41Z,130.6981,6,14,2,1570,2,2,1
+facebook/react,36332,Fix formatting,MERGED,2026-04-23T15:24:13Z,2026-04-23T19:16:36Z,2026-04-23T19:16:36Z,3.8731,1,136,148,195,3,1,1
+facebook/react,36309,Add react-flight-server-fb package for Meta's internal bundler,MERGED,2026-04-17T17:04:26Z,2026-04-27T16:48:37Z,2026-04-27T16:48:37Z,239.7364,24,1733,23,2591,3,2,1
+facebook/react,36297,Remove legacy Paper renderer shim cleanup from artifact commit workflow,MERGED,2026-04-17T01:48:02Z,2026-04-17T09:26:23Z,2026-04-17T09:26:23Z,7.6392,1,0,4,683,4,1,1
+facebook/react,36287,[Fizz] prevent reentrant finishedTask from calling completeAll multiple times,MERGED,2026-04-16T17:57:59Z,2026-04-16T20:26:35Z,2026-04-16T20:26:35Z,2.4767,3,101,1,595,4,1,1
+facebook/react,36277,Minify prod error messages for all browser bundles,MERGED,2026-04-15T16:30:54Z,2026-04-17T16:01:57Z,2026-04-17T16:01:57Z,47.5175,2,24,10,754,4,1,1
+facebook/react,36274,[test] Make `enableSuspenseyImages` dynamic,MERGED,2026-04-15T10:30:49Z,2026-04-15T16:11:28Z,2026-04-15T16:11:28Z,5.6775,2,2,1,622,3,0,1
+facebook/react,36266,[RN] Move new event dispatching pipeline to RN,MERGED,2026-04-14T15:49:47Z,2026-04-14T17:10:34Z,2026-04-14T17:10:34Z,1.3464,5,6,642,505,5,3,1
+facebook/react,36256,Fix 'Should not already be working' error after debugger pause in Firefox,CLOSED,2026-04-12T04:02:00Z,2026-04-24T05:26:12Z,,289.4033,1,29,2,908,2,1,2
+facebook/react,36253,[react-native-renderer] EventTarget-based event dispatching,MERGED,2026-04-11T15:04:29Z,2026-04-14T11:43:41Z,2026-04-14T11:43:41Z,68.6533,10,775,16,1439,3,0,10
+facebook/react,36246,Wire up startViewTransitionReadyFinished in Fabric,MERGED,2026-04-09T20:24:00Z,2026-04-16T20:41:06Z,2026-04-16T20:41:06Z,168.285,2,3,0,681,4,1,1
+facebook/react,36224,[compiler] extend AlignObjectMethodScopes to also merge FunctionExpression object properties,CLOSED,2026-04-06T18:43:18Z,2026-04-07T05:12:49Z,,10.4919,7,233,48,2081,2,0,2
+facebook/react,36196,Wire up createViewTransitionInstance and suspendOnActiveViewTransition in Fabric,MERGED,2026-04-02T13:45:17Z,2026-04-16T20:59:55Z,2026-04-16T20:59:55Z,343.2439,3,18,5,800,4,1,1
+facebook/react,36195,fix: explicitly warn for infinite loops discovered only via enableInfiniteRenderLoopDetection,MERGED,2026-04-02T13:00:46Z,2026-04-13T16:28:43Z,2026-04-13T16:28:43Z,267.4658,3,119,5,687,5,3,3
+facebook/react,36180,Add Flight SSR benchmark fixture,MERGED,2026-04-01T21:26:37Z,2026-04-02T17:00:28Z,2026-04-02T17:00:28Z,19.5642,39,4126,0,3210,3,1,1
+facebook/react,36177,fix(devtools): clear highlight when mouse leaves DevTools panel,MERGED,2026-04-01T01:45:44Z,2026-05-02T08:50:27Z,2026-05-02T08:50:27Z,751.0786,1,17,0,1522,2,2,1
+facebook/react,36163,fix: potential null dereference in react compiler configuration (#32571),CLOSED,2026-03-28T15:47:13Z,2026-03-28T19:56:16Z,,4.1508,1,1,1,2068,3,3,1
+facebook/react,36159,[compiler][playground] parse compiler configs using json5,MERGED,2026-03-27T20:46:40Z,2026-03-30T17:04:50Z,2026-03-30T17:04:50Z,68.3028,7,184,45,460,2,1,1
+facebook/react,36156,[Flight] Transport `AggregateErrors.errors`,MERGED,2026-03-27T16:41:20Z,2026-03-29T01:18:21Z,2026-03-29T01:18:21Z,32.6169,10,262,13,158,3,1,2
+facebook/react,36153,"[Compiler] Remove ObjectMethod HIR node, lower as FunctionExpression #36151",CLOSED,2026-03-27T13:05:02Z,2026-03-29T20:25:43Z,,55.3447,175,679,547,443,2,1,3
+facebook/react,36148,Add credentialless as a recognized boolean attribute for iframes,MERGED,2026-03-26T17:24:19Z,2026-04-20T17:37:34Z,2026-04-20T17:37:34Z,600.2208,5,45,0,1341,5,1,7
+facebook/react,36133,[DevTools] Remove spurious warnings when creating Suspense timeline from a Transition,MERGED,2026-03-23T17:03:10Z,2026-04-08T16:49:35Z,2026-04-08T16:49:35Z,383.7736,1,4,4,191,2,0,1
+facebook/react,36094,[DevTools] feat: display subtree for Activity and dim in hidden mode,MERGED,2026-03-18T20:18:34Z,2026-03-23T14:29:39Z,2026-03-23T14:29:39Z,114.1847,9,499,30,289,3,4,2
+facebook/react,36047,Fix FragmentInstance listener leak: normalize boolean vs object capture options per DOM spec,MERGED,2026-03-15T13:41:08Z,2026-04-22T13:40:35Z,2026-04-22T13:40:35Z,911.9908,2,165,1,2539,4,9,4
+facebook/react,36024,[Flight] Clear chunk reason after successful module initialization,MERGED,2026-03-12T13:14:42Z,2026-03-12T18:17:25Z,2026-03-12T18:17:25Z,5.0453,3,94,0,1460,3,1,2
+facebook/react,36011,[DevTools] fix: don't show empty suspended by section,MERGED,2026-03-11T20:46:11Z,2026-03-12T21:19:21Z,2026-03-12T21:19:21Z,24.5528,1,3,0,93,2,0,1
+facebook/react,36010,Fix focus set for delegated and already focused elements,MERGED,2026-03-11T16:43:19Z,2026-03-12T21:36:28Z,2026-03-12T21:36:28Z,28.8858,2,111,3,963,3,1,1

@@ -1,0 +1,8 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+d2l-ai/d2l-zh,1258,4.1.1 翻译不顺,CLOSED,2023-03-30T01:39:27Z,2023-06-10T08:53:12Z,,1735.2292,2,3,3,124,3,1,1
+d2l-ai/d2l-zh,1217,Standardized code format,MERGED,2022-11-08T04:05:00Z,2022-11-08T16:46:25Z,2022-11-08T16:46:25Z,12.6903,25,71,156,0,6,2,1
+d2l-ai/d2l-zh,1213,Update index.md,MERGED,2022-10-28T00:36:22Z,2022-10-30T22:10:33Z,2022-10-30T22:10:33Z,69.5697,1,1,1,115,3,1,1
+d2l-ai/d2l-zh,1211,[fix] Formula Error,MERGED,2022-10-16T07:05:29Z,2022-10-30T22:16:37Z,2022-10-30T22:16:37Z,351.1856,1,1,1,41,3,1,1
+d2l-ai/d2l-zh,1209,modify the description of the Resize function,MERGED,2022-09-25T01:54:04Z,2022-12-04T01:48:33Z,2022-12-04T01:48:33Z,1679.9081,0,0,0,0,3,1,1
+d2l-ai/d2l-zh,1208,Update selecting-servers-gpus.md,MERGED,2022-09-12T12:36:09Z,2022-09-14T06:09:13Z,2022-09-14T06:09:13Z,41.5511,1,1,1,30,3,1,1
+d2l-ai/d2l-zh,1198,Add PaddlePaddle Implementation,MERGED,2022-08-26T16:45:57Z,2022-11-13T05:12:19Z,2022-11-13T05:12:19Z,1884.4394,114,12144,1039,0,8,35,58

@@ -1,0 +1,53 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+tensorflow/models,13619,chore: Migrate gsutil usage to gcloud storage,MERGED,2026-03-03T17:57:19Z,2026-03-17T07:33:10Z,2026-03-17T07:33:10Z,325.5975,6,22,22,2210,2,2,1
+tensorflow/models,13618,chore: Migrate gsutil usage to gcloud storage,MERGED,2026-03-03T17:50:50Z,2026-03-17T07:32:13Z,2026-03-17T07:32:13Z,325.6897,10,23,23,2210,2,2,1
+tensorflow/models,13609,fix(research): replace deprecated np.int with int in mobilenet_v3,MERGED,2026-02-13T09:02:04Z,2026-02-13T18:47:44Z,2026-02-13T18:47:44Z,9.7611,1,1,1,872,2,0,1
+tensorflow/models,13602,Bump lodash and gulp in /official/projects/waste_identification_ml/circularnet-docs/themes/hugo-theme-techdoc,CLOSED,2026-01-21T23:23:41Z,2026-04-02T09:54:35Z,,1690.515,2,1433,1634,15242,1,1,1
+tensorflow/models,13544,Update pretrained_models.md,MERGED,2025-02-28T07:12:13Z,2025-04-29T03:57:37Z,2025-04-29T03:57:36Z,1436.7564,1,11,11,1870,3,0,1
+tensorflow/models,13543,tensorflow,CLOSED,2025-02-27T06:03:11Z,2025-04-22T16:26:35Z,,1306.39,7,38,0,1752,5,3,1
+tensorflow/models,13537,Fix typo,MERGED,2025-02-21T17:48:39Z,2025-03-10T17:24:09Z,2025-03-10T17:24:09Z,407.5917,1,1,1,20,3,0,1
+tensorflow/models,13534,Fix tf-keras installation error,MERGED,2025-02-17T12:22:17Z,2025-02-18T17:05:56Z,2025-02-18T17:05:56Z,28.7275,1,2,2,2018,2,1,1
+tensorflow/models,13533,Add docstrings to clarify usage in tensorflow_models.,CLOSED,2025-02-12T18:29:03Z,2025-02-17T21:28:18Z,,122.9875,2,4,0,156,2,1,1
+tensorflow/models,13525,Update beta sampling code in augment.py,MERGED,2025-01-30T17:16:58Z,2025-03-04T06:10:35Z,2025-03-04T06:10:35Z,780.8936,1,2,2,2366,3,0,1
+tensorflow/models,13523,Added source links to detr_r50_300epochs.sh file in   README.md,MERGED,2025-01-20T09:03:57Z,2025-01-28T22:13:03Z,2025-01-28T22:13:03Z,205.1517,1,2,2,1939,2,0,1
+tensorflow/models,13513,Updated dataset version semantic_segmentation.ipynb,MERGED,2024-12-19T08:55:47Z,2025-03-05T04:52:31Z,2025-03-05T04:52:31Z,1819.9456,1,4,4,588,4,1,1
+tensorflow/models,11489,Typos fixed in instance_segmentation.ipynb,MERGED,2024-11-28T09:10:35Z,2025-01-10T15:20:51Z,2025-01-10T15:20:51Z,1038.1711,1,5,5,1752,3,1,1
+tensorflow/models,11261,Switched YAMNet to stick with Keras 2.,MERGED,2024-09-23T18:12:50Z,2024-09-24T16:08:15Z,2024-09-24T16:08:15Z,21.9236,2,4,2,1600,2,0,1
+tensorflow/models,11244,Fix bibtex citation in README.md,MERGED,2024-07-31T18:57:17Z,2024-10-14T17:35:26Z,2024-10-14T17:35:26Z,1798.6358,1,2,2,73,4,1,1
+tensorflow/models,11240,Bump lodash and gulp in /official/projects/waste_identification_ml/circularnet-docs/themes/hugo-theme-techdoc,CLOSED,2024-07-31T18:04:40Z,2026-01-21T23:23:46Z,,12941.3183,2,1423,1636,18183,1,1,1
+tensorflow/models,11239,Bump follow-redirects from 1.15.1 to 1.15.6 in /official/projects/waste_identification_ml/circularnet-docs/themes/hugo-theme-techdoc,CLOSED,2024-07-31T18:04:38Z,2026-04-14T22:37:25Z,,14932.5464,1,6,6,4258,1,1,1
+tensorflow/models,11236,add Bharat and Lakshmikala to  bot_config.yml to assign github issues,MERGED,2024-07-29T17:09:39Z,2024-08-01T18:24:20Z,2024-08-01T18:24:20Z,73.2447,1,2,0,116,2,0,1
+tensorflow/models,11219,fix contrast(),MERGED,2024-06-04T19:32:20Z,2025-01-07T17:54:12Z,2025-01-07T17:54:11Z,5206.3642,1,1,13,1032,5,1,3
+tensorflow/models,11191,Object Detection using YOLOv7,MERGED,2024-04-17T21:11:01Z,2024-10-03T23:51:10Z,2024-10-03T23:51:10Z,4058.6692,1,821,0,918,5,2,2
+tensorflow/models,11187,loading a2 rather than a0,MERGED,2024-04-04T18:50:22Z,2024-10-23T18:06:53Z,2024-10-23T18:06:53Z,4847.2753,1,1,1,154,4,6,2
+tensorflow/models,11182,Update CODEOWNERS,MERGED,2024-03-07T19:18:05Z,2024-04-10T18:55:22Z,2024-04-10T18:55:22Z,815.6214,1,6,6,859,2,0,1
+tensorflow/models,11178,Fixed Several Typos,MERGED,2024-03-01T07:44:33Z,2024-10-03T21:17:41Z,2024-10-03T21:17:41Z,5197.5522,11,14,13,136,5,1,2
+tensorflow/models,11176,Added a flag to allow skipping the first projection in small ResNets,CLOSED,2024-02-29T22:07:10Z,2024-10-03T14:45:20Z,,5200.6361,2,52,4,1807,2,0,1
+tensorflow/models,11174,Updated model building blocks API links  in NLP Readme.md file to improve readability for users.,MERGED,2024-02-29T19:17:29Z,2024-03-01T04:57:18Z,2024-03-01T04:57:18Z,9.6636,1,51,0,794,2,0,4
+tensorflow/models,11171,"Adding Backbones,Decoders,Heads API links to Readme.md file in vision folder for more readability of the document",MERGED,2024-02-27T23:58:35Z,2024-02-28T23:14:39Z,2024-02-28T23:14:39Z,23.2678,1,37,0,790,2,0,1
+tensorflow/models,11170,Update Readme.md file for examples and tutorials related to NLP and Vision using TensorFlow Model Garden,MERGED,2024-02-26T22:50:44Z,2024-02-27T20:49:49Z,2024-02-27T20:49:49Z,21.9847,1,11,0,791,3,0,2
+tensorflow/models,11160,Updating tf-models-nightly pip package version after every stable version release.,CLOSED,2024-02-12T19:33:30Z,2024-02-14T17:53:09Z,,46.3275,1,3,0,1009,2,2,1
+tensorflow/models,11156,RNGDet implementation,CLOSED,2024-02-07T08:55:26Z,2024-08-24T12:00:37Z,,4779.0864,0,0,0,1684,3,1,3
+tensorflow/models,11152,Add eval summary argument to fix notebook breakage,MERGED,2024-01-29T19:46:48Z,2024-02-02T00:44:06Z,2024-02-02T00:44:06Z,76.955,1,25,20,1157,3,1,1
+tensorflow/models,11149,Bump pillow from 10.0.1 to 10.2.0 in /official/projects/rngdet,MERGED,2024-01-26T00:20:52Z,2024-01-29T23:24:53Z,2024-01-29T23:24:53Z,95.0669,1,1,1,17181,2,0,1
+tensorflow/models,11145,RNGDet implementation,MERGED,2024-01-18T07:52:29Z,2024-01-26T00:19:31Z,2024-01-26T00:19:31Z,184.4506,23,3703,0,1702,5,2,1
+tensorflow/models,11137,Fixing typos,MERGED,2023-12-30T10:05:52Z,2024-01-02T12:33:31Z,2024-01-02T12:33:31Z,74.4608,2,3,3,1752,2,0,1
+tensorflow/models,11126,Fixed typos,MERGED,2023-12-06T05:59:26Z,2023-12-20T14:06:34Z,2023-12-20T14:06:34Z,344.1189,3,4,4,1752,4,1,1
+tensorflow/models,11122,tf2_utils_2x_wide.py cleanup,MERGED,2023-12-01T07:27:00Z,2024-02-09T16:55:36Z,2024-02-09T16:55:36Z,1689.4767,2,52,24,1499,6,1,4
+tensorflow/models,11115,update dataset download links,MERGED,2023-11-20T23:29:20Z,2023-11-29T23:16:59Z,2023-11-29T23:16:59Z,215.7942,1,20,20,886,3,1,1
+tensorflow/models,11110,remove repo cloning and adjust folder paths,MERGED,2023-11-06T19:33:25Z,2023-11-08T23:49:24Z,2023-11-08T23:49:24Z,52.2664,1,46,74,950,3,1,1
+tensorflow/models,11107,Updating the doc by correcting typos,CLOSED,2023-10-31T04:38:08Z,2024-02-07T18:55:32Z,,2390.29,4,4,4,1843,4,1,1
+tensorflow/models,11100,Updated the TF doc by correcting typos,CLOSED,2023-10-20T05:38:22Z,2024-02-07T18:55:20Z,,2653.2828,1,5,5,1790,4,1,1
+tensorflow/models,11094,docs: update link to `classification_example_test.py`,MERGED,2023-10-02T15:48:24Z,2023-12-06T19:29:11Z,2023-12-06T19:29:11Z,1563.6797,1,2,2,1843,3,0,1
+tensorflow/models,11080,A list of assignees updated in  bot_config.yml,MERGED,2023-08-24T18:11:41Z,2023-08-24T20:26:29Z,2023-08-24T20:26:29Z,2.2467,1,0,2,808,2,0,1
+tensorflow/models,11070,Updating Readme,MERGED,2023-08-07T05:54:27Z,2023-09-12T16:46:18Z,2023-09-12T16:46:18Z,874.8642,1,2,5,30,2,0,1
+tensorflow/models,11061,Fixed vggish_smoke_test failures due to resampy changes.,MERGED,2023-07-26T17:23:39Z,2023-07-26T21:28:25Z,2023-07-26T21:28:25Z,4.0794,3,36,12,1480,2,1,1
+tensorflow/models,11036,Updated doc according to new folder structure,MERGED,2023-06-30T18:36:39Z,2023-07-20T20:42:40Z,2023-07-20T20:42:39Z,482.1,3,6,6,829,3,0,2
+tensorflow/models,11030,add synchronized argument for batch norm,MERGED,2023-06-26T19:29:35Z,2023-06-29T18:23:50Z,2023-06-29T18:23:50Z,70.9042,2,35,4,1184,3,0,1
+tensorflow/models,11029,Typo fix in TF doc,MERGED,2023-06-26T18:45:53Z,2023-12-06T19:02:54Z,2023-12-06T19:02:54Z,3912.2836,2,13,13,809,2,0,1
+tensorflow/models,11027,typo correction in log message in train.py,MERGED,2023-06-20T17:59:09Z,2023-12-06T19:05:06Z,2023-12-06T19:05:06Z,4057.0992,1,1,1,810,4,0,4
+tensorflow/models,11023,Added default missing hyperparameters,MERGED,2023-06-16T22:40:52Z,2023-06-21T15:09:06Z,2023-06-21T15:09:06Z,112.4706,1,26,1,1207,2,0,1
+tensorflow/models,11013,Update nightly_requirements.txt,CLOSED,2023-06-07T14:14:28Z,2024-02-14T18:22:52Z,,6052.14,1,9,9,1752,4,5,2
+tensorflow/models,11009,Dict union operator replaced by traditional solution,CLOSED,2023-05-31T20:08:37Z,2024-01-12T22:02:51Z,,5425.9039,1,1,1,1715,3,1,1
+tensorflow/models,11006,MEGA Update,MERGED,2023-05-29T23:19:59Z,2023-06-10T02:38:31Z,2023-06-10T02:38:31Z,267.3089,15,1402,5,1443,4,0,10
+tensorflow/models,10982,Adding the Pixel model,CLOSED,2023-04-18T21:57:36Z,2023-06-09T21:32:52Z,,1247.5878,7,750,0,1443,4,0,4

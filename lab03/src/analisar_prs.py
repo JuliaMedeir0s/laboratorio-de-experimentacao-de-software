@@ -138,6 +138,62 @@ def _summary_counts(df: pd.DataFrame) -> pd.DataFrame:
     return counts
 
 
+def _quartiles_summary(df: pd.DataFrame) -> pd.DataFrame:
+    """Resumo por quartis das métricas independentes.
+
+    Para cada métrica em METRICS, divide a amostra em quartis (Q1..Q4) e
+    calcula estatísticas de interesse para interpretação:
+    - taxa de MERGE (média de status_bin)
+    - mediana de reviews_count
+    - mediana de analysis_time_hours
+    - min/max da própria métrica no quartil (para dar noção da faixa)
+
+    Observação: usa qcut com duplicates='drop' para lidar com muitas repetições.
+    """
+
+    rows: list[dict] = []
+
+    for metric in METRICS:
+        sub = df[[metric, "status_bin", "reviews_count", "analysis_time_hours"]].dropna().copy()
+        if len(sub) < 10:
+            continue
+
+        try:
+            sub["quartil"] = pd.qcut(
+                sub[metric],
+                q=4,
+                labels=["Q1", "Q2", "Q3", "Q4"],
+                duplicates="drop",
+            )
+        except ValueError:
+            # Pode acontecer se a coluna tiver poucos valores distintos.
+            continue
+
+        grouped = sub.groupby("quartil", dropna=True)
+        for quartil, g in grouped:
+            rows.append(
+                {
+                    "metric": metric,
+                    "quartil": str(quartil),
+                    "n": int(len(g)),
+                    "merge_rate": round(float(g["status_bin"].mean()), 6),
+                    "median_reviews_count": float(g["reviews_count"].median()),
+                    "median_analysis_time_hours": float(g["analysis_time_hours"].median()),
+                    "metric_min": float(g[metric].min()),
+                    "metric_max": float(g[metric].max()),
+                }
+            )
+
+    out = pd.DataFrame(rows)
+    if out.empty:
+        return out
+
+    quartil_order = pd.CategoricalDtype(categories=["Q1", "Q2", "Q3", "Q4"], ordered=True)
+    out["quartil"] = out["quartil"].astype(quartil_order)
+    out = out.sort_values(by=["metric", "quartil"]).reset_index(drop=True)
+    return out
+
+
 def _write_df(df: pd.DataFrame, csv_path: Path, md_path: Path) -> None:
     df.to_csv(csv_path, index=False)
 
@@ -251,6 +307,7 @@ def main() -> None:
     medians = _medians_by_status(df)
     spearman_status = _spearman_table(df, y="status_bin")
     spearman_reviews = _spearman_table(df, y="reviews_count")
+    quartiles = _quartiles_summary(df)
 
     _write_df(counts, paths.tables_dir / "contagem_status.csv", paths.tables_dir / "contagem_status.md")
     _write_df(medians, paths.tables_dir / "medianas_por_status.csv", paths.tables_dir / "medianas_por_status.md")
@@ -264,6 +321,13 @@ def main() -> None:
         paths.tables_dir / "spearman_reviews.csv",
         paths.tables_dir / "spearman_reviews.md",
     )
+
+    if not quartiles.empty:
+        _write_df(
+            quartiles,
+            paths.tables_dir / "quartis_resumo.csv",
+            paths.tables_dir / "quartis_resumo.md",
+        )
 
     if not args.skip_plots:
         _plots(df, paths.plots_dir)

@@ -1,0 +1,6 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+enaqx/awesome-react,1670,Add FoJin to React Real Apps,CLOSED,2026-03-31T12:34:10Z,2026-04-15T11:09:21Z,,358.5864,1,1,0,361,2,1,1
+enaqx/awesome-react,1569,Add PreRender24 to React Libraries section,CLOSED,2026-03-16T08:03:45Z,2026-03-27T01:23:01Z,,257.3211,1,1,0,857,3,1,1
+enaqx/awesome-react,1564,Add theSVG - brand SVG icon library,CLOSED,2026-03-09T23:46:34Z,2026-03-27T01:21:07Z,,409.5758,1,1,0,346,3,1,1
+enaqx/awesome-react,1484,Add Untitled UI,CLOSED,2025-07-20T11:26:46Z,2025-09-18T10:12:11Z,,1438.7569,1,1,0,650,3,2,1
+enaqx/awesome-react,1459,Add json-edit-react to React Awesome Components,MERGED,2025-04-25T00:01:50Z,2025-09-16T03:57:52Z,2025-09-16T03:57:52Z,3459.9339,1,1,0,960,2,1,1

@@ -1,0 +1,8 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+practical-tutorials/project-based-learning,760,Add new C/C++ project tutorial link and improve formatting,CLOSED,2025-11-04T15:54:10Z,2025-12-19T09:30:24Z,,1073.6039,1,2,0,198,2,0,1
+practical-tutorials/project-based-learning,563,Added Programiz PRO that offers curated learning paths for beginners,CLOSED,2024-05-13T10:57:06Z,2025-01-05T13:44:47Z,,5690.7947,1,1,0,1781,2,2,1
+practical-tutorials/project-based-learning,408,Added Flutter Netflix Clone Tutorial,MERGED,2023-02-21T05:44:58Z,2023-03-20T22:41:39Z,2023-03-20T22:41:39Z,664.9447,1,1,0,40,4,1,1
+practical-tutorials/project-based-learning,384,Added 2 resources,CLOSED,2022-10-06T09:23:41Z,2023-08-15T06:10:12Z,,7508.7753,1,2,0,1824,2,0,1
+practical-tutorials/project-based-learning,371,Added Realtime Chat app tutorial for django,MERGED,2022-07-23T15:43:27Z,2022-08-25T16:00:54Z,2022-08-25T16:00:54Z,792.2908,1,8,0,1374,3,1,1
+practical-tutorials/project-based-learning,364,Adding Flutter Tutorials,MERGED,2022-07-02T16:25:16Z,2022-08-28T05:18:14Z,2022-08-28T05:18:14Z,1356.8828,1,18,1,853,4,3,2
+practical-tutorials/project-based-learning,363,Updated Java security project reference.,MERGED,2022-06-30T06:34:00Z,2022-08-25T15:53:05Z,2022-08-25T15:53:05Z,1353.3181,1,1,1,1540,3,1,2

@@ -1,0 +1,53 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+tauri-apps/tauri,15336,"fix(core): requestPermission crash regression on Android, closes #15323",MERGED,2026-05-04T12:08:20Z,2026-05-04T13:10:21Z,2026-05-04T13:10:21Z,1.0336,2,11,0,90,3,2,2
+tauri-apps/tauri,15324,fix(driver): enable `eq-separator` feature for `pico-args`.,MERGED,2026-05-02T13:55:04Z,2026-05-04T13:02:08Z,2026-05-04T13:02:08Z,47.1178,2,6,1,13,2,3,1
+tauri-apps/tauri,15308,chore(deps): update phf to 0.13,MERGED,2026-04-30T16:15:11Z,2026-05-03T10:46:18Z,2026-05-03T10:46:18Z,66.5186,4,9,4,983,2,1,1
+tauri-apps/tauri,15303,fix(deps): update specta in lockfile,MERGED,2026-04-30T01:58:07Z,2026-04-30T09:06:18Z,2026-04-30T09:06:18Z,7.1364,1,5,5,1069,3,3,1
+tauri-apps/tauri,15301,fix(schema-worker): return content type json,MERGED,2026-04-29T15:20:57Z,2026-04-29T16:27:44Z,2026-04-29T16:27:44Z,1.1131,1,23,5,1032,2,2,1
+tauri-apps/tauri,15300,fix: doc links,MERGED,2026-04-29T14:46:10Z,2026-04-29T16:24:28Z,2026-04-29T16:24:28Z,1.6383,13,33,26,35,2,1,1
+tauri-apps/tauri,15289,fix(tauri-build): preserve numeric semver build metadata in Windows FILEVERSION,MERGED,2026-04-23T11:37:07Z,2026-04-27T07:20:48Z,2026-04-27T07:20:48Z,91.7281,2,57,1,1060,3,6,10
+tauri-apps/tauri,15288,fix(tauri-build): set Windows FileVersion/ProductVersion strings from tauri config,MERGED,2026-04-23T11:03:59Z,2026-04-23T16:41:00Z,2026-04-23T16:41:00Z,5.6169,2,7,0,1218,2,6,4
+tauri-apps/tauri,15284,chore(deps): bump openssl from 0.10.72 to 0.10.78,MERGED,2026-04-23T00:32:39Z,2026-04-23T03:52:45Z,2026-04-23T03:52:45Z,3.335,1,4,4,13688,1,1,1
+tauri-apps/tauri,15282,"Audit CI fix, RUSTSEC advisories",MERGED,2026-04-22T14:24:54Z,2026-04-23T03:34:13Z,2026-04-23T03:34:13Z,13.1553,2,41,28,721,2,2,1
+tauri-apps/tauri,15279,fix(cef): implement re-entrancy guard for user event callbacks,MERGED,2026-04-21T17:18:31Z,2026-04-28T13:22:20Z,2026-04-28T13:22:20Z,164.0636,2,44,13,941,2,1,1
+tauri-apps/tauri,15266,fix(tauri): enforce ACL for remote origins even without AppManifest,MERGED,2026-04-20T08:47:49Z,2026-05-04T13:04:30Z,2026-05-04T13:04:30Z,340.2781,3,80,4,1822,5,6,2
+tauri-apps/tauri,15263,feat(windows): append .rc content support.,MERGED,2026-04-19T13:31:26Z,2026-04-20T09:18:03Z,2026-04-20T09:18:03Z,19.7769,2,21,0,1077,2,3,9
+tauri-apps/tauri,15262,Non-breaking version of PR 15127,MERGED,2026-04-19T12:02:53Z,2026-04-19T13:33:22Z,2026-04-19T13:33:22Z,1.5081,2,10,9,17,3,1,1
+tauri-apps/tauri,15260,docs: nsis default languages,MERGED,2026-04-19T04:11:47Z,2026-04-19T16:32:55Z,2026-04-19T16:32:55Z,12.3522,6,13,11,941,2,1,2
+tauri-apps/tauri,15257,docs: fix runtime comment typo,CLOSED,2026-04-17T02:37:29Z,2026-04-19T04:10:35Z,,49.5517,1,1,1,316,4,1,2
+tauri-apps/tauri,15256,docs: fix fs scope comment typo,CLOSED,2026-04-17T02:36:54Z,2026-04-19T04:10:34Z,,49.5611,1,1,1,308,4,0,1
+tauri-apps/tauri,15253,chore(tauri-utils): update mime_type documentation,MERGED,2026-04-16T18:04:52Z,2026-04-20T13:50:00Z,2026-04-20T13:50:00Z,91.7522,3,9,3,0,2,1,1
+tauri-apps/tauri,15252,fix(cef): close all browsers before shutdown to fix null pointer dereference on macOS,MERGED,2026-04-16T14:24:33Z,2026-04-16T15:26:16Z,2026-04-16T15:26:16Z,1.0286,2,43,10,941,2,1,2
+tauri-apps/tauri,15250,fix(macOS): fix incorrect window position on multi-monitor setups,MERGED,2026-04-16T11:53:09Z,2026-04-30T13:25:41Z,2026-04-30T13:25:41Z,337.5422,2,52,12,721,2,1,1
+tauri-apps/tauri,15234,chore(deps): bump rand from 0.9.1 to 0.9.3,MERGED,2026-04-14T01:34:00Z,2026-04-14T04:12:13Z,2026-04-14T04:12:13Z,2.6369,1,5,5,5555,1,1,1
+tauri-apps/tauri,15233,chore(deps): update worker-rs crates to 0.8,MERGED,2026-04-14T00:57:19Z,2026-04-30T02:19:14Z,2026-04-30T02:19:14Z,385.3653,2,51,30,14653,1,1,1
+tauri-apps/tauri,15218,feat(nsis): add Vietnamese language support for installer.,MERGED,2026-04-10T08:20:42Z,2026-04-29T09:58:38Z,2026-04-29T09:58:38Z,457.6322,3,35,0,1529,2,10,4
+tauri-apps/tauri,15204,chore(deps-dev): bump vite from 8.0.0 to 8.0.5,MERGED,2026-04-06T18:05:28Z,2026-04-07T04:52:05Z,2026-04-07T04:52:05Z,10.7769,2,207,165,12672,1,1,1
+tauri-apps/tauri,15203,chore(deps): update rust crate tray-icon to 0.22,MERGED,2026-04-06T04:45:17Z,2026-04-23T15:34:30Z,2026-04-23T15:34:30Z,418.8203,3,34,16,6127,1,1,1
+tauri-apps/tauri,15201,feat(windows): NSIS uninstaller icon and header image support,MERGED,2026-04-05T12:45:53Z,2026-04-08T08:10:55Z,2026-04-08T08:10:55Z,67.4172,8,94,2,1117,2,5,15
+tauri-apps/tauri,15199,feat(mobile): Propagate tao::Event::Suspended and tao::Event::Resumed to the window (feat #15181),MERGED,2026-04-04T21:39:31Z,2026-04-30T13:56:26Z,2026-04-30T13:56:26Z,616.2819,8,144,55,980,3,1,1
+tauri-apps/tauri,15194,fix(ci): x86_64-apple-darwin CLI build,MERGED,2026-04-02T19:32:33Z,2026-04-30T12:08:19Z,2026-04-30T12:08:19Z,664.5961,1,10,11,174,4,4,1
+tauri-apps/tauri,15192,chore(deps): update dependency rollup to v4.60.2,MERGED,2026-04-02T05:13:26Z,2026-04-29T04:28:02Z,2026-04-29T04:28:02Z,647.2433,2,121,121,8177,1,1,1
+tauri-apps/tauri,15183,chore(deps): update ctor and napi,MERGED,2026-03-31T08:52:05Z,2026-03-31T10:44:38Z,2026-03-31T10:44:38Z,1.8758,4,54,53,332,2,2,2
+tauri-apps/tauri,15177,Update Specta in lockfile to fix documentation,MERGED,2026-03-30T15:12:09Z,2026-04-29T14:43:57Z,2026-04-29T14:43:57Z,719.53,2,11,5,1595,4,6,3
+tauri-apps/tauri,15175,changes(nsis): update Italian translations,MERGED,2026-03-30T06:49:50Z,2026-04-15T04:54:13Z,2026-04-15T04:54:13Z,382.0731,2,26,19,57,3,3,20
+tauri-apps/tauri,15164,"feat: cover more cases for data-tauri-drag=region=""deep"", add example for QA",MERGED,2026-03-27T19:39:17Z,2026-03-28T00:03:31Z,2026-03-28T00:03:31Z,4.4039,6,523,31,241,2,1,1
+tauri-apps/tauri,15158,chore(deps): update dependency typescript to v6,MERGED,2026-03-26T17:01:31Z,2026-04-18T04:20:42Z,2026-04-18T04:20:42Z,539.3197,3,113,113,2095,1,3,1
+tauri-apps/tauri,15154,chore(deps): update dependency rollup to v4.60.0,MERGED,2026-03-25T09:52:17Z,2026-03-25T14:12:22Z,2026-03-25T14:12:22Z,4.3347,2,116,116,2051,1,1,1
+tauri-apps/tauri,15150,chore(deps): update dependency rollup to v4.59.1,MERGED,2026-03-24T08:37:52Z,2026-03-24T16:54:32Z,2026-03-24T16:54:32Z,8.2778,2,116,116,5761,1,2,1
+tauri-apps/tauri,15129,chore(deps): update rust crate tar to v0.4.45 [security],MERGED,2026-03-20T18:16:48Z,2026-03-21T02:08:33Z,2026-03-21T02:08:33Z,7.8625,1,9,9,7923,1,1,1
+tauri-apps/tauri,15127,refactor(ipc): pass reference to `decrypt` method for payloads,CLOSED,2026-03-20T07:58:20Z,2026-04-26T16:25:30Z,,896.4528,2,11,7,36,3,2,1
+tauri-apps/tauri,15117,Refactors,MERGED,2026-03-18T15:00:22Z,2026-03-20T10:18:29Z,2026-03-20T10:18:29Z,43.3019,4,59,82,292,3,5,2
+tauri-apps/tauri,15116,chore(deps): update wrangler & flatted to fix audit,MERGED,2026-03-17T19:29:59Z,2026-03-18T08:11:45Z,2026-03-18T08:11:45Z,12.6961,2,50,50,0,2,3,1
+tauri-apps/tauri,15115,chore(deps): Update cargo-mobile2 and toml crates,MERGED,2026-03-17T11:33:18Z,2026-03-18T17:02:04Z,2026-03-18T17:02:04Z,29.4794,6,111,64,112,2,4,10
+tauri-apps/tauri,15114,refactor: reduce nesting in `AppManager::get_asset`,MERGED,2026-03-17T04:32:50Z,2026-03-17T10:38:43Z,2026-03-17T10:38:43Z,6.0981,1,31,37,941,2,1,1
+tauri-apps/tauri,15113,feat(cef): add application visibility control for macOS,MERGED,2026-03-16T21:55:09Z,2026-03-17T10:38:33Z,2026-03-17T10:38:33Z,12.7233,4,40,24,941,2,1,1
+tauri-apps/tauri,15112,chore: reduce cloning in `EmbeddedAssets::get`,MERGED,2026-03-16T17:06:52Z,2026-03-17T04:10:52Z,2026-03-17T04:10:51Z,11.0664,1,7,16,119,2,1,3
+tauri-apps/tauri,15105,fix: proper transparency on macOS and Windows,MERGED,2026-03-13T11:50:39Z,2026-03-14T00:17:53Z,2026-03-14T00:17:53Z,12.4539,14,167,105,962,2,1,3
+tauri-apps/tauri,15103,chore(deps): update dependency vite to v8 and @sveltejs/vite-plugin-svelte to v7,MERGED,2026-03-12T21:38:07Z,2026-03-13T12:03:56Z,2026-03-13T12:03:56Z,14.4303,3,536,196,3572,2,6,1
+tauri-apps/tauri,15102,fix(bundler): set linuxdeploy arch to i386,MERGED,2026-03-12T19:17:05Z,2026-03-12T21:36:05Z,2026-03-12T21:36:05Z,2.3167,2,6,1,211,2,2,2
+tauri-apps/tauri,15101,fix(ios): fix deadlock during Swift plugin command handling,MERGED,2026-03-12T13:06:32Z,2026-03-12T15:27:50Z,2026-03-12T15:27:50Z,2.355,1,3,3,793,2,2,1
+tauri-apps/tauri,15064,fix: ohos build error,MERGED,2026-03-10T01:45:58Z,2026-04-13T16:13:29Z,2026-04-13T16:13:29Z,830.4586,4,12,8,1092,2,1,1
+tauri-apps/tauri,15062,"feat: add `data-tauri-drag-region=""deep""`",MERGED,2026-03-09T15:00:56Z,2026-03-10T12:25:41Z,2026-03-10T12:25:41Z,21.4125,2,68,17,991,3,1,1
+tauri-apps/tauri,15061,feat(ios): add --no-sign and --archive-only flags to ios build,MERGED,2026-03-09T09:36:13Z,2026-04-30T13:34:18Z,2026-04-30T13:34:18Z,1251.9681,3,114,13,704,3,2,1
+tauri-apps/tauri,15057,chore(deps): update `@rollup/plugin-terser` to v1,MERGED,2026-03-08T01:53:56Z,2026-03-08T09:54:28Z,2026-03-08T09:54:28Z,8.0089,3,7,13,984,2,2,1

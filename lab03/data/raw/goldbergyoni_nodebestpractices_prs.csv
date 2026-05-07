@@ -1,0 +1,60 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+goldbergyoni/nodebestpractices,1287,Update limitrequests.md,MERGED,2023-11-11T17:55:23Z,2024-03-06T16:18:30Z,2024-03-06T16:18:30Z,2782.3853,1,2,4,19,3,3,2
+goldbergyoni/nodebestpractices,1286,fixed path to the checklist.png at test-five-outcomes.md,MERGED,2023-11-06T10:41:53Z,2025-04-15T21:52:42Z,2025-04-15T21:52:42Z,12635.1803,1,1,1,89,3,7,6
+goldbergyoni/nodebestpractices,1273,Fix typos,MERGED,2023-09-03T20:51:29Z,2023-09-10T06:40:59Z,2023-09-10T06:40:59Z,153.825,1,7,7,9,3,4,1
+goldbergyoni/nodebestpractices,1267,Hebrew translation intro,MERGED,2023-08-20T12:08:32Z,2023-09-10T06:36:51Z,2023-09-10T06:36:51Z,498.4719,2,10,7,75,2,1,1
+goldbergyoni/nodebestpractices,1263,Hebrew translation,MERGED,2023-08-13T08:34:52Z,2023-08-15T12:02:32Z,2023-08-15T12:02:32Z,51.4611,1,1925,0,175,2,0,1
+goldbergyoni/nodebestpractices,1262,fix broken env-var broken link,MERGED,2023-08-04T23:31:41Z,2023-08-05T23:32:40Z,2023-08-05T23:32:40Z,24.0164,1,1,1,13,3,0,1
+goldbergyoni/nodebestpractices,1260,Fix typos and grammar in returningpromises.md,MERGED,2023-07-28T10:34:46Z,2023-08-02T17:07:29Z,2023-08-02T17:07:29Z,126.5453,1,16,16,0,3,0,1
+goldbergyoni/nodebestpractices,1259,Fix typo in readme-general-toc-4.md,MERGED,2023-07-27T15:17:20Z,2023-07-28T07:37:21Z,2023-07-28T07:37:21Z,16.3336,1,1,1,26,3,0,1
+goldbergyoni/nodebestpractices,1258,3.3 fix code sample,MERGED,2023-07-26T17:19:02Z,2023-07-28T07:37:54Z,2023-07-28T07:37:54Z,38.3144,2,5,4,34,2,0,1
+goldbergyoni/nodebestpractices,1252,[doc] Line break curly braces- Same line Avoid example,MERGED,2023-06-11T13:57:22Z,2023-09-21T22:16:52Z,2023-09-21T22:16:52Z,2456.325,1,2,1,0,4,1,2
+goldbergyoni/nodebestpractices,1240,Modernizing to 2023 - various new itams,MERGED,2023-05-08T12:33:23Z,2023-05-09T10:14:39Z,2023-05-09T10:14:39Z,21.6878,13,420,243,44,3,1,5
+goldbergyoni/nodebestpractices,1238,bullet-1.1-better-drilldown-explanation,CLOSED,2023-05-02T14:17:31Z,2023-05-10T15:34:13Z,,193.2783,1,31,3,0,2,0,1
+goldbergyoni/nodebestpractices,1237,Improved bullet-1.1 with folders example,CLOSED,2023-05-02T14:06:20Z,2023-05-10T15:34:27Z,,193.4686,1,15,3,0,2,0,1
+goldbergyoni/nodebestpractices,1235,Update the Privatenpm.png file,MERGED,2023-04-16T09:41:01Z,2023-04-19T21:14:44Z,2023-04-19T21:14:44Z,83.5619,1,0,0,106,3,1,1
+goldbergyoni/nodebestpractices,1234,Bug,CLOSED,2023-04-13T16:00:16Z,2023-04-19T21:13:01Z,,149.2125,1,1,1,16,3,1,2
+goldbergyoni/nodebestpractices,1233,remove build step,MERGED,2023-04-08T19:48:55Z,2023-04-19T21:12:15Z,2023-04-19T21:12:15Z,265.3889,10,2,1290,160,3,1,1
+goldbergyoni/nodebestpractices,1232,Update last update badge to today [skip ci],MERGED,2023-04-08T19:35:30Z,2023-04-19T21:14:01Z,2023-04-19T21:14:01Z,265.6419,1,1,1,0,1,0,1
+goldbergyoni/nodebestpractices,1229,chore: fix typo and link syntax,MERGED,2023-04-01T15:00:44Z,2023-04-08T19:35:03Z,2023-04-08T19:35:03Z,172.5719,1,2,2,55,3,4,1
+goldbergyoni/nodebestpractices,1227,Update last update badge to today [skip ci],MERGED,2023-03-21T08:25:16Z,2023-03-22T21:22:40Z,2023-03-22T21:22:40Z,36.9567,1,1,1,0,2,0,3
+goldbergyoni/nodebestpractices,1226,docs: add no-yan as a contributor for content,MERGED,2023-03-19T12:34:11Z,2023-03-21T08:24:43Z,2023-03-21T08:24:43Z,43.8422,7,1163,1147,188,1,0,1
+goldbergyoni/nodebestpractices,1224,docs: fix typo in  clean-cache.md,MERGED,2023-03-18T03:07:42Z,2023-03-19T12:12:59Z,2023-03-19T12:12:59Z,33.0881,2,2,2,0,3,2,1
+goldbergyoni/nodebestpractices,1218,Update GitHub actions and update workflow node to 18,MERGED,2023-01-17T17:23:54Z,2023-04-19T21:25:35Z,2023-04-19T21:25:35Z,2212.0281,3,7,7,0,3,2,2
+goldbergyoni/nodebestpractices,1216,Fix grammar error in Section 2.2,MERGED,2023-01-08T23:32:25Z,2023-01-09T22:51:00Z,2023-01-09T22:51:00Z,23.3097,1,1,1,0,3,1,1
+goldbergyoni/nodebestpractices,1215,Update last update badge to today [skip ci],MERGED,2022-12-05T10:55:16Z,2023-01-08T09:51:38Z,2023-01-08T09:51:38Z,814.9394,1,1,1,0,3,0,3
+goldbergyoni/nodebestpractices,1208,docs: Update broken link in breakintcomponents.md,MERGED,2022-11-20T23:25:10Z,2022-12-05T10:54:44Z,2022-12-05T10:54:43Z,347.4925,9,9,9,102,3,3,1
+goldbergyoni/nodebestpractices,1205,Fix build action,MERGED,2022-10-30T11:21:07Z,2022-12-05T10:56:45Z,2022-12-05T10:56:45Z,863.5939,1,2,2,166,2,1,1
+goldbergyoni/nodebestpractices,1204,docs: add Kristories as a contributor for content,CLOSED,2022-10-28T14:35:22Z,2023-01-05T21:47:34Z,,1663.2033,7,1505,1477,192,2,4,2
+goldbergyoni/nodebestpractices,1203,Comply lint-and-generate-html-from-markdown.yml,MERGED,2022-10-27T20:11:45Z,2022-10-28T14:28:20Z,2022-10-28T14:28:20Z,18.2764,12,89,121,17990,5,2,1
+goldbergyoni/nodebestpractices,1201,add mauroaccornero as a contributor,MERGED,2022-09-20T05:30:32Z,2022-10-28T14:31:32Z,2022-10-28T14:31:32Z,921.0167,7,1503,1476,185,1,0,1
+goldbergyoni/nodebestpractices,1199,fix: update readme for markdownlint,CLOSED,2022-09-19T10:21:33Z,2022-11-02T18:55:42Z,,1064.5692,1,1,4,198,3,1,1
+goldbergyoni/nodebestpractices,1198,fix: update josh hemphill image link in README.french.md,CLOSED,2022-09-19T07:47:16Z,2022-11-02T18:56:31Z,,1067.1542,1,1,1,187,3,1,1
+goldbergyoni/nodebestpractices,1197,fix: common-answers link,MERGED,2022-09-19T07:09:54Z,2022-09-20T05:25:55Z,2022-09-20T05:25:55Z,22.2669,2,1,1,114,3,2,1
+goldbergyoni/nodebestpractices,1192,Fix typos,CLOSED,2022-07-15T13:36:27Z,2024-01-21T18:31:13Z,,13324.9128,4,122,122,68,5,1,3
+goldbergyoni/nodebestpractices,1191,Delete contributing.md,MERGED,2022-07-09T20:20:12Z,2022-07-10T07:26:46Z,2022-07-10T07:26:46Z,11.1094,1,0,1,342,2,0,1
+goldbergyoni/nodebestpractices,1190,docs: add ShiChenCong as a contributor for translation,MERGED,2022-07-09T20:09:36Z,2022-07-10T07:28:59Z,2022-07-10T07:28:59Z,11.3231,7,27,0,185,2,3,1
+goldbergyoni/nodebestpractices,1187,Update last update badge to today [skip ci],MERGED,2022-07-01T14:22:51Z,2022-10-28T14:31:04Z,2022-10-28T14:31:04Z,2856.1369,1,1,1,0,1,0,2
+goldbergyoni/nodebestpractices,1186,Update asyncerrorhandling.chinese.md,MERGED,2022-06-25T11:06:46Z,2022-07-09T19:55:26Z,2022-07-09T19:55:26Z,344.8111,1,78,29,0,3,4,1
+goldbergyoni/nodebestpractices,1185,chinese translation 5.17,MERGED,2022-06-23T06:18:29Z,2022-07-01T14:22:24Z,2022-07-01T14:22:24Z,200.0653,2,31,0,24,2,0,5
+goldbergyoni/nodebestpractices,1183,fixes small typos in README.md,MERGED,2022-06-18T10:45:48Z,2022-06-18T19:09:42Z,2022-06-18T19:09:42Z,8.3983,1,3,2,91,2,2,1
+goldbergyoni/nodebestpractices,1179,docs: add backend-joonyoung as a contributor for code,MERGED,2022-06-08T09:44:05Z,2022-06-18T19:43:44Z,2022-06-18T19:43:44Z,249.9942,7,16,0,188,2,1,2
+goldbergyoni/nodebestpractices,1176,Update last update badge to today [skip ci],MERGED,2022-06-08T09:24:19Z,2022-06-18T19:36:54Z,2022-06-18T19:36:54Z,250.2097,1,1,1,0,1,0,1
+goldbergyoni/nodebestpractices,1173,UPDATE,MERGED,2022-05-26T03:24:42Z,2022-05-26T22:58:52Z,2022-05-26T22:58:52Z,19.5694,1,1,1,0,3,1,1
+goldbergyoni/nodebestpractices,1172,Optimize images,MERGED,2022-05-13T20:57:14Z,2022-06-08T09:23:53Z,2022-06-08T09:23:53Z,612.4442,54,3,15,0,4,4,1
+goldbergyoni/nodebestpractices,1170,Update README.hebrew.md,CLOSED,2022-05-01T00:56:43Z,2022-06-05T21:52:42Z,,860.9331,1,4,3,41,2,0,4
+goldbergyoni/nodebestpractices,1167,docs: add soranakk as a contributor for content,MERGED,2022-04-05T21:44:27Z,2022-04-15T14:46:23Z,2022-04-15T14:46:22Z,233.0319,7,15,0,178,1,0,1
+goldbergyoni/nodebestpractices,1166,Update last update badge to today [skip ci],MERGED,2022-04-05T21:42:08Z,2022-04-15T14:46:50Z,2022-04-15T14:46:50Z,233.0783,1,1,1,0,2,0,1
+goldbergyoni/nodebestpractices,1165,fix link text in `breakintcomponents`.,MERGED,2022-04-05T10:13:29Z,2022-04-05T21:41:38Z,2022-04-05T21:41:38Z,11.4692,8,10,10,33,3,2,1
+goldbergyoni/nodebestpractices,1164,fix: broken link to a contributor's profile,MERGED,2022-04-04T10:07:21Z,2022-04-15T14:48:44Z,2022-04-15T14:48:44Z,268.6897,1,1,1,0,3,1,1
+goldbergyoni/nodebestpractices,1163,Switch to gender neutral terms,CLOSED,2022-03-31T05:10:59Z,2022-03-31T12:09:50Z,,6.9808,9,302,302,495,2,1,1
+goldbergyoni/nodebestpractices,1162,docs: add euberdeveloper as a contributor for content,MERGED,2022-03-09T20:35:06Z,2022-03-28T20:40:08Z,2022-03-28T20:40:08Z,456.0839,7,1167,956,184,1,0,1
+goldbergyoni/nodebestpractices,1160,fix(README.md): fix typo,MERGED,2022-03-09T00:58:49Z,2022-03-09T20:31:08Z,2022-03-09T20:31:08Z,19.5386,1,1,1,24,3,6,2
+goldbergyoni/nodebestpractices,1156,Update last update badge to today [skip ci],MERGED,2022-02-20T14:25:30Z,2022-02-21T06:37:03Z,2022-02-21T06:37:03Z,16.1925,1,1,1,0,2,0,1
+goldbergyoni/nodebestpractices,1152,Fix issue #1151,MERGED,2022-02-11T22:42:37Z,2022-02-13T15:10:42Z,2022-02-13T15:10:42Z,40.4681,4,85,12,202,2,2,1
+goldbergyoni/nodebestpractices,1150,fix lint errors,MERGED,2022-02-07T13:28:02Z,2022-02-07T18:16:07Z,2022-02-07T18:16:06Z,4.8011,1,1,3,0,2,0,1
+goldbergyoni/nodebestpractices,1149,docs: add MisterSingh as a contributor for content,MERGED,2022-02-07T11:19:23Z,2022-02-07T13:29:03Z,2022-02-07T13:29:03Z,2.1611,2,10,0,181,1,0,1
+goldbergyoni/nodebestpractices,1148,Updated the formatting for the blog quotation,MERGED,2022-02-07T07:51:13Z,2022-02-07T11:19:22Z,2022-02-07T11:19:22Z,3.4692,1,3,3,110,2,3,1
+goldbergyoni/nodebestpractices,1147,Add Raz Luvaton to steering committee,MERGED,2022-02-03T19:15:49Z,2022-02-07T21:38:38Z,2022-02-07T21:38:38Z,98.3803,1,13,3,17,2,0,2
+goldbergyoni/nodebestpractices,1144,"reduce table shifting, add avatar templates",MERGED,2022-01-26T04:25:32Z,2022-02-20T23:08:13Z,2022-02-20T23:08:13Z,618.7114,8,86,17,897,4,4,8
+goldbergyoni/nodebestpractices,1143,fix the problem of the curly braces in the brazillian translation,MERGED,2022-01-26T00:12:22Z,2022-02-20T14:25:06Z,2022-02-20T14:25:06Z,614.2122,1,2,1,35,3,2,1

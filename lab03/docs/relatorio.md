@@ -1,59 +1,88 @@
 # Lab03 — Caracterizando a atividade de code review no GitHub
 
-## 1. Introdução e Hipóteses
+## Análise de correlação entre métricas de Pull Requests e resultados do code review
 
-A prática de code review é central no desenvolvimento de software open source. No GitHub, ela se materializa através de Pull Requests (PRs): um desenvolvedor submete código, revisores avaliam e o PR é aceito (MERGED) ou rejeitado (CLOSED). Entender quais fatores influenciam esse resultado e quantas revisões um PR acumula é o objetivo deste laboratório.
+Engenharia de Software — Laboratório 03 — 2026
 
-A seguir, apresentamos hipóteses informais sobre o que esperamos encontrar para cada questão de pesquisa.
+Thiago Borges Laass & Julia Medeiros
 
-### A. Feedback Final das Revisões (Status do PR)
+## Sumário
 
-**RQ01: Tamanho × Status**
-PRs maiores (mais arquivos alterados, mais linhas adicionadas e removidas) tendem a ser CLOSED. Um PR grande é mais difícil de revisar, aumenta o risco de conflitos e costuma gerar resistência dos mantenedores, que preferem contribuições menores e focadas.
+1. Introdução
+2. Metodologia
+3. Resultados
+4. Discussão dos resultados
+5. Conclusão
 
-**RQ02: Tempo de análise × Status**
-PRs que ficam abertos por mais tempo tendem a ser CLOSED. O tempo prolongado pode indicar que o PR levantou discussões sem consenso, ou que os revisores identificaram problemas que o autor não conseguiu resolver.
+## 1. Introdução
 
-**RQ03: Descrição × Status**
-PRs com descrição mais longa tendem a ser MERGED. Uma descrição detalhada facilita a compreensão da mudança, reduz perguntas dos revisores e demonstra cuidado do autor.
+### Contextualização
 
-**RQ04: Interações × Status**
-PRs com mais comentários e participantes tendem a ser CLOSED. Um volume alto de interações pode refletir controvérsia sobre a abordagem adotada ou a identificação de problemas que impedem o merge.
+A prática de code review é central no desenvolvimento de software open source. No GitHub, ela se materializa através de Pull Requests (PRs): um desenvolvedor submete código, revisores avaliam e o PR é aceito (MERGED) ou rejeitado (CLOSED). Entender quais fatores se associam a esse resultado, e ao número de revisões acumuladas por um PR, é o objetivo deste laboratório.
 
-### B. Número de Revisões
+### O problema investigado
 
-**RQ05: Tamanho × Número de revisões**
-PRs maiores recebem mais revisões. Mais código para analisar naturalmente gera mais ciclos de feedback antes de uma decisão final.
+A pergunta central é: características observáveis de um PR (tamanho, tempo de análise, descrição e interações) estão relacionadas ao desfecho do review (MERGED/CLOSED) e ao número de revisões registradas?
 
-**RQ06: Tempo de análise × Número de revisões**
-PRs com mais revisões levam mais tempo para serem fechados. Cada rodada de revisão adiciona um intervalo de espera entre o feedback e a resposta do autor.
+### Questões de pesquisa
 
-**RQ07: Descrição × Número de revisões**
-PRs com descrição mais detalhada recebem menos revisões. Uma boa documentação antecipa dúvidas e reduz a necessidade de iterações.
+RQ01: Qual a relação entre o tamanho dos PRs e o feedback final das revisões?
 
-**RQ08: Interações × Número de revisões**
-PRs com mais participantes e comentários acumulam mais revisões. Mais vozes no processo tendem a gerar mais rodadas de avaliação.
+RQ02: Qual a relação entre o tempo de análise dos PRs e o feedback final das revisões?
 
----
+RQ03: Qual a relação entre a descrição dos PRs e o feedback final das revisões?
+
+RQ04: Qual a relação entre as interações nos PRs e o feedback final das revisões?
+
+RQ05: Qual a relação entre o tamanho dos PRs e o número de revisões realizadas?
+
+RQ06: Qual a relação entre o tempo de análise dos PRs e o número de revisões realizadas?
+
+RQ07: Qual a relação entre a descrição dos PRs e o número de revisões realizadas?
+
+RQ08: Qual a relação entre as interações nos PRs e o número de revisões realizadas?
+
+### Hipóteses iniciais
+
+Antes da análise, foram formuladas hipóteses informais para cada questão.
+
+RQ01 (Tamanho × Status): PRs maiores (mais arquivos alterados, mais linhas adicionadas e removidas) tenderiam a ser CLOSED.
+
+RQ02 (Tempo de análise × Status): PRs que ficam abertos por mais tempo tenderiam a ser CLOSED.
+
+RQ03 (Descrição × Status): PRs com descrição mais longa tenderiam a ser MERGED.
+
+RQ04 (Interações × Status): PRs com mais comentários e participantes tenderiam a ser CLOSED.
+
+RQ05 (Tamanho × Número de revisões): PRs maiores receberiam mais revisões.
+
+RQ06 (Tempo de análise × Número de revisões): PRs com mais revisões levariam mais tempo para serem fechados.
+
+RQ07 (Descrição × Número de revisões): PRs com descrição mais detalhada receberiam menos revisões.
+
+RQ08 (Interações × Número de revisões): PRs com mais participantes e comentários acumulam mais revisões.
+
+### Objetivo
+
+Analisar quantitativamente a atividade de code review em repositórios populares do GitHub, identificando associações entre métricas de PR e (i) o status final (MERGED/CLOSED) e (ii) o número de revisões, utilizando correlação de Spearman e sumarização por medianas.
 
 ## 2. Metodologia
 
-### 2.1 Criação do Dataset
+### Passo a passo do experimento
 
-O dataset foi construído a partir da API GraphQL do GitHub, seguindo os critérios do enunciado:
+1. Seleção de 200 repositórios populares do GitHub (por número de estrelas) com pelo menos 100 PRs (MERGED + CLOSED).
+2. Coleta de PRs via GitHub GraphQL para cada repositório selecionado.
+3. Aplicação de filtros do enunciado (apenas PRs MERGED/CLOSED, com pelo menos 1 revisão e tempo de análise > 1 hora).
+4. Consolidação do dataset e cálculo de estatísticas descritivas, correlações de Spearman e gráficos.
 
-**Repositórios selecionados:**
-- Os 200 repositórios mais populares do GitHub (por número de estrelas)
-- Cada repositório possui pelo menos 100 PRs (MERGED + CLOSED)
+### Decisões metodológicas
 
-**Pull Requests incluídos:**
-- Status `MERGED` ou `CLOSED`
-- Pelo menos 1 revisão registrada (`reviews.totalCount >= 1`)
-- Tempo de análise superior a 1 hora, critério para excluir revisões automáticas por bots e ferramentas de CI/CD
+- Mediana como resumo: as distribuições são assimétricas e a mediana é mais robusta a outliers.
+- Spearman em vez de Pearson: as métricas não seguem normalidade e a relação pode ser não-linear.
+- Status binário: para RQ01–RQ04, codificamos `MERGED = 1` e `CLOSED = 0`.
+- Interpretação: correlação não implica causalidade; os resultados indicam associação estatística.
 
-**Dataset resultante:** 6.721 PRs de 200 repositórios (5.163 MERGED / 1.558 CLOSED)
-
-### 2.2 Métricas Coletadas
+### Métricas analisadas
 
 | Dimensão | Métrica | Coluna |
 |----------|---------|--------|
@@ -67,36 +96,43 @@ O dataset foi construído a partir da API GraphQL do GitHub, seguindo os critér
 | Dependente A | Status final | `status` |
 | Dependente B | Número de revisões | `reviews_count` |
 
-### 2.3 Análise Estatística
-
-Para responder às questões de pesquisa, utilizaremos o **teste de correlação de Spearman** (ρ). A escolha se justifica porque:
-
-- As métricas coletadas (número de arquivos, linhas, comentários, tempo) apresentam distribuições fortemente assimétricas — valores extremos são comuns em repositórios populares
-- O teste de Spearman é baseado em ranks, sendo robusto a outliers e não exige que os dados sigam distribuição normal
-- Pearson pressupõe linearidade e normalidade, o que raramente se verifica em dados de engenharia de software
-
-Para a dimensão A (Status do PR), o status será codificado como variável binária: `MERGED = 1`, `CLOSED = 0`. A correlação com cada métrica contínua será calculada via Spearman.
-
-A sumarização dos dados será feita por **medianas**, conforme recomendado pelo enunciado, por serem mais representativas que médias em distribuições assimétricas.
-
----
-
 ## 3. Resultados
 
-Esta seção apresenta (i) estatísticas descritivas (medianas) e (ii) correlações de Spearman (ρ) para responder às questões de pesquisa.
+### Distribuição das métricas
 
-### 3.1 Estatísticas descritivas (medianas)
+As métricas apresentaram assimetria (cauda longa), típica de repositórios populares. Para visualizar melhor distribuições e relações entre variáveis, foram gerados gráficos em `outputs/graficos/` (boxen/violin com clipping p99 e gráficos de densidade em `log1p` para reduzir overplotting).
+
+A seguir, selecionamos os gráficos mais úteis para interpretar os achados principais do estudo (tempo de análise, tamanho e interações por status, e relações com `reviews_count`).
+
+![Figura 1 — Tempo de análise por status (boxen; clipping p99)](../outputs/graficos/boxen_analysis_time_hours_por_status_p99.png)
+
+![Figura 2 — Arquivos alterados por status (boxen; clipping p99)](../outputs/graficos/boxen_files_changed_por_status_p99.png)
+
+![Figura 3 — Comentários por status (boxen; clipping p99)](../outputs/graficos/boxen_comments_count_por_status_p99.png)
+
+![Figura 4 — Densidade: revisões vs participantes (hexbin em `log1p`; clipping p99)](../outputs/graficos/hexbin_log1p_reviews_vs_participants_count_p99.png)
+
+![Figura 5 — Densidade: revisões vs linhas adicionadas (hexbin em `log1p`; clipping p99)](../outputs/graficos/hexbin_log1p_reviews_vs_lines_added_p99.png)
+
+### Contagem de PRs (N = 6.721)
+
+O dataset final contém 6.721 PRs (5.163 MERGED / 1.558 CLOSED), após aplicar os filtros (≥ 1 review e tempo de análise > 1 hora).
+
+| status | count | percent |
+|:------|------:|--------:|
+| MERGED | 5163 | 76.82 |
+| CLOSED | 1558 | 23.18 |
+
+### Estatísticas descritivas (medianas)
 
 | status   |    n |   median_files_changed |   median_lines_added |   median_lines_removed |   median_analysis_time_hours |   median_body_length |   median_participants_count |   median_comments_count |   median_reviews_count |
 |:---------|-----:|-----------------------:|---------------------:|-----------------------:|-----------------------------:|---------------------:|----------------------------:|------------------------:|-----------------------:|
 | MERGED   | 5163 |                      2 |                   21 |                      5 |                      22.8439 |                854   |                           2 |                       1 |                      2 |
 | CLOSED   | 1558 |                      1 |                   16 |                      1 |                      89.3526 |                809.5 |                           2 |                       2 |                      1 |
 
-Em termos de medianas, PRs MERGED tendem a ter mais revisões (2 vs 1) e são fechados/mergeados mais rapidamente (≈22,84h vs ≈89,35h). PRs CLOSED apresentam mediana maior de comentários (2 vs 1).
+Em medianas, PRs MERGED têm mais revisões (2 vs 1) e são fechados/mergeados mais rapidamente (≈22,84h vs ≈89,35h). PRs CLOSED têm mediana maior de comentários (2 vs 1).
 
-### 3.2 Correlação (Spearman) — Status do PR (RQ01–RQ04)
-
-Codificamos `MERGED = 1` e `CLOSED = 0` e calculamos a correlação de Spearman entre cada métrica e o status final.
+### Correlações de Spearman — Status do PR (RQ01–RQ04)
 
 | x                   | y          |    n |   spearman_rho |   p_value |
 |:--------------------|:-----------|-----:|---------------:|----------:|
@@ -108,11 +144,9 @@ Codificamos `MERGED = 1` e `CLOSED = 0` e calculamos a correlação de Spearman 
 | comments_count      | status_bin | 6721 |      -0.093134 |  0        |
 | analysis_time_hours | status_bin | 6721 |      -0.228404 |  0        |
 
-Os resultados sugerem associação negativa entre tempo de análise e status (PRs com maior tempo tendem a fechar sem merge) e associação negativa entre comentários e status. Por outro lado, métricas de tamanho (arquivos/linhas) apresentam associação positiva (ainda que fraca/moderada), indicando que PRs maiores não necessariamente são rejeitados no dataset.
+O resultado mais forte aqui é a associação negativa entre `analysis_time_hours` e status (PRs com maior tempo tendem a fechar sem merge) e a associação negativa de `comments_count` com status.
 
-### 3.3 Correlação (Spearman) — Número de revisões (RQ05–RQ08)
-
-Calculamos a correlação de Spearman entre cada métrica e `reviews_count`.
+### Correlações de Spearman — Número de revisões (RQ05–RQ08)
 
 | x                   | y             |    n |   spearman_rho |   p_value |
 |:--------------------|:--------------|-----:|---------------:|----------:|
@@ -124,22 +158,51 @@ Calculamos a correlação de Spearman entre cada métrica e `reviews_count`.
 | body_length         | reviews_count | 6721 |       0.1519   |  0        |
 | analysis_time_hours | reviews_count | 6721 |       0.037589 |  0.002055 |
 
-Observa-se correlação positiva mais forte entre número de participantes e número de revisões, e correlações positivas (moderadas) entre métricas de tamanho/interações e revisões.
+O número de participantes apresenta a correlação positiva mais forte com `reviews_count`, seguido por métricas de tamanho e comentários.
 
----
+### Distribuição por quartis
 
-## 4. Discussão
+Para aproximar a leitura “por grupos” (como em boxplots por quartis), dividimos os PRs em quartis de cada métrica independente e calculamos, em cada quartil, a taxa de MERGE e medianas de `reviews_count` e `analysis_time_hours`. O resumo completo está em `outputs/tabelas/quartis_resumo.md`.
 
-Nesta seção, contrastamos os resultados com as hipóteses propostas na Seção 1.
+Como exemplo, observa-se que o quartil mais baixo de `files_changed` concentra muitos PRs muito pequenos (0–1 arquivo) e tem uma taxa de MERGE menor do que os quartis intermediários, enquanto quartis mais altos tendem a apresentar mediana maior de `reviews_count`.
 
-- **RQ01 (Tamanho × Status):** a hipótese previa que PRs maiores tenderiam a ser CLOSED. No entanto, as correlações entre tamanho e status foram **positivas** (arquivos e linhas adicionadas/removidas), sugerindo que, no conjunto analisado, PRs maiores estão levemente mais associados a MERGE. Uma explicação plausível é que PRs maiores podem representar mudanças relevantes (features/refactors) que recebem mais atenção e revisão até serem integradas.
+## 4. Discussão dos resultados
 
-- **RQ02 (Tempo de análise × Status):** a hipótese é **corroborada**. A correlação entre `analysis_time_hours` e status foi negativa (ρ ≈ -0,23), e as medianas indicam que PRs CLOSED demoram bem mais para encerrar do que PRs MERGED.
+RQ01: Tamanho × Status
 
-- **RQ03 (Descrição × Status):** a hipótese previa que descrições maiores tenderiam a MERGE. O resultado foi **muito fraco**, porém positivo (ρ ≈ 0,024), sugerindo que descrição pode ajudar, mas o efeito é pequeno no agregado.
+Contrariando a hipótese inicial, as correlações entre tamanho e status foram positivas (`files_changed` e `lines_removed`), sugerindo que PRs maiores estão levemente mais associados a MERGE. Uma interpretação plausível é que PRs maiores podem receber mais atenção e iterações de review até chegarem a um estado aceitável.
 
-- **RQ04 (Interações × Status):** a hipótese previa que mais interações tenderiam a CLOSED. O resultado foi misto: `comments_count` correlacionou negativamente com status (consistente com a hipótese), enquanto `participants_count` não apresentou correlação estatisticamente relevante.
+RQ02: Tempo de análise × Status
 
-- **RQ05–RQ08 (Métricas × Número de revisões):** os resultados indicam que **interações** (principalmente `participants_count`) e **tamanho** (`lines_added`, `files_changed`) têm associação positiva com o número de revisões, como esperado. O tempo de análise teve correlação positiva, mas muito pequena, sugerindo que o tempo total de vida do PR é influenciado por fatores além do número de revisões (ex.: disponibilidade de mantenedores, prioridades do projeto, mudanças solicitadas fora de ciclos de review).
+A hipótese foi corroborada: `analysis_time_hours` tem correlação negativa com status (ρ ≈ -0,23), e PRs CLOSED têm mediana de tempo de análise bem maior (Figura 1).
+
+RQ03: Descrição × Status
+
+O efeito de `body_length` sobre status é positivo, mas muito pequeno (ρ ≈ 0,024). Isso sugere que uma descrição maior pode ajudar, mas está longe de ser determinante.
+
+RQ04: Interações × Status
+
+O resultado é misto: `comments_count` se associa negativamente ao merge (consistente com a hipótese e com a separação visual por status na Figura 3), enquanto `participants_count` não mostrou correlação estatisticamente relevante.
+
+RQ05–RQ08: Métricas × Número de revisões
+
+Os resultados indicam que interações (`participants_count`, `comments_count`) e tamanho (`lines_added`, `files_changed`) se associam positivamente ao número de revisões (Figuras 4 e 5). O tempo de análise se associa positivamente, mas com efeito pequeno.
+
+### Limitações do estudo
+
+- Viés de seleção: a amostra representa repositórios muito populares, não o ecossistema do GitHub como um todo.
+- Restrição por repositório: a coleta considera um limite de PRs verificados por repositório (`--max-prs`), o que pode enviesar a amostra para PRs mais recentes.
+- Causalidade: correlações são observacionais, não é possível afirmar que uma variável causa a outra.
+- Variáveis ausentes: não controlamos explicitamente por linguagem, tipo de mudança, presença de bots, nem por políticas de cada repositório.
+
+## 5. Conclusão
+
+O estudo encontrou associações estatísticas entre características de PRs e (i) status final e (ii) número de revisões. O achado mais consistente para status foi que PRs com maior tempo de análise tendem a não ser mergeados. Para número de revisões, o número de participantes foi o fator com maior associação positiva.
+
+### Próximos passos
+
+1. Separar a análise por tipo de repositório (biblioteca, framework, documentação) e/ou por linguagem principal.
+2. Incluir métricas adicionais (ex.: número de commits no PR, tamanho em bytes, presença de labels, autor ser maintainer).
+3. Replicar o estudo com diferentes janelas temporais (ex.: apenas PRs de um ano específico) para avaliar estabilidade dos resultados.
 
 Os resultados completos (CSV/MD) e gráficos estão em `outputs/tabelas/` e `outputs/graficos/`.

@@ -1,0 +1,25 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+python/cpython,149426,gh-149425: Increase `test_write_without_source_date_epoch` assertion delta,MERGED,2026-05-05T18:30:51Z,2026-05-05T21:22:04Z,2026-05-05T21:22:04Z,2.8536,2,2,1,512,3,8,7
+python/cpython,149411,gh-149410: Test that `typing.NoDefault` is final,MERGED,2026-05-05T12:12:13Z,2026-05-05T14:58:50Z,2026-05-05T14:58:50Z,2.7769,1,4,0,83,2,3,1
+python/cpython,149398,gh-148726: Add gc changes to What's New,MERGED,2026-05-05T08:01:15Z,2026-05-05T09:05:48Z,2026-05-05T09:05:48Z,1.0758,1,20,9,800,2,1,1
+python/cpython,149387,gh-149353: Preserve JIT shim object during PGO clean,MERGED,2026-05-04T23:13:47Z,2026-05-05T15:20:13Z,2026-05-05T15:20:13Z,16.1072,2,5,1,800,3,10,1
+python/cpython,149375,gh-142389: Add support for backtick colorisation in argparse help text,MERGED,2026-05-04T18:13:21Z,2026-05-04T22:58:04Z,2026-05-04T22:58:04Z,4.7453,5,64,20,1227,4,7,6
+python/cpython,149357,gh-149010: Improve reliability of inspect CLI,MERGED,2026-05-04T12:06:45Z,2026-05-04T13:42:21Z,2026-05-04T13:42:21Z,1.5933,4,334,38,392,2,2,4
+python/cpython,149356,gh-148600: Add OpenSSL 4.0.0 support to test configurations,MERGED,2026-05-04T11:58:21Z,2026-05-04T13:21:05Z,2026-05-04T13:21:05Z,1.3789,4,6,1,800,3,2,1
+python/cpython,149343,gh-149342: `_remote_debugging`: Fix binary profile corruption when sampling a (temporarily) empty stack,MERGED,2026-05-04T01:57:53Z,2026-05-05T00:32:07Z,2026-05-05T00:32:07Z,22.5706,4,181,20,175,2,1,9
+python/cpython,149338,gh-149321: Fix stdlib imports with lazy imports disabled,MERGED,2026-05-03T22:57:32Z,2026-05-04T18:03:22Z,2026-05-04T18:03:22Z,19.0972,4,51,2,83,3,0,3
+python/cpython,149334,gh-146609: Use argparse for colour help timeit CLI,MERGED,2026-05-03T20:53:46Z,2026-05-04T08:44:38Z,2026-05-04T08:44:38Z,11.8478,3,115,90,1359,2,1,3
+python/cpython,149332,gh-142389: Add colour to regrtest and pdb's help descriptions,MERGED,2026-05-03T20:41:14Z,2026-05-04T07:20:24Z,2026-05-04T07:20:24Z,10.6528,3,50,48,1567,2,0,1
+python/cpython,149320,gh-135056: Fix teardown order for Windows in `test_httpservers`,MERGED,2026-05-03T14:47:07Z,2026-05-03T16:42:42Z,2026-05-03T16:42:42Z,1.9264,1,32,21,977,3,2,3
+python/cpython,149311,Ignore `/jit_unwind_info*.h` from git,MERGED,2026-05-03T07:28:35Z,2026-05-03T09:31:54Z,2026-05-03T09:31:54Z,2.0553,1,1,0,66,2,4,1
+python/cpython,149310,gh-149243: Check for recursion limits in `CALL_ALLOC_AND_ENTER_INIT`,MERGED,2026-05-03T07:26:30Z,2026-05-03T10:26:06Z,2026-05-03T10:26:06Z,2.9933,5,19,1,83,2,0,3
+python/cpython,149305,gh-145378: Generate consistent colors for pdb commands,MERGED,2026-05-03T01:47:34Z,2026-05-05T08:25:46Z,2026-05-05T08:25:46Z,54.6367,3,45,0,571,3,1,4
+python/cpython,149297,gh-149296: Add `dump` subcommand to sampling profiler for one-shot stack snapshots,MERGED,2026-05-02T18:12:53Z,2026-05-04T00:02:33Z,2026-05-04T00:02:33Z,29.8278,11,1389,117,424,3,1,2
+python/cpython,149295,Add security warning to `mailbox` docs,CLOSED,2026-05-02T17:26:55Z,2026-05-03T10:35:09Z,,17.1372,1,5,0,885,4,3,2
+python/cpython,149291,"[3.14] gh-148063: documentation: move ast.compare from ""Compiler flags"" to ""ast helpers"" (GH-147954)",MERGED,2026-05-02T16:54:34Z,2026-05-03T16:02:26Z,2026-05-03T16:02:26Z,23.1311,1,14,14,220,5,3,1
+python/cpython,149288,[3.14] gh-149221: Sync random.py with main branch,MERGED,2026-05-02T16:09:54Z,2026-05-02T21:44:53Z,2026-05-02T21:44:53Z,5.5831,1,9,9,206,4,2,4
+python/cpython,149268,gh-149267: Document ast.Constant.kind attribute,MERGED,2026-05-02T05:53:36Z,2026-05-02T16:55:30Z,2026-05-02T16:55:30Z,11.0317,1,8,1,356,4,4,2
+python/cpython,149266,gh-149221: Handle corner case in random.binomialvariate(),CLOSED,2026-05-02T04:46:52Z,2026-05-02T12:57:51Z,,8.1831,1,5,1,83,3,0,2
+python/cpython,149256,"gh-149217: Avoid adding dependencies on immutable, immortal classes in the JIT",MERGED,2026-05-02T01:44:33Z,2026-05-03T10:06:40Z,2026-05-03T10:06:39Z,32.3683,3,24,40,92,4,2,3
+python/cpython,149253,GH-149252: Update WASI SDK version from 32 to 33,MERGED,2026-05-01T19:59:01Z,2026-05-01T23:51:07Z,2026-05-01T23:51:07Z,3.8683,2,2,1,800,3,1,1
+python/cpython,149247,GH-148932: Improve error message if profiling.sampling run from venv on Windows platform,MERGED,2026-05-01T18:08:31Z,2026-05-02T09:23:16Z,2026-05-02T09:23:16Z,15.2458,1,4,0,879,3,2,1

@@ -1,0 +1,11 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+openai/whisper,2549,Create 1,CLOSED,2025-03-16T10:39:28Z,2025-06-26T00:02:24Z,,2437.3822,1,8,0,0,3,0,1
+openai/whisper,2487,GitHub Actions: Add Python 3.13 to the testing,MERGED,2025-01-04T15:37:03Z,2025-05-13T04:10:40Z,2025-05-13T04:10:40Z,3084.5603,1,5,1,281,5,8,1
+openai/whisper,2451,Fix: Update torch.load to use weights_only=True to prevent security w…,MERGED,2024-11-20T17:12:43Z,2025-06-26T00:54:30Z,2025-06-26T00:54:30Z,5215.6964,1,2,1,435,6,5,2
+openai/whisper,2447,نواUpdate LICENSE,CLOSED,2024-11-20T05:08:31Z,2025-01-29T03:33:51Z,,1678.4222,0,0,0,21,1,3,1
+openai/whisper,2433,fix typo data/README.md,MERGED,2024-11-12T11:56:59Z,2024-11-13T00:35:54Z,2024-11-13T00:35:54Z,12.6486,1,1,1,0,5,1,2
+openai/whisper,2390,Improvements implemented in the audio processing module,CLOSED,2024-10-15T18:06:21Z,2025-03-01T00:47:30Z,,3270.6858,1,87,120,248,0,0,1
+openai/whisper,2379,Update README.md,MERGED,2024-10-07T14:15:24Z,2024-11-04T07:00:31Z,2024-11-04T07:00:31Z,664.7519,1,1,1,39,3,1,1
+openai/whisper,1802,Relax triton requirements for compatibility with pytorch 2.1 and newer,MERGED,2023-11-13T13:52:29Z,2023-11-13T17:43:42Z,2023-11-13T17:43:42Z,3.8536,1,1,1,136,3,1,1
+openai/whisper,1704,Add subtitle_format option to word_options dict,CLOSED,2023-10-11T18:03:56Z,2023-11-09T13:25:43Z,,691.3631,0,0,0,1415,4,2,9
+openai/whisper,1568,Patch 3,CLOSED,2023-08-02T02:36:36Z,2023-09-18T23:01:20Z,,1148.4122,4,109,34,0,6,0,1

@@ -1,0 +1,52 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+infiniflow/ragflow,14573,"Go: CLI chat with text, image, video",MERGED,2026-05-05T09:12:24Z,2026-05-05T10:14:39Z,2026-05-05T10:14:39Z,1.0375,4,285,95,1696,1,2,1
+infiniflow/ragflow,14537,Support stream for multimodal chat,MERGED,2026-04-30T09:40:50Z,2026-04-30T11:33:57Z,2026-04-30T11:33:57Z,1.8853,15,369,227,121,2,2,1
+infiniflow/ragflow,14533,Fix: remove delete_documents uuid validation,MERGED,2026-04-30T08:59:31Z,2026-04-30T10:56:33Z,2026-04-30T10:56:33Z,1.9506,4,34,12,163,2,2,1
+infiniflow/ragflow,14530,Fix: sync data source empty list,MERGED,2026-04-30T07:05:17Z,2026-04-30T10:56:44Z,2026-04-30T10:56:44Z,3.8575,1,1,9,156,2,2,1
+infiniflow/ragflow,14523,Simplify chat and support multimodal chat,MERGED,2026-04-30T05:48:49Z,2026-04-30T07:25:02Z,2026-04-30T07:25:02Z,1.6036,17,911,486,124,2,2,2
+infiniflow/ragflow,14521,Fix code scanning alerts,CLOSED,2026-04-30T05:03:25Z,2026-04-30T07:50:46Z,,2.7892,21,133,49,200,1,4,2
+infiniflow/ragflow,14507,.1470523137868652:d5cf7e0155695d3609f9d09d823cd0dd_69f20eb897926bc2c201eebd.69f2144997926bc2c201efbe.69f214488c73dc53bcbb5375:Trae CN.T(2026/4/29 22:23:05),CLOSED,2026-04-29T14:43:27Z,2026-04-29T15:55:04Z,,1.1936,9,2637,0,212,2,1,1
+infiniflow/ragflow,14505,.1470523137868652:1f95f3740832b595bfdc611670919fef_69f1fc6d97926bc2c201ed08.69f210ef97926bc2c201ef3f.69f210ee3959940a81ede123:Trae CN.T(2026/4/29 22:08:47),CLOSED,2026-04-29T14:25:06Z,2026-04-29T15:55:09Z,,1.5008,6,2013,133,122,2,1,1
+infiniflow/ragflow,14504,Feat: Implement quality analysis funcionality,CLOSED,2026-04-29T14:13:11Z,2026-04-29T15:56:54Z,,1.7286,7,2111,0,408,2,2,1
+infiniflow/ragflow,14499,feat(seafile): support deleted-file sync via slim snapshot,MERGED,2026-04-29T13:43:29Z,2026-04-30T04:05:12Z,2026-04-30T04:05:12Z,14.3619,3,141,13,1702,4,2,4
+infiniflow/ragflow,14494,.1470523137868652:1724731209a52d5102143eb43f8cf033_69f1f82097926bc2c201ebc0.69f1f8c297926bc2c201ebd4.69f1f8c2003cbdb988349601:Trae CN.T(2026/4/29 20:25:38),CLOSED,2026-04-29T13:05:14Z,2026-04-29T14:16:10Z,,1.1822,3,1241,2,578,2,1,1
+infiniflow/ragflow,14493,feat(rss): support deleted-file sync,MERGED,2026-04-29T13:00:55Z,2026-04-30T10:56:14Z,2026-04-30T10:56:13Z,21.9217,3,64,7,1540,3,6,1
+infiniflow/ragflow,14491,feat(webdav): support deleted-file sync via slim snapshot,MERGED,2026-04-29T12:19:43Z,2026-04-30T09:26:27Z,2026-04-30T09:26:27Z,21.1122,3,118,14,1914,3,6,4
+infiniflow/ragflow,14488,Docs: Update version references to v0.25.1 in READMEs and docs,MERGED,2026-04-29T11:29:21Z,2026-04-30T02:49:26Z,2026-04-30T02:49:26Z,15.3347,31,75,75,372,1,1,1
+infiniflow/ragflow,14487,feat(zendesk): support deleted-file sync,MERGED,2026-04-29T11:21:41Z,2026-04-30T06:44:06Z,2026-04-30T06:44:06Z,19.3736,3,42,9,1519,5,6,3
+infiniflow/ragflow,14486,Feat: add button for remove header & footer in pipeline,MERGED,2026-04-29T11:18:36Z,2026-04-30T04:30:41Z,2026-04-30T04:30:41Z,17.2014,13,135,82,189,3,2,2
+infiniflow/ragflow,14483,Docs: Updated Title chunker references,MERGED,2026-04-29T10:06:21Z,2026-04-29T11:37:25Z,2026-04-29T11:37:24Z,1.5175,4,91,11,128,3,1,2
+infiniflow/ragflow,14481,Feat: enable sync deleted files in gitlab,MERGED,2026-04-29T09:57:41Z,2026-04-29T11:04:11Z,2026-04-29T11:04:11Z,1.1083,3,75,3,175,2,1,1
+infiniflow/ragflow,14480,Fix metadata config,MERGED,2026-04-29T09:51:45Z,2026-04-29T13:09:55Z,2026-04-29T13:09:55Z,3.3028,5,14,169,141,3,2,2
+infiniflow/ragflow,14479,fix: file logs not displayed in dataset ingestion page,MERGED,2026-04-29T09:41:27Z,2026-04-29T14:10:25Z,2026-04-29T14:10:25Z,4.4828,9,119,148,2137,3,2,4
+infiniflow/ragflow,14478,Go: implement provider: MiniMax,MERGED,2026-04-29T09:37:59Z,2026-04-29T11:06:41Z,2026-04-29T11:06:40Z,1.4781,3,351,12,214,2,2,1
+infiniflow/ragflow,14477,"Fix: RAPTOR ""Generation scope"" reset to ""Single file"" when selecting ""Dataset""",MERGED,2026-04-29T09:18:47Z,2026-04-29T10:46:28Z,2026-04-29T10:46:28Z,1.4614,2,24,25,1198,2,2,2
+infiniflow/ragflow,14476,feat(dropbox): support deleted-file sync,MERGED,2026-04-29T09:09:56Z,2026-04-29T11:05:11Z,2026-04-29T11:05:11Z,1.9208,5,321,50,1544,3,3,7
+infiniflow/ragflow,14474,Feat: add button for remove header & footer in pipeline,CLOSED,2026-04-29T08:57:50Z,2026-04-29T11:14:10Z,,2.2722,0,0,0,187,1,2,2
+infiniflow/ragflow,14473,Fix: optimize file batch delete,MERGED,2026-04-29T08:53:23Z,2026-04-30T03:00:39Z,2026-04-30T03:00:39Z,18.1211,6,84,28,150,2,2,1
+infiniflow/ragflow,14472,Fix: add document delete permission check,MERGED,2026-04-29T08:52:25Z,2026-04-30T03:01:09Z,2026-04-30T03:01:09Z,18.1456,3,27,2,160,2,2,3
+infiniflow/ragflow,14470,fix: the oceanbase database connector constructs sql... in ob_conn.py,MERGED,2026-04-29T08:48:46Z,2026-04-30T06:25:17Z,2026-04-30T06:25:17Z,21.6086,1,42,25,984,2,2,1
+infiniflow/ragflow,14468,feat(asana): support deleted-file sync,MERGED,2026-04-29T08:24:11Z,2026-04-30T06:41:37Z,2026-04-30T06:41:37Z,22.2906,3,117,33,1289,5,12,19
+infiniflow/ragflow,14465,Fix: Clicking the button in the bottom-right corner of the `/chats/widget` page fails to display the dialog box.,MERGED,2026-04-29T07:32:32Z,2026-04-29T09:03:33Z,2026-04-29T09:03:33Z,1.5169,3,38,18,240,2,1,1
+infiniflow/ragflow,14463,Port PR14454 to GO (PruneDeletedChunks),MERGED,2026-04-29T07:04:35Z,2026-04-29T09:04:23Z,2026-04-29T09:04:23Z,1.9967,4,148,13,163,2,2,2
+infiniflow/ragflow,14462,Feat: enable sync deleted files for Gmail && fix google drive issues,MERGED,2026-04-29T06:28:03Z,2026-04-29T09:03:56Z,2026-04-29T09:03:56Z,2.5981,33,237,256,192,4,2,1
+infiniflow/ragflow,14460,Go: implement provider: volcengine,MERGED,2026-04-29T06:09:40Z,2026-04-29T07:45:09Z,2026-04-29T07:45:09Z,1.5914,2,327,3,162,2,2,1
+infiniflow/ragflow,14458,"Remove model_bundle.go, modify chat_session.go",MERGED,2026-04-29T05:33:58Z,2026-04-29T06:44:13Z,2026-04-29T06:44:13Z,1.1708,6,185,420,133,2,1,1
+infiniflow/ragflow,14457,Fix: add retrieval fallback comments,MERGED,2026-04-29T05:28:07Z,2026-04-29T06:44:32Z,2026-04-29T06:44:32Z,1.2736,1,7,0,157,2,2,1
+infiniflow/ragflow,14454,Fix: prune deleted doc chunks from retrieval,MERGED,2026-04-29T04:00:06Z,2026-04-29T05:03:09Z,2026-04-29T05:03:09Z,1.0508,1,56,0,165,2,2,1
+infiniflow/ragflow,14452,Go: implement provider: VolcEngine,CLOSED,2026-04-29T03:12:24Z,2026-04-29T06:00:01Z,,2.7936,0,0,0,161,1,2,1
+infiniflow/ragflow,14451,Feat: enable sync deleted file for Discord,MERGED,2026-04-29T02:58:35Z,2026-04-29T11:05:41Z,2026-04-29T11:05:41Z,8.1183,3,136,65,174,2,2,4
+infiniflow/ragflow,14441,Update create model instance command,MERGED,2026-04-28T13:09:52Z,2026-04-29T09:05:08Z,2026-04-29T09:05:08Z,19.9211,24,753,21,1247,1,2,1
+infiniflow/ragflow,14438,Fix: enable sync deleted file in airtable,MERGED,2026-04-28T11:08:19Z,2026-04-28T12:09:08Z,2026-04-28T12:09:08Z,1.0136,3,110,61,165,2,2,1
+infiniflow/ragflow,14433,Go: implement provider: Moonshot,MERGED,2026-04-28T08:56:49Z,2026-04-28T10:06:26Z,2026-04-28T10:06:26Z,1.1603,1,270,6,159,2,2,1
+infiniflow/ragflow,14427,Add backward compat APIs,MERGED,2026-04-28T07:28:14Z,2026-04-29T07:15:50Z,2026-04-29T07:15:50Z,23.7933,7,475,13,961,2,2,5
+infiniflow/ragflow,14425,Fix: agent toolcall null response & schema validation & DeepSeek think history,MERGED,2026-04-28T07:16:45Z,2026-04-28T09:09:09Z,2026-04-28T09:09:09Z,1.8733,3,59,25,197,3,2,2
+infiniflow/ragflow,14422,Fix: google authentication - gmail && google-drive,MERGED,2026-04-28T07:02:25Z,2026-04-28T10:09:03Z,2026-04-28T10:09:03Z,3.1106,2,41,9,174,2,2,1
+infiniflow/ragflow,14421,Fix: document level auto metadata config missing after save,MERGED,2026-04-28T06:22:51Z,2026-04-28T09:09:24Z,2026-04-28T09:09:23Z,2.7756,1,7,4,482,2,2,1
+infiniflow/ragflow,14419,feat: add FuturMix as model provider,MERGED,2026-04-28T05:32:39Z,2026-04-30T02:59:38Z,2026-04-30T02:59:38Z,45.4497,9,184,1,1937,2,4,1
+infiniflow/ragflow,14417,Always return success if no such task id,MERGED,2026-04-28T03:52:40Z,2026-04-28T04:55:24Z,2026-04-28T04:55:24Z,1.0456,1,4,20,193,2,2,3
+infiniflow/ragflow,14416,Fix: preserve infinity available_int zero filter,MERGED,2026-04-28T03:41:23Z,2026-04-28T04:54:32Z,2026-04-28T04:54:32Z,1.2192,1,9,1,167,2,2,2
+infiniflow/ragflow,14409,Go: add volcengine,MERGED,2026-04-28T01:50:52Z,2026-04-28T04:12:59Z,2026-04-28T04:12:59Z,2.3686,9,175,55,127,1,2,1
+infiniflow/ragflow,14404,Doc: Added a database schema and migration guide.,MERGED,2026-04-27T13:31:46Z,2026-04-28T01:54:34Z,2026-04-28T01:54:34Z,12.38,3,68,1,140,3,1,4
+infiniflow/ragflow,14403,Fix: add executor.shutdown,MERGED,2026-04-27T12:16:00Z,2026-04-27T14:38:43Z,2026-04-27T14:38:43Z,2.3786,1,1,0,184,2,2,2
+infiniflow/ragflow,14402,Refactor: migrate chunk retrieval_test and knowledge_graph to REST API endpoints,MERGED,2026-04-27T11:57:17Z,2026-04-28T12:00:27Z,2026-04-28T12:00:27Z,24.0528,11,340,727,2093,3,2,5

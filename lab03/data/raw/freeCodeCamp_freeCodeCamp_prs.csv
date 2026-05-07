@@ -1,0 +1,60 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+freeCodeCamp/freeCodeCamp,67234,fix: replace broken tone version,MERGED,2026-05-05T07:58:01Z,2026-05-05T15:00:39Z,2026-05-05T15:00:38Z,7.0436,2,13,13,929,3,0,2
+freeCodeCamp/freeCodeCamp,67232,chore(deps): update dependency typescript-eslint to v8.59.1,MERGED,2026-05-04T20:13:09Z,2026-05-05T15:00:50Z,2026-05-05T15:00:50Z,18.7947,1,77,77,2239,1,0,3
+freeCodeCamp/freeCodeCamp,67231,chore(deps): update pnpm/action-setup digest to 8912a91,MERGED,2026-05-04T20:13:01Z,2026-05-05T15:01:03Z,2026-05-05T15:01:03Z,18.8006,6,11,11,1117,1,0,3
+freeCodeCamp/freeCodeCamp,67228,"chore(i18n,learn): update i18n-curriculum submodule",MERGED,2026-05-04T15:12:56Z,2026-05-04T20:10:04Z,2026-05-04T20:10:04Z,4.9522,1,1,1,47,2,0,1
+freeCodeCamp/freeCodeCamp,67226,"chore(i18n,client): processed translations",MERGED,2026-05-04T12:52:20Z,2026-05-05T01:25:38Z,2026-05-05T01:25:38Z,12.555,10,30,10,45,2,0,1
+freeCodeCamp/freeCodeCamp,67216,chore(deps): update dependency caniuse-lite to v1.0.30001791,MERGED,2026-05-03T11:07:32Z,2026-05-04T14:06:27Z,2026-05-04T14:06:27Z,26.9819,2,8,8,1684,1,0,3
+freeCodeCamp/freeCodeCamp,67215,fix(deps): update dependency ajv to v8.20.0,MERGED,2026-05-03T10:16:12Z,2026-05-04T14:06:22Z,2026-05-04T14:06:22Z,27.8361,2,21,21,2060,1,1,3
+freeCodeCamp/freeCodeCamp,67206,chore(deps): update github actions,MERGED,2026-05-02T08:41:32Z,2026-05-03T04:44:44Z,2026-05-03T04:44:44Z,20.0533,9,22,22,1884,1,0,3
+freeCodeCamp/freeCodeCamp,67205,chore(deps): update dependency i18next-fs-backend to v2.6.5,MERGED,2026-05-02T08:41:28Z,2026-05-03T04:57:42Z,2026-05-03T04:57:42Z,20.2706,2,6,6,2676,1,0,3
+freeCodeCamp/freeCodeCamp,67198,fix(curriculum): add missing inputType to zh-a1 task-17,MERGED,2026-05-01T21:03:17Z,2026-05-01T23:04:07Z,2026-05-01T23:04:07Z,2.0139,1,1,0,1001,2,0,1
+freeCodeCamp/freeCodeCamp,67197,fix(curriculum): add example data structure to forum leaderboard lab,CLOSED,2026-05-01T17:44:10Z,2026-05-02T08:39:22Z,,14.92,1,28,3,1383,3,3,1
+freeCodeCamp/freeCodeCamp,67196,fix(curriculum): make Step 35 border test more robust,CLOSED,2026-05-01T16:41:36Z,2026-05-04T08:15:23Z,,63.5631,1,1,1,1071,3,2,1
+freeCodeCamp/freeCodeCamp,67195,fix(curriculum): clarify Fibonacci user story to use 0-indexed sequence,MERGED,2026-05-01T15:56:27Z,2026-05-04T07:46:33Z,2026-05-04T07:46:33Z,63.835,2,4,4,761,3,0,4
+freeCodeCamp/freeCodeCamp,67187,fix(client): handle MCQ options overflow,MERGED,2026-04-30T13:57:16Z,2026-05-05T15:09:05Z,2026-05-05T15:09:05Z,121.1969,1,1,0,1155,2,0,1
+freeCodeCamp/freeCodeCamp,67186,fix(deps): update dependency typebox to v1.1.33,MERGED,2026-04-30T12:13:03Z,2026-05-02T07:00:51Z,2026-05-02T07:00:51Z,42.7967,2,12,9,1750,1,0,3
+freeCodeCamp/freeCodeCamp,67185,fix(settings): make certification tables full width,MERGED,2026-04-30T06:42:21Z,2026-05-03T21:14:27Z,2026-05-03T21:14:27Z,86.535,1,5,0,1995,3,1,1
+freeCodeCamp/freeCodeCamp,67184,fix(settings): update margins for settings disclaimer,MERGED,2026-04-30T06:41:50Z,2026-04-30T12:10:49Z,2026-04-30T12:10:49Z,5.4831,1,20,14,1623,3,3,1
+freeCodeCamp/freeCodeCamp,67183,chore(deps): update dependency msw to v2.13.6,MERGED,2026-04-30T05:56:29Z,2026-05-02T07:01:07Z,2026-05-02T07:01:07Z,49.0772,1,61,58,2359,1,1,3
+freeCodeCamp/freeCodeCamp,67178,chore(curriculum): highlight background property,MERGED,2026-04-30T02:42:07Z,2026-04-30T06:10:07Z,2026-04-30T06:10:07Z,3.4667,1,1,2,761,3,0,2
+freeCodeCamp/freeCodeCamp,67176,chore(deps): update dependency tsdown to v0.21.10,MERGED,2026-04-29T22:50:31Z,2026-05-05T15:09:25Z,2026-05-05T15:09:25Z,136.315,1,92,109,1929,1,0,1
+freeCodeCamp/freeCodeCamp,67172,"chore(i18n,learn): update i18n-curriculum submodule",MERGED,2026-04-29T15:16:43Z,2026-04-29T18:05:01Z,2026-04-29T18:05:01Z,2.805,1,1,1,47,2,0,1
+freeCodeCamp/freeCodeCamp,67171,"chore(i18n,client): processed translations",MERGED,2026-04-29T12:51:12Z,2026-04-29T18:01:00Z,2026-04-29T18:01:00Z,5.1633,10,30,34,45,2,0,1
+freeCodeCamp/freeCodeCamp,67170,chore(deps): update github actions (major),MERGED,2026-04-29T12:46:48Z,2026-04-29T14:51:05Z,2026-04-29T14:51:05Z,2.0714,15,43,43,57997,1,0,3
+freeCodeCamp/freeCodeCamp,67160,fix(deps): update algolia-instantsearch monorepo,MERGED,2026-04-28T20:16:48Z,2026-04-29T10:03:25Z,2026-04-29T10:03:25Z,13.7769,2,26,26,5463,1,0,3
+freeCodeCamp/freeCodeCamp,67159,fix(curriculum): update registration form step 48 to have borderBottomStyle set to none,MERGED,2026-04-28T18:16:03Z,2026-04-28T20:14:45Z,2026-04-28T20:14:45Z,1.9783,1,2,2,837,2,0,1
+freeCodeCamp/freeCodeCamp,67158,fix(deps): update dependency @fastify/swagger-ui to v5.2.6,MERGED,2026-04-28T15:14:55Z,2026-04-28T16:23:18Z,2026-04-28T16:23:18Z,1.1397,2,10,10,3975,1,1,3
+freeCodeCamp/freeCodeCamp,67157,chore(deps): update vitest to v4.1.5,MERGED,2026-04-28T15:14:48Z,2026-04-28T16:23:02Z,2026-04-28T16:23:02Z,1.1372,2,198,198,6274,1,1,3
+freeCodeCamp/freeCodeCamp,67154,fix(client): defer MobileAppModal rendering until after first browser paint,MERGED,2026-04-28T12:29:27Z,2026-04-28T16:22:48Z,2026-04-28T16:22:48Z,3.8892,2,30,1,1624,2,0,1
+freeCodeCamp/freeCodeCamp,67153,fix(deps): update dependency typebox to v1.1.29,MERGED,2026-04-28T12:08:27Z,2026-04-28T16:21:30Z,2026-04-28T16:21:30Z,4.2175,2,9,9,1567,1,0,3
+freeCodeCamp/freeCodeCamp,67151,fix(client): enable horizontal scroll for MCQ code blocks on mobile,MERGED,2026-04-28T10:23:18Z,2026-04-30T06:27:16Z,2026-04-30T06:27:16Z,44.0661,2,11,1,752,3,2,1
+freeCodeCamp/freeCodeCamp,67149,fix(curriculum): correct incorrect verb form,MERGED,2026-04-28T00:18:41Z,2026-04-29T01:09:40Z,2026-04-29T01:09:40Z,24.8497,1,1,1,761,2,1,2
+freeCodeCamp/freeCodeCamp,67147,fix(curriculum): correct casing for TypeScript,MERGED,2026-04-27T21:37:25Z,2026-04-28T16:21:05Z,2026-04-28T16:21:05Z,18.7278,9,21,21,761,2,0,1
+freeCodeCamp/freeCodeCamp,67143,chore(deps): update dependency typescript-eslint to v8.59.0,MERGED,2026-04-27T19:09:09Z,2026-04-28T12:02:35Z,2026-04-28T12:02:35Z,16.8906,10,93,97,2239,2,1,3
+freeCodeCamp/freeCodeCamp,67142,feat(gha): re-enable korean deploys,MERGED,2026-04-27T16:27:17Z,2026-04-29T06:29:42Z,2026-04-29T06:29:41Z,38.04,2,4,1,986,2,0,1
+freeCodeCamp/freeCodeCamp,67141,"chore(i18n,learn): update i18n-curriculum submodule",MERGED,2026-04-27T15:11:02Z,2026-04-27T17:51:08Z,2026-04-27T17:51:08Z,2.6683,1,1,1,47,2,0,1
+freeCodeCamp/freeCodeCamp,67140,fix(deps): update monaco-editor to v0.52.2,MERGED,2026-04-27T14:57:10Z,2026-04-27T19:05:28Z,2026-04-27T19:05:28Z,4.1383,3,18,17,1227,3,2,3
+freeCodeCamp/freeCodeCamp,67138,fix(deps): update lodash monorepo to v4.18.1,MERGED,2026-04-27T13:15:12Z,2026-04-29T11:05:36Z,2026-04-29T11:05:36Z,45.84,6,18,28,2629,1,0,1
+freeCodeCamp/freeCodeCamp,67136,"chore(i18n,client): processed translations",MERGED,2026-04-27T12:51:57Z,2026-04-27T21:33:57Z,2026-04-27T21:33:57Z,8.7,11,288,38,45,2,0,1
+freeCodeCamp/freeCodeCamp,67133,fix(deps): update dependency tone to v14.9.17,MERGED,2026-04-26T23:30:25Z,2026-04-27T08:33:19Z,2026-04-27T08:33:19Z,9.0483,2,15,15,22288,1,0,3
+freeCodeCamp/freeCodeCamp,67132,fix(deps): update dependency sanitize-html to v2.17.3,MERGED,2026-04-26T21:26:17Z,2026-04-27T08:32:37Z,2026-04-27T08:32:36Z,11.1053,2,10,10,6778,1,1,3
+freeCodeCamp/freeCodeCamp,67131,fix(deps): update dependency redux-saga to v1.4.2,MERGED,2026-04-26T21:26:13Z,2026-04-27T08:32:14Z,2026-04-27T08:32:14Z,11.1003,2,9,9,4638,1,0,3
+freeCodeCamp/freeCodeCamp,67130,fix(curriculum): relax step 18 unknown key checks,MERGED,2026-04-26T20:16:58Z,2026-05-04T11:24:37Z,2026-05-04T11:24:37Z,183.1275,1,13,4,934,3,1,3
+freeCodeCamp/freeCodeCamp,67127,fix(deps): update dependency react-monaco-editor to v0.59.0,MERGED,2026-04-26T13:26:08Z,2026-04-26T17:43:40Z,2026-04-26T17:43:40Z,4.2922,2,10,11,17992,1,0,1
+freeCodeCamp/freeCodeCamp,67126,chore(deps): update dependency i18next-fs-backend to v2.6.4,MERGED,2026-04-26T13:26:00Z,2026-04-26T17:43:06Z,2026-04-26T17:43:06Z,4.285,2,6,6,2911,1,0,3
+freeCodeCamp/freeCodeCamp,67120,fix(deps): update dependency react-i18next to v15.7.4,MERGED,2026-04-25T21:34:20Z,2026-04-26T06:28:01Z,2026-04-26T06:28:01Z,8.8947,2,7,7,4026,1,0,3
+freeCodeCamp/freeCodeCamp,67118,fix(deps): update dependency typebox to v1.1.28,MERGED,2026-04-25T19:07:34Z,2026-04-26T06:27:38Z,2026-04-26T06:27:38Z,11.3344,2,9,9,1567,1,0,3
+freeCodeCamp/freeCodeCamp,67117,feat(curriculum): daily challenges 264-278,MERGED,2026-04-25T18:56:11Z,2026-04-27T15:20:18Z,2026-04-27T15:20:18Z,44.4019,33,2722,1,761,3,0,2
+freeCodeCamp/freeCodeCamp,67113,fix(deps): update babel monorepo,CLOSED,2026-04-25T11:20:59Z,2026-05-05T15:09:34Z,,243.8097,6,773,1682,57997,1,1,2
+freeCodeCamp/freeCodeCamp,67112,chore(deps): update mongo docker tag to v8.2,MERGED,2026-04-25T10:29:04Z,2026-04-25T12:03:51Z,2026-04-25T12:03:51Z,1.5797,2,4,4,875,1,0,3
+freeCodeCamp/freeCodeCamp,67111,fix(deps): update dependency typebox to v1.1.27,MERGED,2026-04-25T10:28:59Z,2026-04-25T12:04:38Z,2026-04-25T12:04:38Z,1.5942,2,9,9,2116,1,0,3
+freeCodeCamp/freeCodeCamp,67110,"fix(curriculum): correct ""containting"" typo in lab product showcase",MERGED,2026-04-25T09:03:26Z,2026-04-25T12:04:23Z,2026-04-25T12:04:23Z,3.0158,1,1,1,761,3,1,1
+freeCodeCamp/freeCodeCamp,67108,fix(curriculum): simplify empty board formatToString test in lab-project-idea-board,MERGED,2026-04-25T05:17:51Z,2026-05-01T11:27:00Z,2026-05-01T11:27:00Z,150.1525,1,0,13,1282,3,0,1
+freeCodeCamp/freeCodeCamp,67106,"fix(curriculum): remove mentions of bin, oct, hex functions from review pages",MERGED,2026-04-25T01:46:20Z,2026-04-25T10:47:35Z,2026-04-25T10:47:35Z,9.0208,2,0,48,828,2,0,1
+freeCodeCamp/freeCodeCamp,67105,fix(e2e): address potential race condition in editor test,MERGED,2026-04-25T00:18:44Z,2026-04-25T06:09:53Z,2026-04-25T06:09:53Z,5.8525,1,7,7,2085,2,0,1
+freeCodeCamp/freeCodeCamp,67104,fix(gha): correct playwright reporter path,MERGED,2026-04-24T23:42:21Z,2026-04-25T06:11:09Z,2026-04-25T06:11:09Z,6.48,2,2,2,1374,2,0,1
+freeCodeCamp/freeCodeCamp,67103,"fix(curriculum): correct ""returnes"" typo in workshop word counter",MERGED,2026-04-24T23:22:08Z,2026-04-25T00:42:34Z,2026-04-25T00:42:34Z,1.3406,1,4,4,761,3,1,2
+freeCodeCamp/freeCodeCamp,67102,fix(curriculum): remove introductory examples from caesar cipher workshop,MERGED,2026-04-24T20:51:44Z,2026-04-24T23:45:28Z,2026-04-24T23:45:28Z,2.8956,4,4,28,770,2,0,1
+freeCodeCamp/freeCodeCamp,67101,chore(deps): update dependency tsdown to v0.21.9,MERGED,2026-04-24T20:23:42Z,2026-04-25T06:12:06Z,2026-04-25T06:12:06Z,9.8067,1,124,107,3572,1,1,1
+freeCodeCamp/freeCodeCamp,67099,fix(curriculum): update JS string quotes to double quotes,MERGED,2026-04-24T17:54:20Z,2026-04-24T23:44:09Z,2026-04-24T23:44:09Z,5.8303,1,59,59,761,3,1,2

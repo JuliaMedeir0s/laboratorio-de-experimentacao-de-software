@@ -1,0 +1,22 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+MunGell/awesome-for-beginners,1963,Add github-markdown-toc project to data.json,CLOSED,2026-03-29T02:56:19Z,2026-04-02T14:47:54Z,,107.8597,1,9,0,63,2,0,1
+MunGell/awesome-for-beginners,1956,Update data.json by removing and adding projects,CLOSED,2026-03-27T16:01:26Z,2026-04-04T00:43:41Z,,176.7042,1,11,20,97,2,0,1
+MunGell/awesome-for-beginners,1954,Rename 'osu!' to 'osu' in data.json,CLOSED,2026-03-25T07:47:38Z,2026-04-04T00:46:56Z,,232.9883,1,1,1,41,2,0,1
+MunGell/awesome-for-beginners,1953,Added my repos info in data.json file,CLOSED,2026-03-24T17:35:15Z,2026-04-04T00:51:18Z,,247.2675,1,9,0,60,2,0,1
+MunGell/awesome-for-beginners,1945,Add SigNoz to the data.json,MERGED,2026-03-18T13:41:21Z,2026-04-04T00:24:28Z,2026-04-04T00:24:28Z,394.7186,1,10,0,40,2,0,1
+MunGell/awesome-for-beginners,1936,Add Fenn project entry to data.json,CLOSED,2026-03-11T17:28:22Z,2026-04-10T18:25:29Z,,720.9519,1,9,0,174,2,0,1
+MunGell/awesome-for-beginners,1935,Add 'fenn' project entry to data.json,MERGED,2026-03-10T14:02:34Z,2026-04-10T18:31:36Z,2026-04-10T18:31:36Z,748.4839,1,9,0,1278,2,0,1
+MunGell/awesome-for-beginners,1924,Add AI Seeds to TypeScript section,CLOSED,2026-03-05T08:04:07Z,2026-04-10T18:36:50Z,,874.5453,1,2121,2112,587,2,0,1
+MunGell/awesome-for-beginners,1914,My branch,CLOSED,2026-02-22T00:05:07Z,2026-04-04T00:53:16Z,,984.8025,1,9,0,7,2,0,1
+MunGell/awesome-for-beginners,1909,Fix: Remove duplicate project listings from data.json,MERGED,2026-02-17T03:45:32Z,2026-02-24T16:38:17Z,2026-02-24T16:38:17Z,180.8792,1,2,10,256,2,0,1
+MunGell/awesome-for-beginners,1898,Add Rich to Python section,CLOSED,2026-02-04T13:03:07Z,2026-02-04T15:41:01Z,,2.6317,1,9,0,206,2,0,1
+MunGell/awesome-for-beginners,1897,Feat: Add automated link checker workflow,MERGED,2026-02-04T11:21:40Z,2026-04-04T01:29:03Z,2026-04-04T01:29:03Z,1406.1231,1,24,0,339,2,1,3
+MunGell/awesome-for-beginners,1879,add okay. in contributing.md,CLOSED,2026-01-20T09:20:01Z,2026-02-24T16:28:36Z,,847.1431,1,2,0,0,2,0,1
+MunGell/awesome-for-beginners,1873,Add Example Python Project to data.json,CLOSED,2026-01-12T16:57:26Z,2026-04-04T23:41:08Z,,1974.7283,1,8,1,55,2,0,1
+MunGell/awesome-for-beginners,1870,Update project description by removing emoji,CLOSED,2026-01-09T05:09:57Z,2026-01-11T20:42:11Z,,63.5372,1,1,1,48,2,0,1
+MunGell/awesome-for-beginners,1865,Add Ashritha entry to data.json,CLOSED,2026-01-05T13:45:52Z,2026-04-04T01:06:16Z,,2123.34,1,14,1,51,2,0,1
+MunGell/awesome-for-beginners,1861,Update data.json,CLOSED,2025-12-28T13:16:07Z,2026-02-24T16:33:24Z,,1395.2881,1,7,0,267,2,0,1
+MunGell/awesome-for-beginners,1845,Fix formatting in README,CLOSED,2025-12-12T14:31:13Z,2026-04-04T01:11:07Z,,2698.665,1,2,2,21,2,0,1
+MunGell/awesome-for-beginners,1838,adeeljameel810 byte patch 2,CLOSED,2025-12-03T17:30:49Z,2025-12-05T12:55:44Z,,43.4153,1,9,3,0,2,0,1
+MunGell/awesome-for-beginners,1827,Update data.json,CLOSED,2025-11-26T10:25:47Z,2025-11-28T12:28:57Z,,50.0528,1,9,0,719,2,0,1
+MunGell/awesome-for-beginners,1823,Add my project awesome-for-beginners,CLOSED,2025-11-25T20:06:25Z,2026-04-04T00:54:23Z,,3100.7994,1,12,1,323,3,0,1

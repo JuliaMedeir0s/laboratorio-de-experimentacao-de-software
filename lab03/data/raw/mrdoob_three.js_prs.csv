@@ -1,0 +1,33 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+mrdoob/three.js,33533,WebGLRenderer: Fix stale scratch framebuffers after context restore,MERGED,2026-05-05T18:17:26Z,2026-05-05T21:48:25Z,2026-05-05T21:48:25Z,3.5164,1,9,5,587,2,1,1
+mrdoob/three.js,33527,WebGPURenderer: Fix mipmap filter mode.,MERGED,2026-05-04T11:28:16Z,2026-05-04T21:04:33Z,2026-05-04T21:04:33Z,9.6047,4,23,2,279,2,2,1
+mrdoob/three.js,33516,Examples: Add `webgpu_furnace_test.html`,MERGED,2026-05-03T04:55:09Z,2026-05-03T08:03:31Z,2026-05-03T08:03:31Z,3.1394,3,167,0,21,3,5,1
+mrdoob/three.js,33510,CSMShadowNode: Fix inconsistency in frustum split,MERGED,2026-04-30T12:24:48Z,2026-04-30T14:34:04Z,2026-04-30T14:34:03Z,2.1542,1,9,2,1237,2,1,3
+mrdoob/three.js,33507,WebGPURenderer: Support rendering to texture arrays.,MERGED,2026-04-30T06:40:57Z,2026-05-03T18:19:19Z,2026-05-03T18:19:19Z,83.6394,8,122,34,273,5,4,7
+mrdoob/three.js,33506,CSMShadowNode: Add support for reversed depth buffer,MERGED,2026-04-30T06:31:10Z,2026-04-30T08:10:55Z,2026-04-30T08:10:55Z,1.6625,2,26,5,83,2,0,1
+mrdoob/three.js,33502,IESSpotLight: Make sure IES texture can be exchanged.,MERGED,2026-04-29T11:12:02Z,2026-04-29T12:31:04Z,2026-04-29T12:31:03Z,1.3169,1,40,2,240,2,2,4
+mrdoob/three.js,33501,"MikkTSpace: Add `dispose()`, cache promise.",MERGED,2026-04-29T03:34:41Z,2026-04-29T16:14:29Z,2026-04-29T16:14:29Z,12.6633,1,34,9,223,3,4,5
+mrdoob/three.js,33499,Add support for WebGPU in WebXR,CLOSED,2026-04-28T21:49:50Z,2026-04-30T06:39:10Z,,32.8222,17,798,93,146,5,4,1
+mrdoob/three.js,33496,Examples: Fix final alpha issues,MERGED,2026-04-28T14:45:05Z,2026-04-28T16:15:05Z,2026-04-28T16:15:05Z,1.5,2,2,4,324,2,1,1
+mrdoob/three.js,33489,LightProbeGrid: Avoid redundant matrixWorld updates during bake.,MERGED,2026-04-28T05:57:32Z,2026-04-28T21:05:33Z,2026-04-28T21:05:33Z,15.1336,1,23,12,697,2,0,1
+mrdoob/three.js,33484,XRManager: Use `foveateBoundTexture()` to enable foveation.,MERGED,2026-04-27T18:27:04Z,2026-04-28T21:15:17Z,2026-04-28T21:15:17Z,26.8036,1,73,1,391,2,2,6
+mrdoob/three.js,33476,Material: Fixed setValues() to honor Euler and Vector2 types.,MERGED,2026-04-27T03:42:26Z,2026-04-27T12:03:59Z,2026-04-27T12:03:59Z,8.3592,1,5,1,1154,2,4,2
+mrdoob/three.js,33475,TSL: Add support for textureGather and textureGatherCompare,MERGED,2026-04-27T02:51:28Z,2026-05-03T16:06:26Z,2026-05-03T16:06:26Z,157.2494,15,478,27,1008,3,13,6
+mrdoob/three.js,33465,Docs: Document minimum texture sizes of `PMREMGenerator`.,MERGED,2026-04-24T11:22:31Z,2026-04-24T12:42:49Z,2026-04-24T12:42:49Z,1.3383,2,10,8,265,2,1,3
+mrdoob/three.js,33461,WebGPUBindingUtils: Guard updateBinding() against destroyed GPU buffer,MERGED,2026-04-24T09:48:45Z,2026-04-24T12:41:40Z,2026-04-24T12:41:40Z,2.8819,1,2,0,710,2,5,1
+mrdoob/three.js,33457,WebGPURenderer: Honor the Compositor Contract,MERGED,2026-04-23T23:02:24Z,2026-05-02T09:30:30Z,2026-05-02T09:30:30Z,202.4683,5,54,45,77,3,4,2
+mrdoob/three.js,33452,Examples: Explicitly set clear color in WebGPU demos,MERGED,2026-04-23T11:20:17Z,2026-04-25T09:46:58Z,2026-04-25T09:46:58Z,46.4447,21,22,4,99,3,0,9
+mrdoob/three.js,33450,Fix examples to avoid fading alpha,MERGED,2026-04-23T05:09:04Z,2026-04-23T08:43:42Z,2026-04-23T08:43:42Z,3.5772,3,9,6,308,2,12,1
+mrdoob/three.js,33446,WebGLOutput: Handle antialias.,MERGED,2026-04-22T07:02:54Z,2026-04-22T08:19:22Z,2026-04-22T08:19:22Z,1.2744,3,3,2,220,2,3,1
+mrdoob/three.js,33443,TSL: Introduce `storageTexture3D`,MERGED,2026-04-22T03:15:03Z,2026-04-22T18:32:26Z,2026-04-22T18:32:26Z,15.2897,2,101,0,211,3,1,2
+mrdoob/three.js,33442,TSL: Make not() on vector produce component-wise logical not,MERGED,2026-04-22T02:12:09Z,2026-04-22T18:34:51Z,2026-04-22T18:34:51Z,16.3783,1,23,3,119,3,1,2
+mrdoob/three.js,33441,TSL: Fix redundant min/max calls being generated,MERGED,2026-04-22T01:42:57Z,2026-04-22T18:35:37Z,2026-04-22T18:35:37Z,16.8778,1,1,1,270,3,1,1
+mrdoob/three.js,33432,TSL: Fix `setName()` for attributes,MERGED,2026-04-21T01:47:06Z,2026-04-21T09:26:22Z,2026-04-21T09:26:22Z,7.6544,2,22,4,145,3,4,1
+mrdoob/three.js,33431,Update inverseTransformDirection definition for clarity,MERGED,2026-04-20T23:31:41Z,2026-04-21T07:36:49Z,2026-04-21T07:36:49Z,8.0856,1,1,1,23,2,1,1
+mrdoob/three.js,33427,UniformsGroup: Pool per-uniform update-range objects.,MERGED,2026-04-20T11:58:56Z,2026-04-21T07:34:55Z,2026-04-21T07:34:55Z,19.5997,1,20,9,1124,2,1,5
+mrdoob/three.js,33425,NodeMaterialObserver: Reuse `lightsData` cache entry per frame.,MERGED,2026-04-20T11:54:19Z,2026-04-20T13:04:12Z,2026-04-20T13:04:12Z,1.1647,1,14,12,1936,2,1,3
+mrdoob/three.js,33419,WebGPURenderer: Reduce per-frame allocations in render & compute paths,CLOSED,2026-04-19T10:30:25Z,2026-05-04T21:02:52Z,,370.5408,9,705,198,5619,2,3,14
+mrdoob/three.js,33418,WebGPURenderer: Surface uncaptured GPU errors and WGSL diagnostics,MERGED,2026-04-19T08:57:03Z,2026-04-29T02:56:32Z,2026-04-29T02:56:32Z,233.9914,3,144,10,4445,3,2,2
+mrdoob/three.js,33417,WebGPURenderer: Honor layerUpdates for compressed array textures,MERGED,2026-04-19T06:18:46Z,2026-04-19T22:20:01Z,2026-04-19T22:20:01Z,16.0208,1,57,24,229,3,3,3
+mrdoob/three.js,33413,Backend: Introduce `createUniformBuffer()`,MERGED,2026-04-17T15:41:36Z,2026-04-20T12:56:59Z,2026-04-20T12:56:59Z,69.2564,10,330,128,355,3,7,3
+mrdoob/three.js,33410,PassNode: Fix implicit depth texture creation when `depthBuffer: false`,MERGED,2026-04-17T12:46:06Z,2026-04-18T08:39:46Z,2026-04-18T08:39:46Z,19.8944,1,28,10,452,3,2,1

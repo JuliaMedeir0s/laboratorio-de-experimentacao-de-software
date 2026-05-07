@@ -1,0 +1,20 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+trekhleb/javascript-algorithms,2110,upgrade Comparator.js,CLOSED,2026-03-02T08:43:41Z,2026-03-09T08:39:15Z,,167.9261,1,73,24,15,2,0,1
+trekhleb/javascript-algorithms,2097,docs: Update outdated GitHub Actions versions,CLOSED,2026-01-15T10:23:02Z,2026-02-18T09:25:41Z,,815.0442,1,3,3,289,3,1,2
+trekhleb/javascript-algorithms,2040,Update README.md,CLOSED,2025-02-09T16:25:08Z,2025-02-12T16:02:28Z,,71.6222,0,0,0,0,3,0,1
+trekhleb/javascript-algorithms,2039,Update README.md,CLOSED,2025-02-09T16:21:09Z,2025-02-12T16:02:41Z,,71.6922,0,0,0,0,5,2,1
+trekhleb/javascript-algorithms,2030,"""Italiano"" is ""italian"" in italian :)",MERGED,2024-12-20T19:35:07Z,2025-02-12T16:04:13Z,2025-02-12T16:04:13Z,1292.485,1,11,11,0,7,4,1
+trekhleb/javascript-algorithms,1200,¨a¨,CLOSED,2024-09-18T18:04:21Z,2024-09-27T04:20:59Z,,202.2772,1,1,1,14,3,0,1
+trekhleb/javascript-algorithms,1147,linked list visualization,CLOSED,2024-06-30T10:51:26Z,2024-07-02T13:41:56Z,,50.8417,3,1050,0,0,2,0,1
+trekhleb/javascript-algorithms,1141,Update README.md,MERGED,2024-06-12T03:30:04Z,2024-07-13T18:58:45Z,2024-07-13T18:58:45Z,759.4781,1,2,0,651,3,0,1
+trekhleb/javascript-algorithms,1140,Warn.,CLOSED,2024-06-07T18:08:11Z,2024-07-13T14:11:43Z,,860.0589,2,1,353,0,1,0,1
+trekhleb/javascript-algorithms,1139,Fix four typos,MERGED,2024-05-31T09:47:31Z,2024-07-13T18:56:39Z,2024-07-13T18:56:39Z,1041.1522,4,4,4,14,3,0,1
+trekhleb/javascript-algorithms,1137,Add Circular Queue Implementation,CLOSED,2024-05-23T08:28:57Z,2024-05-27T07:44:56Z,,95.2664,1,94,0,1970,2,0,1
+trekhleb/javascript-algorithms,1128,"Update .eslintrc, improve UK translation for LinkedList",MERGED,2024-04-18T16:27:20Z,2024-07-13T19:13:11Z,2024-07-13T19:13:11Z,2066.7642,2,14,13,214,3,0,1
+trekhleb/javascript-algorithms,1100,Update factorial.js,CLOSED,2024-01-27T17:34:20Z,2024-03-24T09:01:23Z,,1359.4508,1,4,0,65,2,1,1
+trekhleb/javascript-algorithms,1097,test_11_jan,CLOSED,2024-01-11T10:25:08Z,2024-03-09T16:00:40Z,,1397.5922,1,1,0,20,3,0,1
+trekhleb/javascript-algorithms,1073,Update PriorityQueue.js,CLOSED,2023-09-15T14:18:27Z,2024-12-25T09:12:29Z,,11202.9006,1,1,1,573,2,3,1
+trekhleb/javascript-algorithms,1066,Update README.md,CLOSED,2023-08-30T05:25:28Z,2024-03-09T16:13:28Z,,4618.8,1,0,1,16,3,0,1
+trekhleb/javascript-algorithms,1065,Typo in Binary Search file is corrected,CLOSED,2023-08-27T05:09:48Z,2024-01-23T07:05:49Z,,3577.9336,1,1,1,122,3,1,8
+trekhleb/javascript-algorithms,1011,throw-error-for-negative-factorial,CLOSED,2023-04-02T14:56:42Z,2023-07-16T18:57:46Z,,2524.0178,4,12,0,175,2,0,2
+trekhleb/javascript-algorithms,1009,Update factorialRecursive.js by checking the factorial of negative numbers at run time,CLOSED,2023-03-17T00:34:32Z,2023-04-08T05:22:32Z,,532.8,0,0,0,102,3,5,1

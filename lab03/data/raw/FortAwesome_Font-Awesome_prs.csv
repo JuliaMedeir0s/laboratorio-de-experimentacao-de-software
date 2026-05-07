@@ -1,0 +1,23 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+FortAwesome/Font-Awesome,21525,docs: fix typos in documentation,CLOSED,2026-03-30T20:39:35Z,2026-03-31T07:41:17Z,,11.0283,29,114,114,79,2,1,1
+FortAwesome/Font-Awesome,20877,Fixing the request templates (md → yml),MERGED,2025-12-02T17:43:48Z,2025-12-02T19:22:41Z,2025-12-02T19:22:41Z,1.6481,7,135,130,33,2,0,2
+FortAwesome/Font-Awesome,20726,Fix README Upgrading link,MERGED,2025-07-24T09:24:50Z,2025-07-24T14:27:19Z,2025-07-24T14:27:19Z,5.0414,1,2,2,306,2,1,1
+FortAwesome/Font-Awesome,20557,Fix typescript typing for `parse.icon`,CLOSED,2025-02-08T18:12:23Z,2025-08-02T07:38:34Z,,4189.4364,1,1,1,284,6,5,1
+FortAwesome/Font-Awesome,20503,Release 6.7.2,MERGED,2024-12-16T17:26:05Z,2024-12-16T21:31:58Z,2024-12-16T21:31:58Z,4.0981,4261,15857,23652,0,4,0,2
+FortAwesome/Font-Awesome,20295,Release 6.6.0,MERGED,2024-07-15T16:32:22Z,2024-07-16T17:13:31Z,2024-07-16T17:13:31Z,24.6858,5579,87418,76050,0,4,1,1
+FortAwesome/Font-Awesome,20275,Updating Icon Request Template,MERGED,2024-07-01T14:44:18Z,2024-07-02T17:01:50Z,2024-07-02T17:01:50Z,26.2922,1,46,22,100,3,0,2
+FortAwesome/Font-Awesome,20028,Update contributing guidelines,MERGED,2023-11-30T08:35:09Z,2023-12-15T20:33:40Z,2023-12-15T20:33:40Z,371.9753,1,7,9,325,2,1,1
+FortAwesome/Font-Awesome,19848,Change isNaN to Number.isNaN,CLOSED,2023-08-03T08:47:56Z,2025-10-23T14:37:42Z,,19493.8294,11,11,11,491,6,3,3
+FortAwesome/Font-Awesome,19578,fix: #19577 - remove postinstall script,CLOSED,2023-02-24T11:00:59Z,2024-07-21T09:54:56Z,,12310.8992,12,9,51,306,4,1,2
+FortAwesome/Font-Awesome,19544,Fix #19423 by defaulting to 0 instead of none,CLOSED,2023-02-02T21:58:16Z,2024-05-20T16:23:37Z,,11346.4225,2,2,2,394,5,1,2
+FortAwesome/Font-Awesome,19467,Typo fixed,MERGED,2022-12-09T07:56:23Z,2022-12-14T13:13:44Z,2022-12-14T13:13:44Z,125.2892,1,1,1,340,2,0,1
+FortAwesome/Font-Awesome,19460,Add workaround for PostCSS parse error,CLOSED,2022-12-04T09:42:07Z,2024-05-17T20:57:31Z,,12731.2567,1,1,1,539,3,2,2
+FortAwesome/Font-Awesome,19117,[5.x] Fix breaking change slash as division in Dart Sass 2.0.0,CLOSED,2022-06-10T14:41:24Z,2024-07-31T15:00:41Z,,18768.3214,3,10,4,492,7,3,6
+FortAwesome/Font-Awesome,19011,Add Issue Forms,MERGED,2022-05-06T15:16:38Z,2022-05-20T14:22:27Z,2022-05-20T14:22:27Z,335.0969,7,247,0,644,3,3,2
+FortAwesome/Font-Awesome,18907,Update README.md,MERGED,2022-04-13T18:46:59Z,2022-04-13T21:52:48Z,2022-04-13T21:52:48Z,3.0969,1,1,1,24,2,0,1
+FortAwesome/Font-Awesome,18789,Add missing t-shirt sizes to SizeProp type,CLOSED,2022-03-07T20:40:13Z,2022-09-02T20:56:06Z,,4296.2647,1,4,1,62,6,7,3
+FortAwesome/Font-Awesome,18737,Fix undefined operation from fa-divide in sass variable,CLOSED,2022-02-22T11:52:30Z,2022-02-23T10:39:57Z,,22.7908,1,2,0,47,4,4,1
+FortAwesome/Font-Awesome,18704,Fix links pointing to the staging environment,MERGED,2022-02-15T22:13:44Z,2022-02-18T14:53:43Z,2022-02-18T14:53:43Z,64.6664,3,5,5,131,2,0,2
+FortAwesome/Font-Awesome,18665,Thumbtack.js export name regression v5 -> v6,CLOSED,2022-02-09T11:56:23Z,2022-02-28T12:18:09Z,,456.3628,1,2,2,756,2,1,1
+FortAwesome/Font-Awesome,18659,Hint people to use GitHub's TODO list feature properly,CLOSED,2022-02-08T16:04:34Z,2022-07-21T07:51:33Z,,3903.7831,4,5,2,306,3,2,1
+FortAwesome/Font-Awesome,18402,"Fixed slash as a division SASS [Fixed in FA6 - our fix does not break libsass - Will be fixed in FA5 (No ETA, sorry)]",CLOSED,2021-10-30T12:17:04Z,2022-02-09T19:01:09Z,,2454.7347,6,16,8,268,6,13,5

@@ -1,0 +1,50 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+langgenius/dify,35799,refactor: migrate workflow queries to contracts,MERGED,2026-05-05T12:22:46Z,2026-05-05T15:04:26Z,2026-05-05T15:04:26Z,2.6944,33,1013,593,1458,2,6,1
+langgenius/dify,35792,refactor(web): migrate HITL overlays to base dialog,MERGED,2026-05-05T06:21:02Z,2026-05-05T08:57:13Z,2026-05-05T08:57:13Z,2.6031,32,920,759,1215,2,1,1
+langgenius/dify,35791,chore(deps): bump the storage group across 1 directory with 2 updates,MERGED,2026-05-05T05:44:03Z,2026-05-05T10:10:18Z,2026-05-05T10:10:18Z,4.4375,2,16,16,3683,1,0,1
+langgenius/dify,35787,refactor(web): migrate workflow panel context menu primitive,MERGED,2026-05-04T13:58:45Z,2026-05-04T23:20:05Z,2026-05-04T23:20:05Z,9.3556,18,278,275,1164,2,1,2
+langgenius/dify,35786,fix: workflow online users polling for large app lists,MERGED,2026-05-04T13:02:56Z,2026-05-05T10:57:39Z,2026-05-05T10:57:39Z,21.9119,5,94,43,1328,3,6,2
+langgenius/dify,35782,chore(deps-dev): bump the dev group in /api with 6 updates,MERGED,2026-05-04T01:32:42Z,2026-05-04T14:31:57Z,2026-05-04T14:31:57Z,12.9875,2,33,33,7296,1,0,1
+langgenius/dify,35781,chore(deps): bump anthropics/claude-code-action from 1.0.110 to 1.0.111 in the github-actions-dependencies group,MERGED,2026-05-04T01:26:14Z,2026-05-04T07:42:32Z,2026-05-04T07:42:32Z,6.2717,1,1,1,3100,1,0,1
+langgenius/dify,35779,chore(deps): bump the google group in /api with 2 updates,MERGED,2026-05-04T01:22:38Z,2026-05-04T07:42:32Z,2026-05-04T07:42:32Z,6.3317,2,10,10,27574,1,0,1
+langgenius/dify,35774,refactor(web): migrate legacy tooltip to infotip,MERGED,2026-05-03T13:26:36Z,2026-05-04T13:23:56Z,2026-05-04T13:23:56Z,23.9556,56,512,740,724,2,1,1
+langgenius/dify,35771,fix: IDOR on console `GET /account/avatar`,MERGED,2026-05-03T07:55:25Z,2026-05-03T14:51:42Z,2026-05-03T14:51:42Z,6.9381,2,146,1,3844,2,0,1
+langgenius/dify,35766,refactor(tests): use db_session_with_containers in test_storage_key_loader,MERGED,2026-05-02T05:18:26Z,2026-05-02T17:58:19Z,2026-05-02T17:58:19Z,12.6647,2,248,230,3073,3,1,2
+langgenius/dify,35763,fix: skip empty documents before vector embedding,MERGED,2026-05-01T20:37:40Z,2026-05-04T13:16:55Z,2026-05-04T13:16:55Z,64.6542,3,92,0,2032,4,1,2
+langgenius/dify,35759,"fix(rag): use doc_id dedup key for any provider, not only dify",MERGED,2026-05-01T11:24:24Z,2026-05-05T06:51:19Z,2026-05-05T06:51:19Z,91.4486,3,106,12,2212,4,4,1
+langgenius/dify,35751,fix(web): secure external form help links,MERGED,2026-04-30T13:44:15Z,2026-05-04T09:25:07Z,2026-05-04T09:25:07Z,91.6811,15,21,7,1436,2,2,1
+langgenius/dify,35750,refactor: replace Any with [T] syntax,MERGED,2026-04-30T13:04:43Z,2026-04-30T14:11:27Z,2026-04-30T14:11:27Z,1.1122,2,71,30,1165,2,1,1
+langgenius/dify,35749,refactor(web): convert ValidatedStatus enum to as-const in key-valida…,MERGED,2026-04-30T10:49:56Z,2026-05-04T09:43:22Z,2026-05-04T09:43:22Z,94.8906,2,7,8,2146,2,0,1
+langgenius/dify,35748,chore: generate contact from api,MERGED,2026-04-30T10:30:27Z,2026-04-30T11:40:48Z,2026-04-30T11:40:48Z,1.1725,159,52440,1378,1303,3,2,1
+langgenius/dify,35746,feat: upgrade graphon to v0.3,CLOSED,2026-04-30T09:53:07Z,2026-04-30T11:38:13Z,,1.7517,88,479,283,1273,1,17,4
+langgenius/dify,35736,refactor(web): workflow hotkeys and history state,MERGED,2026-04-30T08:38:07Z,2026-04-30T09:49:43Z,2026-04-30T09:49:43Z,1.1933,58,1420,916,703,2,1,1
+langgenius/dify,35726,fix(plugin): preserve multi-value HTTP response headers,MERGED,2026-04-30T06:44:28Z,2026-04-30T08:18:37Z,2026-04-30T08:18:36Z,1.5689,2,51,1,2379,2,0,1
+langgenius/dify,35724,fix: fix response header overwrite,CLOSED,2026-04-30T05:31:55Z,2026-04-30T08:10:32Z,,2.6436,1,2,1,989,3,0,2
+langgenius/dify,35721,refactor(web): migrate subscription create modal to dialog,MERGED,2026-04-30T04:29:28Z,2026-04-30T05:40:05Z,2026-04-30T05:40:05Z,1.1769,3,93,74,617,2,1,1
+langgenius/dify,35720,refactor(web/select):  base selects to dify-ui,MERGED,2026-04-30T04:09:50Z,2026-04-30T06:21:29Z,2026-04-30T06:21:29Z,2.1942,40,626,3246,538,2,1,2
+langgenius/dify,35710,fix: preserve single-run input variable types,MERGED,2026-04-29T22:19:26Z,2026-05-04T15:14:12Z,2026-05-04T15:14:12Z,112.9128,2,253,5,1556,2,1,1
+langgenius/dify,35706,fix: Clean upload filenames parsed from URLs,MERGED,2026-04-29T20:18:52Z,2026-05-02T14:54:02Z,2026-05-02T14:54:02Z,66.5861,3,77,5,946,3,7,1
+langgenius/dify,35700,fix(api): preserve dataset metadata filters,MERGED,2026-04-29T14:25:36Z,2026-05-01T09:28:56Z,2026-05-01T09:28:56Z,43.0556,2,58,0,1717,2,1,1
+langgenius/dify,35696,fix: ToolEntity data validation failed during workflow synchronization,MERGED,2026-04-29T09:34:00Z,2026-04-30T05:52:20Z,2026-04-30T05:52:20Z,20.3056,1,3,1,1330,2,0,1
+langgenius/dify,35683,chore: allow configurable Next.js dev origins,MERGED,2026-04-29T06:44:51Z,2026-04-29T09:47:14Z,2026-04-29T09:47:13Z,3.0394,1,4,0,1384,2,0,1
+langgenius/dify,35672,fix: ensure generated password satisfies the password policy,MERGED,2026-04-29T05:33:07Z,2026-04-29T06:37:49Z,2026-04-29T06:37:48Z,1.0781,1,12,2,1181,2,0,1
+langgenius/dify,35662,chore: bump version to 1.14.0,MERGED,2026-04-29T01:36:50Z,2026-04-29T03:19:13Z,2026-04-29T03:19:13Z,1.7064,6,17,17,959,3,2,1
+langgenius/dify,35661,fix: improve workflow as tool overlays,MERGED,2026-04-29T01:34:35Z,2026-04-29T03:07:34Z,2026-04-29T03:07:34Z,1.5497,10,398,294,1770,2,0,1
+langgenius/dify,35652,fix: flaky WordExtractor close test in CI,MERGED,2026-04-28T15:26:01Z,2026-04-29T02:27:02Z,2026-04-29T02:27:02Z,11.0169,1,10,14,1338,2,1,1
+langgenius/dify,35645,chore: correction of ru translation,MERGED,2026-04-28T10:42:57Z,2026-04-29T01:59:18Z,2026-04-29T01:59:18Z,15.2725,3,30,30,1273,3,0,2
+langgenius/dify,35631,fix(ci): wait for mysql to accept queries before db migration,MERGED,2026-04-28T06:02:31Z,2026-04-28T07:03:30Z,2026-04-28T07:03:30Z,1.0164,2,32,4,4426,2,0,1
+langgenius/dify,35624,fix(web): filter model selector by model name,MERGED,2026-04-28T04:08:06Z,2026-04-28T07:03:30Z,2026-04-28T07:03:30Z,2.9233,2,179,10,1570,4,1,2
+langgenius/dify,35621,fix: align auto update time picker to the right,MERGED,2026-04-28T03:34:57Z,2026-04-28T04:35:36Z,2026-04-28T04:35:36Z,1.0108,2,3,3,1328,2,0,1
+langgenius/dify,35618,fix(test): register baidu_obs mock as pytest plugin,MERGED,2026-04-28T03:32:51Z,2026-04-28T05:11:36Z,2026-04-28T05:11:36Z,1.6458,1,2,1,2448,2,0,1
+langgenius/dify,35616,fix: align object value remove button of chat variable,MERGED,2026-04-28T02:58:00Z,2026-04-28T05:11:36Z,2026-04-28T05:11:36Z,2.2267,1,11,6,1328,2,0,1
+langgenius/dify,35613,fix: show full checklist message tooltip instead of truncated,MERGED,2026-04-28T01:50:44Z,2026-04-28T03:32:27Z,2026-04-28T03:32:27Z,1.6953,1,3,3,1328,2,2,1
+langgenius/dify,35609,chore: port one api,MERGED,2026-04-27T16:44:34Z,2026-04-28T08:31:20Z,2026-04-28T08:31:20Z,15.7794,2,169,99,1291,3,0,3
+langgenius/dify,35600,fix: keep cleanup tasks resilient to billing API failures,MERGED,2026-04-27T07:43:39Z,2026-04-27T09:01:12Z,2026-04-27T09:01:12Z,1.2925,6,480,32,3863,2,4,1
+langgenius/dify,35599,fix: download and upload package before invoking upgrade in auto-upgrade task,MERGED,2026-04-27T07:16:26Z,2026-04-27T10:29:51Z,2026-04-27T10:29:51Z,3.2236,2,294,5,1933,2,0,1
+langgenius/dify,35595,chore(i18n): sync translations with en-US,MERGED,2026-04-27T06:43:49Z,2026-04-27T07:57:20Z,2026-04-27T07:57:20Z,1.2253,1,2,2,962,2,1,2
+langgenius/dify,35594,chore: update dependency catalog,MERGED,2026-04-27T06:32:18Z,2026-04-27T07:36:00Z,2026-04-27T07:36:00Z,1.0617,48,587,617,386,2,1,2
+langgenius/dify,35592,chore: lts bump litellm and langsmith versions,MERGED,2026-04-27T04:56:52Z,2026-04-28T05:05:50Z,2026-04-28T05:05:50Z,24.1494,2,109,97,1273,3,0,2
+langgenius/dify,35590,fix(web): migrate variable type selector overlay,MERGED,2026-04-27T03:49:40Z,2026-04-27T05:38:57Z,2026-04-27T05:38:57Z,1.8214,3,42,45,1728,2,0,1
+langgenius/dify,35588,refactor(web): migrate simple overlay tooltips,MERGED,2026-04-27T03:31:12Z,2026-04-27T05:14:58Z,2026-04-27T05:14:58Z,1.7294,21,299,370,1238,2,1,1
+langgenius/dify,35587,fix: improve variable picker text width allocation,MERGED,2026-04-27T03:22:59Z,2026-04-27T06:19:02Z,2026-04-27T06:19:02Z,2.9342,3,20,4,1328,2,0,1
+langgenius/dify,35583,fix: enhance file uploader with billing support and update translations,MERGED,2026-04-27T02:35:36Z,2026-04-27T06:39:49Z,2026-04-27T06:39:49Z,4.0703,27,190,43,1339,3,1,1

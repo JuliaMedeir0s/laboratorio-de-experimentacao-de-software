@@ -1,0 +1,74 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+thedotmack/claude-mem,2302,[codex] Remove agent pool timeout data loss,MERGED,2026-05-05T02:44:10Z,2026-05-05T21:46:28Z,2026-05-05T21:46:28Z,19.0383,10,538,263,1276,1,10,22
+thedotmack/claude-mem,2300,fix: install no longer fails on tree-sitter peer-dep ERESOLVE,MERGED,2026-05-04T22:42:02Z,2026-05-05T03:21:23Z,2026-05-05T03:21:23Z,4.6558,2,30,26,2641,1,2,3
+thedotmack/claude-mem,2290,Remove stale internal docs and reports,MERGED,2026-05-04T10:28:30Z,2026-05-05T03:22:30Z,2026-05-05T03:22:30Z,16.9,100,4,28492,275,1,2,1
+thedotmack/claude-mem,2282,"fix: bug-batch — 17 issues + 4 foundations (chroma, opencode, parser, OAuth, paths, uptime, classification)",MERGED,2026-05-03T23:36:14Z,2026-05-04T05:27:07Z,2026-05-04T05:27:07Z,5.8481,63,4439,1084,6486,1,2,10
+thedotmack/claude-mem,2255,UX redesign: installer + provider rename + /learn-codebase + welcome card + SessionStart hint,MERGED,2026-05-02T20:26:09Z,2026-05-02T23:05:56Z,2026-05-02T23:05:56Z,2.6631,452,6181,21051,1251,1,3,16
+thedotmack/claude-mem,2230,fix: validate Claude executable with --version and detect desktop app,CLOSED,2026-04-30T22:35:03Z,2026-05-04T05:30:39Z,,78.9267,4,307,239,810,1,3,2
+thedotmack/claude-mem,2229,fix: kill chroma-mcp process tree and limit backfill concurrency,CLOSED,2026-04-30T22:34:57Z,2026-05-04T05:30:34Z,,78.9269,3,294,157,727,1,3,2
+thedotmack/claude-mem,2228,fix: add CLAUDE_CODE_OAUTH_TOKEN to managed credential keys,CLOSED,2026-04-30T22:34:49Z,2026-05-04T05:30:29Z,,78.9278,2,84,72,576,1,3,3
+thedotmack/claude-mem,2227,fix: use Zod schemas in OpenCode plugin to fix _zod.def crash,CLOSED,2026-04-30T22:34:43Z,2026-05-04T05:30:13Z,,78.925,1,3,4,598,2,3,3
+thedotmack/claude-mem,2221,fix: neutralize chroma-mcp CPU storm (thread caps + per-batch watermark),CLOSED,2026-04-30T03:00:42Z,2026-05-04T05:30:43Z,,98.5003,5,610,543,2499,1,3,2
+thedotmack/claude-mem,2207,"fix: chroma-mcp singleton lockfile + working periodic reaper (closes #2184, #2195)",CLOSED,2026-04-29T20:20:21Z,2026-04-29T23:45:58Z,,3.4269,4,326,176,3022,1,5,6
+thedotmack/claude-mem,2203,fix: filter chroma-mcp stdout banners to fix MCP handshake (closes #2197),CLOSED,2026-04-29T20:16:00Z,2026-04-29T23:46:50Z,,3.5139,3,225,110,2563,1,3,3
+thedotmack/claude-mem,2156,UX redesign: installer + provider rename + /learn-codebase + welcome card + SessionStart hint,CLOSED,2026-04-27T09:43:38Z,2026-05-02T20:26:16Z,,130.7106,449,5472,28521,3602,1,8,24
+thedotmack/claude-mem,2124,fix: hard-exclude observer-sessions from hooks; bundle migration 29,MERGED,2026-04-25T02:27:59Z,2026-04-25T20:26:18Z,2026-04-25T20:26:18Z,17.9719,24,1241,749,1675,1,8,1
+thedotmack/claude-mem,2122,perf: streamline worker startup and consolidate database connections,MERGED,2026-04-25T00:35:07Z,2026-04-25T20:37:41Z,2026-04-25T20:37:41Z,20.0428,159,18096,5848,1257,1,7,2
+thedotmack/claude-mem,2110,refactor: PATHFINDER-2026-04-22 — second-system accretion sweep across 7 plans,CLOSED,2026-04-24T00:56:14Z,2026-04-25T20:46:20Z,,43.835,147,16977,5479,5695,1,24,9
+thedotmack/claude-mem,2084,feat: security observation types + Telegram notifier,MERGED,2026-04-22T19:53:23Z,2026-04-22T23:08:29Z,2026-04-22T23:08:29Z,3.2517,18,560,333,3079,1,8,6
+thedotmack/claude-mem,2083,fix: stop Windows Max-plan drain loop,CLOSED,2026-04-21T03:02:45Z,2026-04-22T23:43:54Z,,44.6858,6,722,31,2903,1,3,2
+thedotmack/claude-mem,2080,"fix: Issue Blowout 2026 — 25 bugs across worker, hooks, security, and search",MERGED,2026-04-20T07:18:53Z,2026-04-20T18:42:09Z,2026-04-20T18:42:09Z,11.3878,38,1236,414,2069,1,11,5
+thedotmack/claude-mem,2072,fix: break infinite summary-retry loop (#1633),MERGED,2026-04-19T08:30:09Z,2026-04-19T19:00:39Z,2026-04-19T19:00:38Z,10.5081,7,351,11,2196,2,7,5
+thedotmack/claude-mem,2069,"fix: viewer model dropdown, SSE cleanup, OpenRouter URL, zh-TW mode, alias fix, restart guard, FTS5 fallback, httpcore dep",CLOSED,2026-04-18T21:22:19Z,2026-04-20T01:22:53Z,,28.0094,12,307,66,1246,1,5,1
+thedotmack/claude-mem,2068,"fix(cross-platform): git-common-dir project key, cmux detection, PID health check",CLOSED,2026-04-18T21:18:59Z,2026-04-20T01:22:51Z,,28.0644,8,226,41,1424,1,5,1
+thedotmack/claude-mem,2067,fix(observer): JSONL file pruning and token budget cap,CLOSED,2026-04-18T21:18:57Z,2026-04-20T01:22:50Z,,28.0647,8,433,1,494,1,4,1
+thedotmack/claude-mem,2066,"fix(mcp): fix .mcp.json, timeouts, txt outline, subprocess leaks, version pin, proxy stripping",CLOSED,2026-04-18T21:18:38Z,2026-04-20T01:22:48Z,,28.0694,4,120,20,878,1,4,1
+thedotmack/claude-mem,2065,"fix(search): newest-first context, session lookup, jsts split, ID disambiguation",CLOSED,2026-04-18T21:17:59Z,2026-04-20T01:22:46Z,,28.0797,9,150,23,725,1,4,1
+thedotmack/claude-mem,2064,"fix(search): default project filter, FTS5 fallback, concept remap, import sync, dedup",CLOSED,2026-04-18T21:17:18Z,2026-04-20T01:22:44Z,,28.0906,3,338,16,1390,1,5,1
+thedotmack/claude-mem,2063,"fix(plugin-lifecycle): OpenCode Zod schemas, OpenClaw isolation, session drift, lifecycle filter",CLOSED,2026-04-18T21:17:08Z,2026-04-20T01:22:43Z,,28.0931,3,150,21,1626,1,5,1
+thedotmack/claude-mem,2062,"fix(security): admin token auth, localhost-only API, path validation, input limits, per-user port",CLOSED,2026-04-18T21:17:05Z,2026-04-20T01:22:41Z,,28.0933,10,494,267,2042,1,5,2
+thedotmack/claude-mem,2061,"fix(installer): cache-layout detection, tree-sitter dep, worker:status docs",CLOSED,2026-04-18T21:16:56Z,2026-04-20T01:22:39Z,,28.0953,5,87,43,1174,1,5,2
+thedotmack/claude-mem,2060,"fix(db): fix migration rebuild loop, CASCADE rewrites, dedup, WAL growth, pending purge",CLOSED,2026-04-18T21:15:39Z,2026-04-20T01:22:37Z,,28.1161,7,342,26,1555,1,5,2
+thedotmack/claude-mem,2059,"fix(auth): cloud provider model mapping, env forwarding, Vertex/Bedrock auth support",CLOSED,2026-04-18T21:15:05Z,2026-04-20T01:22:35Z,,28.125,4,184,7,1865,1,5,2
+thedotmack/claude-mem,2058,"fix(summarizer): salvage summary from observation tags, support Gemini transcripts, use user_prompt",CLOSED,2026-04-18T21:11:32Z,2026-04-20T01:22:34Z,,28.1839,4,137,19,751,1,5,5
+thedotmack/claude-mem,2052,"feat(worktree): scope per worktree, cwd backfill, and merged-worktree adoption",MERGED,2026-04-17T02:39:04Z,2026-04-18T03:10:54Z,2026-04-18T03:10:54Z,24.5306,55,2003,1667,3879,1,3,5
+thedotmack/claude-mem,2051,fix(project-name): scope observations per worktree + cwd-based backfill,CLOSED,2026-04-16T23:47:59Z,2026-04-17T02:38:34Z,,2.8431,52,1721,1600,2086,1,9,3
+thedotmack/claude-mem,1861,feature: add delete_observations_by_project MCP endpoint,CLOSED,2026-04-15T17:02:03Z,2026-04-15T20:49:24Z,,3.7892,1,17,11,1081,2,2,1
+thedotmack/claude-mem,1859,fix: default search/timeline to current project when project param omitted,CLOSED,2026-04-15T16:46:56Z,2026-04-15T20:49:26Z,,4.0417,1,17,11,1606,2,2,1
+thedotmack/claude-mem,1855,fix(chroma): kill registry-tracked orphan before reconnect in connectInternal,CLOSED,2026-04-15T13:16:47Z,2026-04-15T20:49:28Z,,7.5447,2,281,252,2398,2,3,2
+thedotmack/claude-mem,1854,fix(windows): escape single quotes in WQL orphan reaper filter,CLOSED,2026-04-15T13:11:49Z,2026-04-15T20:49:31Z,,7.6283,1,6,2,2786,3,3,1
+thedotmack/claude-mem,1849,"fix: reuse shared db connection in generateContext, fix outbound channel send",CLOSED,2026-04-15T10:23:13Z,2026-04-15T20:49:33Z,,10.4389,3,105,75,1417,2,2,3
+thedotmack/claude-mem,1846,Add ~/.local/bin/claude fallback to findClaudeExecutable,CLOSED,2026-04-15T08:36:56Z,2026-04-15T20:49:35Z,,12.2108,7,8,322,709,3,2,2
+thedotmack/claude-mem,1843,fix: worker spawn failure when Windows username contains space,CLOSED,2026-04-15T07:57:45Z,2026-04-15T20:49:36Z,,12.8642,3,64,2,737,2,2,2
+thedotmack/claude-mem,1838,fix: Windows --print (pipe) mode hangs when plugin hooks block on stdin,CLOSED,2026-04-15T07:21:11Z,2026-04-15T20:49:38Z,,13.4742,2,26,3,358,3,2,2
+thedotmack/claude-mem,1833,fix: replace hardcoded nvm/homebrew PATH with universal login shell resolution,MERGED,2026-04-15T03:49:44Z,2026-04-15T07:58:17Z,2026-04-15T07:58:17Z,4.1425,1,8,8,1310,2,1,2
+thedotmack/claude-mem,1821,claude/swebench-claude-mem-prompt-solBH,CLOSED,2026-04-14T23:56:38Z,2026-04-15T20:49:40Z,,20.8839,4,544,1,313,2,3,2
+thedotmack/claude-mem,1820,fix: use parent project name for worktree observation writes,MERGED,2026-04-14T23:10:54Z,2026-04-15T07:58:14Z,2026-04-15T07:58:14Z,8.7889,6,69,19,2504,2,2,5
+thedotmack/claude-mem,1818,feat: add Claude Code plugin lifecycle hooks,CLOSED,2026-04-14T20:59:41Z,2026-04-15T20:49:42Z,,23.8336,5,365,0,2146,2,2,1
+thedotmack/claude-mem,1814,"fix: security hardening (P1-P5) — token explosion, DB bloat, OOM, DoS, prompt injection",CLOSED,2026-04-14T17:39:22Z,2026-04-15T20:49:44Z,,27.1728,17,1156,360,1599,2,2,4
+thedotmack/claude-mem,1804,fix: support gemini transcript parsing in summarize hook,CLOSED,2026-04-14T10:17:24Z,2026-04-15T20:49:46Z,,34.5394,5,298,245,175,2,2,2
+thedotmack/claude-mem,1800,fix: three administrative endpoints — /api/admin/res... in Server.ts,CLOSED,2026-04-14T06:59:52Z,2026-04-15T20:49:48Z,,37.8322,1,94,5,1195,4,6,9
+thedotmack/claude-mem,1799,Issue #1791: 2-layer dedup pipeline for search results,CLOSED,2026-04-14T06:26:35Z,2026-04-15T20:49:50Z,,38.3875,8,552,6,3914,3,2,7
+thedotmack/claude-mem,1795,feat: add CLAUDE_MEM_OPENROUTER_BASE_URL setting for local/compatible servers,CLOSED,2026-04-14T02:58:06Z,2026-04-15T20:49:52Z,,41.8628,5,212,208,1034,2,2,2
+thedotmack/claude-mem,1786,feat: pi-mem — persistent memory extension for pi-mono agents,CLOSED,2026-04-14T00:45:08Z,2026-04-15T20:49:54Z,,44.0794,8,656,1,3007,3,2,5
+thedotmack/claude-mem,1781,fix: filter empty string args before Bun spawn(),MERGED,2026-04-13T19:46:56Z,2026-04-15T07:58:11Z,2026-04-15T07:58:11Z,36.1875,1,8,2,2012,3,1,1
+thedotmack/claude-mem,1780,Fix npx search and default Codex context to workspace-local AGENTS,MERGED,2026-04-13T19:00:02Z,2026-04-15T07:58:08Z,2026-04-15T07:58:08Z,36.9683,5,78,56,1314,2,3,3
+thedotmack/claude-mem,1778,fix: rotate logger to new daily file in long-running processes,CLOSED,2026-04-13T18:35:57Z,2026-04-15T20:49:57Z,,50.2333,2,172,169,643,3,2,8
+thedotmack/claude-mem,1777,docs: add CLAUDE_MEM_MODE documentation for language and modes (fix #…,MERGED,2026-04-13T17:59:25Z,2026-04-15T07:58:05Z,2026-04-15T07:58:05Z,37.9778,1,39,0,245,2,6,4
+thedotmack/claude-mem,1776,fix: coerce corpus route filters,MERGED,2026-04-13T17:58:04Z,2026-04-15T07:58:02Z,2026-04-15T07:58:02Z,37.9994,2,232,4,1093,3,2,2
+thedotmack/claude-mem,1775,fix: salvage observations when SDK returns unstructured text,CLOSED,2026-04-13T17:31:57Z,2026-04-15T20:49:59Z,,51.3006,3,279,164,964,3,2,5
+thedotmack/claude-mem,1774,"feat: add temporal scoring, staleness tracking, and drift detection",CLOSED,2026-04-13T14:28:00Z,2026-04-15T20:50:00Z,,54.3667,21,2153,460,553,2,2,4
+thedotmack/claude-mem,1773,feat: add export/import CLI for portable memory migration,CLOSED,2026-04-13T14:27:30Z,2026-04-15T20:50:02Z,,54.3756,7,1090,254,1703,2,2,1
+thedotmack/claude-mem,1772,feat: auto-cleanup stale/oversized observer session JSONL files,CLOSED,2026-04-13T14:18:03Z,2026-04-15T20:50:04Z,,54.5336,6,1896,430,1150,2,3,2
+thedotmack/claude-mem,1771,fix: exclude primary key index from unique constraint check in migration 7,MERGED,2026-04-13T13:46:00Z,2026-04-15T07:57:52Z,2026-04-15T07:57:52Z,42.1978,3,3,3,1243,2,4,2
+thedotmack/claude-mem,1770,fix: restrict ~/.claude-mem/.env permissions to owner-only (0600),MERGED,2026-04-13T13:37:27Z,2026-04-15T07:57:49Z,2026-04-15T07:57:49Z,42.3394,1,11,4,1493,2,1,2
+thedotmack/claude-mem,1768,fix: stop hook no longer spins 110s when worker lacks /api/sessions/status,CLOSED,2026-04-13T11:53:02Z,2026-04-15T20:50:06Z,,56.9511,1,5,0,860,2,2,2
+thedotmack/claude-mem,1765,Update: Updated readme for opencode installation,MERGED,2026-04-13T09:47:18Z,2026-04-15T07:57:55Z,2026-04-15T07:57:54Z,46.1767,1,5,0,48,2,1,2
+thedotmack/claude-mem,1761,feat: Pass mode prompts as system prompt for improved instruction adherence,CLOSED,2026-04-13T07:00:40Z,2026-04-15T20:50:08Z,,61.8244,4,215,49,2211,2,2,1
+thedotmack/claude-mem,1758,feat: add AWS Bedrock support as Claude auth method,CLOSED,2026-04-13T05:18:58Z,2026-04-15T20:50:11Z,,63.5203,13,454,220,1060,3,8,6
+thedotmack/claude-mem,1757,fix: strengthen summary prompt to prevent <observation> tag leakage (#1753),CLOSED,2026-04-13T05:13:05Z,2026-04-15T20:50:13Z,,63.6189,2,98,3,1134,2,2,1
+thedotmack/claude-mem,1751,fix: include ~/.bun/bin in hooks PATH on Windows,CLOSED,2026-04-13T02:05:06Z,2026-04-15T20:50:16Z,,66.7528,2,56,8,891,2,2,2
+thedotmack/claude-mem,1750,fix: migration 7 unique-constraint check incorrectly matches primary-key index,CLOSED,2026-04-13T01:57:08Z,2026-04-15T20:50:18Z,,66.8861,1,7,1,1420,2,2,2
+thedotmack/claude-mem,1748,fix: allow full file read when file modified since last observation,CLOSED,2026-04-13T01:30:48Z,2026-04-15T20:50:20Z,,67.3256,1,27,3,1919,2,2,1
+thedotmack/claude-mem,1741,feat: multi-node network mode,CLOSED,2026-04-12T10:45:06Z,2026-04-15T20:50:22Z,,82.0878,76,14588,491,1630,3,10,4
+thedotmack/claude-mem,1736,feat: auto-cleanup stale/oversized observer session JSONL files,CLOSED,2026-04-12T08:29:14Z,2026-04-13T14:18:14Z,,29.8167,83,19125,608,1251,2,3,2

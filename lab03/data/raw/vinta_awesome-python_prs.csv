@@ -1,0 +1,28 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+vinta/awesome-python,3094,Add OpenChronicle - open source version of OpenAI Chonicle,MERGED,2026-04-26T16:18:49Z,2026-04-27T15:58:22Z,2026-04-27T15:58:22Z,23.6592,1,1,0,667,2,0,1
+vinta/awesome-python,3092,Add loopz to Job Scheduler section,CLOSED,2026-04-25T15:49:20Z,2026-04-26T16:03:06Z,,24.2294,1,1,0,774,3,1,1
+vinta/awesome-python,3090,Add Web Security section and secure (HTTP security headers),MERGED,2026-04-24T13:01:23Z,2026-04-24T16:23:22Z,2026-04-24T16:23:22Z,3.3664,1,7,0,1322,2,0,1
+vinta/awesome-python,3089,Add OpenAI's framework for building AI agents,MERGED,2026-04-24T11:36:13Z,2026-04-24T16:21:20Z,2026-04-24T16:21:20Z,4.7519,1,1,0,682,3,0,2
+vinta/awesome-python,3088,Add promptise,MERGED,2026-04-24T11:34:54Z,2026-05-05T06:42:10Z,2026-05-05T06:42:10Z,259.1211,1,1,0,1870,4,5,4
+vinta/awesome-python,3085,Add codesight to Code Analysis,CLOSED,2026-04-23T22:56:14Z,2026-04-26T15:54:23Z,,64.9692,1,1,0,510,4,2,1
+vinta/awesome-python,3082,Added simulation library,MERGED,2026-04-23T06:29:09Z,2026-05-04T03:52:41Z,2026-05-04T03:52:40Z,261.3919,1,1,0,630,2,0,1
+vinta/awesome-python,3080,docs(ai-agents): add ag2 to AI Agents Orchestration,MERGED,2026-04-21T19:18:01Z,2026-04-22T10:11:50Z,2026-04-22T10:11:50Z,14.8969,1,1,0,1992,2,0,1
+vinta/awesome-python,3079,docs(message-brokers): add FastStream and Message Brokers category,MERGED,2026-04-21T18:58:29Z,2026-04-24T16:20:44Z,2026-04-24T16:20:44Z,69.3708,1,7,0,2207,3,2,3
+vinta/awesome-python,3077,Add `django-modern-rest`,MERGED,2026-04-20T06:27:28Z,2026-04-21T15:14:54Z,2026-04-21T15:14:53Z,32.7903,1,1,0,3259,2,0,1
+vinta/awesome-python,3071,Add KillPy to environment management section,MERGED,2026-04-18T21:51:42Z,2026-04-27T15:56:45Z,2026-04-27T15:56:45Z,210.0842,1,1,0,1253,3,1,1
+vinta/awesome-python,3070,Add bub framework to orchestration section,MERGED,2026-04-18T16:19:05Z,2026-04-19T05:44:51Z,2026-04-19T05:44:51Z,13.4294,1,1,0,983,2,0,1
+vinta/awesome-python,3068,Add mistletoe to Markdown section,CLOSED,2026-04-18T02:22:18Z,2026-04-18T14:32:07Z,,12.1636,1,6,0,700,2,1,1
+vinta/awesome-python,3067,Add ydata-profiling to data analysis tools list,MERGED,2026-04-17T09:45:49Z,2026-04-18T15:44:08Z,2026-04-18T15:44:08Z,29.9719,1,1,0,254,2,3,3
+vinta/awesome-python,3066,Add `respx` library to Mock section,MERGED,2026-04-16T14:37:52Z,2026-04-17T05:57:35Z,2026-04-17T05:57:35Z,15.3286,1,1,0,401,2,0,1
+vinta/awesome-python,3062,Add repowise to Code Analysis,MERGED,2026-04-14T13:45:35Z,2026-04-14T16:43:46Z,2026-04-14T16:43:46Z,2.9697,1,1,0,309,2,0,1
+vinta/awesome-python,3061,Add data profiling library for better data analysis,CLOSED,2026-04-14T09:59:46Z,2026-04-18T06:02:54Z,,92.0522,1,2,2,165,2,7,2
+vinta/awesome-python,3060,chore(deps-dev): bump pytest from 9.0.2 to 9.0.3,MERGED,2026-04-14T03:03:00Z,2026-04-15T04:33:38Z,2026-04-15T04:33:38Z,25.5106,2,6,6,7743,3,1,1
+vinta/awesome-python,3056,Add httptap,MERGED,2026-04-12T16:09:46Z,2026-04-13T07:10:38Z,2026-04-13T07:10:38Z,15.0144,1,1,0,2985,2,4,2
+vinta/awesome-python,3046,Add lumibot to Financial Data,MERGED,2026-04-11T03:30:53Z,2026-04-11T06:04:43Z,2026-04-11T06:04:43Z,2.5639,1,1,0,1848,2,0,1
+vinta/awesome-python,3040,Add bough,CLOSED,2026-04-09T23:10:01Z,2026-04-10T03:31:43Z,,4.3617,1,1,0,601,2,1,1
+vinta/awesome-python,3035,Add Python Developer Tooling Handbook to Resources,MERGED,2026-04-07T20:27:56Z,2026-04-19T05:45:27Z,2026-04-19T05:45:27Z,273.2919,1,4,0,1262,4,4,2
+vinta/awesome-python,3027,Add picows library to WebSocket section,MERGED,2026-04-05T20:56:42Z,2026-04-07T03:34:03Z,2026-04-07T03:34:03Z,30.6225,1,1,0,775,2,0,1
+vinta/awesome-python,3015,Add sglang to the list of libraries in README,MERGED,2026-04-02T02:15:14Z,2026-04-04T09:28:06Z,2026-04-04T09:28:06Z,55.2144,1,1,0,338,4,3,4
+vinta/awesome-python,3011,Added Jctx tool - Instantly converts Python projects into an AI-ready codebase context file with token metrics and dependency graphs.,CLOSED,2026-03-31T15:27:45Z,2026-04-01T03:30:29Z,,12.0456,1,1,0,2012,4,3,1
+vinta/awesome-python,3003,"Add TabGAN - synthetic tabular data generation with GANs, Diffusion, and LLMs",MERGED,2026-03-28T06:17:58Z,2026-03-29T07:23:32Z,2026-03-29T07:23:32Z,25.0928,1,1,0,961,2,1,2
+vinta/awesome-python,3002,Fix: Capitalize description for jax in Deep Learning section,MERGED,2026-03-28T04:20:06Z,2026-03-29T06:05:48Z,2026-03-29T06:05:48Z,25.7617,1,1,1,432,2,0,1

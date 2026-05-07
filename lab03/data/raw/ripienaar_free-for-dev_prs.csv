@@ -1,0 +1,15 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+ripienaar/free-for-dev,4334,Add Open Source Cloud (OSC) to PaaS section,CLOSED,2026-04-22T16:54:39Z,2026-04-25T07:57:37Z,,63.0494,1,1,0,2098,2,0,1
+ripienaar/free-for-dev,4328,Add Sleek Analytics to analytics tools list,CLOSED,2026-04-19T20:04:28Z,2026-04-19T21:14:25Z,,1.1658,1,1,0,2149,3,0,2
+ripienaar/free-for-dev,4324,Update README.md,MERGED,2026-04-19T16:07:41Z,2026-04-23T09:29:26Z,2026-04-23T09:29:26Z,89.3625,1,1,0,2099,3,0,4
+ripienaar/free-for-dev,4323,Add CipherKit to security and PKI resources,CLOSED,2026-04-19T11:43:48Z,2026-04-19T12:50:51Z,,1.1175,1,1,0,2164,2,1,1
+ripienaar/free-for-dev,4319,Add LogLens to Log Management,CLOSED,2026-04-18T15:48:49Z,2026-04-19T12:52:00Z,,21.0531,1,1,0,2092,3,0,2
+ripienaar/free-for-dev,4312,Add ShopSavvy,CLOSED,2026-04-17T12:50:44Z,2026-04-25T07:57:57Z,,187.1203,1,1,0,668,2,0,1
+ripienaar/free-for-dev,4308,Add Orbisearch to Email section,MERGED,2026-04-16T10:34:55Z,2026-04-23T07:50:23Z,2026-04-23T07:50:23Z,165.2578,1,1,0,2092,2,1,4
+ripienaar/free-for-dev,4304,"Add SideButton to APIs, Data, and ML section",CLOSED,2026-04-14T12:31:15Z,2026-04-17T16:19:13Z,,75.7994,1,1,0,2092,2,0,1
+ripienaar/free-for-dev,4303,Add EmailQo Email Infrastructure Grader to Email section,MERGED,2026-04-14T09:39:57Z,2026-04-15T04:59:15Z,2026-04-15T04:59:15Z,19.3217,1,1,0,2092,2,1,2
+ripienaar/free-for-dev,4301,Add Maxim to Generative AI section,MERGED,2026-04-13T17:00:02Z,2026-04-24T06:42:41Z,2026-04-24T06:42:41Z,253.7108,1,1,0,1584,2,1,4
+ripienaar/free-for-dev,4289,Add metashot,MERGED,2026-04-11T05:21:04Z,2026-04-11T11:55:00Z,2026-04-11T11:55:00Z,6.5656,1,1,1,2092,2,1,2
+ripienaar/free-for-dev,4282,Update README.md,CLOSED,2026-04-09T14:04:41Z,2026-04-17T16:20:13Z,,194.2589,1,5,3,2227,2,1,4
+ripienaar/free-for-dev,4276,Update README.md,CLOSED,2026-04-08T15:32:28Z,2026-04-17T16:19:52Z,,216.79,1,2,3,2397,2,1,4
+ripienaar/free-for-dev,4271,Update README.md,CLOSED,2026-04-07T14:07:07Z,2026-04-25T07:58:56Z,,425.8636,1,15,11,2092,2,0,12

@@ -1,0 +1,28 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+twbs/bootstrap,42395,Build(deps-dev): Bump the development-dependencies group with 2 updates,MERGED,2026-05-05T09:04:30Z,2026-05-05T16:14:57Z,2026-05-05T16:14:57Z,7.1742,2,10,10,6267,1,0,1
+twbs/bootstrap,42392,v6: Update some flex utility examples with class names,MERGED,2026-05-04T07:45:04Z,2026-05-04T18:39:50Z,2026-05-04T18:39:50Z,10.9128,3,39,39,1742,4,0,2
+twbs/bootstrap,42385,v6: minor docs fixes,MERGED,2026-05-02T05:04:37Z,2026-05-03T04:06:46Z,2026-05-03T04:06:46Z,23.0358,2,3,3,1465,4,0,3
+twbs/bootstrap,42381,"v6: More utilities API, docs, tests",MERGED,2026-05-01T16:45:40Z,2026-05-05T23:09:39Z,2026-05-05T23:09:39Z,102.3997,12,702,295,0,2,1,9
+twbs/bootstrap,42378,v6: docs / examples code fixes,MERGED,2026-05-01T14:29:18Z,2026-05-01T16:06:06Z,2026-05-01T16:06:06Z,1.6133,6,18,18,1412,3,0,2
+twbs/bootstrap,42372,v6: docs - Fix wording in radio and switch docs,MERGED,2026-04-30T00:38:49Z,2026-04-30T09:06:25Z,2026-04-30T09:06:24Z,8.4597,2,3,3,1532,3,0,3
+twbs/bootstrap,42370,Add cooldown configuration for Dependabot,MERGED,2026-04-29T11:16:27Z,2026-04-30T08:34:02Z,2026-04-30T08:34:02Z,21.2931,1,4,0,1153,3,1,2
+twbs/bootstrap,42369,v6: Add Pagefind with custom components,MERGED,2026-04-28T17:43:44Z,2026-05-01T00:02:17Z,2026-05-01T00:02:17Z,54.3092,34,1234,540,418,3,9,3
+twbs/bootstrap,42364,docs(floating-labels): capitalize JavaScript,MERGED,2026-04-27T02:25:23Z,2026-04-30T13:41:25Z,2026-04-30T13:41:25Z,83.2672,1,1,1,280,2,1,1
+twbs/bootstrap,42361,v6: Cheatsheet Example updates,MERGED,2026-04-24T16:19:20Z,2026-04-30T10:18:30Z,2026-04-30T10:18:30Z,137.9861,1,59,52,1737,4,1,2
+twbs/bootstrap,42355,Clean up some Astro and Docs stuff,MERGED,2026-04-23T18:17:08Z,2026-04-30T17:12:11Z,2026-04-30T17:12:11Z,166.9175,53,918,765,2821,2,0,2
+twbs/bootstrap,42354,"v6: Card updates, use `var(--spacer)` over `$spacer` more",MERGED,2026-04-23T04:17:09Z,2026-04-23T17:19:37Z,2026-04-23T17:19:37Z,13.0411,64,288,541,211,3,0,2
+twbs/bootstrap,42348,Build(deps): Bump lodash from 4.17.21 to 4.18.1,MERGED,2026-04-21T22:31:09Z,2026-04-22T04:28:25Z,2026-04-22T04:28:25Z,5.9544,1,3,42,9447,1,0,1
+twbs/bootstrap,42336,v6: docs: Use custom check/radio markup across docs,MERGED,2026-04-21T09:08:28Z,2026-04-22T01:36:24Z,2026-04-22T01:36:24Z,16.4656,9,311,136,1055,4,2,1
+twbs/bootstrap,42335,Build(deps): Bump the github-actions group with 2 updates,MERGED,2026-04-21T09:03:27Z,2026-04-21T11:52:21Z,2026-04-21T11:52:21Z,2.815,8,8,8,5098,1,0,1
+twbs/bootstrap,42332,v6: docs: Replace .form-select with .form-control,MERGED,2026-04-19T09:01:21Z,2026-04-20T22:22:18Z,2026-04-20T22:22:18Z,37.3492,7,35,35,872,4,1,1
+twbs/bootstrap,42331,"Docs: clarify that `.browserslistrc` is a shipped file, not a `package.json` metadata field",MERGED,2026-04-18T09:53:25Z,2026-04-18T20:25:01Z,2026-04-18T20:25:01Z,10.5267,1,2,1,406,2,0,1
+twbs/bootstrap,42329,Docs: automatically screenshot examples as light/dark images,MERGED,2026-04-16T19:19:48Z,2026-04-18T06:21:24Z,2026-04-18T06:21:24Z,35.0267,136,292,4,1825,2,7,4
+twbs/bootstrap,42315,Use `.ncurc.json` instead of args in command line and enforce decisions in Dependabot,MERGED,2026-04-15T17:41:47Z,2026-04-15T20:00:13Z,2026-04-15T20:00:13Z,2.3072,4,53,3,626,2,0,1
+twbs/bootstrap,42309,Build(deps): Bump follow-redirects from 1.15.11 to 1.16.0,MERGED,2026-04-14T19:35:43Z,2026-04-15T20:52:44Z,2026-04-15T20:52:44Z,25.2836,1,3,42,1219,1,1,1
+twbs/bootstrap,42306,Build(deps): Bump the github-actions group with 4 updates,MERGED,2026-04-14T09:03:37Z,2026-04-14T19:33:28Z,2026-04-14T19:33:28Z,10.4975,4,4,4,19671,1,0,1
+twbs/bootstrap,42299,Build(deps): Bump devalue from 5.6.1 to 5.7.1,MERGED,2026-04-09T20:56:58Z,2026-04-14T19:41:44Z,2026-04-14T19:41:44Z,118.7461,1,3,3,6536,1,1,1
+twbs/bootstrap,42297,Bump eslint-config-xo from 0.50.0 to 0.51.0,MERGED,2026-04-08T16:36:45Z,2026-04-15T19:59:28Z,2026-04-15T19:59:28Z,171.3786,3,709,71,0,2,0,1
+twbs/bootstrap,42291,Build(deps): Bump the github-actions group with 2 updates,MERGED,2026-04-07T09:04:22Z,2026-04-07T20:07:42Z,2026-04-07T20:07:42Z,11.0556,2,2,2,22446,1,0,1
+twbs/bootstrap,42290,Build(deps): Bump vite from 6.4.1 to 6.4.2,MERGED,2026-04-07T04:26:37Z,2026-04-14T20:18:41Z,2026-04-14T20:18:41Z,183.8678,1,3,3,4008,1,4,1
+twbs/bootstrap,42273,Build(deps-dev): Bump preact from 10.28.0 to 10.29.1,MERGED,2026-04-04T06:19:43Z,2026-04-15T21:03:35Z,2026-04-15T21:03:35Z,278.7311,1,3,3,7619,1,2,1
+twbs/bootstrap,42257,Build(deps): Bump the github-actions group across 1 directory with 4 updates,MERGED,2026-03-31T09:04:04Z,2026-03-31T15:30:02Z,2026-03-31T15:30:02Z,6.4328,6,8,8,26787,1,0,1

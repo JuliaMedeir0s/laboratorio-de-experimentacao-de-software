@@ -1,0 +1,61 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+mermaid-js/mermaid,7693,fix(quadrant-chart): add UNICODE_TEXT support for CJK and emoji,MERGED,2026-04-29T14:00:23Z,2026-05-04T08:59:56Z,2026-05-04T08:59:56Z,114.9925,3,179,1,1364,3,8,1
+mermaid-js/mermaid,7684,fix: loosen `uuid` dependency range to allow v14,MERGED,2026-04-28T07:39:36Z,2026-05-01T11:43:47Z,2026-05-01T11:43:47Z,76.0697,3,14,15,2163,2,6,1
+mermaid-js/mermaid,7676,docs: Add Features section to README.md,CLOSED,2026-04-27T16:20:34Z,2026-04-28T18:29:11Z,,26.1436,5,101,42,820,3,5,1
+mermaid-js/mermaid,7647,"fix: improve zenuml print rendering, sizing, and syntax resilience",MERGED,2026-04-22T11:33:35Z,2026-04-27T09:41:48Z,2026-04-27T09:41:48Z,118.1369,6,297,163,1188,2,7,1
+mermaid-js/mermaid,7644,fix(e2e): disable randomized rendering for large architecture diagram to fix flaky screenshot test,MERGED,2026-04-22T07:34:17Z,2026-04-23T09:05:55Z,2026-04-23T09:05:55Z,25.5272,2,46,25,598,2,5,2
+mermaid-js/mermaid,7642,fix(wardley): allow hyphens in unquoted component names,MERGED,2026-04-21T16:27:57Z,2026-04-28T08:20:37Z,2026-04-28T08:20:37Z,159.8778,5,166,2,1200,4,6,2
+mermaid-js/mermaid,7641,"fix(wardley): review follow-ups — pipeline links, theme, type safety, label sanitisation",MERGED,2026-04-21T16:27:48Z,2026-04-27T09:41:39Z,2026-04-27T09:41:39Z,137.2308,17,295,7,1523,3,8,3
+mermaid-js/mermaid,7634,fix: frontmatter indentation in sankey demo,MERGED,2026-04-18T18:54:28Z,2026-04-23T09:38:39Z,2026-04-23T09:38:39Z,110.7364,1,99,95,1430,3,9,2
+mermaid-js/mermaid,7633,fix(block): add support for multiple arrow types in block,MERGED,2026-04-18T17:40:26Z,2026-04-23T09:22:18Z,2026-04-23T09:22:18Z,111.6978,7,107,6,2780,3,9,2
+mermaid-js/mermaid,7632,fix(sequence): correct messageAlign label position for right-to-left arrows in sequence diagrams,MERGED,2026-04-18T16:55:25Z,2026-04-28T10:52:12Z,2026-04-28T10:52:12Z,233.9464,4,155,3,1416,3,7,3
+mermaid-js/mermaid,7629,fix(eventmodeling): avoid shipping pre-release screen terminology,MERGED,2026-04-16T16:30:12Z,2026-04-17T09:34:20Z,2026-04-17T09:34:19Z,17.0686,15,99,95,1323,5,9,1
+mermaid-js/mermaid,7625,Add AI agent governance,CLOSED,2026-04-14T23:43:07Z,2026-04-15T09:19:18Z,,9.6031,9,432,2,1309,3,7,1
+mermaid-js/mermaid,7619,feat(ci): diagram-scoped e2e test selection,MERGED,2026-04-13T12:01:07Z,2026-04-21T08:50:43Z,2026-04-21T08:50:42Z,188.8264,61,497,64,2966,2,7,4
+mermaid-js/mermaid,7604,feat: add nested namespace support for class diagrams,MERGED,2026-04-11T04:28:53Z,2026-04-20T09:59:19Z,2026-04-20T09:59:19Z,221.5072,15,1222,27,1960,4,12,2
+mermaid-js/mermaid,7592,fix(sequence): add label box background for alt/else section titles,MERGED,2026-04-08T14:52:25Z,2026-04-08T16:57:38Z,2026-04-08T16:57:38Z,2.0869,5,121,1,1254,2,5,1
+mermaid-js/mermaid,7591,fix(mindmap): correct root edge attachment in tidy-tree layout,CLOSED,2026-04-08T11:02:35Z,2026-04-20T11:35:05Z,,288.5417,3,1897,90,903,4,12,1
+mermaid-js/mermaid,7589,fix(block-beta): normalize width before comparison in getMaxChildSize,MERGED,2026-04-08T05:42:02Z,2026-04-08T14:26:21Z,2026-04-08T14:26:21Z,8.7386,3,18,2,1581,3,7,2
+mermaid-js/mermaid,7587,chore: drop lodash-es in favour of es-toolkit,MERGED,2026-04-07T17:57:41Z,2026-04-08T13:37:40Z,2026-04-08T13:37:40Z,19.6664,8,33,31,1573,2,7,1
+mermaid-js/mermaid,7582,Add link in sidebar to Wardley map,MERGED,2026-04-06T06:57:41Z,2026-04-07T09:13:54Z,2026-04-07T09:13:54Z,26.2703,2,6,0,1244,2,5,1
+mermaid-js/mermaid,7578,fix(class): Self-referential class multiplicity labels rendered multi…,MERGED,2026-04-04T22:47:41Z,2026-04-14T09:13:05Z,2026-04-14T09:13:05Z,226.4233,6,42,20,2512,3,8,2
+mermaid-js/mermaid,7545,test(sankey): add tests for special characters in node names,MERGED,2026-03-29T01:20:38Z,2026-04-27T08:52:28Z,2026-04-27T08:52:28Z,703.5306,1,41,0,1347,4,8,2
+mermaid-js/mermaid,7541,"fix: pin 2 actions to commit SHA, extract 2 expressions to env vars",MERGED,2026-03-27T23:13:54Z,2026-04-08T13:35:43Z,2026-04-08T13:35:42Z,278.3633,2,6,4,1875,4,8,3
+mermaid-js/mermaid,7538,fix: correct extension marker dimensions for mobile/iOS rendering,MERGED,2026-03-27T08:09:29Z,2026-04-08T12:53:42Z,2026-04-08T12:53:42Z,292.7369,1,2,2,857,3,6,1
+mermaid-js/mermaid,7531,`run` Error Edge Case & `run` Help Format Correction,MERGED,2026-03-26T21:06:37Z,2026-04-08T06:09:23Z,2026-04-08T06:09:23Z,297.0461,2,3,1,342,2,6,1
+mermaid-js/mermaid,7527,"feat(treeView): enhance treeView-beta with icons, bare labels, annotations & highlights",MERGED,2026-03-26T05:54:36Z,2026-05-04T10:48:35Z,2026-05-04T10:48:35Z,940.8997,22,1865,124,5122,7,19,5
+mermaid-js/mermaid,7524,replace Arial with Arimo in font-family settings across styles and themes,CLOSED,2026-03-25T08:08:07Z,2026-03-27T10:10:02Z,,50.0319,8,13,13,849,2,3,1
+mermaid-js/mermaid,7523,Fix: block arrows now span multiple columns when widthInColumns is set,MERGED,2026-03-25T07:42:20Z,2026-04-08T17:42:41Z,2026-04-08T17:42:41Z,346.0058,5,37,4,959,3,5,1
+mermaid-js/mermaid,7520,fix(stateDiagram): enforce strict comment syntax,MERGED,2026-03-23T16:03:34Z,2026-04-21T08:42:29Z,2026-04-21T08:42:29Z,688.6486,5,146,15,2344,4,13,2
+mermaid-js/mermaid,7512,flowchart: add datastore shape,MERGED,2026-03-21T11:47:14Z,2026-04-14T22:04:41Z,2026-04-14T22:04:41Z,586.2908,10,111,14,1867,4,16,2
+mermaid-js/mermaid,7510,feat: (devx/demo page) add flowchart expanded node page,MERGED,2026-03-20T03:41:48Z,2026-04-09T09:53:46Z,2026-04-09T09:53:46Z,486.1994,2,350,232,1898,3,5,1
+mermaid-js/mermaid,7509,"Feature implemented stacked flag, side by side bar by default",CLOSED,2026-03-19T21:25:10Z,2026-05-05T05:04:30Z,,1111.6556,11,239,51,1978,4,8,1
+mermaid-js/mermaid,7508,fix(stateDiagram): prevent end note detection inside text,MERGED,2026-03-19T18:47:18Z,2026-04-14T09:16:17Z,2026-04-14T09:16:17Z,614.4831,3,46,1,1641,4,9,2
+mermaid-js/mermaid,7501,feature: implement neo look and themes for mermaid diagrams,MERGED,2026-03-18T15:42:17Z,2026-03-25T20:17:02Z,2026-03-25T20:17:02Z,172.5792,124,7243,628,2235,3,5,1
+mermaid-js/mermaid,7499,docs: specify how to use css classes to override styling,MERGED,2026-03-18T03:54:25Z,2026-04-09T09:42:43Z,2026-04-09T09:42:43Z,533.805,2,18,39,1140,3,6,3
+mermaid-js/mermaid,7497,chore: Editor Picker V2,MERGED,2026-03-16T16:38:08Z,2026-03-17T07:50:43Z,2026-03-17T07:50:43Z,15.2097,1,117,76,0,2,3,1
+mermaid-js/mermaid,7495,ci: add lint action for renovate config,MERGED,2026-03-16T10:42:54Z,2026-04-01T13:47:34Z,2026-04-01T13:47:34Z,387.0778,1,31,0,1791,3,5,1
+mermaid-js/mermaid,7488,chore: resolve 7484 renovate config typo (take 2),MERGED,2026-03-15T02:23:32Z,2026-03-16T06:52:27Z,2026-03-16T06:52:27Z,28.4819,1,1,1,1457,2,7,1
+mermaid-js/mermaid,7474,fix(ishikawa): preserve cause hierarchy when effect is indented more than causes,MERGED,2026-03-12T06:35:18Z,2026-03-12T09:36:20Z,2026-03-12T09:36:20Z,3.0172,4,44,3,1499,2,6,1
+mermaid-js/mermaid,7473,"fix: ER diagram parsing for numeric entity identifier ""1""",MERGED,2026-03-11T22:58:48Z,2026-03-12T10:08:58Z,2026-03-12T10:08:58Z,11.1694,3,50,0,2370,3,8,1
+mermaid-js/mermaid,7461,Theme support for dataLabelColor in xy chart (Sisyphys request),MERGED,2026-03-07T20:13:41Z,2026-03-11T19:12:31Z,2026-03-11T19:12:31Z,94.9806,12,22,2,1898,2,6,1
+mermaid-js/mermaid,7457,Feature/2833 add randomize config option for architecture diagrams,MERGED,2026-03-06T12:01:15Z,2026-03-16T14:16:14Z,2026-03-16T14:16:14Z,242.2497,10,363,46,3495,3,8,2
+mermaid-js/mermaid,7456,fix(gantt): restore readable outside-text for done tasks in dark mode,MERGED,2026-03-06T09:17:42Z,2026-03-06T10:24:22Z,2026-03-06T10:24:22Z,1.1111,3,64,0,1536,2,3,2
+mermaid-js/mermaid,7455,feature(state-diagram)1331 - draw children under same g,MERGED,2026-03-06T04:45:02Z,2026-03-06T10:00:41Z,2026-03-06T10:00:41Z,5.2608,4,96,1,921,3,6,3
+mermaid-js/mermaid,7454,fix(elk): scope rounded edge curve to ELK layout only,MERGED,2026-03-05T15:42:31Z,2026-03-05T21:21:53Z,2026-03-05T21:21:53Z,5.6561,3,9,6,845,3,5,1
+mermaid-js/mermaid,7453,Fix: ER diagram edge label positioning,MERGED,2026-03-05T14:10:22Z,2026-03-06T15:14:40Z,2026-03-06T15:14:40Z,25.0717,8,136,16,1155,2,4,4
+mermaid-js/mermaid,7452,fix(elk): scope rounded edge curve to ELK layout only,CLOSED,2026-03-05T13:40:43Z,2026-03-05T15:43:09Z,,2.0406,32,287,66,753,6,3,2
+mermaid-js/mermaid,7446,feat(requirement):implement neo look,MERGED,2026-03-04T13:59:39Z,2026-03-18T08:15:49Z,2026-03-18T08:15:49Z,330.2694,9,558,20,2200,4,3,8
+mermaid-js/mermaid,7445,fix: use `<<` instead of `«` for requirement edge labels,MERGED,2026-03-03T14:35:40Z,2026-03-12T12:37:43Z,2026-03-12T12:37:43Z,214.0342,1,1,1,1945,3,5,1
+mermaid-js/mermaid,7443,docs(gantt): document valid duration token formats,MERGED,2026-03-03T10:30:50Z,2026-03-12T14:01:13Z,2026-03-12T14:01:13Z,219.5064,3,39,0,629,3,7,1
+mermaid-js/mermaid,7442,docs(classDiagram): remove broken inline annotation example,MERGED,2026-03-03T10:22:40Z,2026-03-11T19:18:23Z,2026-03-11T19:18:23Z,200.9286,5,101,53,778,3,7,2
+mermaid-js/mermaid,7441,fix(flowchart): warn when style targets a non-existent node,MERGED,2026-03-03T10:16:32Z,2026-03-12T12:32:28Z,2026-03-12T12:32:28Z,218.2656,3,29,0,636,2,5,2
+mermaid-js/mermaid,7437,"fix(sequence): prevent hang when ""as"" lacks trailing space",MERGED,2026-03-02T15:29:13Z,2026-03-03T10:21:06Z,2026-03-03T10:21:06Z,18.8647,3,20,0,1127,2,5,1
+mermaid-js/mermaid,7436,fix: prevent escaping `<` and `&` when `htmlLabels: false`,MERGED,2026-03-02T13:00:47Z,2026-03-03T09:24:54Z,2026-03-03T09:24:54Z,20.4019,20,164,55,3166,2,6,2
+mermaid-js/mermaid,7434,fix(architecture): scope cytoscape label mapping to edges with labels,MERGED,2026-03-02T08:28:26Z,2026-03-05T11:50:53Z,2026-03-05T11:50:52Z,75.3739,3,61,2,1049,1,5,1
+mermaid-js/mermaid,7432,fix(gantt): readable done-task text in dark theme,MERGED,2026-03-02T08:22:58Z,2026-03-02T12:08:07Z,2026-03-02T12:08:07Z,3.7525,5,73,3,1359,2,6,2
+mermaid-js/mermaid,7431,fix: support classDef styling inside composite states,MERGED,2026-03-02T03:49:06Z,2026-03-12T12:38:48Z,2026-03-12T12:38:48Z,248.8283,3,38,1,1577,2,6,1
+mermaid-js/mermaid,7428,docs/7420: replace CONTRIBUTING symlink with clear markdown link (#7420),MERGED,2026-02-28T18:15:18Z,2026-03-01T07:31:16Z,2026-03-01T07:31:16Z,13.2661,1,3,1,517,2,6,1
+mermaid-js/mermaid,7425,fix(flowchart): use rounded right-angle edges instead of smooth curves,MERGED,2026-02-28T13:13:32Z,2026-03-01T11:47:43Z,2026-03-01T11:47:43Z,22.5697,7,116,11,798,1,5,2
+mermaid-js/mermaid,7424,fix(gitGraph): correct BT orientation arc sweep flags,MERGED,2026-02-27T15:57:12Z,2026-02-28T09:23:22Z,2026-02-28T09:23:22Z,17.4361,4,103,1,1699,1,5,1
+mermaid-js/mermaid,7419,feat(class-diagram): implement neo look,MERGED,2026-02-26T06:58:38Z,2026-03-18T11:48:01Z,2026-03-18T11:48:01Z,484.8231,7,451,29,2071,3,3,2

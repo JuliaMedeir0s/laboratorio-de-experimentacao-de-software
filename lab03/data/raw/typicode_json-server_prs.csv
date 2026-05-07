@@ -1,0 +1,8 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+typicode/json-server,1696,"feat: add _where filtering, use new op separator, drop _start, _end, _limit",MERGED,2026-02-13T11:40:31Z,2026-02-14T12:34:06Z,2026-02-14T12:34:06Z,24.8931,13,674,565,0,2,1,1
+typicode/json-server,1672,use TS natively and switch to pnpm,MERGED,2026-01-13T19:20:26Z,2026-01-14T23:04:05Z,2026-01-14T23:04:05Z,27.7275,11,826,2999,0,2,0,1
+typicode/json-server,1671,Drop Node.js 20 support and enforce erasable TypeScript syntax,MERGED,2026-01-12T14:58:11Z,2026-01-12T21:06:45Z,2026-01-12T21:06:45Z,6.1428,6,22,19,2078,3,0,2
+typicode/json-server,1670,chore: use oxlint,MERGED,2026-01-12T10:43:45Z,2026-01-12T13:55:57Z,2026-01-12T13:55:57Z,3.2033,4,187,1197,995,2,0,1
+typicode/json-server,1663,Remove semgrep workflow,CLOSED,2025-12-12T19:23:23Z,2025-12-25T06:12:24Z,,298.8169,1,80,0,0,2,0,1
+typicode/json-server,1542,Fix `expand` hasMany relationship,CLOSED,2024-04-28T08:35:16Z,2026-01-22T09:32:17Z,,15216.9503,1,10,5,1322,3,0,1
+typicode/json-server,1511,Update package.json: Add repository url field,MERGED,2024-01-31T07:15:06Z,2024-01-31T12:38:08Z,2024-01-31T12:38:08Z,5.3839,1,4,0,104,2,1,7

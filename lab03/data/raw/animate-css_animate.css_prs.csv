@@ -1,0 +1,3 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+animate-css/animate.css,1699,Update README.md,MERGED,2023-10-30T19:15:11Z,2024-03-02T10:53:02Z,2024-03-02T10:53:02Z,2967.6308,1,1,1,10,2,0,1
+animate-css/animate.css,1697,added copy button to copy code by just one click,CLOSED,2023-10-18T17:50:06Z,2024-03-02T10:48:07Z,,3256.9669,1,3006,1145,189,3,0,1

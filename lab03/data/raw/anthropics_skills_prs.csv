@@ -1,0 +1,12 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+anthropics/skills,1081,Remove non-existent purpose field from Files API examples,MERGED,2026-05-01T23:29:53Z,2026-05-03T13:58:41Z,2026-05-03T13:58:41Z,38.48,4,2,5,359,3,0,2
+anthropics/skills,1014,claude-api: add Managed Agents memory stores page,MERGED,2026-04-23T16:06:31Z,2026-04-23T17:07:18Z,2026-04-23T17:07:18Z,1.0131,6,248,12,1145,3,0,2
+anthropics/skills,956,chore: update claude-api skill,MERGED,2026-04-16T14:31:21Z,2026-04-16T19:12:57Z,2026-04-16T19:12:57Z,4.6933,36,1049,211,746,2,0,1
+anthropics/skills,928,feat:add dlazy ai generation skills collection,CLOSED,2026-04-14T05:57:18Z,2026-04-21T02:16:58Z,,164.3278,36,2624,0,46,2,0,1
+anthropics/skills,898,fix: claude-api skill frontmatter yaml format,MERGED,2026-04-09T18:53:36Z,2026-04-13T20:37:42Z,2026-04-13T20:37:42Z,97.735,1,1,1,770,6,1,5
+anthropics/skills,730,chore: update claude-api skill,MERGED,2026-03-22T16:51:25Z,2026-03-25T15:10:47Z,2026-03-25T15:10:47Z,70.3228,13,390,14,55,1,0,1
+anthropics/skills,688,Add tufte-swiss-typography skill,CLOSED,2026-03-18T23:54:13Z,2026-03-19T02:20:49Z,,2.4433,143,5351,2071,1021,3,1,1
+anthropics/skills,656,Claude/create web app project g jf7h,CLOSED,2026-03-15T18:24:43Z,2026-03-20T18:35:30Z,,120.1797,397,8996,96326,0,3,0,1
+anthropics/skills,515,Add claude-api skill,MERGED,2026-03-04T17:46:39Z,2026-03-04T20:05:44Z,2026-03-04T20:05:44Z,2.3181,27,5464,0,828,2,0,1
+anthropics/skills,465,chore: export latest skills,MERGED,2026-02-25T01:11:59Z,2026-02-25T04:28:39Z,2026-02-25T04:28:39Z,3.2778,20,5214,635,81,3,3,1
+anthropics/skills,451,Add calendar-scheduling skill,CLOSED,2026-02-22T12:49:40Z,2026-02-28T08:28:47Z,,139.6519,12,1020,0,2795,2,1,1

@@ -1,0 +1,63 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+caddyserver/caddy,7688,caddyauth: revert user placeholders on auth rejection,MERGED,2026-05-03T06:51:33Z,2026-05-05T15:12:46Z,2026-05-05T15:12:46Z,56.3536,2,7,90,642,3,2,2
+caddyserver/caddy,7676,listeners: clean up stale Unix socket files on Windows,MERGED,2026-04-28T18:14:18Z,2026-04-29T11:52:05Z,2026-04-29T11:52:05Z,17.6297,3,110,4,5819,3,7,1
+caddyserver/caddy,7673,admin: require path segment boundary in remote access control,MERGED,2026-04-25T10:22:40Z,2026-04-27T14:43:40Z,2026-04-27T14:43:40Z,52.35,2,119,3,737,2,0,1
+caddyserver/caddy,7670,fix: Propagate ECH keys to the QUIC listener,MERGED,2026-04-23T06:28:34Z,2026-04-23T19:33:41Z,2026-04-23T19:33:41Z,13.0853,2,72,1,1092,2,0,1
+caddyserver/caddy,7668,build(deps): bump github.com/jackc/pgx/v5 from 5.9.0 to 5.9.2,MERGED,2026-04-23T00:25:19Z,2026-04-26T13:51:26Z,2026-04-26T13:51:26Z,85.4353,2,3,3,4893,1,0,1
+caddyserver/caddy,7666,caddyhttp: prefer port 443 in auto-HTTPS and add tests,MERGED,2026-04-22T17:56:55Z,2026-04-23T07:29:04Z,2026-04-23T07:29:04Z,13.5358,3,97,7,1088,2,1,1
+caddyserver/caddy,7664,metrics: Implement pushing via OLTP,MERGED,2026-04-22T10:18:10Z,2026-04-25T10:52:08Z,2026-04-25T10:52:08Z,72.5661,7,183,8,2228,3,0,2
+caddyserver/caddy,7655,build(deps): bump github.com/jackc/pgx/v5 from 5.8.0 to 5.9.0,MERGED,2026-04-16T23:32:18Z,2026-04-17T20:50:54Z,2026-04-17T20:50:54Z,21.31,2,3,3,6741,1,0,1
+caddyserver/caddy,7654,fileserver: Support precompressed files w/o base.,CLOSED,2026-04-16T03:08:06Z,2026-04-17T01:49:01Z,,22.6819,5,864,8,315,5,10,3
+caddyserver/caddy,7652,chore: add `AGENTS.md`,MERGED,2026-04-15T17:18:23Z,2026-04-17T20:49:59Z,2026-04-17T20:49:59Z,51.5267,1,217,0,522,3,0,9
+caddyserver/caddy,7650,tls: Add alpn to managed HTTPS records,CLOSED,2026-04-14T23:39:47Z,2026-04-15T21:51:39Z,,22.1978,5,275,13,1946,3,2,1
+caddyserver/caddy,7648,chore: Use atomics where appropriate,MERGED,2026-04-13T04:39:06Z,2026-04-25T07:47:55Z,2026-04-25T07:47:55Z,291.1469,8,47,51,1054,3,2,1
+caddyserver/caddy,7644,logging: Preserve ts for journald-wrapped JSON logs,MERGED,2026-04-11T14:02:46Z,2026-04-13T23:33:02Z,2026-04-13T23:33:02Z,57.5044,2,9,12,623,2,0,1
+caddyserver/caddy,7642,caddyfile: Improve import/global options UX for imports before global options,MERGED,2026-04-10T22:13:49Z,2026-04-10T23:17:55Z,2026-04-10T23:17:55Z,1.0683,4,101,1,1490,2,1,1
+caddyserver/caddy,7640,vars: Add matcher placeholder handling tests,MERGED,2026-04-10T19:53:41Z,2026-04-10T22:27:52Z,2026-04-10T22:27:52Z,2.5697,1,159,0,1030,2,1,2
+caddyserver/caddy,7637,build(deps): bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp from 1.42.0 to 1.43.0,MERGED,2026-04-08T19:50:08Z,2026-04-10T20:31:09Z,2026-04-10T20:31:09Z,48.6836,2,32,32,12111,1,0,1
+caddyserver/caddy,7636,build(deps): bump go.opentelemetry.io/otel/sdk from 1.42.0 to 1.43.0,CLOSED,2026-04-08T19:44:21Z,2026-04-10T20:31:56Z,,48.7931,2,15,15,12000,1,1,1
+caddyserver/caddy,7629,vars: Don't expand placeholders in values,MERGED,2026-04-04T08:06:21Z,2026-04-10T15:37:43Z,2026-04-10T15:37:43Z,151.5228,1,10,22,979,4,5,1
+caddyserver/caddy,7627,reverseproxy: make stream copy buffer size configurable,MERGED,2026-04-04T06:12:44Z,2026-04-10T20:49:32Z,2026-04-10T20:49:32Z,158.6133,5,129,4,1177,3,0,2
+caddyserver/caddy,7623,logging: Add journald encoder wrapper,MERGED,2026-04-03T10:46:47Z,2026-04-10T23:09:12Z,2026-04-10T23:09:12Z,180.3736,3,423,0,1850,4,5,1
+caddyserver/caddy,7621,build(deps): bump github.com/go-jose/go-jose/v4 from 4.1.3 to 4.1.4,MERGED,2026-04-03T03:43:47Z,2026-04-10T22:33:08Z,2026-04-10T22:33:08Z,186.8225,2,3,3,2322,1,0,1
+caddyserver/caddy,7620,logging: Add regression coverage for rotated file mode,MERGED,2026-04-03T00:18:34Z,2026-04-26T13:30:44Z,2026-04-26T13:30:44Z,565.2028,1,41,0,1123,2,0,1
+caddyserver/caddy,7618,chore: bump timberjack to v1.4.1,MERGED,2026-04-02T11:15:44Z,2026-04-13T07:31:59Z,2026-04-13T07:31:59Z,260.2708,2,3,3,435,3,3,1
+caddyserver/caddy,7617,httpcaddyfile: Inherit global ACME issuer settings in tls shortcuts,MERGED,2026-04-02T05:45:58Z,2026-04-26T13:39:57Z,2026-04-26T13:39:57Z,583.8997,3,412,19,1533,3,8,1
+caddyserver/caddy,7609,caddytls: Expand placeholders in dns_challenge override_domain tls parameter,MERGED,2026-03-31T03:36:10Z,2026-03-31T05:46:32Z,2026-03-31T05:46:32Z,2.1728,1,9,0,228,3,1,1
+caddyserver/caddy,7599,rewrite: skip query rename when source key is absent,MERGED,2026-03-28T08:14:56Z,2026-03-28T17:10:34Z,2026-03-28T17:10:34Z,8.9272,2,58,1,1533,2,0,1
+caddyserver/caddy,7597,"notify: Always send ""READY=1"" even after an error",MERGED,2026-03-26T21:45:18Z,2026-03-28T19:08:35Z,2026-03-28T19:08:35Z,45.3881,1,2,3,3675,2,0,1
+caddyserver/caddy,7594,root: introduce down-propagating Helper.BlockState for other directives/plugins to use,MERGED,2026-03-26T15:29:13Z,2026-03-28T17:44:42Z,2026-03-28T17:44:42Z,50.2581,5,23,7,300,2,12,3
+caddyserver/caddy,7593,chore: Resolve recent CI failures,MERGED,2026-03-25T22:38:58Z,2026-03-26T05:21:27Z,2026-03-26T05:21:27Z,6.7081,4,227,226,1075,2,0,1
+caddyserver/caddy,7592,admin: reject non-canonical config array indices,MERGED,2026-03-24T10:40:32Z,2026-04-30T15:39:58Z,2026-04-30T15:39:58Z,892.9906,2,62,2,1065,4,9,4
+caddyserver/caddy,7586,http: make zstd checksum configurable,MERGED,2026-03-21T15:31:39Z,2026-03-28T19:07:21Z,2026-03-28T19:07:21Z,171.595,3,94,27,1661,4,0,3
+caddyserver/caddy,7579,fileserver: show symlink targets verbatim (#7476),MERGED,2026-03-18T08:30:12Z,2026-04-14T18:49:31Z,2026-04-14T18:49:30Z,658.3217,1,1,2,1031,4,2,1
+caddyserver/caddy,7578,admin: Redact sensitive request headers in API logs,MERGED,2026-03-18T07:51:04Z,2026-04-17T20:56:42Z,2026-04-17T20:56:42Z,733.0939,9,192,125,1352,3,6,1
+caddyserver/caddy,7577,caddytls: Avoid ACME fallback for implicit Tailscale *.ts.net policies,MERGED,2026-03-18T07:37:01Z,2026-03-20T15:36:03Z,2026-03-20T15:36:03Z,55.9839,2,61,1,615,3,2,1
+caddyserver/caddy,7573,caddyhttp: Sync placeholder expansion in `vars` and `vars_regexp`,MERGED,2026-03-16T15:43:18Z,2026-03-17T19:08:48Z,2026-03-17T19:08:48Z,27.425,1,37,22,406,2,0,1
+caddyserver/caddy,7571,chore: replace `interface{}` with `any` for modernization,MERGED,2026-03-16T10:02:32Z,2026-04-11T16:53:12Z,2026-04-11T16:53:12Z,630.8444,1,4,4,1145,3,4,1
+caddyserver/caddy,7569,reverseproxy: add `lb_retry_match` condition on response status,MERGED,2026-03-14T04:33:01Z,2026-04-21T18:59:32Z,2026-04-21T18:59:32Z,926.4419,8,1029,20,14251,4,10,5
+caddyserver/caddy,7564,reverseproxy: Fix check for `header_up Host {upstream_hostport}` redundancy,MERGED,2026-03-12T09:08:16Z,2026-03-30T16:56:10Z,2026-03-30T16:56:10Z,439.7983,1,8,3,616,4,10,2
+caddyserver/caddy,7558,fix(caddyfile): {block} in snippet,MERGED,2026-03-10T03:40:16Z,2026-04-15T06:58:53Z,2026-04-15T06:58:53Z,867.3103,4,98,1,2681,4,4,1
+caddyserver/caddy,7554,caddytls: Expand ACME credentials,MERGED,2026-03-07T09:27:50Z,2026-05-02T21:13:57Z,2026-05-02T21:13:57Z,1355.7686,2,79,0,1156,4,4,2
+caddyserver/caddy,7548,fileserver: document hide case-sensitivity (F-CADDY-FILESERVER-HIDE-CASE-001),MERGED,2026-03-04T20:55:16Z,2026-03-04T22:00:10Z,2026-03-04T22:00:10Z,1.0817,1,5,0,275,3,0,2
+caddyserver/caddy,7543,fix(caddyfile): Prevent parser to panic when no token were added by empty {block},MERGED,2026-03-03T05:53:49Z,2026-03-03T18:16:21Z,2026-03-03T18:16:21Z,12.3756,3,68,1,1512,4,5,1
+caddyserver/caddy,7540,proxyproto: Generated test coverage,MERGED,2026-03-02T09:50:53Z,2026-03-03T22:08:09Z,2026-03-03T22:08:09Z,36.2878,1,595,0,364,2,0,1
+caddyserver/caddy,7539,"reverseproxy: Track dynamic upstreams, enable passive healthchecking",MERGED,2026-03-02T09:07:04Z,2026-03-04T20:05:27Z,2026-03-04T20:05:27Z,58.9731,6,1096,13,3214,2,0,1
+caddyserver/caddy,7538,context: Wire up Cause for most context cancels,MERGED,2026-03-02T08:02:37Z,2026-03-05T00:14:52Z,2026-03-05T00:14:52Z,64.2042,6,42,23,407,2,0,3
+caddyserver/caddy,7537,reverseproxy: query escape request urls when proxy protocol is enabled,MERGED,2026-03-02T03:33:08Z,2026-03-02T07:04:06Z,2026-03-02T07:04:06Z,3.5161,1,6,1,849,2,2,1
+caddyserver/caddy,7536,build(deps): bump the actions-deps group across 1 directory with 12 updates,MERGED,2026-03-01T23:54:23Z,2026-03-05T04:29:44Z,2026-03-05T04:29:44Z,76.5892,8,41,41,65535,3,7,1
+caddyserver/caddy,7535,build(deps): bump github.com/smallstep/certificates from 0.30.0-rc2.0.20260211214201-20608299c29c to 0.30.0-rc3 in the all-updates group,MERGED,2026-03-01T23:53:04Z,2026-03-05T04:26:18Z,2026-03-05T04:26:18Z,76.5539,2,15,15,2439,1,0,1
+caddyserver/caddy,7534,caddyhttp: Evaluate tls.client placeholders more accurately (fix #7530),MERGED,2026-02-27T22:48:41Z,2026-03-01T05:03:18Z,2026-03-01T05:03:18Z,30.2436,1,10,1,943,3,3,1
+caddyserver/caddy,7533,reverseproxy: Fix `health_port` being ignored in health checks,MERGED,2026-02-27T21:12:29Z,2026-03-03T18:10:54Z,2026-03-03T18:10:54Z,92.9736,2,68,0,974,4,3,1
+caddyserver/caddy,7532,"cmd: Pass configFile, not configFlag, for reload command",MERGED,2026-02-27T19:16:22Z,2026-02-27T22:24:05Z,2026-02-27T22:24:05Z,3.1286,1,1,1,1217,2,0,5
+caddyserver/caddy,7521,caddyhttp: Avoid nil pointer dereference in proxyWrapper,MERGED,2026-02-24T20:21:34Z,2026-02-25T09:08:41Z,2026-02-25T09:08:41Z,12.7853,1,3,0,855,5,4,1
+caddyserver/caddy,7519,chore: Enable modernize linter,MERGED,2026-02-24T18:13:17Z,2026-02-26T21:01:35Z,2026-02-26T21:01:35Z,50.805,10,13,12,218,2,1,1
+caddyserver/caddy,7517,admin: Track reverse_proxy in-flight requests,MERGED,2026-02-24T12:30:40Z,2026-03-03T22:14:55Z,2026-03-03T22:14:55Z,177.7375,2,49,2,978,4,4,4
+caddyserver/caddy,7515,logging: Support `zstd` roll compression,MERGED,2026-02-23T07:40:23Z,2026-02-23T23:04:46Z,2026-02-23T23:04:46Z,15.4064,2,46,2,260,3,0,2
+caddyserver/caddy,7513,cmd: Custom binary names through `CustomBinaryName` and `CustomLongDescription`,MERGED,2026-02-22T08:27:02Z,2026-03-02T11:04:29Z,2026-03-02T11:04:29Z,194.6242,2,42,4,236,4,2,5
+caddyserver/caddy,7512,logging: Ensure `slog` error level logs don't print stack traces,MERGED,2026-02-22T02:34:10Z,2026-03-03T21:44:42Z,2026-03-03T21:44:42Z,235.1756,3,17,6,669,2,3,1
+caddyserver/caddy,7510,autohttps: Ensure CertMagic config is recreated after autohttps runs,MERGED,2026-02-21T22:00:09Z,2026-03-03T21:44:06Z,2026-03-03T21:44:06Z,239.7325,2,77,6,482,2,0,1
+caddyserver/caddy,7508,reverseproxy: fix tls dialing w/ proxy protocol,MERGED,2026-02-21T15:57:08Z,2026-02-22T02:37:10Z,2026-02-22T02:37:10Z,10.6672,2,91,4,439,3,0,2
+caddyserver/caddy,7507,httpcaddyfile: Fix missing TLS connection policies when auto_https is default (#7325),MERGED,2026-02-21T15:43:23Z,2026-02-22T02:42:04Z,2026-02-22T02:42:04Z,10.9781,2,53,1,1154,2,0,1
+caddyserver/caddy,7502,http: Sort auto-HTTPS redirect routes by host specificity (fix #7390),MERGED,2026-02-20T20:22:08Z,2026-02-22T02:42:40Z,2026-02-22T02:42:40Z,30.3422,2,80,0,2016,2,0,1
+caddyserver/caddy,7501,Release Proposal: v2.11.0,CLOSED,2026-02-20T19:46:35Z,2026-02-20T22:51:11Z,,3.0767,0,0,0,4555,2,4,2

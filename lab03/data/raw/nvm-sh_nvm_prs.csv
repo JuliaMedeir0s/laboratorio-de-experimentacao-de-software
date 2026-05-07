@@ -1,0 +1,44 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+nvm-sh/nvm,3837,Fix: Add local for sanitized_header,MERGED,2026-05-03T18:22:35Z,2026-05-05T23:21:47Z,2026-05-05T23:21:47Z,52.9867,1,1,0,94,2,0,1
+nvm-sh/nvm,3834,Fix same owner for root when install from binary,MERGED,2026-05-03T11:57:32Z,2026-05-05T22:49:27Z,2026-05-05T22:49:26Z,58.865,2,3,1,639,2,8,1
+nvm-sh/nvm,3826,[tests] remove double-substitution in assert_ok and assert_not_ok,MERGED,2026-04-23T14:17:04Z,2026-04-24T17:35:44Z,2026-04-24T17:35:44Z,27.3111,4,59,3,192,2,4,1
+nvm-sh/nvm,3821,[readme] do not use tilde expansion in ENV of Dockerfile,MERGED,2026-04-11T04:37:43Z,2026-04-24T18:05:29Z,2026-04-24T18:05:29Z,325.4628,1,1,1,382,3,2,1
+nvm-sh/nvm,3806,[Docs] Clean up wording in docs and shell comments,MERGED,2026-03-23T16:07:20Z,2026-03-24T21:45:52Z,2026-03-24T21:45:52Z,29.6422,4,6,6,124,3,0,2
+nvm-sh/nvm,3804,[Docs] fix CONTRIBUTING grammar,MERGED,2026-03-19T01:42:54Z,2026-03-24T21:07:47Z,2026-03-24T21:07:47Z,139.4147,1,1,1,271,4,0,2
+nvm-sh/nvm,3802,Revise Node.js version usage examples,MERGED,2026-03-14T12:40:32Z,2026-03-24T20:54:46Z,2026-03-24T20:54:46Z,248.2372,1,9,9,238,2,2,1
+nvm-sh/nvm,3799,"[readme] use tilde instead of hardcoded home directory ""/home/user""",MERGED,2026-03-05T10:49:25Z,2026-03-24T23:52:02Z,2026-03-24T23:52:02Z,469.0436,1,1,1,134,2,0,3
+nvm-sh/nvm,3782,[spam],CLOSED,2026-02-13T19:07:36Z,2026-02-14T00:06:47Z,,4.9864,1,0,0,6113,2,0,1
+nvm-sh/nvm,3775,[actions] upgrade vampire/setup-wsl,MERGED,2026-02-05T09:21:05Z,2026-03-24T22:15:55Z,2026-03-24T22:15:55Z,1140.9139,1,3,3,1459,2,6,3
+nvm-sh/nvm,3774,[meta] Align and enhance AGENTS.md instructions,MERGED,2026-02-03T16:11:41Z,2026-03-24T23:13:45Z,2026-03-24T23:13:45Z,1183.0344,1,23,3,1337,2,0,1
+nvm-sh/nvm,3768,Improve uninstall error message for missing versions,MERGED,2026-01-27T16:08:38Z,2026-01-29T20:50:00Z,2026-01-29T20:49:59Z,52.6892,4,38,2,1011,4,3,2
+nvm-sh/nvm,3762,[actions] update outdated GitHub Actions versions,MERGED,2026-01-19T16:40:30Z,2026-01-20T06:26:29Z,2026-01-20T06:26:29Z,13.7664,8,14,14,875,2,0,1
+nvm-sh/nvm,3759,[spam],CLOSED,2026-01-14T02:17:20Z,2026-01-14T05:55:07Z,,3.6297,1,99,0,30,3,2,1
+nvm-sh/nvm,3740,Fix/workflow permissions,CLOSED,2025-12-04T09:47:48Z,2025-12-05T02:04:29Z,,16.2781,10,67,30,0,2,3,3
+nvm-sh/nvm,3739,feat: improve Dockerfile security and best practices,CLOSED,2025-12-04T09:00:26Z,2025-12-06T02:54:22Z,,41.8989,1,8,8,388,3,1,5
+nvm-sh/nvm,3730,[spam],CLOSED,2025-11-29T18:41:29Z,2025-12-04T21:15:06Z,,122.5603,0,0,0,964,2,0,1
+nvm-sh/nvm,3718,[Fix] Reject bare LTS codenames in nvm install,MERGED,2025-11-24T16:34:34Z,2026-01-20T20:40:20Z,2026-01-20T20:40:19Z,1372.0958,2,29,0,1484,3,1,2
+nvm-sh/nvm,3715,add --no-colors if not in a tty.,CLOSED,2025-11-22T21:51:41Z,2026-03-26T18:22:45Z,,2972.5178,2,21,0,57,4,2,6
+nvm-sh/nvm,3713,[Security] Fix HIGH vulnerability: yaml.github-actions.security.run-shell-injection.run-shell-injection,CLOSED,2025-11-19T08:47:52Z,2025-12-03T00:30:07Z,,327.7042,1,13,7,7485,2,0,10
+nvm-sh/nvm,3703,[spam],CLOSED,2025-11-13T00:32:35Z,2025-11-13T02:02:20Z,,1.4958,4,846,0,0,2,0,1
+nvm-sh/nvm,3698,Set NVM_IOJS to false by default to fix unbound variable error,CLOSED,2025-11-01T04:32:51Z,2025-11-04T07:54:13Z,,75.3561,1,1,1,755,2,1,1
+nvm-sh/nvm,3689,[spam],CLOSED,2025-10-20T17:17:31Z,2025-10-20T18:27:15Z,,1.1622,1,31,0,0,2,0,1
+nvm-sh/nvm,3687,[readme] fix typos,MERGED,2025-10-18T01:31:56Z,2026-01-20T20:57:53Z,2026-01-20T20:57:53Z,2275.4325,2,2,2,9,2,0,1
+nvm-sh/nvm,3680,docs: edited Travis's faulty badge,CLOSED,2025-10-13T10:57:55Z,2025-11-18T14:24:53Z,,867.4494,1,2,2,0,3,3,4
+nvm-sh/nvm,3660,[spam],CLOSED,2025-09-18T22:24:54Z,2025-09-25T16:43:26Z,,162.3089,1,1,5,0,3,0,1
+nvm-sh/nvm,3658,[security] add security escalation policy,MERGED,2025-09-15T12:34:16Z,2026-01-20T21:12:33Z,2026-01-20T21:12:33Z,3056.6381,1,7,0,73,4,4,2
+nvm-sh/nvm,3655,Migrate GitHub Copilot instructions to AGENTS.md,MERGED,2025-09-14T19:09:48Z,2026-01-28T01:23:51Z,2026-01-28T01:23:51Z,3246.2342,2,4,3,402,2,1,2
+nvm-sh/nvm,3654,[Fix] install.sh: Force remote name of cloned repo to be 'origin',MERGED,2025-09-11T20:39:44Z,2025-11-10T02:54:38Z,2025-11-10T02:54:38Z,1422.2483,1,1,1,870,2,10,1
+nvm-sh/nvm,3650,[spam],CLOSED,2025-09-06T13:39:21Z,2025-09-06T18:03:29Z,,4.4022,19,0,1490,7,2,1,1
+nvm-sh/nvm,3643,[spam],CLOSED,2025-08-21T19:22:44Z,2025-08-21T21:20:24Z,,1.9611,1,1,1,0,2,0,1
+nvm-sh/nvm,3641,[readme] add background on io.js,MERGED,2025-08-20T13:58:58Z,2026-01-20T21:39:17Z,2026-01-20T21:39:17Z,3679.6719,1,4,1,146,2,0,2
+nvm-sh/nvm,3624,fix: fix cygwin symlink,CLOSED,2025-07-22T10:18:36Z,2025-07-26T20:19:17Z,,106.0114,2,20,9,195,2,6,1
+nvm-sh/nvm,3609,[meta] Add comprehensive .github/copilot-instructions.md for better AI code assistance,MERGED,2025-07-02T17:12:45Z,2025-07-03T22:16:47Z,2025-07-03T22:16:47Z,29.0672,1,427,0,3268,2,13,52
+nvm-sh/nvm,3590,[readme] Update installation by Docker to v0.40.3,MERGED,2025-06-06T09:15:25Z,2025-07-03T20:17:16Z,2025-07-03T20:17:16Z,659.0308,1,1,1,0,2,0,1
+nvm-sh/nvm,3567,[spam],CLOSED,2025-04-15T13:41:20Z,2025-04-16T00:53:55Z,,11.2097,2,142,1064,79,2,1,2
+nvm-sh/nvm,3564,Fix node version detection in nvm_install_latest_npm,MERGED,2025-04-09T05:23:26Z,2025-04-09T06:56:53Z,2025-04-09T06:56:53Z,1.5575,1,7,7,761,4,2,5
+nvm-sh/nvm,3559,[spam],CLOSED,2025-04-06T10:57:05Z,2025-04-07T04:51:42Z,,17.9103,0,0,0,0,3,1,1
+nvm-sh/nvm,3546,[Fix] nvm : Check if Node version is already active before switching,CLOSED,2025-03-12T03:08:32Z,2025-12-16T00:46:59Z,,6693.6408,1,7,0,571,2,0,1
+nvm-sh/nvm,3532,[spam],CLOSED,2025-02-24T00:57:50Z,2025-02-24T18:54:41Z,,17.9475,1,28,0,0,1,0,1
+nvm-sh/nvm,3523,[spam],CLOSED,2025-02-05T19:22:53Z,2025-02-05T20:48:34Z,,1.4281,1,5,0,26,2,0,1
+nvm-sh/nvm,3516,Added missing colons for consistency and correctness,MERGED,2025-01-28T06:29:15Z,2026-01-20T23:00:03Z,2026-01-20T23:00:03Z,8584.5133,1,1,1,235,2,1,1
+nvm-sh/nvm,3507,📝 update copyright notice,MERGED,2025-01-10T20:42:01Z,2025-02-04T03:04:34Z,2025-02-04T03:04:34Z,582.3758,1,2,3,94,3,0,3

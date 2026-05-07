@@ -1,0 +1,49 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+karpathy/autoresearch,574,feat(train): log final resid_lambdas / x0_lambdas — does this complexity actually do work?,CLOSED,2026-04-30T20:17:08Z,2026-05-05T09:59:25Z,,109.7047,1,10,0,4026,2,0,1
+karpathy/autoresearch,572,feat(program): add axis column to results.tsv schema (5 → 6 columns),CLOSED,2026-04-30T07:47:51Z,2026-05-05T10:00:19Z,,122.2078,1,10,8,2945,2,0,1
+karpathy/autoresearch,571,feat(train): log loss_std_last_100 as honest-loss stability signal,CLOSED,2026-04-30T07:41:48Z,2026-05-05T10:02:01Z,,122.3369,1,10,0,2986,2,0,1
+karpathy/autoresearch,570,feat(program): multi-agent section — cuckoo abandonment + octopus loose coupling,CLOSED,2026-04-30T07:39:55Z,2026-05-05T10:02:13Z,,122.3717,1,8,0,3225,2,0,1
+karpathy/autoresearch,569,feat(program): pheromone trail biases axis selection by success,CLOSED,2026-04-30T07:38:34Z,2026-05-05T10:02:29Z,,122.3986,1,11,0,3699,2,0,1
+karpathy/autoresearch,568,feat(program): apical-dominance lateral-roots protocol for stall break,CLOSED,2026-04-30T07:32:03Z,2026-05-05T10:02:43Z,,122.5111,1,2,0,2836,2,0,1
+karpathy/autoresearch,567,feat(program): hippocampal-style replay buffer for renewable variation,CLOSED,2026-04-30T07:31:01Z,2026-05-05T10:02:55Z,,122.5317,1,2,0,3361,2,0,1
+karpathy/autoresearch,566,feat(program): scale-confirm protocol distinguishes transferable wins (related #226),CLOSED,2026-04-30T07:29:50Z,2026-05-05T10:03:16Z,,122.5572,1,2,0,3465,2,0,1
+karpathy/autoresearch,565,feat(program): read local curvature out of the discard log (fluctuation-dissipation),CLOSED,2026-04-30T07:28:24Z,2026-05-05T10:03:37Z,,122.5869,1,10,0,2936,2,0,1
+karpathy/autoresearch,564,feat(program): golden-angle sampling for continuous-knob sweeps,CLOSED,2026-04-30T07:27:09Z,2026-05-05T10:03:59Z,,122.6139,1,19,0,3170,2,0,1
+karpathy/autoresearch,563,feat(program): Metropolis-Hastings acceptance with cooling schedule,CLOSED,2026-04-30T07:25:48Z,2026-05-05T10:04:11Z,,122.6397,1,12,0,4176,2,0,1
+karpathy/autoresearch,562,feat(program): require a reverse-move statement (Feynman ratchet check),CLOSED,2026-04-30T07:24:13Z,2026-05-05T10:04:31Z,,122.6717,1,1,0,3274,2,0,1
+karpathy/autoresearch,561,feat(program): formalize Simplicity criterion as MDL free-energy comparison,CLOSED,2026-04-30T07:23:07Z,2026-05-05T10:04:43Z,,122.6933,1,9,0,3143,2,0,1
+karpathy/autoresearch,560,"feat(program): measure-the-noise-floor protocol — ""you are the easiest person to fool""",CLOSED,2026-04-30T07:01:02Z,2026-05-05T10:04:59Z,,123.0658,1,8,0,2828,2,1,1
+karpathy/autoresearch,559,docs: physics-inspired search strategies (companion to bioinspired.md),CLOSED,2026-04-30T07:00:01Z,2026-05-05T10:05:12Z,,123.0864,1,303,0,4038,2,0,1
+karpathy/autoresearch,558,feat(program): add inhibition-of-return axis-rotation rule,CLOSED,2026-04-30T06:26:00Z,2026-05-05T10:05:24Z,,123.6567,1,4,0,2228,2,0,1
+karpathy/autoresearch,555,feat(program): add Lévy-flight mutation-size guidance to the loop,CLOSED,2026-04-30T06:14:39Z,2026-05-05T10:08:14Z,,123.8931,1,8,0,2129,2,0,1
+karpathy/autoresearch,554,docs: bio-inspired search strategies for the autoresearch loop,CLOSED,2026-04-30T06:13:37Z,2026-05-05T10:08:21Z,,123.9122,1,305,0,3176,2,0,1
+karpathy/autoresearch,541,Performance opt inner loop lookup 12876942751691990208,CLOSED,2026-04-23T05:11:33Z,2026-04-23T07:39:36Z,,2.4675,3,171,22,0,3,0,2
+karpathy/autoresearch,540,Fix insecure deserialization torch load 2033323798907486799,CLOSED,2026-04-23T05:11:15Z,2026-04-23T07:41:11Z,,2.4989,4,233,44,0,3,0,2
+karpathy/autoresearch,539,Add prepare tests 1130959396657883803,CLOSED,2026-04-23T05:11:02Z,2026-04-23T07:41:28Z,,2.5072,4,273,21,0,3,0,2
+karpathy/autoresearch,538,Remove unused import contextlib 10242473096484649971,CLOSED,2026-04-23T05:10:48Z,2026-04-23T07:41:56Z,,2.5189,3,167,21,0,3,0,2
+karpathy/autoresearch,537,Perf optimize doc packing 9840262061695493919,CLOSED,2026-04-23T05:10:33Z,2026-04-23T07:42:12Z,,2.5275,4,251,58,0,3,0,2
+karpathy/autoresearch,536,Fix insecure deserialization 11111558534305927395,CLOSED,2026-04-23T05:10:10Z,2026-04-23T07:42:31Z,,2.5392,4,199,32,0,3,0,2
+karpathy/autoresearch,535,Fix unused import contextlib train py 12325051244352976210,CLOSED,2026-04-23T05:09:17Z,2026-04-23T07:42:46Z,,2.5581,3,167,21,0,3,0,2
+karpathy/autoresearch,534,Testing improvement muon momentum 13933325660301805954,CLOSED,2026-04-23T05:08:49Z,2026-04-23T07:43:02Z,,2.5703,4,400,176,0,3,0,2
+karpathy/autoresearch,533,Testing norm function train py 17975762882454905347,CLOSED,2026-04-23T05:08:19Z,2026-04-23T07:44:00Z,,2.5947,4,381,170,0,3,0,2
+karpathy/autoresearch,532,Cleanup unused variables 698149902004775221,CLOSED,2026-04-23T05:07:40Z,2026-04-23T07:43:28Z,,2.5967,3,409,110,0,3,0,2
+karpathy/autoresearch,531,Optimize ddp dataloader wrapper 6591257984435152497,CLOSED,2026-04-23T05:04:50Z,2026-04-23T07:43:44Z,,2.6483,3,164,21,0,3,0,2
+karpathy/autoresearch,527,"Cambridge FRP R14, EMI placement data, and Q1 EMI–TMI draft",CLOSED,2026-04-19T19:09:21Z,2026-04-21T11:28:09Z,,40.3133,34,4184,0,200,2,0,1
+karpathy/autoresearch,526,Security Fix: Automated security improvements,CLOSED,2026-04-19T00:19:04Z,2026-04-20T06:36:30Z,,30.2906,2,6,2,488,2,0,1
+karpathy/autoresearch,525,Security Fix: Automated security improvements,CLOSED,2026-04-19T00:16:01Z,2026-04-20T06:35:45Z,,30.3289,2,6,2,488,2,0,1
+karpathy/autoresearch,524,Security Fix: Automated security improvements,CLOSED,2026-04-19T00:15:37Z,2026-04-20T06:35:13Z,,30.3267,2,6,2,488,2,0,1
+karpathy/autoresearch,521,fix: for smaller gpu and personal laptop,CLOSED,2026-04-18T02:54:15Z,2026-04-18T07:03:23Z,,4.1522,4,99,30,0,2,0,1
+karpathy/autoresearch,511,Product rd agent 4949800408095639184,CLOSED,2026-04-12T04:05:22Z,2026-04-12T12:15:52Z,,8.175,14,984,2998,0,2,0,1
+karpathy/autoresearch,500,Integrate preflight governor into train run and skip env-failure history,CLOSED,2026-04-08T04:04:36Z,2026-04-29T08:26:33Z,,508.3658,1,427,205,0,5,3,2
+karpathy/autoresearch,496,fix: declare flat-layout modules for editable installs,CLOSED,2026-04-07T05:52:10Z,2026-04-07T07:42:31Z,,1.8392,1,3,0,429,2,0,1
+karpathy/autoresearch,495,feat: CLI analysis tool for experiment results,CLOSED,2026-04-07T02:21:27Z,2026-04-08T18:31:31Z,,40.1678,4,713,2,1241,3,2,1
+karpathy/autoresearch,494,fix: add setuptools configuration for editable install,CLOSED,2026-04-07T02:20:47Z,2026-04-07T08:07:26Z,,5.7775,2,11,2,1459,2,0,1
+karpathy/autoresearch,493,fix: use raw token bytes for BPB calculation,CLOSED,2026-04-07T02:08:03Z,2026-04-07T08:04:53Z,,5.9472,1,8,2,364,2,1,1
+karpathy/autoresearch,487,fix: support multi-token string prepend in tokenizer.encode,CLOSED,2026-04-06T09:55:13Z,2026-04-06T11:27:28Z,,1.5375,3,76,5,945,2,0,1
+karpathy/autoresearch,478,Feat/atari gymnasium player,CLOSED,2026-04-04T10:28:13Z,2026-04-04T22:15:12Z,,11.7831,6,859,0,0,2,0,1
+karpathy/autoresearch,477,Codeanalyse und funktionsdetails 6ed54,CLOSED,2026-04-04T08:03:12Z,2026-04-04T22:15:46Z,,14.2094,32,2979,57,0,3,0,1
+karpathy/autoresearch,472,"Add structured reasoning loop with lightweight state, evaluation, and knowledge graph support",CLOSED,2026-04-03T19:44:49Z,2026-04-11T07:29:25Z,,179.7433,5,239,0,1929,3,5,2
+karpathy/autoresearch,464,Add notable fork link for SciMLx,CLOSED,2026-04-02T04:55:22Z,2026-04-06T08:38:05Z,,99.7119,1,1,0,487,1,0,1
+karpathy/autoresearch,433,Autoresearch/mar26,CLOSED,2026-03-27T19:10:02Z,2026-03-30T13:18:54Z,,66.1478,3,616,1003,0,2,1,1
+karpathy/autoresearch,420,Autoresearch/skill mar25,CLOSED,2026-03-26T00:18:45Z,2026-03-27T11:03:13Z,,34.7411,10,774,0,0,2,0,1
+karpathy/autoresearch,379,🌍 Add Chinese Translation (Simplified & Traditional),CLOSED,2026-03-22T10:10:06Z,2026-03-23T01:29:55Z,,15.3303,2,188,0,946,2,1,1

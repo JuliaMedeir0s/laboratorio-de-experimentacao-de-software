@@ -1,0 +1,68 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+github/spec-kit,2449,fix: validate URL scheme in build_github_request,MERGED,2026-05-04T18:47:56Z,2026-05-05T18:28:30Z,2026-05-05T18:28:29Z,23.6758,2,94,2,1164,3,8,9
+github/spec-kit,2446,Add multi-model-review to community catalog,MERGED,2026-05-04T02:55:48Z,2026-05-04T22:14:32Z,2026-05-04T22:14:32Z,19.3122,2,51,0,1654,4,3,4
+github/spec-kit,2445,update security-review and memory-md extensions to latest versions,MERGED,2026-05-03T23:55:27Z,2026-05-04T15:07:59Z,2026-05-04T15:07:59Z,15.2089,2,15,14,921,3,1,5
+github/spec-kit,2441,[Security hardening] Pin GitHub Actions by SHA,MERGED,2026-05-02T06:37:59Z,2026-05-04T19:08:08Z,2026-05-04T19:08:08Z,60.5025,7,16,18,327,3,0,2
+github/spec-kit,2436,fix(workflows): require project for catalog list,MERGED,2026-05-02T05:58:50Z,2026-05-04T17:00:29Z,2026-05-04T17:00:29Z,59.0275,2,2,1,375,3,1,3
+github/spec-kit,2435,Update Ralph Loop to v1.0.2,MERGED,2026-05-01T22:33:33Z,2026-05-04T20:50:13Z,2026-05-04T20:50:13Z,70.2778,2,9,9,508,3,1,5
+github/spec-kit,2430,Add Architecture Guard to community catalog,MERGED,2026-05-01T15:11:43Z,2026-05-05T15:48:20Z,2026-05-05T15:48:20Z,96.6103,2,35,1,528,3,3,13
+github/spec-kit,2429,Update DyanGalih(Memory Hub and Security Review) community extensions,MERGED,2026-05-01T15:03:16Z,2026-05-01T16:55:56Z,2026-05-01T16:55:56Z,1.8778,1,7,7,90,3,1,2
+github/spec-kit,2428,chore(integrations): clean up docs and project guard,MERGED,2026-05-01T08:10:20Z,2026-05-01T15:33:22Z,2026-05-01T15:33:22Z,7.3839,3,53,118,574,3,1,6
+github/spec-kit,2425,chore(deps): bump DavidAnson/markdownlint-cli2-action from 23.0.0 to 23.1.0,MERGED,2026-04-30T21:55:37Z,2026-05-01T13:56:14Z,2026-05-01T13:56:14Z,16.0103,1,1,1,3404,1,0,1
+github/spec-kit,2417,feat: add Squad Bridge extension to community catalog,MERGED,2026-04-29T19:54:56Z,2026-04-29T22:05:09Z,2026-04-29T22:05:09Z,2.1703,2,40,0,1483,3,1,4
+github/spec-kit,2415,Add Work IQ extension to community catalog,MERGED,2026-04-29T15:39:34Z,2026-04-29T21:41:20Z,2026-04-29T21:41:20Z,6.0294,2,45,0,2030,3,2,3
+github/spec-kit,2413,feat(presets): add Spec2Cloud preset for Azure deployment workflow,MERGED,2026-04-29T15:04:55Z,2026-05-04T16:35:18Z,2026-05-04T16:35:18Z,121.5064,2,29,1,662,3,8,12
+github/spec-kit,2412,feat(extensions): add Spec2Cloud extension for Azure deployment workflow,MERGED,2026-04-29T14:43:57Z,2026-05-01T12:46:49Z,2026-05-01T12:46:49Z,46.0478,2,35,2,830,3,3,18
+github/spec-kit,2404,fix: migrate extension commands on integration switch,MERGED,2026-04-29T12:17:33Z,2026-05-01T12:41:38Z,2026-05-01T12:41:38Z,48.4014,4,342,9,3216,3,12,11
+github/spec-kit,2401,feat: improve catalog submission templates and CODEOWNERS,MERGED,2026-04-28T23:06:32Z,2026-05-05T21:59:26Z,2026-05-05T21:59:26Z,166.8817,9,129,249,1587,3,0,26
+github/spec-kit,2392,Add m365 to community catalog,MERGED,2026-04-28T14:49:43Z,2026-04-28T16:06:55Z,2026-04-28T16:06:55Z,1.2867,2,39,0,1061,3,2,11
+github/spec-kit,2389,Support controlled multi-install for safe AI agent integrations,MERGED,2026-04-28T07:47:25Z,2026-05-01T16:54:42Z,2026-05-01T16:54:42Z,81.1214,30,2592,480,8685,3,13,21
+github/spec-kit,2386,Add security-governance to community catalog,MERGED,2026-04-27T20:28:27Z,2026-05-01T13:17:13Z,2026-05-01T13:17:12Z,88.8125,2,33,2,985,3,1,3
+github/spec-kit,2385,Add isaqb-architecture-governance to community catalog,MERGED,2026-04-27T20:28:25Z,2026-04-28T20:34:54Z,2026-04-28T20:34:54Z,24.1081,2,30,1,1015,3,2,4
+github/spec-kit,2384,Add cross-platform-governance to community catalog,MERGED,2026-04-27T20:28:22Z,2026-05-01T13:03:13Z,2026-05-01T13:03:13Z,88.5808,2,33,2,1003,3,1,2
+github/spec-kit,2383,Add architecture-governance to community catalog,MERGED,2026-04-27T20:28:20Z,2026-05-01T12:57:03Z,2026-05-01T12:57:03Z,88.4786,2,33,2,997,3,1,3
+github/spec-kit,2382,Add agent-parity-governance to community catalog,MERGED,2026-04-27T20:28:18Z,2026-05-04T16:43:43Z,2026-05-04T16:43:43Z,164.2569,2,29,0,997,3,2,4
+github/spec-kit,2381,Add a11y-governance to community catalog,MERGED,2026-04-27T20:28:15Z,2026-05-01T12:47:22Z,2026-05-01T12:47:22Z,88.3186,2,33,2,973,3,1,1
+github/spec-kit,2379,catalog: add m365 community extension,CLOSED,2026-04-27T17:06:22Z,2026-04-28T14:09:29Z,,21.0519,0,0,0,1062,3,0,6
+github/spec-kit,2374,update security review extension catalog to v1.3.0,MERGED,2026-04-26T22:29:37Z,2026-04-29T12:16:02Z,2026-04-29T12:16:02Z,61.7736,2,7,7,1039,3,1,8
+github/spec-kit,2370,fix(extensions): use explicit UTF-8 encoding when reading manifest YAML,MERGED,2026-04-26T12:32:19Z,2026-04-28T13:47:23Z,2026-04-28T13:47:23Z,49.2511,4,83,3,1525,3,3,5
+github/spec-kit,2369,feat: add threatmodel extension to community catalog,MERGED,2026-04-26T03:31:27Z,2026-04-28T22:02:42Z,2026-04-28T22:02:42Z,66.5208,2,34,1,5369,3,4,8
+github/spec-kit,2367,feat: Speckit preset fiction book v1.7 - Support for RAG (Chroma DB) offline semantic search,MERGED,2026-04-25T06:44:33Z,2026-04-28T13:58:31Z,2026-04-28T13:58:31Z,79.2328,2,6,6,653,3,1,10
+github/spec-kit,2364,feat(integrations): add Devin for Terminal skills-based integration,MERGED,2026-04-25T00:55:01Z,2026-04-29T21:22:07Z,2026-04-29T21:22:07Z,116.4517,7,161,5,2891,3,8,9
+github/spec-kit,2360,feat: add catalog discovery CLI commands,MERGED,2026-04-24T21:07:18Z,2026-04-29T12:24:31Z,2026-04-29T12:24:31Z,111.2869,4,2070,20,5939,3,5,29
+github/spec-kit,2359,docs: replace deprecated --ai flag with --integration in all documentation,MERGED,2026-04-24T19:29:05Z,2026-04-24T21:04:05Z,2026-04-24T21:04:05Z,1.5833,8,84,87,1181,2,0,4
+github/spec-kit,2354,fix: resolve command references per integration type (dot vs hyphen),MERGED,2026-04-24T13:36:06Z,2026-04-24T15:04:14Z,2026-04-24T15:04:14Z,1.4689,21,434,55,3017,2,0,3
+github/spec-kit,2352,Update product-forge to v1.5.1 in community catalog,MERGED,2026-04-24T12:38:43Z,2026-04-24T14:48:51Z,2026-04-24T14:48:51Z,2.1689,2,10,10,3667,3,1,2
+github/spec-kit,2350,Add Spec Orchestrator extension to community catalog,MERGED,2026-04-24T10:30:26Z,2026-04-24T18:11:39Z,2026-04-24T18:11:39Z,7.6869,2,34,1,2396,3,2,4
+github/spec-kit,2349,fix(plan): use .specify/feature.json to allow /speckit.plan on custom git branches (#2305),MERGED,2026-04-24T03:57:15Z,2026-04-24T17:38:14Z,2026-04-24T17:38:14Z,13.6831,5,335,14,6499,3,8,8
+github/spec-kit,2345,chore(deps): bump astral-sh/setup-uv from 8.0.0 to 8.1.0,MERGED,2026-04-23T21:55:48Z,2026-04-24T12:36:23Z,2026-04-24T12:36:23Z,14.6764,1,2,2,8161,1,0,1
+github/spec-kit,2341,"docs: move community presets table to docs site, add missing entries",MERGED,2026-04-23T21:00:06Z,2026-04-24T16:03:11Z,2026-04-24T16:03:11Z,19.0514,3,21,21,737,2,0,5
+github/spec-kit,2340,docs(presets): add lean preset README and enrich catalog metadata,MERGED,2026-04-23T20:48:33Z,2026-04-24T15:06:40Z,2026-04-24T15:06:40Z,18.3019,3,55,1,421,2,0,2
+github/spec-kit,2337,Update extensify to v1.1.0 in community catalog,MERGED,2026-04-23T18:21:07Z,2026-04-24T18:58:35Z,2026-04-24T18:58:35Z,24.6244,1,5,5,521,2,0,1
+github/spec-kit,2336,feat(vibe): migrate to SkillsIntegration from the old prompts-based MarkdownIntegration,MERGED,2026-04-23T17:39:16Z,2026-04-24T17:37:06Z,2026-04-24T17:37:06Z,23.9639,2,151,12,6018,3,4,8
+github/spec-kit,2332,feat: Preset screenwriting,MERGED,2026-04-23T15:07:17Z,2026-04-23T19:24:30Z,2026-04-23T19:24:30Z,4.2869,2,57,1,633,3,2,7
+github/spec-kit,2331,"feat(extensions,presets): authenticate GitHub-hosted catalog and download requests with GITHUB_TOKEN/GH_TOKEN",MERGED,2026-04-23T14:57:03Z,2026-04-24T19:17:41Z,2026-04-24T19:17:41Z,28.3439,7,522,20,2963,3,1,5
+github/spec-kit,2327,Add Memory MD community extension,MERGED,2026-04-23T08:33:45Z,2026-04-23T12:50:27Z,2026-04-23T12:50:27Z,4.2783,2,34,1,240,3,1,2
+github/spec-kit,2326,Add spec-kit-memory-hub to community catalog,CLOSED,2026-04-23T05:54:47Z,2026-04-23T07:16:06Z,,1.3553,1,94,1,141,2,0,2
+github/spec-kit,2324,"feat(copilot): support `--integration-options=""--skills""` for skills-based scaffolding",MERGED,2026-04-22T22:48:47Z,2026-04-23T13:27:00Z,2026-04-23T13:27:00Z,14.6369,5,658,25,1997,3,0,4
+github/spec-kit,2316,feat(cli): add specify self check and self upgrade stub,MERGED,2026-04-22T15:59:48Z,2026-04-22T18:33:03Z,2026-04-22T18:33:03Z,2.5542,2,538,17,2854,4,5,11
+github/spec-kit,2313,"fix: resolve skill placeholders for all SKILL.md agents, not just codex/kimi",MERGED,2026-04-22T14:54:05Z,2026-04-22T20:12:45Z,2026-04-22T20:12:45Z,5.3111,3,75,2,3034,3,2,6
+github/spec-kit,2309,Add superpowers-bridge community extension,MERGED,2026-04-22T11:45:19Z,2026-04-22T13:14:59Z,2026-04-22T13:14:59Z,1.4944,2,36,2,1540,3,2,4
+github/spec-kit,2308,fix: sanitize subprocess call in __init__.py,CLOSED,2026-04-22T11:01:01Z,2026-04-22T12:34:24Z,,1.5564,2,56,54,1163,3,1,1
+github/spec-kit,2306,feat(catalog): add red-team extension to community catalog,MERGED,2026-04-22T09:36:09Z,2026-04-22T13:33:09Z,2026-04-22T13:33:09Z,3.95,1,33,1,6634,3,3,10
+github/spec-kit,2303,feat: add /speckit-red-team — adversarial spec review before /speckit-plan,CLOSED,2026-04-21T21:25:23Z,2026-04-22T09:36:22Z,,12.1831,1,272,0,5585,3,2,2
+github/spec-kit,2297,fix(git-extension): persist .specify/feature.json during feature creation,CLOSED,2026-04-21T16:09:21Z,2026-04-21T18:10:52Z,,2.0253,3,53,0,1902,3,1,5
+github/spec-kit,2296,fix(agents): block directory traversal in command write paths (#2229),MERGED,2026-04-21T15:22:24Z,2026-04-21T17:06:10Z,2026-04-21T17:06:10Z,1.7294,2,230,6,2577,3,1,1
+github/spec-kit,2292,fix: honor template overrides for tasks-template (#2278),MERGED,2026-04-21T14:21:03Z,2026-05-01T21:18:19Z,2026-05-01T21:18:19Z,246.9544,10,771,6,717,4,40,28
+github/spec-kit,2288,docs(install): add pipx as alternative installation method,MERGED,2026-04-21T02:21:53Z,2026-04-23T13:12:18Z,2026-04-23T13:12:18Z,58.8403,4,34,2,457,3,3,8
+github/spec-kit,2287,feat: add speckit.threatmodel command for OWASP Top 10 for LLM applications,CLOSED,2026-04-21T00:49:57Z,2026-04-26T03:32:32Z,,122.7097,9,433,3,6376,2,4,1
+github/spec-kit,2276,fix(integrations): migrate Antigravity (agy) layout to .agents/ and deprecate --skills,MERGED,2026-04-20T04:08:58Z,2026-04-20T16:57:46Z,2026-04-20T16:57:46Z,12.8133,3,50,21,998,3,7,9
+github/spec-kit,2274,Add spec-validate to community catalog,MERGED,2026-04-19T23:28:51Z,2026-04-20T23:27:26Z,2026-04-20T23:27:26Z,23.9764,2,34,1,1332,3,3,5
+github/spec-kit,2273,fix(scripts): persist .specify/feature.json during feature creation,CLOSED,2026-04-19T15:50:48Z,2026-04-21T16:11:32Z,,48.3456,5,47,2,1463,3,1,3
+github/spec-kit,2272,feat: register Ripple in community catalog,MERGED,2026-04-19T14:08:53Z,2026-04-20T22:54:39Z,2026-04-20T22:54:39Z,32.7628,2,33,0,2944,3,3,11
+github/spec-kit,2270,Preset fiction book writing1.6,MERGED,2026-04-18T19:49:10Z,2026-04-20T19:14:43Z,2026-04-20T19:14:43Z,47.4258,2,11,9,737,3,5,9
+github/spec-kit,2262,catalog: add wireframe extension (v0.1.1),MERGED,2026-04-17T18:43:02Z,2026-04-22T14:20:14Z,2026-04-22T14:20:14Z,115.62,2,36,0,3230,4,9,8
+github/spec-kit,2259,fix: replace shell-based context updates with marker-based upsert,MERGED,2026-04-17T14:41:21Z,2026-04-17T18:57:52Z,2026-04-17T18:57:52Z,4.2753,83,756,3521,1779,2,0,11
+github/spec-kit,2258,fix: suppress CRLF warnings in auto-commit.ps1,MERGED,2026-04-17T11:32:29Z,2026-04-17T14:27:46Z,2026-04-17T14:27:46Z,2.9214,2,176,5,2276,3,1,4
+github/spec-kit,2256,preset: Update preset-fiction-book-writing to community catalog -> v1.5.0,MERGED,2026-04-17T08:16:05Z,2026-04-17T13:04:44Z,2026-04-17T13:04:44Z,4.8108,2,10,9,1157,3,1,11
+github/spec-kit,2252,feat: register Blueprint in community catalog,MERGED,2026-04-17T01:01:08Z,2026-04-17T13:14:25Z,2026-04-17T13:14:25Z,12.2214,2,34,1,2624,3,3,5

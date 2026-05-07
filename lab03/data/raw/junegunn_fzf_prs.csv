@@ -1,0 +1,36 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+junegunn/fzf,4779,"Add --{header,header-lines,footer}-border=inline to include header and footer in the list section",MERGED,2026-04-19T05:48:48Z,2026-04-19T15:47:16Z,2026-04-19T15:47:16Z,9.9744,18,1145,271,280,2,0,4
+junegunn/fzf,4741,install: Fix tar for OpenBSD,CLOSED,2026-03-25T10:58:57Z,2026-03-26T12:08:04Z,,25.1519,1,12,2,729,3,1,5
+junegunn/fzf,4731,fish: Completion script rewrite (SHIFT-TAB),MERGED,2026-03-21T20:41:53Z,2026-04-02T12:55:43Z,2026-04-02T12:55:43Z,280.2306,9,243,496,8299,5,26,35
+junegunn/fzf,4723,Terminate child processes on Windows (fix #3134),MERGED,2026-03-18T04:52:09Z,2026-03-29T03:40:24Z,2026-03-29T03:40:24Z,262.8042,1,44,7,602,3,1,13
+junegunn/fzf,4719,"Add ""unix"" and ""fattr"" promises",MERGED,2026-03-16T00:46:04Z,2026-03-17T02:44:13Z,2026-03-17T02:44:13Z,25.9692,1,1,1,277,2,6,1
+junegunn/fzf,4714,Fix zsh history widget when `sh_glob` option is on,MERGED,2026-03-11T21:28:53Z,2026-03-13T00:21:04Z,2026-03-13T00:21:04Z,26.8697,2,2,1,261,3,4,4
+junegunn/fzf,4699,Remove tmppath pledge on OpenBSD,MERGED,2026-03-02T10:50:35Z,2026-03-02T13:55:14Z,2026-03-02T13:55:14Z,3.0775,1,1,1,131,2,1,1
+junegunn/fzf,4697,Fix nth attr merge order to respect precedence hierarchy,MERGED,2026-03-01T10:08:47Z,2026-03-02T03:00:21Z,2026-03-02T03:00:21Z,16.8594,4,82,22,650,2,0,1
+junegunn/fzf,4696,Performance tweaks,MERGED,2026-02-28T08:08:40Z,2026-03-01T06:57:39Z,2026-03-01T06:57:39Z,22.8164,7,217,26,1025,2,0,2
+junegunn/fzf,4691,Add change-with-nth action to dynamically change --with-nth,MERGED,2026-02-24T11:29:48Z,2026-03-01T07:09:54Z,2026-03-01T07:09:54Z,115.6683,9,548,181,85,4,7,3
+junegunn/fzf,4672,fish: Command history improvements,MERGED,2026-02-05T12:44:10Z,2026-02-19T14:41:26Z,2026-02-19T14:41:26Z,337.9544,6,69,20,1803,3,24,16
+junegunn/fzf,4664,"use mktemp, fix TERM quoting",MERGED,2026-01-21T13:38:42Z,2026-01-27T15:39:05Z,2026-01-27T15:39:05Z,146.0064,1,7,8,117,2,1,1
+junegunn/fzf,4653,Cancel key reading when 'execute' triggered via a server request,MERGED,2026-01-02T16:39:23Z,2026-01-08T15:29:41Z,2026-01-08T15:29:40Z,142.8381,8,174,41,194,2,0,2
+junegunn/fzf,4644,Fix goreleaser deprecation warnings,MERGED,2025-12-23T18:25:07Z,2025-12-23T23:57:44Z,2025-12-23T23:57:44Z,5.5436,1,6,4,410,2,1,1
+junegunn/fzf,4641,"Use builtin min, max",MERGED,2025-12-19T22:53:24Z,2025-12-23T00:14:33Z,2025-12-23T00:14:33Z,73.3525,13,95,245,0,3,3,4
+junegunn/fzf,4636,Fix --accept-nth being ignored in filter mode,MERGED,2025-12-16T14:44:59Z,2025-12-19T09:31:39Z,2025-12-19T09:31:39Z,66.7778,2,31,11,907,2,3,1
+junegunn/fzf,4635,fix: rebind readline command redraw-current-line,MERGED,2025-12-13T22:05:16Z,2026-01-02T16:44:49Z,2026-01-02T16:44:49Z,474.6592,1,4,4,3149,3,9,1
+junegunn/fzf,4622,zsh foreign test,MERGED,2025-12-04T09:27:08Z,2025-12-08T02:15:44Z,2025-12-08T02:15:44Z,88.81,2,40,4,277,2,0,2
+junegunn/fzf,4614,Master,CLOSED,2025-11-24T16:48:40Z,2025-11-26T12:56:40Z,,44.1333,5,0,0,4,2,0,1
+junegunn/fzf,4607,Updates man page documentation,MERGED,2025-11-23T04:38:27Z,2025-12-02T09:29:46Z,2025-12-02T09:29:46Z,220.8553,1,5,2,1188,2,1,3
+junegunn/fzf,4605,Add fish completion support,MERGED,2025-11-21T12:46:31Z,2026-02-05T03:50:26Z,2026-02-05T03:50:26Z,1815.0653,11,1121,142,1110,6,136,40
+junegunn/fzf,4596,fix(terminal): correct display width calculation with maxWidth,MERGED,2025-11-18T04:51:16Z,2025-11-20T00:09:36Z,2025-11-20T00:09:36Z,43.3056,2,11,1,88,2,3,3
+junegunn/fzf,4595,feat(zsh): Handle multi-line history selection,MERGED,2025-11-18T04:42:46Z,2025-11-30T12:32:56Z,2025-11-30T12:32:56Z,295.8361,2,111,6,198,4,12,16
+junegunn/fzf,4590,Distinguish between Ctrl-H and Ctrl-Backspace in Windows,MERGED,2025-11-16T08:06:47Z,2025-11-16T11:00:25Z,2025-11-16T11:00:25Z,2.8939,4,90,83,1013,3,4,4
+junegunn/fzf,4589,Make ctrl-alt-h a synonym of ctrl-alt-backspace on non-Windows environment,MERGED,2025-11-15T01:44:55Z,2025-11-16T07:33:53Z,2025-11-16T07:33:53Z,29.8161,2,7,3,9,2,0,3
+junegunn/fzf,4581,"Add --freeze-{left,right}=N option to keep the {left,right}most N fields visible",MERGED,2025-11-09T06:13:50Z,2025-11-12T13:00:27Z,2025-11-12T13:00:27Z,78.7769,5,218,56,205,4,4,2
+junegunn/fzf,4573,refactor: use strings.Builder to improve performance,CLOSED,2025-10-29T08:46:54Z,2025-11-11T07:48:13Z,,311.0219,4,27,24,141,3,7,2
+junegunn/fzf,4535,feat: Allow disabling Ctrl-R binding in shell integration,MERGED,2025-09-29T22:43:09Z,2025-10-11T16:57:31Z,2025-10-11T16:57:31Z,282.2394,5,56,18,137,3,11,11
+junegunn/fzf,4534,Introduce 'raw' mode,MERGED,2025-09-28T12:07:20Z,2025-10-08T15:17:00Z,2025-10-08T15:17:00Z,243.1611,20,1140,493,1124,5,55,3
+junegunn/fzf,4528,Fix 7-byte CSI sequence leftover prints,MERGED,2025-09-23T10:31:17Z,2025-09-23T14:33:41Z,2025-09-23T14:33:41Z,4.04,1,3,0,557,2,1,1
+junegunn/fzf,4525,style: add format rules for bash files,MERGED,2025-09-21T08:47:21Z,2025-09-24T13:41:54Z,2025-09-24T13:41:54Z,76.9092,16,319,240,1918,2,15,9
+junegunn/fzf,4521,Style change: thinner gutter,MERGED,2025-09-14T15:37:17Z,2025-09-16T12:22:56Z,2025-09-16T12:22:56Z,44.7608,8,138,29,487,2,0,1
+junegunn/fzf,4518,refactor: use maps.Copy and maps.Clone,MERGED,2025-09-11T09:39:19Z,2025-09-29T09:11:19Z,2025-09-29T09:11:19Z,431.5333,3,6,11,157,3,1,4
+junegunn/fzf,4501,Adjust base16 (16) theme,MERGED,2025-08-24T06:41:24Z,2025-09-17T10:38:50Z,2025-09-17T10:38:49Z,579.9569,4,21,12,660,3,9,3
+junegunn/fzf,4488,use fixed length array when possible,MERGED,2025-08-13T05:49:01Z,2025-08-15T12:16:42Z,2025-08-15T12:16:42Z,54.4614,1,3,3,49,3,1,7

@@ -1,0 +1,61 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+unionlabs/union,5453,"feat: document a bunch of cosmwasm stuff, format comments, fix misbehaviour",MERGED,2026-05-01T18:19:19Z,2026-05-05T21:20:29Z,2026-05-05T21:20:29Z,99.0194,39,1013,542,199,3,1,2
+unionlabs/union,5451,chore(deployments): update,MERGED,2026-04-29T09:35:25Z,2026-04-29T12:53:02Z,2026-04-29T12:53:02Z,3.2936,1,4,4,0,2,1,1
+unionlabs/union,5450,chore(lst): fix nixos module config,MERGED,2026-04-28T10:49:03Z,2026-04-29T09:09:55Z,2026-04-29T09:09:55Z,22.3478,1,35,40,0,2,1,1
+unionlabs/union,5449,feat(bob): upgrade to latest version,MERGED,2026-04-28T09:30:30Z,2026-04-29T09:10:20Z,2026-04-29T09:10:20Z,23.6639,3,109,27,0,3,2,2
+unionlabs/union,5448,feat(voyager): handle timeouts a bit better,MERGED,2026-04-27T15:57:11Z,2026-04-27T17:12:55Z,2026-04-27T17:12:55Z,1.2622,3,79,20,0,3,1,1
+unionlabs/union,5447,feat(lst): init ocw,MERGED,2026-04-26T22:47:57Z,2026-04-28T09:32:55Z,2026-04-28T09:32:54Z,34.7492,7,535,4,0,2,2,1
+unionlabs/union,5446,feat(lst): permissionless receive unstaked tokens entrypoint on lst hub,MERGED,2026-04-23T20:32:02Z,2026-04-26T10:30:34Z,2026-04-26T10:30:34Z,61.9756,12,822,43,0,3,1,2
+unionlabs/union,5444,fix(app): enrich chain data with minter display address,MERGED,2026-04-16T23:53:20Z,2026-04-17T11:51:53Z,2026-04-17T11:51:53Z,11.9758,3,130,44,0,3,2,2
+unionlabs/union,5437,feat(ts-sdk-evm): provide packet metadata in prepareEip1193,MERGED,2026-02-18T15:47:03Z,2026-02-18T16:48:32Z,2026-02-18T16:48:31Z,1.0244,3,26,4,0,2,2,2
+unionlabs/union,5434,fix(app): testnet gas,MERGED,2026-02-10T14:38:12Z,2026-02-11T04:46:58Z,2026-02-11T04:46:58Z,14.1461,1,3,3,0,2,2,1
+unionlabs/union,5433,feat(voyager): docker image,MERGED,2026-02-09T16:43:10Z,2026-02-11T15:45:12Z,2026-02-11T15:45:12Z,47.0339,2,35,0,0,3,1,2
+unionlabs/union,5432,deployments stuff,MERGED,2026-02-09T11:25:26Z,2026-02-09T16:44:23Z,2026-02-09T16:44:23Z,5.3158,9,207,72,0,4,1,3
+unionlabs/union,5431,feat(u): predict proxy evm,MERGED,2026-02-06T10:49:39Z,2026-02-06T15:44:31Z,2026-02-06T15:44:31Z,4.9144,1,29,8,0,3,1,4
+unionlabs/union,5429,feat(app): block height fallback in trace explorer,MERGED,2026-02-03T16:53:29Z,2026-02-03T19:28:08Z,2026-02-03T19:28:08Z,2.5775,4,6931,88,0,2,2,1
+unionlabs/union,5427,Voyager otel logs,MERGED,2026-02-02T14:57:57Z,2026-02-02T16:32:24Z,2026-02-02T16:32:24Z,1.5742,18,637,368,0,2,1,2
+unionlabs/union,5426,feat(voyager): support cosmos block events and make tx hash optional for events,MERGED,2026-02-02T14:54:29Z,2026-02-06T10:48:44Z,2026-02-06T10:48:44Z,91.9042,15,451,220,0,2,1,1
+unionlabs/union,5425,fix(docs): chains overview query,MERGED,2026-02-02T14:39:49Z,2026-02-02T16:03:50Z,2026-02-02T16:03:50Z,1.4003,1,1,1,0,3,2,1
+unionlabs/union,5424,chore(deployments): update,MERGED,2026-02-02T12:30:19Z,2026-02-02T16:15:57Z,2026-02-02T16:15:57Z,3.7606,2,30,24,0,2,1,1
+unionlabs/union,5414,fix(app): math,MERGED,2026-01-27T15:00:38Z,2026-01-27T17:58:32Z,2026-01-27T17:58:32Z,2.965,1,23,7,0,2,2,1
+unionlabs/union,5408,Sui checkpoints new variant,MERGED,2026-01-26T09:46:25Z,2026-01-26T11:00:47Z,2026-01-26T11:00:47Z,1.2394,5,134,160,0,2,3,1
+unionlabs/union,5406,"refactor(app,ts-sdk,ts-sdk-evm,ts-sdk-cosmos): improve span tracing",MERGED,2026-01-24T15:18:51Z,2026-01-24T18:25:31Z,2026-01-24T18:25:31Z,3.1111,13,582,295,0,2,3,2
+unionlabs/union,5405,refactor(app): use internal OTel remote logging,MERGED,2026-01-23T16:32:24Z,2026-01-23T20:25:59Z,2026-01-23T20:25:59Z,3.8931,12,497,151,0,3,6,3
+unionlabs/union,5402,feat(deployments): photon on ethereum,MERGED,2026-01-22T17:19:16Z,2026-01-22T18:33:37Z,2026-01-22T18:33:37Z,1.2392,1,12,6,0,2,1,1
+unionlabs/union,5401,chore(sui): less aggressive multiepoch fetching in voyager,MERGED,2026-01-21T12:50:00Z,2026-01-21T14:04:05Z,2026-01-21T14:04:05Z,1.2347,1,52,32,0,2,1,1
+unionlabs/union,5400,revive parlia lc,MERGED,2026-01-21T12:34:40Z,2026-01-28T16:44:43Z,2026-01-28T16:44:42Z,172.1672,73,5796,698,0,5,2,7
+unionlabs/union,5399,fix(app): configure arbitrum settlement delay,MERGED,2026-01-20T21:09:39Z,2026-01-20T23:00:54Z,2026-01-20T23:00:54Z,1.8542,1,10,2,0,2,2,2
+unionlabs/union,5398,"feat: rework evm storage verifier interface, make some crates no_std",MERGED,2026-01-20T15:05:24Z,2026-01-20T16:33:44Z,2026-01-20T16:33:44Z,1.4722,23,184,108,0,2,2,2
+unionlabs/union,5393,feat: arbitrum deployment,MERGED,2026-01-19T20:23:44Z,2026-01-20T10:10:25Z,2026-01-20T10:10:25Z,13.7781,4,73,2,0,4,1,3
+unionlabs/union,5392,feat: U on arbitrum,MERGED,2026-01-19T14:09:45Z,2026-01-19T15:49:31Z,2026-01-19T15:49:31Z,1.6628,2,12,6,0,2,1,1
+unionlabs/union,5390,chore(sui): new address for ibc,MERGED,2026-01-19T07:09:31Z,2026-01-19T12:17:26Z,2026-01-19T12:17:26Z,5.1319,2,4,4,0,2,1,1
+unionlabs/union,5389,feat(nix): add deployed contract local verification scripts,MERGED,2026-01-16T14:23:05Z,2026-01-16T16:41:58Z,2026-01-16T16:41:58Z,2.3147,3,195,111,0,2,1,1
+unionlabs/union,5385,Cairo cometbls groth16,MERGED,2026-01-15T09:21:40Z,2026-01-19T15:59:41Z,2026-01-19T15:59:41Z,102.6336,27,12567,4256,0,2,2,5
+unionlabs/union,5383,chore(cosmwasm): add cosmos msigs to deployment scripts,MERGED,2026-01-14T13:57:53Z,2026-01-15T13:07:13Z,2026-01-15T13:07:13Z,23.1556,1,3,0,0,2,1,1
+unionlabs/union,5380,fix(cosmwasm): fix ibc union core channel open try event emission,MERGED,2026-01-12T18:14:00Z,2026-01-12T20:15:21Z,2026-01-12T20:15:21Z,2.0225,6,221,132,0,2,1,1
+unionlabs/union,5379,fix(hubble): add loopback client to abi,MERGED,2026-01-12T13:41:55Z,2026-01-12T16:15:44Z,2026-01-12T16:15:44Z,2.5636,1,9,5,0,2,1,2
+unionlabs/union,5375,"feat: intento, some clients, clean up, base tests",MERGED,2026-01-11T17:35:50Z,2026-01-12T13:06:20Z,2026-01-12T13:06:20Z,19.5083,18,194,66,0,3,1,2
+unionlabs/union,5374,feat(docs): deployments and voyager docs cleanup,MERGED,2026-01-09T14:11:28Z,2026-01-11T15:51:08Z,2026-01-11T15:51:08Z,49.6611,58,779,493,49,2,5,5
+unionlabs/union,5372,chore(deployments): add atone/loopback entries,MERGED,2026-01-06T17:55:58Z,2026-01-11T15:50:58Z,2026-01-11T15:50:58Z,117.9167,7,123,41,0,2,2,1
+unionlabs/union,5370,fix(app): disable bsc,MERGED,2026-01-05T19:02:47Z,2026-01-06T14:16:56Z,2026-01-06T14:16:56Z,19.2358,1,1,1,0,2,2,1
+unionlabs/union,5368,Suifix,MERGED,2026-01-05T12:43:24Z,2026-01-11T11:26:32Z,2026-01-11T11:26:32Z,142.7189,3,168,124,0,2,1,1
+unionlabs/union,5367,fix(app): fix witdrawal ui and amount,MERGED,2026-01-05T10:21:54Z,2026-01-06T15:55:13Z,2026-01-06T15:55:13Z,29.5553,2,23,47,0,2,2,1
+unionlabs/union,5366,fix(docs): fix deployments docs,MERGED,2026-01-04T14:33:39Z,2026-01-04T16:26:46Z,2026-01-04T16:26:46Z,1.8853,2,67,44,0,2,2,1
+unionlabs/union,5365,chore: remove ucs06,MERGED,2026-01-04T13:28:33Z,2026-01-15T13:56:42Z,2026-01-15T13:56:42Z,264.4692,12,2,1338,0,2,3,2
+unionlabs/union,5364,Voyager timeout plugin improvements,MERGED,2025-12-31T11:03:03Z,2026-01-02T13:53:49Z,2026-01-02T13:53:49Z,50.8461,4,235,92,0,2,1,1
+unionlabs/union,5361,feat(rust): bump and clean up deps,MERGED,2025-12-27T21:22:32Z,2025-12-29T12:50:50Z,2025-12-29T12:50:50Z,39.4717,170,2772,7619,0,2,2,2
+unionlabs/union,5360,chore: bump rust version to 1.93,MERGED,2025-12-27T14:13:31Z,2025-12-27T16:47:16Z,2025-12-27T16:47:16Z,2.5625,14,129,54,0,2,2,1
+unionlabs/union,5356,intento,MERGED,2025-12-23T13:03:11Z,2025-12-23T19:14:08Z,2025-12-23T19:14:08Z,6.1825,7,124,72,0,5,1,4
+unionlabs/union,5355,fix(sdk): fix parse issue,MERGED,2025-12-23T11:41:22Z,2025-12-23T14:49:20Z,2025-12-23T14:49:20Z,3.1328,1,4,4,0,3,1,1
+unionlabs/union,5354,feat(devshell): add tsgo,MERGED,2025-12-23T10:11:58Z,2025-12-23T17:44:23Z,2025-12-23T17:44:23Z,7.5403,44,717,557,194,3,5,1
+unionlabs/union,5352,fix(sui): voyager suiquery stuff,MERGED,2025-12-22T15:24:58Z,2025-12-23T08:29:36Z,2025-12-23T08:29:36Z,17.0772,8,215,185,0,3,3,2
+unionlabs/union,5350,chore(cosmwasm): clean up nix scripts,MERGED,2025-12-22T10:19:27Z,2025-12-22T11:51:22Z,2025-12-22T11:51:22Z,1.5319,5,352,481,0,2,2,2
+unionlabs/union,5349,feat(docs): add integration requirements,MERGED,2025-12-18T13:15:05Z,2025-12-18T20:09:48Z,2025-12-18T20:09:48Z,6.9119,6,105,4,0,3,2,3
+unionlabs/union,5346,fix(ucs04): fix well-known ids file inclusion in build,MERGED,2025-12-16T21:43:39Z,2025-12-17T09:36:36Z,2025-12-17T09:36:36Z,11.8825,8,50,39,0,2,2,1
+unionlabs/union,5344,chore(deployments): sync universal chain ids,MERGED,2025-12-16T14:04:17Z,2025-12-16T15:23:09Z,2025-12-16T15:23:08Z,1.3142,1,8,3,0,3,1,1
+unionlabs/union,5343,feat(cosmwasm): add cosmwasm-event and use throughout the repository,MERGED,2025-12-16T12:15:42Z,2025-12-19T07:37:45Z,2025-12-19T07:37:45Z,67.3675,37,1197,755,0,4,1,5
+unionlabs/union,5342,chore(nix): clean up mkCosmosDevnet.nix,MERGED,2025-12-16T09:11:34Z,2025-12-16T13:00:06Z,2025-12-16T13:00:06Z,3.8089,2,0,480,0,2,1,1
+unionlabs/union,5341,chore(deployments): update cosmos deployments,MERGED,2025-12-15T21:58:19Z,2025-12-16T08:28:02Z,2025-12-16T08:28:02Z,10.4953,2,81,81,0,2,1,1
+unionlabs/union,5336,feat(cosmwasm): remove access management migration logic,MERGED,2025-12-08T23:19:33Z,2025-12-10T15:34:15Z,2025-12-10T15:34:15Z,40.245,14,181,322,0,2,1,1
+unionlabs/union,5335,feat(cosmwasm): manager deployments and access management migrations,MERGED,2025-12-08T19:41:21Z,2025-12-08T20:43:06Z,2025-12-08T20:43:06Z,1.0292,2,14,11,0,3,1,2
+unionlabs/union,5334,chore: loopback light client must be public,MERGED,2025-12-08T16:55:39Z,2025-12-08T19:40:52Z,2025-12-08T19:40:52Z,2.7536,3,22,8,0,3,1,2

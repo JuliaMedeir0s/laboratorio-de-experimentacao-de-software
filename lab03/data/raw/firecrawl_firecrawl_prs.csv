@@ -1,0 +1,44 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+firecrawl/firecrawl,3474,fix(go-html-to-md-service): emit nanosecond-precision log timestamps,MERGED,2026-05-01T17:55:09Z,2026-05-01T21:14:21Z,2026-05-01T21:14:21Z,3.32,1,7,2,1963,1,0,1
+firecrawl/firecrawl,3471,fix(api): forward parsers.mode='ocr' to MinerU and FirePDF,CLOSED,2026-05-01T12:01:05Z,2026-05-05T17:12:40Z,,101.1931,4,125,10,2079,1,0,1
+firecrawl/firecrawl,3466,feat(search): includeDomains/excludeDomains,MERGED,2026-04-30T12:32:35Z,2026-05-01T15:01:47Z,2026-05-01T15:01:47Z,26.4867,32,330,26,0,2,1,3
+firecrawl/firecrawl,3465,fix(go-sdk): add client-side validation for negative limit values,MERGED,2026-04-30T07:19:26Z,2026-04-30T08:47:51Z,2026-04-30T08:47:51Z,1.4736,2,10,1,1417,1,2,2
+firecrawl/firecrawl,3464,fix(python-sdk): add missing negative limit validation in map and async crawl,MERGED,2026-04-30T07:12:42Z,2026-04-30T08:48:18Z,2026-04-30T08:48:18Z,1.5933,4,7,1,1922,1,2,2
+firecrawl/firecrawl,3463,fix(java-sdk): reject explicitly empty API keys and add missing async lifecycle methods,MERGED,2026-04-30T07:09:26Z,2026-04-30T08:48:40Z,2026-04-30T08:48:39Z,1.6536,3,124,1,2479,1,2,3
+firecrawl/firecrawl,3462,"fix(js-sdk): fix watcher duplicate events, start() Promise resolution, and done event fields",MERGED,2026-04-30T07:06:22Z,2026-04-30T08:48:55Z,2026-04-30T08:48:55Z,1.7092,2,45,25,2970,1,1,4
+firecrawl/firecrawl,3461,fix(ruby-sdk): unwrap credit_usage data field and default skipTlsVerification to false,MERGED,2026-04-30T07:04:16Z,2026-04-30T08:49:55Z,2026-04-30T08:49:55Z,1.7608,4,10,9,2045,1,1,3
+firecrawl/firecrawl,3447,feat(docker): expose HARNESS_STARTUP_TIMEOUT_MS via docker-compose env,MERGED,2026-04-26T19:18:45Z,2026-04-27T13:43:28Z,2026-04-27T13:43:28Z,18.4119,1,1,0,3020,2,1,1
+firecrawl/firecrawl,3446,feat: fix pdf scraper,CLOSED,2026-04-26T14:17:59Z,2026-04-26T17:44:25Z,,3.4406,1,15,463,1769,2,2,1
+firecrawl/firecrawl,3436,fix(pdf): raise Fire PDF cap to 30MB and compare raw bytes,MERGED,2026-04-24T01:04:28Z,2026-04-24T04:12:37Z,2026-04-24T04:12:36Z,3.1356,2,47,4,244,1,0,4
+firecrawl/firecrawl,3426,fix(api/native): update calamine to 0.34,MERGED,2026-04-23T12:29:15Z,2026-04-23T16:01:23Z,2026-04-23T16:01:23Z,3.5356,1,1,1,416,1,0,1
+firecrawl/firecrawl,3425,fix(js-sdk): correctly handle interact timeout units,CLOSED,2026-04-23T01:04:34Z,2026-04-25T20:29:07Z,,67.4092,0,0,0,1268,1,1,1
+firecrawl/firecrawl,3417,feat(api): local-browser sessions for CDP-attached Playwright clients,CLOSED,2026-04-22T12:42:15Z,2026-04-22T14:57:43Z,,2.2578,27,1696,31,4059,1,0,1
+firecrawl/firecrawl,3409,feat(sdks): add lockdown scrape option to all SDKs (ENG-4815),MERGED,2026-04-21T19:07:18Z,2026-04-22T21:37:28Z,2026-04-22T21:37:28Z,26.5028,22,138,17,2666,2,1,3
+firecrawl/firecrawl,3408,feat(api): POST /v1/crawl/:id/complete to force-finish a crawl,CLOSED,2026-04-21T18:38:34Z,2026-04-21T19:54:28Z,,1.265,5,141,4,2621,1,1,4
+firecrawl/firecrawl,3405,fix(api): honor robotsUserAgent in native link filter,MERGED,2026-04-20T22:11:11Z,2026-04-21T15:23:04Z,2026-04-21T15:23:04Z,17.1981,2,73,14,2443,2,0,2
+firecrawl/firecrawl,3395,fix(go-sdk): embed jsonOptions into formats array for v2 scrape API,CLOSED,2026-04-19T09:11:43Z,2026-04-19T16:14:20Z,,7.0436,2,154,0,1408,1,1,2
+firecrawl/firecrawl,3390,feat(lockdown): Add Lockdown Param to Scrape API Schema,MERGED,2026-04-18T01:28:08Z,2026-04-21T18:57:02Z,2026-04-21T18:57:02Z,89.4817,9,197,1,940,1,0,1
+firecrawl/firecrawl,3387,fix(playwright): honor user-agent from request headers,MERGED,2026-04-17T14:08:13Z,2026-04-17T15:16:36Z,2026-04-17T15:16:36Z,1.1397,1,18,4,2175,2,1,2
+firecrawl/firecrawl,3386,Tom/scrapeurl refactor with gateway support,CLOSED,2026-04-16T23:11:25Z,2026-04-27T14:59:34Z,,255.8025,161,3953,8386,2566,3,6,8
+firecrawl/firecrawl,3380,fix(dotnet-sdk): rename NuGet package ID from firecrawl-dotnet to firecrawl-sdk,MERGED,2026-04-16T08:47:07Z,2026-04-16T16:56:15Z,2026-04-16T16:56:15Z,8.1522,4,4,4,1751,1,1,1
+firecrawl/firecrawl,3379,fix(api): return proper HTTP status codes for scrape errors instead of 500,CLOSED,2026-04-16T04:04:04Z,2026-04-16T11:44:07Z,,7.6675,4,77,64,2389,1,1,4
+firecrawl/firecrawl,3378,Newstart,CLOSED,2026-04-16T02:46:45Z,2026-04-16T15:47:29Z,,13.0122,1659,2325615,218,874,2,0,1
+firecrawl/firecrawl,3377,feat(api): add customRobotsAgent flag separate from ignoreRobots,MERGED,2026-04-15T21:54:52Z,2026-04-16T14:25:42Z,2026-04-16T14:25:42Z,16.5139,5,22,4,1810,1,0,3
+firecrawl/firecrawl,3375,"feat(sdk): add ignoreRobotsTxt and robotsUserAgent to JS, Python, and Java SDKs",MERGED,2026-04-15T20:13:11Z,2026-04-15T21:34:15Z,2026-04-15T21:34:15Z,1.3511,8,28,3,1472,1,1,3
+firecrawl/firecrawl,3368,feat(.net-sdk): Add .NET SDK for Firecrawl v2 API,MERGED,2026-04-15T07:19:07Z,2026-04-16T08:36:53Z,2026-04-16T08:36:53Z,25.2961,35,2484,10,4200,1,0,3
+firecrawl/firecrawl,3367,feat(ruby-sdk): add Firecrawl Ruby SDK v2,MERGED,2026-04-15T06:06:53Z,2026-04-16T14:58:24Z,2026-04-16T14:58:24Z,32.8586,33,2113,2,3155,1,1,3
+firecrawl/firecrawl,3364,"fix: correct Autumn billing period timestamps, subscription lookup, and planCredits",MERGED,2026-04-14T14:23:32Z,2026-04-14T18:04:56Z,2026-04-14T18:04:56Z,3.69,2,743,41,7975,2,2,12
+firecrawl/firecrawl,3362,feat(rust-sdk): upgrade to official v2 SDK,MERGED,2026-04-14T10:37:50Z,2026-04-16T14:24:10Z,2026-04-16T14:24:10Z,51.7722,34,2471,7914,3757,1,0,4
+firecrawl/firecrawl,3361,fix(branding): remove JS-heuristic fallback for secondary color when LLM omits it,MERGED,2026-04-14T10:29:41Z,2026-04-14T11:53:27Z,2026-04-14T11:53:27Z,1.3961,1,7,3,2489,1,0,2
+firecrawl/firecrawl,3357,feat(interact): add langsmith grouped by browser session,MERGED,2026-04-13T20:15:16Z,2026-04-20T16:16:39Z,2026-04-20T16:16:39Z,164.0231,7,715,5,1350,2,0,6
+firecrawl/firecrawl,3352,fix(pdf): catch marked.parse stack overflow in PDF pipeline,MERGED,2026-04-13T15:11:47Z,2026-04-13T16:34:06Z,2026-04-13T16:34:06Z,1.3719,5,101,6,1450,1,0,3
+firecrawl/firecrawl,3349,feat(go-sdk): add official Go SDK for Firecrawl v2 API,MERGED,2026-04-13T08:52:45Z,2026-04-16T19:59:22Z,2026-04-16T19:59:22Z,83.1103,13,1957,1,2808,1,1,10
+firecrawl/firecrawl,3348,feat(php-sdk): Add PHP SDK with Laravel support for Firecrawl v2 API,MERGED,2026-04-13T05:35:12Z,2026-04-16T03:07:34Z,2026-04-16T03:07:34Z,69.5394,46,3467,2,2843,1,3,10
+firecrawl/firecrawl,3341,chore(js-sdk): bump ver to 4.18.2,MERGED,2026-04-11T05:41:37Z,2026-04-11T07:26:00Z,2026-04-11T07:26:00Z,1.7397,1,1,1,510,1,0,1
+firecrawl/firecrawl,3338,chore(notifications): remove APPROACHING_LIMIT and LIMIT_REACHED notification types,MERGED,2026-04-11T03:02:21Z,2026-04-13T14:18:27Z,2026-04-13T14:18:27Z,59.2683,4,0,37,1163,1,0,2
+firecrawl/firecrawl,3330,feat(api): bump ACUC to v47 for browser rate limits,MERGED,2026-04-10T05:35:15Z,2026-04-10T13:39:19Z,2026-04-10T13:39:19Z,8.0678,2,4,4,1442,2,0,1
+firecrawl/firecrawl,3329,fix(security): upgrade axios to 1.15.0 (GHSA-3p68-rc4w-qgx5),MERGED,2026-04-10T05:02:51Z,2026-04-10T06:27:35Z,2026-04-10T06:27:35Z,1.4122,6,60,34,1895,1,0,1
+firecrawl/firecrawl,3328,feat(api): migrate ignoreRobots org flag to disabled/allowed/forced pattern,MERGED,2026-04-10T00:52:09Z,2026-04-15T14:43:07Z,2026-04-15T14:43:07Z,133.8494,4,24,6,1309,1,0,2
+firecrawl/firecrawl,3326,fix: catch marked.js stack overflow on large PDF markdown,CLOSED,2026-04-09T22:25:35Z,2026-04-13T16:34:18Z,,90.1453,2,26,2,1481,1,1,2
+firecrawl/firecrawl,3325,feat(crawl): add robotsUserAgent parameter for custom robots.txt checks,MERGED,2026-04-09T18:11:21Z,2026-04-15T20:38:28Z,2026-04-15T20:38:28Z,146.4519,8,103,16,1678,2,2,6
+firecrawl/firecrawl,3322,chore: bump pdf-inspector to 2455f14,CLOSED,2026-04-08T23:47:27Z,2026-04-10T06:31:13Z,,30.7294,1,1,1,1273,1,0,1

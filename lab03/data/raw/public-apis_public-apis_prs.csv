@@ -1,0 +1,20 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+public-apis/public-apis,6019,Add JSONPlaceholder API to README,MERGED,2026-05-05T16:45:01Z,2026-05-05T21:42:46Z,2026-05-05T21:42:46Z,4.9625,1,2,0,636,2,0,1
+public-apis/public-apis,5997,Add EmailJS API to Email,MERGED,2026-05-03T08:07:34Z,2026-05-05T21:31:00Z,2026-05-05T21:31:00Z,61.3906,1,1,0,1130,2,0,1
+public-apis/public-apis,5996,Add TasteDive API to Entertainment,MERGED,2026-05-03T05:46:15Z,2026-05-05T21:30:05Z,2026-05-05T21:30:05Z,63.7306,1,1,0,1562,2,0,1
+public-apis/public-apis,5983,Remove Age of Empires 2 API as it is Invalid,MERGED,2026-05-02T05:29:34Z,2026-05-02T07:11:01Z,2026-05-02T07:11:01Z,1.6908,1,0,1,101,2,0,1
+public-apis/public-apis,5982,Add Cat Facts API,MERGED,2026-05-01T20:31:35Z,2026-05-02T07:21:44Z,2026-05-02T07:21:44Z,10.8358,1,1,0,981,2,0,1
+public-apis/public-apis,5979,Add RacingHub API,MERGED,2026-05-01T12:35:54Z,2026-05-02T07:43:49Z,2026-05-02T07:43:49Z,19.1319,1,1,0,900,2,0,1
+public-apis/public-apis,5978,Add DeepAI API to Machine Learning section,MERGED,2026-05-01T08:01:58Z,2026-05-02T07:48:16Z,2026-05-02T07:48:16Z,23.7717,1,1,0,635,3,0,1
+public-apis/public-apis,5977,Add PostalCodes API,MERGED,2026-05-01T05:23:58Z,2026-05-02T07:53:43Z,2026-05-02T07:53:43Z,26.4958,1,1,0,922,2,0,1
+public-apis/public-apis,5972,Add Suprsonic API,MERGED,2026-04-30T11:16:02Z,2026-05-02T10:27:02Z,2026-05-02T10:27:02Z,47.1833,1,1,0,350,2,0,1
+public-apis/public-apis,5970,Add GeoScore API to Text Analysis section,MERGED,2026-04-30T02:17:31Z,2026-05-02T11:03:51Z,2026-05-02T11:03:51Z,56.7722,1,1,0,698,2,0,1
+public-apis/public-apis,5969,Add TensorFeed API,MERGED,2026-04-29T20:07:40Z,2026-05-02T11:14:19Z,2026-05-02T11:14:19Z,63.1108,1,1,0,603,2,0,1
+public-apis/public-apis,5965,Add IPLogs API,MERGED,2026-04-28T17:52:25Z,2026-05-02T10:56:59Z,2026-05-02T10:56:59Z,89.0761,1,1,0,1059,2,0,1
+public-apis/public-apis,5962,Add Sunor API,MERGED,2026-04-27T08:31:44Z,2026-05-02T10:50:07Z,2026-05-02T10:50:07Z,122.3064,1,1,0,651,2,0,1
+public-apis/public-apis,5960,Add Runyankole Bible API,MERGED,2026-04-27T03:47:11Z,2026-05-02T10:44:11Z,2026-05-02T10:44:11Z,126.95,1,1,0,520,2,0,3
+public-apis/public-apis,5958,Update Currents API description,MERGED,2026-04-26T10:50:13Z,2026-05-02T10:29:56Z,2026-05-02T10:29:56Z,143.6619,1,1,1,131,2,0,1
+public-apis/public-apis,5957,Add OpenRegistry API,MERGED,2026-04-26T09:06:42Z,2026-05-02T10:41:47Z,2026-05-02T10:41:47Z,145.5847,1,1,0,1157,2,0,1
+public-apis/public-apis,5955,Add Urantia Papers API to Books,MERGED,2026-04-26T00:16:19Z,2026-05-02T07:52:31Z,2026-05-02T07:52:31Z,151.6033,1,1,0,413,2,0,1
+public-apis/public-apis,5954,Add Apimetro to Transportation,MERGED,2026-04-25T23:25:39Z,2026-05-02T07:50:15Z,2026-05-02T07:50:15Z,152.41,1,1,0,1108,2,0,1
+public-apis/public-apis,5941,Add Voidly,MERGED,2026-04-23T14:01:56Z,2026-05-02T07:06:23Z,2026-05-02T07:06:23Z,209.0742,1,1,0,2336,2,0,1

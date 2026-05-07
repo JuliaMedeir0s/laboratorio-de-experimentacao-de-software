@@ -1,0 +1,56 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+f/prompts.chat,1177,feat(auth): honour AUTH_OIDC/OAUTH_NAME and _LOGO env vars in login button,MERGED,2026-05-02T17:34:18Z,2026-05-02T20:18:46Z,2026-05-02T20:18:46Z,2.7411,6,241,30,3550,2,1,3
+f/prompts.chat,1169,fix(docker): use the prebuilt image by default in compose,MERGED,2026-04-25T03:31:53Z,2026-04-25T06:08:26Z,2026-04-25T06:08:26Z,2.6092,1,6,6,1164,2,1,1
+f/prompts.chat,1167,fix: avoid GitHub links for email contributors,MERGED,2026-04-24T05:47:23Z,2026-04-26T22:16:34Z,2026-04-26T22:16:34Z,64.4864,2,40,1,1255,3,4,4
+f/prompts.chat,1164,fix(bio): handle trailing comma in URLs,MERGED,2026-04-23T11:20:33Z,2026-04-23T18:43:40Z,2026-04-23T18:43:39Z,7.385,1,2,1,2154,2,1,4
+f/prompts.chat,1154,Add MeterCall (new-layer),CLOSED,2026-04-18T05:31:39Z,2026-04-19T21:20:25Z,,39.8128,1,2,0,740,2,1,1
+f/prompts.chat,1153,Add Community Libraries section with MeuPromptBox (EN-ES-BR),CLOSED,2026-04-18T03:14:01Z,2026-04-19T21:20:45Z,,42.1122,1,12,6,708,2,2,1
+f/prompts.chat,1152,Add files via upload,CLOSED,2026-04-16T12:57:52Z,2026-04-16T18:05:29Z,,5.1269,1,96,0,1636,2,3,2
+f/prompts.chat,1148,Add AI Prompt Architect,CLOSED,2026-04-13T17:56:44Z,2026-04-14T18:18:16Z,,24.3589,1,4,0,503,4,1,3
+f/prompts.chat,1141,nnn,CLOSED,2026-04-12T10:00:19Z,2026-04-14T18:18:39Z,,56.3056,6,39,64,1518,2,2,4
+f/prompts.chat,1138,Add HOL skill-publish validate workflow (schema + safety + trust signals),CLOSED,2026-04-05T19:52:34Z,2026-04-06T19:45:07Z,,23.8758,1,19,0,983,2,4,1
+f/prompts.chat,1137,Add HOL skill validate workflow,CLOSED,2026-04-05T19:06:16Z,2026-04-06T08:56:22Z,,13.835,1,19,0,820,2,3,1
+f/prompts.chat,1133,docs: clarify memory requirements to prevent OOM (exit code 137),MERGED,2026-04-03T20:29:40Z,2026-04-03T22:10:09Z,2026-04-03T22:10:09Z,1.6747,1,13,3,778,2,2,1
+f/prompts.chat,1132,docs: align runtime requirements with current setup,MERGED,2026-04-03T15:44:37Z,2026-04-07T11:06:30Z,2026-04-07T11:06:30Z,91.3647,20,129,7,732,2,1,1
+f/prompts.chat,1131,fix: clamp pagination parameters,CLOSED,2026-04-03T14:50:30Z,2026-04-19T21:21:04Z,,390.5094,1,30,2,424,2,1,1
+f/prompts.chat,1130,fix: clamp public prompts pagination,CLOSED,2026-04-03T13:35:27Z,2026-04-19T21:21:00Z,,391.7592,2,57,2,1072,2,1,1
+f/prompts.chat,1122,fix(cli): add missing full_content param to API URL,MERGED,2026-04-01T20:34:13Z,2026-04-01T23:04:15Z,2026-04-01T23:04:15Z,2.5006,2,5,5,1164,3,1,2
+f/prompts.chat,1121,fix: add cursor-pointer to buttons and guard CLI crash on undefined content,CLOSED,2026-03-31T16:52:36Z,2026-04-01T11:20:46Z,,18.4694,3,13,12,1267,4,2,3
+f/prompts.chat,1120,feat: docker compose,MERGED,2026-03-31T12:09:18Z,2026-03-31T14:13:24Z,2026-03-31T14:13:24Z,2.0683,7,339,374,3939,3,1,1
+f/prompts.chat,1119,perf: add ISR to /prompts page,MERGED,2026-03-30T23:27:52Z,2026-03-31T05:38:45Z,2026-03-31T05:38:45Z,6.1814,1,2,0,601,3,1,1
+f/prompts.chat,1118,perf: optimize MCP handler DB queries and response sizes,MERGED,2026-03-30T23:27:01Z,2026-03-31T05:38:12Z,2026-03-31T05:38:12Z,6.1864,1,16,13,1238,3,1,2
+f/prompts.chat,1117,fix: return 405 on MCP GET per Streamable HTTP spec,MERGED,2026-03-30T23:24:11Z,2026-03-31T05:37:12Z,2026-03-31T05:37:12Z,6.2169,2,197,56,1171,3,1,2
+f/prompts.chat,1113,fix: seed script fails due to missing content field,MERGED,2026-03-30T17:15:29Z,2026-03-30T19:02:43Z,2026-03-30T19:02:43Z,1.7872,1,34,6,2225,3,1,1
+f/prompts.chat,1108,Add si.json file for messages,CLOSED,2026-03-28T15:40:02Z,2026-03-28T18:16:37Z,,2.6097,1,1896,0,720,2,2,1
+f/prompts.chat,1106,"fix: pin 4 unpinned action(s),extract 3 unsafe expression(s) to env vars",CLOSED,2026-03-26T06:22:04Z,2026-03-26T21:22:38Z,,15.0094,3,12,7,2762,3,2,1
+f/prompts.chat,1104,fix(security): Private Prompt Access Control Fixes,MERGED,2026-03-25T20:54:04Z,2026-03-29T03:29:25Z,2026-03-29T03:29:25Z,78.5892,9,223,13,3841,3,1,2
+f/prompts.chat,1102,fix(security): Security Report Wiro `inputImageUrl` Blind SSRF,MERGED,2026-03-25T16:32:22Z,2026-03-25T18:23:48Z,2026-03-25T18:23:48Z,1.8572,1,3,6,2822,3,1,1
+f/prompts.chat,1101,Fix: # Vulnerability Report: Path Traversal / Zip Slip in Skill Files lead to RCE on Client,MERGED,2026-03-25T12:13:39Z,2026-03-29T03:27:04Z,2026-03-29T03:27:04Z,87.2236,3,57,5,8466,3,1,2
+f/prompts.chat,1100,Add SkillFlow to Other Resources,CLOSED,2026-03-25T00:53:46Z,2026-03-25T07:23:09Z,,6.4897,1,2,0,640,3,1,1
+f/prompts.chat,1098,Fix username case-collision vulnerability across write and read paths,MERGED,2026-03-24T16:05:21Z,2026-03-25T07:23:42Z,2026-03-25T07:23:42Z,15.3058,11,318,160,12558,3,2,2
+f/prompts.chat,1096,feat: Add support for running prompts on Netlify Agent Runners,MERGED,2026-03-24T14:54:15Z,2026-03-24T16:02:37Z,2026-03-24T16:02:37Z,1.1394,3,14,0,870,3,2,1
+f/prompts.chat,1089,feat: add block-no-verify PreToolUse hook to prevent agents from bypassing git hooks,CLOSED,2026-03-19T21:34:12Z,2026-03-30T23:35:25Z,,266.0203,1,9,0,837,2,1,1
+f/prompts.chat,1086,perf: reduce Vercel costs with 12 targeted optimizations ($6.4K → $800-1.5K/mo),MERGED,2026-03-19T18:07:13Z,2026-03-19T21:23:18Z,2026-03-19T21:23:18Z,3.2681,4,374,266,9490,3,1,6
+f/prompts.chat,1079,Add Product Sense Coach prompt,CLOSED,2026-03-17T03:58:29Z,2026-03-19T00:23:20Z,,44.4142,1,40,0,759,3,2,1
+f/prompts.chat,1075,Add subtitle downloader web application with OpenSubtitles API integration,CLOSED,2026-03-15T11:36:13Z,2026-03-20T10:07:39Z,,118.5239,10,1226,0,2570,4,1,1
+f/prompts.chat,1073,Add prompting frameworks guide and expand prompt documentation,CLOSED,2026-03-14T01:56:42Z,2026-04-18T05:16:36Z,,843.3317,4,49554,2433,2332,30,4,5
+f/prompts.chat,1056,feat(auth): add generic OIDC and OAuth 2.0 plugins,MERGED,2026-03-07T11:32:17Z,2026-05-02T06:24:07Z,2026-05-02T06:24:07Z,1338.8639,7,450,3,2573,4,7,8
+f/prompts.chat,1053,Add ProofBets to MCP servers section,CLOSED,2026-03-04T22:18:17Z,2026-03-05T07:11:57Z,,8.8944,1,5,0,764,2,2,1
+f/prompts.chat,1049,Add Anchor Browser — Browser infrastructure for AI agents,CLOSED,2026-03-01T00:25:35Z,2026-03-01T05:04:43Z,,4.6522,1,1,0,1065,2,1,1
+f/prompts.chat,1048,Migrate to VineXT: Auth + API Routes Verification,CLOSED,2026-02-28T18:46:40Z,2026-03-05T07:13:45Z,,108.4514,7,5610,3839,1707,2,1,1
+f/prompts.chat,1047,Migrate next-intl i18n from webpack plugin to Vite alias for VineXT,CLOSED,2026-02-28T18:26:42Z,2026-03-05T07:13:45Z,,108.7842,4,5170,4096,2160,3,1,1
+f/prompts.chat,1046,Migrate build system from Next.js CLI to VineXT,CLOSED,2026-02-28T18:25:19Z,2026-03-05T07:13:44Z,,108.8069,6,5950,4350,1660,2,1,1
+f/prompts.chat,1045,Migrate deployment configuration from Next.js to VineXT,CLOSED,2026-02-28T18:25:05Z,2026-03-05T07:13:44Z,,108.8108,12,6078,4401,1882,2,1,1
+f/prompts.chat,1044,Migrate Sentry from @sentry/nextjs to @sentry/node + @sentry/react for VineXT,CLOSED,2026-02-28T18:22:42Z,2026-03-05T07:13:43Z,,108.8503,10,2127,1724,1987,3,1,1
+f/prompts.chat,1043,Migrate MDX + book content pipeline to VineXT,CLOSED,2026-02-28T18:22:32Z,2026-03-05T07:13:42Z,,108.8528,4,2843,2209,1719,3,1,1
+f/prompts.chat,1037,Add Android image gallery app with multi-select and zoom features,CLOSED,2026-02-25T18:43:58Z,2026-02-25T22:07:29Z,,3.3919,21,965,0,2502,3,1,1
+f/prompts.chat,1035,Fix: Docker login configuration error,MERGED,2026-02-24T08:32:45Z,2026-02-24T11:13:47Z,2026-02-24T11:13:47Z,2.6839,2,25,2,925,3,1,2
+f/prompts.chat,1017,docs: Add compatible agents section with AdaL,CLOSED,2026-02-02T02:20:04Z,2026-04-19T21:21:34Z,,1843.025,1,7,0,776,3,1,1
+f/prompts.chat,1013,Add Remotion for mitte.ai,MERGED,2026-01-23T14:09:52Z,2026-01-23T15:55:53Z,2026-01-23T15:55:53Z,1.7669,2,3,0,1554,5,2,2
+f/prompts.chat,1010,docs: Add Related Projects section,CLOSED,2026-01-18T13:21:50Z,2026-02-04T09:57:48Z,,404.5994,1,6,0,1444,4,1,1
+f/prompts.chat,1004,feat(tags): support multiple comma-separated tags in prompts filtering,MERGED,2026-01-11T17:59:47Z,2026-02-09T07:57:42Z,2026-02-09T07:57:42Z,685.9653,6,59,34,477,7,5,2
+f/prompts.chat,1001,book,MERGED,2026-01-11T12:40:19Z,2026-01-11T13:54:44Z,2026-01-11T13:54:44Z,1.2403,67,16448,57,1968,5,1,3
+f/prompts.chat,999,Implement test suite for project,MERGED,2026-01-07T07:51:28Z,2026-01-07T09:02:12Z,2026-01-07T09:02:12Z,1.1789,25,15378,7396,984,6,3,5
+f/prompts.chat,991,Add AI team members to about page,MERGED,2026-01-03T01:23:29Z,2026-01-03T07:52:13Z,2026-01-03T07:52:13Z,6.4789,1,178,84,1828,4,0,2
+f/prompts.chat,986,feat: Add Docker support for easy self-hosting,CLOSED,2025-12-31T14:57:22Z,2026-01-11T19:21:43Z,,268.4058,11,426,1,2132,5,6,4
+f/prompts.chat,981,Rename SELF-HOSTING.md to  SELF-HOSTING.md,CLOSED,2025-12-25T14:45:22Z,2025-12-26T07:01:57Z,,16.2764,0,0,0,971,5,1,2

@@ -1,0 +1,7 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+jaywcjlove/awesome-mac,2004,Add ConsoleMini to Gaming Software,MERGED,2026-04-22T03:51:16Z,2026-04-22T07:02:09Z,2026-04-22T07:02:09Z,3.1814,2,2,0,648,3,0,1
+jaywcjlove/awesome-mac,1994,Add WhatIsMyIP.HELP to Network Analysis,CLOSED,2026-04-15T15:04:21Z,2026-04-16T03:36:25Z,,12.5344,4,4,0,1094,3,0,1
+jaywcjlove/awesome-mac,1973,Add PureMac - Free open-source macOS cleaner,MERGED,2026-04-08T21:50:54Z,2026-04-09T05:34:34Z,2026-04-09T05:34:34Z,7.7278,1,1,0,764,3,0,1
+jaywcjlove/awesome-mac,1922,Add Mocker - Docker-compatible container CLI for macOS,MERGED,2026-03-25T22:17:51Z,2026-03-26T01:01:31Z,2026-03-26T01:01:31Z,2.7278,1,1,0,452,3,0,1
+jaywcjlove/awesome-mac,1921,Add Mocker - Docker-compatible container CLI for macOS,CLOSED,2026-03-25T16:33:03Z,2026-03-25T22:11:58Z,,5.6486,1,1,0,452,2,0,1
+jaywcjlove/awesome-mac,1859,Add ScreenTranslate to Translation Tools,MERGED,2026-03-06T22:14:20Z,2026-03-07T05:20:52Z,2026-03-07T05:20:52Z,7.1089,2,2,0,1350,3,0,1

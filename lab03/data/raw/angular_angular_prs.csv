@@ -1,0 +1,78 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+angular/angular,68577,build: update cross-repo angular dependencies (main),MERGED,2026-05-05T16:05:38Z,2026-05-06T00:08:42Z,2026-05-06T00:08:42Z,8.0511,3,8,8,711,3,1,1
+angular/angular,68575,fix: sanitizer typings,MERGED,2026-05-05T14:46:17Z,2026-05-06T00:07:04Z,2026-05-06T00:07:03Z,9.3461,3,6,9,0,4,1,5
+angular/angular,68574,feat(devtools): improve value highlighting in object previews,MERGED,2026-05-05T13:44:34Z,2026-05-06T00:06:42Z,2026-05-06T00:06:42Z,10.3689,12,123,10,368,3,1,1
+angular/angular,68567,build: lock file maintenance (main),MERGED,2026-05-05T06:12:50Z,2026-05-05T16:35:20Z,2026-05-05T16:35:19Z,10.3747,16,3107,3315,497,3,2,2
+angular/angular,68563,Fix issues with orphan fields and interactions like blur(),MERGED,2026-05-04T23:31:02Z,2026-05-05T22:54:43Z,2026-05-05T22:54:43Z,23.3947,5,319,83,0,2,2,4
+angular/angular,68560,fix(compiler): disallow i18n on svg animation attributes (XSS),CLOSED,2026-05-04T21:45:44Z,2026-05-05T19:20:15Z,,21.5753,2,48,4,3350,3,2,1
+angular/angular,68558,perf(forms): shortcut deepSignal writes if value is unchanged,MERGED,2026-05-04T21:38:36Z,2026-05-05T16:28:01Z,2026-05-05T16:28:01Z,18.8236,2,84,0,1608,2,2,1
+angular/angular,68547,refactor(devtools): minor improvements of the resolution path UI,MERGED,2026-05-04T14:28:10Z,2026-05-05T16:34:58Z,2026-05-05T16:34:58Z,26.1133,4,97,64,103,3,1,1
+angular/angular,68542,fix(compiler): invalid type checking code if field name needs to be quoted,MERGED,2026-05-04T07:30:38Z,2026-05-05T16:34:27Z,2026-05-05T16:34:27Z,33.0636,10,103,30,111,3,1,3
+angular/angular,68540,refactor(language-service): add quick info for `$safeNavigationMigration`,MERGED,2026-05-04T00:22:38Z,2026-05-06T00:03:55Z,2026-05-06T00:03:55Z,47.6881,2,40,0,89,3,1,1
+angular/angular,68539,docs: add component method track example to @for block,MERGED,2026-05-03T23:05:41Z,2026-05-06T00:02:53Z,2026-05-06T00:02:53Z,48.9533,1,4,4,1734,3,1,7
+angular/angular,68530,"docs: correct ""Angular JS"" to ""AngularJS""",MERGED,2026-05-03T09:42:50Z,2026-05-05T19:42:40Z,2026-05-05T19:42:40Z,57.9972,4,6,6,1427,3,1,1
+angular/angular,68527,fix(docs-infra): mask page content leak at mobile nav right edge,MERGED,2026-05-02T21:29:15Z,2026-05-05T16:31:54Z,2026-05-05T16:31:54Z,67.0442,1,1,1,1322,3,6,1
+angular/angular,68519,fix(docs-infra): keep mobile nav drawers usable on small screens,MERGED,2026-05-02T13:54:19Z,2026-05-05T16:31:27Z,2026-05-05T16:31:27Z,74.6189,3,9,1,2242,4,3,1
+angular/angular,68513,fix(forms): prohibit concurrent submits in signal forms,MERGED,2026-05-01T21:23:10Z,2026-05-05T18:14:04Z,2026-05-05T18:14:04Z,92.8483,3,29,0,413,3,3,2
+angular/angular,68512,fix(forms): ensure debounced async validators produce pending status during debounce,MERGED,2026-05-01T20:01:27Z,2026-05-04T20:03:08Z,2026-05-04T20:03:08Z,72.0281,4,68,14,297,2,2,3
+angular/angular,68510,fix(forms): ensure reset cancels pending debounce and syncs controlValue,CLOSED,2026-05-01T17:57:35Z,2026-05-05T20:27:23Z,,98.4967,4,165,3,68,3,1,3
+angular/angular,68507,fix(router): use navigation.updateCurrentEntry for same-path state writes,CLOSED,2026-05-01T16:20:25Z,2026-05-04T19:22:11Z,,75.0294,7,171,16,3817,3,2,3
+angular/angular,68505,refactor(forms): improve clarity in SelectMultipleControlValueAccessor.writeValue,MERGED,2026-05-01T14:14:56Z,2026-05-01T23:02:35Z,2026-05-01T23:02:35Z,8.7942,1,4,4,2218,3,4,1
+angular/angular,68504,feat(router): add preserveInitialUrl config to keep text fragments on initial load,CLOSED,2026-05-01T13:06:02Z,2026-05-01T14:37:09Z,,1.5186,5,162,3,3287,3,4,1
+angular/angular,68502,fix(core): i18n flags leaking on errors,MERGED,2026-05-01T10:30:55Z,2026-05-05T16:30:54Z,2026-05-05T16:30:54Z,101.9997,1,17,14,378,3,2,1
+angular/angular,68501,refactor(schematics): fix incremental-hydration migration,MERGED,2026-05-01T10:24:52Z,2026-05-01T23:01:29Z,2026-05-01T23:01:29Z,12.6103,3,49,11,45,3,1,1
+angular/angular,68499,docs: fix typo in computed signals section,MERGED,2026-05-01T09:28:14Z,2026-05-01T23:00:49Z,2026-05-01T23:00:49Z,13.5431,1,1,1,1224,3,1,1
+angular/angular,68498,fix(core): enforce return type for service factory,MERGED,2026-05-01T08:02:37Z,2026-05-05T16:30:30Z,2026-05-05T16:30:30Z,104.4647,3,21,10,90,3,1,1
+angular/angular,68495,refactor(http): Add `reportUploadProgress` &  `reportDownloadProgre…,MERGED,2026-04-30T23:32:10Z,2026-05-01T23:00:01Z,2026-05-01T23:00:01Z,23.4642,11,162,23,271,3,1,2
+angular/angular,68494,refactor(devtools): cleanup,MERGED,2026-04-30T22:46:43Z,2026-05-01T22:59:41Z,2026-05-01T22:59:41Z,24.2161,3,59,3,46,3,1,1
+angular/angular,68493,fix(core): visit ng-let expression value in signal migration schematics,MERGED,2026-04-30T22:04:25Z,2026-05-01T22:59:16Z,2026-05-01T22:59:16Z,24.9142,4,57,0,1162,3,1,1
+angular/angular,68492,fix(docs-infra): exempt form validator names from API auto-linking,MERGED,2026-04-30T19:39:25Z,2026-05-01T22:58:44Z,2026-05-01T22:58:44Z,27.3219,1,7,0,1732,4,4,5
+angular/angular,68490,test: add NgModule compliance test with 'bootstrap' & local compilation,MERGED,2026-04-30T19:34:54Z,2026-05-01T22:58:06Z,2026-05-01T22:58:06Z,27.3867,5,182,0,253,3,1,1
+angular/angular,68488,refactor(common): update deprecation message,MERGED,2026-04-30T17:04:22Z,2026-04-30T23:06:58Z,2026-04-30T23:06:58Z,6.0433,3,11,11,92,3,2,1
+angular/angular,68487,docs: update `@Service` remove preview warning,MERGED,2026-04-30T15:46:58Z,2026-04-30T23:12:24Z,2026-04-30T23:12:24Z,7.4239,2,1,3,110,3,1,1
+angular/angular,68486,ci: update PullApprove config,MERGED,2026-04-30T15:27:53Z,2026-04-30T23:13:18Z,2026-04-30T23:13:18Z,7.7569,1,8,8,337,3,1,1
+angular/angular,68484,fix(forms): Add support for range type with outside of native bounds,MERGED,2026-04-30T13:36:53Z,2026-05-05T23:26:03Z,2026-05-05T23:26:03Z,129.8194,2,45,7,71,3,4,4
+angular/angular,68482,docs: update angular developer skill and document migrations,MERGED,2026-04-30T13:29:02Z,2026-04-30T23:11:51Z,2026-04-30T23:11:51Z,9.7136,3,41,12,183,3,1,1
+angular/angular,68481,Remove various dependencies and unused files,MERGED,2026-04-30T13:19:06Z,2026-04-30T23:10:55Z,2026-04-30T23:10:54Z,9.8633,15,34,1095,12,3,1,4
+angular/angular,68477,docs: add section about variable scopes,MERGED,2026-04-30T10:23:51Z,2026-04-30T23:10:29Z,2026-04-30T23:10:29Z,12.7772,1,34,0,53,4,1,4
+angular/angular,68476,build: update cross-repo angular dependencies (21.2.x) - autoclosed,MERGED,2026-04-30T10:08:09Z,2026-04-30T23:09:55Z,2026-04-30T23:09:55Z,13.0294,4,25,24,907,3,1,4
+angular/angular,68473,build: update dependency bazel_lib to v3.3.1 (21.2.x),MERGED,2026-04-30T07:20:03Z,2026-04-30T23:14:02Z,2026-04-30T23:14:02Z,15.8997,2,4,3,508,3,1,1
+angular/angular,68472,build: update all github actions (21.2.x) - autoclosed,MERGED,2026-04-30T07:17:51Z,2026-04-30T23:09:32Z,2026-04-30T23:09:32Z,15.8614,3,3,3,2000,3,1,1
+angular/angular,68471,build: update alessbell/pull-request-comment-branch action to v2 (main),MERGED,2026-04-30T07:17:27Z,2026-05-01T22:57:45Z,2026-05-01T22:57:45Z,39.6717,1,1,1,1335,3,1,1
+angular/angular,68470,fix(core): mark service decorator as stable,MERGED,2026-04-30T07:03:34Z,2026-04-30T23:08:28Z,2026-04-30T23:08:27Z,16.0814,1,0,8,37,3,1,1
+angular/angular,68467,build: update dependency bazel_lib to v3.3.1 (main),MERGED,2026-04-30T06:25:41Z,2026-05-01T23:04:15Z,2026-05-01T23:04:14Z,40.6425,2,4,3,508,3,1,1
+angular/angular,68466,build: update all non-major dependencies (main),MERGED,2026-04-30T06:24:56Z,2026-05-01T22:57:17Z,2026-05-01T22:57:16Z,40.5389,8,676,369,22571,3,1,1
+angular/angular,68465,build: update all github actions (main),MERGED,2026-04-30T06:23:02Z,2026-04-30T22:55:08Z,2026-04-30T22:55:08Z,16.535,3,3,3,2000,3,1,1
+angular/angular,68464,build: update dependency typescript to v6.0.3 (main),MERGED,2026-04-30T06:22:55Z,2026-05-04T20:05:59Z,2026-05-04T20:05:59Z,109.7178,50,473,571,2375,3,2,1
+angular/angular,68462,refactor(core): add support for default exports to `injectAsync`,MERGED,2026-04-29T23:37:25Z,2026-04-30T22:53:08Z,2026-04-30T22:53:08Z,23.2619,11,130,78,66,3,1,3
+angular/angular,68460,docs: update cross-repo adev docs [main],MERGED,2026-04-29T22:41:15Z,2026-05-01T22:56:08Z,2026-05-01T22:56:08Z,48.2481,6,502,403,43,3,1,1
+angular/angular,68457,build: update cross-repo angular dependencies (main),MERGED,2026-04-29T22:16:50Z,2026-04-30T22:52:22Z,2026-04-30T22:52:22Z,24.5922,36,1275,1145,12351,3,1,1
+angular/angular,68456,fix(language-service): Add support for `@Input` with transforms,MERGED,2026-04-29T20:43:42Z,2026-04-30T22:51:49Z,2026-04-30T22:51:49Z,26.1353,6,268,15,114,3,2,1
+angular/angular,68452,docs: add documentation for lazy loading services and update navigation,MERGED,2026-04-29T18:55:42Z,2026-05-05T22:57:37Z,2026-05-05T22:57:37Z,148.0319,5,106,0,1233,4,3,5
+angular/angular,68451,fix(vscode-extension): Look for tsdk override in the new js/ts.tsdk.p…,MERGED,2026-04-29T17:47:28Z,2026-04-29T20:32:03Z,2026-04-29T20:32:03Z,2.7431,2,3,3,112,2,2,1
+angular/angular,68449,fix(vscode-extension): Look for tsdk override in the new js/ts.tsdk.p…,MERGED,2026-04-29T16:57:18Z,2026-04-29T20:39:16Z,2026-04-29T20:39:16Z,3.6994,4,13,7,112,3,1,1
+angular/angular,68445,build: update cross-repo angular dependencies (21.2.x),MERGED,2026-04-29T14:57:06Z,2026-04-29T20:29:45Z,2026-04-29T20:29:45Z,5.5442,35,1440,2067,14644,3,2,1
+angular/angular,68444,build: update cross-repo angular dependencies (main),MERGED,2026-04-29T14:55:09Z,2026-04-29T20:34:08Z,2026-04-29T20:34:08Z,5.6497,6,41,41,7031,3,1,1
+angular/angular,68440,docs: update documentation for platform server URL token options,MERGED,2026-04-29T09:49:41Z,2026-04-29T20:37:00Z,2026-04-29T20:37:00Z,10.7886,1,1,3,41,3,1,1
+angular/angular,68439,fix(core): validate security-sensitive attributes in i18n bindings,MERGED,2026-04-29T09:18:08Z,2026-04-30T22:47:13Z,2026-04-30T22:47:13Z,37.4847,3,58,3,200,4,1,4
+angular/angular,68434,refactor(compiler): introduce default constant for legacyOptionalChai…,MERGED,2026-04-28T23:38:39Z,2026-04-29T17:01:14Z,2026-04-29T17:01:14Z,17.3764,7,22,8,78,3,1,4
+angular/angular,68431,docs(docs-infra): open update guide external links in new tabs,MERGED,2026-04-28T21:45:58Z,2026-04-29T20:59:43Z,2026-04-29T20:59:43Z,23.2292,4,75,38,2923,3,7,6
+angular/angular,68427,build: lock file maintenance,MERGED,2026-04-28T17:52:29Z,2026-04-28T18:55:10Z,2026-04-28T18:55:10Z,1.0447,1,348,356,0,2,1,1
+angular/angular,68424,fix(http): prevent duplicate search params in transfer cache key generation,CLOSED,2026-04-28T16:49:38Z,2026-05-05T09:25:34Z,,160.5989,2,17,3,1996,2,4,1
+angular/angular,68422,docs: add information about zone.js Vitest patch in the Vitest migration guide,MERGED,2026-04-28T15:24:51Z,2026-04-28T17:32:50Z,2026-04-28T17:32:50Z,2.1331,1,6,3,152,3,1,1
+angular/angular,68421,build(dev-infra): update dev-infra actions to latest commit,MERGED,2026-04-28T14:46:52Z,2026-04-28T17:32:21Z,2026-04-28T17:32:21Z,2.7581,10,60,60,148,3,1,1
+angular/angular,68420,refactor(core): fix bundling symbol test,MERGED,2026-04-28T13:41:59Z,2026-04-28T16:44:59Z,2026-04-28T16:44:59Z,3.05,1,0,1,30,3,1,1
+angular/angular,68416,build: update cross-repo angular dependencies (21.2.x),MERGED,2026-04-28T10:24:15Z,2026-04-28T19:00:22Z,2026-04-28T19:00:22Z,8.6019,3,47,48,844,3,1,1
+angular/angular,68415,build: update cross-repo angular dependencies (main),MERGED,2026-04-28T10:22:03Z,2026-04-28T17:19:57Z,2026-04-28T17:19:57Z,6.965,3,32,48,844,2,1,1
+angular/angular,68413,refactor(compiler-cli): remove checkTwoWayBoundEvents flag,MERGED,2026-04-28T07:11:04Z,2026-04-28T17:31:43Z,2026-04-28T17:31:43Z,10.3442,11,26,149,215,3,1,1
+angular/angular,68412,build: lock file maintenance (21.2.x),MERGED,2026-04-28T05:17:40Z,2026-04-28T18:59:31Z,2026-04-28T18:59:31Z,13.6975,23,2966,2518,497,3,1,1
+angular/angular,68411,build: lock file maintenance (main),MERGED,2026-04-28T05:14:10Z,2026-04-28T17:25:46Z,2026-04-28T17:25:45Z,12.1931,17,3940,3082,497,2,2,1
+angular/angular,68410,docs: update cross-repo adev docs [main],MERGED,2026-04-27T22:27:26Z,2026-04-28T19:33:29Z,2026-04-28T19:33:28Z,21.1006,8,366,181,43,3,1,1
+angular/angular,68408,fix(core): fix ordering of view queries metadata in JIT mode,MERGED,2026-04-27T21:52:54Z,2026-04-28T19:03:42Z,2026-04-28T19:03:42Z,21.18,2,51,4,178,3,1,1
+angular/angular,68405,refactor(compiler-cli): remove reflectionhost from environment,MERGED,2026-04-27T19:48:12Z,2026-04-29T20:36:22Z,2026-04-29T20:36:22Z,48.8028,11,117,81,154,3,1,1
+angular/angular,68403,docs: document allowedHosts SSR requirement in v21 update guide,MERGED,2026-04-27T19:26:38Z,2026-04-29T20:59:13Z,2026-04-29T20:59:13Z,49.5431,1,8,0,1880,4,3,10
+angular/angular,68402,refactor(compiler): Removes unused compiler utility functions,MERGED,2026-04-27T18:32:55Z,2026-04-28T00:00:45Z,2026-04-28T00:00:45Z,5.4639,2,0,92,1344,4,2,4
+angular/angular,68401,refactor: use stronger language for adev writing guide,MERGED,2026-04-27T17:03:31Z,2026-04-27T22:29:04Z,2026-04-27T22:29:04Z,5.4258,1,1,1,71,4,1,2
+angular/angular,68400,refactor: attempt stronger automatic comment blocking,MERGED,2026-04-27T16:14:57Z,2026-04-30T22:45:41Z,2026-04-30T22:45:41Z,78.5122,1,1,0,115,4,1,1
+angular/angular,68399,build: update cross-repo angular dependencies (21.2.x),MERGED,2026-04-27T16:09:48Z,2026-04-27T22:27:28Z,2026-04-27T22:27:28Z,6.2944,3,9,9,777,3,1,1
+angular/angular,68398,docs: add NG01902 orphan field error reference,MERGED,2026-04-27T16:08:51Z,2026-04-28T19:07:47Z,2026-04-28T19:07:47Z,26.9822,3,28,1,1443,5,3,1

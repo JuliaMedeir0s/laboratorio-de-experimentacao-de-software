@@ -1,0 +1,40 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+bregman-arie/devops-exercises,10616,Update README.md,MERGED,2025-11-20T18:35:32Z,2025-12-27T14:16:28Z,2025-12-27T14:16:28Z,883.6822,1,3,0,71,3,0,1
+bregman-arie/devops-exercises,10614,Updating,CLOSED,2025-11-08T17:17:44Z,2025-12-27T14:16:42Z,,1172.9828,0,0,0,0,3,0,1
+bregman-arie/devops-exercises,10610,Fix typos and grammatical issues in README.md,MERGED,2025-10-27T22:37:37Z,2025-12-27T14:20:09Z,2025-12-27T14:20:09Z,1455.7089,1,4,4,389,3,0,1
+bregman-arie/devops-exercises,10609,REST API,CLOSED,2025-10-21T19:04:34Z,2025-12-27T14:20:58Z,,1603.2733,2,578,0,250,3,1,1
+bregman-arie/devops-exercises,10608,Create Cron Job on 3 servers | Ansible Exercise,CLOSED,2025-10-21T18:46:01Z,2025-12-27T14:21:09Z,,1603.5856,1,76,0,246,3,0,1
+bregman-arie/devops-exercises,10607,Added Terraform state explanation and improved module section,CLOSED,2025-10-12T08:41:56Z,2025-12-27T14:21:51Z,,1829.6653,1,10,0,61,2,4,1
+bregman-arie/devops-exercises,10601,Update squashing_commits.md,CLOSED,2025-09-01T09:49:21Z,2025-09-27T16:26:39Z,,630.6217,1,44,1,34,3,0,2
+bregman-arie/devops-exercises,10597,Add exercise and solution for creating a custom VPC and subnets with …,MERGED,2025-07-30T08:15:46Z,2025-08-07T17:23:43Z,2025-08-07T17:23:43Z,201.1325,3,98,0,143,2,0,1
+bregman-arie/devops-exercises,10596,Added  example and explanation for comparing directories using diff -r,MERGED,2025-06-24T19:33:40Z,2025-08-07T17:24:08Z,2025-08-07T17:24:08Z,1053.8411,1,13,0,205,2,0,1
+bregman-arie/devops-exercises,10595,Update and rename squashing_commits.md to squashing_commits.go,CLOSED,2025-06-07T02:58:08Z,2025-06-09T00:13:12Z,,45.2511,1,1,1,0,1,1,1
+bregman-arie/devops-exercises,10594,Update question_utils.py,CLOSED,2025-06-06T15:10:33Z,2025-06-09T00:13:11Z,,57.0439,1,5,3,0,0,0,1
+bregman-arie/devops-exercises,10593,Master Interview Complete Guides,CLOSED,2025-06-01T10:22:04Z,2025-08-07T17:24:52Z,,1615.0467,5,227,0,0,3,2,1
+bregman-arie/devops-exercises,10591,Update title Fork 102 for clarity,MERGED,2025-05-12T09:51:14Z,2025-08-07T17:25:17Z,2025-08-07T17:25:17Z,2095.5675,1,1,1,103,2,1,1
+bregman-arie/devops-exercises,10589,Fix typo in variable declaration comment,MERGED,2025-05-08T14:12:25Z,2025-08-07T17:25:37Z,2025-08-07T17:25:37Z,2187.22,1,1,1,147,3,1,1
+bregman-arie/devops-exercises,10585,added a variable question,MERGED,2025-05-06T05:07:02Z,2025-08-07T17:27:05Z,2025-08-07T17:27:05Z,2244.3342,2,35,0,0,3,3,3
+bregman-arie/devops-exercises,10583,Update git README.md,MERGED,2025-04-29T07:06:48Z,2025-08-07T17:27:38Z,2025-08-07T17:27:38Z,2410.3472,1,1,2,51,3,1,1
+bregman-arie/devops-exercises,10566,Add Practical Security Use Cases to Microsegmentation Section,MERGED,2025-04-03T02:49:41Z,2025-04-24T19:35:13Z,2025-04-24T19:35:13Z,520.7589,1,28,0,372,3,0,2
+bregman-arie/devops-exercises,10565,argocd: add more cases for appset,MERGED,2025-03-12T07:10:45Z,2025-03-26T22:17:48Z,2025-03-26T22:17:48Z,351.1175,1,4,2,0,3,0,1
+bregman-arie/devops-exercises,10561,docs: Update QnA for Ansible Collection README.md -,MERGED,2025-02-28T01:46:01Z,2025-03-26T22:18:16Z,2025-03-26T22:18:16Z,644.5375,1,10,4,56,3,0,1
+bregman-arie/devops-exercises,10546,Pipe,CLOSED,2025-01-07T01:19:18Z,2025-03-26T22:20:54Z,,1893.0267,2,38,13,0,3,0,2
+bregman-arie/devops-exercises,10545,Create python-package-conda.yml,CLOSED,2025-01-07T00:13:53Z,2025-09-27T16:26:02Z,,6328.2025,1,34,0,0,3,1,1
+bregman-arie/devops-exercises,10544,Create AB# #10544,CLOSED,2024-12-27T20:04:02Z,2024-12-28T12:02:13Z,,15.9697,1,1,0,17,2,0,2
+bregman-arie/devops-exercises,10537,Add Answers to OpenStack Components/Projects Question,MERGED,2024-10-30T03:24:40Z,2024-12-21T08:40:26Z,2024-12-21T08:40:26Z,1253.2628,1,9,0,240,3,0,1
+bregman-arie/devops-exercises,10518,fix typo,MERGED,2024-10-13T20:38:21Z,2024-12-21T08:39:31Z,2024-12-21T08:39:31Z,1644.0194,1,2,2,0,4,0,3
+bregman-arie/devops-exercises,10517,README.md,CLOSED,2024-09-04T02:36:58Z,2024-12-28T12:02:53Z,,2769.4319,6,413,2,187,4,0,4
+bregman-arie/devops-exercises,10468,add horizontal scaling and vertical scaling,MERGED,2024-08-15T17:36:57Z,2024-08-31T08:14:00Z,2024-08-31T08:14:00Z,374.6175,1,11,1,91,3,0,2
+bregman-arie/devops-exercises,10324,[issue  #364] Adjusting URL for AWS Cloud Practitioner exam,MERGED,2024-07-19T02:47:45Z,2024-08-31T08:14:13Z,2024-08-31T08:14:13Z,1037.4411,1,1,1,260,4,1,1
+bregman-arie/devops-exercises,10296,Create python-app.yml,CLOSED,2024-06-26T21:53:53Z,2024-07-04T19:59:51Z,,190.0994,1,39,0,0,1,0,2
+bregman-arie/devops-exercises,10279,topics/aws/exercises/web_app_lambda_dynamodb/terraform/main.tf,MERGED,2024-05-27T06:17:22Z,2024-06-11T11:09:30Z,2024-06-11T11:09:30Z,364.8689,1,2,1,66,2,0,1
+bregman-arie/devops-exercises,10270,Added point about binary files to git best practices,MERGED,2024-03-27T19:35:09Z,2024-05-10T11:33:42Z,2024-05-10T11:33:42Z,1047.9758,1,1,0,0,3,0,1
+bregman-arie/devops-exercises,10248,Update README.md,MERGED,2024-01-28T12:25:28Z,2024-02-02T13:14:43Z,2024-02-02T13:14:43Z,120.8208,1,16,7,40,2,0,1
+bregman-arie/devops-exercises,10244,Fixes typos,MERGED,2023-12-03T23:26:25Z,2024-02-02T13:15:14Z,2024-02-02T13:15:14Z,1453.8136,3,6,7,45,2,0,1
+bregman-arie/devops-exercises,10243,Corrects the solution for linux copy exercise,MERGED,2023-12-03T23:04:11Z,2024-02-02T13:15:31Z,2024-02-02T13:15:31Z,1454.1889,1,2,3,160,2,0,1
+bregman-arie/devops-exercises,10242,Apache Kafka ZooKeeper Short Note,MERGED,2023-12-02T13:19:12Z,2024-02-02T13:16:32Z,2024-02-02T13:16:32Z,1487.9556,1,20,0,45,2,0,1
+bregman-arie/devops-exercises,10241,Updated What happens to running pods if if you stop Kubelet on the worker nodes?Update README.md,CLOSED,2023-11-26T23:33:02Z,2024-02-02T13:16:56Z,,1621.7317,1,10,0,95,2,0,1
+bregman-arie/devops-exercises,10238,remove solution from shell > argument_check.md exercise question,MERGED,2023-11-07T09:02:55Z,2024-02-02T13:29:09Z,2024-02-02T13:29:09Z,2092.4372,1,1,15,151,4,1,1
+bregman-arie/devops-exercises,10237,add answer about Molecule,MERGED,2023-10-25T19:00:08Z,2024-02-02T13:29:34Z,2024-02-02T13:29:34Z,2394.4906,1,4,1,185,2,0,1
+bregman-arie/devops-exercises,10233,Added answer what is ssh port forwarding,CLOSED,2023-10-05T18:58:06Z,2023-11-30T06:30:04Z,,1331.5328,1,1,0,0,2,1,1
+bregman-arie/devops-exercises,10220,Update README.md on Ceph section,MERGED,2023-09-19T10:34:04Z,2024-06-12T09:16:52Z,2024-06-12T09:16:52Z,6406.7133,1,22,1,247,2,1,1

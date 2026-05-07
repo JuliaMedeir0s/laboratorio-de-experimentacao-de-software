@@ -1,0 +1,3 @@
+repo,pr_number,title,status,created_at,closed_at,merged_at,analysis_time_hours,files_changed,lines_added,lines_removed,body_length,participants_count,comments_count,reviews_count
+awesomedata/awesome-public-datasets,320,New nlp datasets,MERGED,2017-10-06T16:50:08Z,2017-10-26T03:57:13Z,2017-10-26T03:57:13Z,467.1181,1,3,0,58,3,4,2
+awesomedata/awesome-public-datasets,304,Add Enigma Public & archive.org's data,CLOSED,2017-07-10T16:18:24Z,2018-01-05T15:46:17Z,,4295.4647,1,3,1,328,3,7,3
