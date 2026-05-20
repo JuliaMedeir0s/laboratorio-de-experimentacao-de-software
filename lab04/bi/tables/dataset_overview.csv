@@ -1,0 +1,12 @@
+metric,value
+dataset,** 9.982 repositórios Node.js públicos
+periodo,** Snapshot de maio de 2026
+total_repos,9982
+repos_with_vuln,5616
+repos_with_vuln_pct,56.26
+repos_without_vuln,4366
+repos_without_vuln_pct,43.74
+total_vulnerable_deps,61977
+total_direct_deps,144348
+total_resolved_versions,707977
+total_cves,137995

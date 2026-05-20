@@ -1,0 +1,6 @@
+severity,with_dependabot_pct,without_dependabot_pct,diff_pp
+LOW,10.58,7.76,2.82
+MEDIUM,41.07,42.22,-1.15
+HIGH,38.88,36.86,2.02
+CRITICAL,4.24,7.97,-3.73
+UNKNOWN,5.23,5.19,0.04

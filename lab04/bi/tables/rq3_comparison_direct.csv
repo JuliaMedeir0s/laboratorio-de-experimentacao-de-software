@@ -1,0 +1,5 @@
+metric,with_dependabot,without_dependabot,ratio,benefit
+Taxa de repos vulneráveis,"49,59%","56,60%","1,14x","✅ -7,01 p.p."
+CVEs/repo,"11,50","13,94","1,21x","✅ -17,52%"
+Dependências vulner./repo,"5,63","6,24","1,11x","✅ -9,78%"
+CVEs por dep. vulnerável,"2,04","2,23","1,09x","✅ -8,58%"

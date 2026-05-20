@@ -1,0 +1,5 @@
+metric,with_vulnerability,without_vulnerability
+Dependências diretas/repo,16.88,11.35
+Versões resolvidas/repo,122.02,5.2
+Dependências vulneráveis/repo,11.04,0.0
+CVEs/repo,24.57,0.0

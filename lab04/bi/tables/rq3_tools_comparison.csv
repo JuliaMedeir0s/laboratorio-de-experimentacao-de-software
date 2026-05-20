@@ -1,0 +1,5 @@
+tool,repos,taxa,cves_per_repo,status
+Sem bot,9261,56.67,13.95,Baseline
+Dependabot,484,49.59,11.5,✅ Menor incidência
+Renovate,180,50.56,10.67,✅ Menor incidência
+Snyk,57,64.91,23.53,⚠️ Amostra pequena
