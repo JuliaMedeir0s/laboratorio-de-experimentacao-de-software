@@ -1,0 +1,734 @@
+#!/usr/bin/env python3
+"""Dashboard v2 — Chart.js interativo com filtros.
+Saída: outputs/dashboard_v2.html
+"""
+import csv, json
+from pathlib import Path
+from datetime import datetime
+
+ROOT   = Path(__file__).parent
+BI_DIR = ROOT / "bi" / "tables"
+OUT    = ROOT / "outputs"
+OUT.mkdir(exist_ok=True)
+
+def csv_load(name):
+    with open(BI_DIR / f"{name}.csv", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+def load():
+    ov = {r["metric"]: r["value"] for r in csv_load("dataset_overview")}
+    return dict(ov=ov,
+                bots=csv_load("bots_distribution"),
+                rq1=csv_load("rq1_repo_group_averages"),
+                sev=csv_load("severity_distribution"),
+                sevg=csv_load("severity_by_group_dependabot"),
+                rq3d=csv_load("rq3_comparison_direct"),
+                rq3t=csv_load("rq3_tools_comparison"))
+
+def serialize(raw):
+    ov = raw["ov"]
+    return {
+        "overview": {
+            "total_repos":         int(ov["total_repos"]),
+            "repos_with_vuln":     int(ov["repos_with_vuln"]),
+            "repos_with_vuln_pct": float(ov["repos_with_vuln_pct"]),
+            "repos_without_vuln":  int(ov["repos_without_vuln"]),
+            "repos_without_vuln_pct": float(ov["repos_without_vuln_pct"]),
+            "total_cves":          int(ov["total_cves"]),
+            "total_vulnerable_deps": int(ov["total_vulnerable_deps"]),
+            "total_direct_deps":   int(ov["total_direct_deps"]),
+        },
+        "bots": [{"tool": r["tool"], "repos": int(r["repos"]), "pct": float(r["pct"]),
+                  "repos_vulner": int(r["repos_vulner"]), "taxa": float(r["taxa"]),
+                  "cves_per_repo": float(r["cves_per_repo"]),
+                  "vuln_deps_per_repo": float(r["vuln_deps_per_repo"])}
+                 for r in raw["bots"]],
+        "rq1": [{"metric": r["metric"], "with_v": float(r["with_vulnerability"]),
+                 "without_v": float(r["without_vulnerability"])}
+                for r in raw["rq1"]],
+        "severity": [{"severity": r["severity"], "count": int(r["count"]), "pct": float(r["pct"])}
+                     for r in raw["sev"]],
+        "sev_group": [{"severity": r["severity"],
+                       "with_dep": float(r["with_dependabot_pct"]),
+                       "without_dep": float(r["without_dependabot_pct"])}
+                      for r in raw["sevg"]],
+        "rq3_direct": [{"metric": r["metric"], "with_dep": r["with_dependabot"],
+                        "without_dep": r["without_dependabot"], "benefit": r["benefit"]}
+                       for r in raw["rq3d"]],
+        "rq3_tools": [{"tool": r["tool"], "repos": int(r["repos"]),
+                       "taxa": float(r["taxa"]), "cves_per_repo": float(r["cves_per_repo"]),
+                       "status": r["status"]}
+                      for r in raw["rq3t"]],
+    }
+
+# ── HTML (plain string — sem f-string para não conflitar com JS) ────────────
+
+HTML = r"""<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard — Dependências Vulneráveis Node.js</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg:#f1f5f9; --card:#fff; --border:#e2e8f0;
+  --txt:#1e293b; --muted:#64748b;
+  --blue:#3b82f6; --indigo:#6366f1; --pink:#ec4899;
+  --teal:#14b8a6; --green:#22c55e; --amber:#f59e0b;
+  --red:#ef4444; --slate:#64748b;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);font-size:14px}
+
+/* topbar */
+.topbar{background:#0f172a;color:#f8fafc;padding:0 28px;display:flex;align-items:center;
+  justify-content:space-between;height:54px;position:sticky;top:0;z-index:100;
+  box-shadow:0 1px 6px rgba(0,0,0,.5)}
+.topbar-title{font-size:15px;font-weight:600}
+.topbar-sub{font-size:11px;color:#94a3b8;margin-top:1px}
+.topbar-meta{font-size:11px;color:#64748b;text-align:right}
+
+/* tabs */
+.tabs{background:#1e293b;display:flex;padding:0 28px;gap:2px;
+  border-bottom:1px solid #334155;position:sticky;top:54px;z-index:99;overflow-x:auto}
+.tab{padding:10px 18px;font-size:12.5px;font-weight:500;color:#94a3b8;cursor:pointer;
+  border-bottom:3px solid transparent;white-space:nowrap;transition:color .15s,border-color .15s;
+  user-select:none;background:none;border-top:none;border-left:none;border-right:none}
+.tab:hover{color:#e2e8f0}
+.tab.active{color:#f8fafc;border-bottom-color:#3b82f6}
+
+/* filterbar */
+.filterbar{background:#1e293b;padding:8px 28px;display:flex;gap:20px;align-items:center;
+  flex-wrap:wrap;border-bottom:1px solid #0f172a;position:sticky;top:95px;z-index:98}
+.fg{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.fg-label{font-size:11px;color:#64748b;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap}
+.chip{padding:3px 11px;border-radius:20px;font-size:11.5px;font-weight:500;cursor:pointer;
+  border:1.5px solid var(--cc,#64748b);color:#64748b;background:transparent;
+  transition:all .18s;user-select:none;outline:none}
+.chip.active{background:var(--cc,#64748b);color:#fff;border-color:var(--cc,#64748b)}
+.chip:hover{opacity:.82}
+#fg-sev{display:none}
+
+/* pages */
+.content{padding:20px 28px 48px;max-width:1340px;margin:0 auto}
+.page{display:none}.page.active{display:block}
+
+/* kpi strip */
+.kpi-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:12px;margin-bottom:18px}
+.kpi{background:var(--card);border-radius:10px;padding:15px 16px;
+  border-left:4px solid var(--kc,var(--blue));box-shadow:0 1px 4px rgba(0,0,0,.07)}
+.kpi .kv{font-size:24px;font-weight:700;line-height:1.1;color:var(--txt)}
+.kpi .kl{font-size:10.5px;color:var(--muted);margin-top:3px;text-transform:uppercase;letter-spacing:.4px}
+.kpi.pink  {--kc:var(--pink)}  .kpi.teal  {--kc:var(--teal)}
+.kpi.amber {--kc:var(--amber)} .kpi.red   {--kc:var(--red)}
+.kpi.green {--kc:var(--green)} .kpi.indigo{--kc:var(--indigo)}
+
+/* chart grid */
+.cg{display:grid;gap:14px;margin-bottom:14px}
+.cg.c2{grid-template-columns:1fr 1fr}
+.cg.c3{grid-template-columns:1fr 1fr 1fr}
+.cg.c13{grid-template-columns:1fr 2.6fr}
+.ccard{background:var(--card);border-radius:10px;padding:18px;box-shadow:0 1px 4px rgba(0,0,0,.07)}
+.ccard h4{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.5px;margin-bottom:12px}
+.cwrap{position:relative;height:240px}
+
+/* data card / table */
+.dcard{background:var(--card);border-radius:10px;padding:18px;
+  box-shadow:0 1px 4px rgba(0,0,0,.07);overflow-x:auto;margin-bottom:14px}
+.dcard h4{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.5px;margin-bottom:14px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead tr{border-bottom:2px solid var(--border)}
+th{padding:8px 12px;text-align:left;font-weight:600;color:var(--muted);
+  font-size:11px;text-transform:uppercase;letter-spacing:.3px}
+td{padding:8px 12px;border-bottom:1px solid var(--border)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:#f8fafc}
+
+/* rq header */
+.rqh{display:flex;align-items:flex-start;gap:10px;background:var(--card);border-radius:10px;
+  padding:13px 16px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,.07);
+  border-left:4px solid var(--indigo)}
+.rqn{background:var(--indigo);color:#fff;font-size:11px;font-weight:700;
+  padding:3px 9px;border-radius:6px;white-space:nowrap;flex-shrink:0;margin-top:1px}
+.rqt{font-size:13px;color:var(--txt);font-weight:500;line-height:1.45}
+
+/* severity badges */
+.sev{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600}
+.sev-CRITICAL{background:#fee2e2;color:#991b1b} .sev-HIGH{background:#ffedd5;color:#9a3412}
+.sev-MEDIUM  {background:#fef9c3;color:#713f12} .sev-LOW {background:#dcfce7;color:#166534}
+.sev-UNKNOWN {background:#f1f5f9;color:#475569}
+
+@media(max-width:860px){
+  .cg.c2,.cg.c3,.cg.c13{grid-template-columns:1fr}
+  .kpi-strip{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div>
+    <div class="topbar-title">Dependências Vulneráveis — Projetos Node.js</div>
+    <div class="topbar-sub">Laboratório de Experimentação de Software · Lab04</div>
+  </div>
+  <div class="topbar-meta">9.982 repositórios · Snapshot maio/2026<br>Gerado em __NOW__</div>
+</div>
+
+<div class="tabs">
+  <button class="tab active" data-tab="pg-ov"  onclick="showTab('pg-ov')">Visão Geral</button>
+  <button class="tab"        data-tab="pg-rq1" onclick="showTab('pg-rq1')">RQ1 — Frequência</button>
+  <button class="tab"        data-tab="pg-rq2" onclick="showTab('pg-rq2')">RQ2 — Severidade</button>
+  <button class="tab"        data-tab="pg-rq3" onclick="showTab('pg-rq3')">RQ3 — Automação</button>
+</div>
+
+<div class="filterbar">
+  <div class="fg" id="fg-tools">
+    <span class="fg-label">Ferramentas</span>
+    <button class="chip active" id="chip-t-all" style="--cc:#475569" onclick="toggleTool('all')">Todas</button>
+    <button class="chip active" data-tool="Sem bot"    style="--cc:#64748b" onclick="toggleTool('Sem bot')">Sem bot</button>
+    <button class="chip active" data-tool="Dependabot" style="--cc:#3b82f6" onclick="toggleTool('Dependabot')">Dependabot</button>
+    <button class="chip active" data-tool="Renovate"   style="--cc:#22c55e" onclick="toggleTool('Renovate')">Renovate</button>
+    <button class="chip active" data-tool="Snyk"       style="--cc:#f59e0b" onclick="toggleTool('Snyk')">Snyk</button>
+  </div>
+  <div class="fg" id="fg-sev">
+    <span class="fg-label">Severidade</span>
+    <button class="chip active" id="chip-s-all"  style="--cc:#475569" onclick="toggleSev('all')">Todas</button>
+    <button class="chip active" data-sev="CRITICAL" style="--cc:#dc2626" onclick="toggleSev('CRITICAL')">CRITICAL</button>
+    <button class="chip active" data-sev="HIGH"     style="--cc:#ea580c" onclick="toggleSev('HIGH')">HIGH</button>
+    <button class="chip active" data-sev="MEDIUM"   style="--cc:#ca8a04" onclick="toggleSev('MEDIUM')">MEDIUM</button>
+    <button class="chip active" data-sev="LOW"      style="--cc:#16a34a" onclick="toggleSev('LOW')">LOW</button>
+    <button class="chip active" data-sev="UNKNOWN"  style="--cc:#94a3b8" onclick="toggleSev('UNKNOWN')">UNKNOWN</button>
+  </div>
+</div>
+
+<div class="content">
+
+<!-- ═══ VISÃO GERAL ═══ -->
+<div class="page active" id="pg-ov">
+  <div class="kpi-strip">
+    <div class="kpi">        <div class="kv" id="kpi-total">—</div><div class="kl">Repositórios</div></div>
+    <div class="kpi pink">  <div class="kv" id="kpi-vuln">—</div> <div class="kl">Com vulnerabilidades</div></div>
+    <div class="kpi teal">  <div class="kv" id="kpi-vpct">—</div> <div class="kl">Taxa de vuln.</div></div>
+    <div class="kpi amber"> <div class="kv" id="kpi-cves">—</div> <div class="kl">CVEs estimados</div></div>
+    <div class="kpi red">   <div class="kv" id="kpi-vdeps">—</div><div class="kl">Deps. vulneráveis</div></div>
+    <div class="kpi indigo"><div class="kv" id="kpi-vdpct">—</div><div class="kl">% deps. diretas c/ vuln.</div></div>
+  </div>
+  <div class="cg c3">
+    <div class="ccard"><h4>Com vs. sem vulnerabilidade</h4><div class="cwrap"><canvas id="c-vuln-donut"></canvas></div></div>
+    <div class="ccard"><h4>Repositórios por ferramenta</h4><div class="cwrap"><canvas id="c-bots-repos"></canvas></div></div>
+    <div class="ccard"><h4>Taxa de vulnerabilidade (%)</h4><div class="cwrap"><canvas id="c-bots-taxa"></canvas></div></div>
+  </div>
+  <div class="dcard">
+    <h4>Subgrupos por ferramenta de automação</h4>
+    <table><thead><tr>
+      <th>Ferramenta</th><th>Total</th><th>% Dataset</th>
+      <th>Com vuln.</th><th>Taxa vuln.</th><th>CVEs/repo</th><th>Deps. vuln./repo</th>
+    </tr></thead><tbody id="bots-tbody"></tbody></table>
+  </div>
+</div>
+
+<!-- ═══ RQ1 ═══ -->
+<div class="page" id="pg-rq1">
+  <div class="rqh">
+    <div class="rqn">RQ1</div>
+    <div class="rqt">Qual é a frequência de dependências vulneráveis em projetos Node.js hospedados no GitHub?</div>
+  </div>
+  <div class="kpi-strip">
+    <div class="kpi pink">  <div class="kv" id="rq1-vpct">—</div>  <div class="kl">Repos com ≥1 vuln.</div></div>
+    <div class="kpi amber"> <div class="kv" id="rq1-vdeps">—</div> <div class="kl">Deps. vuln./repo (média)</div></div>
+    <div class="kpi red">   <div class="kv" id="rq1-cves">—</div>  <div class="kl">CVEs/repo vulnerável</div></div>
+    <div class="kpi indigo"><div class="kv" id="rq1-cpd">—</div>   <div class="kl">CVEs/dep. vulnerável</div></div>
+  </div>
+  <div class="cg c2">
+    <div class="ccard"><h4>Proporção do dataset</h4>         <div class="cwrap"><canvas id="c-rq1-donut"></canvas></div></div>
+    <div class="ccard"><h4>Métricas médias por grupo</h4>    <div class="cwrap"><canvas id="c-rq1-bar"></canvas></div></div>
+  </div>
+  <div class="dcard">
+    <h4>Estatísticas descritivas por grupo</h4>
+    <table><thead><tr><th>Métrica</th><th>Com vulnerabilidade</th><th>Sem vulnerabilidade</th></tr></thead>
+    <tbody id="rq1-tbody"></tbody></table>
+  </div>
+</div>
+
+<!-- ═══ RQ2 ═══ -->
+<div class="page" id="pg-rq2">
+  <div class="rqh">
+    <div class="rqn">RQ2</div>
+    <div class="rqt">Qual é o nível de severidade das vulnerabilidades encontradas e qual a distribuição proporcional entre os níveis de risco?</div>
+  </div>
+  <div class="kpi-strip">
+    <div class="kpi red">   <div class="kv" id="rq2-hc">—</div>  <div class="kl">HIGH + CRITICAL</div></div>
+    <div class="kpi amber"> <div class="kv" id="rq2-med">—</div> <div class="kl">MEDIUM</div></div>
+    <div class="kpi teal">  <div class="kv" id="rq2-mp">—</div>  <div class="kl">MEDIUM ou superior</div></div>
+    <div class="kpi pink">  <div class="kv" id="rq2-crit">—</div><div class="kl">CRITICAL</div></div>
+  </div>
+  <div class="cg c13">
+    <div class="dcard" style="margin:0">
+      <h4>CVEs por severidade</h4>
+      <table><thead><tr><th>Nível</th><th>CVEs</th><th>%</th></tr></thead>
+      <tbody id="sev-tbody"></tbody></table>
+    </div>
+    <div class="ccard"><h4>Distribuição de severidade dos CVEs</h4><div class="cwrap"><canvas id="c-sev-donut"></canvas></div></div>
+  </div>
+  <div class="ccard" style="margin-bottom:14px">
+    <h4>Impacto do Dependabot por severidade — diferença em p.p. (com Dependabot − sem Dependabot)</h4>
+    <div class="cwrap" style="height:220px"><canvas id="c-sev-delta"></canvas></div>
+    <p style="font-size:10.5px;color:#94a3b8;margin-top:10px">
+      🟢 Negativo = menos desse nível com Dependabot &nbsp;|&nbsp; 🟡 Positivo = mais desse nível com Dependabot
+    </p>
+  </div>
+</div>
+
+<!-- ═══ RQ3 ═══ -->
+<div class="page" id="pg-rq3">
+  <div class="rqh">
+    <div class="rqn">RQ3</div>
+    <div class="rqt">A utilização de ferramentas de automação está associada a uma menor incidência de dependências vulneráveis?</div>
+  </div>
+  <div class="kpi-strip">
+    <div class="kpi green"> <div class="kv" id="rq3-rt">—</div><div class="kl">Redução taxa vuln. (Dependabot)</div></div>
+    <div class="kpi green"> <div class="kv" id="rq3-rc">—</div><div class="kl">Redução CVEs/repo (Dependabot)</div></div>
+    <div class="kpi blue">  <div class="kv" id="rq3-dt">—</div><div class="kl">Taxa vuln. com Dependabot</div></div>
+    <div class="kpi amber"> <div class="kv" id="rq3-bt">—</div><div class="kl">Taxa vuln. sem automação</div></div>
+  </div>
+  <div class="cg c2">
+    <div class="ccard"><h4>Taxa de repos vulneráveis por ferramenta (%)</h4><div class="cwrap"><canvas id="c-rq3-taxa"></canvas></div></div>
+    <div class="ccard"><h4>CVEs por repositório por ferramenta (média)</h4> <div class="cwrap"><canvas id="c-rq3-cves"></canvas></div></div>
+  </div>
+  <div class="dcard">
+    <h4>Comparação direta — com vs. sem Dependabot</h4>
+    <table><thead><tr><th>Métrica</th><th>Com Dependabot</th><th>Sem Dependabot</th><th>Benefício</th></tr></thead>
+    <tbody id="rq3d-tbody"></tbody></table>
+  </div>
+  <div class="dcard">
+    <h4>Comparação entre todas as ferramentas</h4>
+    <table><thead><tr><th>Ferramenta</th><th>Repos</th><th>Taxa vuln.</th><th>CVEs/repo</th><th>Status</th></tr></thead>
+    <tbody id="rq3t-tbody"></tbody></table>
+  </div>
+</div>
+
+</div><!-- /content -->
+
+<script>
+// ── Dados ──────────────────────────────────────────────────────────────────
+const DATA = __JS_DATA__;
+
+// ── Estado ────────────────────────────────────────────────────────────────
+const ALL_TOOLS = DATA.bots.map(b => b.tool);
+const ALL_SEVS  = ['CRITICAL','HIGH','MEDIUM','LOW','UNKNOWN'];
+let activeTools = new Set(ALL_TOOLS);
+let activeSevs  = new Set(ALL_SEVS);
+
+// ── Cores ─────────────────────────────────────────────────────────────────
+const TC = {'Sem bot':'#64748b','Dependabot':'#3b82f6','Renovate':'#22c55e','Snyk':'#f59e0b'};
+const SC = {'CRITICAL':'#dc2626','HIGH':'#ea580c','MEDIUM':'#ca8a04','LOW':'#16a34a','UNKNOWN':'#94a3b8'};
+
+// ── Helpers ───────────────────────────────────────────────────────────────
+const fN   = n => n.toLocaleString('pt-BR');
+const fP   = n => n.toFixed(1) + '%';
+const fF   = n => n.toFixed(1);
+const fBots = () => DATA.bots.filter(b => activeTools.has(b.tool));
+const fSev  = () => DATA.severity.filter(s => activeSevs.has(s.severity));
+const fSevG = () => DATA.sev_group.filter(s => activeSevs.has(s.severity));
+
+// ── Chart.js defaults ─────────────────────────────────────────────────────
+Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
+Chart.defaults.font.size   = 11;
+Chart.defaults.color       = '#64748b';
+
+// ── Plugin: texto central nos donuts ──────────────────────────────────────
+Chart.register({
+  id: 'centerText',
+  afterDraw(chart) {
+    const ct = chart.config.options.plugins.centerText;
+    if (!ct) return;
+    const {ctx, chartArea:{width,height,top,left}} = chart;
+    const cx = left + width/2, cy = top + height/2;
+    ctx.save();
+    ctx.textAlign = 'center';
+    ctx.font = `bold 15px 'Segoe UI', sans-serif`;
+    ctx.fillStyle = ct.color || '#1e293b';
+    ctx.fillText(ct.line1, cx, cy);
+    if (ct.line2) {
+      ctx.font = `10px 'Segoe UI', sans-serif`;
+      ctx.fillStyle = '#64748b';
+      ctx.fillText(ct.line2, cx, cy + 14);
+    }
+    ctx.restore();
+  }
+});
+
+// ── Instâncias dos charts ─────────────────────────────────────────────────
+const C = {};
+
+function barOpts(yLabel, showLegend=false) {
+  return {
+    responsive:true, maintainAspectRatio:false,
+    plugins:{
+      legend:{display:showLegend, position:'bottom', labels:{boxWidth:11,padding:12}},
+      tooltip:{callbacks:{label: ctx => ` ${ctx.parsed.y.toFixed(1)}`}}
+    },
+    scales:{
+      y:{beginAtZero:true,
+         title:{display:true,text:yLabel,font:{size:10},color:'#94a3b8'},
+         grid:{color:'#f1f5f9'}},
+      x:{grid:{display:false}}
+    }
+  };
+}
+
+function donutOpts(line1, line2, color='#1e293b') {
+  return {
+    responsive:true, maintainAspectRatio:false, cutout:'56%',
+    plugins:{
+      legend:{position:'bottom',labels:{boxWidth:11,padding:10,font:{size:10}}},
+      tooltip:{callbacks:{label: ctx => ` ${ctx.parsed.toFixed(1)}%`}},
+      centerText:{line1, line2, color}
+    }
+  };
+}
+
+function initCharts() {
+  const bots = fBots();
+  const sev  = fSev();
+  const sg   = fSevG();
+  const ov   = DATA.overview;
+
+  // Visão Geral ────────────────────────────────────────────────────────────
+  C.vulnDonut = new Chart(document.getElementById('c-vuln-donut'), {
+    type:'doughnut',
+    data:{
+      labels:['Com vulnerabilidade','Sem vulnerabilidade'],
+      datasets:[{data:[ov.repos_with_vuln_pct, ov.repos_without_vuln_pct],
+                 backgroundColor:['#ec4899','#14b8a6'],borderWidth:2,borderColor:'white'}]
+    },
+    options: donutOpts(fP(ov.repos_with_vuln_pct), 'com vuln.', '#ec4899')
+  });
+
+  C.botsRepos = new Chart(document.getElementById('c-bots-repos'), {
+    type:'bar',
+    data:{
+      labels: bots.map(b=>b.tool),
+      datasets:[
+        {label:'Total',     data:bots.map(b=>b.repos),        backgroundColor:bots.map(b=>TC[b.tool]),        borderRadius:4},
+        {label:'Com vuln.', data:bots.map(b=>b.repos_vulner), backgroundColor:bots.map(b=>TC[b.tool]+'77'), borderRadius:4}
+      ]
+    },
+    options: {...barOpts('Repositórios', true)}
+  });
+
+  C.botsTaxa = new Chart(document.getElementById('c-bots-taxa'), {
+    type:'bar',
+    data:{
+      labels: bots.map(b=>b.tool),
+      datasets:[{label:'Taxa (%)', data:bots.map(b=>b.taxa),
+                 backgroundColor:bots.map(b=>TC[b.tool]), borderRadius:4}]
+    },
+    options: barOpts('% repos vulneráveis')
+  });
+
+  // RQ1 ────────────────────────────────────────────────────────────────────
+  C.rq1Donut = new Chart(document.getElementById('c-rq1-donut'), {
+    type:'doughnut',
+    data:{
+      labels:['Com vulnerabilidade','Sem vulnerabilidade'],
+      datasets:[{data:[ov.repos_with_vuln_pct, ov.repos_without_vuln_pct],
+                 backgroundColor:['#ec4899','#14b8a6'],borderWidth:2,borderColor:'white'}]
+    },
+    options: donutOpts(fP(ov.repos_with_vuln_pct), 'dos repos', '#ec4899')
+  });
+
+  const rq1sel = DATA.rq1.filter(r => ['Dependências diretas/repo','CVEs/repo'].includes(r.metric));
+  C.rq1Bar = new Chart(document.getElementById('c-rq1-bar'), {
+    type:'bar',
+    data:{
+      labels: rq1sel.map(r=>r.metric),
+      datasets:[
+        {label:'Com vulnerabilidade',  data:rq1sel.map(r=>r.with_v),   backgroundColor:'#ec4899', borderRadius:4},
+        {label:'Sem vulnerabilidade',  data:rq1sel.map(r=>r.without_v), backgroundColor:'#14b8a6', borderRadius:4}
+      ]
+    },
+    options: {...barOpts('Média por repositório', true)}
+  });
+
+  // RQ2 ────────────────────────────────────────────────────────────────────
+  C.sevDonut = new Chart(document.getElementById('c-sev-donut'), {
+    type:'doughnut',
+    data:{
+      labels: sev.map(s=>s.severity),
+      datasets:[{data:sev.map(s=>s.pct),
+                 backgroundColor:sev.map(s=>SC[s.severity]),
+                 borderWidth:2,borderColor:'white'}]
+    },
+    options: donutOpts(
+      fP(sev.filter(s=>['HIGH','CRITICAL'].includes(s.severity)).reduce((a,s)=>a+s.pct,0)),
+      'HIGH+CRITICAL', '#dc2626')
+  });
+
+  const deltas0 = sg.map(s => parseFloat((s.with_dep - s.without_dep).toFixed(2)));
+  C.sevDelta = new Chart(document.getElementById('c-sev-delta'), {
+    type:'bar',
+    data:{
+      labels: sg.map(s=>s.severity),
+      datasets:[{
+        label:'Diferença (p.p.)',
+        data: deltas0,
+        backgroundColor: deltas0.map(d => d < 0 ? '#22c55e88' : '#f59e0b88'),
+        borderColor:     deltas0.map(d => d < 0 ? '#22c55e'   : '#f59e0b'),
+        borderWidth: 1.5,
+        borderRadius: 4,
+      }]
+    },
+    options:{
+      indexAxis:'y',
+      responsive:true, maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{callbacks:{label: ctx => {
+          const v = ctx.parsed.x;
+          return ` ${v > 0 ? '+' : ''}${v.toFixed(2)} p.p.`;
+        }}}
+      },
+      scales:{
+        x:{
+          title:{display:true, text:'p.p. — negativo = menos desse nível com Dependabot', font:{size:10}, color:'#94a3b8'},
+          grid:{color:'#f1f5f9'}
+        },
+        y:{grid:{display:false}}
+      }
+    }
+  });
+
+  // RQ3 ────────────────────────────────────────────────────────────────────
+  C.rq3Taxa = new Chart(document.getElementById('c-rq3-taxa'), {
+    type:'bar',
+    data:{
+      labels: bots.map(b=>b.tool),
+      datasets:[{label:'Taxa (%)', data:bots.map(b=>b.taxa),
+                 backgroundColor:bots.map(b=>TC[b.tool]), borderRadius:4}]
+    },
+    options: barOpts('% repos vulneráveis')
+  });
+
+  C.rq3Cves = new Chart(document.getElementById('c-rq3-cves'), {
+    type:'bar',
+    data:{
+      labels: bots.map(b=>b.tool),
+      datasets:[{label:'CVEs/repo', data:bots.map(b=>b.cves_per_repo),
+                 backgroundColor:bots.map(b=>TC[b.tool]), borderRadius:4}]
+    },
+    options: barOpts('CVEs por repositório (média)')
+  });
+
+  renderAll();
+}
+
+// ── Render tables + KPIs ──────────────────────────────────────────────────
+function renderAll() {
+  renderKpisOv();
+  renderKpisRq1();
+  renderKpisRq2();
+  renderKpisRq3();
+  renderBotsTable();
+  renderRq1Table();
+  renderSevTable();
+  renderRq3Tables();
+}
+
+function renderKpisOv() {
+  const bots = fBots();
+  const total  = bots.reduce((a,b)=>a+b.repos, 0);
+  const vuln   = bots.reduce((a,b)=>a+b.repos_vulner, 0);
+  const vpct   = total ? vuln/total*100 : 0;
+  const cves   = Math.round(bots.reduce((a,b)=>a+b.cves_per_repo*b.repos_vulner, 0));
+  const vdeps  = Math.round(bots.reduce((a,b)=>a+b.vuln_deps_per_repo*b.repos_vulner, 0));
+  const tdeps  = Math.round(bots.reduce((a,b)=>a+(DATA.overview.total_direct_deps/DATA.overview.total_repos)*b.repos, 0));
+  document.getElementById('kpi-total').textContent = fN(total);
+  document.getElementById('kpi-vuln').textContent  = fN(vuln);
+  document.getElementById('kpi-vpct').textContent  = fP(vpct);
+  document.getElementById('kpi-cves').textContent  = fN(cves);
+  document.getElementById('kpi-vdeps').textContent = fN(vdeps);
+  document.getElementById('kpi-vdpct').textContent = tdeps ? fP(vdeps/tdeps*100) : '—';
+}
+
+function renderKpisRq1() {
+  const ov = DATA.overview;
+  const rq1 = Object.fromEntries(DATA.rq1.map(r=>[r.metric, r]));
+  document.getElementById('rq1-vpct').textContent  = fP(ov.repos_with_vuln_pct);
+  document.getElementById('rq1-vdeps').textContent = fF(rq1['Dependências vulneráveis/repo']?.with_v ?? 0);
+  document.getElementById('rq1-cves').textContent  = fF(rq1['CVEs/repo']?.with_v ?? 0);
+  document.getElementById('rq1-cpd').textContent   = fF(ov.total_cves / ov.repos_with_vuln);
+}
+
+function renderKpisRq2() {
+  const sev = fSev();
+  const mp = sev.map(s=>s.pct);
+  const hc  = sev.filter(s=>['HIGH','CRITICAL'].includes(s.severity)).reduce((a,s)=>a+s.pct,0);
+  const med = sev.filter(s=>s.severity==='MEDIUM').reduce((a,s)=>a+s.pct,0);
+  const crit= sev.filter(s=>s.severity==='CRITICAL').reduce((a,s)=>a+s.pct,0);
+  const tot = mp.reduce((a,v)=>a+v,0);
+  document.getElementById('rq2-hc').textContent   = fP(hc);
+  document.getElementById('rq2-med').textContent  = fP(med);
+  document.getElementById('rq2-mp').textContent   = fP(hc+med);
+  document.getElementById('rq2-crit').textContent = fP(crit);
+}
+
+function renderKpisRq3() {
+  const base = DATA.bots.find(b=>b.tool==='Sem bot');
+  const dep  = DATA.bots.find(b=>b.tool==='Dependabot');
+  if (!base || !dep) return;
+  document.getElementById('rq3-rt').textContent = '-' + fP((base.taxa-dep.taxa)/base.taxa*100);
+  document.getElementById('rq3-rc').textContent = '-' + fP((base.cves_per_repo-dep.cves_per_repo)/base.cves_per_repo*100);
+  document.getElementById('rq3-dt').textContent = fP(dep.taxa);
+  document.getElementById('rq3-bt').textContent = fP(base.taxa);
+}
+
+function renderBotsTable() {
+  document.getElementById('bots-tbody').innerHTML = fBots().map(b=>`
+    <tr>
+      <td><strong>${b.tool}</strong></td>
+      <td>${fN(b.repos)}</td><td>${fF(b.pct)}%</td>
+      <td>${fN(b.repos_vulner)}</td><td>${fF(b.taxa)}%</td>
+      <td>${fF(b.cves_per_repo)}</td><td>${fF(b.vuln_deps_per_repo)}</td>
+    </tr>`).join('');
+}
+
+function renderRq1Table() {
+  document.getElementById('rq1-tbody').innerHTML = DATA.rq1.map(r=>`
+    <tr><td>${r.metric}</td><td><strong>${fF(r.with_v)}</strong></td><td>${fF(r.without_v)}</td></tr>`).join('');
+}
+
+function renderSevTable() {
+  document.getElementById('sev-tbody').innerHTML = fSev().map(s=>`
+    <tr>
+      <td><span class="sev sev-${s.severity}">${s.severity}</span></td>
+      <td>${fN(s.count)}</td><td>${fF(s.pct)}%</td>
+    </tr>`).join('');
+}
+
+function renderRq3Tables() {
+  document.getElementById('rq3d-tbody').innerHTML = DATA.rq3_direct.map(r=>`
+    <tr><td>${r.metric}</td><td><strong>${r.with_dep}</strong></td>
+        <td>${r.without_dep}</td><td>${r.benefit}</td></tr>`).join('');
+  document.getElementById('rq3t-tbody').innerHTML = fBots().map(b=>`
+    <tr>
+      <td><strong>${b.tool}</strong></td><td>${fN(b.repos)}</td>
+      <td>${fF(b.taxa)}%</td><td>${fF(b.cves_per_repo)}</td>
+      <td>${DATA.rq3_tools.find(r=>r.tool===b.tool)?.status ?? '—'}</td>
+    </tr>`).join('');
+}
+
+// ── Atualiza charts após filtro ───────────────────────────────────────────
+function updateToolCharts() {
+  const bots = fBots();
+  const labels = bots.map(b=>b.tool);
+  const colors = labels.map(l=>TC[l]);
+
+  C.botsRepos.data.labels = labels;
+  C.botsRepos.data.datasets[0].data = bots.map(b=>b.repos);
+  C.botsRepos.data.datasets[0].backgroundColor = colors;
+  C.botsRepos.data.datasets[1].data = bots.map(b=>b.repos_vulner);
+  C.botsRepos.data.datasets[1].backgroundColor = colors.map(c=>c+'77');
+  C.botsRepos.update();
+
+  C.botsTaxa.data.labels = labels;
+  C.botsTaxa.data.datasets[0].data = bots.map(b=>b.taxa);
+  C.botsTaxa.data.datasets[0].backgroundColor = colors;
+  C.botsTaxa.update();
+
+  C.rq3Taxa.data.labels = labels;
+  C.rq3Taxa.data.datasets[0].data = bots.map(b=>b.taxa);
+  C.rq3Taxa.data.datasets[0].backgroundColor = colors;
+  C.rq3Taxa.update();
+
+  C.rq3Cves.data.labels = labels;
+  C.rq3Cves.data.datasets[0].data = bots.map(b=>b.cves_per_repo);
+  C.rq3Cves.data.datasets[0].backgroundColor = colors;
+  C.rq3Cves.update();
+
+  renderKpisOv();
+  renderBotsTable();
+  renderRq3Tables();
+}
+
+function updateSevCharts() {
+  const sev = fSev();
+  const sg  = fSevG();
+
+  C.sevDonut.data.labels = sev.map(s=>s.severity);
+  C.sevDonut.data.datasets[0].data = sev.map(s=>s.pct);
+  C.sevDonut.data.datasets[0].backgroundColor = sev.map(s=>SC[s.severity]);
+  const hc = sev.filter(s=>['HIGH','CRITICAL'].includes(s.severity)).reduce((a,s)=>a+s.pct,0);
+  C.sevDonut.config.options.plugins.centerText.line1 = fP(hc);
+  C.sevDonut.update();
+
+  const deltas = sg.map(s => parseFloat((s.with_dep - s.without_dep).toFixed(2)));
+  C.sevDelta.data.labels = sg.map(s=>s.severity);
+  C.sevDelta.data.datasets[0].data = deltas;
+  C.sevDelta.data.datasets[0].backgroundColor = deltas.map(d => d < 0 ? '#22c55e88' : '#f59e0b88');
+  C.sevDelta.data.datasets[0].borderColor      = deltas.map(d => d < 0 ? '#22c55e'   : '#f59e0b');
+  C.sevDelta.update();
+
+  renderKpisRq2();
+  renderSevTable();
+}
+
+// ── Filtros ───────────────────────────────────────────────────────────────
+function toggleTool(tool) {
+  if (tool === 'all') {
+    activeTools = new Set(ALL_TOOLS);
+  } else {
+    if (activeTools.has(tool) && activeTools.size > 1) activeTools.delete(tool);
+    else activeTools.add(tool);
+  }
+  document.querySelectorAll('[data-tool]').forEach(el =>
+    el.classList.toggle('active', activeTools.has(el.dataset.tool)));
+  document.getElementById('chip-t-all').classList.toggle('active', activeTools.size === ALL_TOOLS.length);
+  updateToolCharts();
+}
+
+function toggleSev(sev) {
+  if (sev === 'all') {
+    activeSevs = new Set(ALL_SEVS);
+  } else {
+    if (activeSevs.has(sev) && activeSevs.size > 1) activeSevs.delete(sev);
+    else activeSevs.add(sev);
+  }
+  document.querySelectorAll('[data-sev]').forEach(el =>
+    el.classList.toggle('active', activeSevs.has(el.dataset.sev)));
+  document.getElementById('chip-s-all').classList.toggle('active', activeSevs.size === ALL_SEVS.length);
+  updateSevCharts();
+}
+
+// ── Abas ──────────────────────────────────────────────────────────────────
+function showTab(id) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === id));
+  document.querySelectorAll('.page').forEach(p => p.classList.toggle('active', p.id === id));
+  // Ferramentas: só faz sentido em Visão Geral e RQ3
+  document.getElementById('fg-tools').style.display = (id === 'pg-ov' || id === 'pg-rq3') ? 'flex' : 'none';
+  // Severidade: só faz sentido em RQ2
+  document.getElementById('fg-sev').style.display = id === 'pg-rq2' ? 'flex' : 'none';
+}
+
+window.addEventListener('DOMContentLoaded', initCharts);
+</script>
+</body>
+</html>
+"""
+
+def main():
+    print("Carregando CSVs...")
+    raw = load()
+    data = serialize(raw)
+    js_data = json.dumps(data, ensure_ascii=False)
+    now = datetime.now().strftime("%d/%m/%Y %H:%M")
+    html = HTML.replace("__JS_DATA__", js_data).replace("__NOW__", now)
+    out = OUT / "dashboard_v2.html"
+    out.write_text(html, encoding="utf-8")
+    print(f"Salvo: {out}  ({len(html)//1024} KB)")
+
+if __name__ == "__main__":
+    main()
