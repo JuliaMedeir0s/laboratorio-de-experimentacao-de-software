@@ -52,4 +52,5 @@ Thumbs.db
 .coverage
 htmlcov/
 
-**/dataset
+# Arquivo de dados brutos muito grande (300 MB)
+lab04/dataset/vulnerable_dependencies.json

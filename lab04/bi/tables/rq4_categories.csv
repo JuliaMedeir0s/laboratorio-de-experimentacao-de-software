@@ -1,0 +1,8 @@
+category,repos,taxa_vuln_pct,vuln_per_100_resolved,cves_per_100_resolved
+update (Renovate/PyUp),149,55.03,5.41,10.49
+update_security (Dependabot),524,55.34,4.48,8.76
+none (sem automação),8964,57.08,9.79,21.53
+audit_automation (npm_audit),22,59.09,3.61,6.94
+security_remediation (Mend),100,60.0,7.96,15.11
+security_automation (CodeQL),162,64.2,7.93,16.08
+security_scanner (Snyk),61,70.49,8.78,18.86

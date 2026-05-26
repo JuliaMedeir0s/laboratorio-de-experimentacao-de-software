@@ -1,0 +1,5 @@
+metric,com_bot,sem_bot,diff_pp
+Taxa repos vulneráveis (%),58.15,57.08,1.07
+CVEs/repo,14.45,13.75,0.7
+Vuln./100 versões resolvidas,5.7,9.79,-4.09
+CVEs/100 versões resolvidas,11.28,21.53,-10.25
