@@ -90,7 +90,7 @@ HTML = r"""<!DOCTYPE html>
   --red:#ef4444; --violet:#8b5cf6; --orange:#f97316;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);font-size:14px}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);font-size:14px;overflow-x:hidden}
 
 .topbar{background:#0f172a;color:#f8fafc;padding:0 28px;display:flex;align-items:center;
   justify-content:space-between;height:54px;position:sticky;top:0;z-index:100;
@@ -120,10 +120,10 @@ body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(
 #fg-sev{display:none}
 #fg-tools{display:none}
 
-.content{padding:20px 28px 48px;max-width:1380px;margin:0 auto}
+.content{padding:20px 40px 48px;max-width:1800px;margin:0 auto;}
 .page{display:none}.page.active{display:block}
 
-.kpi-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:12px;margin-bottom:18px}
+.kpi-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin-bottom:18px}
 .kpi{background:var(--card);border-radius:10px;padding:15px 16px;
   border-left:4px solid var(--kc,var(--blue));box-shadow:0 1px 4px rgba(0,0,0,.07)}
 .kpi .kv{font-size:24px;font-weight:700;line-height:1.1;color:var(--txt)}
@@ -133,11 +133,11 @@ body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(
 .kpi.green {--kc:var(--green)}  .kpi.indigo {--kc:var(--indigo)}
 .kpi.violet{--kc:var(--violet)} .kpi.orange {--kc:var(--orange)}
 
-.cg{display:grid;gap:14px;margin-bottom:14px}
-.cg.c2{grid-template-columns:1fr 1fr}
-.cg.c3{grid-template-columns:1fr 1fr 1fr}
-.cg.c13{grid-template-columns:1fr 2.6fr}
-.ccard{background:var(--card);border-radius:10px;padding:18px;box-shadow:0 1px 4px rgba(0,0,0,.07)}
+.cg{display:grid;gap:14px;margin-bottom:14px;min-width:0}
+.cg.c2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.cg.c3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cg.c13{grid-template-columns:minmax(0,1fr) minmax(0,2.6fr)}
+.ccard{background:var(--card);border-radius:10px;padding:18px;box-shadow:0 1px 4px rgba(0,0,0,.07);min-width:0}
 .ccard h4{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;
   letter-spacing:.5px;margin-bottom:12px}
 .cwrap{position:relative;height:240px}
@@ -183,9 +183,24 @@ tbody tr:hover{background:#f8fafc}
   text-transform:uppercase;letter-spacing:.8px;border-bottom:1px solid var(--border);
   padding-bottom:6px}
 
+@media(max-width:1100px){
+  .cg.c3{grid-template-columns:1fr 1fr}
+}
 @media(max-width:860px){
   .cg.c2,.cg.c3,.cg.c13{grid-template-columns:1fr}
   .kpi-strip{grid-template-columns:1fr 1fr}
+  .content{padding:16px 16px 40px}
+  .topbar{padding:0 16px}
+  .tabs{padding:0 12px}
+  .filterbar{padding:8px 16px;top:88px}
+}
+@media(max-width:480px){
+  .kpi-strip{grid-template-columns:1fr}
+  .kpi .kv{font-size:20px}
+  .topbar-title{font-size:13px}
+  .topbar-sub{font-size:10px}
+  .tab{padding:8px 12px;font-size:11.5px}
+  .rqt{font-size:12px}
 }
 </style>
 </head>
@@ -196,16 +211,15 @@ tbody tr:hover{background:#f8fafc}
     <div class="topbar-title">Dependências Vulneráveis — Projetos Node.js</div>
     <div class="topbar-sub">Laboratório de Experimentação de Software · Lab04</div>
   </div>
-  <div class="topbar-meta">9.982 repositórios · Snapshot maio/2026<br>Gerado em __NOW__</div>
 </div>
 
 <div class="tabs">
   <button class="tab active" data-tab="pg-ov"  onclick="showTab('pg-ov')">Visão Geral</button>
-  <button class="tab"        data-tab="pg-rq1" onclick="showTab('pg-rq1')">RQ1 — Frequência</button>
-  <button class="tab"        data-tab="pg-rq2" onclick="showTab('pg-rq2')">RQ2 — Severidade</button>
-  <button class="tab"        data-tab="pg-rq3" onclick="showTab('pg-rq3')">RQ3 — Bot vs Sem Bot</button>
-  <button class="tab"        data-tab="pg-rq4" onclick="showTab('pg-rq4')">RQ4 — Categorias</button>
-  <button class="tab"        data-tab="pg-rq5" onclick="showTab('pg-rq5')">RQ5 — Múltiplos Bots</button>
+  <button class="tab"        data-tab="pg-rq1" onclick="showTab('pg-rq1')">RQ1 Frequência</button>
+  <button class="tab"        data-tab="pg-rq2" onclick="showTab('pg-rq2')">RQ2 Severidade</button>
+  <button class="tab"        data-tab="pg-rq3" onclick="showTab('pg-rq3')">RQ3 Bot vs Sem Bot</button>
+  <button class="tab"        data-tab="pg-rq4" onclick="showTab('pg-rq4')">RQ4 Categorias</button>
+  <button class="tab"        data-tab="pg-rq5" onclick="showTab('pg-rq5')">RQ5 Múltiplos Bots</button>
 </div>
 
 <div class="filterbar" id="filterbar">
