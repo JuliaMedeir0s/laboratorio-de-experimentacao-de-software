@@ -1,0 +1,32 @@
+{
+  "startedAt": "2026-05-29T00:58:39.283Z",
+  "platform": {
+    "os": "linux",
+    "release": "6.17.0-29-generic",
+    "arch": "x64",
+    "cpus": 12,
+    "totalmem": 8014262272,
+    "node": "v18.19.1"
+  },
+  "experiment": {
+    "trials": 200,
+    "warmup": 20,
+    "treatments": [
+      "REST_FULL",
+      "GQL_FULL",
+      "GQL_SMALL"
+    ],
+    "userId": 42,
+    "baseUrl": "http://localhost:4000",
+    "randomSeed": 12345,
+    "dataset": {
+      "seed": "123",
+      "userCount": "500",
+      "postsPerUser": "10",
+      "commentsPerPost": "5"
+    }
+  },
+  "outputs": {
+    "csv": "data/results.csv"
+  }
+}
