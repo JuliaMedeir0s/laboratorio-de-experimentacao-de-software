@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard - GraphQL vs REST</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg:#f1f5f9; --card:#fff; --border:#e2e8f0;
+  --txt:#1e293b; --muted:#64748b;
+  --blue:#3b82f6; --indigo:#6366f1; --pink:#ec4899;
+  --teal:#14b8a6; --green:#22c55e; --amber:#f59e0b;
+  --red:#ef4444; --violet:#8b5cf6; --orange:#f97316;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);font-size:14px;overflow-x:hidden}
+
+.topbar{background:#0f172a;color:#f8fafc;padding:0 28px;display:flex;align-items:center;
+  justify-content:space-between;height:54px;position:sticky;top:0;z-index:100;
+  box-shadow:0 1px 6px rgba(0,0,0,.5)}
+.topbar-title{font-size:15px;font-weight:600}
+.topbar-sub{font-size:11px;color:#94a3b8;margin-top:1px}
+
+.tabs{background:#1e293b;display:flex;padding:0 28px;gap:2px;
+  border-bottom:1px solid #334155;position:sticky;top:54px;z-index:99}
+.tab{padding:10px 18px;font-size:12.5px;font-weight:500;color:#94a3b8;cursor:pointer;
+  border-bottom:3px solid transparent;white-space:nowrap;transition:color .15s,border-color .15s;
+  user-select:none;background:none;border-top:none;border-left:none;border-right:none}
+.tab:hover{color:#e2e8f0}
+.tab.active{color:#f8fafc;border-bottom-color:#3b82f6}
+
+.content{padding:20px 40px 48px;max-width:1600px;margin:0 auto}
+.page{display:none}.page.active{display:block}
+
+.kpi-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:18px}
+.kpi{background:var(--card);border-radius:10px;padding:15px 16px;
+  border-left:4px solid var(--kc,var(--blue));box-shadow:0 1px 4px rgba(0,0,0,.07)}
+.kpi .kv{font-size:24px;font-weight:700;line-height:1.1;color:var(--txt)}
+.kpi .kl{font-size:10.5px;color:var(--muted);margin-top:3px;text-transform:uppercase;letter-spacing:.4px}
+.kpi.pink  {--kc:var(--pink)}  .kpi.teal   {--kc:var(--teal)}
+.kpi.amber {--kc:var(--amber)} .kpi.red    {--kc:var(--red)}
+.kpi.green {--kc:var(--green)} .kpi.indigo {--kc:var(--indigo)}
+.kpi.violet{--kc:var(--violet)}.kpi.orange {--kc:var(--orange)}
+
+.cg{display:grid;gap:14px;margin-bottom:14px;min-width:0}
+.cg.c2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.cg.c3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.ccard{background:var(--card);border-radius:10px;padding:18px;box-shadow:0 1px 4px rgba(0,0,0,.07);min-width:0}
+.ccard h4{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.5px;margin-bottom:12px}
+.cwrap{position:relative;height:260px}
+.cwrap.tall{height:320px}
+.cwrap.short{height:180px}
+
+.dcard{background:var(--card);border-radius:10px;padding:18px;
+  box-shadow:0 1px 4px rgba(0,0,0,.07);overflow-x:auto;margin-bottom:14px}
+.dcard h4{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.5px;margin-bottom:14px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead tr{border-bottom:2px solid var(--border)}
+th{padding:8px 12px;text-align:left;font-weight:600;color:var(--muted);font-size:11px;
+  text-transform:uppercase;letter-spacing:.3px}
+td{padding:8px 12px;border-bottom:1px solid var(--border)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:#f8fafc}
+
+.rqh{display:flex;align-items:flex-start;gap:10px;background:var(--card);border-radius:10px;
+  padding:13px 16px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,.07);
+  border-left:4px solid var(--indigo)}
+.rqn{background:var(--indigo);color:#fff;font-size:11px;font-weight:700;
+  padding:3px 9px;border-radius:6px;white-space:nowrap;flex-shrink:0;margin-top:1px}
+.rqt{font-size:13px;color:var(--txt);font-weight:500;line-height:1.45}
+
+.insight{background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;
+  padding:10px 14px;margin-bottom:14px;font-size:12.5px;color:#1e40af;line-height:1.5}
+.insight strong{font-weight:700}
+.insight.warn{background:#fff7ed;border-color:#fed7aa;color:#9a3412}
+.insight.success{background:#f0fdf4;border-color:#bbf7d0;color:#14532d}
+.insight.neutral{background:#f8fafc;border-color:#e2e8f0;color:#334155}
+
+.badge{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600}
+.badge-rest{background:#dbeafe;color:#1d4ed8}
+.badge-gqf{background:#ede9fe;color:#6d28d9}
+.badge-gqs{background:#dcfce7;color:#15803d}
+
+@media(max-width:900px){
+  .cg.c3{grid-template-columns:1fr 1fr}
+  .cg.c2{grid-template-columns:1fr}
+  .content{padding:16px 16px 40px}
+}
+@media(max-width:560px){
+  .cg.c3,.cg.c2{grid-template-columns:1fr}
+  .kpi-strip{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div>
+    <div class="topbar-title">GraphQL vs REST - Experimento Controlado</div>
+    <div class="topbar-sub">Laboratório de Experimentação de Software · Lab05</div>
+  </div>
+</div>
+
+<div class="tabs">
+  <button class="tab active" data-tab="pg-ov"  onclick="showTab('pg-ov')">Visão Geral</button>
+  <button class="tab"        data-tab="pg-rq1" onclick="showTab('pg-rq1')">RQ1 - Latência</button>
+  <button class="tab"        data-tab="pg-rq2" onclick="showTab('pg-rq2')">RQ2 - Tamanho</button>
+</div>
+
+<div class="content">
+
+<div class="page active" id="pg-ov">
+  <div class="kpi-strip">
+    <div class="kpi">       <div class="kv">600</div>   <div class="kl">Medições totais</div></div>
+    <div class="kpi teal">  <div class="kv">3</div>     <div class="kl">Tratamentos</div></div>
+    <div class="kpi indigo"><div class="kv">200</div>   <div class="kl">Trials / tratamento</div></div>
+    <div class="kpi amber"> <div class="kv">100%</div>  <div class="kl">Taxa de sucesso</div></div>
+    <div class="kpi pink">  <div class="kv">42</div>    <div class="kl">userId consultado</div></div>
+  </div>
+
+  <div class="insight neutral">
+    Experimento compara três tratamentos: <span class="badge badge-rest">REST_FULL</span> (REST com payload completo),
+    <span class="badge badge-gqf">GQL_FULL</span> (GraphQL com os mesmos campos) e
+    <span class="badge badge-gqs">GQL_SMALL</span> (GraphQL com subconjunto de campos).
+    Cada tratamento recebeu 200 requisições randomizadas (20 warm-up descartados). Ambiente: Linux x64, Node v18.19.1, 12 CPUs.
+  </div>
+
+  <div class="cg c3">
+    <div class="ccard">
+      <h4>Latência média por tratamento (ms)</h4>
+      <div class="cwrap"><canvas id="c-ov-lat"></canvas></div>
+    </div>
+    <div class="ccard">
+      <h4>Latência - distribuição (box plot)</h4>
+      <div class="cwrap"><canvas id="c-ov-box"></canvas></div>
+    </div>
+    <div class="ccard">
+      <h4>Tamanho da resposta (bytes)</h4>
+      <div class="cwrap"><canvas id="c-ov-size"></canvas></div>
+    </div>
+  </div>
+
+  <div class="dcard">
+    <h4>Resumo descritivo - Latência (ms)</h4>
+    <table>
+      <thead><tr><th>Tratamento</th><th>n</th><th>Média</th><th>Mediana</th><th>Desvio Padrão</th><th>Min</th><th>Max</th></tr></thead>
+      <tbody id="tb-ov-lat"></tbody>
+    </table>
+  </div>
+  <div class="dcard">
+    <h4>Resumo descritivo - Tamanho (bytes)</h4>
+    <table>
+      <thead><tr><th>Tratamento</th><th>n</th><th>Média</th><th>Mediana</th><th>Desvio Padrão</th><th>Min</th><th>Max</th></tr></thead>
+      <tbody id="tb-ov-size"></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="page" id="pg-rq1">
+  <div class="rqh">
+    <div class="rqn">RQ1</div>
+    <div class="rqt">Respostas às consultas GraphQL são mais rápidas que respostas às consultas REST?</div>
+  </div>
+  <div class="insight warn">
+    <strong>Neste cenário, GraphQL NÃO foi mais rápido.</strong>
+    REST_FULL teve mediana de 4,59ms, enquanto GQL_FULL registrou 9,67ms - <strong>2,1x mais lento</strong>.
+    O Cliff's delta de −0,982 indica efeito praticamente perfeito e ambos os testes estatísticos rejeitam a hipótese nula (p &lt; 10⁻⁶⁰).
+  </div>
+  <div class="kpi-strip">
+    <div class="kpi teal">  <div class="kv">4,59ms</div> <div class="kl">Mediana REST_FULL</div></div>
+    <div class="kpi violet"><div class="kv">9,67ms</div> <div class="kl">Mediana GQL_FULL</div></div>
+    <div class="kpi green"> <div class="kv">7,24ms</div> <div class="kl">Mediana GQL_SMALL</div></div>
+    <div class="kpi red">   <div class="kv">-0,982</div>  <div class="kl">Cliff's delta</div></div>
+  </div>
+  <div class="cg c2">
+    <div class="ccard">
+      <h4>Latência - Média e desvio padrão (ms)</h4>
+      <div class="cwrap"><canvas id="c-rq1-mean"></canvas></div>
+    </div>
+    <div class="ccard">
+      <h4>Latência - Dispersão dos pontos (ms)</h4>
+      <div class="cwrap tall"><canvas id="c-rq1-scatter"></canvas></div>
+    </div>
+  </div>
+  <div class="dcard">
+    <h4>Testes estatísticos - RQ1 (REST_FULL vs GQL_FULL)</h4>
+    <table>
+      <thead><tr><th>Teste</th><th>Estatística</th><th>p-valor</th><th>Interpretação</th></tr></thead>
+      <tbody>
+        <tr><td>Mann-Whitney U</td><td>U = 359</td><td>1,01 x 10⁻⁶⁴</td><td>Diferença significativa (p &lt;&lt; 0,05)</td></tr>
+        <tr><td>Welch t-test</td><td>t = -26,695</td><td>3,86 x 10⁻⁷⁶</td><td>Diferença significativa (p &lt;&lt; 0,05)</td></tr>
+        <tr><td>Cliff's delta</td><td>δ = -0,982</td><td>N/A</td><td>Efeito muito grande (|δ| > 0,474)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="dcard">
+    <h4>Estatísticas descritivas - Latência (ms)</h4>
+    <table>
+      <thead><tr><th>Tratamento</th><th>n</th><th>Média</th><th>Mediana</th><th>Desvio Padrão</th><th>Min</th><th>Max</th></tr></thead>
+      <tbody id="tb-rq1-lat"></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="page" id="pg-rq2">
+  <div class="rqh">
+    <div class="rqn">RQ2</div>
+    <div class="rqt">Respostas às consultas GraphQL têm tamanho menor que respostas às consultas REST?</div>
+  </div>
+  <div class="insight success">
+    <strong>Sim - GraphQL com seleção de campos reduz o payload em 97%.</strong>
+    REST_FULL retorna fixos 18.933 bytes, enquanto GQL_SMALL retorna apenas 571 bytes ao solicitar um subconjunto de campos.
+    Cliff's delta = 1,000 e p &lt; 10⁻⁸⁵ confirmam diferença extrema e estatisticamente significativa.
+  </div>
+  <div class="kpi-strip">
+    <div class="kpi red">   <div class="kv">18.933B</div><div class="kl">Mediana REST_FULL</div></div>
+    <div class="kpi violet"><div class="kv">18.951B</div><div class="kl">Mediana GQL_FULL</div></div>
+    <div class="kpi green"> <div class="kv">571B</div>   <div class="kl">Mediana GQL_SMALL</div></div>
+    <div class="kpi teal">  <div class="kv">97%</div>     <div class="kl">Redução REST→GQL_SMALL</div></div>
+  </div>
+  <div class="cg c2">
+    <div class="ccard">
+      <h4>Tamanho da resposta por tratamento (bytes)</h4>
+      <div class="cwrap"><canvas id="c-rq2-size"></canvas></div>
+    </div>
+    <div class="ccard">
+      <h4>REST vs GQL_SMALL - proporção do payload</h4>
+      <div class="cwrap"><canvas id="c-rq2-donut"></canvas></div>
+    </div>
+  </div>
+  <div class="dcard">
+    <h4>Testes estatísticos - RQ2 (REST_FULL vs GQL_SMALL)</h4>
+    <table>
+      <thead><tr><th>Teste</th><th>Estatística</th><th>p-valor</th><th>Interpretação</th></tr></thead>
+      <tbody>
+        <tr><td>Mann-Whitney U</td><td>U = 40.000</td><td>9,18 x 10⁻⁸⁹</td><td>Diferença significativa (p &lt;&lt; 0,05)</td></tr>
+        <tr><td>Cliff's delta</td><td>δ = 1,000</td><td>N/A</td><td>Efeito máximo - separação perfeita</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="dcard">
+    <h4>Estatísticas descritivas - Tamanho (bytes)</h4>
+    <table>
+      <thead><tr><th>Tratamento</th><th>n</th><th>Média</th><th>Mediana</th><th>Desvio Padrão</th><th>Min</th><th>Max</th></tr></thead>
+      <tbody id="tb-rq2-size"></tbody>
+    </table>
+  </div>
+</div>
+
+</div><!-- /content -->
+
+<script>
+const RAW = [{"t":"GQL_FULL","l":9.071,"s":18951},{"t":"REST_FULL","l":4.327,"s":18933},{"t":"GQL_FULL","l":8.776,"s":18951},{"t":"REST_FULL","l":5.199,"s":18933},{"t":"GQL_SMALL","l":6.419,"s":571},{"t":"REST_FULL","l":4.007,"s":18933},{"t":"GQL_FULL","l":8.666,"s":18951},{"t":"GQL_SMALL","l":5.989,"s":571},{"t":"GQL_SMALL","l":8.13,"s":571},{"t":"GQL_SMALL","l":6.483,"s":571},{"t":"GQL_FULL","l":13.79,"s":18951},{"t":"GQL_SMALL","l":8.236,"s":571},{"t":"REST_FULL","l":4.483,"s":18933},{"t":"GQL_FULL","l":7.299,"s":18951},{"t":"REST_FULL","l":4.021,"s":18933},{"t":"GQL_FULL","l":8.519,"s":18951},{"t":"GQL_SMALL","l":6.579,"s":571},{"t":"GQL_FULL","l":7.35,"s":18951},{"t":"GQL_FULL","l":8.269,"s":18951},{"t":"GQL_SMALL","l":5.531,"s":571},{"t":"REST_FULL","l":3.767,"s":18933},{"t":"GQL_FULL","l":7.806,"s":18951},{"t":"REST_FULL","l":3.896,"s":18933},{"t":"REST_FULL","l":3.859,"s":18933},{"t":"REST_FULL","l":4.254,"s":18933},{"t":"GQL_SMALL","l":7.897,"s":571},{"t":"GQL_FULL","l":13.103,"s":18951},{"t":"GQL_FULL","l":11.095,"s":18951},{"t":"REST_FULL","l":4.831,"s":18933},{"t":"GQL_SMALL","l":6.706,"s":571},{"t":"GQL_SMALL","l":6.36,"s":571},{"t":"REST_FULL","l":4.311,"s":18933},{"t":"GQL_SMALL","l":8.306,"s":571},{"t":"GQL_SMALL","l":8.021,"s":571},{"t":"GQL_FULL","l":11.383,"s":18951},{"t":"GQL_SMALL","l":7.476,"s":571},{"t":"GQL_SMALL","l":6.646,"s":571},{"t":"REST_FULL","l":3.379,"s":18933},{"t":"GQL_FULL","l":8.381,"s":18951},{"t":"GQL_SMALL","l":7.282,"s":571},{"t":"GQL_SMALL","l":5.738,"s":571},{"t":"GQL_FULL","l":6.528,"s":18951},{"t":"REST_FULL","l":3.396,"s":18933},{"t":"REST_FULL","l":4.007,"s":18933},{"t":"REST_FULL","l":5.296,"s":18933},{"t":"GQL_FULL","l":9.407,"s":18951},{"t":"REST_FULL","l":5.305,"s":18933},{"t":"GQL_FULL","l":11.383,"s":18951},{"t":"GQL_SMALL","l":8.191,"s":571},{"t":"REST_FULL","l":5.661,"s":18933},{"t":"REST_FULL","l":4.324,"s":18933},{"t":"GQL_FULL","l":11.316,"s":18951},{"t":"GQL_FULL","l":10.163,"s":18951},{"t":"GQL_FULL","l":9.058,"s":18951},{"t":"GQL_SMALL","l":7.474,"s":571},{"t":"REST_FULL","l":4.187,"s":18933},{"t":"REST_FULL","l":5.731,"s":18933},{"t":"GQL_SMALL","l":11.126,"s":571},{"t":"GQL_FULL","l":13.739,"s":18951},{"t":"REST_FULL","l":4.395,"s":18933},{"t":"GQL_FULL","l":8.115,"s":18951},{"t":"GQL_FULL","l":8.512,"s":18951},{"t":"GQL_SMALL","l":6.141,"s":571},{"t":"REST_FULL","l":5.435,"s":18933},{"t":"GQL_FULL","l":8.623,"s":18951},{"t":"GQL_SMALL","l":6.524,"s":571},{"t":"GQL_FULL","l":11.153,"s":18951},{"t":"GQL_FULL","l":13.483,"s":18951},{"t":"GQL_SMALL","l":7.867,"s":571},{"t":"GQL_FULL","l":10.762,"s":18951},{"t":"REST_FULL","l":3.124,"s":18933},{"t":"REST_FULL","l":4.469,"s":18933},{"t":"GQL_SMALL","l":6.548,"s":571},{"t":"GQL_SMALL","l":5.511,"s":571},{"t":"REST_FULL","l":3.617,"s":18933},{"t":"GQL_SMALL","l":5.754,"s":571},{"t":"GQL_FULL","l":10.486,"s":18951},{"t":"REST_FULL","l":4.193,"s":18933},{"t":"REST_FULL","l":4.126,"s":18933},{"t":"GQL_SMALL","l":5.88,"s":571},{"t":"GQL_FULL","l":7.3,"s":18951},{"t":"REST_FULL","l":3.362,"s":18933},{"t":"REST_FULL","l":4.471,"s":18933},{"t":"GQL_SMALL","l":8.445,"s":571},{"t":"GQL_SMALL","l":8.811,"s":571},{"t":"GQL_SMALL","l":8.416,"s":571},{"t":"REST_FULL","l":4.446,"s":18933},{"t":"REST_FULL","l":4.308,"s":18933},{"t":"GQL_SMALL","l":5.997,"s":571},{"t":"GQL_FULL","l":7.751,"s":18951},{"t":"REST_FULL","l":3.779,"s":18933},{"t":"REST_FULL","l":4.901,"s":18933},{"t":"REST_FULL","l":3.899,"s":18933},{"t":"REST_FULL","l":3.998,"s":18933},{"t":"REST_FULL","l":4.363,"s":18933},{"t":"REST_FULL","l":4.614,"s":18933},{"t":"GQL_SMALL","l":10.61,"s":571},{"t":"GQL_FULL","l":15.732,"s":18951},{"t":"GQL_FULL","l":11.88,"s":18951},{"t":"GQL_SMALL","l":8.748,"s":571},{"t":"GQL_SMALL","l":7.288,"s":571},{"t":"GQL_SMALL","l":11.489,"s":571},{"t":"REST_FULL","l":6.138,"s":18933},{"t":"GQL_SMALL","l":8.365,"s":571},{"t":"GQL_SMALL","l":7.66,"s":571},{"t":"GQL_SMALL","l":5.638,"s":571},{"t":"GQL_SMALL","l":5.675,"s":571},{"t":"GQL_FULL","l":7.71,"s":18951},{"t":"GQL_SMALL","l":5.858,"s":571},{"t":"REST_FULL","l":4.442,"s":18933},{"t":"GQL_FULL","l":14.189,"s":18951},{"t":"GQL_FULL","l":12.311,"s":18951},{"t":"REST_FULL","l":4.737,"s":18933},{"t":"REST_FULL","l":6.537,"s":18933},{"t":"GQL_FULL","l":14.834,"s":18951},{"t":"GQL_SMALL","l":8.114,"s":571},{"t":"GQL_FULL","l":10.206,"s":18951},{"t":"GQL_SMALL","l":10.326,"s":571},{"t":"GQL_FULL","l":15.304,"s":18951},{"t":"GQL_FULL","l":14.474,"s":18951},{"t":"GQL_SMALL","l":9.971,"s":571},{"t":"REST_FULL","l":6.055,"s":18933},{"t":"GQL_FULL","l":9.841,"s":18951},{"t":"GQL_SMALL","l":7.171,"s":571},{"t":"REST_FULL","l":6.782,"s":18933},{"t":"GQL_SMALL","l":10.468,"s":571},{"t":"REST_FULL","l":6.6,"s":18933},{"t":"GQL_SMALL","l":14.737,"s":571},{"t":"GQL_FULL","l":15.588,"s":18951},{"t":"GQL_SMALL","l":10.257,"s":571},{"t":"GQL_SMALL","l":11.23,"s":571},{"t":"GQL_SMALL","l":9.507,"s":571},{"t":"REST_FULL","l":4.591,"s":18933},{"t":"GQL_FULL","l":12.818,"s":18951},{"t":"GQL_FULL","l":13.281,"s":18951},{"t":"GQL_FULL","l":13.075,"s":18951},{"t":"GQL_FULL","l":12.675,"s":18951},{"t":"GQL_SMALL","l":11.229,"s":571},{"t":"GQL_FULL","l":17.399,"s":18951},{"t":"GQL_FULL","l":16.376,"s":18951},{"t":"GQL_SMALL","l":9.825,"s":571},{"t":"GQL_SMALL","l":9.417,"s":571},{"t":"REST_FULL","l":5.373,"s":18933},{"t":"GQL_SMALL","l":11.528,"s":571},{"t":"GQL_SMALL","l":15.191,"s":571},{"t":"GQL_SMALL","l":8.564,"s":571},{"t":"REST_FULL","l":6.829,"s":18933},{"t":"REST_FULL","l":6.457,"s":18933},{"t":"REST_FULL","l":6.271,"s":18933},{"t":"GQL_FULL","l":15.8,"s":18951},{"t":"GQL_SMALL","l":10.229,"s":571},{"t":"GQL_FULL","l":15.951,"s":18951},{"t":"GQL_SMALL","l":9.731,"s":571},{"t":"REST_FULL","l":6.359,"s":18933},{"t":"GQL_SMALL","l":6.355,"s":571},{"t":"REST_FULL","l":2.852,"s":18933},{"t":"GQL_FULL","l":6.745,"s":18951},{"t":"GQL_SMALL","l":7.468,"s":571},{"t":"REST_FULL","l":4.47,"s":18933},{"t":"GQL_SMALL","l":7.957,"s":571},{"t":"GQL_SMALL","l":7.949,"s":571},{"t":"GQL_FULL","l":9.883,"s":18951},{"t":"GQL_SMALL","l":5.447,"s":571},{"t":"GQL_FULL","l":6.019,"s":18951},{"t":"GQL_SMALL","l":6.341,"s":571},{"t":"GQL_FULL","l":8.886,"s":18951},{"t":"REST_FULL","l":4.211,"s":18933},{"t":"GQL_FULL","l":10.364,"s":18951},{"t":"REST_FULL","l":4.708,"s":18933},{"t":"REST_FULL","l":5.823,"s":18933},{"t":"REST_FULL","l":5.554,"s":18933},{"t":"REST_FULL","l":5.049,"s":18933},{"t":"GQL_SMALL","l":8.003,"s":571},{"t":"REST_FULL","l":4.984,"s":18933},{"t":"REST_FULL","l":4.744,"s":18933},{"t":"REST_FULL","l":4.929,"s":18933},{"t":"GQL_FULL","l":11.145,"s":18951},{"t":"GQL_SMALL","l":7.725,"s":571},{"t":"GQL_FULL","l":10.06,"s":18951},{"t":"REST_FULL","l":4.537,"s":18933},{"t":"REST_FULL","l":3.684,"s":18933},{"t":"GQL_SMALL","l":5.005,"s":571},{"t":"GQL_FULL","l":7.767,"s":18951},{"t":"GQL_FULL","l":7.443,"s":18951},{"t":"GQL_SMALL","l":4.855,"s":571},{"t":"REST_FULL","l":3.773,"s":18933},{"t":"GQL_SMALL","l":5.735,"s":571},{"t":"GQL_FULL","l":9.945,"s":18951},{"t":"GQL_FULL","l":6.946,"s":18951},{"t":"REST_FULL","l":4.443,"s":18933},{"t":"GQL_FULL","l":6.927,"s":18951},{"t":"GQL_SMALL","l":5.176,"s":571},{"t":"GQL_FULL","l":7.257,"s":18951},{"t":"REST_FULL","l":4.034,"s":18933},{"t":"GQL_SMALL","l":7.154,"s":571},{"t":"REST_FULL","l":4.993,"s":18933},{"t":"GQL_SMALL","l":7.513,"s":571},{"t":"GQL_SMALL","l":7.762,"s":571},{"t":"REST_FULL","l":5.194,"s":18933},{"t":"GQL_SMALL","l":8.851,"s":571},{"t":"GQL_FULL","l":17.606,"s":18951},{"t":"GQL_SMALL","l":11.203,"s":571},{"t":"REST_FULL","l":6.72,"s":18933},{"t":"GQL_SMALL","l":8.797,"s":571},{"t":"GQL_SMALL","l":6.763,"s":571},{"t":"GQL_FULL","l":7.106,"s":18951},{"t":"GQL_SMALL","l":8.915,"s":571},{"t":"REST_FULL","l":5.14,"s":18933},{"t":"REST_FULL","l":4.955,"s":18933},{"t":"GQL_FULL","l":10.343,"s":18951},{"t":"GQL_FULL","l":10.199,"s":18951},{"t":"GQL_SMALL","l":7.082,"s":571},{"t":"REST_FULL","l":4.792,"s":18933},{"t":"GQL_SMALL","l":7.979,"s":571},{"t":"REST_FULL","l":5.71,"s":18933},{"t":"GQL_FULL","l":14.736,"s":18951},{"t":"GQL_SMALL","l":10.65,"s":571},{"t":"GQL_SMALL","l":10.654,"s":571},{"t":"REST_FULL","l":6.648,"s":18933},{"t":"GQL_FULL","l":13.734,"s":18951},{"t":"REST_FULL","l":5.579,"s":18933},{"t":"REST_FULL","l":3.988,"s":18933},{"t":"GQL_FULL","l":7.327,"s":18951},{"t":"REST_FULL","l":4.13,"s":18933},{"t":"GQL_SMALL","l":6.865,"s":571},{"t":"GQL_SMALL","l":6.222,"s":571},{"t":"GQL_SMALL","l":6.152,"s":571},{"t":"REST_FULL","l":6.018,"s":18933},{"t":"GQL_FULL","l":13.289,"s":18951},{"t":"GQL_FULL","l":14.638,"s":18951},{"t":"GQL_SMALL","l":7.889,"s":571},{"t":"GQL_FULL","l":9.175,"s":18951},{"t":"GQL_SMALL","l":6.726,"s":571},{"t":"GQL_SMALL","l":7.816,"s":571},{"t":"GQL_FULL","l":11.695,"s":18951},{"t":"GQL_SMALL","l":7.556,"s":571},{"t":"GQL_FULL","l":11.315,"s":18951},{"t":"GQL_SMALL","l":10.847,"s":571},{"t":"REST_FULL","l":5.445,"s":18933},{"t":"REST_FULL","l":4.893,"s":18933},{"t":"GQL_SMALL","l":9.864,"s":571},{"t":"REST_FULL","l":6.49,"s":18933},{"t":"GQL_FULL","l":12.548,"s":18951},{"t":"GQL_SMALL","l":10.28,"s":571},{"t":"GQL_FULL","l":12.077,"s":18951},{"t":"REST_FULL","l":5.456,"s":18933},{"t":"GQL_FULL","l":9.117,"s":18951},{"t":"GQL_FULL","l":9.429,"s":18951},{"t":"GQL_SMALL","l":6.946,"s":571},{"t":"GQL_SMALL","l":9.736,"s":571},{"t":"GQL_FULL","l":13.286,"s":18951},{"t":"GQL_FULL","l":9.301,"s":18951},{"t":"GQL_SMALL","l":5.993,"s":571},{"t":"REST_FULL","l":4.26,"s":18933},{"t":"REST_FULL","l":4.915,"s":18933},{"t":"GQL_SMALL","l":8.784,"s":571},{"t":"REST_FULL","l":5.083,"s":18933},{"t":"REST_FULL","l":3.524,"s":18933},{"t":"REST_FULL","l":2.732,"s":18933},{"t":"GQL_FULL","l":9.163,"s":18951},{"t":"GQL_FULL","l":14.509,"s":18951},{"t":"REST_FULL","l":6.519,"s":18933},{"t":"GQL_FULL","l":11.651,"s":18951},{"t":"REST_FULL","l":6.026,"s":18933},{"t":"GQL_SMALL","l":8.698,"s":571},{"t":"GQL_SMALL","l":8.162,"s":571},{"t":"GQL_SMALL","l":7.617,"s":571},{"t":"GQL_SMALL","l":7.818,"s":571},{"t":"REST_FULL","l":5.352,"s":18933},{"t":"GQL_SMALL","l":10.688,"s":571},{"t":"GQL_FULL","l":12.051,"s":18951},{"t":"REST_FULL","l":5.071,"s":18933},{"t":"GQL_FULL","l":9.569,"s":18951},{"t":"GQL_SMALL","l":6.946,"s":571},{"t":"REST_FULL","l":5.155,"s":18933},{"t":"REST_FULL","l":5.793,"s":18933},{"t":"REST_FULL","l":5.401,"s":18933},{"t":"GQL_FULL","l":10.532,"s":18951},{"t":"GQL_SMALL","l":5.672,"s":571},{"t":"GQL_SMALL","l":6.044,"s":571},{"t":"GQL_FULL","l":7.407,"s":18951},{"t":"GQL_SMALL","l":5.492,"s":571},{"t":"REST_FULL","l":4.097,"s":18933},{"t":"GQL_FULL","l":8.378,"s":18951},{"t":"REST_FULL","l":5.142,"s":18933},{"t":"GQL_FULL","l":9.957,"s":18951},{"t":"REST_FULL","l":6.049,"s":18933},{"t":"GQL_FULL","l":13.156,"s":18951},{"t":"GQL_FULL","l":9.475,"s":18951},{"t":"GQL_SMALL","l":7.217,"s":571},{"t":"REST_FULL","l":5.712,"s":18933},{"t":"GQL_SMALL","l":8.496,"s":571},{"t":"GQL_FULL","l":10.022,"s":18951},{"t":"REST_FULL","l":4.725,"s":18933},{"t":"REST_FULL","l":4.664,"s":18933},{"t":"REST_FULL","l":4.683,"s":18933},{"t":"GQL_FULL","l":14.656,"s":18951},{"t":"GQL_FULL","l":14.054,"s":18951},{"t":"GQL_SMALL","l":7.265,"s":571},{"t":"GQL_SMALL","l":9.025,"s":571},{"t":"REST_FULL","l":4.594,"s":18933},{"t":"REST_FULL","l":6.406,"s":18933},{"t":"GQL_FULL","l":13.926,"s":18951},{"t":"GQL_SMALL","l":6.146,"s":571},{"t":"GQL_FULL","l":5.159,"s":18951},{"t":"GQL_FULL","l":5.97,"s":18951},{"t":"REST_FULL","l":3.201,"s":18933},{"t":"GQL_SMALL","l":5.467,"s":571},{"t":"GQL_FULL","l":6.766,"s":18951},{"t":"REST_FULL","l":4.44,"s":18933},{"t":"REST_FULL","l":4.706,"s":18933},{"t":"GQL_FULL","l":8.933,"s":18951},{"t":"REST_FULL","l":4.271,"s":18933},{"t":"REST_FULL","l":5.157,"s":18933},{"t":"GQL_FULL","l":9.148,"s":18951},{"t":"REST_FULL","l":3.994,"s":18933},{"t":"GQL_FULL","l":8.082,"s":18951},{"t":"REST_FULL","l":4.071,"s":18933},{"t":"GQL_SMALL","l":5.409,"s":571},{"t":"REST_FULL","l":3.576,"s":18933},{"t":"GQL_FULL","l":7.15,"s":18951},{"t":"GQL_SMALL","l":6.285,"s":571},{"t":"GQL_SMALL","l":5.573,"s":571},{"t":"GQL_FULL","l":6.735,"s":18951},{"t":"GQL_FULL","l":7.387,"s":18951},{"t":"GQL_SMALL","l":6.836,"s":571},{"t":"GQL_SMALL","l":7.079,"s":571},{"t":"REST_FULL","l":4.682,"s":18933},{"t":"REST_FULL","l":5.473,"s":18933},{"t":"GQL_FULL","l":10.766,"s":18951},{"t":"GQL_SMALL","l":7.22,"s":571},{"t":"GQL_FULL","l":11.289,"s":18951},{"t":"GQL_SMALL","l":10.682,"s":571},{"t":"REST_FULL","l":6.17,"s":18933},{"t":"REST_FULL","l":7.295,"s":18933},{"t":"GQL_SMALL","l":8.265,"s":571},{"t":"GQL_SMALL","l":7.398,"s":571},{"t":"GQL_SMALL","l":7.475,"s":571},{"t":"GQL_SMALL","l":10.602,"s":571},{"t":"REST_FULL","l":4.847,"s":18933},{"t":"GQL_FULL","l":12.617,"s":18951},{"t":"GQL_SMALL","l":10.139,"s":571},{"t":"GQL_FULL","l":14.876,"s":18951},{"t":"GQL_FULL","l":10.551,"s":18951},{"t":"GQL_FULL","l":9.401,"s":18951},{"t":"GQL_FULL","l":9.197,"s":18951},{"t":"GQL_FULL","l":9.024,"s":18951},{"t":"GQL_SMALL","l":8.98,"s":571},{"t":"REST_FULL","l":5.176,"s":18933},{"t":"GQL_FULL","l":9.997,"s":18951},{"t":"GQL_SMALL","l":6.529,"s":571},{"t":"GQL_FULL","l":11.533,"s":18951},{"t":"GQL_SMALL","l":7.884,"s":571},{"t":"GQL_FULL","l":9.667,"s":18951},{"t":"GQL_SMALL","l":6.455,"s":571},{"t":"REST_FULL","l":3.618,"s":18933},{"t":"GQL_SMALL","l":5.682,"s":571},{"t":"GQL_FULL","l":5.651,"s":18951},{"t":"GQL_FULL","l":5.561,"s":18951},{"t":"GQL_FULL","l":5.953,"s":18951},{"t":"REST_FULL","l":2.735,"s":18933},{"t":"GQL_SMALL","l":6.565,"s":571},{"t":"REST_FULL","l":4.681,"s":18933},{"t":"GQL_SMALL","l":5.994,"s":571},{"t":"REST_FULL","l":4.654,"s":18933},{"t":"REST_FULL","l":5.684,"s":18933},{"t":"GQL_FULL","l":10.116,"s":18951},{"t":"GQL_SMALL","l":6.006,"s":571},{"t":"GQL_FULL","l":9.044,"s":18951},{"t":"REST_FULL","l":6.342,"s":18933},{"t":"GQL_FULL","l":13.947,"s":18951},{"t":"REST_FULL","l":4.357,"s":18933},{"t":"GQL_FULL","l":13.987,"s":18951},{"t":"GQL_FULL","l":14.356,"s":18951},{"t":"GQL_FULL","l":9.319,"s":18951},{"t":"GQL_FULL","l":9.802,"s":18951},{"t":"REST_FULL","l":5.237,"s":18933},{"t":"REST_FULL","l":4.123,"s":18933},{"t":"GQL_FULL","l":8.877,"s":18951},{"t":"GQL_FULL","l":9.015,"s":18951},{"t":"GQL_FULL","l":9.733,"s":18951},{"t":"GQL_FULL","l":10.067,"s":18951},{"t":"GQL_FULL","l":11.273,"s":18951},{"t":"REST_FULL","l":5.498,"s":18933},{"t":"GQL_FULL","l":9.142,"s":18951},{"t":"GQL_FULL","l":12.438,"s":18951},{"t":"GQL_SMALL","l":7.114,"s":571},{"t":"REST_FULL","l":3.616,"s":18933},{"t":"REST_FULL","l":3.89,"s":18933},{"t":"REST_FULL","l":3.777,"s":18933},{"t":"GQL_FULL","l":9.538,"s":18951},{"t":"REST_FULL","l":5.692,"s":18933},{"t":"GQL_SMALL","l":12.701,"s":571},{"t":"REST_FULL","l":6.618,"s":18933},{"t":"REST_FULL","l":6.178,"s":18933},{"t":"GQL_FULL","l":13.844,"s":18951},{"t":"GQL_FULL","l":12.686,"s":18951},{"t":"REST_FULL","l":5.993,"s":18933},{"t":"GQL_FULL","l":11.231,"s":18951},{"t":"GQL_SMALL","l":9.194,"s":571},{"t":"GQL_SMALL","l":9.502,"s":571},{"t":"GQL_SMALL","l":7.03,"s":571},{"t":"GQL_SMALL","l":7.469,"s":571},{"t":"GQL_FULL","l":8.984,"s":18951},{"t":"GQL_SMALL","l":6.201,"s":571},{"t":"GQL_FULL","l":8.159,"s":18951},{"t":"GQL_SMALL","l":4.866,"s":571},{"t":"REST_FULL","l":2.499,"s":18933},{"t":"REST_FULL","l":4.085,"s":18933},{"t":"REST_FULL","l":5.516,"s":18933},{"t":"REST_FULL","l":5.898,"s":18933},{"t":"GQL_SMALL","l":7.004,"s":571},{"t":"REST_FULL","l":5.596,"s":18933},{"t":"GQL_SMALL","l":7.335,"s":571},{"t":"GQL_FULL","l":13.518,"s":18951},{"t":"GQL_FULL","l":14.294,"s":18951},{"t":"GQL_FULL","l":14.68,"s":18951},{"t":"GQL_SMALL","l":8.928,"s":571},{"t":"REST_FULL","l":6.33,"s":18933},{"t":"GQL_FULL","l":11.43,"s":18951},{"t":"GQL_FULL","l":10.321,"s":18951},{"t":"REST_FULL","l":8.523,"s":18933},{"t":"REST_FULL","l":4.233,"s":18933},{"t":"REST_FULL","l":3.762,"s":18933},{"t":"GQL_SMALL","l":5.839,"s":571},{"t":"GQL_SMALL","l":5.483,"s":571},{"t":"REST_FULL","l":3.503,"s":18933},{"t":"GQL_SMALL","l":5.448,"s":571},{"t":"REST_FULL","l":3.371,"s":18933},{"t":"GQL_FULL","l":6.697,"s":18951},{"t":"REST_FULL","l":3.519,"s":18933},{"t":"GQL_FULL","l":8.324,"s":18951},{"t":"GQL_SMALL","l":5.672,"s":571},{"t":"REST_FULL","l":3.441,"s":18933},{"t":"GQL_FULL","l":6.824,"s":18951},{"t":"GQL_FULL","l":7.352,"s":18951},{"t":"GQL_SMALL","l":5.906,"s":571},{"t":"REST_FULL","l":4.866,"s":18933},{"t":"GQL_FULL","l":9.16,"s":18951},{"t":"GQL_FULL","l":10.157,"s":18951},{"t":"GQL_SMALL","l":7.405,"s":571},{"t":"REST_FULL","l":5.379,"s":18933},{"t":"GQL_FULL","l":9.651,"s":18951},{"t":"REST_FULL","l":4.659,"s":18933},{"t":"GQL_SMALL","l":7.719,"s":571},{"t":"GQL_SMALL","l":7.931,"s":571},{"t":"GQL_SMALL","l":6.659,"s":571},{"t":"REST_FULL","l":4.496,"s":18933},{"t":"GQL_SMALL","l":7.008,"s":571},{"t":"REST_FULL","l":5.28,"s":18933},{"t":"REST_FULL","l":5.021,"s":18933},{"t":"GQL_SMALL","l":8.17,"s":571},{"t":"GQL_FULL","l":9.451,"s":18951},{"t":"GQL_SMALL","l":6.228,"s":571},{"t":"GQL_SMALL","l":5.921,"s":571},{"t":"GQL_FULL","l":8.705,"s":18951},{"t":"GQL_SMALL","l":6.413,"s":571},{"t":"REST_FULL","l":4.545,"s":18933},{"t":"GQL_SMALL","l":7.102,"s":571},{"t":"REST_FULL","l":5.522,"s":18933},{"t":"GQL_SMALL","l":6.356,"s":571},{"t":"GQL_FULL","l":6.203,"s":18951},{"t":"GQL_FULL","l":6.535,"s":18951},{"t":"REST_FULL","l":4.824,"s":18933},{"t":"GQL_FULL","l":8.93,"s":18951},{"t":"REST_FULL","l":4.228,"s":18933},{"t":"REST_FULL","l":4.21,"s":18933},{"t":"GQL_FULL","l":10.564,"s":18951},{"t":"REST_FULL","l":4.087,"s":18933},{"t":"GQL_SMALL","l":7.312,"s":571},{"t":"GQL_SMALL","l":5.914,"s":571},{"t":"REST_FULL","l":3.404,"s":18933},{"t":"GQL_FULL","l":7.299,"s":18951},{"t":"GQL_FULL","l":7.372,"s":18951},{"t":"REST_FULL","l":3.127,"s":18933},{"t":"GQL_SMALL","l":5.597,"s":571},{"t":"GQL_SMALL","l":5.949,"s":571},{"t":"GQL_SMALL","l":6.273,"s":571},{"t":"GQL_SMALL","l":5.424,"s":571},{"t":"GQL_SMALL","l":5.762,"s":571},{"t":"REST_FULL","l":3.334,"s":18933},{"t":"GQL_SMALL","l":5.273,"s":571},{"t":"GQL_FULL","l":7.949,"s":18951},{"t":"GQL_FULL","l":10.647,"s":18951},{"t":"REST_FULL","l":6.221,"s":18933},{"t":"GQL_FULL","l":14.071,"s":18951},{"t":"GQL_FULL","l":9.671,"s":18951},{"t":"REST_FULL","l":5.81,"s":18933},{"t":"GQL_FULL","l":14.814,"s":18951},{"t":"REST_FULL","l":6.469,"s":18933},{"t":"GQL_SMALL","l":13.512,"s":571},{"t":"GQL_FULL","l":13.52,"s":18951},{"t":"GQL_FULL","l":13.456,"s":18951},{"t":"REST_FULL","l":5.009,"s":18933},{"t":"GQL_FULL","l":9.209,"s":18951},{"t":"GQL_FULL","l":10.073,"s":18951},{"t":"GQL_FULL","l":9.808,"s":18951},{"t":"GQL_SMALL","l":7.781,"s":571},{"t":"GQL_FULL","l":10.843,"s":18951},{"t":"GQL_FULL","l":10.772,"s":18951},{"t":"GQL_SMALL","l":8.461,"s":571},{"t":"REST_FULL","l":5.327,"s":18933},{"t":"GQL_SMALL","l":7.568,"s":571},{"t":"REST_FULL","l":4.934,"s":18933},{"t":"REST_FULL","l":4.252,"s":18933},{"t":"REST_FULL","l":3.364,"s":18933},{"t":"REST_FULL","l":3.385,"s":18933},{"t":"REST_FULL","l":2.722,"s":18933},{"t":"GQL_FULL","l":6.817,"s":18951},{"t":"GQL_SMALL","l":4.105,"s":571},{"t":"REST_FULL","l":2.67,"s":18933},{"t":"GQL_SMALL","l":3.487,"s":571},{"t":"REST_FULL","l":2.256,"s":18933},{"t":"GQL_SMALL","l":3.862,"s":571},{"t":"REST_FULL","l":4.419,"s":18933},{"t":"GQL_FULL","l":10.933,"s":18951},{"t":"GQL_SMALL","l":6.195,"s":571},{"t":"REST_FULL","l":3.793,"s":18933},{"t":"REST_FULL","l":3.658,"s":18933},{"t":"GQL_FULL","l":8.082,"s":18951},{"t":"REST_FULL","l":4.494,"s":18933},{"t":"GQL_FULL","l":12.267,"s":18951},{"t":"GQL_SMALL","l":6.71,"s":571},{"t":"GQL_FULL","l":10.737,"s":18951},{"t":"REST_FULL","l":4.057,"s":18933},{"t":"REST_FULL","l":4.014,"s":18933},{"t":"REST_FULL","l":4.776,"s":18933},{"t":"GQL_SMALL","l":8.437,"s":571},{"t":"GQL_SMALL","l":9.51,"s":571},{"t":"GQL_SMALL","l":9.148,"s":571},{"t":"GQL_SMALL","l":7.306,"s":571},{"t":"GQL_SMALL","l":8.199,"s":571},{"t":"GQL_FULL","l":12.24,"s":18951},{"t":"GQL_SMALL","l":10.51,"s":571},{"t":"GQL_FULL","l":14.747,"s":18951},{"t":"GQL_SMALL","l":9.226,"s":571},{"t":"REST_FULL","l":5.187,"s":18933},{"t":"GQL_FULL","l":7.591,"s":18951},{"t":"REST_FULL","l":4.171,"s":18933},{"t":"GQL_FULL","l":12.918,"s":18951},{"t":"REST_FULL","l":3.861,"s":18933},{"t":"GQL_FULL","l":8.106,"s":18951},{"t":"GQL_FULL","l":11.934,"s":18951},{"t":"GQL_SMALL","l":6.343,"s":571},{"t":"GQL_FULL","l":8.445,"s":18951},{"t":"REST_FULL","l":4.243,"s":18933},{"t":"GQL_SMALL","l":7.316,"s":571},{"t":"REST_FULL","l":3.678,"s":18933},{"t":"GQL_SMALL","l":5.405,"s":571},{"t":"REST_FULL","l":3.416,"s":18933},{"t":"GQL_SMALL","l":5.586,"s":571},{"t":"GQL_SMALL","l":5.318,"s":571},{"t":"REST_FULL","l":3.478,"s":18933},{"t":"GQL_FULL","l":7.211,"s":18951},{"t":"GQL_SMALL","l":4.566,"s":571},{"t":"GQL_FULL","l":6.324,"s":18951},{"t":"GQL_SMALL","l":4.565,"s":571},{"t":"REST_FULL","l":2.975,"s":18933},{"t":"GQL_SMALL","l":5.268,"s":571},{"t":"GQL_FULL","l":8.15,"s":18951},{"t":"REST_FULL","l":4.443,"s":18933},{"t":"GQL_FULL","l":9.389,"s":18951},{"t":"GQL_SMALL","l":6.739,"s":571},{"t":"REST_FULL","l":5.428,"s":18933},{"t":"GQL_SMALL","l":7.377,"s":571},{"t":"GQL_FULL","l":8.071,"s":18951},{"t":"REST_FULL","l":4.73,"s":18933},{"t":"REST_FULL","l":5.052,"s":18933},{"t":"GQL_FULL","l":7.919,"s":18951},{"t":"REST_FULL","l":3.492,"s":18933},{"t":"REST_FULL","l":3.295,"s":18933},{"t":"GQL_FULL","l":7.358,"s":18951},{"t":"REST_FULL","l":3.799,"s":18933},{"t":"GQL_FULL","l":7.863,"s":18951},{"t":"REST_FULL","l":4.545,"s":18933},{"t":"GQL_SMALL","l":6.12,"s":571},{"t":"GQL_FULL","l":9.02,"s":18951},{"t":"GQL_SMALL","l":5.941,"s":571},{"t":"GQL_FULL","l":7.69,"s":18951},{"t":"GQL_SMALL","l":7.813,"s":571},{"t":"GQL_FULL","l":7.672,"s":18951},{"t":"GQL_SMALL","l":5.119,"s":571},{"t":"REST_FULL","l":3.532,"s":18933},{"t":"REST_FULL","l":3.28,"s":18933},{"t":"GQL_FULL","l":7.632,"s":18951},{"t":"GQL_FULL","l":7.488,"s":18951},{"t":"GQL_SMALL","l":5.423,"s":571},{"t":"GQL_FULL","l":7.747,"s":18951},{"t":"GQL_SMALL","l":6.058,"s":571},{"t":"GQL_FULL","l":7.31,"s":18951},{"t":"GQL_FULL","l":7.304,"s":18951},{"t":"GQL_SMALL","l":5.7,"s":571},{"t":"GQL_FULL","l":7.916,"s":18951},{"t":"GQL_FULL","l":7.775,"s":18951},{"t":"GQL_SMALL","l":6.007,"s":571},{"t":"REST_FULL","l":3.97,"s":18933},{"t":"GQL_SMALL","l":5.841,"s":571},{"t":"GQL_FULL","l":7.548,"s":18951},{"t":"REST_FULL","l":6.723,"s":18933},{"t":"GQL_SMALL","l":9.265,"s":571}];
+
+const TREATMENTS = ['REST_FULL','GQL_FULL','GQL_SMALL'];
+const TC = {'REST_FULL':'#3b82f6','GQL_FULL':'#8b5cf6','GQL_SMALL':'#22c55e'};
+const TCA = {'REST_FULL':'rgba(59,130,246,0.18)','GQL_FULL':'rgba(139,92,246,0.18)','GQL_SMALL':'rgba(34,197,94,0.18)'};
+
+function stats(arr) {
+  const s = [...arr].sort((a,b)=>a-b), n=s.length;
+  const mean = s.reduce((a,v)=>a+v,0)/n;
+  const median = n%2===0 ? (s[n/2-1]+s[n/2])/2 : s[(n-1)/2];
+  const q1   = s[Math.floor(n*0.25)];
+  const q3   = s[Math.floor(n*0.75)];
+  const std  = Math.sqrt(s.reduce((a,v)=>a+(v-mean)**2,0)/(n-1));
+  return {n, mean, median, q1, q3, std, min:s[0], max:s[n-1]};
+}
+
+const byTreatment = {};
+TREATMENTS.forEach(t => {
+  const rows = RAW.filter(r=>r.t===t);
+  byTreatment[t] = {
+    lat: stats(rows.map(r=>r.l)),
+    size: stats(rows.map(r=>r.s)),
+    latVals: rows.map(r=>r.l),
+    sizeVals: rows.map(r=>r.s),
+  };
+});
+
+const fN = n => n.toLocaleString('pt-BR');
+const fF = (n,d=3) => n.toFixed(d).replace('.',',');
+
+Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
+Chart.defaults.font.size = 11;
+Chart.defaults.color = '#64748b';
+
+function barOpts(yLabel) {
+  return {
+    responsive:true, maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>` ${fF(c.parsed.y,2)}`}}},
+    scales:{
+      y:{beginAtZero:true,title:{display:true,text:yLabel,font:{size:10},color:'#94a3b8'},grid:{color:'#f1f5f9'}},
+      x:{grid:{display:false}}
+    }
+  };
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+
+  new Chart(document.getElementById('c-ov-lat'), {
+    type:'bar',
+    data:{
+      labels: TREATMENTS,
+      datasets:[{
+        label:'Média (ms)',
+        data: TREATMENTS.map(t => byTreatment[t].lat.mean),
+        backgroundColor: TREATMENTS.map(t=>TC[t]),
+        borderRadius:6,
+      }]
+    },
+    options: barOpts('Latência média (ms)')
+  });
+
+  new Chart(document.getElementById('c-ov-box'), {
+    type:'bar',
+    data:{
+      labels: TREATMENTS,
+      datasets:[
+        {
+          label:'Q1-Q3',
+          data: TREATMENTS.map(t => [byTreatment[t].lat.q1, byTreatment[t].lat.q3]),
+          backgroundColor: TREATMENTS.map(t=>TC[t]+'99'),
+          borderColor:     TREATMENTS.map(t=>TC[t]),
+          borderWidth:2, borderRadius:4,
+        },
+        {
+          label:'Mediana',
+          type:'scatter',
+          data: TREATMENTS.map((t,i) => ({x:i, y:byTreatment[t].lat.median})),
+          pointStyle:'line', pointRadius:12, pointBorderWidth:3,
+          borderColor: TREATMENTS.map(t=>TC[t]),
+          backgroundColor: TREATMENTS.map(t=>TC[t]),
+          showLine:false,
+        }
+      ]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{
+        legend:{display:true,position:'bottom',labels:{boxWidth:10,padding:10}},
+        tooltip:{callbacks:{label:c=>{
+          const t=TREATMENTS[c.dataIndex]||TREATMENTS[c.parsed.x];
+          if(!t) return '';
+          const s=byTreatment[t]?.lat;
+          return s ? [`Q1: ${fF(s.q1,2)}ms`, `Mediana: ${fF(s.median,2)}ms`, `Q3: ${fF(s.q3,2)}ms`] : [];
+        }}}
+      },
+      scales:{
+        y:{title:{display:true,text:'ms',font:{size:10},color:'#94a3b8'},grid:{color:'#f1f5f9'}},
+        x:{grid:{display:false}}
+      }
+    }
+  });
+
+  new Chart(document.getElementById('c-ov-size'), {
+    type:'bar',
+    data:{
+      labels: TREATMENTS,
+      datasets:[{
+        label:'Bytes',
+        data: TREATMENTS.map(t => byTreatment[t].size.median),
+        backgroundColor: TREATMENTS.map(t=>TC[t]),
+        borderRadius:6,
+      }]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>` ${fN(c.parsed.y)} bytes`}}},
+      scales:{
+        y:{beginAtZero:true,title:{display:true,text:'Bytes',font:{size:10},color:'#94a3b8'},grid:{color:'#f1f5f9'}},
+        x:{grid:{display:false}}
+      }
+    }
+  });
+
+  function latRow(t) {
+    const s=byTreatment[t].lat;
+    return `<tr><td><span class="badge badge-${t==='REST_FULL'?'rest':t==='GQL_FULL'?'gqf':'gqs'}">${t}</span></td>
+      <td>${s.n}</td><td>${fF(s.mean,3)}</td><td>${fF(s.median,3)}</td>
+      <td>${fF(s.std,3)}</td><td>${fF(s.min,3)}</td><td>${fF(s.max,3)}</td></tr>`;
+  }
+  function sizeRow(t) {
+    const s=byTreatment[t].size;
+    return `<tr><td><span class="badge badge-${t==='REST_FULL'?'rest':t==='GQL_FULL'?'gqf':'gqs'}">${t}</span></td>
+      <td>${s.n}</td><td>${fN(Math.round(s.mean))}</td><td>${fN(s.median)}</td>
+      <td>${fF(s.std,1)}</td><td>${fN(s.min)}</td><td>${fN(s.max)}</td></tr>`;
+  }
+  document.getElementById('tb-ov-lat').innerHTML  = TREATMENTS.map(latRow).join('');
+  document.getElementById('tb-ov-size').innerHTML = TREATMENTS.map(sizeRow).join('');
+  document.getElementById('tb-rq1-lat').innerHTML = TREATMENTS.map(latRow).join('');
+  document.getElementById('tb-rq2-size').innerHTML= TREATMENTS.map(sizeRow).join('');
+
+  new Chart(document.getElementById('c-rq1-mean'), {
+    type:'bar',
+    data:{
+      labels: TREATMENTS,
+      datasets:[
+        {
+          label:'Média',
+          data: TREATMENTS.map(t=>byTreatment[t].lat.mean),
+          backgroundColor: TREATMENTS.map(t=>TC[t]),
+          borderRadius:6,
+        },
+        {
+          label:'Mediana',
+          data: TREATMENTS.map(t=>byTreatment[t].lat.median),
+          backgroundColor: TREATMENTS.map(t=>TCA[t]),
+          borderColor:     TREATMENTS.map(t=>TC[t]),
+          borderWidth:2,
+          borderRadius:6,
+        }
+      ]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{
+        legend:{display:true,position:'bottom',labels:{boxWidth:10,padding:10}},
+        tooltip:{callbacks:{label:c=>` ${fF(c.parsed.y,3)}ms`}}
+      },
+      scales:{
+        y:{beginAtZero:true,title:{display:true,text:'ms',font:{size:10},color:'#94a3b8'},grid:{color:'#f1f5f9'}},
+        x:{grid:{display:false}}
+      }
+    }
+  });
+
+  const scatterData = TREATMENTS.map((t,ti) => ({
+    label:t,
+    data: byTreatment[t].latVals.map(v => ({x: ti + (Math.random()-0.5)*0.4, y:v})),
+    backgroundColor: TC[t]+'66',
+    pointRadius:3,
+  }));
+  new Chart(document.getElementById('c-rq1-scatter'), {
+    type:'scatter',
+    data:{datasets: scatterData},
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{
+        legend:{display:true,position:'bottom',labels:{boxWidth:10,padding:10}},
+        tooltip:{callbacks:{label:c=>` ${fF(c.parsed.y,2)}ms`}}
+      },
+      scales:{
+        x:{min:-0.5, max:2.5, ticks:{stepSize:1, callback:(_,i)=>TREATMENTS[i]||''}, grid:{display:false}},
+        y:{title:{display:true,text:'Latência (ms)',font:{size:10},color:'#94a3b8'},grid:{color:'#f1f5f9'}}
+      }
+    }
+  });
+
+  new Chart(document.getElementById('c-rq2-size'), {
+    type:'bar',
+    data:{
+      labels: TREATMENTS,
+      datasets:[{
+        label:'Mediana (bytes)',
+        data: TREATMENTS.map(t=>byTreatment[t].size.median),
+        backgroundColor: TREATMENTS.map(t=>TC[t]),
+        borderRadius:6,
+      }]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>` ${fN(c.parsed.y)} bytes`}}},
+      scales:{
+        y:{beginAtZero:true,title:{display:true,text:'Bytes',font:{size:10},color:'#94a3b8'},grid:{color:'#f1f5f9'}},
+        x:{grid:{display:false}}
+      }
+    }
+  });
+
+  new Chart(document.getElementById('c-rq2-donut'), {
+    type:'doughnut',
+    data:{
+      labels:['GQL_SMALL (571B)','REST_FULL (18.933B)'],
+      datasets:[{
+        data:[571, 18362],
+        backgroundColor:['#22c55e','#3b82f6'],
+        borderWidth:2, borderColor:'white'
+      }]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false, cutout:'56%',
+      plugins:{
+        legend:{position:'bottom',labels:{boxWidth:10,padding:10,font:{size:10}}},
+        tooltip:{callbacks:{label:c=>{
+          const pct=(c.parsed/18933*100).toFixed(1);
+          return ` ${c.label}: ${pct}% do payload REST`;
+        }}}
+      }
+    }
+  });
+
+});
+
+function showTab(id) {
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.dataset.tab===id));
+  document.querySelectorAll('.page').forEach(p=>p.classList.toggle('active', p.id===id));
+}
+</script>
+</body>
+</html>
